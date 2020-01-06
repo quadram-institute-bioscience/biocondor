@@ -1,0 +1,468 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351_0",
+        "r36_1",
+        "r36_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-01-01 16:30:45.280000+00:00",
+    "description": "ImpulseDE2 is a differential expression algorithm for longitudinal count data sets which arise in sequencing experiments such as RNA-seq, ChIP-seq, ATAC-seq and DNaseI-seq. ImpulseDE2 is based on a negative binomial noise model with dispersion trend smoothing by DESeq2 and uses the impulse model to constrain the mean expression trajectory of each gene. The impulse model was empirically found to fit global expression changes in cells after environmental and developmental stimuli and is therefore appropriate in most cell biological scenarios. The constraint on the mean expression trajectory prevents overfitting to small expression fluctuations. Secondly, ImpulseDE2 has higher statistical testing power than generalized linear model-based differential expression algorithms which fit time as a categorial variable if more than six time points are sampled because of the fixed number of parameters.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-biocparallel >=1.16.0,<1.17.0",
+                    "bioconductor-complexheatmap >=1.20.0,<1.21.0",
+                    "bioconductor-deseq2 >=1.22.0,<1.23.0",
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "bioconductor-summarizedexperiment >=1.12.0,<1.13.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-circlize",
+                    "r-cowplot",
+                    "r-ggplot2",
+                    "r-knitr",
+                    "r-matrix"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1546360000242
+            },
+            "basename": "noarch/bioconductor-impulsede2-1.6.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-complexheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-deseq2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-circlize",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-knitr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-impulsede2/1.6.0/noarch/bioconductor-impulsede2-1.6.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-impulsede2/1.6.0/noarch/bioconductor-impulsede2-1.6.0-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "944e3a902be300247d5c1b1449de545a",
+            "ndownloads": 73,
+            "owner": "bioconda",
+            "size": 662013,
+            "type": "conda",
+            "upload_time": "2019-01-01 16:30:46.101000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-biocparallel >=1.18.0,<1.19.0",
+                    "bioconductor-complexheatmap >=2.0.0,<2.1.0",
+                    "bioconductor-deseq2 >=1.24.0,<1.25.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "bioconductor-summarizedexperiment >=1.14.0,<1.15.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-circlize",
+                    "r-cowplot",
+                    "r-ggplot2",
+                    "r-knitr",
+                    "r-matrix"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1565266340417
+            },
+            "basename": "noarch/bioconductor-impulsede2-1.8.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-complexheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-deseq2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-circlize",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-knitr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-impulsede2/1.8.0/noarch/bioconductor-impulsede2-1.8.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-impulsede2/1.8.0/noarch/bioconductor-impulsede2-1.8.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2b674ae515b9ec3f26fa3e72c7ddbb6e",
+            "ndownloads": 28,
+            "owner": "bioconda",
+            "size": 665452,
+            "type": "conda",
+            "upload_time": "2019-08-08 12:17:45.536000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+                    "bioconductor-complexheatmap >=2.2.0,<2.3.0",
+                    "bioconductor-deseq2 >=1.26.0,<1.27.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-circlize",
+                    "r-cowplot",
+                    "r-ggplot2",
+                    "r-knitr",
+                    "r-matrix"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572826297473
+            },
+            "basename": "noarch/bioconductor-impulsede2-1.10.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-complexheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-deseq2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-circlize",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-knitr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-impulsede2/1.10.0/noarch/bioconductor-impulsede2-1.10.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-impulsede2/1.10.0/noarch/bioconductor-impulsede2-1.10.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f64f5a0a96cd2329e47c980264912b19",
+            "ndownloads": 19,
+            "owner": "bioconda",
+            "size": 668413,
+            "type": "conda",
+            "upload_time": "2019-11-04 00:17:05.880000+00:00",
+            "version": "1.10.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-impulsede2",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/ImpulseDE2.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-impulsede2",
+    "id": "5c2b95b5d9c2cf13554168fc",
+    "latest_version": "1.10.0",
+    "license": "Artistic-2.0",
+    "license_url": null,
+    "modified_at": "2019-11-04 00:17:06.218000+00:00",
+    "name": "bioconductor-impulsede2",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-impulsede2/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-impulsede2/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-impulsede2/1.10.0",
+            "version": "1.10.0"
+        }
+    ],
+    "revision": 6,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Differential expression analysis of longitudinal count data sets",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-impulsede2",
+    "versions": [
+        "1.6.0",
+        "1.8.0",
+        "1.10.0"
+    ],
+    "watchers": 1
+}

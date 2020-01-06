@@ -1,0 +1,809 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r36h516909a_0",
+        "r36h516909a_1",
+        "r351h14c3975_0",
+        "r351h1de35cc_0",
+        "r3.4.1_0",
+        "r36h01d97ff_0",
+        "r36h01d97ff_1",
+        "r351h470a237_0",
+        "r341h470a237_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2018-02-18 16:31:33.847000+00:00",
+    "description": "This package is an extension to CellNOptR.  It contains additional functionality needed to simulate and train a prior knowledge network to experimental data using constrained fuzzy logic (cFL, rather than Boolean logic as is the case in CellNOptR).  Additionally, this package will contain functions to use for the compilation of multiple optimization results (either Boolean or cFL).",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-cellnoptr >=1.4.0",
+                    "r-base 3.4.1*",
+                    "r-nloptr >=0.8.5"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-cnorfuzzy-1.20.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-cellnoptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.8.5"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cnorfuzzy/1.20.0/linux-64/bioconductor-cnorfuzzy-1.20.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cnorfuzzy/1.20.0/linux-64/bioconductor-cnorfuzzy-1.20.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "ef4ff10d941e5807c5b6fcfc6ca12961",
+            "ndownloads": 324,
+            "owner": "bioconda",
+            "size": 639365,
+            "type": "conda",
+            "upload_time": "2018-02-18 16:31:34.381000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-cellnoptr >=1.4.0",
+                    "libcxx",
+                    "r-base 3.4.1*",
+                    "r-nloptr >=0.8.5"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-cnorfuzzy-1.20.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-cellnoptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.8.5"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cnorfuzzy/1.20.0/osx-64/bioconductor-cnorfuzzy-1.20.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cnorfuzzy/1.20.0/osx-64/bioconductor-cnorfuzzy-1.20.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "cc96e5f3ea79140d88fc6087afc9810b",
+            "ndownloads": 782,
+            "owner": "bioconda",
+            "size": 637402,
+            "type": "conda",
+            "upload_time": "2018-02-18 16:34:07.528000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-cellnoptr >=1.26.0,<1.28.0",
+                    "libgcc-ng >=4.9",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-nloptr >=0.8.5"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539395068355
+            },
+            "basename": "linux-64/bioconductor-cnorfuzzy-1.22.0-r351h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-cellnoptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.8.5"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cnorfuzzy/1.22.0/linux-64/bioconductor-cnorfuzzy-1.22.0-r351h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cnorfuzzy/1.22.0/linux-64/bioconductor-cnorfuzzy-1.22.0-r351h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "33b59380b7c9a11afa5a9a1658bc6bcd",
+            "ndownloads": 982,
+            "owner": "bioconda",
+            "size": 728268,
+            "type": "conda",
+            "upload_time": "2018-10-13 01:49:53.142000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-cellnoptr >=1.26.0,<1.28.0",
+                    "libgcc-ng >=4.9",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "r-nloptr >=0.8.5"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539394977283
+            },
+            "basename": "linux-64/bioconductor-cnorfuzzy-1.22.0-r341h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-cellnoptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.8.5"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cnorfuzzy/1.22.0/linux-64/bioconductor-cnorfuzzy-1.22.0-r341h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cnorfuzzy/1.22.0/linux-64/bioconductor-cnorfuzzy-1.22.0-r341h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "cf72e93714c72112b49b3596ac242604",
+            "ndownloads": 134,
+            "owner": "bioconda",
+            "size": 639948,
+            "type": "conda",
+            "upload_time": "2018-10-13 01:49:56.714000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h14c3975_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-cellnoptr >=1.28.0,<1.29.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-nloptr >=0.8.5"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1545077063989
+            },
+            "basename": "linux-64/bioconductor-cnorfuzzy-1.24.0-r351h14c3975_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-cellnoptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.8.5"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cnorfuzzy/1.24.0/linux-64/bioconductor-cnorfuzzy-1.24.0-r351h14c3975_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cnorfuzzy/1.24.0/linux-64/bioconductor-cnorfuzzy-1.24.0-r351h14c3975_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "1155f9abd89a795de33952c8902966b0",
+            "ndownloads": 88,
+            "owner": "bioconda",
+            "size": 730455,
+            "type": "conda",
+            "upload_time": "2018-12-17 20:08:07.743000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h1de35cc_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-cellnoptr >=1.28.0,<1.29.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-nloptr >=0.8.5"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1546288311278
+            },
+            "basename": "osx-64/bioconductor-cnorfuzzy-1.24.0-r351h1de35cc_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-cellnoptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.8.5"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cnorfuzzy/1.24.0/osx-64/bioconductor-cnorfuzzy-1.24.0-r351h1de35cc_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cnorfuzzy/1.24.0/osx-64/bioconductor-cnorfuzzy-1.24.0-r351h1de35cc_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "4027e4e1c7ea035044dc3cfbacab70af",
+            "ndownloads": 697,
+            "owner": "bioconda",
+            "size": 730791,
+            "type": "conda",
+            "upload_time": "2018-12-31 20:32:52.471000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-cellnoptr >=1.30.0,<1.31.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-nloptr >=0.8.5"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1563842163988
+            },
+            "basename": "linux-64/bioconductor-cnorfuzzy-1.26.0-r36h516909a_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-cellnoptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.8.5"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cnorfuzzy/1.26.0/linux-64/bioconductor-cnorfuzzy-1.26.0-r36h516909a_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-cnorfuzzy/1.26.0/linux-64/bioconductor-cnorfuzzy-1.26.0-r36h516909a_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9800fc2aad07963defd18915a68f91b4",
+            "ndownloads": 54,
+            "owner": "bioconda",
+            "size": 732116,
+            "type": "conda",
+            "upload_time": "2019-07-23 00:41:17.080000+00:00",
+            "version": "1.26.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-cellnoptr >=1.30.0,<1.31.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-nloptr >=0.8.5"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1564682198274
+            },
+            "basename": "osx-64/bioconductor-cnorfuzzy-1.26.0-r36h01d97ff_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-cellnoptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.8.5"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cnorfuzzy/1.26.0/osx-64/bioconductor-cnorfuzzy-1.26.0-r36h01d97ff_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-cnorfuzzy/1.26.0/osx-64/bioconductor-cnorfuzzy-1.26.0-r36h01d97ff_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b610df20d4c640c760b0f77d829d840e",
+            "ndownloads": 331,
+            "owner": "bioconda",
+            "size": 732563,
+            "type": "conda",
+            "upload_time": "2019-08-01 17:57:40.610000+00:00",
+            "version": "1.26.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-cellnoptr >=1.32.0,<1.33.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-nloptr >=0.8.5"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572703626313
+            },
+            "basename": "osx-64/bioconductor-cnorfuzzy-1.28.0-r36h01d97ff_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-cellnoptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.8.5"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cnorfuzzy/1.28.0/osx-64/bioconductor-cnorfuzzy-1.28.0-r36h01d97ff_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cnorfuzzy/1.28.0/osx-64/bioconductor-cnorfuzzy-1.28.0-r36h01d97ff_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "cc684f39327fd81d022497005f8fa10f",
+            "ndownloads": 155,
+            "owner": "bioconda",
+            "size": 740313,
+            "type": "conda",
+            "upload_time": "2019-11-02 14:08:11.092000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-cellnoptr >=1.32.0,<1.33.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-nloptr >=0.8.5"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572706054605
+            },
+            "basename": "linux-64/bioconductor-cnorfuzzy-1.28.0-r36h516909a_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-cellnoptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.8.5"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cnorfuzzy/1.28.0/linux-64/bioconductor-cnorfuzzy-1.28.0-r36h516909a_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cnorfuzzy/1.28.0/linux-64/bioconductor-cnorfuzzy-1.28.0-r36h516909a_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b0a5b3f473bde7ee720021bd30c36a18",
+            "ndownloads": 28,
+            "owner": "bioconda",
+            "size": 740489,
+            "type": "conda",
+            "upload_time": "2019-11-02 14:52:55.004000+00:00",
+            "version": "1.28.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-cnorfuzzy",
+    "home": "http://bioconductor.org/packages/3.6/bioc/html/CNORfuzzy.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-cnorfuzzy",
+    "id": "5a89aa6582e5d2123f1a311b",
+    "latest_version": "1.28.0",
+    "license": "GPL-2",
+    "license_url": null,
+    "modified_at": "2019-11-02 14:52:55.323000+00:00",
+    "name": "bioconductor-cnorfuzzy",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-cnorfuzzy/1.20.0",
+            "version": "1.20.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-cnorfuzzy/1.22.0",
+            "version": "1.22.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-cnorfuzzy/1.24.0",
+            "version": "1.24.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-cnorfuzzy/1.26.0",
+            "version": "1.26.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-cnorfuzzy/1.28.0",
+            "version": "1.28.0"
+        }
+    ],
+    "revision": 10,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Addon to CellNOptR: Fuzzy Logic",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-cnorfuzzy",
+    "versions": [
+        "1.20.0",
+        "1.22.0",
+        "1.24.0",
+        "1.26.0",
+        "1.28.0"
+    ],
+    "watchers": 1
+}

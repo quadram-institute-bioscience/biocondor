@@ -1,0 +1,2527 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r3.3.1_0",
+        "r36_1",
+        "r36_0",
+        "r341_0",
+        "r3.3.2_0",
+        "r351_0",
+        "0",
+        "r3.4.1_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "noarch",
+        "osx-64"
+    ],
+    "created_at": "2016-05-16 17:59:34.309000+00:00",
+    "description": "Quantitative DNA sequencing for chromosomal aberrations. The genome is divided into non-overlapping fixed-sized bins, number of sequence reads in each counted, adjusted with a simultaneous two-dimensional loess correction for sequence mappability and GC content, and filtered to remove spurious regions in the genome. Downstream steps of segmentation and calling are also implemented via packages DNAcopy and CGHcall, respectively.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.18.0",
+                    "bioconductor-cghbase >=1.18.0",
+                    "bioconductor-cghcall >=2.18.0",
+                    "bioconductor-dnacopy >=1.32.0",
+                    "bioconductor-genomicranges >=1.20",
+                    "bioconductor-iranges >=2.2",
+                    "bioconductor-rsamtools >=1.20",
+                    "r >=3.1.0",
+                    "r-matrixstats >=0.15.0",
+                    "r-r.utils >=2.2.0"
+                ],
+                "license": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-qdnaseq-1.8.0-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghbase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghcall",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-r.utils",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-qdnaseq/1.8.0/linux-64/bioconductor-qdnaseq-1.8.0-0.tar.bz2",
+            "full_name": "bioconda/bioconductor-qdnaseq/1.8.0/linux-64/bioconductor-qdnaseq-1.8.0-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "c2a6db19a2b36543524969c34011bd77",
+            "ndownloads": 867,
+            "owner": "bioconda",
+            "size": 1274523,
+            "type": "conda",
+            "upload_time": "2016-05-16 17:59:34.687000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.18.0",
+                    "bioconductor-cghbase >=1.18.0",
+                    "bioconductor-cghcall >=2.18.0",
+                    "bioconductor-dnacopy >=1.32.0",
+                    "bioconductor-genomicranges >=1.20",
+                    "bioconductor-iranges >=2.2",
+                    "bioconductor-rsamtools >=1.20",
+                    "r >=3.1.0",
+                    "r-matrixstats >=0.15.0",
+                    "r-r.utils >=2.2.0"
+                ],
+                "license": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-qdnaseq-1.8.0-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghbase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghcall",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-r.utils",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-qdnaseq/1.8.0/osx-64/bioconductor-qdnaseq-1.8.0-0.tar.bz2",
+            "full_name": "bioconda/bioconductor-qdnaseq/1.8.0/osx-64/bioconductor-qdnaseq-1.8.0-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "ed56c5f0c076588d748c6498dd945f38",
+            "ndownloads": 875,
+            "owner": "bioconda",
+            "size": 1274533,
+            "type": "conda",
+            "upload_time": "2016-05-16 18:06:19.963000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.18.0",
+                    "bioconductor-biocparallel >=1.6.6",
+                    "bioconductor-cghbase >=1.18.0",
+                    "bioconductor-cghcall >=2.18.0",
+                    "bioconductor-dnacopy >=1.32.0",
+                    "bioconductor-genomicranges >=1.20",
+                    "bioconductor-iranges >=2.2",
+                    "bioconductor-rsamtools >=1.20",
+                    "r-base 3.4.1*",
+                    "r-matrixstats >=0.50.2",
+                    "r-r.utils >=2.3.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-qdnaseq-1.12.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghbase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghcall",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.50.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-r.utils",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.3.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-qdnaseq/1.12.0/osx-64/bioconductor-qdnaseq-1.12.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-qdnaseq/1.12.0/osx-64/bioconductor-qdnaseq-1.12.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "4676353ebbb8218ce6c5d01e6feddaa2",
+            "ndownloads": 769,
+            "owner": "bioconda",
+            "size": 1316452,
+            "type": "conda",
+            "upload_time": "2017-10-21 13:44:29.562000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.18.0",
+                    "bioconductor-cghbase >=1.18.0",
+                    "bioconductor-cghcall >=2.18.0",
+                    "bioconductor-dnacopy >=1.32.0",
+                    "bioconductor-genomicranges >=1.20",
+                    "bioconductor-iranges >=2.2",
+                    "bioconductor-rsamtools >=1.20",
+                    "r 3.3.1*",
+                    "r-matrixstats >=0.50.2",
+                    "r-r.utils >=2.3.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-qdnaseq-1.10.0-r3.3.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghbase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghcall",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.50.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-r.utils",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.3.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-qdnaseq/1.10.0/linux-64/bioconductor-qdnaseq-1.10.0-r3.3.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-qdnaseq/1.10.0/linux-64/bioconductor-qdnaseq-1.10.0-r3.3.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "ca9f16f058accb7d9660cecd43e63008",
+            "ndownloads": 454,
+            "owner": "bioconda",
+            "size": 856792,
+            "type": "conda",
+            "upload_time": "2016-12-06 21:33:07.555000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.18.0",
+                    "bioconductor-cghbase >=1.18.0",
+                    "bioconductor-cghcall >=2.18.0",
+                    "bioconductor-dnacopy >=1.32.0",
+                    "bioconductor-genomicranges >=1.20",
+                    "bioconductor-iranges >=2.2",
+                    "bioconductor-rsamtools >=1.20",
+                    "r 3.3.1*",
+                    "r-matrixstats >=0.50.2",
+                    "r-r.utils >=2.3.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-qdnaseq-1.10.0-r3.3.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghbase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghcall",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.50.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-r.utils",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.3.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-qdnaseq/1.10.0/osx-64/bioconductor-qdnaseq-1.10.0-r3.3.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-qdnaseq/1.10.0/osx-64/bioconductor-qdnaseq-1.10.0-r3.3.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "c0f26acc673524802bffc073e17d6593",
+            "ndownloads": 49,
+            "owner": "bioconda",
+            "size": 856217,
+            "type": "conda",
+            "upload_time": "2016-12-06 21:38:58.141000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.2_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.18.0",
+                    "bioconductor-cghbase >=1.18.0",
+                    "bioconductor-cghcall >=2.18.0",
+                    "bioconductor-dnacopy >=1.32.0",
+                    "bioconductor-genomicranges >=1.20",
+                    "bioconductor-iranges >=2.2",
+                    "bioconductor-rsamtools >=1.20",
+                    "r-base 3.3.2*",
+                    "r-matrixstats >=0.50.2",
+                    "r-r.utils >=2.3.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-qdnaseq-1.10.0-r3.3.2_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghbase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghcall",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.50.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-r.utils",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.3.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-qdnaseq/1.10.0/osx-64/bioconductor-qdnaseq-1.10.0-r3.3.2_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-qdnaseq/1.10.0/osx-64/bioconductor-qdnaseq-1.10.0-r3.3.2_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "6246b9f56c5d8403d793a0ba9c9ac079",
+            "ndownloads": 32,
+            "owner": "bioconda",
+            "size": 862660,
+            "type": "conda",
+            "upload_time": "2017-06-06 12:37:03.575000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.2_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.18.0",
+                    "bioconductor-cghbase >=1.18.0",
+                    "bioconductor-cghcall >=2.18.0",
+                    "bioconductor-dnacopy >=1.32.0",
+                    "bioconductor-genomicranges >=1.20",
+                    "bioconductor-iranges >=2.2",
+                    "bioconductor-rsamtools >=1.20",
+                    "r-base 3.3.2*",
+                    "r-matrixstats >=0.50.2",
+                    "r-r.utils >=2.3.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-qdnaseq-1.10.0-r3.3.2_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghbase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghcall",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.50.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-r.utils",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.3.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-qdnaseq/1.10.0/linux-64/bioconductor-qdnaseq-1.10.0-r3.3.2_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-qdnaseq/1.10.0/linux-64/bioconductor-qdnaseq-1.10.0-r3.3.2_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "b68e0dc482e5e30d0334b902178f593b",
+            "ndownloads": 416,
+            "owner": "bioconda",
+            "size": 865512,
+            "type": "conda",
+            "upload_time": "2017-06-14 00:01:56.064000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.18.0",
+                    "bioconductor-cghbase >=1.18.0",
+                    "bioconductor-cghcall >=2.18.0",
+                    "bioconductor-dnacopy >=1.32.0",
+                    "bioconductor-genomicranges >=1.20",
+                    "bioconductor-iranges >=2.2",
+                    "bioconductor-rsamtools >=1.20",
+                    "r-base 3.4.1*",
+                    "r-matrixstats >=0.50.2",
+                    "r-r.utils >=2.3.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-qdnaseq-1.10.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghbase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghcall",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.50.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-r.utils",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.3.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-qdnaseq/1.10.0/linux-64/bioconductor-qdnaseq-1.10.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-qdnaseq/1.10.0/linux-64/bioconductor-qdnaseq-1.10.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "5c39f79da966b121ec770a6c4a63f9d6",
+            "ndownloads": 544,
+            "owner": "bioconda",
+            "size": 891557,
+            "type": "conda",
+            "upload_time": "2017-09-20 20:57:58.748000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.18.0",
+                    "bioconductor-cghbase >=1.18.0",
+                    "bioconductor-cghcall >=2.18.0",
+                    "bioconductor-dnacopy >=1.32.0",
+                    "bioconductor-genomicranges >=1.20",
+                    "bioconductor-iranges >=2.2",
+                    "bioconductor-rsamtools >=1.20",
+                    "r-base 3.4.1*",
+                    "r-matrixstats >=0.50.2",
+                    "r-r.utils >=2.3.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-qdnaseq-1.10.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghbase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghcall",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.50.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-r.utils",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.3.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-qdnaseq/1.10.0/osx-64/bioconductor-qdnaseq-1.10.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-qdnaseq/1.10.0/osx-64/bioconductor-qdnaseq-1.10.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "9528c027bf1121b59511c2526a795e67",
+            "ndownloads": 762,
+            "owner": "bioconda",
+            "size": 891130,
+            "type": "conda",
+            "upload_time": "2017-09-22 13:36:04.456000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.18.0",
+                    "bioconductor-biocparallel >=1.6.6",
+                    "bioconductor-cghbase >=1.18.0",
+                    "bioconductor-cghcall >=2.18.0",
+                    "bioconductor-dnacopy >=1.32.0",
+                    "bioconductor-genomicranges >=1.20",
+                    "bioconductor-iranges >=2.2",
+                    "bioconductor-rsamtools >=1.20",
+                    "r-base 3.4.1*",
+                    "r-matrixstats >=0.50.2",
+                    "r-r.utils >=2.3.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-qdnaseq-1.12.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghbase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghcall",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.50.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-r.utils",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.3.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-qdnaseq/1.12.0/linux-64/bioconductor-qdnaseq-1.12.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-qdnaseq/1.12.0/linux-64/bioconductor-qdnaseq-1.12.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "ee2e9a4c2a7c38bd8b23e13c0169827b",
+            "ndownloads": 540,
+            "owner": "bioconda",
+            "size": 1316657,
+            "type": "conda",
+            "upload_time": "2017-10-19 04:04:14.706000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.18.0",
+                    "bioconductor-biocparallel >=1.6.6",
+                    "bioconductor-cghbase >=1.18.0",
+                    "bioconductor-cghcall >=2.18.0",
+                    "bioconductor-dnacopy >=1.32.0",
+                    "bioconductor-genomicranges >=1.20",
+                    "bioconductor-iranges >=2.2",
+                    "bioconductor-rsamtools >=1.20",
+                    "r-base 3.4.1*",
+                    "r-matrixstats >=0.50.2",
+                    "r-r.utils >=2.3.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-qdnaseq-1.14.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghbase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghcall",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.50.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-r.utils",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.3.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-qdnaseq/1.14.0/osx-64/bioconductor-qdnaseq-1.14.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-qdnaseq/1.14.0/osx-64/bioconductor-qdnaseq-1.14.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "b886ec83260b2ddb218c88a5a103a0f0",
+            "ndownloads": 789,
+            "owner": "bioconda",
+            "size": 1365712,
+            "type": "conda",
+            "upload_time": "2017-11-08 03:00:48.149000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.18.0",
+                    "bioconductor-biocparallel >=1.6.6",
+                    "bioconductor-cghbase >=1.18.0",
+                    "bioconductor-cghcall >=2.18.0",
+                    "bioconductor-dnacopy >=1.32.0",
+                    "bioconductor-genomicranges >=1.20",
+                    "bioconductor-iranges >=2.2",
+                    "bioconductor-rsamtools >=1.20",
+                    "r-base 3.4.1*",
+                    "r-matrixstats >=0.50.2",
+                    "r-r.utils >=2.3.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-qdnaseq-1.14.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghbase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghcall",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.50.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-r.utils",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.3.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-qdnaseq/1.14.0/linux-64/bioconductor-qdnaseq-1.14.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-qdnaseq/1.14.0/linux-64/bioconductor-qdnaseq-1.14.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "e1f4bd2779cc181978d416ee400e54bc",
+            "ndownloads": 596,
+            "owner": "bioconda",
+            "size": 1366031,
+            "type": "conda",
+            "upload_time": "2017-11-09 18:28:19.918000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-biocparallel >=1.14.2,<1.16.0",
+                    "bioconductor-cghbase >=1.40.0,<1.42.0",
+                    "bioconductor-cghcall >=2.42.0,<2.44.0",
+                    "bioconductor-dnacopy >=1.54.0,<1.56.0",
+                    "bioconductor-genomicranges >=1.32.7,<1.34.0",
+                    "bioconductor-iranges >=2.14.12,<2.16.0",
+                    "bioconductor-rsamtools >=1.32.3,<1.34.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-matrixstats >=0.50.2",
+                    "r-r.utils >=2.3.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539540530015
+            },
+            "basename": "linux-64/bioconductor-qdnaseq-1.16.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.2,<1.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghbase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghcall",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.44.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.56.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.7,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.12,<2.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.3,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.50.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-r.utils",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.3.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-qdnaseq/1.16.0/linux-64/bioconductor-qdnaseq-1.16.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-qdnaseq/1.16.0/linux-64/bioconductor-qdnaseq-1.16.0-r351_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "fa55675f059477b8c3c97b9cfa39263f",
+            "ndownloads": 665,
+            "owner": "bioconda",
+            "size": 1680162,
+            "type": "conda",
+            "upload_time": "2018-10-14 18:15:47.601000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-biocparallel >=1.14.2,<1.16.0",
+                    "bioconductor-cghbase >=1.40.0,<1.42.0",
+                    "bioconductor-cghcall >=2.42.0,<2.44.0",
+                    "bioconductor-dnacopy >=1.54.0,<1.56.0",
+                    "bioconductor-genomicranges >=1.32.7,<1.34.0",
+                    "bioconductor-iranges >=2.14.12,<2.16.0",
+                    "bioconductor-rsamtools >=1.32.3,<1.34.0",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "r-matrixstats >=0.50.2",
+                    "r-r.utils >=2.3.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539540647199
+            },
+            "basename": "linux-64/bioconductor-qdnaseq-1.16.0-r341_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.2,<1.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghbase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghcall",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.44.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.56.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.7,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.12,<2.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.3,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.50.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-r.utils",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.3.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-qdnaseq/1.16.0/linux-64/bioconductor-qdnaseq-1.16.0-r341_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-qdnaseq/1.16.0/linux-64/bioconductor-qdnaseq-1.16.0-r341_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "f5b3b7054d458715875d8f802bddff01",
+            "ndownloads": 492,
+            "owner": "bioconda",
+            "size": 1366280,
+            "type": "conda",
+            "upload_time": "2018-10-14 18:15:50.545000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-biocparallel >=1.16.0,<1.17.0",
+                    "bioconductor-cghbase >=1.42.0,<1.43.0",
+                    "bioconductor-cghcall >=2.44.0,<2.45.0",
+                    "bioconductor-dnacopy >=1.56.0,<1.57.0",
+                    "bioconductor-genomicranges >=1.34.0,<1.35.0",
+                    "bioconductor-iranges >=2.16.0,<2.17.0",
+                    "bioconductor-rsamtools >=1.34.0,<1.35.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-matrixstats >=0.50.2",
+                    "r-r.utils >=2.3.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1544899312431
+            },
+            "basename": "noarch/bioconductor-qdnaseq-1.18.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghbase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghcall",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.50.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-r.utils",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.3.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-qdnaseq/1.18.0/noarch/bioconductor-qdnaseq-1.18.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-qdnaseq/1.18.0/noarch/bioconductor-qdnaseq-1.18.0-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "58c5fa0e125f753db7dfbaad76cebad9",
+            "ndownloads": 211,
+            "owner": "bioconda",
+            "size": 1681269,
+            "type": "conda",
+            "upload_time": "2018-12-15 18:45:45.267000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-biocparallel >=1.18.0,<1.19.0",
+                    "bioconductor-cghbase >=1.44.0,<1.45.0",
+                    "bioconductor-cghcall >=2.46.0,<2.47.0",
+                    "bioconductor-dnacopy >=1.58.0,<1.59.0",
+                    "bioconductor-genomicranges >=1.36.0,<1.37.0",
+                    "bioconductor-iranges >=2.18.0,<2.19.0",
+                    "bioconductor-rsamtools >=2.0.0,<2.1.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-matrixstats >=0.50.2",
+                    "r-r.utils >=2.3.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1564515958155
+            },
+            "basename": "noarch/bioconductor-qdnaseq-1.20.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghbase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghcall",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.50.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-r.utils",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.3.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-qdnaseq/1.20.0/noarch/bioconductor-qdnaseq-1.20.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-qdnaseq/1.20.0/noarch/bioconductor-qdnaseq-1.20.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "32f27df1e822f7292c4157e19a300901",
+            "ndownloads": 63,
+            "owner": "bioconda",
+            "size": 1674208,
+            "type": "conda",
+            "upload_time": "2019-07-30 19:51:07.377000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-cghbase >=1.46.0,<1.47.0",
+                    "bioconductor-cghcall >=2.48.0,<2.49.0",
+                    "bioconductor-dnacopy >=1.60.0,<1.61.0",
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "bioconductor-iranges >=2.20.0,<2.21.0",
+                    "bioconductor-rsamtools >=2.2.0,<2.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-future >=1.14.0",
+                    "r-future.apply >=1.3.0",
+                    "r-matrixstats >=0.54.0",
+                    "r-r.utils >=2.9.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572784774437
+            },
+            "basename": "noarch/bioconductor-qdnaseq-1.22.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghbase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cghcall",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-future",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-future.apply",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.54.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-r.utils",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.9.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-qdnaseq/1.22.0/noarch/bioconductor-qdnaseq-1.22.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-qdnaseq/1.22.0/noarch/bioconductor-qdnaseq-1.22.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2478eabe6f66bc85cd85d1e9ae7f1d7a",
+            "ndownloads": 41,
+            "owner": "bioconda",
+            "size": 1681658,
+            "type": "conda",
+            "upload_time": "2019-11-03 12:44:54.040000+00:00",
+            "version": "1.22.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-qdnaseq",
+    "home": "None",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-qdnaseq",
+    "id": "573a0a867a8197243744a71a",
+    "latest_version": "1.22.0",
+    "license": "GPL",
+    "license_url": null,
+    "modified_at": "2019-11-03 12:44:54.328000+00:00",
+    "name": "bioconductor-qdnaseq",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [
+                "linux-64/bioconductor-qdnaseq-1.8.0-0.tar.bz2",
+                "osx-64/bioconductor-qdnaseq-1.8.0-0.tar.bz2"
+            ],
+            "full_name": "bioconda/bioconductor-qdnaseq/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-qdnaseq/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-qdnaseq/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-qdnaseq/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-qdnaseq/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-qdnaseq/1.18.0",
+            "version": "1.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-qdnaseq/1.20.0",
+            "version": "1.20.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-qdnaseq/1.22.0",
+            "version": "1.22.0"
+        }
+    ],
+    "revision": 16,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Quantitative DNA Sequencing for Chromosomal Aberrations",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-qdnaseq",
+    "versions": [
+        "1.8.0",
+        "1.10.0",
+        "1.12.0",
+        "1.14.0",
+        "1.16.0",
+        "1.18.0",
+        "1.20.0",
+        "1.22.0"
+    ],
+    "watchers": 1
+}

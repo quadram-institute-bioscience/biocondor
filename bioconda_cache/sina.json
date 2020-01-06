@@ -1,0 +1,1233 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "hf49611d_0",
+        "0",
+        "hc7f9b0f_0",
+        "h4ef8376_2",
+        "h4ef8376_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2017-03-01 15:27:39.717000+00:00",
+    "description": "SINA allows incorporating additional sequences into an existing\nmultiple sequence alignment (MSA) without modifying the original\nalignment. While adding sequences to an MSA with SINA is usually\nfaster than re-computing the entire MSA from an augmented set of\nunaligned sequences, the primary benefit lies in protecting\ninvestments made into the original MSA such as manual curation of the\nalignment, compute intensive phylogenetic tree reconstruction and\ntaxonomic annotation of the resulting phylogeny.\n\nAdditionally, SINA includes a homology search which uses the\npreviously computed alignment to determine the most similar\nsequences. Based on the search results, a LCA based classification of\nthe query sequence can be computed using taxonomic classifications\nassigned to the sequences comprising the reference MSA.\n\nSINA is used to compute the small and large subunit ribosomal RNA\nalignments provided by the SILVA_ project and is able to use the ARB_\nformat reference databases released by the project.\n",
+    "dev_url": null,
+    "doc_url": "https://sina.readthedocs.io",
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h4ef8376_0",
+                "build_number": 0,
+                "depends": [
+                    "arb-bio-tools",
+                    "boost >=1.67.0,<1.67.1.0a0",
+                    "libstdcxx-ng >=4.9",
+                    "tbb >=2019.2",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPLv3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1541919481195
+            },
+            "basename": "linux-64/sina-1.4.0-h4ef8376_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "arb-bio-tools",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.67.0,<1.67.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "tbb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2019.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sina/1.4.0/linux-64/sina-1.4.0-h4ef8376_0.tar.bz2",
+            "full_name": "bioconda/sina/1.4.0/linux-64/sina-1.4.0-h4ef8376_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "a0ee83687bd4baa324afac9b3456767a",
+            "ndownloads": 13218,
+            "owner": "bioconda",
+            "size": 4165160,
+            "type": "conda",
+            "upload_time": "2018-11-11 07:03:23.541000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h4ef8376_2",
+                "build_number": 2,
+                "depends": [
+                    "arb-bio-tools",
+                    "boost >=1.67.0,<1.67.1.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1537441900348
+            },
+            "basename": "osx-64/sina-1.3.5-h4ef8376_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "arb-bio-tools",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.67.0,<1.67.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sina/1.3.5/osx-64/sina-1.3.5-h4ef8376_2.tar.bz2",
+            "full_name": "bioconda/sina/1.3.5/osx-64/sina-1.3.5-h4ef8376_2.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "ff2a53cc537e7e73c0096eb940a6a8c8",
+            "ndownloads": 857,
+            "owner": "bioconda",
+            "size": 1906679,
+            "type": "conda",
+            "upload_time": "2018-09-20 11:12:53.604000+00:00",
+            "version": "1.3.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h4ef8376_2",
+                "build_number": 2,
+                "depends": [
+                    "arb-bio-tools",
+                    "boost >=1.67.0,<1.67.1.0a0",
+                    "libstdcxx-ng >=4.9",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1537441993668
+            },
+            "basename": "linux-64/sina-1.3.5-h4ef8376_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "arb-bio-tools",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.67.0,<1.67.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sina/1.3.5/linux-64/sina-1.3.5-h4ef8376_2.tar.bz2",
+            "full_name": "bioconda/sina/1.3.5/linux-64/sina-1.3.5-h4ef8376_2.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "a37dcbf0db7e0790e781b16dd9f27d1c",
+            "ndownloads": 1275,
+            "owner": "bioconda",
+            "size": 2342537,
+            "type": "conda",
+            "upload_time": "2018-09-20 11:18:32.619000+00:00",
+            "version": "1.3.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "0",
+                "build_number": 0,
+                "depends": [],
+                "has_prefix": true,
+                "license": "Personal  Use  and Evaluation License (PUEL) for SINA Stand\u2010Alone Software",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/sina-1.3.0-0.tar.bz2",
+            "dependencies": {
+                "depends": []
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sina/1.3.0/linux-64/sina-1.3.0-0.tar.bz2",
+            "full_name": "bioconda/sina/1.3.0/linux-64/sina-1.3.0-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "7ec9a59164b9834885b0da07920670fa",
+            "ndownloads": 1335,
+            "owner": "bioconda",
+            "size": 4298217,
+            "type": "conda",
+            "upload_time": "2017-03-01 15:27:40.068000+00:00",
+            "version": "1.3.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "arb-bio",
+                    "boost 1.64.*"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/sina-1.3.1-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "arb-bio",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.64."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sina/1.3.1/osx-64/sina-1.3.1-0.tar.bz2",
+            "full_name": "bioconda/sina/1.3.1/osx-64/sina-1.3.1-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "4cd532de7032d5fc12a0a69939663cbc",
+            "ndownloads": 193,
+            "owner": "bioconda",
+            "size": 1626458,
+            "type": "conda",
+            "upload_time": "2017-07-13 06:48:59.471000+00:00",
+            "version": "1.3.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "arb-bio",
+                    "boost 1.64.*",
+                    "libgcc"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/sina-1.3.1-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "arb-bio",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.64."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sina/1.3.1/linux-64/sina-1.3.1-0.tar.bz2",
+            "full_name": "bioconda/sina/1.3.1/linux-64/sina-1.3.1-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "4b8e5996923217f67a5a7cfb0f38f5ec",
+            "ndownloads": 684,
+            "owner": "bioconda",
+            "size": 9459666,
+            "type": "conda",
+            "upload_time": "2017-07-13 06:52:20.363000+00:00",
+            "version": "1.3.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h4ef8376_2",
+                "build_number": 2,
+                "depends": [
+                    "arb-bio-tools",
+                    "boost >=1.67.0,<1.67.1.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1536190751687
+            },
+            "basename": "osx-64/sina-1.3.1-h4ef8376_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "arb-bio-tools",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.67.0,<1.67.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sina/1.3.1/osx-64/sina-1.3.1-h4ef8376_2.tar.bz2",
+            "full_name": "bioconda/sina/1.3.1/osx-64/sina-1.3.1-h4ef8376_2.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "aa6574087cbdc02168c34bb89f003550",
+            "ndownloads": 639,
+            "owner": "bioconda",
+            "size": 1809035,
+            "type": "conda",
+            "upload_time": "2018-09-05 23:40:33.635000+00:00",
+            "version": "1.3.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h4ef8376_2",
+                "build_number": 2,
+                "depends": [
+                    "arb-bio-tools",
+                    "boost >=1.67.0,<1.67.1.0a0",
+                    "libstdcxx-ng >=4.9",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1536190743500
+            },
+            "basename": "linux-64/sina-1.3.1-h4ef8376_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "arb-bio-tools",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.67.0,<1.67.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sina/1.3.1/linux-64/sina-1.3.1-h4ef8376_2.tar.bz2",
+            "full_name": "bioconda/sina/1.3.1/linux-64/sina-1.3.1-h4ef8376_2.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "02cbf655023d12339b378f25d79c3e39",
+            "ndownloads": 113,
+            "owner": "bioconda",
+            "size": 2197630,
+            "type": "conda",
+            "upload_time": "2018-09-05 23:41:59.031000+00:00",
+            "version": "1.3.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h4ef8376_2",
+                "build_number": 2,
+                "depends": [
+                    "arb-bio-tools",
+                    "boost >=1.67.0,<1.67.1.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1536457678377
+            },
+            "basename": "osx-64/sina-1.3.4-h4ef8376_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "arb-bio-tools",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.67.0,<1.67.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sina/1.3.4/osx-64/sina-1.3.4-h4ef8376_2.tar.bz2",
+            "full_name": "bioconda/sina/1.3.4/osx-64/sina-1.3.4-h4ef8376_2.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "617294243ab95ef3ca1cf353047265df",
+            "ndownloads": 758,
+            "owner": "bioconda",
+            "size": 1891388,
+            "type": "conda",
+            "upload_time": "2018-09-09 01:49:05.793000+00:00",
+            "version": "1.3.4"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h4ef8376_2",
+                "build_number": 2,
+                "depends": [
+                    "arb-bio-tools",
+                    "boost >=1.67.0,<1.67.1.0a0",
+                    "libstdcxx-ng >=4.9",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1536457780630
+            },
+            "basename": "linux-64/sina-1.3.4-h4ef8376_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "arb-bio-tools",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.67.0,<1.67.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sina/1.3.4/linux-64/sina-1.3.4-h4ef8376_2.tar.bz2",
+            "full_name": "bioconda/sina/1.3.4/linux-64/sina-1.3.4-h4ef8376_2.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "74c1ba06a65af9dfdd0cfbd0facd7eae",
+            "ndownloads": 241,
+            "owner": "bioconda",
+            "size": 2325816,
+            "type": "conda",
+            "upload_time": "2018-09-09 01:52:43.289000+00:00",
+            "version": "1.3.4"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h4ef8376_0",
+                "build_number": 0,
+                "depends": [
+                    "arb-bio-tools",
+                    "boost >=1.67.0,<1.67.1.0a0",
+                    "tbb >=2019.2",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1541920576872
+            },
+            "basename": "osx-64/sina-1.4.0-h4ef8376_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "arb-bio-tools",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.67.0,<1.67.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "tbb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2019.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sina/1.4.0/osx-64/sina-1.4.0-h4ef8376_0.tar.bz2",
+            "full_name": "bioconda/sina/1.4.0/osx-64/sina-1.4.0-h4ef8376_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "ee1036a0b55f4e811a9155fb18a85c08",
+            "ndownloads": 5602,
+            "owner": "bioconda",
+            "size": 3455752,
+            "type": "conda",
+            "upload_time": "2018-11-11 07:17:28.675000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "hf49611d_0",
+                "build_number": 0,
+                "depends": [
+                    "arb-bio-tools",
+                    "boost-cpp >=1.68.0,<1.68.1.0a0",
+                    "glib >=2.58.2,<3.0a0",
+                    "libarbdb 6.0.6 h82bc0eb_8",
+                    "libcxx >=4.0.1",
+                    "tbb >=2019.3",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1550256065758
+            },
+            "basename": "osx-64/sina-1.5.0-hf49611d_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "arb-bio-tools",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost-cpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.68.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "glib",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.2,<3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libarbdb",
+                        "specs": [
+                            [
+                                "==",
+                                "6.0.6 h82bc0eb_8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "tbb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2019.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sina/1.5.0/osx-64/sina-1.5.0-hf49611d_0.tar.bz2",
+            "full_name": "bioconda/sina/1.5.0/osx-64/sina-1.5.0-hf49611d_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "eebd56aeb327026fb4d3a9ad02f6c470",
+            "ndownloads": 657,
+            "owner": "bioconda",
+            "size": 1453674,
+            "type": "conda",
+            "upload_time": "2019-02-15 18:41:48.179000+00:00",
+            "version": "1.5.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "hc7f9b0f_0",
+                "build_number": 0,
+                "depends": [
+                    "arb-bio-tools",
+                    "boost-cpp >=1.68.0,<1.68.1.0a0",
+                    "glib >=2.58.2,<3.0a0",
+                    "libarbdb 6.0.6 haa8b8d8_8",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "tbb >=2019.3",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPLv3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1550278997989
+            },
+            "basename": "linux-64/sina-1.5.0-hc7f9b0f_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "arb-bio-tools",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost-cpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.68.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "glib",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.2,<3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libarbdb",
+                        "specs": [
+                            [
+                                "==",
+                                "6.0.6 haa8b8d8_8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "tbb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2019.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sina/1.5.0/linux-64/sina-1.5.0-hc7f9b0f_0.tar.bz2",
+            "full_name": "bioconda/sina/1.5.0/linux-64/sina-1.5.0-hc7f9b0f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a6d6d47c50f5d6b7e54991ee2e0d72a0",
+            "ndownloads": 157,
+            "owner": "bioconda",
+            "size": 1567553,
+            "type": "conda",
+            "upload_time": "2019-02-16 01:12:22.814000+00:00",
+            "version": "1.5.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "hf49611d_0",
+                "build_number": 0,
+                "depends": [
+                    "arb-bio-tools",
+                    "boost-cpp >=1.68.0,<1.68.1.0a0",
+                    "glib >=2.58.3,<3.0a0",
+                    "libarbdb 6.0.6 h82bc0eb_8",
+                    "libcxx >=4.0.1",
+                    "tbb >=2019.4",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1556330905507
+            },
+            "basename": "osx-64/sina-1.6.0-hf49611d_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "arb-bio-tools",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost-cpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.68.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "glib",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.3,<3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libarbdb",
+                        "specs": [
+                            [
+                                "==",
+                                "6.0.6 h82bc0eb_8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "tbb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2019.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sina/1.6.0/osx-64/sina-1.6.0-hf49611d_0.tar.bz2",
+            "full_name": "bioconda/sina/1.6.0/osx-64/sina-1.6.0-hf49611d_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d6f31533422e9077540de412465e5ec7",
+            "ndownloads": 1757,
+            "owner": "bioconda",
+            "size": 1559109,
+            "type": "conda",
+            "upload_time": "2019-04-27 02:09:07.353000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "hc7f9b0f_0",
+                "build_number": 0,
+                "depends": [
+                    "arb-bio-tools",
+                    "boost-cpp >=1.68.0,<1.68.1.0a0",
+                    "glib >=2.58.3,<3.0a0",
+                    "libarbdb 6.0.6 haa8b8d8_8",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "tbb >=2019.5",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPLv3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1556330894556
+            },
+            "basename": "linux-64/sina-1.6.0-hc7f9b0f_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "arb-bio-tools",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost-cpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.68.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "glib",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.3,<3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libarbdb",
+                        "specs": [
+                            [
+                                "==",
+                                "6.0.6 haa8b8d8_8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "tbb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2019.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sina/1.6.0/linux-64/sina-1.6.0-hc7f9b0f_0.tar.bz2",
+            "full_name": "bioconda/sina/1.6.0/linux-64/sina-1.6.0-hc7f9b0f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ef2aaf3e80b1f77c1852a990ceee3b28",
+            "ndownloads": 5342,
+            "owner": "bioconda",
+            "size": 1698340,
+            "type": "conda",
+            "upload_time": "2019-04-27 02:11:55.594000+00:00",
+            "version": "1.6.0"
+        }
+    ],
+    "full_name": "bioconda/sina",
+    "home": "None",
+    "html_url": "http://anaconda.org/bioconda/sina",
+    "id": "58b6e86b69ee7e0a8ee152b7",
+    "latest_version": "1.6.0",
+    "license": "GPLv3",
+    "license_url": "https://raw.githubusercontent.com/epruesse/SINA/master/LICENSE",
+    "modified_at": "2019-04-27 02:11:55.967000+00:00",
+    "name": "sina",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/sina/1.3.0",
+            "version": "1.3.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/sina/1.3.1",
+            "version": "1.3.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/sina/1.3.4",
+            "version": "1.3.4"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/sina/1.3.5",
+            "version": "1.3.5"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/sina/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/sina/1.5.0",
+            "version": "1.5.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/sina/1.6.0",
+            "version": "1.6.0"
+        }
+    ],
+    "revision": 13,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Reference based multiple sequence alignment",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/sina",
+    "versions": [
+        "1.3.0",
+        "1.3.1",
+        "1.3.4",
+        "1.3.5",
+        "1.4.0",
+        "1.5.0",
+        "1.6.0"
+    ],
+    "watchers": 1
+}

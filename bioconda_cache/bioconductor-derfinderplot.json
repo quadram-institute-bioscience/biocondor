@@ -1,0 +1,991 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351_0",
+        "r36_0",
+        "r3.4.1_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "noarch",
+        "osx-64"
+    ],
+    "created_at": "2017-11-20 11:13:20.578000+00:00",
+    "description": "This package provides plotting functions for results from the derfinder package.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-derfinder >=1.1.0",
+                    "bioconductor-genomeinfodb >=1.3.3",
+                    "bioconductor-genomicfeatures",
+                    "bioconductor-genomicranges >=1.17.40",
+                    "bioconductor-ggbio >=1.13.13",
+                    "bioconductor-iranges >=1.99.28",
+                    "bioconductor-limma",
+                    "bioconductor-s4vectors >=0.9.38",
+                    "r-base 3.4.1*",
+                    "r-ggplot2",
+                    "r-plyr",
+                    "r-rcolorbrewer",
+                    "r-reshape2",
+                    "r-scales"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-derfinderplot-1.12.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-derfinder",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.17.40"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ggbio",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.13.13"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.99.28"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.9.38"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-derfinderplot/1.12.0/linux-64/bioconductor-derfinderplot-1.12.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-derfinderplot/1.12.0/linux-64/bioconductor-derfinderplot-1.12.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "2b835a61dae3aa340539f5a882ebcd81",
+            "ndownloads": 572,
+            "owner": "bioconda",
+            "size": 2345974,
+            "type": "conda",
+            "upload_time": "2017-11-20 11:13:21.084000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-derfinder >=1.1.0",
+                    "bioconductor-genomeinfodb >=1.3.3",
+                    "bioconductor-genomicfeatures",
+                    "bioconductor-genomicranges >=1.17.40",
+                    "bioconductor-ggbio >=1.13.13",
+                    "bioconductor-iranges >=1.99.28",
+                    "bioconductor-limma",
+                    "bioconductor-s4vectors >=0.9.38",
+                    "r-base 3.4.1*",
+                    "r-ggplot2",
+                    "r-plyr",
+                    "r-rcolorbrewer",
+                    "r-reshape2",
+                    "r-scales"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-derfinderplot-1.12.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-derfinder",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.17.40"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ggbio",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.13.13"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.99.28"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.9.38"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-derfinderplot/1.12.0/osx-64/bioconductor-derfinderplot-1.12.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-derfinderplot/1.12.0/osx-64/bioconductor-derfinderplot-1.12.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "47b8633a327f80b44873f430c1c27b92",
+            "ndownloads": 742,
+            "owner": "bioconda",
+            "size": 2345861,
+            "type": "conda",
+            "upload_time": "2017-11-20 11:29:37.319000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-derfinder >=1.14.0,<1.16.0",
+                    "bioconductor-genomeinfodb >=1.16.0,<1.18.0",
+                    "bioconductor-genomicfeatures >=1.32.2,<1.34.0",
+                    "bioconductor-genomicranges >=1.32.7,<1.34.0",
+                    "bioconductor-ggbio >=1.28.5,<1.30.0",
+                    "bioconductor-iranges >=2.14.12,<2.16.0",
+                    "bioconductor-limma >=3.36.5,<3.38.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-ggplot2",
+                    "r-plyr",
+                    "r-rcolorbrewer",
+                    "r-refmanager",
+                    "r-reshape2",
+                    "r-scales"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540588946136
+            },
+            "basename": "linux-64/bioconductor-derfinderplot-1.14.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-derfinder",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.2,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.7,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ggbio",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.5,<1.30.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.12,<2.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.36.5,<3.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-refmanager",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-derfinderplot/1.14.0/linux-64/bioconductor-derfinderplot-1.14.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-derfinderplot/1.14.0/linux-64/bioconductor-derfinderplot-1.14.0-r351_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "b4994640198f514aa28d01f84f9d358b",
+            "ndownloads": 972,
+            "owner": "bioconda",
+            "size": 2331505,
+            "type": "conda",
+            "upload_time": "2018-10-26 21:26:56.659000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-derfinder >=1.16.0,<1.17.0",
+                    "bioconductor-genomeinfodb >=1.18.0,<1.19.0",
+                    "bioconductor-genomicfeatures >=1.34.0,<1.35.0",
+                    "bioconductor-genomicranges >=1.34.0,<1.35.0",
+                    "bioconductor-ggbio >=1.30.0,<1.31.0",
+                    "bioconductor-iranges >=2.16.0,<2.17.0",
+                    "bioconductor-limma >=3.38.0,<3.39.0",
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-ggplot2",
+                    "r-plyr",
+                    "r-rcolorbrewer",
+                    "r-refmanager",
+                    "r-reshape2",
+                    "r-scales"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1546173478923
+            },
+            "basename": "noarch/bioconductor-derfinderplot-1.16.1-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-derfinder",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ggbio",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.38.0,<3.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-refmanager",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-derfinderplot/1.16.1/noarch/bioconductor-derfinderplot-1.16.1-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-derfinderplot/1.16.1/noarch/bioconductor-derfinderplot-1.16.1-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "0fb66ca15749fb68347a2d3d261c36dc",
+            "ndownloads": 79,
+            "owner": "bioconda",
+            "size": 2327344,
+            "type": "conda",
+            "upload_time": "2018-12-30 12:43:17.577000+00:00",
+            "version": "1.16.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-derfinder >=1.18.0,<1.19.0",
+                    "bioconductor-genomeinfodb >=1.20.0,<1.21.0",
+                    "bioconductor-genomicfeatures >=1.36.0,<1.37.0",
+                    "bioconductor-genomicranges >=1.36.0,<1.37.0",
+                    "bioconductor-ggbio >=1.32.0,<1.33.0",
+                    "bioconductor-iranges >=2.18.0,<2.19.0",
+                    "bioconductor-limma >=3.40.0,<3.41.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-ggplot2",
+                    "r-plyr",
+                    "r-rcolorbrewer",
+                    "r-refmanager",
+                    "r-reshape2",
+                    "r-scales"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1565908667947
+            },
+            "basename": "noarch/bioconductor-derfinderplot-1.18.1-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-derfinder",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ggbio",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.40.0,<3.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-refmanager",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-derfinderplot/1.18.1/noarch/bioconductor-derfinderplot-1.18.1-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-derfinderplot/1.18.1/noarch/bioconductor-derfinderplot-1.18.1-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "95df8589435ed7ac2e08810d4bd37bd3",
+            "ndownloads": 32,
+            "owner": "bioconda",
+            "size": 2303219,
+            "type": "conda",
+            "upload_time": "2019-08-15 22:44:29.198000+00:00",
+            "version": "1.18.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-derfinder >=1.20.0,<1.21.0",
+                    "bioconductor-genomeinfodb >=1.22.0,<1.23.0",
+                    "bioconductor-genomicfeatures >=1.38.0,<1.39.0",
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "bioconductor-ggbio >=1.34.0,<1.35.0",
+                    "bioconductor-iranges >=2.20.0,<2.21.0",
+                    "bioconductor-limma >=3.42.0,<3.43.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-ggplot2",
+                    "r-plyr",
+                    "r-rcolorbrewer",
+                    "r-reshape2",
+                    "r-scales"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572949684925
+            },
+            "basename": "noarch/bioconductor-derfinderplot-1.20.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-derfinder",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ggbio",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.42.0,<3.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-derfinderplot/1.20.0/noarch/bioconductor-derfinderplot-1.20.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-derfinderplot/1.20.0/noarch/bioconductor-derfinderplot-1.20.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e3803e5642a6862f6ba304a5e46995fc",
+            "ndownloads": 21,
+            "owner": "bioconda",
+            "size": 2311668,
+            "type": "conda",
+            "upload_time": "2019-11-05 10:34:52.966000+00:00",
+            "version": "1.20.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-derfinderplot",
+    "home": "http://bioconductor.org/packages/3.6/bioc/html/derfinderPlot.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-derfinderplot",
+    "id": "5a12b8d0393ec61206e5aee3",
+    "latest_version": "1.20.0",
+    "license": "Artistic-2.0",
+    "license_url": null,
+    "modified_at": "2019-11-05 10:34:53.282000+00:00",
+    "name": "bioconductor-derfinderplot",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-derfinderplot/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-derfinderplot/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-derfinderplot/1.16.1",
+            "version": "1.16.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-derfinderplot/1.18.1",
+            "version": "1.18.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-derfinderplot/1.20.0",
+            "version": "1.20.0"
+        }
+    ],
+    "revision": 10,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Plotting functions for derfinder",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-derfinderplot",
+    "versions": [
+        "1.12.0",
+        "1.14.0",
+        "1.16.1",
+        "1.18.1",
+        "1.20.0"
+    ],
+    "watchers": 1
+}

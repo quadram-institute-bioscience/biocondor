@@ -1,0 +1,324 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r36_1"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-11-05 01:52:32.209000+00:00",
+    "description": "KnowSeq proposes a whole pipeline that comprises the most relevant steps in the RNA-seq gene expression analysis, with the main goal of extracting biological knowledge from raw data (Differential Expressed Genes, Gene Ontology enrichment, pathway visualization and related diseases). In this sense, KnowSeq allows aligning raw data from the original fastq or sra files, by using the most renowned aligners such as tophat2, hisat2, salmon and kallisto. Nowadays, there is no package that only from the information of the samples to align -included in a text file-, automatically performs the download and alignment of all of the samples. Furthermore, the package includes functions to: calculate the gene expression values; remove batch effect; calculate the Differentially Expressed Genes (DEGs); plot different graphs; and perform the DEGs enrichment with the GO information, pathways visualization and related diseases information retrieval. Moreover, KnowSeq is the only package that allows applying both a machine learning and DEGs enrichment processes just after the DEGs extraction. This idea emerged with the aim of proposing a complete tool to the research community containing all the necessary steps to carry out complete studies in a simple and fast way.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-arrayqualitymetrics >=3.42.0,<3.43.0",
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-biomart >=2.42.0,<2.43.0",
+                    "bioconductor-cqn >=1.32.0,<1.33.0",
+                    "bioconductor-edger >=3.28.0,<3.29.0",
+                    "bioconductor-limma >=3.42.0,<3.43.0",
+                    "bioconductor-multtest >=2.42.0,<2.43.0",
+                    "bioconductor-pathview >=1.26.0,<1.27.0",
+                    "bioconductor-rhdf5 >=2.30.0,<2.31.0",
+                    "bioconductor-sva >=3.34.0,<3.35.0",
+                    "bioconductor-topgo >=2.37.0,<2.38.0",
+                    "bioconductor-tximport >=1.14.0,<1.15.0",
+                    "bioconductor-tximportdata >=1.14.0,<1.15.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-caret",
+                    "r-class",
+                    "r-e1071",
+                    "r-factoextra",
+                    "r-ggplot2",
+                    "r-gplots",
+                    "r-httr",
+                    "r-jsonlite",
+                    "r-kernlab",
+                    "r-mclust",
+                    "r-praznik",
+                    "r-quantreg",
+                    "r-r.utils",
+                    "r-randomforest",
+                    "r-rcurl",
+                    "r-reshape2",
+                    "r-stringr",
+                    "r-xml"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1573111687274
+            },
+            "basename": "noarch/bioconductor-knowseq-1.0.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-arrayqualitymetrics",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.42.0,<3.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-cqn",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.28.0,<3.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.42.0,<3.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pathview",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rhdf5",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.30.0,<2.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-sva",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.34.0,<3.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-topgo",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.37.0,<2.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tximport",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tximportdata",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-caret",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-class",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-e1071",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factoextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gplots",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-httr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-jsonlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kernlab",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mclust",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-praznik",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-quantreg",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-r.utils",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcurl",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-xml",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-knowseq/1.0.0/noarch/bioconductor-knowseq-1.0.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-knowseq/1.0.0/noarch/bioconductor-knowseq-1.0.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a4eab9005cb9f05e889c5ea4bb2bb206",
+            "ndownloads": 23,
+            "owner": "bioconda",
+            "size": 2451723,
+            "type": "conda",
+            "upload_time": "2019-11-07 07:37:02.255000+00:00",
+            "version": "1.0.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-knowseq",
+    "home": "https://bioconductor.org/packages/3.10/bioc/html/KnowSeq.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-knowseq",
+    "id": "5dc0d5e0778a8717ae3fdaea",
+    "latest_version": "1.0.0",
+    "license": "GPL (>=2)",
+    "license_url": null,
+    "modified_at": "2019-11-07 07:37:02.559000+00:00",
+    "name": "bioconductor-knowseq",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-knowseq/1.0.0",
+            "version": "1.0.0"
+        }
+    ],
+    "revision": 2,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "A R package to extract knowledge by using RNA-seq raw files",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-knowseq",
+    "versions": [
+        "1.0.0"
+    ],
+    "watchers": 1
+}

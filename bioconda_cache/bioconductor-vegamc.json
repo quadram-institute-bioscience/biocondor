@@ -1,0 +1,1033 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r36h516909a_0",
+        "r36h516909a_1",
+        "r351h14c3975_0",
+        "r351h1de35cc_0",
+        "r3.4.1_0",
+        "r36h01d97ff_0",
+        "r36h01d97ff_1",
+        "r351h470a237_0",
+        "r341h470a237_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2018-03-02 23:03:08.285000+00:00",
+    "description": "This package enables the detection of driver chromosomal imbalances including loss of heterozygosity (LOH) from array comparative genomic hybridization (aCGH) data. VegaMC performs a joint segmentation of a dataset and uses a statistical framework to distinguish between driver and passenger mutation. VegaMC has been implemented so that it can be immediately integrated with the output produced by PennCNV tool. In addition, VegaMC produces in output two web pages that allows a rapid navigation between both the detected regions and the altered genes. In the web page that summarizes the altered genes, the link to the respective Ensembl gene web page is reported.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biomart",
+                    "bioconductor-genoset",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-vegamc-3.16.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genoset",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-vegamc/3.16.0/linux-64/bioconductor-vegamc-3.16.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-vegamc/3.16.0/linux-64/bioconductor-vegamc-3.16.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "d7f17be1c5f4f91a40b6715b78a6dc68",
+            "ndownloads": 279,
+            "owner": "bioconda",
+            "size": 1511688,
+            "type": "conda",
+            "upload_time": "2018-03-02 23:03:08.769000+00:00",
+            "version": "3.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biomart",
+                    "bioconductor-genoset",
+                    "libcxx",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-vegamc-3.16.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genoset",
+                        "specs": []
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-vegamc/3.16.0/osx-64/bioconductor-vegamc-3.16.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-vegamc/3.16.0/osx-64/bioconductor-vegamc-3.16.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "7a9b95a979f207aae8fde2c931912155",
+            "ndownloads": 759,
+            "owner": "bioconda",
+            "size": 1511374,
+            "type": "conda",
+            "upload_time": "2018-03-02 23:51:14.121000+00:00",
+            "version": "3.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-biomart >=2.36.1,<2.38.0",
+                    "bioconductor-genoset >=1.36.0,<1.38.0",
+                    "libgcc-ng >=4.9",
+                    "r-base >=3.4.1,<3.4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539865688620
+            },
+            "basename": "linux-64/bioconductor-vegamc-3.18.0-r341h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.36.1,<2.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genoset",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-vegamc/3.18.0/linux-64/bioconductor-vegamc-3.18.0-r341h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-vegamc/3.18.0/linux-64/bioconductor-vegamc-3.18.0-r341h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "6d5eb4db89f47f67690d1ab98a4f9955",
+            "ndownloads": 116,
+            "owner": "bioconda",
+            "size": 1513461,
+            "type": "conda",
+            "upload_time": "2018-10-18 12:35:34.960000+00:00",
+            "version": "3.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-biomart >=2.36.1,<2.38.0",
+                    "bioconductor-genoset >=1.36.0,<1.38.0",
+                    "libgcc-ng >=4.9",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539865551410
+            },
+            "basename": "linux-64/bioconductor-vegamc-3.18.0-r351h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.36.1,<2.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genoset",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-vegamc/3.18.0/linux-64/bioconductor-vegamc-3.18.0-r351h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-vegamc/3.18.0/linux-64/bioconductor-vegamc-3.18.0-r351h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "888fddf72e7b3fb1d38ad14e4fe2c190",
+            "ndownloads": 228,
+            "owner": "bioconda",
+            "size": 1542814,
+            "type": "conda",
+            "upload_time": "2018-10-18 12:35:39.309000+00:00",
+            "version": "3.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-biomart >=2.36.1,<2.38.0",
+                    "bioconductor-genoset >=1.36.0,<1.38.0",
+                    "r-base >=3.4.1,<3.4.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539939164122
+            },
+            "basename": "osx-64/bioconductor-vegamc-3.18.0-r341h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.36.1,<2.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genoset",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-vegamc/3.18.0/osx-64/bioconductor-vegamc-3.18.0-r341h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-vegamc/3.18.0/osx-64/bioconductor-vegamc-3.18.0-r341h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "59d2092d5e7bdfad75faf080b75803c6",
+            "ndownloads": 20,
+            "owner": "bioconda",
+            "size": 1511819,
+            "type": "conda",
+            "upload_time": "2018-10-19 08:57:03.526000+00:00",
+            "version": "3.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-biomart >=2.36.1,<2.38.0",
+                    "bioconductor-genoset >=1.36.0,<1.38.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539939342627
+            },
+            "basename": "osx-64/bioconductor-vegamc-3.18.0-r351h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.36.1,<2.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genoset",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-vegamc/3.18.0/osx-64/bioconductor-vegamc-3.18.0-r351h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-vegamc/3.18.0/osx-64/bioconductor-vegamc-3.18.0-r351h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "3a8cf21d309f80338ea9ce02bdfee5ad",
+            "ndownloads": 750,
+            "owner": "bioconda",
+            "size": 1541356,
+            "type": "conda",
+            "upload_time": "2018-10-19 08:57:08.403000+00:00",
+            "version": "3.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h1de35cc_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-biomart >=2.38.0,<2.39.0",
+                    "bioconductor-genoset >=1.38.0,<1.39.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1544469776059
+            },
+            "basename": "osx-64/bioconductor-vegamc-3.20.0-r351h1de35cc_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.38.0,<2.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genoset",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-vegamc/3.20.0/osx-64/bioconductor-vegamc-3.20.0-r351h1de35cc_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-vegamc/3.20.0/osx-64/bioconductor-vegamc-3.20.0-r351h1de35cc_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "5fe1403a44cd673ea6c15524c1795a2d",
+            "ndownloads": 687,
+            "owner": "bioconda",
+            "size": 1544403,
+            "type": "conda",
+            "upload_time": "2018-12-10 19:24:22.633000+00:00",
+            "version": "3.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h14c3975_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-biomart >=2.38.0,<2.39.0",
+                    "bioconductor-genoset >=1.38.0,<1.39.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1545580423190
+            },
+            "basename": "linux-64/bioconductor-vegamc-3.20.0-r351h14c3975_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.38.0,<2.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genoset",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-vegamc/3.20.0/linux-64/bioconductor-vegamc-3.20.0-r351h14c3975_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-vegamc/3.20.0/linux-64/bioconductor-vegamc-3.20.0-r351h14c3975_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "254c82c105eaeda7a2444bf776897fea",
+            "ndownloads": 92,
+            "owner": "bioconda",
+            "size": 1546631,
+            "type": "conda",
+            "upload_time": "2018-12-23 15:57:40.707000+00:00",
+            "version": "3.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-biomart >=2.40.0,<2.41.0",
+                    "bioconductor-genoset >=1.40.0,<1.41.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1564431379837
+            },
+            "basename": "osx-64/bioconductor-vegamc-3.22.0-r36h01d97ff_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genoset",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-vegamc/3.22.0/osx-64/bioconductor-vegamc-3.22.0-r36h01d97ff_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-vegamc/3.22.0/osx-64/bioconductor-vegamc-3.22.0-r36h01d97ff_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "604f95522a54604d35972e29b9b58bef",
+            "ndownloads": 309,
+            "owner": "bioconda",
+            "size": 1544756,
+            "type": "conda",
+            "upload_time": "2019-07-29 20:17:35.111000+00:00",
+            "version": "3.22.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-biomart >=2.40.0,<2.41.0",
+                    "bioconductor-genoset >=1.40.0,<1.41.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1565312311370
+            },
+            "basename": "linux-64/bioconductor-vegamc-3.22.0-r36h516909a_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genoset",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-vegamc/3.22.0/linux-64/bioconductor-vegamc-3.22.0-r36h516909a_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-vegamc/3.22.0/linux-64/bioconductor-vegamc-3.22.0-r36h516909a_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "04bd91c00ec67c037aa5154636f17f21",
+            "ndownloads": 35,
+            "owner": "bioconda",
+            "size": 1547249,
+            "type": "conda",
+            "upload_time": "2019-08-09 01:02:58.127000+00:00",
+            "version": "3.22.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-biomart >=2.42.0,<2.43.0",
+                    "bioconductor-genoset >=1.42.0,<1.43.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572600231771
+            },
+            "basename": "osx-64/bioconductor-vegamc-3.24.0-r36h01d97ff_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genoset",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-vegamc/3.24.0/osx-64/bioconductor-vegamc-3.24.0-r36h01d97ff_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-vegamc/3.24.0/osx-64/bioconductor-vegamc-3.24.0-r36h01d97ff_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "670da591936ff3a004dd2c2e1f4216d2",
+            "ndownloads": 157,
+            "owner": "bioconda",
+            "size": 1550383,
+            "type": "conda",
+            "upload_time": "2019-11-01 09:25:06.498000+00:00",
+            "version": "3.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-biomart >=2.42.0,<2.43.0",
+                    "bioconductor-genoset >=1.42.0,<1.43.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572818173925
+            },
+            "basename": "linux-64/bioconductor-vegamc-3.24.0-r36h516909a_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genoset",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-vegamc/3.24.0/linux-64/bioconductor-vegamc-3.24.0-r36h516909a_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-vegamc/3.24.0/linux-64/bioconductor-vegamc-3.24.0-r36h516909a_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f9380d3915da3648ba33794b22ca37f1",
+            "ndownloads": 30,
+            "owner": "bioconda",
+            "size": 1554853,
+            "type": "conda",
+            "upload_time": "2019-11-03 22:01:51.729000+00:00",
+            "version": "3.24.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-vegamc",
+    "home": "http://bioconductor.org/packages/3.6/bioc/html/VegaMC.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-vegamc",
+    "id": "5a99d82c72eb3a11e2e49f5c",
+    "latest_version": "3.24.0",
+    "license": "GPL-2",
+    "license_url": null,
+    "modified_at": "2019-11-03 22:01:52.101000+00:00",
+    "name": "bioconductor-vegamc",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-vegamc/3.16.0",
+            "version": "3.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-vegamc/3.18.0",
+            "version": "3.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-vegamc/3.20.0",
+            "version": "3.20.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-vegamc/3.22.0",
+            "version": "3.22.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-vegamc/3.24.0",
+            "version": "3.24.0"
+        }
+    ],
+    "revision": 10,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "VegaMC: A Package Implementing a Variational Piecewise Smooth Model for Identification of Driver Chromosomal Imbalances in Cancer",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-vegamc",
+    "versions": [
+        "3.16.0",
+        "3.18.0",
+        "3.20.0",
+        "3.22.0",
+        "3.24.0"
+    ],
+    "watchers": 1
+}

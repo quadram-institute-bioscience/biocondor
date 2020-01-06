@@ -1,0 +1,941 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351h58b624e_0",
+        "r36he1b5a44_0",
+        "r351h4f780e3_0",
+        "r36h6de7cb9_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2018-12-24 06:47:28.216000+00:00",
+    "description": "A collection of tools for cancer genomic data clustering analyses, including those for single cell RNA-seq. Cell clustering and feature gene selection analysis employ Bayesian (and maximum likelihood) non-negative matrix factorization (NMF) algorithm. Input data set consists of RNA count matrix, gene, and cell bar code annotations.  Analysis outputs are factor matrices for multiple ranks and marginal likelihood values for each rank. The package includes utilities for downstream analyses, including meta-gene identification, visualization, and construction of rank-based trees for clusters.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h58b624e_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "bioconductor-singlecellexperiment >=1.4.0,<1.5.0",
+                    "bioconductor-summarizedexperiment >=1.12.0,<1.13.0",
+                    "gsl >=2.4,<2.5.0a0",
+                    "libcxx >=4.0.1",
+                    "r-ape",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-gtools",
+                    "r-irlba",
+                    "r-matrix",
+                    "r-rcolorbrewer",
+                    "r-rcpp",
+                    "r-rcppeigen",
+                    "r-rmpi",
+                    "r-rtsne"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1545633974513
+            },
+            "basename": "osx-64/bioconductor-ccfindr-1.2.0-r351h58b624e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "gsl",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.4,<2.5.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-gtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppeigen",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmpi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ccfindr/1.2.0/osx-64/bioconductor-ccfindr-1.2.0-r351h58b624e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-ccfindr/1.2.0/osx-64/bioconductor-ccfindr-1.2.0-r351h58b624e_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "f402702d1c8f35e57427991a86c25ff4",
+            "ndownloads": 693,
+            "owner": "bioconda",
+            "size": 1577172,
+            "type": "conda",
+            "upload_time": "2018-12-24 06:47:29.039000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h4f780e3_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "bioconductor-singlecellexperiment >=1.4.0,<1.5.0",
+                    "bioconductor-summarizedexperiment >=1.12.0,<1.13.0",
+                    "gsl >=2.4,<2.5.0a0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "openblas >=0.3.3,<0.3.4.0a0",
+                    "r-ape",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-gtools",
+                    "r-irlba",
+                    "r-matrix",
+                    "r-rcolorbrewer",
+                    "r-rcpp",
+                    "r-rcppeigen",
+                    "r-rmpi",
+                    "r-rtsne"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1545885837025
+            },
+            "basename": "linux-64/bioconductor-ccfindr-1.2.0-r351h4f780e3_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "gsl",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.4,<2.5.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "openblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.3,<0.3.4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-gtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppeigen",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmpi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ccfindr/1.2.0/linux-64/bioconductor-ccfindr-1.2.0-r351h4f780e3_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-ccfindr/1.2.0/linux-64/bioconductor-ccfindr-1.2.0-r351h4f780e3_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "0ac743b5d1df003ee6088f1ab46de35b",
+            "ndownloads": 89,
+            "owner": "bioconda",
+            "size": 1577224,
+            "type": "conda",
+            "upload_time": "2018-12-27 04:47:51.309000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "bioconductor-singlecellexperiment >=1.6.0,<1.7.0",
+                    "bioconductor-summarizedexperiment >=1.14.0,<1.15.0",
+                    "libcxx >=4.0.1",
+                    "r-ape",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-gtools",
+                    "r-irlba",
+                    "r-matrix",
+                    "r-rcolorbrewer",
+                    "r-rcpp",
+                    "r-rcppeigen",
+                    "r-rmpi",
+                    "r-rtsne"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1564139731678
+            },
+            "basename": "osx-64/bioconductor-ccfindr-1.4.2-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-gtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppeigen",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmpi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ccfindr/1.4.2/osx-64/bioconductor-ccfindr-1.4.2-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-ccfindr/1.4.2/osx-64/bioconductor-ccfindr-1.4.2-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "795716373e415727071def2ad075b1a7",
+            "ndownloads": 345,
+            "owner": "bioconda",
+            "size": 1539816,
+            "type": "conda",
+            "upload_time": "2019-07-26 11:16:39.793000+00:00",
+            "version": "1.4.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "bioconductor-singlecellexperiment >=1.6.0,<1.7.0",
+                    "bioconductor-summarizedexperiment >=1.14.0,<1.15.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-ape",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-gtools",
+                    "r-irlba",
+                    "r-matrix",
+                    "r-rcolorbrewer",
+                    "r-rcpp",
+                    "r-rcppeigen",
+                    "r-rmpi",
+                    "r-rtsne"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1564791153603
+            },
+            "basename": "linux-64/bioconductor-ccfindr-1.4.2-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-gtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppeigen",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmpi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ccfindr/1.4.2/linux-64/bioconductor-ccfindr-1.4.2-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-ccfindr/1.4.2/linux-64/bioconductor-ccfindr-1.4.2-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ae88ccf15b803fb8b486749ead80beb4",
+            "ndownloads": 42,
+            "owner": "bioconda",
+            "size": 1543901,
+            "type": "conda",
+            "upload_time": "2019-08-03 00:16:47.475000+00:00",
+            "version": "1.4.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "bioconductor-singlecellexperiment >=1.8.0,<1.9.0",
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "libcxx >=4.0.1",
+                    "r-ape",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-gtools",
+                    "r-irlba",
+                    "r-matrix",
+                    "r-rcolorbrewer",
+                    "r-rcpp",
+                    "r-rcppeigen",
+                    "r-rdpack >=0.7",
+                    "r-rmpi",
+                    "r-rtsne"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572607596883
+            },
+            "basename": "osx-64/bioconductor-ccfindr-1.6.0-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-gtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppeigen",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rdpack",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rmpi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ccfindr/1.6.0/osx-64/bioconductor-ccfindr-1.6.0-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-ccfindr/1.6.0/osx-64/bioconductor-ccfindr-1.6.0-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "484590d5c7d1a366912be13692ef6654",
+            "ndownloads": 158,
+            "owner": "bioconda",
+            "size": 1547321,
+            "type": "conda",
+            "upload_time": "2019-11-01 11:27:50.070000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "bioconductor-singlecellexperiment >=1.8.0,<1.9.0",
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-ape",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-gtools",
+                    "r-irlba",
+                    "r-matrix",
+                    "r-rcolorbrewer",
+                    "r-rcpp",
+                    "r-rcppeigen",
+                    "r-rdpack >=0.7",
+                    "r-rmpi",
+                    "r-rtsne"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572778406322
+            },
+            "basename": "linux-64/bioconductor-ccfindr-1.6.0-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-gtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppeigen",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rdpack",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rmpi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ccfindr/1.6.0/linux-64/bioconductor-ccfindr-1.6.0-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-ccfindr/1.6.0/linux-64/bioconductor-ccfindr-1.6.0-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bda9527ce2ed0155ebf463216bc9b1b1",
+            "ndownloads": 28,
+            "owner": "bioconda",
+            "size": 1564918,
+            "type": "conda",
+            "upload_time": "2019-11-03 10:58:57.601000+00:00",
+            "version": "1.6.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-ccfindr",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/ccfindR.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-ccfindr",
+    "id": "5c20810037f339133fffd591",
+    "latest_version": "1.6.0",
+    "license": "GPL (>= 2)",
+    "license_url": null,
+    "modified_at": "2019-11-03 10:58:57.935000+00:00",
+    "name": "bioconductor-ccfindr",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-ccfindr/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-ccfindr/1.4.2",
+            "version": "1.4.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-ccfindr/1.6.0",
+            "version": "1.6.0"
+        }
+    ],
+    "revision": 6,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Cancer Clone Finder",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-ccfindr",
+    "versions": [
+        "1.2.0",
+        "1.4.2",
+        "1.6.0"
+    ],
+    "watchers": 1
+}

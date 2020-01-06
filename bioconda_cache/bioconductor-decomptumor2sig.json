@@ -1,0 +1,428 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r36_1",
+        "r36_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-08-14 16:08:05.016000+00:00",
+    "description": "Uses quadratic programming for signature refitting, i.e., to decompose the mutation catalog from an individual tumor sample into a set of given mutational signatures (either Alexandrov-model signatures or Shiraishi-model signatures), computing weights that reflect the contributions of the signatures to the mutation load of the tumor.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "bioconductor-biostrings >=2.52.0,<2.53.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-genomicfeatures >=1.36.0,<1.37.0",
+                    "bioconductor-genomicranges >=1.36.0,<1.37.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "bioconductor-summarizedexperiment >=1.14.0,<1.15.0",
+                    "bioconductor-txdb.hsapiens.ucsc.hg19.knowngene >=3.2.0,<3.3.0",
+                    "bioconductor-variantannotation >=1.30.0,<1.31.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-data.table",
+                    "r-ggplot2",
+                    "r-ggseqlogo",
+                    "r-gridextra",
+                    "r-matrix",
+                    "r-plyr",
+                    "r-quadprog >=1.5-5",
+                    "r-vcfr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1565798307189
+            },
+            "basename": "noarch/bioconductor-decomptumor2sig-2.0.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg19",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-txdb.hsapiens.ucsc.hg19.knowngene",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.2.0,<3.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-variantannotation",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggseqlogo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-quadprog",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.5-5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-vcfr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-decomptumor2sig/2.0.0/noarch/bioconductor-decomptumor2sig-2.0.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-decomptumor2sig/2.0.0/noarch/bioconductor-decomptumor2sig-2.0.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "609b186bc7595720ddddd22a5301b640",
+            "ndownloads": 24,
+            "owner": "bioconda",
+            "size": 2579861,
+            "type": "conda",
+            "upload_time": "2019-08-14 16:08:05.849000+00:00",
+            "version": "2.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-biostrings >=2.54.0,<2.55.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-genomicfeatures >=1.38.0,<1.39.0",
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-txdb.hsapiens.ucsc.hg19.knowngene >=3.2.0,<3.3.0",
+                    "bioconductor-variantannotation >=1.32.0,<1.33.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-data.table",
+                    "r-ggplot2",
+                    "r-ggseqlogo",
+                    "r-gridextra",
+                    "r-matrix",
+                    "r-plyr",
+                    "r-quadprog >=1.5-5",
+                    "r-vcfr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572877467049
+            },
+            "basename": "noarch/bioconductor-decomptumor2sig-2.2.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg19",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-txdb.hsapiens.ucsc.hg19.knowngene",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.2.0,<3.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-variantannotation",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggseqlogo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-quadprog",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.5-5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-vcfr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-decomptumor2sig/2.2.0/noarch/bioconductor-decomptumor2sig-2.2.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-decomptumor2sig/2.2.0/noarch/bioconductor-decomptumor2sig-2.2.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5d57605b5de876096b16f14db3a58a44",
+            "ndownloads": 23,
+            "owner": "bioconda",
+            "size": 2811309,
+            "type": "conda",
+            "upload_time": "2019-11-04 14:34:51.602000+00:00",
+            "version": "2.2.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-decomptumor2sig",
+    "home": "https://bioconductor.org/packages/3.9/bioc/html/decompTumor2Sig.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-decomptumor2sig",
+    "id": "5d5431e583b663161bdc29d7",
+    "latest_version": "2.2.0",
+    "license": "GPL-2",
+    "license_url": null,
+    "modified_at": "2019-11-04 14:34:51.991000+00:00",
+    "name": "bioconductor-decomptumor2sig",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-decomptumor2sig/2.0.0",
+            "version": "2.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-decomptumor2sig/2.2.0",
+            "version": "2.2.0"
+        }
+    ],
+    "revision": 4,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Decomposition of individual tumors into mutational signatures by signature refitting",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-decomptumor2sig",
+    "versions": [
+        "2.0.0",
+        "2.2.0"
+    ],
+    "watchers": 1
+}

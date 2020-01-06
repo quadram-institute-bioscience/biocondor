@@ -1,0 +1,791 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r36h516909a_0",
+        "r36h516909a_1",
+        "r351h14c3975_0",
+        "r351h1de35cc_0",
+        "r3.4.1_0",
+        "r36h01d97ff_0",
+        "r36h01d97ff_1",
+        "r351h470a237_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2018-02-19 18:01:48.196000+00:00",
+    "description": "The package is used to detect extended, diffuse and compact blemishes on microarray chips. Harshlight automatically marks the areas in a collection of chips (affybatch objects) and a corrected AffyBatch object is returned, in which the defected areas are substituted with NAs or the median of the values of the same probe in the other chips in the collection. The new version handle the substitute value as whole matrix to solve the memory problem.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy",
+                    "bioconductor-altcdfenvs",
+                    "bioconductor-biobase",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-harshlight-1.50.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-altcdfenvs",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-harshlight/1.50.0/linux-64/bioconductor-harshlight-1.50.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-harshlight/1.50.0/linux-64/bioconductor-harshlight-1.50.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "3586577a6f8c087b2fe2894831643431",
+            "ndownloads": 302,
+            "owner": "bioconda",
+            "size": 212707,
+            "type": "conda",
+            "upload_time": "2018-02-19 18:01:48.722000+00:00",
+            "version": "1.50.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy",
+                    "bioconductor-altcdfenvs",
+                    "bioconductor-biobase",
+                    "libcxx",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-harshlight-1.50.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-altcdfenvs",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-harshlight/1.50.0/osx-64/bioconductor-harshlight-1.50.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-harshlight/1.50.0/osx-64/bioconductor-harshlight-1.50.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "400f7dfd11be2a03253367eaf56ee5e2",
+            "ndownloads": 785,
+            "owner": "bioconda",
+            "size": 211265,
+            "type": "conda",
+            "upload_time": "2018-02-19 19:10:02.438000+00:00",
+            "version": "1.50.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.58.0,<1.60.0",
+                    "bioconductor-altcdfenvs >=2.42.0,<2.44.0",
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "libgcc-ng >=4.9",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540666847750
+            },
+            "basename": "linux-64/bioconductor-harshlight-1.52.0-r351h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.60.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-altcdfenvs",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.44.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-harshlight/1.52.0/linux-64/bioconductor-harshlight-1.52.0-r351h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-harshlight/1.52.0/linux-64/bioconductor-harshlight-1.52.0-r351h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "921d69ad5a9b7a0783d5ceed185c4995",
+            "ndownloads": 988,
+            "owner": "bioconda",
+            "size": 238312,
+            "type": "conda",
+            "upload_time": "2018-10-27 19:03:35.038000+00:00",
+            "version": "1.52.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h1de35cc_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.60.0,<1.61.0",
+                    "bioconductor-altcdfenvs >=2.44.0,<2.45.0",
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1545524553579
+            },
+            "basename": "osx-64/bioconductor-harshlight-1.54.0-r351h1de35cc_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-altcdfenvs",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-harshlight/1.54.0/osx-64/bioconductor-harshlight-1.54.0-r351h1de35cc_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-harshlight/1.54.0/osx-64/bioconductor-harshlight-1.54.0-r351h1de35cc_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "6be2d65e9a98a17583dfe0f9fbadd5f3",
+            "ndownloads": 691,
+            "owner": "bioconda",
+            "size": 237564,
+            "type": "conda",
+            "upload_time": "2018-12-23 00:23:22.564000+00:00",
+            "version": "1.54.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h14c3975_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.60.0,<1.61.0",
+                    "bioconductor-altcdfenvs >=2.44.0,<2.45.0",
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1546612524071
+            },
+            "basename": "linux-64/bioconductor-harshlight-1.54.0-r351h14c3975_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-altcdfenvs",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-harshlight/1.54.0/linux-64/bioconductor-harshlight-1.54.0-r351h14c3975_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-harshlight/1.54.0/linux-64/bioconductor-harshlight-1.54.0-r351h14c3975_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "0d539a53b2de7153af6d748bdeeb3398",
+            "ndownloads": 86,
+            "owner": "bioconda",
+            "size": 240532,
+            "type": "conda",
+            "upload_time": "2019-01-04 14:38:04.831000+00:00",
+            "version": "1.54.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-affy >=1.62.0,<1.63.0",
+                    "bioconductor-altcdfenvs >=2.46.0,<2.47.0",
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1564287782687
+            },
+            "basename": "linux-64/bioconductor-harshlight-1.56.0-r36h516909a_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-altcdfenvs",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-harshlight/1.56.0/linux-64/bioconductor-harshlight-1.56.0-r36h516909a_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-harshlight/1.56.0/linux-64/bioconductor-harshlight-1.56.0-r36h516909a_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "54048c708d4c698c3c20067d4f2951c4",
+            "ndownloads": 50,
+            "owner": "bioconda",
+            "size": 241405,
+            "type": "conda",
+            "upload_time": "2019-07-28 04:27:03.871000+00:00",
+            "version": "1.56.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-affy >=1.62.0,<1.63.0",
+                    "bioconductor-altcdfenvs >=2.46.0,<2.47.0",
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1564702941290
+            },
+            "basename": "osx-64/bioconductor-harshlight-1.56.0-r36h01d97ff_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-altcdfenvs",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-harshlight/1.56.0/osx-64/bioconductor-harshlight-1.56.0-r36h01d97ff_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-harshlight/1.56.0/osx-64/bioconductor-harshlight-1.56.0-r36h01d97ff_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "23ddd01d67fbc2e3e6fbfa473ac8e493",
+            "ndownloads": 320,
+            "owner": "bioconda",
+            "size": 238858,
+            "type": "conda",
+            "upload_time": "2019-08-01 23:43:06.289000+00:00",
+            "version": "1.56.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.64.0,<1.65.0",
+                    "bioconductor-altcdfenvs >=2.48.0,<2.49.0",
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572658307105
+            },
+            "basename": "linux-64/bioconductor-harshlight-1.58.0-r36h516909a_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-altcdfenvs",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-harshlight/1.58.0/linux-64/bioconductor-harshlight-1.58.0-r36h516909a_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-harshlight/1.58.0/linux-64/bioconductor-harshlight-1.58.0-r36h516909a_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7845b4cc0a3c64254bd439286cf9f918",
+            "ndownloads": 26,
+            "owner": "bioconda",
+            "size": 253936,
+            "type": "conda",
+            "upload_time": "2019-11-02 01:35:58.747000+00:00",
+            "version": "1.58.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.64.0,<1.65.0",
+                    "bioconductor-altcdfenvs >=2.48.0,<2.49.0",
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572688737341
+            },
+            "basename": "osx-64/bioconductor-harshlight-1.58.0-r36h01d97ff_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-altcdfenvs",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-harshlight/1.58.0/osx-64/bioconductor-harshlight-1.58.0-r36h01d97ff_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-harshlight/1.58.0/osx-64/bioconductor-harshlight-1.58.0-r36h01d97ff_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4dae1a2993ec7787395ff2cd337ddea1",
+            "ndownloads": 156,
+            "owner": "bioconda",
+            "size": 250701,
+            "type": "conda",
+            "upload_time": "2019-11-02 09:59:45.434000+00:00",
+            "version": "1.58.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-harshlight",
+    "home": "http://bioconductor.org/packages/3.6/bioc/html/Harshlight.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-harshlight",
+    "id": "5a8b110c82e5d2123f6628b6",
+    "latest_version": "1.58.0",
+    "license": "GPL (>= 2)",
+    "license_url": null,
+    "modified_at": "2019-11-02 09:59:45.871000+00:00",
+    "name": "bioconductor-harshlight",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-harshlight/1.50.0",
+            "version": "1.50.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-harshlight/1.52.0",
+            "version": "1.52.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-harshlight/1.54.0",
+            "version": "1.54.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-harshlight/1.56.0",
+            "version": "1.56.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-harshlight/1.58.0",
+            "version": "1.58.0"
+        }
+    ],
+    "revision": 10,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "A \"corrective make-up\" program for microarray chips",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-harshlight",
+    "versions": [
+        "1.50.0",
+        "1.52.0",
+        "1.54.0",
+        "1.56.0",
+        "1.58.0"
+    ],
+    "watchers": 1
+}

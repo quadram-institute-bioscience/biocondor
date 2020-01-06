@@ -1,0 +1,1245 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351hfc679d8_0",
+        "r351h0a44026_0",
+        "r351hf484d3e_0",
+        "r36he1b5a44_1",
+        "r36h6de7cb9_1",
+        "r3.4.1_0",
+        "r36he1b5a44_0",
+        "r341hfc679d8_0",
+        "r36h6de7cb9_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2018-02-16 09:23:43.431000+00:00",
+    "description": "QuaternaryProd is an R package that performs causal reasoning on biological networks, including publicly available networks such as STRINGdb. QuaternaryProd is an open-source alternative to commercial products such as Inginuity Pathway Analysis. For a given a set of differentially expressed genes, QuaternaryProd computes the significance of upstream regulators in the network by performing causal reasoning using the Quaternary Dot Product Scoring Statistic (Quaternary Statistic), Ternary Dot product Scoring Statistic (Ternary Statistic) and Fisher's exact test (Enrichment test). The Quaternary Statistic handles signed, unsigned and ambiguous edges in the network. Ambiguity arises when the direction of causality is unknown, or when the source node (e.g., a protein) has edges with conflicting signs for the same target gene. On the other hand, the Ternary Statistic provides causal reasoning using the signed and unambiguous edges only. The Vignette provides more details on the Quaternary Statistic and illustrates an example of how to perform causal reasoning using STRINGdb.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base 3.4.1*",
+                    "r-dplyr",
+                    "r-rcpp >=0.11.3",
+                    "r-rlist"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-quaternaryprod-1.6.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rlist",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-quaternaryprod/1.6.0/linux-64/bioconductor-quaternaryprod-1.6.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.6.0/linux-64/bioconductor-quaternaryprod-1.6.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "1e5ccd068293a545b0296fa208ee3b2c",
+            "ndownloads": 304,
+            "owner": "bioconda",
+            "size": 11396809,
+            "type": "conda",
+            "upload_time": "2018-02-16 09:23:43.929000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "libcxx",
+                    "r-base 3.4.1*",
+                    "r-dplyr",
+                    "r-rcpp >=0.11.3",
+                    "r-rlist"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-quaternaryprod-1.6.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rlist",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-quaternaryprod/1.6.0/osx-64/bioconductor-quaternaryprod-1.6.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.6.0/osx-64/bioconductor-quaternaryprod-1.6.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "1f44b2a0b4edbd573a4688add4654da5",
+            "ndownloads": 731,
+            "owner": "bioconda",
+            "size": 11401203,
+            "type": "conda",
+            "upload_time": "2018-02-16 09:31:32.412000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "r-dplyr",
+                    "r-rcpp >=0.11.3",
+                    "r-yaml >=2.1.18"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1540654477539
+            },
+            "basename": "osx-64/bioconductor-quaternaryprod-1.14.0-r341hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-yaml",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.18"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-quaternaryprod/1.14.0/osx-64/bioconductor-quaternaryprod-1.14.0-r341hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.14.0/osx-64/bioconductor-quaternaryprod-1.14.0-r341hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "0993f1841db95810b8fa88d3075c0e9c",
+            "ndownloads": 23,
+            "owner": "bioconda",
+            "size": 11405004,
+            "type": "conda",
+            "upload_time": "2018-10-27 15:35:44.216000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-dplyr",
+                    "r-rcpp >=0.11.3",
+                    "r-yaml >=2.1.18"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1540654332138
+            },
+            "basename": "osx-64/bioconductor-quaternaryprod-1.14.0-r351hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-yaml",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.18"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-quaternaryprod/1.14.0/osx-64/bioconductor-quaternaryprod-1.14.0-r351hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.14.0/osx-64/bioconductor-quaternaryprod-1.14.0-r351hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "36386c20b0b2fb7db9242af5cd0e0f06",
+            "ndownloads": 735,
+            "owner": "bioconda",
+            "size": 11422764,
+            "type": "conda",
+            "upload_time": "2018-10-27 15:35:48.512000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=4.9",
+                    "libstdcxx-ng >=4.9",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-dplyr",
+                    "r-rcpp >=0.11.3",
+                    "r-yaml >=2.1.18"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540858899582
+            },
+            "basename": "linux-64/bioconductor-quaternaryprod-1.14.0-r351hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-yaml",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.18"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-quaternaryprod/1.14.0/linux-64/bioconductor-quaternaryprod-1.14.0-r351hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.14.0/linux-64/bioconductor-quaternaryprod-1.14.0-r351hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "99ec21bd8acec7bacc6e34abb29595f2",
+            "ndownloads": 249,
+            "owner": "bioconda",
+            "size": 11422491,
+            "type": "conda",
+            "upload_time": "2018-10-30 00:26:47.823000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=4.9",
+                    "libstdcxx-ng >=4.9",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "r-dplyr",
+                    "r-rcpp >=0.11.3",
+                    "r-yaml >=2.1.18"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540858779859
+            },
+            "basename": "linux-64/bioconductor-quaternaryprod-1.14.0-r341hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-yaml",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.18"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-quaternaryprod/1.14.0/linux-64/bioconductor-quaternaryprod-1.14.0-r341hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.14.0/linux-64/bioconductor-quaternaryprod-1.14.0-r341hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "e276d9bbde850e6085b3c27a001ef1f0",
+            "ndownloads": 126,
+            "owner": "bioconda",
+            "size": 11405788,
+            "type": "conda",
+            "upload_time": "2018-10-30 00:26:51.215000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hf484d3e_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-dplyr",
+                    "r-rcpp >=0.11.3",
+                    "r-yaml >=2.1.18"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1547116779438
+            },
+            "basename": "linux-64/bioconductor-quaternaryprod-1.16.0-r351hf484d3e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-yaml",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.18"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-quaternaryprod/1.16.0/linux-64/bioconductor-quaternaryprod-1.16.0-r351hf484d3e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.16.0/linux-64/bioconductor-quaternaryprod-1.16.0-r351hf484d3e_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "92b27af965770ffdf4379db49e703094",
+            "ndownloads": 129,
+            "owner": "bioconda",
+            "size": 11361145,
+            "type": "conda",
+            "upload_time": "2019-01-10 10:43:35.031000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h0a44026_0",
+                "build_number": 0,
+                "depends": [
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-dplyr",
+                    "r-rcpp >=0.11.3",
+                    "r-yaml >=2.1.18"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1544414836266
+            },
+            "basename": "osx-64/bioconductor-quaternaryprod-1.16.0-r351h0a44026_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-yaml",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.18"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-quaternaryprod/1.16.0/osx-64/bioconductor-quaternaryprod-1.16.0-r351h0a44026_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.16.0/osx-64/bioconductor-quaternaryprod-1.16.0-r351h0a44026_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "7bb1fd4a0af8171af8ec2710a7a3dc22",
+            "ndownloads": 679,
+            "owner": "bioconda",
+            "size": 11363872,
+            "type": "conda",
+            "upload_time": "2018-12-10 04:08:26.353000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h0a44026_0",
+                "build_number": 0,
+                "depends": [
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-dplyr",
+                    "r-rcpp >=0.11.3",
+                    "r-yaml >=2.1.18"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1557426845465
+            },
+            "basename": "osx-64/bioconductor-quaternaryprod-1.18.0-r351h0a44026_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-yaml",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.18"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-quaternaryprod/1.18.0/osx-64/bioconductor-quaternaryprod-1.18.0-r351h0a44026_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.18.0/osx-64/bioconductor-quaternaryprod-1.18.0-r351h0a44026_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7479175cb9d9fe369f56fd2b36cf1b8e",
+            "ndownloads": 161,
+            "owner": "bioconda",
+            "size": 11385267,
+            "type": "conda",
+            "upload_time": "2019-05-09 18:35:12.770000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hf484d3e_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-dplyr",
+                    "r-rcpp >=0.11.3",
+                    "r-yaml >=2.1.18"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1557760834358
+            },
+            "basename": "linux-64/bioconductor-quaternaryprod-1.18.0-r351hf484d3e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-yaml",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.18"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-quaternaryprod/1.18.0/linux-64/bioconductor-quaternaryprod-1.18.0-r351hf484d3e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.18.0/linux-64/bioconductor-quaternaryprod-1.18.0-r351hf484d3e_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "dbbfe779a9875f39b5844fe4e5d66df5",
+            "ndownloads": 95,
+            "owner": "bioconda",
+            "size": 11367919,
+            "type": "conda",
+            "upload_time": "2019-05-13 15:25:04.528000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_1",
+                "build_number": 1,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-dplyr",
+                    "r-rcpp >=0.11.3",
+                    "r-yaml >=2.1.18"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1563294402898
+            },
+            "basename": "linux-64/bioconductor-quaternaryprod-1.18.0-r36he1b5a44_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-yaml",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.18"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-quaternaryprod/1.18.0/linux-64/bioconductor-quaternaryprod-1.18.0-r36he1b5a44_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.18.0/linux-64/bioconductor-quaternaryprod-1.18.0-r36he1b5a44_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f4ef62b0d1dd40faeede6825f4c3d9b5",
+            "ndownloads": 38,
+            "owner": "bioconda",
+            "size": 11380307,
+            "type": "conda",
+            "upload_time": "2019-07-16 16:31:00.989000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_1",
+                "build_number": 1,
+                "depends": [
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-dplyr",
+                    "r-rcpp >=0.11.3",
+                    "r-yaml >=2.1.18"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1563338690231
+            },
+            "basename": "osx-64/bioconductor-quaternaryprod-1.18.0-r36h6de7cb9_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-yaml",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.18"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-quaternaryprod/1.18.0/osx-64/bioconductor-quaternaryprod-1.18.0-r36h6de7cb9_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.18.0/osx-64/bioconductor-quaternaryprod-1.18.0-r36h6de7cb9_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c7408c859351eaa5189505829e5026eb",
+            "ndownloads": 336,
+            "owner": "bioconda",
+            "size": 11386991,
+            "type": "conda",
+            "upload_time": "2019-07-17 04:45:51.929000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-dplyr",
+                    "r-rcpp >=0.11.3",
+                    "r-yaml >=2.1.18"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572597462702
+            },
+            "basename": "osx-64/bioconductor-quaternaryprod-1.20.0-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-yaml",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.18"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-quaternaryprod/1.20.0/osx-64/bioconductor-quaternaryprod-1.20.0-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.20.0/osx-64/bioconductor-quaternaryprod-1.20.0-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ea6c31084fb3ef86b861b7eaa7bef319",
+            "ndownloads": 164,
+            "owner": "bioconda",
+            "size": 11390021,
+            "type": "conda",
+            "upload_time": "2019-11-01 08:38:38.001000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-dplyr",
+                    "r-rcpp >=0.11.3",
+                    "r-yaml >=2.1.18"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572625852420
+            },
+            "basename": "linux-64/bioconductor-quaternaryprod-1.20.0-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-yaml",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.18"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-quaternaryprod/1.20.0/linux-64/bioconductor-quaternaryprod-1.20.0-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.20.0/linux-64/bioconductor-quaternaryprod-1.20.0-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "14f531c9b750b93a8fc002c62fe5e325",
+            "ndownloads": 36,
+            "owner": "bioconda",
+            "size": 11380037,
+            "type": "conda",
+            "upload_time": "2019-11-01 16:35:14.038000+00:00",
+            "version": "1.20.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-quaternaryprod",
+    "home": "http://bioconductor.org/packages/3.6/bioc/html/QuaternaryProd.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-quaternaryprod",
+    "id": "5a86a31fd60b3511f8af24b2",
+    "latest_version": "1.20.0",
+    "license": "GPL (>=3)",
+    "license_url": null,
+    "modified_at": "2019-11-01 16:35:14.535000+00:00",
+    "name": "bioconductor-quaternaryprod",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.18.0",
+            "version": "1.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-quaternaryprod/1.20.0",
+            "version": "1.20.0"
+        }
+    ],
+    "revision": 10,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Computes the Quaternary Dot Product Scoring Statistic for Signed and Unsigned Causal Graphs",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-quaternaryprod",
+    "versions": [
+        "1.6.0",
+        "1.14.0",
+        "1.16.0",
+        "1.18.0",
+        "1.20.0"
+    ],
+    "watchers": 1
+}

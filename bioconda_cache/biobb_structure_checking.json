@@ -1,0 +1,243 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "py_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-04-08 12:58:09.454000+00:00",
+    "description": "[![Codacy Badge](https://api.codacy.com/project/badge/Grade/376891e43cab4cc591fb78ea43dfd380)](https://www.codacy.com/app/jlgelpi/structureChecking?utm_source=mmb.irbbarcelona.org&amp;utm_medium=referral&amp;utm_content=gitlab/BioExcel/structureChecking&amp;utm_campaign=Badge_Grade)\nremoving components of the system, completing missing atoms, and some quality\nchecking as residue quirality, amide orientation, or vdw clashes.\n\n```\nusage: checkStruc.py [-h] [-i INPUT_STRUCTURE_PATH] [-o OUTPUT_STRUCTURE_PATH]\n                     [--version] [--data_dir DATA_DIR]\n                     [--res_lib RES_LIB_PATH] [--data_lib DATA_LIBRARY_PATH]\n                     [--json JSON_OUTPUT_PATH] [--quiet] [--check_only]\n                     [--non_interactive] [--force_save]\n                     [--pdb_server PDB_SERVER]\n                     command ...\npositional arguments:\n  command               Command to execute (help: checkStruc commands)\n  options               Specific command options\n\noptional arguments:\n  -h, --help            show this help message and exit\n  -i INPUT_STRUCTURE_PATH, --input INPUT_STRUCTURE_PATH\n                        Input structure. Formats PDB|mmCIF. Remote pdb:{pdbid}\n  -o OUTPUT_STRUCTURE_PATH, --output OUTPUT_STRUCTURE_PATH\n                        Output structure. Format PDB\n  --version             show program's version number and exit\n  --data_dir DATA_DIR   Override settings default data dir\n  --res_lib RES_LIB_PATH\n                        Override settings default residue library (AMBER prep\n                        format)\n  --data_lib DATA_LIBRARY_PATH\n                        Override settings default data library\n  --json JSON_OUTPUT_PATH\n                        Cummulated checking results on a json file\n  --quiet               Reduces output, removing labels and progress info\n  --check_only          Perform checks, structure is not modified\n  --non_interactive     Do not prompt for missing parameters\n  --force_save          Force saving an output file even if no modification\n  --pdb_server PDB_SERVER\n                        Server for retrieving structures (default: RCSB|mmb)\n  --load                Loads structure from PDB server into the local cache\n  --stats               Loads structure and get basic statistics and headers\n\nAvailable commands:\n\n```\n\n## Available commands:\n\n```\ncommands:  This help\ncommand_list:      Run all tests from conf file\ncheckall:   Perform all checks without fixes\nload: Stores structure on local cache and provide basic statistics\n\n1. System Configuration\n=======================\nmodels [--select_model model_num]     \n    Detect/Select Models\nchains [--select_chains chain_ids]    \n    Detect/Select Chains\ninscodes\n    Detects residues with insertion codes (no fix)\naltloc [--select_altloc occupancy| alt_id | list of res_id:alt_id]\n    Detect/Select Alternative Locations\nmetals [--remove All | None | Met_ids_list | Residue_list]   \n    Detect/Remove Metals\nligands [--remove All | None | Res_type_list | Residue_list]\n    Detect/Remove Ligands\nremwat [--remove Yes|No]\n    Remove Water molecules\nremh [remh --remove Yes|No]\n    Remove Hydrogen atoms from structure\nmutateside [--mut mutation_list]\n    Mutate side chain with minimal atom replacement. Allows multiple mutations\naddH [--mode auto | pH | interactive | interactive_his]\n    Add Hydrogen Atoms\n\n2. Fix Structure Errors\n\namide  [--fix All|None|Residue List]    \n    Detect/Fix Amide atoms Assignment\nchiral [--fix All|None|Residue List]\n    Detect/Fix Improper quirality\nfixside [--fix All |None|Residue List]    \n    Complete side chains\nbackbone [--fix All|None|Residue List]   \n    Analyze main chain missing atoms and fragments. O, OXT atoms can be fixed\n\n3. Structure Warnings\n\ncistransbck Analyzes cis-trans dihedrals on backbone atoms\ngetss      Detect SS Bonds\nclashes    Steric clashes (Severe, Apolar, Polar Donors, Polar Acceptors,\n           Ionic Positive, Ionic Negative)\n\n```\n### Dependencies\n* python 3.x\n* biopython\n* numpy\n* biobb_model (structure_manager)\n\n\n",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "biobb_structure_manager 0.0.6",
+                    "python 3.6.*"
+                ],
+                "has_prefix": false,
+                "license": "Apache Software License",
+                "license_family": "APACHE",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1554728119443
+            },
+            "basename": "noarch/biobb_structure_checking-0.0.1-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biobb_structure_manager",
+                        "specs": [
+                            [
+                                "==",
+                                "0.0.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biobb_structure_checking/0.0.1/noarch/biobb_structure_checking-0.0.1-py_0.tar.bz2",
+            "full_name": "bioconda/biobb_structure_checking/0.0.1/noarch/biobb_structure_checking-0.0.1-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0377afb9e3d7c65b9f3e796c6bf8e8a0",
+            "ndownloads": 70,
+            "owner": "bioconda",
+            "size": 22106,
+            "type": "conda",
+            "upload_time": "2019-04-08 12:58:10.639000+00:00",
+            "version": "0.0.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "biobb_structure_manager 0.0.6",
+                    "python 3.6.*"
+                ],
+                "has_prefix": false,
+                "license": "Apache Software License",
+                "license_family": "APACHE",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1554735432526
+            },
+            "basename": "noarch/biobb_structure_checking-1.0.5-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biobb_structure_manager",
+                        "specs": [
+                            [
+                                "==",
+                                "0.0.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biobb_structure_checking/1.0.5/noarch/biobb_structure_checking-1.0.5-py_0.tar.bz2",
+            "full_name": "bioconda/biobb_structure_checking/1.0.5/noarch/biobb_structure_checking-1.0.5-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "94cb0a4220da94d412edc251346a8010",
+            "ndownloads": 61,
+            "owner": "bioconda",
+            "size": 22325,
+            "type": "conda",
+            "upload_time": "2019-04-08 14:59:57.310000+00:00",
+            "version": "1.0.5"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "biobb_structure_manager 0.0.6",
+                    "python 3.6.*"
+                ],
+                "has_prefix": false,
+                "license": "Apache Software License",
+                "license_family": "APACHE",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1554799077814
+            },
+            "basename": "noarch/biobb_structure_checking-1.0.6-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biobb_structure_manager",
+                        "specs": [
+                            [
+                                "==",
+                                "0.0.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biobb_structure_checking/1.0.6/noarch/biobb_structure_checking-1.0.6-py_0.tar.bz2",
+            "full_name": "bioconda/biobb_structure_checking/1.0.6/noarch/biobb_structure_checking-1.0.6-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c494a0db8e4482c76978feebec5ffadf",
+            "ndownloads": 254,
+            "owner": "bioconda",
+            "size": 36051,
+            "type": "conda",
+            "upload_time": "2019-04-09 08:40:44.059000+00:00",
+            "version": "1.0.6"
+        }
+    ],
+    "full_name": "bioconda/biobb_structure_checking",
+    "home": "https://github.com/bioexcel/biobb_analysis",
+    "html_url": "http://anaconda.org/bioconda/biobb_structure_checking",
+    "id": "5cab4561d9c2cf15cbfff295",
+    "latest_version": "1.0.6",
+    "license": "Apache Software License",
+    "license_url": null,
+    "modified_at": "2019-04-09 08:40:44.487000+00:00",
+    "name": "biobb_structure_checking",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/biobb_structure_checking/0.0.1",
+            "version": "0.0.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/biobb_structure_checking/1.0.5",
+            "version": "1.0.5"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/biobb_structure_checking/1.0.6",
+            "version": "1.0.6"
+        }
+    ],
+    "revision": 6,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "BioBB_structure_checking performs MDWeb structure checking set as a command line utility.",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/biobb_structure_checking",
+    "versions": [
+        "0.0.1",
+        "1.0.5",
+        "1.0.6"
+    ],
+    "watchers": 1
+}

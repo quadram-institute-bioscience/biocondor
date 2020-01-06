@@ -1,0 +1,558 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351_0",
+        "r36_1",
+        "r36_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-01-02 10:48:45.442000+00:00",
+    "description": "The gCMAP package provides a toolkit for comparing differential gene expression profiles through gene set enrichment analysis. Starting from normalized microarray or RNA-seq gene expression values (stored in lists of ExpressionSet and CountDataSet objects) the package performs differential expression analysis using the limma or DESeq packages. Supplying a simple list of gene identifiers, global differential expression profiles or data from complete experiments as input, users can use a unified set of several well-known gene set enrichment analysis methods to retrieve experiments with similar changes in gene expression. To take into account the directionality of gene expression changes, gCMAPQuery introduces the SignedGeneSet class, directly extending GeneSet from the GSEABase package.  To increase performance of large queries, multiple gene sets are stored as sparse incidence matrices within CMAPCollection eSets. gCMAP offers implementations of 1. Fisher's exact test (Fisher, J R Stat Soc, 1922) 2. The \"connectivity map\" method (Lamb et al, Science, 2006) 3. Parametric and non-parametric t-statistic summaries (Jiang & Gentleman, Bioinformatics, 2007) and 4. Wilcoxon / Mann-Whitney rank sum statistics (Wilcoxon, Biometrics Bulletin, 1945) as well as wrappers for the 5. camera (Wu & Smyth, Nucleic Acid Res, 2012) 6. mroast and romer (Wu et al, Bioinformatics, 2010) functions from the limma package and 7. wraps the gsea method from the mgsa package (Bauer et al, NAR, 2010). All methods return CMAPResult objects, an S4 class inheriting from AnnotatedDataFrame, containing enrichment statistics as well as annotation data and providing simple high-level summary plots.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.60.0,<1.61.0",
+                    "bioconductor-annotationdbi >=1.44.0,<1.45.0",
+                    "bioconductor-bigmemoryextras >=1.30.0,<1.31.0",
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-category >=2.48.0,<2.49.0",
+                    "bioconductor-deseq >=1.34.0,<1.35.0",
+                    "bioconductor-genefilter >=1.64.0,<1.65.0",
+                    "bioconductor-gseabase >=1.44.0,<1.45.0",
+                    "bioconductor-gsealm >=1.42.0,<1.43.0",
+                    "bioconductor-limma >=3.38.0,<3.39.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-bigmemory",
+                    "r-matrix >=1.0.9"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1546425892750
+            },
+            "basename": "noarch/bioconductor-gcmap-1.26.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bigmemoryextras",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-category",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-deseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gsealm",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.38.0,<3.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bigmemory",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.9"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gcmap/1.26.0/noarch/bioconductor-gcmap-1.26.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gcmap/1.26.0/noarch/bioconductor-gcmap-1.26.0-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "052d85280f8a6f17c236af1951d2d65d",
+            "ndownloads": 82,
+            "owner": "bioconda",
+            "size": 1315607,
+            "type": "conda",
+            "upload_time": "2019-01-02 10:48:46.849000+00:00",
+            "version": "1.26.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotate >=1.62.0,<1.63.0",
+                    "bioconductor-annotationdbi >=1.46.0,<1.47.0",
+                    "bioconductor-bigmemoryextras >=1.32.0,<1.33.0",
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-category >=2.50.0,<2.51.0",
+                    "bioconductor-deseq >=1.36.0,<1.37.0",
+                    "bioconductor-genefilter >=1.66.0,<1.67.0",
+                    "bioconductor-gseabase >=1.46.0,<1.47.0",
+                    "bioconductor-gsealm >=1.44.0,<1.45.0",
+                    "bioconductor-limma >=3.40.0,<3.41.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-bigmemory",
+                    "r-matrix >=1.0.9"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1565220223487
+            },
+            "basename": "noarch/bioconductor-gcmap-1.28.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bigmemoryextras",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-category",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-deseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gsealm",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.40.0,<3.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bigmemory",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.9"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gcmap/1.28.0/noarch/bioconductor-gcmap-1.28.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-gcmap/1.28.0/noarch/bioconductor-gcmap-1.28.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "06fee81bcef52f34c9d6f64483f6f7aa",
+            "ndownloads": 30,
+            "owner": "bioconda",
+            "size": 1251747,
+            "type": "conda",
+            "upload_time": "2019-08-07 23:28:58.893000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.64.0,<1.65.0",
+                    "bioconductor-annotationdbi >=1.48.0,<1.49.0",
+                    "bioconductor-bigmemoryextras >=1.34.0,<1.35.0",
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-category >=2.52.0,<2.53.0",
+                    "bioconductor-deseq >=1.38.0,<1.39.0",
+                    "bioconductor-genefilter >=1.68.0,<1.69.0",
+                    "bioconductor-gseabase >=1.48.0,<1.49.0",
+                    "bioconductor-gsealm >=1.46.0,<1.47.0",
+                    "bioconductor-limma >=3.42.0,<3.43.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-bigmemory",
+                    "r-matrix >=1.0.9"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572893321912
+            },
+            "basename": "noarch/bioconductor-gcmap-1.30.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bigmemoryextras",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-category",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-deseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gsealm",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.42.0,<3.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bigmemory",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.9"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gcmap/1.30.0/noarch/bioconductor-gcmap-1.30.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gcmap/1.30.0/noarch/bioconductor-gcmap-1.30.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "37b15c6eddb0956696e137f49927cc5c",
+            "ndownloads": 24,
+            "owner": "bioconda",
+            "size": 1259206,
+            "type": "conda",
+            "upload_time": "2019-11-04 18:53:56.833000+00:00",
+            "version": "1.30.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-gcmap",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/gCMAP.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-gcmap",
+    "id": "5c2c970d37f339133f88a16b",
+    "latest_version": "1.30.0",
+    "license": "Artistic-2.0",
+    "license_url": null,
+    "modified_at": "2019-11-04 18:53:57.132000+00:00",
+    "name": "bioconductor-gcmap",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gcmap/1.26.0",
+            "version": "1.26.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gcmap/1.28.0",
+            "version": "1.28.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gcmap/1.30.0",
+            "version": "1.30.0"
+        }
+    ],
+    "revision": 6,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Tools for Connectivity Map-like analyses",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-gcmap",
+    "versions": [
+        "1.26.0",
+        "1.28.0",
+        "1.30.0"
+    ],
+    "watchers": 1
+}

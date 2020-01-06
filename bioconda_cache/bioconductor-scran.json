@@ -1,0 +1,2682 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351hfc679d8_0",
+        "r351h0a44026_0",
+        "r351hf484d3e_0",
+        "0",
+        "r36he1b5a44_0",
+        "r3.4.1_0",
+        "r36h6de7cb9_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2017-09-26 13:49:04.092000+00:00",
+    "description": "Implements functions for low-level analyses of single-cell RNA-seq data. Methods are provided for normalization of cell-specific biases, assignment of cell cycle phase, detection of highly variable and significantly correlated genes, identification of marker genes, and other common tasks in routine single-cell analysis workflows.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocparallel",
+                    "bioconductor-edger",
+                    "bioconductor-limma",
+                    "bioconductor-scater",
+                    "r-base >=3.4",
+                    "r-dt",
+                    "r-dynamictreecut",
+                    "r-fnn",
+                    "r-ggplot2",
+                    "r-igraph",
+                    "r-mass",
+                    "r-matrix",
+                    "r-shiny",
+                    "r-statmod",
+                    "r-viridis",
+                    "r-zoo"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-scran-1.4.5-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dt",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dynamictreecut",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fnn",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-statmod",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zoo",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scran/1.4.5/linux-64/bioconductor-scran-1.4.5-0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scran/1.4.5/linux-64/bioconductor-scran-1.4.5-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "97f88b77bea48b14158c0ba183b8e847",
+            "ndownloads": 639,
+            "owner": "bioconda",
+            "size": 847003,
+            "type": "conda",
+            "upload_time": "2017-09-26 13:49:04.651000+00:00",
+            "version": "1.4.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocparallel",
+                    "bioconductor-edger",
+                    "bioconductor-limma",
+                    "bioconductor-scater",
+                    "r-base >=3.4",
+                    "r-dt",
+                    "r-dynamictreecut",
+                    "r-fnn",
+                    "r-ggplot2",
+                    "r-igraph",
+                    "r-mass",
+                    "r-matrix",
+                    "r-shiny",
+                    "r-statmod",
+                    "r-viridis",
+                    "r-zoo"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-scran-1.4.5-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dt",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dynamictreecut",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fnn",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-statmod",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zoo",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scran/1.4.5/osx-64/bioconductor-scran-1.4.5-0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scran/1.4.5/osx-64/bioconductor-scran-1.4.5-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "eb3a07f266122e82d6e2099cf077cbe3",
+            "ndownloads": 794,
+            "owner": "bioconda",
+            "size": 821632,
+            "type": "conda",
+            "upload_time": "2017-09-26 14:17:05.986000+00:00",
+            "version": "1.4.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics",
+                    "bioconductor-biocparallel",
+                    "bioconductor-edger",
+                    "bioconductor-limma",
+                    "bioconductor-s4vectors",
+                    "bioconductor-scater",
+                    "bioconductor-singlecellexperiment",
+                    "bioconductor-summarizedexperiment",
+                    "r-base 3.4.1*",
+                    "r-dt",
+                    "r-dynamictreecut",
+                    "r-fnn",
+                    "r-ggplot2",
+                    "r-igraph",
+                    "r-mass",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-shiny",
+                    "r-statmod",
+                    "r-viridis",
+                    "r-zoo"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-scran-1.6.2-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dt",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dynamictreecut",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fnn",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-statmod",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zoo",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scran/1.6.2/linux-64/bioconductor-scran-1.6.2-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scran/1.6.2/linux-64/bioconductor-scran-1.6.2-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "89bc0ec2e6a397f82265bd82bac254bd",
+            "ndownloads": 926,
+            "owner": "bioconda",
+            "size": 899067,
+            "type": "conda",
+            "upload_time": "2017-11-13 00:57:34.475000+00:00",
+            "version": "1.6.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-beachmat",
+                    "bioconductor-biocgenerics",
+                    "bioconductor-biocparallel",
+                    "bioconductor-edger",
+                    "bioconductor-limma",
+                    "bioconductor-rhdf5lib",
+                    "bioconductor-s4vectors",
+                    "bioconductor-scater",
+                    "bioconductor-singlecellexperiment",
+                    "bioconductor-summarizedexperiment",
+                    "r-base 3.4.1*",
+                    "r-dt",
+                    "r-dynamictreecut",
+                    "r-fnn",
+                    "r-ggplot2",
+                    "r-igraph",
+                    "r-mass",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-shiny",
+                    "r-statmod",
+                    "r-viridis",
+                    "r-zoo"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-scran-1.6.2-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-beachmat",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rhdf5lib",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dt",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dynamictreecut",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fnn",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-statmod",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zoo",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scran/1.6.2/osx-64/bioconductor-scran-1.6.2-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scran/1.6.2/osx-64/bioconductor-scran-1.6.2-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "16a13011806cfef1f3087c9345bcc107",
+            "ndownloads": 813,
+            "owner": "bioconda",
+            "size": 2169523,
+            "type": "conda",
+            "upload_time": "2017-11-13 10:42:54.988000+00:00",
+            "version": "1.6.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-beachmat >=1.2.1,<1.4.0",
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "bioconductor-biocparallel >=1.14.2,<1.16.0",
+                    "bioconductor-delayedarray >=0.6.6,<0.8.0",
+                    "bioconductor-delayedmatrixstats >=1.2.0,<1.4.0",
+                    "bioconductor-edger >=3.22.4,<3.24.0",
+                    "bioconductor-limma >=3.36.5,<3.38.0",
+                    "bioconductor-rhdf5lib >=1.2.1,<1.4.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "bioconductor-scater >=1.8.4,<1.10.0",
+                    "bioconductor-singlecellexperiment >=1.2.0,<1.4.0",
+                    "bioconductor-summarizedexperiment >=1.10.1,<1.12.0",
+                    "libgcc-ng >=4.9",
+                    "libstdcxx-ng >=4.9",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-dt",
+                    "r-dynamictreecut",
+                    "r-fnn",
+                    "r-ggplot2",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-rcpp >=0.12.14",
+                    "r-shiny",
+                    "r-statmod",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540130944073
+            },
+            "basename": "linux-64/bioconductor-scran-1.8.4-r351hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-beachmat",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.1,<1.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.2,<1.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.6,<0.8.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedmatrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.0,<1.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.22.4,<3.24.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.36.5,<3.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rhdf5lib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.1,<1.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.4,<1.10.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.0,<1.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.1,<1.12.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dt",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dynamictreecut",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fnn",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.14"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-statmod",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scran/1.8.4/linux-64/bioconductor-scran-1.8.4-r351hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scran/1.8.4/linux-64/bioconductor-scran-1.8.4-r351hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "208281e40ddcdbbec79b1f482ff75f8a",
+            "ndownloads": 303,
+            "owner": "bioconda",
+            "size": 1164205,
+            "type": "conda",
+            "upload_time": "2018-10-21 14:13:14.415000+00:00",
+            "version": "1.8.4"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-beachmat >=1.2.1,<1.4.0",
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "bioconductor-biocparallel >=1.14.2,<1.16.0",
+                    "bioconductor-delayedarray >=0.6.6,<0.8.0",
+                    "bioconductor-delayedmatrixstats >=1.2.0,<1.4.0",
+                    "bioconductor-edger >=3.22.4,<3.24.0",
+                    "bioconductor-limma >=3.36.5,<3.38.0",
+                    "bioconductor-rhdf5lib >=1.2.1,<1.4.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "bioconductor-scater >=1.8.4,<1.10.0",
+                    "bioconductor-singlecellexperiment >=1.2.0,<1.4.0",
+                    "bioconductor-summarizedexperiment >=1.10.1,<1.12.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-dt",
+                    "r-dynamictreecut",
+                    "r-fnn",
+                    "r-ggplot2",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-rcpp >=0.12.14",
+                    "r-shiny",
+                    "r-statmod",
+                    "r-viridis"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1540131279771
+            },
+            "basename": "osx-64/bioconductor-scran-1.8.4-r351hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-beachmat",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.1,<1.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.2,<1.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.6,<0.8.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedmatrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.0,<1.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.22.4,<3.24.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.36.5,<3.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rhdf5lib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.1,<1.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.4,<1.10.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.0,<1.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.1,<1.12.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dt",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dynamictreecut",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fnn",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.14"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-statmod",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scran/1.8.4/osx-64/bioconductor-scran-1.8.4-r351hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scran/1.8.4/osx-64/bioconductor-scran-1.8.4-r351hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "4deb305f9d098c4e63407901cf753b9f",
+            "ndownloads": 791,
+            "owner": "bioconda",
+            "size": 2487076,
+            "type": "conda",
+            "upload_time": "2018-10-21 14:16:01.768000+00:00",
+            "version": "1.8.4"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h0a44026_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-beachmat >=1.4.0,<1.5.0",
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "bioconductor-biocneighbors >=1.0.0,<1.1.0",
+                    "bioconductor-biocparallel >=1.16.0,<1.17.0",
+                    "bioconductor-delayedarray >=0.8.0,<0.9.0",
+                    "bioconductor-delayedmatrixstats >=1.4.0,<1.5.0",
+                    "bioconductor-edger >=3.24.0,<3.25.0",
+                    "bioconductor-limma >=3.38.0,<3.39.0",
+                    "bioconductor-rhdf5lib >=1.4.0,<1.5.0",
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "bioconductor-scater >=1.10.0,<1.11.0",
+                    "bioconductor-singlecellexperiment >=1.4.0,<1.5.0",
+                    "bioconductor-summarizedexperiment >=1.12.0,<1.13.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-dynamictreecut",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-rcpp >=0.12.14",
+                    "r-statmod"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1544574320321
+            },
+            "basename": "osx-64/bioconductor-scran-1.10.1-r351h0a44026_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-beachmat",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocneighbors",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0,<1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.8.0,<0.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedmatrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.24.0,<3.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.38.0,<3.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rhdf5lib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dynamictreecut",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.14"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-statmod",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scran/1.10.1/osx-64/bioconductor-scran-1.10.1-r351h0a44026_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scran/1.10.1/osx-64/bioconductor-scran-1.10.1-r351h0a44026_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "59acdcb11ebd6fd87d8b6a8d5ad37174",
+            "ndownloads": 782,
+            "owner": "bioconda",
+            "size": 3308268,
+            "type": "conda",
+            "upload_time": "2018-12-12 00:26:47.489000+00:00",
+            "version": "1.10.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hf484d3e_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-beachmat >=1.4.0,<1.5.0",
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "bioconductor-biocneighbors >=1.0.0,<1.1.0",
+                    "bioconductor-biocparallel >=1.16.0,<1.17.0",
+                    "bioconductor-delayedarray >=0.8.0,<0.9.0",
+                    "bioconductor-delayedmatrixstats >=1.4.0,<1.5.0",
+                    "bioconductor-edger >=3.24.0,<3.25.0",
+                    "bioconductor-limma >=3.38.0,<3.39.0",
+                    "bioconductor-rhdf5lib >=1.4.0,<1.5.0",
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "bioconductor-scater >=1.10.0,<1.11.0",
+                    "bioconductor-singlecellexperiment >=1.4.0,<1.5.0",
+                    "bioconductor-summarizedexperiment >=1.12.0,<1.13.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-dynamictreecut",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-rcpp >=0.12.14",
+                    "r-statmod"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1545432543466
+            },
+            "basename": "linux-64/bioconductor-scran-1.10.1-r351hf484d3e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-beachmat",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocneighbors",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0,<1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.8.0,<0.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedmatrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.24.0,<3.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.38.0,<3.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rhdf5lib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dynamictreecut",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.14"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-statmod",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scran/1.10.1/linux-64/bioconductor-scran-1.10.1-r351hf484d3e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scran/1.10.1/linux-64/bioconductor-scran-1.10.1-r351hf484d3e_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "d35bbcc9644697beddf89ec0a2d325ec",
+            "ndownloads": 679,
+            "owner": "bioconda",
+            "size": 1866875,
+            "type": "conda",
+            "upload_time": "2018-12-21 22:53:06.120000+00:00",
+            "version": "1.10.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-beachmat >=2.0.0,<2.1.0",
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "bioconductor-biocneighbors >=1.2.0,<1.3.0",
+                    "bioconductor-biocparallel >=1.18.0,<1.19.0",
+                    "bioconductor-biocsingular >=1.0.0,<1.1.0",
+                    "bioconductor-delayedarray >=0.10.0,<0.11.0",
+                    "bioconductor-delayedmatrixstats >=1.6.0,<1.7.0",
+                    "bioconductor-edger >=3.26.0,<3.27.0",
+                    "bioconductor-limma >=3.40.0,<3.41.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "bioconductor-scater >=1.12.0,<1.13.0",
+                    "bioconductor-singlecellexperiment >=1.6.0,<1.7.0",
+                    "bioconductor-summarizedexperiment >=1.14.0,<1.15.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-bh",
+                    "r-dqrng",
+                    "r-dynamictreecut",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-rcpp >=0.12.14",
+                    "r-statmod"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1564745954518
+            },
+            "basename": "osx-64/bioconductor-scran-1.12.1-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-beachmat",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocneighbors",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.0,<1.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocsingular",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0,<1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0,<0.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedmatrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.26.0,<3.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.40.0,<3.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dqrng",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dynamictreecut",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.14"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-statmod",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scran/1.12.1/osx-64/bioconductor-scran-1.12.1-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scran/1.12.1/osx-64/bioconductor-scran-1.12.1-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "129d0d0f9e0c82194f26a3d3dbc09806",
+            "ndownloads": 334,
+            "owner": "bioconda",
+            "size": 1903671,
+            "type": "conda",
+            "upload_time": "2019-08-02 11:40:26.795000+00:00",
+            "version": "1.12.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-beachmat >=2.0.0,<2.1.0",
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "bioconductor-biocneighbors >=1.2.0,<1.3.0",
+                    "bioconductor-biocparallel >=1.18.0,<1.19.0",
+                    "bioconductor-biocsingular >=1.0.0,<1.1.0",
+                    "bioconductor-delayedarray >=0.10.0,<0.11.0",
+                    "bioconductor-delayedmatrixstats >=1.6.0,<1.7.0",
+                    "bioconductor-edger >=3.26.0,<3.27.0",
+                    "bioconductor-limma >=3.40.0,<3.41.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "bioconductor-scater >=1.12.0,<1.13.0",
+                    "bioconductor-singlecellexperiment >=1.6.0,<1.7.0",
+                    "bioconductor-summarizedexperiment >=1.14.0,<1.15.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-bh",
+                    "r-dqrng",
+                    "r-dynamictreecut",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-rcpp >=0.12.14",
+                    "r-statmod"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1565972157951
+            },
+            "basename": "linux-64/bioconductor-scran-1.12.1-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-beachmat",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocneighbors",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.0,<1.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocsingular",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0,<1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0,<0.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedmatrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.26.0,<3.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.40.0,<3.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dqrng",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dynamictreecut",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.14"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-statmod",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scran/1.12.1/linux-64/bioconductor-scran-1.12.1-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scran/1.12.1/linux-64/bioconductor-scran-1.12.1-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "fca859607e7f02826c5d4bde38f70dff",
+            "ndownloads": 219,
+            "owner": "bioconda",
+            "size": 1947716,
+            "type": "conda",
+            "upload_time": "2019-08-16 16:21:24.852000+00:00",
+            "version": "1.12.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-beachmat >=2.2.0,<2.3.0",
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-biocneighbors >=1.4.0,<1.5.0",
+                    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+                    "bioconductor-biocsingular >=1.2.0,<1.3.0",
+                    "bioconductor-delayedarray >=0.12.0,<0.13.0",
+                    "bioconductor-delayedmatrixstats >=1.8.0,<1.9.0",
+                    "bioconductor-edger >=3.28.0,<3.29.0",
+                    "bioconductor-limma >=3.42.0,<3.43.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "bioconductor-scater >=1.14.0,<1.15.0",
+                    "bioconductor-singlecellexperiment >=1.8.0,<1.9.0",
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-bh",
+                    "r-dqrng",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-statmod"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572704263118
+            },
+            "basename": "osx-64/bioconductor-scran-1.14.0-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-beachmat",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocneighbors",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocsingular",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.0,<1.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.0,<0.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedmatrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.28.0,<3.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.42.0,<3.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dqrng",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-statmod",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scran/1.14.0/osx-64/bioconductor-scran-1.14.0-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scran/1.14.0/osx-64/bioconductor-scran-1.14.0-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7f71d0654d8b7f67af77394fa4b839c7",
+            "ndownloads": 156,
+            "owner": "bioconda",
+            "size": 1792704,
+            "type": "conda",
+            "upload_time": "2019-11-02 14:18:59.540000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-beachmat >=2.2.0,<2.3.0",
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-biocneighbors >=1.4.0,<1.5.0",
+                    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+                    "bioconductor-biocsingular >=1.2.0,<1.3.0",
+                    "bioconductor-delayedarray >=0.12.0,<0.13.0",
+                    "bioconductor-delayedmatrixstats >=1.8.0,<1.9.0",
+                    "bioconductor-edger >=3.28.0,<3.29.0",
+                    "bioconductor-limma >=3.42.0,<3.43.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "bioconductor-scater >=1.14.0,<1.15.0",
+                    "bioconductor-singlecellexperiment >=1.8.0,<1.9.0",
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-bh",
+                    "r-dqrng",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-statmod"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572941257310
+            },
+            "basename": "linux-64/bioconductor-scran-1.14.1-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-beachmat",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocneighbors",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocsingular",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.0,<1.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.0,<0.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedmatrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.28.0,<3.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.42.0,<3.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dqrng",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-statmod",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scran/1.14.1/linux-64/bioconductor-scran-1.14.1-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scran/1.14.1/linux-64/bioconductor-scran-1.14.1-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4775ec59aad125b415aae43c46d1814d",
+            "ndownloads": 87,
+            "owner": "bioconda",
+            "size": 2474671,
+            "type": "conda",
+            "upload_time": "2019-11-05 08:14:17.993000+00:00",
+            "version": "1.14.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-beachmat >=2.2.0,<2.3.0",
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-biocneighbors >=1.4.0,<1.5.0",
+                    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+                    "bioconductor-biocsingular >=1.2.0,<1.3.0",
+                    "bioconductor-delayedarray >=0.12.0,<0.13.0",
+                    "bioconductor-delayedmatrixstats >=1.8.0,<1.9.0",
+                    "bioconductor-edger >=3.28.0,<3.29.0",
+                    "bioconductor-limma >=3.42.0,<3.43.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "bioconductor-scater >=1.14.0,<1.15.0",
+                    "bioconductor-singlecellexperiment >=1.8.0,<1.9.0",
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-bh",
+                    "r-dqrng",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-statmod"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1573027495941
+            },
+            "basename": "osx-64/bioconductor-scran-1.14.1-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-beachmat",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocneighbors",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocsingular",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.0,<1.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.0,<0.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedmatrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.28.0,<3.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.42.0,<3.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dqrng",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-statmod",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scran/1.14.1/osx-64/bioconductor-scran-1.14.1-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scran/1.14.1/osx-64/bioconductor-scran-1.14.1-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8bc6012a1e8d7713d25476b794253ac7",
+            "ndownloads": 171,
+            "owner": "bioconda",
+            "size": 2468337,
+            "type": "conda",
+            "upload_time": "2019-11-06 08:06:16.870000+00:00",
+            "version": "1.14.1"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-scran",
+    "home": "http://bioconductor.org/packages/3.5/bioc/html/scran.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-scran",
+    "id": "59ca5ad0e728e311965d89ca",
+    "latest_version": "1.14.1",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2019-11-06 08:06:17.435000+00:00",
+    "name": "bioconductor-scran",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scran/1.4.5",
+            "version": "1.4.5"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scran/1.6.2",
+            "version": "1.6.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scran/1.8.4",
+            "version": "1.8.4"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scran/1.10.1",
+            "version": "1.10.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scran/1.12.1",
+            "version": "1.12.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scran/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scran/1.14.1",
+            "version": "1.14.1"
+        }
+    ],
+    "revision": 14,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Methods for Single-Cell RNA-Seq Data Analysis",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-scran",
+    "versions": [
+        "1.4.5",
+        "1.6.2",
+        "1.8.4",
+        "1.10.1",
+        "1.12.1",
+        "1.14.0",
+        "1.14.1"
+    ],
+    "watchers": 1
+}

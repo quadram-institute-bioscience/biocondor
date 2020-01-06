@@ -1,0 +1,301 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351_0",
+        "r36_0",
+        "r361_1"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-01-09 06:13:25.429000+00:00",
+    "description": "Gene Set Knowledgebase (GSKB) is a comprehensive knowledgebase for pathway analysis in mouse. Interpretation of high-throughput genomics data based on biological pathways constitutes a constant challenge, partly because of the lack of supporting pathway database. We created a functional genomics knowledgebase in mouse, which includes 33,261 pathways and gene sets compiled from 40 sources such as Gene Ontology, KEGG, GeneSetDB, PANTHER, microRNA and transcription factor target genes, etc.  In addition, we also manually collected and curated 8,747 lists of differentially expressed genes from 2,526 published gene expression studies to enable the detection of similarity to previously reported gene expression signatures. These two types of data constitute a comprehensive Gene Set Knowledgebase (GSKB), which can be readily used by various pathway analysis software such as gene set enrichment analysis (GSEA). As a first step, we gathered annotation information from 40 existing databases for mouse-related gene sets. These gene sets are divided into 7 categories, namely, Gene Ontology, Curated pathways, Metabolic Pathways, Transcription Factor (TF) and microRNA target genes, location (cytogenetics band), and others. We used information in GeneSetDB for some of the databases. Detailed information on these 40 sources and the citations is available http://ge-lab.org/gskb/Table%201-sources.pdf . The gene lists from literature were retrieved manually from individual gene expression studies through a process similar to the one used to create AraPath, a similar resource for Arabidopsis[12]. As most expression studies upload raw data to repositories like GEO and ArrayExpress, we used the meta-data in these databases to search for publications. We scanned all datasets we can found and retrieved 4,313 potentially useful papers reporting gene expression studies in mouse. These papers were individually read by curators to identify lists of differentially expressed genes in various conditions. We compiled a total of 8,747 lists of differently expressed genes from 2,518 of papers. Each gene list was annotated with a unique name, brief description, and publication information, similar to the protocol used in MSigDB and Arapath.  These gene lists constitute a large collection of published gene expression signatures that form a foundation for interpret new gene lists and expression profiles. More information about this data is available here http://ge-lab.org/gskb/. There is also a paper describing these data are currently in revision by Database: The Journal of Biological Databases and Curation.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "wget"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1547014245123
+            },
+            "basename": "noarch/bioconductor-gskb-1.14.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "wget",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gskb/1.14.0/noarch/bioconductor-gskb-1.14.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gskb/1.14.0/noarch/bioconductor-gskb-1.14.0-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "c7791b57de312ac17463ea49b2cc6107",
+            "ndownloads": 64,
+            "owner": "bioconda",
+            "size": 7828,
+            "type": "conda",
+            "upload_time": "2019-01-09 06:13:26.207000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "curl >=7.64.1,<8.0a0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1557877256872
+            },
+            "basename": "noarch/bioconductor-gskb-1.16.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "curl",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.64.1,<8.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gskb/1.16.0/noarch/bioconductor-gskb-1.16.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gskb/1.16.0/noarch/bioconductor-gskb-1.16.0-r351_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f274673da682ace13bd77e737edb22c7",
+            "ndownloads": 60,
+            "owner": "bioconda",
+            "size": 7771,
+            "type": "conda",
+            "upload_time": "2019-05-14 23:44:56.098000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r361_1",
+                "build_number": 1,
+                "depends": [
+                    "curl >=7.64.1,<8.0a0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1563191927394
+            },
+            "basename": "noarch/bioconductor-gskb-1.16.0-r361_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "curl",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.64.1,<8.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gskb/1.16.0/noarch/bioconductor-gskb-1.16.0-r361_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-gskb/1.16.0/noarch/bioconductor-gskb-1.16.0-r361_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a0bfb938479b7d8e75718e15c3af901d",
+            "ndownloads": 25,
+            "owner": "bioconda",
+            "size": 8052,
+            "type": "conda",
+            "upload_time": "2019-07-15 12:02:46.733000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "curl >=7.65.3,<8.0a0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1573068789185
+            },
+            "basename": "noarch/bioconductor-gskb-1.18.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "curl",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.65.3,<8.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gskb/1.18.0/noarch/bioconductor-gskb-1.18.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gskb/1.18.0/noarch/bioconductor-gskb-1.18.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "518f9686f7c50a1595f3d205b66d3c17",
+            "ndownloads": 25,
+            "owner": "bioconda",
+            "size": 8201,
+            "type": "conda",
+            "upload_time": "2019-11-06 19:38:15.004000+00:00",
+            "version": "1.18.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-gskb",
+    "home": "https://bioconductor.org/packages/3.8/data/experiment/html/gskb.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-gskb",
+    "id": "5c359105d9c2cf135257bae3",
+    "latest_version": "1.18.0",
+    "license": "Artistic-2.0",
+    "license_url": null,
+    "modified_at": "2019-11-06 23:24:18.129000+00:00",
+    "name": "bioconductor-gskb",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gskb/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gskb/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gskb/1.17.0",
+            "version": "1.17.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gskb/1.18.0",
+            "version": "1.18.0"
+        }
+    ],
+    "revision": 8,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Gene Set data for pathway analysis in mouse",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-gskb",
+    "versions": [
+        "1.14.0",
+        "1.16.0",
+        "1.17.0",
+        "1.18.0"
+    ],
+    "watchers": 1
+}

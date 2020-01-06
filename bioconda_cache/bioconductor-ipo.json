@@ -1,0 +1,891 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r3.3.1_0",
+        "r36_1",
+        "r36_0",
+        "r3.3.2_0",
+        "r351_0",
+        "r351_1",
+        "r3.4.1_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "noarch",
+        "osx-64"
+    ],
+    "created_at": "2017-04-12 15:32:27.558000+00:00",
+    "description": "The outcome of XCMS data processing strongly depends on the parameter settings. IPO (`Isotopologue Parameter Optimization`) is a parameter optimization tool that is applicable for different kinds of samples and liquid chromatography coupled to high resolution mass spectrometry devices, fast and free of labeling steps. IPO uses natural, stable 13C isotopes to calculate a peak picking score. Retention time correction is optimized by minimizing the relative retention time differences within features and grouping parameters are optimized by maximizing the number of features showing exactly one peak from each injection of a pooled sample. The different parameter settings are achieved by design of experiment. The resulting scores are evaluated using response surface models.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel",
+                    "bioconductor-camera",
+                    "bioconductor-xcms >=1.50.0",
+                    "r-base 3.4.1*",
+                    "r-rsm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2) + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-ipo-1.2.2-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-camera",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rsm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ipo/1.2.2/osx-64/bioconductor-ipo-1.2.2-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-ipo/1.2.2/osx-64/bioconductor-ipo-1.2.2-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "85d6b383793bb5bdf1847ab0f4e61f52",
+            "ndownloads": 742,
+            "owner": "bioconda",
+            "size": 666377,
+            "type": "conda",
+            "upload_time": "2017-10-21 14:24:24.648000+00:00",
+            "version": "1.2.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-camera",
+                    "bioconductor-xcms",
+                    "r-base 3.3.1*",
+                    "r-rsm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2) + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-ipo-1.0.0-r3.3.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-camera",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rsm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ipo/1.0.0/linux-64/bioconductor-ipo-1.0.0-r3.3.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-ipo/1.0.0/linux-64/bioconductor-ipo-1.0.0-r3.3.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "2ac4a4429208a0eda4de21b978785655",
+            "ndownloads": 770,
+            "owner": "bioconda",
+            "size": 106623,
+            "type": "conda",
+            "upload_time": "2017-04-12 15:32:28.124000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.2_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-camera",
+                    "bioconductor-xcms",
+                    "r-base 3.3.2*",
+                    "r-rsm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2) + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-ipo-1.0.0-r3.3.2_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-camera",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rsm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ipo/1.0.0/linux-64/bioconductor-ipo-1.0.0-r3.3.2_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-ipo/1.0.0/linux-64/bioconductor-ipo-1.0.0-r3.3.2_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "ad5d5902ffc147db751eee8331c740be",
+            "ndownloads": 453,
+            "owner": "bioconda",
+            "size": 111728,
+            "type": "conda",
+            "upload_time": "2017-06-15 07:54:15.873000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-camera",
+                    "bioconductor-xcms",
+                    "r-base 3.4.1*",
+                    "r-rsm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2) + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-ipo-1.0.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-camera",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rsm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ipo/1.0.0/linux-64/bioconductor-ipo-1.0.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-ipo/1.0.0/linux-64/bioconductor-ipo-1.0.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "3865560a456fd9bacf590bbf15a3e83b",
+            "ndownloads": 896,
+            "owner": "bioconda",
+            "size": 111384,
+            "type": "conda",
+            "upload_time": "2017-09-22 22:54:49.611000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel",
+                    "bioconductor-camera",
+                    "bioconductor-xcms >=1.50.0",
+                    "r-base 3.4.1*",
+                    "r-rsm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2) + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-ipo-1.2.2-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-camera",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rsm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ipo/1.2.2/linux-64/bioconductor-ipo-1.2.2-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-ipo/1.2.2/linux-64/bioconductor-ipo-1.2.2-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "6b49cfbf97c257af18a0b58cc8ceb227",
+            "ndownloads": 558,
+            "owner": "bioconda",
+            "size": 667370,
+            "type": "conda",
+            "upload_time": "2017-10-19 03:32:48.552000+00:00",
+            "version": "1.2.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel",
+                    "bioconductor-camera",
+                    "bioconductor-xcms >=1.50.0",
+                    "r-base 3.4.1*",
+                    "r-rsm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2) + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-ipo-1.4.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-camera",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rsm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ipo/1.4.0/osx-64/bioconductor-ipo-1.4.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-ipo/1.4.0/osx-64/bioconductor-ipo-1.4.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "3e1d7d8469ffa8c86e74712170254b15",
+            "ndownloads": 767,
+            "owner": "bioconda",
+            "size": 669741,
+            "type": "conda",
+            "upload_time": "2017-11-11 14:13:36.389000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel",
+                    "bioconductor-camera",
+                    "bioconductor-xcms >=1.50.0",
+                    "r-base 3.4.1*",
+                    "r-rsm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2) + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-ipo-1.4.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-camera",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rsm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ipo/1.4.0/linux-64/bioconductor-ipo-1.4.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-ipo/1.4.0/linux-64/bioconductor-ipo-1.4.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "5363f59c2984be387cf3be5c4a96892e",
+            "ndownloads": 557,
+            "owner": "bioconda",
+            "size": 670429,
+            "type": "conda",
+            "upload_time": "2017-11-12 23:36:15.442000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.16.0,<1.17.0",
+                    "bioconductor-camera >=1.38.0,<1.39.0",
+                    "bioconductor-xcms >=3.4.0,<3.5.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-rsm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2) + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1546871891492
+            },
+            "basename": "noarch/bioconductor-ipo-1.8.1-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-camera",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.0,<3.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rsm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ipo/1.8.1/noarch/bioconductor-ipo-1.8.1-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-ipo/1.8.1/noarch/bioconductor-ipo-1.8.1-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "d58b49c4d6c21b43ca1a04ab2a2e1c31",
+            "ndownloads": 78,
+            "owner": "bioconda",
+            "size": 736931,
+            "type": "conda",
+            "upload_time": "2019-01-07 14:43:12.166000+00:00",
+            "version": "1.8.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocparallel >=1.16.0,<1.17.0",
+                    "bioconductor-camera >=1.38.0,<1.39.0",
+                    "bioconductor-xcms >=3.4.0,<3.5.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-rsm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2) + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1552422970419
+            },
+            "basename": "noarch/bioconductor-ipo-1.8.1-r351_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-camera",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.0,<3.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rsm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ipo/1.8.1/noarch/bioconductor-ipo-1.8.1-r351_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-ipo/1.8.1/noarch/bioconductor-ipo-1.8.1-r351_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b65f874fd36fcbf4f87a71b3e10ac5c7",
+            "ndownloads": 80,
+            "owner": "bioconda",
+            "size": 736162,
+            "type": "conda",
+            "upload_time": "2019-03-12 20:41:28.953000+00:00",
+            "version": "1.8.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocparallel >=1.18.0,<1.19.0",
+                    "bioconductor-camera >=1.40.0,<1.41.0",
+                    "bioconductor-xcms >=3.6.0,<3.7.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-rsm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2) + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1564334214555
+            },
+            "basename": "noarch/bioconductor-ipo-1.10.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-camera",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6.0,<3.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rsm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ipo/1.10.0/noarch/bioconductor-ipo-1.10.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-ipo/1.10.0/noarch/bioconductor-ipo-1.10.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4c2346eb7886ba70846dfff3bbdf2618",
+            "ndownloads": 99,
+            "owner": "bioconda",
+            "size": 741893,
+            "type": "conda",
+            "upload_time": "2019-07-28 17:23:06.893000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+                    "bioconductor-camera >=1.42.0,<1.43.0",
+                    "bioconductor-xcms >=3.8.0,<3.9.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-rsm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2) + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572861078489
+            },
+            "basename": "noarch/bioconductor-ipo-1.12.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-camera",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rsm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ipo/1.12.0/noarch/bioconductor-ipo-1.12.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-ipo/1.12.0/noarch/bioconductor-ipo-1.12.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "10180a0d74d9aad2d42fc58c1b6cc3f8",
+            "ndownloads": 19,
+            "owner": "bioconda",
+            "size": 746900,
+            "type": "conda",
+            "upload_time": "2019-11-04 09:57:55.548000+00:00",
+            "version": "1.12.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-ipo",
+    "home": "None",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-ipo",
+    "id": "58ee488bfe2ee046e738def9",
+    "latest_version": "1.12.0",
+    "license": "GPL (>= 2) + file LICENSE",
+    "license_url": null,
+    "modified_at": "2019-11-04 09:57:55.905000+00:00",
+    "name": "bioconductor-ipo",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-ipo/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-ipo/1.2.2",
+            "version": "1.2.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-ipo/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-ipo/1.8.1",
+            "version": "1.8.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-ipo/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-ipo/1.12.0",
+            "version": "1.12.0"
+        }
+    ],
+    "revision": 12,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Automated Optimization of XCMS Data Processing parameters",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-ipo",
+    "versions": [
+        "1.0.0",
+        "1.2.2",
+        "1.4.0",
+        "1.8.1",
+        "1.10.0",
+        "1.12.0"
+    ],
+    "watchers": 1
+}

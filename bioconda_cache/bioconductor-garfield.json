@@ -1,0 +1,565 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351h0a44026_0",
+        "r351hf484d3e_0",
+        "r36he1b5a44_1",
+        "r36he1b5a44_0",
+        "r36h6de7cb9_1",
+        "r36h6de7cb9_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2018-12-10 02:48:25.652000+00:00",
+    "description": "GARFIELD is a non-parametric functional enrichment analysis approach described in the paper GARFIELD: GWAS analysis of regulatory or functional information enrichment with LD correction. Briefly, it is a method that leverages GWAS findings with regulatory or functional annotations (primarily from ENCODE and Roadmap epigenomics data) to find features relevant to a phenotype of interest. It performs greedy pruning of GWAS SNPs (LD r2 > 0.1) and then annotates them based on functional information overlap. Next, it quantifies Fold Enrichment (FE) at various GWAS significance cutoffs and assesses them by permutation testing, while matching for minor allele frequency, distance to nearest transcription start site and number of LD proxies (r2 > 0.8).",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hf484d3e_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1546998213159
+            },
+            "basename": "linux-64/bioconductor-garfield-1.10.0-r351hf484d3e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-garfield/1.10.0/linux-64/bioconductor-garfield-1.10.0-r351hf484d3e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-garfield/1.10.0/linux-64/bioconductor-garfield-1.10.0-r351hf484d3e_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "744d030a4e8e859d0750c99776400021",
+            "ndownloads": 88,
+            "owner": "bioconda",
+            "size": 435901,
+            "type": "conda",
+            "upload_time": "2019-01-09 01:46:10.985000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h0a44026_0",
+                "build_number": 0,
+                "depends": [
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1544410059570
+            },
+            "basename": "osx-64/bioconductor-garfield-1.10.0-r351h0a44026_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-garfield/1.10.0/osx-64/bioconductor-garfield-1.10.0-r351h0a44026_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-garfield/1.10.0/osx-64/bioconductor-garfield-1.10.0-r351h0a44026_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "d8a8ba5bb402c96aef62a97c641f8f80",
+            "ndownloads": 691,
+            "owner": "bioconda",
+            "size": 446105,
+            "type": "conda",
+            "upload_time": "2018-12-10 02:48:26.486000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h0a44026_0",
+                "build_number": 0,
+                "depends": [
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1557419995248
+            },
+            "basename": "osx-64/bioconductor-garfield-1.12.0-r351h0a44026_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-garfield/1.12.0/osx-64/bioconductor-garfield-1.12.0-r351h0a44026_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-garfield/1.12.0/osx-64/bioconductor-garfield-1.12.0-r351h0a44026_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c9052c0c2561b821b150a5c3c7c4c49a",
+            "ndownloads": 159,
+            "owner": "bioconda",
+            "size": 530533,
+            "type": "conda",
+            "upload_time": "2019-05-09 16:40:38.968000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hf484d3e_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1557600797145
+            },
+            "basename": "linux-64/bioconductor-garfield-1.12.0-r351hf484d3e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-garfield/1.12.0/linux-64/bioconductor-garfield-1.12.0-r351hf484d3e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-garfield/1.12.0/linux-64/bioconductor-garfield-1.12.0-r351hf484d3e_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "273f89fa50f73dbfc58b65717bf00f6d",
+            "ndownloads": 72,
+            "owner": "bioconda",
+            "size": 436493,
+            "type": "conda",
+            "upload_time": "2019-05-11 18:57:20.856000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_1",
+                "build_number": 1,
+                "depends": [
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1563343537007
+            },
+            "basename": "osx-64/bioconductor-garfield-1.12.0-r36h6de7cb9_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-garfield/1.12.0/osx-64/bioconductor-garfield-1.12.0-r36h6de7cb9_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-garfield/1.12.0/osx-64/bioconductor-garfield-1.12.0-r36h6de7cb9_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0d19e1d3c993d32bd381c22126df3ad3",
+            "ndownloads": 367,
+            "owner": "bioconda",
+            "size": 439279,
+            "type": "conda",
+            "upload_time": "2019-07-17 06:06:17.943000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_1",
+                "build_number": 1,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1563447136281
+            },
+            "basename": "linux-64/bioconductor-garfield-1.12.0-r36he1b5a44_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-garfield/1.12.0/linux-64/bioconductor-garfield-1.12.0-r36he1b5a44_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-garfield/1.12.0/linux-64/bioconductor-garfield-1.12.0-r36he1b5a44_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d428575affaf31d187773d67f329f0eb",
+            "ndownloads": 39,
+            "owner": "bioconda",
+            "size": 437198,
+            "type": "conda",
+            "upload_time": "2019-07-18 10:56:17.661000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572595720814
+            },
+            "basename": "osx-64/bioconductor-garfield-1.14.0-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-garfield/1.14.0/osx-64/bioconductor-garfield-1.14.0-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-garfield/1.14.0/osx-64/bioconductor-garfield-1.14.0-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b394e50a34cb014efbe53c49fb698084",
+            "ndownloads": 158,
+            "owner": "bioconda",
+            "size": 450772,
+            "type": "conda",
+            "upload_time": "2019-11-01 08:15:01.339000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572613743260
+            },
+            "basename": "linux-64/bioconductor-garfield-1.14.0-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-garfield/1.14.0/linux-64/bioconductor-garfield-1.14.0-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-garfield/1.14.0/linux-64/bioconductor-garfield-1.14.0-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "cbeaa4ea5bd2d0914ffb196d593436cd",
+            "ndownloads": 30,
+            "owner": "bioconda",
+            "size": 453234,
+            "type": "conda",
+            "upload_time": "2019-11-01 13:14:09.140000+00:00",
+            "version": "1.14.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-garfield",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/garfield.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-garfield",
+    "id": "5c0dd3f9d9c2cf1352600d48",
+    "latest_version": "1.14.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2019-11-01 13:14:09.470000+00:00",
+    "name": "bioconductor-garfield",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-garfield/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-garfield/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-garfield/1.14.0",
+            "version": "1.14.0"
+        }
+    ],
+    "revision": 6,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "GWAS Analysis of Regulatory or Functional Information Enrichment with LD correction",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-garfield",
+    "versions": [
+        "1.10.0",
+        "1.12.0",
+        "1.14.0"
+    ],
+    "watchers": 1
+}

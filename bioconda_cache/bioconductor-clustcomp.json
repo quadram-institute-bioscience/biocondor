@@ -1,0 +1,606 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351_0",
+        "r36_1",
+        "r341_0",
+        "r3.4.1_0",
+        "r36_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "noarch",
+        "osx-64"
+    ],
+    "created_at": "2018-02-18 16:28:18.279000+00:00",
+    "description": "clustComp is a package that implements several techniques for the comparison and visualisation of relationships between different clustering results, either flat versus flat or hierarchical versus flat. These relationships among clusters are displayed using a weighted bi-graph, in which the nodes represent the clusters and the edges connect pairs of nodes with non-empty intersection; the weight of each edge is the number of elements in that intersection and is displayed through the edge thickness. The best layout of the bi-graph is provided by the barycentre algorithm, which minimises the weighted number of crossings. In the case of comparing a hierarchical and a non-hierarchical clustering, the dendrogram is pruned at different heights, selected by exploring the tree by depth-first search, starting at the root. Branches are decided to be split according to the value of a scoring function, that can be based either on the aesthetics of the bi-graph or on the mutual information between the hierarchical and the flat clusterings. A mapping between groups of clusters from each side is constructed with a greedy algorithm, and can be additionally visualised.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "r-sm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540783284870
+            },
+            "basename": "linux-64/bioconductor-clustcomp-1.8.0-r341_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-sm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-clustcomp/1.8.0/linux-64/bioconductor-clustcomp-1.8.0-r341_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-clustcomp/1.8.0/linux-64/bioconductor-clustcomp-1.8.0-r341_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "0a48bfc7d98418ca0bba70c09eb10556",
+            "ndownloads": 190,
+            "owner": "bioconda",
+            "size": 969861,
+            "type": "conda",
+            "upload_time": "2018-10-29 03:27:01.421000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-sm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1540594654260
+            },
+            "basename": "osx-64/bioconductor-clustcomp-1.8.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-sm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-clustcomp/1.8.0/osx-64/bioconductor-clustcomp-1.8.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-clustcomp/1.8.0/osx-64/bioconductor-clustcomp-1.8.0-r351_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "365d973c8bea2b6146a1134251f5f218",
+            "ndownloads": 774,
+            "owner": "bioconda",
+            "size": 1023142,
+            "type": "conda",
+            "upload_time": "2018-10-26 22:59:30.871000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-sm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540783336682
+            },
+            "basename": "linux-64/bioconductor-clustcomp-1.8.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-sm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-clustcomp/1.8.0/linux-64/bioconductor-clustcomp-1.8.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-clustcomp/1.8.0/linux-64/bioconductor-clustcomp-1.8.0-r351_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "104d48e89ca3c7cb41ac9f73bdc76055",
+            "ndownloads": 199,
+            "owner": "bioconda",
+            "size": 1022639,
+            "type": "conda",
+            "upload_time": "2018-10-29 03:26:58.204000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base 3.4.1*",
+                    "r-sm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-clustcomp-1.6.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-sm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-clustcomp/1.6.0/linux-64/bioconductor-clustcomp-1.6.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-clustcomp/1.6.0/linux-64/bioconductor-clustcomp-1.6.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "84b7099c9da566192dad17e227a93d02",
+            "ndownloads": 332,
+            "owner": "bioconda",
+            "size": 969296,
+            "type": "conda",
+            "upload_time": "2018-02-18 16:29:07.635000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base 3.4.1*",
+                    "r-sm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-clustcomp-1.6.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-sm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-clustcomp/1.6.0/osx-64/bioconductor-clustcomp-1.6.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-clustcomp/1.6.0/osx-64/bioconductor-clustcomp-1.6.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "ec5a6688f379e509425385f8333f3f63",
+            "ndownloads": 770,
+            "owner": "bioconda",
+            "size": 969381,
+            "type": "conda",
+            "upload_time": "2018-02-18 16:28:18.805000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "r-sm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1540594726081
+            },
+            "basename": "osx-64/bioconductor-clustcomp-1.8.0-r341_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-sm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-clustcomp/1.8.0/osx-64/bioconductor-clustcomp-1.8.0-r341_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-clustcomp/1.8.0/osx-64/bioconductor-clustcomp-1.8.0-r341_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "f3682ce9f5cababe5c4ff2a3c28aaf2d",
+            "ndownloads": 29,
+            "owner": "bioconda",
+            "size": 970255,
+            "type": "conda",
+            "upload_time": "2018-10-26 22:59:25.807000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-sm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1546968528862
+            },
+            "basename": "noarch/bioconductor-clustcomp-1.10.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-sm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-clustcomp/1.10.0/noarch/bioconductor-clustcomp-1.10.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-clustcomp/1.10.0/noarch/bioconductor-clustcomp-1.10.0-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "f46dc2bb75f8bc4354399c981bb976d3",
+            "ndownloads": 78,
+            "owner": "bioconda",
+            "size": 1026003,
+            "type": "conda",
+            "upload_time": "2019-01-08 17:31:30.487000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-sm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1557607130315
+            },
+            "basename": "noarch/bioconductor-clustcomp-1.12.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-sm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-clustcomp/1.12.0/noarch/bioconductor-clustcomp-1.12.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-clustcomp/1.12.0/noarch/bioconductor-clustcomp-1.12.0-r351_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a4b900a63a15d20d11d8d66d35159a9f",
+            "ndownloads": 67,
+            "owner": "bioconda",
+            "size": 1028481,
+            "type": "conda",
+            "upload_time": "2019-05-11 20:42:53.047000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-sm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1563479828363
+            },
+            "basename": "noarch/bioconductor-clustcomp-1.12.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-sm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-clustcomp/1.12.0/noarch/bioconductor-clustcomp-1.12.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-clustcomp/1.12.0/noarch/bioconductor-clustcomp-1.12.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0cc222e9a101a83620410447444df49e",
+            "ndownloads": 34,
+            "owner": "bioconda",
+            "size": 1028707,
+            "type": "conda",
+            "upload_time": "2019-07-18 20:01:04.268000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-sm"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572612192664
+            },
+            "basename": "noarch/bioconductor-clustcomp-1.14.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-sm",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-clustcomp/1.14.0/noarch/bioconductor-clustcomp-1.14.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-clustcomp/1.14.0/noarch/bioconductor-clustcomp-1.14.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2ff2a1a7c9e39fa96d009b7058306c48",
+            "ndownloads": 19,
+            "owner": "bioconda",
+            "size": 1040444,
+            "type": "conda",
+            "upload_time": "2019-11-01 12:48:18.742000+00:00",
+            "version": "1.14.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-clustcomp",
+    "home": "http://bioconductor.org/packages/3.6/bioc/html/clustComp.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-clustcomp",
+    "id": "5a89a9a2baec3611fd433e26",
+    "latest_version": "1.14.0",
+    "license": "GPL (>= 2)",
+    "license_url": null,
+    "modified_at": "2019-11-01 12:48:19.056000+00:00",
+    "name": "bioconductor-clustcomp",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-clustcomp/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-clustcomp/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-clustcomp/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-clustcomp/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-clustcomp/1.14.0",
+            "version": "1.14.0"
+        }
+    ],
+    "revision": 10,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Clustering Comparison Package",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-clustcomp",
+    "versions": [
+        "1.6.0",
+        "1.8.0",
+        "1.10.0",
+        "1.12.0",
+        "1.14.0"
+    ],
+    "watchers": 1
+}

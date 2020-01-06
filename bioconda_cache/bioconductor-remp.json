@@ -1,0 +1,523 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r36_1",
+        "r36_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-08-17 03:51:59.470000+00:00",
+    "description": "Machine learning-based tools to predict DNA methylation of locus-specific repetitive elements (RE) by learning surrounding genetic and epigenetic information. These tools provide genomewide and single-base resolution of DNA methylation prediction on RE that are difficult to measure using array-based or sequencing-based platforms, which enables epigenome-wide association study (EWAS) and differentially methylated region (DMR) analysis on RE.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotationhub >=2.16.0,<2.17.0",
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "bioconductor-biocparallel >=1.18.0,<1.19.0",
+                    "bioconductor-biostrings >=2.52.0,<2.53.0",
+                    "bioconductor-bsgenome >=1.52.0,<1.53.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-genomicranges >=1.36.0,<1.37.0",
+                    "bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19 >=0.6.0,<0.7.0",
+                    "bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19 >=0.6.0,<0.7.0",
+                    "bioconductor-impute >=1.58.0,<1.59.0",
+                    "bioconductor-iranges >=2.18.0,<2.19.0",
+                    "bioconductor-minfi >=1.30.0,<1.31.0",
+                    "bioconductor-org.hs.eg.db >=3.8.0,<3.9.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "bioconductor-summarizedexperiment >=1.14.0,<1.15.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-caret",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-iterators",
+                    "r-kernlab",
+                    "r-ranger",
+                    "r-settings"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1566012304690
+            },
+            "basename": "noarch/bioconductor-remp-1.8.1-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationhub",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg19",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.0,<0.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.0,<0.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-impute",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-minfi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-caret",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-iterators",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kernlab",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ranger",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-settings",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-remp/1.8.1/noarch/bioconductor-remp-1.8.1-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-remp/1.8.1/noarch/bioconductor-remp-1.8.1-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f3a24aea1c6a439640fdd3a8a1ae209d",
+            "ndownloads": 27,
+            "owner": "bioconda",
+            "size": 623954,
+            "type": "conda",
+            "upload_time": "2019-08-17 03:52:00.347000+00:00",
+            "version": "1.8.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationhub >=2.18.0,<2.19.0",
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+                    "bioconductor-biostrings >=2.54.0,<2.55.0",
+                    "bioconductor-bsgenome >=1.54.0,<1.55.0",
+                    "bioconductor-genomeinfodb >=1.22.0,<1.23.0",
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "bioconductor-impute >=1.60.0,<1.61.0",
+                    "bioconductor-iranges >=2.20.0,<2.21.0",
+                    "bioconductor-minfi >=1.32.0,<1.33.0",
+                    "bioconductor-org.hs.eg.db >=3.10.0,<3.11.0",
+                    "bioconductor-rtracklayer >=1.46.0,<1.47.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-caret",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-iterators",
+                    "r-kernlab",
+                    "r-ranger",
+                    "r-readr",
+                    "r-settings"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572961647807
+            },
+            "basename": "noarch/bioconductor-remp-1.10.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationhub",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-impute",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-minfi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.10.0,<3.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-caret",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-iterators",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kernlab",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ranger",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-readr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-settings",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-remp/1.10.0/noarch/bioconductor-remp-1.10.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-remp/1.10.0/noarch/bioconductor-remp-1.10.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b3187b5d61fdf32ab96eaaae38728f78",
+            "ndownloads": 18,
+            "owner": "bioconda",
+            "size": 644525,
+            "type": "conda",
+            "upload_time": "2019-11-05 13:56:52.685000+00:00",
+            "version": "1.10.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-remp",
+    "home": "https://bioconductor.org/packages/3.9/bioc/html/REMP.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-remp",
+    "id": "5d5779df778a870c390c7b5e",
+    "latest_version": "1.10.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2019-11-05 13:56:53.091000+00:00",
+    "name": "bioconductor-remp",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-remp/1.8.1",
+            "version": "1.8.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-remp/1.10.0",
+            "version": "1.10.0"
+        }
+    ],
+    "revision": 4,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Repetitive Element Methylation Prediction",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-remp",
+    "versions": [
+        "1.8.1",
+        "1.10.0"
+    ],
+    "watchers": 1
+}

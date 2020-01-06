@@ -1,0 +1,844 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r36_1",
+        "r36_0",
+        "r341_1",
+        "r351_0",
+        "r351_1",
+        "r3.4.1_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "noarch",
+        "osx-64"
+    ],
+    "created_at": "2017-11-10 00:09:30.037000+00:00",
+    "description": "Defines a S4 class for storing data from single-cell experiments. This includes specialized methods to store and retrieve spike-in information, dimensionality reduction coordinates and size factors for each cell, along with the usual metadata for genes and libraries.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics",
+                    "bioconductor-s4vectors",
+                    "bioconductor-summarizedexperiment",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-singlecellexperiment-1.0.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-singlecellexperiment/1.0.0/linux-64/bioconductor-singlecellexperiment-1.0.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-singlecellexperiment/1.0.0/linux-64/bioconductor-singlecellexperiment-1.0.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "8253ea988368eab0b3e4a2884bfe7b63",
+            "ndownloads": 720,
+            "owner": "bioconda",
+            "size": 555463,
+            "type": "conda",
+            "upload_time": "2017-11-10 00:09:30.533000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics",
+                    "bioconductor-s4vectors",
+                    "bioconductor-summarizedexperiment",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-singlecellexperiment-1.0.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-singlecellexperiment/1.0.0/osx-64/bioconductor-singlecellexperiment-1.0.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-singlecellexperiment/1.0.0/osx-64/bioconductor-singlecellexperiment-1.0.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "dc02bc7a1de9a63273ac503bd61adfb4",
+            "ndownloads": 145,
+            "owner": "bioconda",
+            "size": 554951,
+            "type": "conda",
+            "upload_time": "2017-11-10 05:22:25.668000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocgenerics",
+                    "bioconductor-s4vectors",
+                    "bioconductor-summarizedexperiment",
+                    "r-base >=3.4.1,<3.4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1534755906413
+            },
+            "basename": "osx-64/bioconductor-singlecellexperiment-1.0.0-r341_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-singlecellexperiment/1.0.0/osx-64/bioconductor-singlecellexperiment-1.0.0-r341_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-singlecellexperiment/1.0.0/osx-64/bioconductor-singlecellexperiment-1.0.0-r341_1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "a1d81e9246af3add8faba370e8081968",
+            "ndownloads": 82,
+            "owner": "bioconda",
+            "size": 557477,
+            "type": "conda",
+            "upload_time": "2018-08-20 09:05:57.806000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocgenerics",
+                    "bioconductor-s4vectors",
+                    "bioconductor-summarizedexperiment",
+                    "r-base >=3.4.1,<3.4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1534756038512
+            },
+            "basename": "linux-64/bioconductor-singlecellexperiment-1.0.0-r341_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-singlecellexperiment/1.0.0/linux-64/bioconductor-singlecellexperiment-1.0.0-r341_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-singlecellexperiment/1.0.0/linux-64/bioconductor-singlecellexperiment-1.0.0-r341_1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "3b6adc36becc1cd571239d4f1d6111a4",
+            "ndownloads": 744,
+            "owner": "bioconda",
+            "size": 557284,
+            "type": "conda",
+            "upload_time": "2018-08-20 09:10:08.516000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocgenerics",
+                    "bioconductor-s4vectors",
+                    "bioconductor-summarizedexperiment",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539562842379
+            },
+            "basename": "linux-64/bioconductor-singlecellexperiment-1.0.0-r351_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-singlecellexperiment/1.0.0/linux-64/bioconductor-singlecellexperiment-1.0.0-r351_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-singlecellexperiment/1.0.0/linux-64/bioconductor-singlecellexperiment-1.0.0-r351_1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "d444759a2257d4ad6610c4debeba409d",
+            "ndownloads": 148,
+            "owner": "bioconda",
+            "size": 937894,
+            "type": "conda",
+            "upload_time": "2018-10-15 00:24:54.750000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocgenerics",
+                    "bioconductor-s4vectors",
+                    "bioconductor-summarizedexperiment",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539650836507
+            },
+            "basename": "osx-64/bioconductor-singlecellexperiment-1.0.0-r351_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-singlecellexperiment/1.0.0/osx-64/bioconductor-singlecellexperiment-1.0.0-r351_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-singlecellexperiment/1.0.0/osx-64/bioconductor-singlecellexperiment-1.0.0-r351_1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "4cc0a8f09d7d276f9dbee979f8a29417",
+            "ndownloads": 700,
+            "owner": "bioconda",
+            "size": 938199,
+            "type": "conda",
+            "upload_time": "2018-10-16 00:50:39.283000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "bioconductor-summarizedexperiment >=1.10.1,<1.12.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539928423868
+            },
+            "basename": "osx-64/bioconductor-singlecellexperiment-1.2.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.1,<1.12.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-singlecellexperiment/1.2.0/osx-64/bioconductor-singlecellexperiment-1.2.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-singlecellexperiment/1.2.0/osx-64/bioconductor-singlecellexperiment-1.2.0-r351_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "41b39b16f3128afdc01b39a35a3ab905",
+            "ndownloads": 820,
+            "owner": "bioconda",
+            "size": 1020791,
+            "type": "conda",
+            "upload_time": "2018-10-19 05:54:52.696000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "bioconductor-summarizedexperiment >=1.10.1,<1.12.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539942602204
+            },
+            "basename": "linux-64/bioconductor-singlecellexperiment-1.2.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.1,<1.12.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-singlecellexperiment/1.2.0/linux-64/bioconductor-singlecellexperiment-1.2.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-singlecellexperiment/1.2.0/linux-64/bioconductor-singlecellexperiment-1.2.0-r351_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "489903cb8092829996aca582ab99f525",
+            "ndownloads": 651,
+            "owner": "bioconda",
+            "size": 1020078,
+            "type": "conda",
+            "upload_time": "2018-10-19 09:53:06.060000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "bioconductor-summarizedexperiment >=1.12.0,<1.13.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1545330270179
+            },
+            "basename": "noarch/bioconductor-singlecellexperiment-1.4.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-singlecellexperiment/1.4.0/noarch/bioconductor-singlecellexperiment-1.4.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-singlecellexperiment/1.4.0/noarch/bioconductor-singlecellexperiment-1.4.0-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "d22ac5e2b6d198bc035c40056baa1c6f",
+            "ndownloads": 2061,
+            "owner": "bioconda",
+            "size": 1370373,
+            "type": "conda",
+            "upload_time": "2018-12-20 18:28:33.070000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "bioconductor-summarizedexperiment >=1.14.0,<1.15.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1564059517339
+            },
+            "basename": "noarch/bioconductor-singlecellexperiment-1.6.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-singlecellexperiment/1.6.0/noarch/bioconductor-singlecellexperiment-1.6.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-singlecellexperiment/1.6.0/noarch/bioconductor-singlecellexperiment-1.6.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "fce8fc3db21a8a6445220ddeb7f26c2c",
+            "ndownloads": 1044,
+            "owner": "bioconda",
+            "size": 1341589,
+            "type": "conda",
+            "upload_time": "2019-07-25 13:02:51.359000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572738922844
+            },
+            "basename": "noarch/bioconductor-singlecellexperiment-1.8.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-singlecellexperiment/1.8.0/noarch/bioconductor-singlecellexperiment-1.8.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-singlecellexperiment/1.8.0/noarch/bioconductor-singlecellexperiment-1.8.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "88ee3e84b9804b10b1f02b0fe9f9a4b7",
+            "ndownloads": 318,
+            "owner": "bioconda",
+            "size": 1416203,
+            "type": "conda",
+            "upload_time": "2019-11-03 00:01:45.405000+00:00",
+            "version": "1.8.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-singlecellexperiment",
+    "home": "http://bioconductor.org/packages/3.6/bioc/html/SingleCellExperiment.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-singlecellexperiment",
+    "id": "5a04ee3aa9fe2a1203d510a6",
+    "latest_version": "1.8.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2019-11-03 00:01:48.717000+00:00",
+    "name": "bioconductor-singlecellexperiment",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-singlecellexperiment/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-singlecellexperiment/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-singlecellexperiment/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-singlecellexperiment/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-singlecellexperiment/1.8.0",
+            "version": "1.8.0"
+        }
+    ],
+    "revision": 10,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "S4 Classes for Single Cell Data",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-singlecellexperiment",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.4.0",
+        "1.6.0",
+        "1.8.0"
+    ],
+    "watchers": 1
+}

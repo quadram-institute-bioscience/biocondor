@@ -1,0 +1,380 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "h2d02072_0",
+        "h73067bb_0",
+        "h21ccd2c_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2019-07-05 13:55:41.392000+00:00",
+    "description": "Magic-BLAST is a tool for mapping large next-generation RNA or DNA\nsequencing runs against a whole genome or transcriptome. Each alignment\noptimizes a composite score, taking into account simultaneously the two\nreads of a pair, and in case of RNA-seq, locating the candidate introns\nand adding up the score of all exons. This is very different from other\nversions of BLAST, where each exon is scored as a separate hit and\nread-pairing is ignored.\n\nMagic-BLAST incorporates within the NCBI BLAST code framework ideas\ndeveloped in the NCBI Magic pipeline, in particular hit extensions by local\nwalk and jump (http://www.ncbi.nlm.nih.gov/pubmed/26109056), and\nrecursive clipping of mismatches near the edges of the reads, which avoids\naccumulating artefactual mismatches near splice sites and is needed to\ndistinguish short indels from substitutions near the edges.\n\nMore details about the algorithm and comparison with other similar tools\nare presented here:\nhttps://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2996-x.\n",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h73067bb_0",
+                "build_number": 0,
+                "depends": [
+                    "blast",
+                    "bzip2 >=1.0.6,<2.0a0",
+                    "libxml2 >=2.9.9,<2.10.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "Public Domain",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1562334799759
+            },
+            "basename": "osx-64/magicblast-1.4.0-h73067bb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "blast",
+                        "specs": []
+                    },
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.6,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libxml2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.9.9,<2.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/magicblast/1.4.0/osx-64/magicblast-1.4.0-h73067bb_0.tar.bz2",
+            "full_name": "bioconda/magicblast/1.4.0/osx-64/magicblast-1.4.0-h73067bb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "49dd8397351b02533cb6afb9a44181ef",
+            "ndownloads": 388,
+            "owner": "bioconda",
+            "size": 7525585,
+            "type": "conda",
+            "upload_time": "2019-07-05 13:55:42.349000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h73067bb_0",
+                "build_number": 0,
+                "depends": [
+                    "blast",
+                    "bzip2 >=1.0.6,<2.0a0",
+                    "libxml2 >=2.9.9,<2.10.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "Public Domain",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1562334780043
+            },
+            "basename": "linux-64/magicblast-1.4.0-h73067bb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "blast",
+                        "specs": []
+                    },
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.6,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libxml2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.9.9,<2.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/magicblast/1.4.0/linux-64/magicblast-1.4.0-h73067bb_0.tar.bz2",
+            "full_name": "bioconda/magicblast/1.4.0/linux-64/magicblast-1.4.0-h73067bb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5e6d7d2d90b4832fe468d03ea56bbe13",
+            "ndownloads": 126,
+            "owner": "bioconda",
+            "size": 12451000,
+            "type": "conda",
+            "upload_time": "2019-07-05 13:58:48.046000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h2d02072_0",
+                "build_number": 0,
+                "depends": [
+                    "blast",
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "libxml2 >=2.9.10,<2.10.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "Public Domain",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1576321337709
+            },
+            "basename": "linux-64/magicblast-1.5.0-h2d02072_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "blast",
+                        "specs": []
+                    },
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libxml2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.9.10,<2.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/magicblast/1.5.0/linux-64/magicblast-1.5.0-h2d02072_0.tar.bz2",
+            "full_name": "bioconda/magicblast/1.5.0/linux-64/magicblast-1.5.0-h2d02072_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "822fe89ef7c5ea2926efe9336499577f",
+            "ndownloads": 23,
+            "owner": "bioconda",
+            "size": 9880888,
+            "type": "conda",
+            "upload_time": "2019-12-14 14:28:27.564000+00:00",
+            "version": "1.5.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h21ccd2c_0",
+                "build_number": 0,
+                "depends": [
+                    "blast",
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "libcxx >=4.0.1",
+                    "libxml2 >=2.9.10,<2.10.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "Public Domain",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1576325039930
+            },
+            "basename": "osx-64/magicblast-1.5.0-h21ccd2c_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "blast",
+                        "specs": []
+                    },
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libxml2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.9.10,<2.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/magicblast/1.5.0/osx-64/magicblast-1.5.0-h21ccd2c_0.tar.bz2",
+            "full_name": "bioconda/magicblast/1.5.0/osx-64/magicblast-1.5.0-h21ccd2c_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b3d9a133f48c2feded5fda1889d7a155",
+            "ndownloads": 76,
+            "owner": "bioconda",
+            "size": 7874158,
+            "type": "conda",
+            "upload_time": "2019-12-14 14:28:30.129000+00:00",
+            "version": "1.5.0"
+        }
+    ],
+    "full_name": "bioconda/magicblast",
+    "home": "https://ncbi.github.io/magicblast/",
+    "html_url": "http://anaconda.org/bioconda/magicblast",
+    "id": "5d1f56dd075554722c1d108c",
+    "latest_version": "1.5.0",
+    "license": "Public Domain",
+    "license_url": null,
+    "modified_at": "2019-12-14 14:28:32.832000+00:00",
+    "name": "magicblast",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/magicblast/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/magicblast/1.5.0",
+            "version": "1.5.0"
+        }
+    ],
+    "revision": 4,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "NCBI BLAST next generation read mapper",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/magicblast",
+    "versions": [
+        "1.4.0",
+        "1.5.0"
+    ],
+    "watchers": 1
+}

@@ -1,0 +1,746 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351_0",
+        "r36_0",
+        "r3.4.1_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "noarch",
+        "osx-64"
+    ],
+    "created_at": "2018-02-19 21:04:22.345000+00:00",
+    "description": "The software formalises a framework for classification in R. There are four stages; Data transformation, feature selection, classifier training, and prediction. The requirements of variable types and names are fixed, but specialised variables for functions can also be provided. The classification framework is wrapped in a driver loop, that reproducibly carries out a number of cross-validation schemes. Functions for differential expression, differential variability, and differential distribution are included. Additional functions may be developed by the user, by creating an interface to the framework.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocparallel",
+                    "r-base 3.4.1*",
+                    "r-locfit",
+                    "r-rocr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-classifyr-1.12.2-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-locfit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rocr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-classifyr/1.12.2/linux-64/bioconductor-classifyr-1.12.2-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-classifyr/1.12.2/linux-64/bioconductor-classifyr-1.12.2-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "2263a667d2194cb8f072fee127fd85c8",
+            "ndownloads": 329,
+            "owner": "bioconda",
+            "size": 2892834,
+            "type": "conda",
+            "upload_time": "2018-02-19 21:04:22.890000+00:00",
+            "version": "1.12.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocparallel",
+                    "r-base 3.4.1*",
+                    "r-locfit",
+                    "r-rocr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-classifyr-1.12.2-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-locfit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rocr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-classifyr/1.12.2/osx-64/bioconductor-classifyr-1.12.2-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-classifyr/1.12.2/osx-64/bioconductor-classifyr-1.12.2-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "61f6d7f726bc0b36a867aa2326e95e14",
+            "ndownloads": 753,
+            "owner": "bioconda",
+            "size": 2894649,
+            "type": "conda",
+            "upload_time": "2018-02-19 22:16:45.097000+00:00",
+            "version": "1.12.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.14.2,<1.16.0",
+                    "bioconductor-multiassayexperiment >=1.6.0,<1.8.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-locfit",
+                    "r-plyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540034734164
+            },
+            "basename": "linux-64/bioconductor-classifyr-2.0.10-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.2,<1.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multiassayexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.8.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-locfit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-classifyr/2.0.10/linux-64/bioconductor-classifyr-2.0.10-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-classifyr/2.0.10/linux-64/bioconductor-classifyr-2.0.10-r351_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "668ab08fd0f1afcfbc270d6fd536f456",
+            "ndownloads": 272,
+            "owner": "bioconda",
+            "size": 1940339,
+            "type": "conda",
+            "upload_time": "2018-10-20 11:29:46.054000+00:00",
+            "version": "2.0.10"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.14.2,<1.16.0",
+                    "bioconductor-multiassayexperiment >=1.6.0,<1.8.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-locfit",
+                    "r-plyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1540114040937
+            },
+            "basename": "osx-64/bioconductor-classifyr-2.0.10-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.2,<1.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multiassayexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.8.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-locfit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-classifyr/2.0.10/osx-64/bioconductor-classifyr-2.0.10-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-classifyr/2.0.10/osx-64/bioconductor-classifyr-2.0.10-r351_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "3c67826069dc79a41e1d0594c1bc380f",
+            "ndownloads": 757,
+            "owner": "bioconda",
+            "size": 1941997,
+            "type": "conda",
+            "upload_time": "2018-10-21 09:28:32.554000+00:00",
+            "version": "2.0.10"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.16.0,<1.17.0",
+                    "bioconductor-multiassayexperiment >=1.8.0,<1.9.0",
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-locfit",
+                    "r-plyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1545415921739
+            },
+            "basename": "noarch/bioconductor-classifyr-2.2.4-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multiassayexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-locfit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-classifyr/2.2.4/noarch/bioconductor-classifyr-2.2.4-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-classifyr/2.2.4/noarch/bioconductor-classifyr-2.2.4-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "cc8ea5d25e4094906b669019c09c4a17",
+            "ndownloads": 83,
+            "owner": "bioconda",
+            "size": 2334542,
+            "type": "conda",
+            "upload_time": "2018-12-21 18:15:58.108000+00:00",
+            "version": "2.2.4"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.16.0,<1.17.0",
+                    "bioconductor-multiassayexperiment >=1.8.0,<1.9.0",
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-locfit",
+                    "r-plyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1552246366476
+            },
+            "basename": "noarch/bioconductor-classifyr-2.2.6-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multiassayexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-locfit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-classifyr/2.2.6/noarch/bioconductor-classifyr-2.2.6-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-classifyr/2.2.6/noarch/bioconductor-classifyr-2.2.6-r351_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "acd046e876439086259ee3d33497857f",
+            "ndownloads": 83,
+            "owner": "bioconda",
+            "size": 2287135,
+            "type": "conda",
+            "upload_time": "2019-03-10 19:37:53.132000+00:00",
+            "version": "2.2.6"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.18.0,<1.19.0",
+                    "bioconductor-multiassayexperiment >=1.10.0,<1.11.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-locfit",
+                    "r-plyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1564246894584
+            },
+            "basename": "noarch/bioconductor-classifyr-2.4.4-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multiassayexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-locfit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-classifyr/2.4.4/noarch/bioconductor-classifyr-2.4.4-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-classifyr/2.4.4/noarch/bioconductor-classifyr-2.4.4-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2b17576ad0dcdcfd5d2618b920da53e0",
+            "ndownloads": 35,
+            "owner": "bioconda",
+            "size": 2273743,
+            "type": "conda",
+            "upload_time": "2019-07-27 17:06:51.397000+00:00",
+            "version": "2.4.4"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+                    "bioconductor-multiassayexperiment >=1.12.0,<1.13.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-locfit",
+                    "r-plyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572822743346
+            },
+            "basename": "noarch/bioconductor-classifyr-2.6.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multiassayexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-locfit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-classifyr/2.6.0/noarch/bioconductor-classifyr-2.6.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-classifyr/2.6.0/noarch/bioconductor-classifyr-2.6.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "aa9951bb0d995c52a0444b881ea4352a",
+            "ndownloads": 19,
+            "owner": "bioconda",
+            "size": 2341363,
+            "type": "conda",
+            "upload_time": "2019-11-03 23:17:42.637000+00:00",
+            "version": "2.6.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-classifyr",
+    "home": "http://bioconductor.org/packages/3.6/bioc/html/ClassifyR.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-classifyr",
+    "id": "5a8b3bd6d60b3511fa0b3a39",
+    "latest_version": "2.6.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2019-11-03 23:17:42.946000+00:00",
+    "name": "bioconductor-classifyr",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-classifyr/1.12.2",
+            "version": "1.12.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-classifyr/2.0.10",
+            "version": "2.0.10"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-classifyr/2.2.4",
+            "version": "2.2.4"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-classifyr/2.2.6",
+            "version": "2.2.6"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-classifyr/2.4.4",
+            "version": "2.4.4"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-classifyr/2.6.0",
+            "version": "2.6.0"
+        }
+    ],
+    "revision": 12,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "A framework for cross-validated classification problems, with applications to differential variability and differential distribution testing",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-classifyr",
+    "versions": [
+        "1.12.2",
+        "2.0.10",
+        "2.2.4",
+        "2.2.6",
+        "2.4.4",
+        "2.6.0"
+    ],
+    "watchers": 1
+}

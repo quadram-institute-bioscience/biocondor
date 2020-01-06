@@ -1,0 +1,2090 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r341h9d2a408_0",
+        "r351h466af19_1",
+        "r351h466af19_0",
+        "r351h9d2a408_0",
+        "r36h0357c0b_0",
+        "r3.4.1_0",
+        "r351h29659fb_1",
+        "r351h29659fb_0",
+        "r36hf99fc2c_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2018-03-22 10:28:47.223000+00:00",
+    "description": "[![Documentation Status](https://readthedocs.org/projects/hemdag/badge/?version=latest)](https://hemdag.readthedocs.io/en/latest/?badge=latest)\n\nHEMDAG library:\n* implements several Hierarchical Ensemble Methods (HEMs) for Directed Acyclic Graphs (DAGs);\n* reconciles flat predictions with the topology of the ontology;\n* can enhance predictions of virtually any flat learning methods by taking into account the hierarchical relationships between ontology classes;\n* provides biologically meaningful predictions that always obey the true-path-rule, the biological and logical rule that governs the internal coherence of biomedical ontologies;\n* is specifically designed for exploiting the hierarchical relationships of DAG-structured taxonomies, such as the Human Phenotype Ontology (HPO) or the Gene Ontology (GO), but can be safely applied to tree-structured taxonomies as well (e.g. FunCat), since trees are DAGs;\n* scales nicely both in terms of the complexity of the taxonomy and in the cardinality of the examples;\n* provides several utility functions to process and analyze graphs;\n* provides several performance metrics to evaluate HEMs algorithms.\n\n",
+    "dev_url": "https://github.com/marconotaro/HEMDAG",
+    "doc_url": "https://hemdag.readthedocs.io",
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-rbgl",
+                    "r-base 3.4.1*",
+                    "r-perfmeas",
+                    "r-precrec"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/r-hemdag-2.0.1-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-perfmeas",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.0.1/osx-64/r-hemdag-2.0.1-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.0.1/osx-64/r-hemdag-2.0.1-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "2b6eadd73ab3ed3496479674d317065d",
+            "ndownloads": 770,
+            "owner": "bioconda",
+            "size": 523251,
+            "type": "conda",
+            "upload_time": "2018-03-22 10:28:47.786000+00:00",
+            "version": "2.0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-rbgl",
+                    "r-base 3.4.1*",
+                    "r-perfmeas",
+                    "r-precrec"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/r-hemdag-2.0.1-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-perfmeas",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.0.1/linux-64/r-hemdag-2.0.1-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.0.1/linux-64/r-hemdag-2.0.1-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "001ab45c592ff5ed2e683d6ece6a5dd0",
+            "ndownloads": 259,
+            "owner": "bioconda",
+            "size": 521768,
+            "type": "conda",
+            "upload_time": "2018-03-22 10:34:52.681000+00:00",
+            "version": "2.0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-rbgl",
+                    "r-base 3.4.1*",
+                    "r-perfmeas",
+                    "r-precrec"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/r-hemdag-2.1.2-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-perfmeas",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.1.2/osx-64/r-hemdag-2.1.2-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.1.2/osx-64/r-hemdag-2.1.2-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "959776c89a9c705f9c66cf788a9bbbfa",
+            "ndownloads": 769,
+            "owner": "bioconda",
+            "size": 559090,
+            "type": "conda",
+            "upload_time": "2018-05-11 21:05:40.845000+00:00",
+            "version": "2.1.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-rbgl",
+                    "r-base 3.4.1*",
+                    "r-perfmeas",
+                    "r-precrec"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/r-hemdag-2.1.2-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-perfmeas",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.1.2/linux-64/r-hemdag-2.1.2-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.1.2/linux-64/r-hemdag-2.1.2-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "215f06697af0aef1f52744d33594f488",
+            "ndownloads": 257,
+            "owner": "bioconda",
+            "size": 557651,
+            "type": "conda",
+            "upload_time": "2018-05-12 00:23:52.480000+00:00",
+            "version": "2.1.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-rbgl",
+                    "r-base 3.4.1*",
+                    "r-perfmeas",
+                    "r-precrec"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/r-hemdag-2.1.3-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-perfmeas",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.1.3/osx-64/r-hemdag-2.1.3-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.1.3/osx-64/r-hemdag-2.1.3-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "203b925e910bf3a9da1727867eac8cee",
+            "ndownloads": 768,
+            "owner": "bioconda",
+            "size": 561689,
+            "type": "conda",
+            "upload_time": "2018-06-05 10:47:17.700000+00:00",
+            "version": "2.1.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-rbgl",
+                    "r-base 3.4.1*",
+                    "r-perfmeas",
+                    "r-precrec"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/r-hemdag-2.1.3-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-perfmeas",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.1.3/linux-64/r-hemdag-2.1.3-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.1.3/linux-64/r-hemdag-2.1.3-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "f3c72cb79386de4c5161a034a697c3de",
+            "ndownloads": 256,
+            "owner": "bioconda",
+            "size": 560143,
+            "type": "conda",
+            "upload_time": "2018-06-05 10:49:59.708000+00:00",
+            "version": "2.1.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341h9d2a408_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore >=1.42.0,<1.44.0",
+                    "bioconductor-rbgl",
+                    "libgcc-ng >=4.9",
+                    "libstdcxx-ng >=4.9",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-iterators",
+                    "r-plyr",
+                    "r-precrec"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539647578589
+            },
+            "basename": "linux-64/r-hemdag-2.2.5-r341h9d2a408_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.44.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-iterators",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.2.5/linux-64/r-hemdag-2.2.5-r341h9d2a408_0.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.2.5/linux-64/r-hemdag-2.2.5-r341h9d2a408_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "0e70e0a05483946c039a5bbfa1942bb3",
+            "ndownloads": 285,
+            "owner": "bioconda",
+            "size": 666092,
+            "type": "conda",
+            "upload_time": "2018-10-15 23:59:33.500000+00:00",
+            "version": "2.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h9d2a408_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore >=1.42.0,<1.44.0",
+                    "bioconductor-rbgl",
+                    "libgcc-ng >=4.9",
+                    "libstdcxx-ng >=4.9",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-iterators",
+                    "r-plyr",
+                    "r-precrec"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539647668749
+            },
+            "basename": "linux-64/r-hemdag-2.2.5-r351h9d2a408_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.44.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-iterators",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.2.5/linux-64/r-hemdag-2.2.5-r351h9d2a408_0.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.2.5/linux-64/r-hemdag-2.2.5-r351h9d2a408_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "80318175e2ee994a376189a567ea3cd6",
+            "ndownloads": 105,
+            "owner": "bioconda",
+            "size": 798887,
+            "type": "conda",
+            "upload_time": "2018-10-15 23:59:36.539000+00:00",
+            "version": "2.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h466af19_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore >=1.42.0,<1.44.0",
+                    "bioconductor-rbgl",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-iterators",
+                    "r-plyr",
+                    "r-precrec"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1545509956580
+            },
+            "basename": "osx-64/r-hemdag-2.2.5-r351h466af19_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.44.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-iterators",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.2.5/osx-64/r-hemdag-2.2.5-r351h466af19_0.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.2.5/osx-64/r-hemdag-2.2.5-r351h466af19_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "efe11308100df1c448e67f7fba530db2",
+            "ndownloads": 216,
+            "owner": "bioconda",
+            "size": 774325,
+            "type": "conda",
+            "upload_time": "2018-12-22 20:20:07.701000+00:00",
+            "version": "2.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h466af19_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore >=1.42.0,<1.44.0",
+                    "bioconductor-rbgl",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-iterators",
+                    "r-plyr",
+                    "r-precrec"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1546042543883
+            },
+            "basename": "osx-64/r-hemdag-2.2.5-r351h466af19_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.44.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-iterators",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.2.5/osx-64/r-hemdag-2.2.5-r351h466af19_1.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.2.5/osx-64/r-hemdag-2.2.5-r351h466af19_1.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "3588ab4d6bfcd187bcc5b78af8d0ca91",
+            "ndownloads": 501,
+            "owner": "bioconda",
+            "size": 774246,
+            "type": "conda",
+            "upload_time": "2018-12-29 00:16:35.705000+00:00",
+            "version": "2.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h29659fb_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-rbgl",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-iterators",
+                    "r-plyr",
+                    "r-precrec"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1546073115147
+            },
+            "basename": "linux-64/r-hemdag-2.2.5-r351h29659fb_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-iterators",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.2.5/linux-64/r-hemdag-2.2.5-r351h29659fb_1.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.2.5/linux-64/r-hemdag-2.2.5-r351h29659fb_1.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "efffe637e1315338c31d91246fab210c",
+            "ndownloads": 93,
+            "owner": "bioconda",
+            "size": 773471,
+            "type": "conda",
+            "upload_time": "2018-12-29 08:49:00.617000+00:00",
+            "version": "2.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h466af19_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-rbgl",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-iterators",
+                    "r-plyr",
+                    "r-precrec"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1554131182035
+            },
+            "basename": "osx-64/r-hemdag-2.4.7-r351h466af19_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-iterators",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.4.7/osx-64/r-hemdag-2.4.7-r351h466af19_0.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.4.7/osx-64/r-hemdag-2.4.7-r351h466af19_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "764693d95b4937abdb20387cb7df4931",
+            "ndownloads": 31,
+            "owner": "bioconda",
+            "size": 804291,
+            "type": "conda",
+            "upload_time": "2019-04-01 15:08:11.894000+00:00",
+            "version": "2.4.7"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h29659fb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-rbgl",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-iterators",
+                    "r-plyr",
+                    "r-precrec"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1554131395654
+            },
+            "basename": "linux-64/r-hemdag-2.4.7-r351h29659fb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-iterators",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.4.7/linux-64/r-hemdag-2.4.7-r351h29659fb_0.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.4.7/linux-64/r-hemdag-2.4.7-r351h29659fb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b9ffcf960cf91c74b6fb0138d16f543b",
+            "ndownloads": 85,
+            "owner": "bioconda",
+            "size": 803837,
+            "type": "conda",
+            "upload_time": "2019-04-01 15:14:31.742000+00:00",
+            "version": "2.4.7"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h466af19_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-rbgl",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-iterators",
+                    "r-plyr",
+                    "r-precrec"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1554362527374
+            },
+            "basename": "osx-64/r-hemdag-2.4.7-r351h466af19_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-iterators",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.4.7/osx-64/r-hemdag-2.4.7-r351h466af19_1.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.4.7/osx-64/r-hemdag-2.4.7-r351h466af19_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "67a23d8be38235aa77d34d8cc83a2d4e",
+            "ndownloads": 554,
+            "owner": "bioconda",
+            "size": 804945,
+            "type": "conda",
+            "upload_time": "2019-04-04 07:23:58.374000+00:00",
+            "version": "2.4.7"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h29659fb_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-rbgl",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-iterators",
+                    "r-plyr",
+                    "r-precrec"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1554362701157
+            },
+            "basename": "linux-64/r-hemdag-2.4.7-r351h29659fb_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-iterators",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.4.7/linux-64/r-hemdag-2.4.7-r351h29659fb_1.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.4.7/linux-64/r-hemdag-2.4.7-r351h29659fb_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "89c940608eab1c4599b051c79414f088",
+            "ndownloads": 86,
+            "owner": "bioconda",
+            "size": 804508,
+            "type": "conda",
+            "upload_time": "2019-04-04 07:29:29.128000+00:00",
+            "version": "2.4.7"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h466af19_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-rbgl",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-iterators",
+                    "r-plyr",
+                    "r-precrec"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1556889034280
+            },
+            "basename": "osx-64/r-hemdag-2.4.8-r351h466af19_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-iterators",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.4.8/osx-64/r-hemdag-2.4.8-r351h466af19_0.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.4.8/osx-64/r-hemdag-2.4.8-r351h466af19_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8259f63728d92f7b0cccc44bf2066690",
+            "ndownloads": 493,
+            "owner": "bioconda",
+            "size": 822849,
+            "type": "conda",
+            "upload_time": "2019-05-03 13:11:23.076000+00:00",
+            "version": "2.4.8"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h29659fb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-rbgl",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-iterators",
+                    "r-plyr",
+                    "r-precrec"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1556889092316
+            },
+            "basename": "linux-64/r-hemdag-2.4.8-r351h29659fb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-iterators",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.4.8/linux-64/r-hemdag-2.4.8-r351h29659fb_0.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.4.8/linux-64/r-hemdag-2.4.8-r351h29659fb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "88af75c03afee04b2b71d0a5b5333d41",
+            "ndownloads": 89,
+            "owner": "bioconda",
+            "size": 805333,
+            "type": "conda",
+            "upload_time": "2019-05-03 13:15:38.468000+00:00",
+            "version": "2.4.8"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36hf99fc2c_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-rbgl",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-iterators",
+                    "r-plyr",
+                    "r-precrec"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1570560534233
+            },
+            "basename": "osx-64/r-hemdag-2.5.9-r36hf99fc2c_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-iterators",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.5.9/osx-64/r-hemdag-2.5.9-r36hf99fc2c_0.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.5.9/osx-64/r-hemdag-2.5.9-r36hf99fc2c_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a5c7f6a7c53bf38ce0746f6b0c534fa3",
+            "ndownloads": 216,
+            "owner": "bioconda",
+            "size": 780400,
+            "type": "conda",
+            "upload_time": "2019-10-08 18:50:03.942000+00:00",
+            "version": "2.5.9"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h0357c0b_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-rbgl",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-iterators",
+                    "r-plyr",
+                    "r-precrec"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1570560311059
+            },
+            "basename": "linux-64/r-hemdag-2.5.9-r36h0357c0b_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-iterators",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.5.9/linux-64/r-hemdag-2.5.9-r36h0357c0b_0.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.5.9/linux-64/r-hemdag-2.5.9-r36h0357c0b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4181272f0c3fe45d4c9f881a41c557c3",
+            "ndownloads": 30,
+            "owner": "bioconda",
+            "size": 779003,
+            "type": "conda",
+            "upload_time": "2019-10-08 18:50:25.172000+00:00",
+            "version": "2.5.9"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36hf99fc2c_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-rbgl",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-plyr",
+                    "r-precrec"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1573909935454
+            },
+            "basename": "osx-64/r-hemdag-2.6.0-r36hf99fc2c_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.6.0/osx-64/r-hemdag-2.6.0-r36hf99fc2c_0.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.6.0/osx-64/r-hemdag-2.6.0-r36hf99fc2c_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "580816fc256249d0e325a663d47a1885",
+            "ndownloads": 134,
+            "owner": "bioconda",
+            "size": 779743,
+            "type": "conda",
+            "upload_time": "2019-11-16 13:13:20.801000+00:00",
+            "version": "2.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h0357c0b_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-graph",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-rbgl",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-plyr",
+                    "r-precrec"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1573909862179
+            },
+            "basename": "linux-64/r-hemdag-2.6.0-r36h0357c0b_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-precrec",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/r-hemdag/2.6.0/linux-64/r-hemdag-2.6.0-r36h0357c0b_0.tar.bz2",
+            "full_name": "bioconda/r-hemdag/2.6.0/linux-64/r-hemdag-2.6.0-r36h0357c0b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8ae6e769ddb91f6ecee464220ec254be",
+            "ndownloads": 21,
+            "owner": "bioconda",
+            "size": 778591,
+            "type": "conda",
+            "upload_time": "2019-11-16 13:15:12.581000+00:00",
+            "version": "2.6.0"
+        }
+    ],
+    "full_name": "bioconda/r-hemdag",
+    "home": "https://CRAN.R-project.org/package=HEMDAG",
+    "html_url": "http://anaconda.org/bioconda/r-hemdag",
+    "id": "5ab3855f47258c1270b5d493",
+    "latest_version": "2.6.0",
+    "license": "GPL (>= 3)",
+    "license_url": null,
+    "modified_at": "2019-11-16 13:15:12.967000+00:00",
+    "name": "r-hemdag",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/r-hemdag/2.0.1",
+            "version": "2.0.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/r-hemdag/2.1.2",
+            "version": "2.1.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/r-hemdag/2.1.3",
+            "version": "2.1.3"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/r-hemdag/2.2.5",
+            "version": "2.2.5"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/r-hemdag/2.4.7",
+            "version": "2.4.7"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/r-hemdag/2.4.8",
+            "version": "2.4.8"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/r-hemdag/2.5.9",
+            "version": "2.5.9"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/r-hemdag/2.6.0",
+            "version": "2.6.0"
+        }
+    ],
+    "revision": 16,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "a collection of Hierarchical Ensemble Methods (HEMs) for Directed Acyclic Graphs (DAGs).",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/r-hemdag",
+    "versions": [
+        "2.0.1",
+        "2.1.2",
+        "2.1.3",
+        "2.2.5",
+        "2.4.7",
+        "2.4.8",
+        "2.5.9",
+        "2.6.0"
+    ],
+    "watchers": 1
+}

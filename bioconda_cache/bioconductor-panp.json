@@ -1,0 +1,825 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351_0",
+        "r36_1",
+        "r36_0",
+        "r3.3.2_0",
+        "r3.4.1_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "noarch",
+        "osx-64"
+    ],
+    "created_at": "2017-08-20 18:54:18.511000+00:00",
+    "description": "A function to make gene presence/absence calls based on distance from negative strand matching probesets (NSMP) which are derived from Affymetrix annotation. PANP is applied after gene expression values are created, and therefore can be used after any preprocessing method such as MAS5 or GCRMA, or PM-only methods like RMA. NSMP sets have been established for the HGU133A and HGU133-Plus-2.0 chipsets to date.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.2_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.23.4",
+                    "bioconductor-biobase >=2.5.5",
+                    "r-base 3.3.2*"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-panp-1.46.0-r3.3.2_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.23.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.5.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-panp/1.46.0/linux-64/bioconductor-panp-1.46.0-r3.3.2_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-panp/1.46.0/linux-64/bioconductor-panp-1.46.0-r3.3.2_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "6f21809e21d3313a9de62fcf571959c6",
+            "ndownloads": 505,
+            "owner": "bioconda",
+            "size": 561849,
+            "type": "conda",
+            "upload_time": "2017-08-20 18:54:19.082000+00:00",
+            "version": "1.46.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.2_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.23.4",
+                    "bioconductor-biobase >=2.5.5",
+                    "r-base 3.3.2*"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-panp-1.46.0-r3.3.2_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.23.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.5.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-panp/1.46.0/osx-64/bioconductor-panp-1.46.0-r3.3.2_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-panp/1.46.0/osx-64/bioconductor-panp-1.46.0-r3.3.2_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "5a7f05a003e6e84a0d3aa8baf0db631f",
+            "ndownloads": 25,
+            "owner": "bioconda",
+            "size": 561572,
+            "type": "conda",
+            "upload_time": "2017-08-20 19:00:03.714000+00:00",
+            "version": "1.46.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.23.4",
+                    "bioconductor-biobase >=2.5.5",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-panp-1.46.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.23.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.5.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-panp/1.46.0/linux-64/bioconductor-panp-1.46.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-panp/1.46.0/linux-64/bioconductor-panp-1.46.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "1926f727b5ad09351ae552181280828b",
+            "ndownloads": 413,
+            "owner": "bioconda",
+            "size": 561939,
+            "type": "conda",
+            "upload_time": "2017-09-19 20:16:24.607000+00:00",
+            "version": "1.46.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.23.4",
+                    "bioconductor-biobase >=2.5.5",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-panp-1.46.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.23.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.5.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-panp/1.46.0/osx-64/bioconductor-panp-1.46.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-panp/1.46.0/osx-64/bioconductor-panp-1.46.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "d384daf2667ec98fcabb1a7d4253b77e",
+            "ndownloads": 758,
+            "owner": "bioconda",
+            "size": 561852,
+            "type": "conda",
+            "upload_time": "2017-09-20 02:59:04.812000+00:00",
+            "version": "1.46.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.23.4",
+                    "bioconductor-biobase >=2.5.5",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-panp-1.48.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.23.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.5.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-panp/1.48.0/osx-64/bioconductor-panp-1.48.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-panp/1.48.0/osx-64/bioconductor-panp-1.48.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "d66d3ddbecaf557be3da57d1dce01241",
+            "ndownloads": 759,
+            "owner": "bioconda",
+            "size": 562251,
+            "type": "conda",
+            "upload_time": "2017-11-07 23:54:57.717000+00:00",
+            "version": "1.48.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.23.4",
+                    "bioconductor-biobase >=2.5.5",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-panp-1.48.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.23.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.5.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-panp/1.48.0/linux-64/bioconductor-panp-1.48.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-panp/1.48.0/linux-64/bioconductor-panp-1.48.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "3aef7d1c89369925996f31aaca727fa6",
+            "ndownloads": 556,
+            "owner": "bioconda",
+            "size": 562462,
+            "type": "conda",
+            "upload_time": "2017-11-10 03:37:23.828000+00:00",
+            "version": "1.48.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.58.0,<1.60.0",
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1540492852531
+            },
+            "basename": "osx-64/bioconductor-panp-1.50.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.60.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-panp/1.50.0/osx-64/bioconductor-panp-1.50.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-panp/1.50.0/osx-64/bioconductor-panp-1.50.0-r351_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "50df10171c5943b1e09ea21c1b4bfb4b",
+            "ndownloads": 763,
+            "owner": "bioconda",
+            "size": 567987,
+            "type": "conda",
+            "upload_time": "2018-10-25 18:41:33.648000+00:00",
+            "version": "1.50.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.58.0,<1.60.0",
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540668916035
+            },
+            "basename": "linux-64/bioconductor-panp-1.50.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.60.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-panp/1.50.0/linux-64/bioconductor-panp-1.50.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-panp/1.50.0/linux-64/bioconductor-panp-1.50.0-r351_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "f1406f833c71f0eecf8a596d939fe5ad",
+            "ndownloads": 238,
+            "owner": "bioconda",
+            "size": 567743,
+            "type": "conda",
+            "upload_time": "2018-10-27 19:37:57.581000+00:00",
+            "version": "1.50.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.60.0,<1.61.0",
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1546617544454
+            },
+            "basename": "noarch/bioconductor-panp-1.52.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-panp/1.52.0/noarch/bioconductor-panp-1.52.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-panp/1.52.0/noarch/bioconductor-panp-1.52.0-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "bddafe6cef2f7d38b79dbc754e5de45d",
+            "ndownloads": 75,
+            "owner": "bioconda",
+            "size": 568953,
+            "type": "conda",
+            "upload_time": "2019-01-04 16:01:43.462000+00:00",
+            "version": "1.52.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-affy >=1.62.0,<1.63.0",
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1564036039516
+            },
+            "basename": "noarch/bioconductor-panp-1.54.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-panp/1.54.0/noarch/bioconductor-panp-1.54.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-panp/1.54.0/noarch/bioconductor-panp-1.54.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d383e05a4f159b0f70a7224231ace532",
+            "ndownloads": 27,
+            "owner": "bioconda",
+            "size": 569555,
+            "type": "conda",
+            "upload_time": "2019-07-25 06:31:18.437000+00:00",
+            "version": "1.54.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.64.0,<1.65.0",
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572642716964
+            },
+            "basename": "noarch/bioconductor-panp-1.56.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-panp/1.56.0/noarch/bioconductor-panp-1.56.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-panp/1.56.0/noarch/bioconductor-panp-1.56.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a04346f4ea1f650b53f715d373d264c5",
+            "ndownloads": 20,
+            "owner": "bioconda",
+            "size": 582649,
+            "type": "conda",
+            "upload_time": "2019-11-01 21:15:55.728000+00:00",
+            "version": "1.56.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-panp",
+    "home": "http://bioconductor.org/packages/3.5/bioc/html/panp.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-panp",
+    "id": "5999dada07006a12ceeb4a46",
+    "latest_version": "1.56.0",
+    "license": "GPL (>= 2)",
+    "license_url": null,
+    "modified_at": "2019-11-01 21:15:57.136000+00:00",
+    "name": "bioconductor-panp",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-panp/1.46.0",
+            "version": "1.46.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-panp/1.48.0",
+            "version": "1.48.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-panp/1.50.0",
+            "version": "1.50.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-panp/1.52.0",
+            "version": "1.52.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-panp/1.54.0",
+            "version": "1.54.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-panp/1.56.0",
+            "version": "1.56.0"
+        }
+    ],
+    "revision": 12,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Presence-Absence Calls from Negative Strand Matching Probesets",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-panp",
+    "versions": [
+        "1.46.0",
+        "1.48.0",
+        "1.50.0",
+        "1.52.0",
+        "1.54.0",
+        "1.56.0"
+    ],
+    "watchers": 1
+}

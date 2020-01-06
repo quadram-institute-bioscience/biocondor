@@ -1,0 +1,2287 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r36h516909a_0",
+        "r36h516909a_1",
+        "r3.3.1_0",
+        "r351h14c3975_0",
+        "r3.3.2_0",
+        "r351h1de35cc_0",
+        "r3.4.1_0",
+        "r36h01d97ff_0",
+        "r36h01d97ff_1",
+        "r351h470a237_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2017-06-01 16:37:35.709000+00:00",
+    "description": "A package to analyze oligonucleotide arrays (expression/SNP/tiling/exon) at probe-level. It currently supports Affymetrix (CEL files) and NimbleGen arrays (XYS files).",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affxparser >=1.39.4",
+                    "bioconductor-affyio >=1.35.0",
+                    "bioconductor-biobase >=2.27.3",
+                    "bioconductor-biocgenerics >=0.13.11",
+                    "bioconductor-biostrings >=2.35.12",
+                    "bioconductor-oligoclasses >=1.29.6",
+                    "bioconductor-preprocesscore >=1.29.0",
+                    "bioconductor-zlibbioc",
+                    "r-base 3.4.1*",
+                    "r-dbi >=0.3.1",
+                    "r-ff",
+                    "r-rsqlite >=1.0.0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-oligo-1.40.2-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affxparser",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.39.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-affyio",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.27.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.13.11"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.35.12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-oligoclasses",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.29.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-zlibbioc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-oligo/1.40.2/osx-64/bioconductor-oligo-1.40.2-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-oligo/1.40.2/osx-64/bioconductor-oligo-1.40.2-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "c84900e4a726edb67a77aec776469662",
+            "ndownloads": 768,
+            "owner": "bioconda",
+            "size": 28416338,
+            "type": "conda",
+            "upload_time": "2017-10-21 11:25:26.486000+00:00",
+            "version": "1.40.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affxparser",
+                    "bioconductor-affyio",
+                    "bioconductor-biocinstaller",
+                    "bioconductor-biostrings",
+                    "bioconductor-oligoclasses",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-summarizedexperiment",
+                    "r-base 3.3.1*",
+                    "r-dbi",
+                    "r-digest",
+                    "r-ff",
+                    "r-foreach",
+                    "r-rcpp",
+                    "r-rcurl",
+                    "r-rsqlite"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-oligo-1.40.1-r3.3.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affxparser",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-affyio",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocinstaller",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-oligoclasses",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-digest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcurl",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-oligo/1.40.1/linux-64/bioconductor-oligo-1.40.1-r3.3.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-oligo/1.40.1/linux-64/bioconductor-oligo-1.40.1-r3.3.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "2e8ba5833a07c2b7a86f08d2e423cb43",
+            "ndownloads": 1112,
+            "owner": "bioconda",
+            "size": 28402954,
+            "type": "conda",
+            "upload_time": "2017-06-01 16:37:36.314000+00:00",
+            "version": "1.40.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.2_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affxparser",
+                    "bioconductor-affyio",
+                    "bioconductor-biocinstaller",
+                    "bioconductor-biostrings",
+                    "bioconductor-oligoclasses",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-summarizedexperiment",
+                    "r-base 3.3.2*",
+                    "r-dbi",
+                    "r-digest",
+                    "r-ff",
+                    "r-foreach",
+                    "r-rcpp",
+                    "r-rcurl",
+                    "r-rsqlite"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-oligo-1.40.1-r3.3.2_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affxparser",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-affyio",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocinstaller",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-oligoclasses",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-digest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcurl",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-oligo/1.40.1/linux-64/bioconductor-oligo-1.40.1-r3.3.2_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-oligo/1.40.1/linux-64/bioconductor-oligo-1.40.1-r3.3.2_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "ec46373404b4eae211e85ddebe972ab8",
+            "ndownloads": 513,
+            "owner": "bioconda",
+            "size": 28406047,
+            "type": "conda",
+            "upload_time": "2017-06-13 22:44:18.125000+00:00",
+            "version": "1.40.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affxparser",
+                    "bioconductor-affyio",
+                    "bioconductor-biocinstaller",
+                    "bioconductor-biostrings",
+                    "bioconductor-oligoclasses",
+                    "bioconductor-preprocesscore",
+                    "bioconductor-summarizedexperiment",
+                    "r-base 3.4.1*",
+                    "r-dbi",
+                    "r-digest",
+                    "r-ff",
+                    "r-foreach",
+                    "r-rcpp",
+                    "r-rcurl",
+                    "r-rsqlite"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-oligo-1.40.1-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affxparser",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-affyio",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocinstaller",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-oligoclasses",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-digest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcurl",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-oligo/1.40.1/linux-64/bioconductor-oligo-1.40.1-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-oligo/1.40.1/linux-64/bioconductor-oligo-1.40.1-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "1bc925044e51bdad4cb5bb762696bd09",
+            "ndownloads": 913,
+            "owner": "bioconda",
+            "size": 28415920,
+            "type": "conda",
+            "upload_time": "2017-09-23 22:40:10.671000+00:00",
+            "version": "1.40.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affxparser >=1.39.4",
+                    "bioconductor-affyio >=1.35.0",
+                    "bioconductor-biobase >=2.27.3",
+                    "bioconductor-biocgenerics >=0.13.11",
+                    "bioconductor-biostrings >=2.35.12",
+                    "bioconductor-oligoclasses >=1.29.6",
+                    "bioconductor-preprocesscore >=1.29.0",
+                    "bioconductor-zlibbioc",
+                    "r-base 3.4.1*",
+                    "r-dbi >=0.3.1",
+                    "r-ff",
+                    "r-rsqlite >=1.0.0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-oligo-1.40.2-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affxparser",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.39.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-affyio",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.27.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.13.11"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.35.12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-oligoclasses",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.29.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-zlibbioc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-oligo/1.40.2/linux-64/bioconductor-oligo-1.40.2-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-oligo/1.40.2/linux-64/bioconductor-oligo-1.40.2-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "70838d71bcaa7b6e4461845b74169999",
+            "ndownloads": 569,
+            "owner": "bioconda",
+            "size": 28415159,
+            "type": "conda",
+            "upload_time": "2017-10-19 03:07:06.120000+00:00",
+            "version": "1.40.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affxparser >=1.39.4",
+                    "bioconductor-affyio >=1.35.0",
+                    "bioconductor-biobase >=2.27.3",
+                    "bioconductor-biocgenerics >=0.13.11",
+                    "bioconductor-biostrings >=2.35.12",
+                    "bioconductor-oligoclasses >=1.29.6",
+                    "bioconductor-preprocesscore >=1.29.0",
+                    "bioconductor-zlibbioc",
+                    "r-base 3.4.1*",
+                    "r-dbi >=0.3.1",
+                    "r-ff",
+                    "r-rsqlite >=1.0.0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-oligo-1.42.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affxparser",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.39.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-affyio",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.27.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.13.11"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.35.12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-oligoclasses",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.29.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-zlibbioc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-oligo/1.42.0/osx-64/bioconductor-oligo-1.42.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-oligo/1.42.0/osx-64/bioconductor-oligo-1.42.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "13d74e63f08282d0d64a0954d5012b25",
+            "ndownloads": 783,
+            "owner": "bioconda",
+            "size": 28416831,
+            "type": "conda",
+            "upload_time": "2017-11-10 05:19:18.745000+00:00",
+            "version": "1.42.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affxparser >=1.39.4",
+                    "bioconductor-affyio >=1.35.0",
+                    "bioconductor-biobase >=2.27.3",
+                    "bioconductor-biocgenerics >=0.13.11",
+                    "bioconductor-biostrings >=2.35.12",
+                    "bioconductor-oligoclasses >=1.29.6",
+                    "bioconductor-preprocesscore >=1.29.0",
+                    "bioconductor-zlibbioc",
+                    "r-base 3.4.1*",
+                    "r-dbi >=0.3.1",
+                    "r-ff",
+                    "r-rsqlite >=1.0.0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-oligo-1.42.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affxparser",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.39.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-affyio",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.27.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.13.11"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.35.12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-oligoclasses",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.29.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-zlibbioc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-oligo/1.42.0/linux-64/bioconductor-oligo-1.42.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-oligo/1.42.0/linux-64/bioconductor-oligo-1.42.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "037fb16421ffd8dd06d8cb9a29bfa157",
+            "ndownloads": 675,
+            "owner": "bioconda",
+            "size": 28415484,
+            "type": "conda",
+            "upload_time": "2017-11-11 10:08:27.946000+00:00",
+            "version": "1.42.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affxparser >=1.52.0,<1.54.0",
+                    "bioconductor-affyio >=1.50.0,<1.52.0",
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "bioconductor-biostrings >=2.48.0,<2.50.0",
+                    "bioconductor-oligoclasses >=1.42.0,<1.44.0",
+                    "bioconductor-preprocesscore >=1.42.0,<1.44.0",
+                    "bioconductor-zlibbioc >=1.26.0,<1.28.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-dbi >=0.3.1",
+                    "r-ff",
+                    "r-rsqlite >=1.0.0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1540505727621
+            },
+            "basename": "osx-64/bioconductor-oligo-1.44.0-r351h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affxparser",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.54.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-affyio",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.52.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.50.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-oligoclasses",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.44.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.44.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-zlibbioc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-oligo/1.44.0/osx-64/bioconductor-oligo-1.44.0-r351h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-oligo/1.44.0/osx-64/bioconductor-oligo-1.44.0-r351h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "ede5d1a9616938016d74a7e69216a8df",
+            "ndownloads": 774,
+            "owner": "bioconda",
+            "size": 28704882,
+            "type": "conda",
+            "upload_time": "2018-10-25 22:17:11.518000+00:00",
+            "version": "1.44.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affxparser >=1.52.0,<1.54.0",
+                    "bioconductor-affyio >=1.50.0,<1.52.0",
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "bioconductor-biostrings >=2.48.0,<2.50.0",
+                    "bioconductor-oligoclasses >=1.42.0,<1.44.0",
+                    "bioconductor-preprocesscore >=1.42.0,<1.44.0",
+                    "bioconductor-zlibbioc >=1.26.0,<1.28.0",
+                    "libgcc-ng >=4.9",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-dbi >=0.3.1",
+                    "r-ff",
+                    "r-rsqlite >=1.0.0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540727649015
+            },
+            "basename": "linux-64/bioconductor-oligo-1.44.0-r351h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affxparser",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.54.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-affyio",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.52.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.50.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-oligoclasses",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.44.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.44.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-zlibbioc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-oligo/1.44.0/linux-64/bioconductor-oligo-1.44.0-r351h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-oligo/1.44.0/linux-64/bioconductor-oligo-1.44.0-r351h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "0f30cca8f6881a00ab42969ce74d4a29",
+            "ndownloads": 302,
+            "owner": "bioconda",
+            "size": 28699210,
+            "type": "conda",
+            "upload_time": "2018-10-28 11:58:43.519000+00:00",
+            "version": "1.44.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h1de35cc_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affxparser >=1.54.0,<1.55.0",
+                    "bioconductor-affyio >=1.52.0,<1.53.0",
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "bioconductor-biostrings >=2.50.0,<2.51.0",
+                    "bioconductor-oligoclasses >=1.44.0,<1.45.0",
+                    "bioconductor-preprocesscore >=1.44.0,<1.45.0",
+                    "bioconductor-zlibbioc >=1.28.0,<1.29.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-dbi >=0.3.1",
+                    "r-ff",
+                    "r-rsqlite >=1.0.0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1544665387964
+            },
+            "basename": "osx-64/bioconductor-oligo-1.46.0-r351h1de35cc_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affxparser",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-affyio",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-oligoclasses",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-zlibbioc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-oligo/1.46.0/osx-64/bioconductor-oligo-1.46.0-r351h1de35cc_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-oligo/1.46.0/osx-64/bioconductor-oligo-1.46.0-r351h1de35cc_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "6d956d8ed0d28f17c5e7e5607bc98c9c",
+            "ndownloads": 724,
+            "owner": "bioconda",
+            "size": 28708608,
+            "type": "conda",
+            "upload_time": "2018-12-13 01:44:39.004000+00:00",
+            "version": "1.46.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h14c3975_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affxparser >=1.54.0,<1.55.0",
+                    "bioconductor-affyio >=1.52.0,<1.53.0",
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "bioconductor-biostrings >=2.50.0,<2.51.0",
+                    "bioconductor-oligoclasses >=1.44.0,<1.45.0",
+                    "bioconductor-preprocesscore >=1.44.0,<1.45.0",
+                    "bioconductor-zlibbioc >=1.28.0,<1.29.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-dbi >=0.3.1",
+                    "r-ff",
+                    "r-rsqlite >=1.0.0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1546727269342
+            },
+            "basename": "linux-64/bioconductor-oligo-1.46.0-r351h14c3975_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affxparser",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-affyio",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-oligoclasses",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-zlibbioc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-oligo/1.46.0/linux-64/bioconductor-oligo-1.46.0-r351h14c3975_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-oligo/1.46.0/linux-64/bioconductor-oligo-1.46.0-r351h14c3975_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "847cb6acc18751678848d5e9da36b4cd",
+            "ndownloads": 715,
+            "owner": "bioconda",
+            "size": 28701128,
+            "type": "conda",
+            "upload_time": "2019-01-05 22:32:09.172000+00:00",
+            "version": "1.46.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-affxparser >=1.56.0,<1.57.0",
+                    "bioconductor-affyio >=1.54.0,<1.55.0",
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "bioconductor-biostrings >=2.52.0,<2.53.0",
+                    "bioconductor-oligoclasses >=1.46.0,<1.47.0",
+                    "bioconductor-preprocesscore >=1.46.0,<1.47.0",
+                    "bioconductor-zlibbioc >=1.30.0,<1.31.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-dbi >=0.3.1",
+                    "r-ff",
+                    "r-rsqlite >=1.0.0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1564015142718
+            },
+            "basename": "osx-64/bioconductor-oligo-1.48.0-r36h01d97ff_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affxparser",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-affyio",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-oligoclasses",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-zlibbioc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-oligo/1.48.0/osx-64/bioconductor-oligo-1.48.0-r36h01d97ff_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-oligo/1.48.0/osx-64/bioconductor-oligo-1.48.0-r36h01d97ff_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f2a207c042807cd703c6b6c99ba45619",
+            "ndownloads": 348,
+            "owner": "bioconda",
+            "size": 28793266,
+            "type": "conda",
+            "upload_time": "2019-07-25 00:40:36.834000+00:00",
+            "version": "1.48.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-affxparser >=1.56.0,<1.57.0",
+                    "bioconductor-affyio >=1.54.0,<1.55.0",
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "bioconductor-biostrings >=2.52.0,<2.53.0",
+                    "bioconductor-oligoclasses >=1.46.0,<1.47.0",
+                    "bioconductor-preprocesscore >=1.46.0,<1.47.0",
+                    "bioconductor-zlibbioc >=1.30.0,<1.31.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-dbi >=0.3.1",
+                    "r-ff",
+                    "r-rsqlite >=1.0.0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1564243770449
+            },
+            "basename": "linux-64/bioconductor-oligo-1.48.0-r36h516909a_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affxparser",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-affyio",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-oligoclasses",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-zlibbioc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-oligo/1.48.0/linux-64/bioconductor-oligo-1.48.0-r36h516909a_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-oligo/1.48.0/linux-64/bioconductor-oligo-1.48.0-r36h516909a_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5ca1d47e942a62ccdc868a81f5cf72ad",
+            "ndownloads": 480,
+            "owner": "bioconda",
+            "size": 28753700,
+            "type": "conda",
+            "upload_time": "2019-07-27 16:15:17.762000+00:00",
+            "version": "1.48.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affxparser >=1.58.0,<1.59.0",
+                    "bioconductor-affyio >=1.56.0,<1.57.0",
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-biostrings >=2.54.0,<2.55.0",
+                    "bioconductor-oligoclasses >=1.48.0,<1.49.0",
+                    "bioconductor-preprocesscore >=1.48.0,<1.49.0",
+                    "bioconductor-zlibbioc >=1.32.0,<1.33.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-dbi >=0.3.1",
+                    "r-ff",
+                    "r-rsqlite >=1.0.0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572637697684
+            },
+            "basename": "osx-64/bioconductor-oligo-1.50.0-r36h01d97ff_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affxparser",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-affyio",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-oligoclasses",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-zlibbioc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-oligo/1.50.0/osx-64/bioconductor-oligo-1.50.0-r36h01d97ff_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-oligo/1.50.0/osx-64/bioconductor-oligo-1.50.0-r36h01d97ff_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "29405779e9c2aa10054e0b165d3397e3",
+            "ndownloads": 165,
+            "owner": "bioconda",
+            "size": 28789665,
+            "type": "conda",
+            "upload_time": "2019-11-01 19:50:09.302000+00:00",
+            "version": "1.50.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affxparser >=1.58.0,<1.59.0",
+                    "bioconductor-affyio >=1.56.0,<1.57.0",
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-biostrings >=2.54.0,<2.55.0",
+                    "bioconductor-oligoclasses >=1.48.0,<1.49.0",
+                    "bioconductor-preprocesscore >=1.48.0,<1.49.0",
+                    "bioconductor-zlibbioc >=1.32.0,<1.33.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-dbi >=0.3.1",
+                    "r-ff",
+                    "r-rsqlite >=1.0.0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572737276825
+            },
+            "basename": "linux-64/bioconductor-oligo-1.50.0-r36h516909a_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affxparser",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-affyio",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-oligoclasses",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-zlibbioc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-oligo/1.50.0/linux-64/bioconductor-oligo-1.50.0-r36h516909a_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-oligo/1.50.0/linux-64/bioconductor-oligo-1.50.0-r36h516909a_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "330834f9a0ad641ff8104dde9ac97f01",
+            "ndownloads": 430,
+            "owner": "bioconda",
+            "size": 28765740,
+            "type": "conda",
+            "upload_time": "2019-11-02 23:33:52.568000+00:00",
+            "version": "1.50.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-oligo",
+    "home": "None",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-oligo",
+    "id": "593042cfad9674123b0de269",
+    "latest_version": "1.50.0",
+    "license": "LGPL (>= 2)",
+    "license_url": null,
+    "modified_at": "2019-11-02 23:33:53.214000+00:00",
+    "name": "bioconductor-oligo",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-oligo/1.40.1",
+            "version": "1.40.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-oligo/1.40.2",
+            "version": "1.40.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-oligo/1.42.0",
+            "version": "1.42.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-oligo/1.44.0",
+            "version": "1.44.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-oligo/1.46.0",
+            "version": "1.46.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-oligo/1.48.0",
+            "version": "1.48.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-oligo/1.50.0",
+            "version": "1.50.0"
+        }
+    ],
+    "revision": 14,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Preprocessing tools for oligonucleotide arrays",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-oligo",
+    "versions": [
+        "1.40.1",
+        "1.40.2",
+        "1.42.0",
+        "1.44.0",
+        "1.46.0",
+        "1.48.0",
+        "1.50.0"
+    ],
+    "watchers": 1
+}

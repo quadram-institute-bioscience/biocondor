@@ -1,0 +1,1470 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "py36_1",
+        "py36_0",
+        "py_0",
+        "py_1"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "noarch"
+    ],
+    "created_at": "2019-02-07 08:34:46.291000+00:00",
+    "description": "Atlas is a easy to use metagenomic pipeline\n\nThree commands to start analysing your metagenome data:\n```\n    conda install -c bioconda -c conda-forge metagenome-atlas\n    atlas init --db-dir databases path/to/fastq/files\n    atlas run\n```\nAll databases and dependencies are installed on the fly in the directory `db-dir`.\nYou want to run these three commands on the example_data on the GitHub repo.\nIf you have more time, then we recommend you configure atlas according to your needs.\n  - check the `samples.tsv`\n  - edit the `config.yaml`\n  - run atlas on any cluster system\nFor more details see documentation.\n",
+    "dev_url": "https://github.com/metagenome-atlas/atlas",
+    "doc_url": "https://metagenome-atlas.rtfd.io",
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py36_1",
+                "build_number": 1,
+                "depends": [
+                    "bbmap 37.78.*",
+                    "biopython >=1.70",
+                    "click 7.*",
+                    "git",
+                    "pandas 0.23.*",
+                    "python 3.6.*",
+                    "ruamel.yaml 0.15.*",
+                    "snakemake 5.4.*"
+                ],
+                "has_prefix": true,
+                "license": "BSD-3-Clause",
+                "license_family": "BSD",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1549550123443
+            },
+            "basename": "linux-64/metagenome-atlas-2.0.1-py36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bbmap",
+                        "specs": [
+                            [
+                                "==",
+                                "37.78."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "biopython",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "click",
+                        "specs": [
+                            [
+                                "==",
+                                "7."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "git",
+                        "specs": []
+                    },
+                    {
+                        "name": "pandas",
+                        "specs": [
+                            [
+                                "==",
+                                "0.23."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "ruamel.yaml",
+                        "specs": [
+                            [
+                                "==",
+                                "0.15."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "snakemake",
+                        "specs": [
+                            [
+                                "==",
+                                "5.4."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/metagenome-atlas/2.0.1/linux-64/metagenome-atlas-2.0.1-py36_1.tar.bz2",
+            "full_name": "bioconda/metagenome-atlas/2.0.1/linux-64/metagenome-atlas-2.0.1-py36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7d8426d0b7a1efe46e8af1469a224c40",
+            "ndownloads": 742,
+            "owner": "bioconda",
+            "size": 108743,
+            "type": "conda",
+            "upload_time": "2019-02-07 14:44:59.379000+00:00",
+            "version": "2.0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py36_0",
+                "build_number": 0,
+                "depends": [
+                    "bbmap 37.78.*",
+                    "biopython >=1.70",
+                    "click 7.*",
+                    "git",
+                    "pandas 0.23.*",
+                    "python 3.6.*",
+                    "ruamel.yaml 0.15.*",
+                    "snakemake 5.4.*"
+                ],
+                "has_prefix": true,
+                "license": "BSD-3-Clause",
+                "license_family": "BSD",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1549527917479
+            },
+            "basename": "linux-64/metagenome-atlas-2.0.1-py36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bbmap",
+                        "specs": [
+                            [
+                                "==",
+                                "37.78."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "biopython",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "click",
+                        "specs": [
+                            [
+                                "==",
+                                "7."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "git",
+                        "specs": []
+                    },
+                    {
+                        "name": "pandas",
+                        "specs": [
+                            [
+                                "==",
+                                "0.23."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "ruamel.yaml",
+                        "specs": [
+                            [
+                                "==",
+                                "0.15."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "snakemake",
+                        "specs": [
+                            [
+                                "==",
+                                "5.4."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/metagenome-atlas/2.0.1/linux-64/metagenome-atlas-2.0.1-py36_0.tar.bz2",
+            "full_name": "bioconda/metagenome-atlas/2.0.1/linux-64/metagenome-atlas-2.0.1-py36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7baf1cee8d9c830b120a430654e176a2",
+            "ndownloads": 88,
+            "owner": "bioconda",
+            "size": 108405,
+            "type": "conda",
+            "upload_time": "2019-02-07 08:34:47.002000+00:00",
+            "version": "2.0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py36_1",
+                "build_number": 1,
+                "depends": [
+                    "bbmap 37.78.*",
+                    "biopython >=1.70",
+                    "click 7.*",
+                    "git",
+                    "pandas 0.23.*",
+                    "python 3.6.*",
+                    "ruamel.yaml 0.15.*",
+                    "snakemake 5.4.*"
+                ],
+                "has_prefix": true,
+                "license": "BSD-3-Clause",
+                "license_family": "BSD",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1551283140574
+            },
+            "basename": "linux-64/metagenome-atlas-2.0.3-py36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bbmap",
+                        "specs": [
+                            [
+                                "==",
+                                "37.78."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "biopython",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "click",
+                        "specs": [
+                            [
+                                "==",
+                                "7."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "git",
+                        "specs": []
+                    },
+                    {
+                        "name": "pandas",
+                        "specs": [
+                            [
+                                "==",
+                                "0.23."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "ruamel.yaml",
+                        "specs": [
+                            [
+                                "==",
+                                "0.15."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "snakemake",
+                        "specs": [
+                            [
+                                "==",
+                                "5.4."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/metagenome-atlas/2.0.3/linux-64/metagenome-atlas-2.0.3-py36_1.tar.bz2",
+            "full_name": "bioconda/metagenome-atlas/2.0.3/linux-64/metagenome-atlas-2.0.3-py36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d18b7faa552f0db2d2a058167b3cae61",
+            "ndownloads": 676,
+            "owner": "bioconda",
+            "size": 108819,
+            "type": "conda",
+            "upload_time": "2019-02-27 16:08:40.257000+00:00",
+            "version": "2.0.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py36_1",
+                "build_number": 1,
+                "depends": [
+                    "bbmap 37.78.*",
+                    "biopython >=1.70",
+                    "click 7.*",
+                    "git",
+                    "pandas 0.23.*",
+                    "python 3.6.*",
+                    "ruamel.yaml 0.15.*",
+                    "snakemake 5.4.*"
+                ],
+                "has_prefix": true,
+                "license": "BSD-3-Clause",
+                "license_family": "BSD",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1551344541520
+            },
+            "basename": "linux-64/metagenome-atlas-2.0.4-py36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bbmap",
+                        "specs": [
+                            [
+                                "==",
+                                "37.78."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "biopython",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "click",
+                        "specs": [
+                            [
+                                "==",
+                                "7."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "git",
+                        "specs": []
+                    },
+                    {
+                        "name": "pandas",
+                        "specs": [
+                            [
+                                "==",
+                                "0.23."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "ruamel.yaml",
+                        "specs": [
+                            [
+                                "==",
+                                "0.15."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "snakemake",
+                        "specs": [
+                            [
+                                "==",
+                                "5.4."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/metagenome-atlas/2.0.4/linux-64/metagenome-atlas-2.0.4-py36_1.tar.bz2",
+            "full_name": "bioconda/metagenome-atlas/2.0.4/linux-64/metagenome-atlas-2.0.4-py36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3cb7761655c3a493810ca126b3889105",
+            "ndownloads": 680,
+            "owner": "bioconda",
+            "size": 108884,
+            "type": "conda",
+            "upload_time": "2019-02-28 09:13:25.580000+00:00",
+            "version": "2.0.4"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py36_1",
+                "build_number": 1,
+                "depends": [
+                    "bbmap 37.78.*",
+                    "biopython >=1.70",
+                    "click 7.*",
+                    "git",
+                    "pandas 0.23.*",
+                    "python 3.6.*",
+                    "ruamel.yaml 0.15.*",
+                    "snakemake 5.4.*"
+                ],
+                "has_prefix": true,
+                "license": "BSD-3-Clause",
+                "license_family": "BSD",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1551459115115
+            },
+            "basename": "linux-64/metagenome-atlas-2.0.5-py36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bbmap",
+                        "specs": [
+                            [
+                                "==",
+                                "37.78."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "biopython",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "click",
+                        "specs": [
+                            [
+                                "==",
+                                "7."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "git",
+                        "specs": []
+                    },
+                    {
+                        "name": "pandas",
+                        "specs": [
+                            [
+                                "==",
+                                "0.23."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "ruamel.yaml",
+                        "specs": [
+                            [
+                                "==",
+                                "0.15."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "snakemake",
+                        "specs": [
+                            [
+                                "==",
+                                "5.4."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/metagenome-atlas/2.0.5/linux-64/metagenome-atlas-2.0.5-py36_1.tar.bz2",
+            "full_name": "bioconda/metagenome-atlas/2.0.5/linux-64/metagenome-atlas-2.0.5-py36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f1b125e225bfd4bf1f7902fa66c10de3",
+            "ndownloads": 683,
+            "owner": "bioconda",
+            "size": 108995,
+            "type": "conda",
+            "upload_time": "2019-03-01 17:02:45.561000+00:00",
+            "version": "2.0.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py36_1",
+                "build_number": 1,
+                "depends": [
+                    "bbmap 37.78.*",
+                    "biopython >=1.70",
+                    "click 7.*",
+                    "git",
+                    "pandas 0.23.*",
+                    "python 3.6.*",
+                    "ruamel.yaml 0.15.*",
+                    "snakemake 5.4.*"
+                ],
+                "has_prefix": true,
+                "license": "BSD-3-Clause",
+                "license_family": "BSD",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1551794056748
+            },
+            "basename": "linux-64/metagenome-atlas-2.0.6-py36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bbmap",
+                        "specs": [
+                            [
+                                "==",
+                                "37.78."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "biopython",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "click",
+                        "specs": [
+                            [
+                                "==",
+                                "7."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "git",
+                        "specs": []
+                    },
+                    {
+                        "name": "pandas",
+                        "specs": [
+                            [
+                                "==",
+                                "0.23."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "ruamel.yaml",
+                        "specs": [
+                            [
+                                "==",
+                                "0.15."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "snakemake",
+                        "specs": [
+                            [
+                                "==",
+                                "5.4."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/metagenome-atlas/2.0.6/linux-64/metagenome-atlas-2.0.6-py36_1.tar.bz2",
+            "full_name": "bioconda/metagenome-atlas/2.0.6/linux-64/metagenome-atlas-2.0.6-py36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "55c224e9d1b9a38cd6683b8024c339d9",
+            "ndownloads": 699,
+            "owner": "bioconda",
+            "size": 109058,
+            "type": "conda",
+            "upload_time": "2019-03-05 14:03:45.164000+00:00",
+            "version": "2.0.6"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "bbmap 37.78.*",
+                    "biopython >=1.70",
+                    "click 7.*",
+                    "git",
+                    "pandas 0.23.*",
+                    "python 3.6.*",
+                    "ruamel.yaml 0.15.*",
+                    "snakemake >=5.4.5"
+                ],
+                "has_prefix": false,
+                "license": "BSD-3-Clause",
+                "license_family": "BSD",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1559141247897
+            },
+            "basename": "noarch/metagenome-atlas-2.1.1-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bbmap",
+                        "specs": [
+                            [
+                                "==",
+                                "37.78."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "biopython",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "click",
+                        "specs": [
+                            [
+                                "==",
+                                "7."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "git",
+                        "specs": []
+                    },
+                    {
+                        "name": "pandas",
+                        "specs": [
+                            [
+                                "==",
+                                "0.23."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "ruamel.yaml",
+                        "specs": [
+                            [
+                                "==",
+                                "0.15."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "snakemake",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.4.5"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/metagenome-atlas/2.1.1/noarch/metagenome-atlas-2.1.1-py_0.tar.bz2",
+            "full_name": "bioconda/metagenome-atlas/2.1.1/noarch/metagenome-atlas-2.1.1-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f2e9c7050b1494b07f36d0e009b6692c",
+            "ndownloads": 65,
+            "owner": "bioconda",
+            "size": 81974,
+            "type": "conda",
+            "upload_time": "2019-05-29 14:55:01.889000+00:00",
+            "version": "2.1.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "bbmap >=37.78",
+                    "biopython >=1.70",
+                    "click >=7",
+                    "git",
+                    "pandas >=0.23",
+                    "python >3.6,<3.7",
+                    "ruamel.yaml >=0.15",
+                    "snakemake >=5.4.5,<6"
+                ],
+                "has_prefix": false,
+                "license": "BSD-3-Clause",
+                "license_family": "BSD",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1560527549851
+            },
+            "basename": "noarch/metagenome-atlas-2.1.3-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bbmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "37.78"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "biopython",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "click",
+                        "specs": [
+                            [
+                                ">=",
+                                "7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "git",
+                        "specs": []
+                    },
+                    {
+                        "name": "pandas",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.23"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">",
+                                "3.6,<3.7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "ruamel.yaml",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.15"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "snakemake",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.4.5,<6"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/metagenome-atlas/2.1.3/noarch/metagenome-atlas-2.1.3-py_0.tar.bz2",
+            "full_name": "bioconda/metagenome-atlas/2.1.3/noarch/metagenome-atlas-2.1.3-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1a79c157b77d55e2740594a487a60e1f",
+            "ndownloads": 76,
+            "owner": "bioconda",
+            "size": 81694,
+            "type": "conda",
+            "upload_time": "2019-06-14 16:35:04.188000+00:00",
+            "version": "2.1.3"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "bbmap >=37.78",
+                    "biopython >=1.70",
+                    "click >=7",
+                    "git",
+                    "pandas >=0.23",
+                    "python >3.6,<3.7",
+                    "ruamel.yaml >=0.15",
+                    "snakemake >=5.4.5,<6"
+                ],
+                "has_prefix": false,
+                "license": "BSD-3-Clause",
+                "license_family": "BSD",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1564460089744
+            },
+            "basename": "noarch/metagenome-atlas-2.1.4-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bbmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "37.78"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "biopython",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "click",
+                        "specs": [
+                            [
+                                ">=",
+                                "7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "git",
+                        "specs": []
+                    },
+                    {
+                        "name": "pandas",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.23"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">",
+                                "3.6,<3.7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "ruamel.yaml",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.15"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "snakemake",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.4.5,<6"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/metagenome-atlas/2.1.4/noarch/metagenome-atlas-2.1.4-py_0.tar.bz2",
+            "full_name": "bioconda/metagenome-atlas/2.1.4/noarch/metagenome-atlas-2.1.4-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "af5575592359e3eaead0a8f48694b34b",
+            "ndownloads": 93,
+            "owner": "bioconda",
+            "size": 81948,
+            "type": "conda",
+            "upload_time": "2019-07-30 04:23:26.108000+00:00",
+            "version": "2.1.4"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_1",
+                "build_number": 1,
+                "depends": [
+                    "bbmap >=37.78",
+                    "biopython >=1.70",
+                    "click >=7",
+                    "git",
+                    "pandas >=0.23",
+                    "python >3.6,<3.7",
+                    "ruamel.yaml >=0.15",
+                    "snakemake >=5.4.5,<6"
+                ],
+                "has_prefix": false,
+                "license": "BSD-3-Clause",
+                "license_family": "BSD",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1564556650408
+            },
+            "basename": "noarch/metagenome-atlas-2.1.4-py_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bbmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "37.78"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "biopython",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "click",
+                        "specs": [
+                            [
+                                ">=",
+                                "7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "git",
+                        "specs": []
+                    },
+                    {
+                        "name": "pandas",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.23"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">",
+                                "3.6,<3.7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "ruamel.yaml",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.15"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "snakemake",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.4.5,<6"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/metagenome-atlas/2.1.4/noarch/metagenome-atlas-2.1.4-py_1.tar.bz2",
+            "full_name": "bioconda/metagenome-atlas/2.1.4/noarch/metagenome-atlas-2.1.4-py_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e14eaa2ad6186eb3671a6a115681fff5",
+            "ndownloads": 70,
+            "owner": "bioconda",
+            "size": 85026,
+            "type": "conda",
+            "upload_time": "2019-07-31 07:13:39.102000+00:00",
+            "version": "2.1.4"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "bbmap >=37.78",
+                    "biopython >=1.70",
+                    "click >=7",
+                    "git",
+                    "pandas >=0.23",
+                    "python >3.6,<3.7",
+                    "ruamel.yaml >=0.15",
+                    "snakemake >=5.4.5,<6"
+                ],
+                "has_prefix": false,
+                "license": "BSD-3-Clause",
+                "license_family": "BSD",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572738874381
+            },
+            "basename": "noarch/metagenome-atlas-2.2.0-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bbmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "37.78"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "biopython",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "click",
+                        "specs": [
+                            [
+                                ">=",
+                                "7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "git",
+                        "specs": []
+                    },
+                    {
+                        "name": "pandas",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.23"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">",
+                                "3.6,<3.7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "ruamel.yaml",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.15"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "snakemake",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.4.5,<6"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/metagenome-atlas/2.2.0/noarch/metagenome-atlas-2.2.0-py_0.tar.bz2",
+            "full_name": "bioconda/metagenome-atlas/2.2.0/noarch/metagenome-atlas-2.2.0-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9a06d63bae9e5aba2365fc106bf8194c",
+            "ndownloads": 32,
+            "owner": "bioconda",
+            "size": 86793,
+            "type": "conda",
+            "upload_time": "2019-11-03 00:04:59.118000+00:00",
+            "version": "2.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "bbmap >=37.*",
+                    "biopython >=1.70",
+                    "click >=7",
+                    "cookiecutter",
+                    "git",
+                    "pandas >=0.23",
+                    "python >3.6,<3.7",
+                    "ruamel.yaml 0.15.99.*",
+                    "snakemake >=5.4.5,<6"
+                ],
+                "has_prefix": false,
+                "license": "BSD-3-Clause",
+                "license_family": "BSD",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1576272067981
+            },
+            "basename": "noarch/metagenome-atlas-2.3.beta2-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bbmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "37."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "biopython",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "click",
+                        "specs": [
+                            [
+                                ">=",
+                                "7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "cookiecutter",
+                        "specs": []
+                    },
+                    {
+                        "name": "git",
+                        "specs": []
+                    },
+                    {
+                        "name": "pandas",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.23"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">",
+                                "3.6,<3.7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "ruamel.yaml",
+                        "specs": [
+                            [
+                                "==",
+                                "0.15.99."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "snakemake",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.4.5,<6"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/metagenome-atlas/2.3.beta2/noarch/metagenome-atlas-2.3.beta2-py_0.tar.bz2",
+            "full_name": "bioconda/metagenome-atlas/2.3.beta2/noarch/metagenome-atlas-2.3.beta2-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e47545fb9cad63a5f7de7171afc4965b",
+            "ndownloads": 11,
+            "owner": "bioconda",
+            "size": 88533,
+            "type": "conda",
+            "upload_time": "2019-12-14 09:30:56.741000+00:00",
+            "version": "2.3.beta2"
+        }
+    ],
+    "full_name": "bioconda/metagenome-atlas",
+    "home": "https://github.com/metagenome-atlas",
+    "html_url": "http://anaconda.org/bioconda/metagenome-atlas",
+    "id": "5c5beda637f339344a1625b6",
+    "latest_version": "2.3.beta2",
+    "license": "BSD-3-Clause",
+    "license_url": null,
+    "modified_at": "2019-12-14 09:30:57.027000+00:00",
+    "name": "metagenome-atlas",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/metagenome-atlas/2.0.1",
+            "version": "2.0.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/metagenome-atlas/2.0.3",
+            "version": "2.0.3"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/metagenome-atlas/2.0.4",
+            "version": "2.0.4"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/metagenome-atlas/2.0.5",
+            "version": "2.0.5"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/metagenome-atlas/2.0.6",
+            "version": "2.0.6"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/metagenome-atlas/2.1.1",
+            "version": "2.1.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/metagenome-atlas/2.1.3",
+            "version": "2.1.3"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/metagenome-atlas/2.1.4",
+            "version": "2.1.4"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/metagenome-atlas/2.2.0",
+            "version": "2.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/metagenome-atlas/2.3.beta2",
+            "version": "2.3.beta2"
+        }
+    ],
+    "revision": 20,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "ATLAS - Three commands to start analysing your metagenome data",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/metagenome-atlas",
+    "versions": [
+        "2.0.1",
+        "2.0.3",
+        "2.0.4",
+        "2.0.5",
+        "2.0.6",
+        "2.1.1",
+        "2.1.3",
+        "2.1.4",
+        "2.2.0",
+        "2.3.beta2"
+    ],
+    "watchers": 1
+}

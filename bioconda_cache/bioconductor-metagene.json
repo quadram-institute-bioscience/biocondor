@@ -1,0 +1,693 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351_0",
+        "r36_1",
+        "r36_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-01-01 12:26:29.745000+00:00",
+    "description": "This package produces metagene plots to compare the behavior of DNA-interacting proteins at selected groups of genes/features. Bam files are used to increase the resolution. Multiple combination of group of bam files and/or group of genomic regions can be compared in a single analysis. Bootstraping analysis is used to compare the groups and locate regions with statistically different enrichment profiles.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.16.0,<1.17.0",
+                    "bioconductor-dbchip >=1.26.0,<1.27.0",
+                    "bioconductor-ensdb.hsapiens.v86 >=2.99.0,<2.100.0",
+                    "bioconductor-ensembldb >=2.6.0,<2.7.0",
+                    "bioconductor-genomeinfodb >=1.18.0,<1.19.0",
+                    "bioconductor-genomicalignments >=1.18.0,<1.19.0",
+                    "bioconductor-genomicfeatures >=1.34.0,<1.35.0",
+                    "bioconductor-genomicranges >=1.34.0,<1.35.0",
+                    "bioconductor-iranges >=2.16.0,<2.17.0",
+                    "bioconductor-rsamtools >=1.34.0,<1.35.0",
+                    "bioconductor-rtracklayer >=1.42.0,<1.43.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-data.table",
+                    "r-ggplot2",
+                    "r-gplots",
+                    "r-magrittr",
+                    "r-matrixstats",
+                    "r-mustat",
+                    "r-purrr",
+                    "r-r6 >=2.0",
+                    "r-stringr"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0 | file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1546345244334
+            },
+            "basename": "noarch/bioconductor-metagene-2.14.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dbchip",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensdb.hsapiens.v86",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.99.0,<2.100.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gplots",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mustat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-purrr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-r6",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metagene/2.14.0/noarch/bioconductor-metagene-2.14.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-metagene/2.14.0/noarch/bioconductor-metagene-2.14.0-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "e7eb2eb36e4f67805dadb6ae65fbbaee",
+            "ndownloads": 86,
+            "owner": "bioconda",
+            "size": 7328892,
+            "type": "conda",
+            "upload_time": "2019-01-01 12:26:30.576000+00:00",
+            "version": "2.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocparallel >=1.18.0,<1.19.0",
+                    "bioconductor-dbchip >=1.28.0,<1.29.0",
+                    "bioconductor-ensdb.hsapiens.v86 >=2.99.0,<2.100.0",
+                    "bioconductor-ensembldb >=2.8.0,<2.9.0",
+                    "bioconductor-genomeinfodb >=1.20.0,<1.21.0",
+                    "bioconductor-genomicalignments >=1.20.0,<1.21.0",
+                    "bioconductor-genomicfeatures >=1.36.0,<1.37.0",
+                    "bioconductor-genomicranges >=1.36.0,<1.37.0",
+                    "bioconductor-iranges >=2.18.0,<2.19.0",
+                    "bioconductor-rsamtools >=2.0.0,<2.1.0",
+                    "bioconductor-rtracklayer >=1.44.0,<1.45.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-data.table",
+                    "r-ggplot2",
+                    "r-gplots",
+                    "r-magrittr",
+                    "r-matrixstats",
+                    "r-mustat",
+                    "r-purrr",
+                    "r-r6 >=2.0",
+                    "r-stringr"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0 | file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1565545291563
+            },
+            "basename": "noarch/bioconductor-metagene-2.16.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dbchip",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensdb.hsapiens.v86",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.99.0,<2.100.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.8.0,<2.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gplots",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mustat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-purrr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-r6",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metagene/2.16.0/noarch/bioconductor-metagene-2.16.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-metagene/2.16.0/noarch/bioconductor-metagene-2.16.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6658fb53d6f13df4b4c68d81e7f9439d",
+            "ndownloads": 29,
+            "owner": "bioconda",
+            "size": 7248608,
+            "type": "conda",
+            "upload_time": "2019-08-11 17:50:02.450000+00:00",
+            "version": "2.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+                    "bioconductor-dbchip >=1.30.0,<1.31.0",
+                    "bioconductor-ensdb.hsapiens.v86 >=2.99.0,<2.100.0",
+                    "bioconductor-ensembldb >=2.10.0,<2.11.0",
+                    "bioconductor-genomeinfodb >=1.22.0,<1.23.0",
+                    "bioconductor-genomicalignments >=1.22.0,<1.23.0",
+                    "bioconductor-genomicfeatures >=1.38.0,<1.39.0",
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "bioconductor-iranges >=2.20.0,<2.21.0",
+                    "bioconductor-rsamtools >=2.2.0,<2.3.0",
+                    "bioconductor-rtracklayer >=1.46.0,<1.47.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-data.table",
+                    "r-ggplot2",
+                    "r-gplots",
+                    "r-magrittr",
+                    "r-matrixstats",
+                    "r-mustat",
+                    "r-purrr",
+                    "r-r6 >=2.0",
+                    "r-stringr"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0 | file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572896438313
+            },
+            "basename": "noarch/bioconductor-metagene-2.18.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dbchip",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensdb.hsapiens.v86",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.99.0,<2.100.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gplots",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mustat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-purrr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-r6",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metagene/2.18.0/noarch/bioconductor-metagene-2.18.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-metagene/2.18.0/noarch/bioconductor-metagene-2.18.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "208891c087516e9ac4c76b5b761700c2",
+            "ndownloads": 27,
+            "owner": "bioconda",
+            "size": 7230777,
+            "type": "conda",
+            "upload_time": "2019-11-04 19:49:10.235000+00:00",
+            "version": "2.18.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-metagene",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/metagene.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-metagene",
+    "id": "5c2b5c75036b860246987052",
+    "latest_version": "2.18.0",
+    "license": "Artistic-2.0 | file LICENSE",
+    "license_url": null,
+    "modified_at": "2019-11-04 19:49:14.031000+00:00",
+    "name": "bioconductor-metagene",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-metagene/2.14.0",
+            "version": "2.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-metagene/2.16.0",
+            "version": "2.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-metagene/2.18.0",
+            "version": "2.18.0"
+        }
+    ],
+    "revision": 6,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "A package to produce metagene plots",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-metagene",
+    "versions": [
+        "2.14.0",
+        "2.16.0",
+        "2.18.0"
+    ],
+    "watchers": 1
+}

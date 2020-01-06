@@ -1,0 +1,808 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351h0a44026_0",
+        "r351hf484d3e_0",
+        "r36he1b5a44_1",
+        "r36he1b5a44_0",
+        "r36h6de7cb9_1",
+        "r36h6de7cb9_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2018-12-10 04:19:12.273000+00:00",
+    "description": "RNA degradation is monitored through measurement of RNA abundance after inhibiting RNA synthesis. This package has functions and example scripts to facilitate (1) data normalization, (2) data modeling using constant decay rate or time-dependent decay rate models, (3) the evaluation of treatment or genotype effects, and (4) plotting of the data and models. Data Normalization: functions and scripts make easy the normalization to the initial (T0) RNA abundance, as well as a method to correct for artificial inflation of Reads per Million (RPM) abundance in global assessments as the total size of the RNA pool decreases. Modeling: Normalized data is then modeled using maximum likelihood to fit parameters. For making treatment or genotype comparisons (up to four), the modeling step models all possible treatment effects on each gene by repeating the modeling with constraints on the model parameters (i.e., the decay rate of treatments A and B are modeled once with them being equal and again allowing them to both vary independently). Model Selection: The AICc value is calculated for each model, and the model with the lowest AICc is chosen. Modeling results of selected models are then compiled into a single data frame. Graphical Plotting: a function is provided to easily visualize the data and the selected model using ggplot2 package functions.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h0a44026_0",
+                "build_number": 0,
+                "depends": [
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-ggplot2",
+                    "r-gplots",
+                    "r-nloptr",
+                    "r-tmb"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1544415480917
+            },
+            "basename": "osx-64/bioconductor-rnadecay-1.2.0-r351h0a44026_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gplots",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tmb",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnadecay/1.2.0/osx-64/bioconductor-rnadecay-1.2.0-r351h0a44026_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnadecay/1.2.0/osx-64/bioconductor-rnadecay-1.2.0-r351h0a44026_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "0fa853c3b1fa1e3488b1b90dc8299300",
+            "ndownloads": 688,
+            "owner": "bioconda",
+            "size": 5435985,
+            "type": "conda",
+            "upload_time": "2018-12-10 04:19:13.287000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h0a44026_0",
+                "build_number": 0,
+                "depends": [
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-ggplot2",
+                    "r-gplots",
+                    "r-nloptr",
+                    "r-tmb"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1547125270989
+            },
+            "basename": "osx-64/bioconductor-rnadecay-1.2.1-r351h0a44026_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gplots",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tmb",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnadecay/1.2.1/osx-64/bioconductor-rnadecay-1.2.1-r351h0a44026_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnadecay/1.2.1/osx-64/bioconductor-rnadecay-1.2.1-r351h0a44026_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "5d78319ded025cb7d52845a8c8bcd841",
+            "ndownloads": 687,
+            "owner": "bioconda",
+            "size": 5435211,
+            "type": "conda",
+            "upload_time": "2019-01-10 13:03:04.302000+00:00",
+            "version": "1.2.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hf484d3e_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-ggplot2",
+                    "r-gplots",
+                    "r-nloptr",
+                    "r-tmb"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1547126081270
+            },
+            "basename": "linux-64/bioconductor-rnadecay-1.2.1-r351hf484d3e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gplots",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tmb",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnadecay/1.2.1/linux-64/bioconductor-rnadecay-1.2.1-r351hf484d3e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnadecay/1.2.1/linux-64/bioconductor-rnadecay-1.2.1-r351hf484d3e_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "1a350ee838623a38b43b1bcbb0a0c96d",
+            "ndownloads": 85,
+            "owner": "bioconda",
+            "size": 4563644,
+            "type": "conda",
+            "upload_time": "2019-01-10 13:17:27.213000+00:00",
+            "version": "1.2.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h0a44026_0",
+                "build_number": 0,
+                "depends": [
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-ggplot2",
+                    "r-gplots",
+                    "r-nloptr",
+                    "r-tmb"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1557427734047
+            },
+            "basename": "osx-64/bioconductor-rnadecay-1.4.0-r351h0a44026_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gplots",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tmb",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnadecay/1.4.0/osx-64/bioconductor-rnadecay-1.4.0-r351h0a44026_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnadecay/1.4.0/osx-64/bioconductor-rnadecay-1.4.0-r351h0a44026_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "eeff63ff07d6e0cf9d9b5db8cb6965f2",
+            "ndownloads": 160,
+            "owner": "bioconda",
+            "size": 6557671,
+            "type": "conda",
+            "upload_time": "2019-05-09 18:50:04.274000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hf484d3e_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-ggplot2",
+                    "r-gplots",
+                    "r-nloptr",
+                    "r-tmb"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1557509766327
+            },
+            "basename": "linux-64/bioconductor-rnadecay-1.4.0-r351hf484d3e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gplots",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tmb",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnadecay/1.4.0/linux-64/bioconductor-rnadecay-1.4.0-r351hf484d3e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnadecay/1.4.0/linux-64/bioconductor-rnadecay-1.4.0-r351hf484d3e_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ba563f7a5640ca00ec7938f461bd06cc",
+            "ndownloads": 78,
+            "owner": "bioconda",
+            "size": 4529819,
+            "type": "conda",
+            "upload_time": "2019-05-10 17:40:17.034000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_1",
+                "build_number": 1,
+                "depends": [
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-ggplot2",
+                    "r-gplots",
+                    "r-nloptr",
+                    "r-tmb"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1563430376394
+            },
+            "basename": "osx-64/bioconductor-rnadecay-1.4.0-r36h6de7cb9_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gplots",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tmb",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnadecay/1.4.0/osx-64/bioconductor-rnadecay-1.4.0-r36h6de7cb9_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnadecay/1.4.0/osx-64/bioconductor-rnadecay-1.4.0-r36h6de7cb9_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2b29671b52747062c1423a63eaaf24c3",
+            "ndownloads": 354,
+            "owner": "bioconda",
+            "size": 5340359,
+            "type": "conda",
+            "upload_time": "2019-07-18 06:13:53.486000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_1",
+                "build_number": 1,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-ggplot2",
+                    "r-gplots",
+                    "r-nloptr",
+                    "r-tmb"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1563505309385
+            },
+            "basename": "linux-64/bioconductor-rnadecay-1.4.0-r36he1b5a44_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gplots",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tmb",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnadecay/1.4.0/linux-64/bioconductor-rnadecay-1.4.0-r36he1b5a44_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnadecay/1.4.0/linux-64/bioconductor-rnadecay-1.4.0-r36he1b5a44_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a969a169fa59c65e557273aca9e216fe",
+            "ndownloads": 39,
+            "owner": "bioconda",
+            "size": 4522346,
+            "type": "conda",
+            "upload_time": "2019-07-19 03:05:56.937000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-ggplot2",
+                    "r-gplots",
+                    "r-nloptr",
+                    "r-tmb"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572596474694
+            },
+            "basename": "osx-64/bioconductor-rnadecay-1.6.0-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gplots",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tmb",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnadecay/1.6.0/osx-64/bioconductor-rnadecay-1.6.0-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnadecay/1.6.0/osx-64/bioconductor-rnadecay-1.6.0-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "da4651b4050f8e282fbec719c79e8909",
+            "ndownloads": 158,
+            "owner": "bioconda",
+            "size": 5326450,
+            "type": "conda",
+            "upload_time": "2019-11-01 08:22:16.418000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-ggplot2",
+                    "r-gplots",
+                    "r-nloptr",
+                    "r-tmb"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572617622463
+            },
+            "basename": "linux-64/bioconductor-rnadecay-1.6.0-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gplots",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nloptr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tmb",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnadecay/1.6.0/linux-64/bioconductor-rnadecay-1.6.0-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnadecay/1.6.0/linux-64/bioconductor-rnadecay-1.6.0-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ebf662ca167202ec039a2c5c09fe0693",
+            "ndownloads": 30,
+            "owner": "bioconda",
+            "size": 4506367,
+            "type": "conda",
+            "upload_time": "2019-11-01 14:18:01.477000+00:00",
+            "version": "1.6.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-rnadecay",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/RNAdecay.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-rnadecay",
+    "id": "5c0de940d9c2cf1353fcff17",
+    "latest_version": "1.6.0",
+    "license": "GPL-2",
+    "license_url": null,
+    "modified_at": "2019-11-01 14:18:01.909000+00:00",
+    "name": "bioconductor-rnadecay",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnadecay/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnadecay/1.2.1",
+            "version": "1.2.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnadecay/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnadecay/1.6.0",
+            "version": "1.6.0"
+        }
+    ],
+    "revision": 8,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Maximum Likelihood Decay Modeling of RNA Degradation Data",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-rnadecay",
+    "versions": [
+        "1.2.0",
+        "1.2.1",
+        "1.4.0",
+        "1.6.0"
+    ],
+    "watchers": 1
+}

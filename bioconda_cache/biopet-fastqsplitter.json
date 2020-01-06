@@ -1,0 +1,163 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "1",
+        "2"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2018-06-18 17:25:43.263000+00:00",
+    "description": "This tool divides a fastq file into smaller fastq files, based on the number of output files specified. For ecample,\nif one specifies 5 output files, it will split the fastq into 5 files of equal size. This can be very useful if one\nwants to use the chunking option in a pipeline: FastqSplitter can generate the exact number of fastq files\n(chunks) as needed.\n\nFastqSplitter will read groups of reads (100 reads per group)\nand distribute this evenly over the output FASTQ\nfiles. FastqSplitter will iterate over all the output files while writing the\nread groups.\n\nExample:\nA fastq file is split with a group size of 100 and three output files.\nread 1-100 will be assigned to output1\nread 101-200 will be assigned to output2\nread 201-300 will be assigned to output3\nread 301-400 will be assigned to output1\nread 401-500 will be assigned to output2\netc.\n\nThis will make sure the output fastq files are of equal size and there is no positional bias in each\noutput file.\n\nFor documentation and manuals visit our github.io page: https://biopet.github.io/fastq-splitter",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "1",
+                "build_number": 1,
+                "depends": [
+                    "openjdk >=8,<9",
+                    "python"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1529342548071
+            },
+            "basename": "noarch/biopet-fastqsplitter-0.1-1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "openjdk",
+                        "specs": [
+                            [
+                                ">=",
+                                "8,<9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biopet-fastqsplitter/0.1/noarch/biopet-fastqsplitter-0.1-1.tar.bz2",
+            "full_name": "bioconda/biopet-fastqsplitter/0.1/noarch/biopet-fastqsplitter-0.1-1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "369912ae5fbc53f7688ecd0f234d229e",
+            "ndownloads": 164,
+            "owner": "bioconda",
+            "size": 27653628,
+            "type": "conda",
+            "upload_time": "2018-06-18 17:25:43.890000+00:00",
+            "version": "0.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "2",
+                "build_number": 2,
+                "depends": [
+                    "openjdk >=8,<9",
+                    "python"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1553164485372
+            },
+            "basename": "noarch/biopet-fastqsplitter-0.1-2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "openjdk",
+                        "specs": [
+                            [
+                                ">=",
+                                "8,<9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biopet-fastqsplitter/0.1/noarch/biopet-fastqsplitter-0.1-2.tar.bz2",
+            "full_name": "bioconda/biopet-fastqsplitter/0.1/noarch/biopet-fastqsplitter-0.1-2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "269b681c2c026f286b3c8fe613146b04",
+            "ndownloads": 90,
+            "owner": "bioconda",
+            "size": 27654118,
+            "type": "conda",
+            "upload_time": "2019-03-21 10:37:57.697000+00:00",
+            "version": "0.1"
+        }
+    ],
+    "full_name": "bioconda/biopet-fastqsplitter",
+    "home": "https://github.com/biopet/fastq-splitter",
+    "html_url": "http://anaconda.org/bioconda/biopet-fastqsplitter",
+    "id": "5b27eb176de53511e6f998c3",
+    "latest_version": "0.1",
+    "license": "MIT",
+    "license_url": null,
+    "modified_at": "2019-03-21 10:37:58.978000+00:00",
+    "name": "biopet-fastqsplitter",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/biopet-fastqsplitter/0.1",
+            "version": "0.1"
+        }
+    ],
+    "revision": 2,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "This tool divides a fastq file into smaller fastq files, based on the number of output files specified.",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/biopet-fastqsplitter",
+    "versions": [
+        "0.1"
+    ],
+    "watchers": 1
+}

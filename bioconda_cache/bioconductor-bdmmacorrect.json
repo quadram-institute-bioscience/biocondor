@@ -1,0 +1,743 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351h0a44026_0",
+        "r351hf484d3e_0",
+        "r36he1b5a44_1",
+        "r36he1b5a44_0",
+        "r36h6de7cb9_1",
+        "r36h6de7cb9_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2018-12-10 18:47:50.278000+00:00",
+    "description": "Metagenomic sequencing techniques enable quantitative analyses of the microbiome. However, combining the microbial data from these experiments is challenging due to the variations between experiments. The existing methods for correcting batch effects do not consider the interactions between variables\u2014microbial taxa in microbial studies\u2014and the overdispersion of the microbiome data. Therefore, they are not applicable to microbiome data. We develop a new method, Bayesian Dirichlet-multinomial regression meta-analysis (BDMMA), to simultaneously model the batch effects and detect the microbial taxa associated with phenotypes. BDMMA automatically models the dependence among microbial taxa and is robust to the high dimensionality of the microbiome and their association sparsity.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h0a44026_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-summarizedexperiment >=1.12.0,<1.13.0",
+                    "libcxx >=4.0.1",
+                    "r-ape",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-ellipse",
+                    "r-ggplot2",
+                    "r-rcpp >=0.12.12",
+                    "r-rcpparmadillo",
+                    "r-rcppeigen",
+                    "r-vegan"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1544467589413
+            },
+            "basename": "osx-64/bioconductor-bdmmacorrect-1.0.0-r351h0a44026_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ellipse",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppeigen",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vegan",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bdmmacorrect/1.0.0/osx-64/bioconductor-bdmmacorrect-1.0.0-r351h0a44026_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bdmmacorrect/1.0.0/osx-64/bioconductor-bdmmacorrect-1.0.0-r351h0a44026_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "b0c805e55b9d28913e9ec5bb49590e3d",
+            "ndownloads": 728,
+            "owner": "bioconda",
+            "size": 514224,
+            "type": "conda",
+            "upload_time": "2018-12-10 18:47:52.274000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hf484d3e_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-summarizedexperiment >=1.12.0,<1.13.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-ape",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-ellipse",
+                    "r-ggplot2",
+                    "r-rcpp >=0.12.12",
+                    "r-rcpparmadillo",
+                    "r-rcppeigen",
+                    "r-vegan"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1545433802837
+            },
+            "basename": "linux-64/bioconductor-bdmmacorrect-1.0.0-r351hf484d3e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ellipse",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppeigen",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vegan",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bdmmacorrect/1.0.0/linux-64/bioconductor-bdmmacorrect-1.0.0-r351hf484d3e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bdmmacorrect/1.0.0/linux-64/bioconductor-bdmmacorrect-1.0.0-r351hf484d3e_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "aa17053eca11573ae5f2bc1422a23f35",
+            "ndownloads": 84,
+            "owner": "bioconda",
+            "size": 520181,
+            "type": "conda",
+            "upload_time": "2018-12-21 23:14:04.562000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-summarizedexperiment >=1.14.0,<1.15.0",
+                    "libcxx >=4.0.1",
+                    "r-ape",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-ellipse",
+                    "r-ggplot2",
+                    "r-rcpp >=0.12.12",
+                    "r-rcpparmadillo",
+                    "r-rcppeigen",
+                    "r-vegan"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1563847293974
+            },
+            "basename": "osx-64/bioconductor-bdmmacorrect-1.2.0-r36h6de7cb9_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ellipse",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppeigen",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vegan",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bdmmacorrect/1.2.0/osx-64/bioconductor-bdmmacorrect-1.2.0-r36h6de7cb9_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-bdmmacorrect/1.2.0/osx-64/bioconductor-bdmmacorrect-1.2.0-r36h6de7cb9_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d0c9c9b327d5ead0ae4ba29d5e9a5226",
+            "ndownloads": 344,
+            "owner": "bioconda",
+            "size": 517423,
+            "type": "conda",
+            "upload_time": "2019-07-23 02:02:43.085000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-summarizedexperiment >=1.14.0,<1.15.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-ape",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-ellipse",
+                    "r-ggplot2",
+                    "r-rcpp >=0.12.12",
+                    "r-rcpparmadillo",
+                    "r-rcppeigen",
+                    "r-vegan"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1565003400607
+            },
+            "basename": "linux-64/bioconductor-bdmmacorrect-1.2.0-r36he1b5a44_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ellipse",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppeigen",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vegan",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bdmmacorrect/1.2.0/linux-64/bioconductor-bdmmacorrect-1.2.0-r36he1b5a44_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-bdmmacorrect/1.2.0/linux-64/bioconductor-bdmmacorrect-1.2.0-r36he1b5a44_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a29f7d5c7fe9629387cb777b5dc420d3",
+            "ndownloads": 42,
+            "owner": "bioconda",
+            "size": 520825,
+            "type": "conda",
+            "upload_time": "2019-08-05 11:14:13.766000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "libcxx >=4.0.1",
+                    "r-ape",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-ellipse",
+                    "r-ggplot2",
+                    "r-rcpp >=0.12.12",
+                    "r-rcpparmadillo",
+                    "r-rcppeigen",
+                    "r-vegan"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572657374267
+            },
+            "basename": "osx-64/bioconductor-bdmmacorrect-1.4.0-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ellipse",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppeigen",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vegan",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bdmmacorrect/1.4.0/osx-64/bioconductor-bdmmacorrect-1.4.0-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bdmmacorrect/1.4.0/osx-64/bioconductor-bdmmacorrect-1.4.0-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b6e2bee3ce9bda4a0fac0b5a631d61ac",
+            "ndownloads": 157,
+            "owner": "bioconda",
+            "size": 531609,
+            "type": "conda",
+            "upload_time": "2019-11-02 01:17:30.412000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-ape",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-ellipse",
+                    "r-ggplot2",
+                    "r-rcpp >=0.12.12",
+                    "r-rcpparmadillo",
+                    "r-rcppeigen",
+                    "r-vegan"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572746769434
+            },
+            "basename": "linux-64/bioconductor-bdmmacorrect-1.4.0-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ellipse",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppeigen",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vegan",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bdmmacorrect/1.4.0/linux-64/bioconductor-bdmmacorrect-1.4.0-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bdmmacorrect/1.4.0/linux-64/bioconductor-bdmmacorrect-1.4.0-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "647810121acf2f5cd3d9335a99c5bf2f",
+            "ndownloads": 23,
+            "owner": "bioconda",
+            "size": 535370,
+            "type": "conda",
+            "upload_time": "2019-11-03 02:12:38.415000+00:00",
+            "version": "1.4.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-bdmmacorrect",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/BDMMAcorrect.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-bdmmacorrect",
+    "id": "5c0eb4d6d9c2cf13532addb0",
+    "latest_version": "1.4.0",
+    "license": "GPL (>= 2)",
+    "license_url": null,
+    "modified_at": "2019-11-03 02:12:38.716000+00:00",
+    "name": "bioconductor-bdmmacorrect",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bdmmacorrect/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bdmmacorrect/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bdmmacorrect/1.4.0",
+            "version": "1.4.0"
+        }
+    ],
+    "revision": 6,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Meta-analysis for the metagenomic read counts data from different cohorts",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-bdmmacorrect",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.4.0"
+    ],
+    "watchers": 1
+}

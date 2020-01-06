@@ -1,0 +1,978 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351hfc679d8_0",
+        "r351h0a44026_0",
+        "r351hf484d3e_0",
+        "r36he1b5a44_0",
+        "r3.4.1_0",
+        "r341hfc679d8_0",
+        "r36h6de7cb9_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2018-04-16 18:28:37.761000+00:00",
+    "description": "Genome-wide association studies (GWAS) are widely used to investigate the genetic basis of diseases and traits, but they pose many computational challenges. We developed an R package SNPRelate to provide a binary format for single-nucleotide polymorphism (SNP) data in GWAS utilizing CoreArray Genomic Data Structure (GDS) data files. The GDS format offers the efficient operations specifically designed for integers with two bits, since a SNP could occupy only two bits. SNPRelate is also designed to accelerate two key computations on SNP data using parallel computing for multi-core symmetric multiprocessing computer architectures: Principal Component Analysis (PCA) and relatedness analysis using Identity-By-Descent measures. The SNP GDS format is also used by the GWASTools package with the support of S4 classes and generic functions. The extended GDS format is implemented in the SeqArray package to support the storage of single nucleotide variations (SNVs), insertion/deletion polymorphism (indel) and structural variation calls in whole-genome and whole-exome variant data.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-gdsfmt >=1.8.3",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-snprelate-1.12.2-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-snprelate/1.12.2/linux-64/bioconductor-snprelate-1.12.2-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-snprelate/1.12.2/linux-64/bioconductor-snprelate-1.12.2-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "0bce59d29949ff342ff88786efb2758d",
+            "ndownloads": 1011,
+            "owner": "bioconda",
+            "size": 3313825,
+            "type": "conda",
+            "upload_time": "2018-04-16 18:28:38.336000+00:00",
+            "version": "1.12.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-gdsfmt >=1.16.0,<1.18.0",
+                    "libgcc-ng >=4.9",
+                    "libstdcxx-ng >=4.9",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539721263945
+            },
+            "basename": "linux-64/bioconductor-snprelate-1.14.0-r351hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-snprelate/1.14.0/linux-64/bioconductor-snprelate-1.14.0-r351hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-snprelate/1.14.0/linux-64/bioconductor-snprelate-1.14.0-r351hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "4c21645965e6d1cb4b2fb29c8d0c457f",
+            "ndownloads": 232,
+            "owner": "bioconda",
+            "size": 3462858,
+            "type": "conda",
+            "upload_time": "2018-10-16 20:25:56.901000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-gdsfmt >=1.16.0,<1.18.0",
+                    "libgcc-ng >=4.9",
+                    "libstdcxx-ng >=4.9",
+                    "r-base >=3.4.1,<3.4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539721201829
+            },
+            "basename": "linux-64/bioconductor-snprelate-1.14.0-r341hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-snprelate/1.14.0/linux-64/bioconductor-snprelate-1.14.0-r341hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-snprelate/1.14.0/linux-64/bioconductor-snprelate-1.14.0-r341hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "f4bf99ed51e2c1852150ee544829b21c",
+            "ndownloads": 215,
+            "owner": "bioconda",
+            "size": 3312520,
+            "type": "conda",
+            "upload_time": "2018-10-16 20:26:00.075000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-gdsfmt >=1.16.0,<1.18.0",
+                    "r-base >=3.4.1,<3.4.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539720523157
+            },
+            "basename": "osx-64/bioconductor-snprelate-1.14.0-r341hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-snprelate/1.14.0/osx-64/bioconductor-snprelate-1.14.0-r341hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-snprelate/1.14.0/osx-64/bioconductor-snprelate-1.14.0-r341hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "081fa12612a7044f83487194ed42c8be",
+            "ndownloads": 260,
+            "owner": "bioconda",
+            "size": 3334026,
+            "type": "conda",
+            "upload_time": "2018-10-16 20:09:32.173000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-gdsfmt >=1.16.0,<1.18.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539720414138
+            },
+            "basename": "osx-64/bioconductor-snprelate-1.14.0-r351hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-snprelate/1.14.0/osx-64/bioconductor-snprelate-1.14.0-r351hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-snprelate/1.14.0/osx-64/bioconductor-snprelate-1.14.0-r351hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "012973265c63fcfc5b990d55d3e85825",
+            "ndownloads": 499,
+            "owner": "bioconda",
+            "size": 3482647,
+            "type": "conda",
+            "upload_time": "2018-10-16 20:09:26.895000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-gdsfmt >=1.18.0,<1.19.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1544327090002
+            },
+            "basename": "osx-64/bioconductor-snprelate-1.16.0-r351hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-snprelate/1.16.0/osx-64/bioconductor-snprelate-1.16.0-r351hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-snprelate/1.16.0/osx-64/bioconductor-snprelate-1.16.0-r351hfc679d8_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "19aac948beaff8759feaf0a74a139c22",
+            "ndownloads": 696,
+            "owner": "bioconda",
+            "size": 3458501,
+            "type": "conda",
+            "upload_time": "2018-12-09 03:45:33.390000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hf484d3e_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-gdsfmt >=1.18.0,<1.19.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1544434328486
+            },
+            "basename": "linux-64/bioconductor-snprelate-1.16.0-r351hf484d3e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-snprelate/1.16.0/linux-64/bioconductor-snprelate-1.16.0-r351hf484d3e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-snprelate/1.16.0/linux-64/bioconductor-snprelate-1.16.0-r351hf484d3e_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "4a2f66138e81bf21eb8fd027e67ed06d",
+            "ndownloads": 185,
+            "owner": "bioconda",
+            "size": 3441424,
+            "type": "conda",
+            "upload_time": "2018-12-10 09:34:50.764000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h0a44026_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-gdsfmt >=1.20.0,<1.21.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1557280617528
+            },
+            "basename": "osx-64/bioconductor-snprelate-1.18.0-r351h0a44026_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-snprelate/1.18.0/osx-64/bioconductor-snprelate-1.18.0-r351h0a44026_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-snprelate/1.18.0/osx-64/bioconductor-snprelate-1.18.0-r351h0a44026_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c015ff3bd7707c34da677c3c1ecbb9bc",
+            "ndownloads": 487,
+            "owner": "bioconda",
+            "size": 3570765,
+            "type": "conda",
+            "upload_time": "2019-05-08 01:57:40.378000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hf484d3e_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-gdsfmt >=1.20.0,<1.21.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1557389112955
+            },
+            "basename": "linux-64/bioconductor-snprelate-1.18.0-r351hf484d3e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-snprelate/1.18.0/linux-64/bioconductor-snprelate-1.18.0-r351hf484d3e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-snprelate/1.18.0/linux-64/bioconductor-snprelate-1.18.0-r351hf484d3e_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4719b1cdd27da2d7689e1ee5100e6411",
+            "ndownloads": 119,
+            "owner": "bioconda",
+            "size": 3461249,
+            "type": "conda",
+            "upload_time": "2019-05-09 08:09:16.660000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-gdsfmt >=1.20.0,<1.21.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1563465066302
+            },
+            "basename": "osx-64/bioconductor-snprelate-1.18.1-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-snprelate/1.18.1/osx-64/bioconductor-snprelate-1.18.1-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-snprelate/1.18.1/osx-64/bioconductor-snprelate-1.18.1-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ec3135d3475518a525e3ec0539620f39",
+            "ndownloads": 332,
+            "owner": "bioconda",
+            "size": 3469363,
+            "type": "conda",
+            "upload_time": "2019-07-18 15:51:52.940000+00:00",
+            "version": "1.18.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-gdsfmt >=1.20.0,<1.21.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1563710018967
+            },
+            "basename": "linux-64/bioconductor-snprelate-1.18.1-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-snprelate/1.18.1/linux-64/bioconductor-snprelate-1.18.1-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-snprelate/1.18.1/linux-64/bioconductor-snprelate-1.18.1-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c60413b6b70be44eb5c7c0aea7d4b295",
+            "ndownloads": 81,
+            "owner": "bioconda",
+            "size": 3431619,
+            "type": "conda",
+            "upload_time": "2019-07-21 11:57:42.836000+00:00",
+            "version": "1.18.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-gdsfmt >=1.22.0,<1.23.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572595984034
+            },
+            "basename": "osx-64/bioconductor-snprelate-1.20.0-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-snprelate/1.20.0/osx-64/bioconductor-snprelate-1.20.0-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-snprelate/1.20.0/osx-64/bioconductor-snprelate-1.20.0-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e29eb34695ccfb77fd72583ca0d5a79b",
+            "ndownloads": 161,
+            "owner": "bioconda",
+            "size": 3431628,
+            "type": "conda",
+            "upload_time": "2019-11-01 08:13:51.026000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-gdsfmt >=1.22.0,<1.23.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572608551723
+            },
+            "basename": "linux-64/bioconductor-snprelate-1.20.0-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-snprelate/1.20.0/linux-64/bioconductor-snprelate-1.20.0-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-snprelate/1.20.0/linux-64/bioconductor-snprelate-1.20.0-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3a3a12f9df942fbd2c5bc4011606cbc4",
+            "ndownloads": 64,
+            "owner": "bioconda",
+            "size": 3381559,
+            "type": "conda",
+            "upload_time": "2019-11-01 11:46:38.003000+00:00",
+            "version": "1.20.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-snprelate",
+    "home": "http://bioconductor.org/packages/3.6/bioc/html/SNPRelate.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-snprelate",
+    "id": "5ad4eb555bbb4911c0d75b08",
+    "latest_version": "1.20.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2019-11-01 11:46:38.359000+00:00",
+    "name": "bioconductor-snprelate",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-snprelate/1.12.2",
+            "version": "1.12.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-snprelate/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-snprelate/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-snprelate/1.18.0",
+            "version": "1.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-snprelate/1.18.1",
+            "version": "1.18.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-snprelate/1.20.0",
+            "version": "1.20.0"
+        }
+    ],
+    "revision": 12,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Parallel Computing Toolset for Relatedness and Principal Component Analysis of SNP Data",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-snprelate",
+    "versions": [
+        "1.12.2",
+        "1.14.0",
+        "1.16.0",
+        "1.18.0",
+        "1.18.1",
+        "1.20.0"
+    ],
+    "watchers": 1
+}

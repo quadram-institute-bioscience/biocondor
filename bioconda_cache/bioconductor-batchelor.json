@@ -1,0 +1,789 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r36he1b5a44_0",
+        "r36h6de7cb9_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2019-08-02 11:18:29.542000+00:00",
+    "description": "Implements a variety of methods for batch correction of single-cell (RNA sequencing) data. This includes methods based on detecting mutually nearest neighbors, as well as several efficient variants of linear regression of the log-expression values. Functions are also provided to perform global rescaling to remove differences in depth between batches, and to perform a principal components analysis that is robust to differences in the numbers of cells across batches.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-beachmat >=2.0.0,<2.1.0",
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "bioconductor-biocneighbors >=1.2.0,<1.3.0",
+                    "bioconductor-biocparallel >=1.18.0,<1.19.0",
+                    "bioconductor-biocsingular >=1.0.0,<1.1.0",
+                    "bioconductor-delayedarray >=0.10.0,<0.11.0",
+                    "bioconductor-delayedmatrixstats >=1.6.0,<1.7.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "bioconductor-scater >=1.12.0,<1.13.0",
+                    "bioconductor-singlecellexperiment >=1.6.0,<1.7.0",
+                    "bioconductor-summarizedexperiment >=1.14.0,<1.15.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1564744636739
+            },
+            "basename": "osx-64/bioconductor-batchelor-1.0.1-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-beachmat",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocneighbors",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.0,<1.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocsingular",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0,<1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0,<0.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedmatrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-batchelor/1.0.1/osx-64/bioconductor-batchelor-1.0.1-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-batchelor/1.0.1/osx-64/bioconductor-batchelor-1.0.1-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "653d97561711a6f057d496c89dfad6fe",
+            "ndownloads": 315,
+            "owner": "bioconda",
+            "size": 1346142,
+            "type": "conda",
+            "upload_time": "2019-08-02 11:18:30.574000+00:00",
+            "version": "1.0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-beachmat >=2.0.0,<2.1.0",
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "bioconductor-biocneighbors >=1.2.0,<1.3.0",
+                    "bioconductor-biocparallel >=1.18.0,<1.19.0",
+                    "bioconductor-biocsingular >=1.0.0,<1.1.0",
+                    "bioconductor-delayedarray >=0.10.0,<0.11.0",
+                    "bioconductor-delayedmatrixstats >=1.6.0,<1.7.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "bioconductor-scater >=1.12.0,<1.13.0",
+                    "bioconductor-singlecellexperiment >=1.6.0,<1.7.0",
+                    "bioconductor-summarizedexperiment >=1.14.0,<1.15.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1565974006577
+            },
+            "basename": "linux-64/bioconductor-batchelor-1.0.1-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-beachmat",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocneighbors",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.0,<1.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocsingular",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0,<1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0,<0.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedmatrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-batchelor/1.0.1/linux-64/bioconductor-batchelor-1.0.1-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-batchelor/1.0.1/linux-64/bioconductor-batchelor-1.0.1-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "22db9b92287491f03b296b4813895bf8",
+            "ndownloads": 107,
+            "owner": "bioconda",
+            "size": 1366294,
+            "type": "conda",
+            "upload_time": "2019-08-16 16:52:12.597000+00:00",
+            "version": "1.0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-beachmat >=2.2.0,<2.3.0",
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-biocneighbors >=1.4.0,<1.5.0",
+                    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+                    "bioconductor-biocsingular >=1.2.0,<1.3.0",
+                    "bioconductor-delayedarray >=0.12.0,<0.13.0",
+                    "bioconductor-delayedmatrixstats >=1.8.0,<1.9.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "bioconductor-scater >=1.14.0,<1.15.0",
+                    "bioconductor-singlecellexperiment >=1.8.0,<1.9.0",
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572703362758
+            },
+            "basename": "osx-64/bioconductor-batchelor-1.2.1-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-beachmat",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocneighbors",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocsingular",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.0,<1.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.0,<0.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedmatrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-batchelor/1.2.1/osx-64/bioconductor-batchelor-1.2.1-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-batchelor/1.2.1/osx-64/bioconductor-batchelor-1.2.1-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0d6f0ace608973df507f2a2b0d561a07",
+            "ndownloads": 174,
+            "owner": "bioconda",
+            "size": 1586546,
+            "type": "conda",
+            "upload_time": "2019-11-02 14:03:58.123000+00:00",
+            "version": "1.2.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-beachmat >=2.2.0,<2.3.0",
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-biocneighbors >=1.4.0,<1.5.0",
+                    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+                    "bioconductor-biocsingular >=1.2.0,<1.3.0",
+                    "bioconductor-delayedarray >=0.12.0,<0.13.0",
+                    "bioconductor-delayedmatrixstats >=1.8.0,<1.9.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "bioconductor-scater >=1.14.0,<1.15.0",
+                    "bioconductor-singlecellexperiment >=1.8.0,<1.9.0",
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572821296194
+            },
+            "basename": "linux-64/bioconductor-batchelor-1.2.1-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-beachmat",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocneighbors",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocsingular",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.0,<1.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.0,<0.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedmatrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-batchelor/1.2.1/linux-64/bioconductor-batchelor-1.2.1-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-batchelor/1.2.1/linux-64/bioconductor-batchelor-1.2.1-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7f9dbd8eb9de59181d998f6eaf1fa1a1",
+            "ndownloads": 91,
+            "owner": "bioconda",
+            "size": 1587567,
+            "type": "conda",
+            "upload_time": "2019-11-03 22:53:43.401000+00:00",
+            "version": "1.2.1"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-batchelor",
+    "home": "https://bioconductor.org/packages/3.9/bioc/html/batchelor.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-batchelor",
+    "id": "5d441c05fe6b2a0c39b5cd0c",
+    "latest_version": "1.2.1",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2019-11-03 22:53:43.670000+00:00",
+    "name": "bioconductor-batchelor",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-batchelor/1.0.1",
+            "version": "1.0.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-batchelor/1.2.1",
+            "version": "1.2.1"
+        }
+    ],
+    "revision": 4,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Single-Cell Batch Correction Methods",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-batchelor",
+    "versions": [
+        "1.0.1",
+        "1.2.1"
+    ],
+    "watchers": 1
+}

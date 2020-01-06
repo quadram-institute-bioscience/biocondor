@@ -1,0 +1,982 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r36h516909a_0",
+        "r36h516909a_1",
+        "r351h14c3975_0",
+        "r3.4.1_0",
+        "r36h01d97ff_0",
+        "r36h01d97ff_1",
+        "r351h470a237_0",
+        "r341h470a237_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2018-02-19 19:18:19.148000+00:00",
+    "description": "The HOPACH clustering algorithm builds a hierarchical tree of clusters by recursively partitioning a data set, while ordering and possibly collapsing clusters at each level. The algorithm uses the Mean/Median Split Silhouette (MSS) criteria to identify the level of the tree with maximally homogeneous clusters. It also runs the tree down to produce a final ordered list of the elements. The non-parametric bootstrap allows one to estimate the probability that each element belongs to each cluster (fuzzy clustering).",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics",
+                    "r-base 3.4.1*",
+                    "r-cluster"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-hopach-2.38.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hopach/2.38.0/linux-64/bioconductor-hopach-2.38.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hopach/2.38.0/linux-64/bioconductor-hopach-2.38.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "0425ebe09951f93f2c46ec6e6ac14400",
+            "ndownloads": 308,
+            "owner": "bioconda",
+            "size": 803170,
+            "type": "conda",
+            "upload_time": "2018-02-19 19:18:19.871000+00:00",
+            "version": "2.38.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics",
+                    "libcxx",
+                    "r-base 3.4.1*",
+                    "r-cluster"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-hopach-2.38.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hopach/2.38.0/osx-64/bioconductor-hopach-2.38.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hopach/2.38.0/osx-64/bioconductor-hopach-2.38.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "a68f6c8592e4e945fcd0412916a8325d",
+            "ndownloads": 741,
+            "owner": "bioconda",
+            "size": 801491,
+            "type": "conda",
+            "upload_time": "2018-02-19 20:02:33.127000+00:00",
+            "version": "2.38.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-cluster"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539427955770
+            },
+            "basename": "osx-64/bioconductor-hopach-2.40.0-r351h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hopach/2.40.0/osx-64/bioconductor-hopach-2.40.0-r351h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hopach/2.40.0/osx-64/bioconductor-hopach-2.40.0-r351h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "c9bba909edabf5f07bc35d0e082ab8a4",
+            "ndownloads": 528,
+            "owner": "bioconda",
+            "size": 914749,
+            "type": "conda",
+            "upload_time": "2018-10-13 10:54:23.881000+00:00",
+            "version": "2.40.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "r-cluster"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539428027732
+            },
+            "basename": "osx-64/bioconductor-hopach-2.40.0-r341h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hopach/2.40.0/osx-64/bioconductor-hopach-2.40.0-r341h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hopach/2.40.0/osx-64/bioconductor-hopach-2.40.0-r341h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "28ba9fc1fdfcca04dab08d71dddf4aad",
+            "ndownloads": 261,
+            "owner": "bioconda",
+            "size": 803085,
+            "type": "conda",
+            "upload_time": "2018-10-13 10:54:27.850000+00:00",
+            "version": "2.40.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "libgcc-ng >=4.9",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-cluster"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539496248451
+            },
+            "basename": "linux-64/bioconductor-hopach-2.40.0-r351h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hopach/2.40.0/linux-64/bioconductor-hopach-2.40.0-r351h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hopach/2.40.0/linux-64/bioconductor-hopach-2.40.0-r351h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "ce6864adc76ef3c4a7195d27717e9bea",
+            "ndownloads": 116,
+            "owner": "bioconda",
+            "size": 916815,
+            "type": "conda",
+            "upload_time": "2018-10-14 05:55:31.881000+00:00",
+            "version": "2.40.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "libgcc-ng >=4.9",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "r-cluster"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539496190425
+            },
+            "basename": "linux-64/bioconductor-hopach-2.40.0-r341h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hopach/2.40.0/linux-64/bioconductor-hopach-2.40.0-r341h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hopach/2.40.0/linux-64/bioconductor-hopach-2.40.0-r341h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "ae9b855c9a8a259653e9013f769c41a1",
+            "ndownloads": 250,
+            "owner": "bioconda",
+            "size": 803693,
+            "type": "conda",
+            "upload_time": "2018-10-14 05:55:34.838000+00:00",
+            "version": "2.40.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-cluster"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1544332019473
+            },
+            "basename": "osx-64/bioconductor-hopach-2.42.0-r351h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hopach/2.42.0/osx-64/bioconductor-hopach-2.42.0-r351h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hopach/2.42.0/osx-64/bioconductor-hopach-2.42.0-r351h470a237_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "261ff414c80fd9d6ad3bf9f1201fa5bf",
+            "ndownloads": 684,
+            "owner": "bioconda",
+            "size": 914971,
+            "type": "conda",
+            "upload_time": "2018-12-09 05:07:45.095000+00:00",
+            "version": "2.42.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h14c3975_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-cluster"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1544736196214
+            },
+            "basename": "linux-64/bioconductor-hopach-2.42.0-r351h14c3975_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hopach/2.42.0/linux-64/bioconductor-hopach-2.42.0-r351h14c3975_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hopach/2.42.0/linux-64/bioconductor-hopach-2.42.0-r351h14c3975_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "310c2b16a42156115cb849089cd754af",
+            "ndownloads": 105,
+            "owner": "bioconda",
+            "size": 916449,
+            "type": "conda",
+            "upload_time": "2018-12-13 21:25:54.165000+00:00",
+            "version": "2.42.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-cluster"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1563396579651
+            },
+            "basename": "osx-64/bioconductor-hopach-2.44.0-r36h01d97ff_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hopach/2.44.0/osx-64/bioconductor-hopach-2.44.0-r36h01d97ff_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-hopach/2.44.0/osx-64/bioconductor-hopach-2.44.0-r36h01d97ff_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "51ac895e8222885286649a24c229e323",
+            "ndownloads": 336,
+            "owner": "bioconda",
+            "size": 915755,
+            "type": "conda",
+            "upload_time": "2019-07-17 20:50:23.247000+00:00",
+            "version": "2.44.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-cluster"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1563925486703
+            },
+            "basename": "linux-64/bioconductor-hopach-2.44.0-r36h516909a_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hopach/2.44.0/linux-64/bioconductor-hopach-2.44.0-r36h516909a_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-hopach/2.44.0/linux-64/bioconductor-hopach-2.44.0-r36h516909a_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "06543e710049cfbe0cfad480e9478c6f",
+            "ndownloads": 48,
+            "owner": "bioconda",
+            "size": 918566,
+            "type": "conda",
+            "upload_time": "2019-07-23 23:48:48.675000+00:00",
+            "version": "2.44.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-cluster"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572601522207
+            },
+            "basename": "osx-64/bioconductor-hopach-2.46.0-r36h01d97ff_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hopach/2.46.0/osx-64/bioconductor-hopach-2.46.0-r36h01d97ff_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hopach/2.46.0/osx-64/bioconductor-hopach-2.46.0-r36h01d97ff_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ab305841bbfc57783331d04dadaac0bc",
+            "ndownloads": 160,
+            "owner": "bioconda",
+            "size": 924285,
+            "type": "conda",
+            "upload_time": "2019-11-01 09:46:08.147000+00:00",
+            "version": "2.46.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-cluster"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572609483386
+            },
+            "basename": "linux-64/bioconductor-hopach-2.46.0-r36h516909a_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hopach/2.46.0/linux-64/bioconductor-hopach-2.46.0-r36h516909a_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hopach/2.46.0/linux-64/bioconductor-hopach-2.46.0-r36h516909a_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e87add7746b1cb9d132f1e014f4e6c69",
+            "ndownloads": 37,
+            "owner": "bioconda",
+            "size": 932382,
+            "type": "conda",
+            "upload_time": "2019-11-01 12:02:11.524000+00:00",
+            "version": "2.46.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-hopach",
+    "home": "http://bioconductor.org/packages/3.6/bioc/html/hopach.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-hopach",
+    "id": "5a8b22fb82e5d2123f6b44ac",
+    "latest_version": "2.46.0",
+    "license": "GPL (>= 2)",
+    "license_url": null,
+    "modified_at": "2019-11-01 12:02:11.832000+00:00",
+    "name": "bioconductor-hopach",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hopach/2.38.0",
+            "version": "2.38.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hopach/2.40.0",
+            "version": "2.40.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hopach/2.42.0",
+            "version": "2.42.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hopach/2.44.0",
+            "version": "2.44.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hopach/2.46.0",
+            "version": "2.46.0"
+        }
+    ],
+    "revision": 10,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Hierarchical Ordered Partitioning and Collapsing Hybrid (HOPACH)",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-hopach",
+    "versions": [
+        "2.38.0",
+        "2.40.0",
+        "2.42.0",
+        "2.44.0",
+        "2.46.0"
+    ],
+    "watchers": 1
+}

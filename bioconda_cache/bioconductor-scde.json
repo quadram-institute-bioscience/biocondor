@@ -1,0 +1,2421 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351hfc679d8_0",
+        "r351h0a44026_0",
+        "r351hf484d3e_0",
+        "r36he1b5a44_1",
+        "r36h6de7cb9_1",
+        "r3.4.1_1",
+        "r3.4.1_0",
+        "r36he1b5a44_0",
+        "r341hfc679d8_0",
+        "r36h6de7cb9_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2018-02-25 19:02:04.354000+00:00",
+    "description": "The scde package implements a set of statistical methods for analyzing single-cell RNA-seq data. scde fits individual error models for single-cell RNA-seq measurements. These models can then be used for assessment of differential expression between groups of cells, as well as other types of analysis. The scde package also contains the pagoda framework which applies pathway and gene set overdispersion analysis to identify and characterize putative cell subpopulations based on transcriptional signatures. The overall approach to the differential expression analysis is detailed in the following publication: \"Bayesian approach to single-cell differential expression analysis\" (Kharchenko PV, Silberstein L, Scadden DT, Nature Methods, doi: 10.1038/nmeth.2967). The overall approach to subpopulation identification and characterization is detailed in the following pre-print: \"Characterizing transcriptional heterogeneity through pathway and gene set overdispersion analysis\" (Fan J, Salathia N, Liu R, Kaeser G, Yung Y, Herman J, Kaper F, Fan JB, Zhang K, Chun J, and Kharchenko PV, Nature Methods, doi:10.1038/nmeth.3734).",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel",
+                    "bioconductor-edger",
+                    "bioconductor-pcamethods",
+                    "libcxx",
+                    "r-base 3.4.1*",
+                    "r-cairo",
+                    "r-extremes",
+                    "r-flexmix",
+                    "r-mass",
+                    "r-mgcv",
+                    "r-nnet",
+                    "r-quantreg",
+                    "r-rcolorbrewer",
+                    "r-rcpp >=0.10.4",
+                    "r-rcpparmadillo >=0.5.400.2.0",
+                    "r-rjson",
+                    "r-rmtstat",
+                    "r-rook",
+                    "xorg-libsm 1.2.*",
+                    "xorg-libxext 1.3.*",
+                    "xorg-libxrender 0.9.*"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-scde-2.6.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": []
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cairo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-extremes",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-flexmix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mgcv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnet",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-quantreg",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.400.2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rjson",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmtstat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rook",
+                        "specs": []
+                    },
+                    {
+                        "name": "xorg-libsm",
+                        "specs": [
+                            [
+                                "==",
+                                "1.2."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "xorg-libxext",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "xorg-libxrender",
+                        "specs": [
+                            [
+                                "==",
+                                "0.9."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scde/2.6.0/osx-64/bioconductor-scde-2.6.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scde/2.6.0/osx-64/bioconductor-scde-2.6.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "e5e0ed5e6c90fc7fb8aa845eb6b241b3",
+            "ndownloads": 275,
+            "owner": "bioconda",
+            "size": 2066308,
+            "type": "conda",
+            "upload_time": "2018-02-25 19:02:04.887000+00:00",
+            "version": "2.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel",
+                    "bioconductor-edger",
+                    "bioconductor-pcamethods",
+                    "r-base 3.4.1*",
+                    "r-cairo",
+                    "r-extremes",
+                    "r-flexmix",
+                    "r-mass",
+                    "r-mgcv",
+                    "r-nnet",
+                    "r-quantreg",
+                    "r-rcolorbrewer",
+                    "r-rcpp >=0.10.4",
+                    "r-rcpparmadillo >=0.5.400.2.0",
+                    "r-rjson",
+                    "r-rmtstat",
+                    "r-rook",
+                    "xorg-libsm 1.2.*",
+                    "xorg-libxext 1.3.*",
+                    "xorg-libxrender 0.9.*"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-scde-2.6.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cairo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-extremes",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-flexmix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mgcv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnet",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-quantreg",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.400.2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rjson",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmtstat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rook",
+                        "specs": []
+                    },
+                    {
+                        "name": "xorg-libsm",
+                        "specs": [
+                            [
+                                "==",
+                                "1.2."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "xorg-libxext",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "xorg-libxrender",
+                        "specs": [
+                            [
+                                "==",
+                                "0.9."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scde/2.6.0/linux-64/bioconductor-scde-2.6.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scde/2.6.0/linux-64/bioconductor-scde-2.6.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "863722c63fceda1673402b3f55c7300f",
+            "ndownloads": 290,
+            "owner": "bioconda",
+            "size": 2117555,
+            "type": "conda",
+            "upload_time": "2018-02-25 19:05:16.994000+00:00",
+            "version": "2.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocparallel",
+                    "bioconductor-edger",
+                    "bioconductor-pcamethods",
+                    "libcxx",
+                    "r-base 3.4.1*",
+                    "r-cairo",
+                    "r-extremes",
+                    "r-flexmix <=2.3_13",
+                    "r-mass",
+                    "r-mgcv",
+                    "r-nnet",
+                    "r-quantreg",
+                    "r-rcolorbrewer",
+                    "r-rcpp >=0.10.4",
+                    "r-rcpparmadillo >=0.5.400.2.0",
+                    "r-rjson",
+                    "r-rmtstat",
+                    "r-rook",
+                    "xorg-libsm 1.2.*",
+                    "xorg-libxext 1.3.*",
+                    "xorg-libxrender 0.9.*"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-scde-2.6.0-r3.4.1_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": []
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cairo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-extremes",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-flexmix",
+                        "specs": [
+                            [
+                                "<=",
+                                "2.3_13"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mgcv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnet",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-quantreg",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.400.2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rjson",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmtstat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rook",
+                        "specs": []
+                    },
+                    {
+                        "name": "xorg-libsm",
+                        "specs": [
+                            [
+                                "==",
+                                "1.2."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "xorg-libxext",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "xorg-libxrender",
+                        "specs": [
+                            [
+                                "==",
+                                "0.9."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scde/2.6.0/osx-64/bioconductor-scde-2.6.0-r3.4.1_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-scde/2.6.0/osx-64/bioconductor-scde-2.6.0-r3.4.1_1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "2b5d110ed6fdd5da7a2480dafd08040c",
+            "ndownloads": 540,
+            "owner": "bioconda",
+            "size": 2065918,
+            "type": "conda",
+            "upload_time": "2018-02-28 21:46:19.339000+00:00",
+            "version": "2.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocparallel",
+                    "bioconductor-edger",
+                    "bioconductor-pcamethods",
+                    "r-base 3.4.1*",
+                    "r-cairo",
+                    "r-extremes",
+                    "r-flexmix <=2.3_13",
+                    "r-mass",
+                    "r-mgcv",
+                    "r-nnet",
+                    "r-quantreg",
+                    "r-rcolorbrewer",
+                    "r-rcpp >=0.10.4",
+                    "r-rcpparmadillo >=0.5.400.2.0",
+                    "r-rjson",
+                    "r-rmtstat",
+                    "r-rook",
+                    "xorg-libsm 1.2.*",
+                    "xorg-libxext 1.3.*",
+                    "xorg-libxrender 0.9.*"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-scde-2.6.0-r3.4.1_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cairo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-extremes",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-flexmix",
+                        "specs": [
+                            [
+                                "<=",
+                                "2.3_13"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mgcv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnet",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-quantreg",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.400.2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rjson",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmtstat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rook",
+                        "specs": []
+                    },
+                    {
+                        "name": "xorg-libsm",
+                        "specs": [
+                            [
+                                "==",
+                                "1.2."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "xorg-libxext",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "xorg-libxrender",
+                        "specs": [
+                            [
+                                "==",
+                                "0.9."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scde/2.6.0/linux-64/bioconductor-scde-2.6.0-r3.4.1_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-scde/2.6.0/linux-64/bioconductor-scde-2.6.0-r3.4.1_1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "f03c65f8069cbb66867dbdadbd52cb1d",
+            "ndownloads": 167,
+            "owner": "bioconda",
+            "size": 2117373,
+            "type": "conda",
+            "upload_time": "2018-02-28 21:50:23.386000+00:00",
+            "version": "2.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.14.2,<1.16.0",
+                    "bioconductor-edger >=3.22.4,<3.24.0",
+                    "bioconductor-pcamethods >=1.72.0,<1.74.0",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "r-cairo",
+                    "r-extremes",
+                    "r-flexmix",
+                    "r-mass",
+                    "r-mgcv",
+                    "r-nnet",
+                    "r-quantreg",
+                    "r-rcolorbrewer",
+                    "r-rcpp >=0.10.4",
+                    "r-rcpparmadillo >=0.5.400.2.0",
+                    "r-rjson",
+                    "r-rmtstat",
+                    "r-rook"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539763107499
+            },
+            "basename": "osx-64/bioconductor-scde-2.8.0-r341hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.2,<1.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.22.4,<3.24.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.74.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cairo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-extremes",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-flexmix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mgcv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnet",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-quantreg",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.400.2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rjson",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmtstat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rook",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scde/2.8.0/osx-64/bioconductor-scde-2.8.0-r341hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scde/2.8.0/osx-64/bioconductor-scde-2.8.0-r341hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "5a6e174133ca1a12495035d08653d385",
+            "ndownloads": 110,
+            "owner": "bioconda",
+            "size": 2080580,
+            "type": "conda",
+            "upload_time": "2018-10-17 07:59:59.332000+00:00",
+            "version": "2.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.14.2,<1.16.0",
+                    "bioconductor-edger >=3.22.4,<3.24.0",
+                    "bioconductor-pcamethods >=1.72.0,<1.74.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-cairo",
+                    "r-extremes",
+                    "r-flexmix",
+                    "r-mass",
+                    "r-mgcv",
+                    "r-nnet",
+                    "r-quantreg",
+                    "r-rcolorbrewer",
+                    "r-rcpp >=0.10.4",
+                    "r-rcpparmadillo >=0.5.400.2.0",
+                    "r-rjson",
+                    "r-rmtstat",
+                    "r-rook"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539762891888
+            },
+            "basename": "osx-64/bioconductor-scde-2.8.0-r351hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.2,<1.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.22.4,<3.24.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.74.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cairo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-extremes",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-flexmix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mgcv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnet",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-quantreg",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.400.2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rjson",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmtstat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rook",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scde/2.8.0/osx-64/bioconductor-scde-2.8.0-r351hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scde/2.8.0/osx-64/bioconductor-scde-2.8.0-r351hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "f6cf87593119ab699f48b8d32e75e73a",
+            "ndownloads": 664,
+            "owner": "bioconda",
+            "size": 2374457,
+            "type": "conda",
+            "upload_time": "2018-10-17 08:00:09.258000+00:00",
+            "version": "2.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.14.2,<1.16.0",
+                    "bioconductor-edger >=3.22.4,<3.24.0",
+                    "bioconductor-pcamethods >=1.72.0,<1.74.0",
+                    "libgcc-ng >=4.9",
+                    "libstdcxx-ng >=4.9",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-cairo",
+                    "r-extremes",
+                    "r-flexmix",
+                    "r-mass",
+                    "r-mgcv",
+                    "r-nnet",
+                    "r-quantreg",
+                    "r-rcolorbrewer",
+                    "r-rcpp >=0.10.4",
+                    "r-rcpparmadillo >=0.5.400.2.0",
+                    "r-rjson",
+                    "r-rmtstat",
+                    "r-rook"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539782940070
+            },
+            "basename": "linux-64/bioconductor-scde-2.8.0-r351hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.2,<1.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.22.4,<3.24.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.74.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cairo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-extremes",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-flexmix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mgcv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnet",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-quantreg",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.400.2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rjson",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmtstat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rook",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scde/2.8.0/linux-64/bioconductor-scde-2.8.0-r351hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scde/2.8.0/linux-64/bioconductor-scde-2.8.0-r351hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "09f40edfaa88894a01f8dceb0b5139e0",
+            "ndownloads": 187,
+            "owner": "bioconda",
+            "size": 2407074,
+            "type": "conda",
+            "upload_time": "2018-10-17 13:36:33.643000+00:00",
+            "version": "2.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.14.2,<1.16.0",
+                    "bioconductor-edger >=3.22.4,<3.24.0",
+                    "bioconductor-pcamethods >=1.72.0,<1.74.0",
+                    "libgcc-ng >=4.9",
+                    "libstdcxx-ng >=4.9",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "r-cairo",
+                    "r-extremes",
+                    "r-flexmix",
+                    "r-mass",
+                    "r-mgcv",
+                    "r-nnet",
+                    "r-quantreg",
+                    "r-rcolorbrewer",
+                    "r-rcpp >=0.10.4",
+                    "r-rcpparmadillo >=0.5.400.2.0",
+                    "r-rjson",
+                    "r-rmtstat",
+                    "r-rook"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539782739907
+            },
+            "basename": "linux-64/bioconductor-scde-2.8.0-r341hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.2,<1.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.22.4,<3.24.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.74.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cairo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-extremes",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-flexmix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mgcv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnet",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-quantreg",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.400.2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rjson",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmtstat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rook",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scde/2.8.0/linux-64/bioconductor-scde-2.8.0-r341hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scde/2.8.0/linux-64/bioconductor-scde-2.8.0-r341hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "1d0968a15a1a12586135da5c4b087c61",
+            "ndownloads": 204,
+            "owner": "bioconda",
+            "size": 2145661,
+            "type": "conda",
+            "upload_time": "2018-10-17 13:36:36.753000+00:00",
+            "version": "2.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h0a44026_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.16.0,<1.17.0",
+                    "bioconductor-edger >=3.24.0,<3.25.0",
+                    "bioconductor-pcamethods >=1.74.0,<1.75.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-cairo",
+                    "r-extremes",
+                    "r-flexmix",
+                    "r-mass",
+                    "r-mgcv",
+                    "r-nnet",
+                    "r-quantreg",
+                    "r-rcolorbrewer",
+                    "r-rcpp >=0.10.4",
+                    "r-rcpparmadillo >=0.5.400.2.0",
+                    "r-rjson",
+                    "r-rmtstat",
+                    "r-rook"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1544565962718
+            },
+            "basename": "osx-64/bioconductor-scde-2.10.0-r351h0a44026_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.24.0,<3.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.74.0,<1.75.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cairo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-extremes",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-flexmix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mgcv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnet",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-quantreg",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.400.2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rjson",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmtstat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rook",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scde/2.10.0/osx-64/bioconductor-scde-2.10.0-r351h0a44026_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scde/2.10.0/osx-64/bioconductor-scde-2.10.0-r351h0a44026_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "fdda8325d0d5891f3a7eff755aa0b8e2",
+            "ndownloads": 695,
+            "owner": "bioconda",
+            "size": 2268723,
+            "type": "conda",
+            "upload_time": "2018-12-11 22:08:06.060000+00:00",
+            "version": "2.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hf484d3e_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.16.0,<1.17.0",
+                    "bioconductor-edger >=3.24.0,<3.25.0",
+                    "bioconductor-pcamethods >=1.74.0,<1.75.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-cairo",
+                    "r-extremes",
+                    "r-flexmix",
+                    "r-mass",
+                    "r-mgcv",
+                    "r-nnet",
+                    "r-quantreg",
+                    "r-rcolorbrewer",
+                    "r-rcpp >=0.10.4",
+                    "r-rcpparmadillo >=0.5.400.2.0",
+                    "r-rjson",
+                    "r-rmtstat",
+                    "r-rook"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1544811909556
+            },
+            "basename": "linux-64/bioconductor-scde-2.10.0-r351hf484d3e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.24.0,<3.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.74.0,<1.75.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cairo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-extremes",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-flexmix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mgcv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnet",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-quantreg",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.400.2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rjson",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmtstat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rook",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scde/2.10.0/linux-64/bioconductor-scde-2.10.0-r351hf484d3e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scde/2.10.0/linux-64/bioconductor-scde-2.10.0-r351hf484d3e_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "dbb46cff67cf3f5d0ef2a4de79a9b5a7",
+            "ndownloads": 238,
+            "owner": "bioconda",
+            "size": 2254654,
+            "type": "conda",
+            "upload_time": "2018-12-14 18:29:04.670000+00:00",
+            "version": "2.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocparallel >=1.18.0,<1.19.0",
+                    "bioconductor-edger >=3.26.0,<3.27.0",
+                    "bioconductor-pcamethods >=1.76.0,<1.77.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-cairo",
+                    "r-extremes",
+                    "r-flexmix",
+                    "r-mass",
+                    "r-mgcv",
+                    "r-nnet",
+                    "r-quantreg",
+                    "r-rcolorbrewer",
+                    "r-rcpp >=0.10.4",
+                    "r-rcpparmadillo >=0.5.400.2.0",
+                    "r-rjson",
+                    "r-rmtstat",
+                    "r-rook"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1563845043505
+            },
+            "basename": "osx-64/bioconductor-scde-2.12.0-r36h6de7cb9_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.26.0,<3.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.76.0,<1.77.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cairo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-extremes",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-flexmix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mgcv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnet",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-quantreg",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.400.2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rjson",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmtstat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rook",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scde/2.12.0/osx-64/bioconductor-scde-2.12.0-r36h6de7cb9_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-scde/2.12.0/osx-64/bioconductor-scde-2.12.0-r36h6de7cb9_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1d3d8ec94ea015c85aa01f54decc3448",
+            "ndownloads": 327,
+            "owner": "bioconda",
+            "size": 2239735,
+            "type": "conda",
+            "upload_time": "2019-07-23 01:25:33.839000+00:00",
+            "version": "2.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocparallel >=1.18.0,<1.19.0",
+                    "bioconductor-edger >=3.26.0,<3.27.0",
+                    "bioconductor-pcamethods >=1.76.0,<1.77.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-cairo",
+                    "r-extremes",
+                    "r-flexmix",
+                    "r-mass",
+                    "r-mgcv",
+                    "r-nnet",
+                    "r-quantreg",
+                    "r-rcolorbrewer",
+                    "r-rcpp >=0.10.4",
+                    "r-rcpparmadillo >=0.5.400.2.0",
+                    "r-rjson",
+                    "r-rmtstat",
+                    "r-rook"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1564137391470
+            },
+            "basename": "linux-64/bioconductor-scde-2.12.0-r36he1b5a44_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.26.0,<3.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.76.0,<1.77.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cairo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-extremes",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-flexmix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mgcv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnet",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-quantreg",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.400.2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rjson",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmtstat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rook",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scde/2.12.0/linux-64/bioconductor-scde-2.12.0-r36he1b5a44_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-scde/2.12.0/linux-64/bioconductor-scde-2.12.0-r36he1b5a44_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "79ed7835b54e47da8f284bbf7ac6ca86",
+            "ndownloads": 52,
+            "owner": "bioconda",
+            "size": 2226861,
+            "type": "conda",
+            "upload_time": "2019-07-26 10:41:46.306000+00:00",
+            "version": "2.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+                    "bioconductor-edger >=3.28.0,<3.29.0",
+                    "bioconductor-pcamethods >=1.78.0,<1.79.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-cairo",
+                    "r-extremes",
+                    "r-flexmix",
+                    "r-mass",
+                    "r-mgcv",
+                    "r-nnet",
+                    "r-quantreg",
+                    "r-rcolorbrewer",
+                    "r-rcpp >=0.10.4",
+                    "r-rcpparmadillo >=0.5.400.2.0",
+                    "r-rjson",
+                    "r-rmtstat",
+                    "r-rook"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572638543899
+            },
+            "basename": "osx-64/bioconductor-scde-2.14.0-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.28.0,<3.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.78.0,<1.79.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cairo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-extremes",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-flexmix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mgcv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnet",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-quantreg",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.400.2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rjson",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmtstat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rook",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scde/2.14.0/osx-64/bioconductor-scde-2.14.0-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scde/2.14.0/osx-64/bioconductor-scde-2.14.0-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4b52662040a1c51ef58521bb4b9cd621",
+            "ndownloads": 164,
+            "owner": "bioconda",
+            "size": 2249506,
+            "type": "conda",
+            "upload_time": "2019-11-01 20:03:33.311000+00:00",
+            "version": "2.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+                    "bioconductor-edger >=3.28.0,<3.29.0",
+                    "bioconductor-pcamethods >=1.78.0,<1.79.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-cairo",
+                    "r-extremes",
+                    "r-flexmix",
+                    "r-mass",
+                    "r-mgcv",
+                    "r-nnet",
+                    "r-quantreg",
+                    "r-rcolorbrewer",
+                    "r-rcpp >=0.10.4",
+                    "r-rcpparmadillo >=0.5.400.2.0",
+                    "r-rjson",
+                    "r-rmtstat",
+                    "r-rook"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572650401829
+            },
+            "basename": "linux-64/bioconductor-scde-2.14.0-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.28.0,<3.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.78.0,<1.79.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cairo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-extremes",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-flexmix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mgcv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnet",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-quantreg",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.400.2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rjson",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmtstat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rook",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scde/2.14.0/linux-64/bioconductor-scde-2.14.0-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scde/2.14.0/linux-64/bioconductor-scde-2.14.0-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e632cbfc44ea36e11fdc1d91e453e358",
+            "ndownloads": 38,
+            "owner": "bioconda",
+            "size": 2237156,
+            "type": "conda",
+            "upload_time": "2019-11-01 23:25:27.924000+00:00",
+            "version": "2.14.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-scde",
+    "home": "http://bioconductor.org/packages/3.6/bioc/html/scde.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-scde",
+    "id": "5a93082cbaec3611fd6f46fe",
+    "latest_version": "2.14.0",
+    "license": "GPL-2",
+    "license_url": null,
+    "modified_at": "2019-11-01 23:25:28.161000+00:00",
+    "name": "bioconductor-scde",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scde/2.6.0",
+            "version": "2.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scde/2.8.0",
+            "version": "2.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scde/2.10.0",
+            "version": "2.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scde/2.12.0",
+            "version": "2.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scde/2.14.0",
+            "version": "2.14.0"
+        }
+    ],
+    "revision": 10,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Single Cell Differential Expression",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-scde",
+    "versions": [
+        "2.6.0",
+        "2.8.0",
+        "2.10.0",
+        "2.12.0",
+        "2.14.0"
+    ],
+    "watchers": 1
+}

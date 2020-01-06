@@ -1,0 +1,2518 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r3.3.1_0",
+        "r3.3.1_1",
+        "r351hfc679d8_0",
+        "r351h0a44026_0",
+        "r351hf484d3e_0",
+        "r3.3.2_1",
+        "0",
+        "r36he1b5a44_1",
+        "r36h6de7cb9_1",
+        "r3.4.1_1",
+        "r3.4.1_0",
+        "r36he1b5a44_0",
+        "r341hfc679d8_0",
+        "r36h6de7cb9_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2015-12-21 11:08:59.629000+00:00",
+    "description": "cn.mops (Copy Number estimation by a Mixture Of PoissonS) is a data processing pipeline for copy number variations and aberrations (CNVs and CNAs) from next generation sequencing (NGS) data. The package supplies functions to convert BAM files into read count matrices or genomic ranges objects, which are the input objects for cn.mops. cn.mops models the depths of coverage across samples at each genomic position. Therefore, it does not suffer from read count biases along chromosomes. Using a Bayesian approach, cn.mops decomposes read variations across samples into integer copy numbers and noise by its mixture components and Poisson distributions, respectively. cn.mops guarantees a low FDR because wrong detections are indicated by high noise and filtered out. cn.mops is very fast and written in C++.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-rsamtools",
+                    "r >=2.12"
+                ],
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-cn.mops-1.16.2-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.12"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.16.2/linux-64/bioconductor-cn.mops-1.16.2-0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.16.2/linux-64/bioconductor-cn.mops-1.16.2-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "ea047020370cf54d533270fe611bc2cc",
+            "ndownloads": 3204,
+            "owner": "bioconda",
+            "size": 1094189,
+            "type": "conda",
+            "upload_time": "2015-12-21 11:08:59.841000+00:00",
+            "version": "1.16.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-rsamtools",
+                    "r >=2.12"
+                ],
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-cn.mops-1.16.2-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.12"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.16.2/osx-64/bioconductor-cn.mops-1.16.2-0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.16.2/osx-64/bioconductor-cn.mops-1.16.2-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "9672b731b0c33f4961401260a37e05e1",
+            "ndownloads": 761,
+            "owner": "bioconda",
+            "size": 1092172,
+            "type": "conda",
+            "upload_time": "2016-03-19 11:21:57.137000+00:00",
+            "version": "1.16.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-rsamtools",
+                    "r 3.3.1*"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-cn.mops-1.18.0-r3.3.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.18.0/linux-64/bioconductor-cn.mops-1.18.0-r3.3.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.18.0/linux-64/bioconductor-cn.mops-1.18.0-r3.3.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "28625717c40207016a16644fe18bc218",
+            "ndownloads": 496,
+            "owner": "bioconda",
+            "size": 1106703,
+            "type": "conda",
+            "upload_time": "2016-10-30 13:22:52.725000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.1_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-rsamtools",
+                    "libgcc",
+                    "r 3.3.1*"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-cn.mops-1.18.0-r3.3.1_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.18.0/linux-64/bioconductor-cn.mops-1.18.0-r3.3.1_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.18.0/linux-64/bioconductor-cn.mops-1.18.0-r3.3.1_1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "91b3aec7589767f3cf5f33282eb82691",
+            "ndownloads": 458,
+            "owner": "bioconda",
+            "size": 1104942,
+            "type": "conda",
+            "upload_time": "2017-02-03 23:53:00.312000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.1_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-rsamtools",
+                    "r 3.3.1*"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-cn.mops-1.18.0-r3.3.1_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.18.0/osx-64/bioconductor-cn.mops-1.18.0-r3.3.1_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.18.0/osx-64/bioconductor-cn.mops-1.18.0-r3.3.1_1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "ed2ba935e6e7fc61e9822256cb8ca4fa",
+            "ndownloads": 46,
+            "owner": "bioconda",
+            "size": 1102607,
+            "type": "conda",
+            "upload_time": "2017-02-04 01:17:01.938000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.2_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-rsamtools",
+                    "r-base 3.3.2*"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-cn.mops-1.18.0-r3.3.2_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.18.0/osx-64/bioconductor-cn.mops-1.18.0-r3.3.2_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.18.0/osx-64/bioconductor-cn.mops-1.18.0-r3.3.2_1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "d5e7ab487914e0d07661404abca951de",
+            "ndownloads": 38,
+            "owner": "bioconda",
+            "size": 1106277,
+            "type": "conda",
+            "upload_time": "2017-06-06 13:13:13.772000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.2_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-rsamtools",
+                    "libgcc",
+                    "r-base 3.3.2*"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-cn.mops-1.18.0-r3.3.2_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.18.0/linux-64/bioconductor-cn.mops-1.18.0-r3.3.2_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.18.0/linux-64/bioconductor-cn.mops-1.18.0-r3.3.2_1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "3cbe2d0dc6072ff30354444c28983e2d",
+            "ndownloads": 956,
+            "owner": "bioconda",
+            "size": 1112362,
+            "type": "conda",
+            "upload_time": "2017-06-13 23:26:27.495000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-rsamtools",
+                    "libgcc",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-cn.mops-1.18.0-r3.4.1_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.18.0/linux-64/bioconductor-cn.mops-1.18.0-r3.4.1_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.18.0/linux-64/bioconductor-cn.mops-1.18.0-r3.4.1_1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "abe7ab7997eff2a25f8794093e54d023",
+            "ndownloads": 557,
+            "owner": "bioconda",
+            "size": 1128551,
+            "type": "conda",
+            "upload_time": "2017-09-20 13:54:46.562000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-rsamtools",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-cn.mops-1.18.0-r3.4.1_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.18.0/osx-64/bioconductor-cn.mops-1.18.0-r3.4.1_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.18.0/osx-64/bioconductor-cn.mops-1.18.0-r3.4.1_1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "6b227b7a4d0314a27d261c11570498d2",
+            "ndownloads": 747,
+            "owner": "bioconda",
+            "size": 1124989,
+            "type": "conda",
+            "upload_time": "2017-09-23 01:20:18.582000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics",
+                    "bioconductor-exomecopy",
+                    "bioconductor-genomeinfodb",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-rsamtools",
+                    "bioconductor-s4vectors",
+                    "libgcc",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-cn.mops-1.22.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-exomecopy",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.22.0/linux-64/bioconductor-cn.mops-1.22.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.22.0/linux-64/bioconductor-cn.mops-1.22.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "ba5132f98d370183234dfc950f862041",
+            "ndownloads": 734,
+            "owner": "bioconda",
+            "size": 1125388,
+            "type": "conda",
+            "upload_time": "2017-10-19 03:40:42.736000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics",
+                    "bioconductor-exomecopy",
+                    "bioconductor-genomeinfodb",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-rsamtools",
+                    "bioconductor-s4vectors",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-cn.mops-1.22.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-exomecopy",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.22.0/osx-64/bioconductor-cn.mops-1.22.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.22.0/osx-64/bioconductor-cn.mops-1.22.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "7f6ee7dff93a92b58fed963a83985e19",
+            "ndownloads": 774,
+            "owner": "bioconda",
+            "size": 1122120,
+            "type": "conda",
+            "upload_time": "2017-10-21 12:29:40.767000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics",
+                    "bioconductor-exomecopy",
+                    "bioconductor-genomeinfodb",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-rsamtools",
+                    "bioconductor-s4vectors",
+                    "libgcc",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-cn.mops-1.24.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-exomecopy",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.24.0/linux-64/bioconductor-cn.mops-1.24.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.24.0/linux-64/bioconductor-cn.mops-1.24.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "6c622d853deae291fa02b19075b489c2",
+            "ndownloads": 2470,
+            "owner": "bioconda",
+            "size": 1125801,
+            "type": "conda",
+            "upload_time": "2017-11-08 14:22:55.612000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics",
+                    "bioconductor-exomecopy",
+                    "bioconductor-genomeinfodb",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-rsamtools",
+                    "bioconductor-s4vectors",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-cn.mops-1.24.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-exomecopy",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.24.0/osx-64/bioconductor-cn.mops-1.24.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.24.0/osx-64/bioconductor-cn.mops-1.24.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "2bd55265f87838d804c58ad911b37aff",
+            "ndownloads": 743,
+            "owner": "bioconda",
+            "size": 1122592,
+            "type": "conda",
+            "upload_time": "2017-11-09 23:55:15.932000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "bioconductor-exomecopy >=1.26.0,<1.28.0",
+                    "bioconductor-genomeinfodb >=1.16.0,<1.18.0",
+                    "bioconductor-genomicranges >=1.32.7,<1.34.0",
+                    "bioconductor-iranges >=2.14.12,<2.16.0",
+                    "bioconductor-rsamtools >=1.32.3,<1.34.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539424121636
+            },
+            "basename": "osx-64/bioconductor-cn.mops-1.26.0-r351hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-exomecopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.7,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.12,<2.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.3,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.26.0/osx-64/bioconductor-cn.mops-1.26.0-r351hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.26.0/osx-64/bioconductor-cn.mops-1.26.0-r351hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "53e7266d609c596bf4c4e03de2ffcf62",
+            "ndownloads": 498,
+            "owner": "bioconda",
+            "size": 1317911,
+            "type": "conda",
+            "upload_time": "2018-10-13 09:49:44.616000+00:00",
+            "version": "1.26.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "bioconductor-exomecopy >=1.26.0,<1.28.0",
+                    "bioconductor-genomeinfodb >=1.16.0,<1.18.0",
+                    "bioconductor-genomicranges >=1.32.7,<1.34.0",
+                    "bioconductor-iranges >=2.14.12,<2.16.0",
+                    "bioconductor-rsamtools >=1.32.3,<1.34.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "r-base >=3.4.1,<3.4.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539423970320
+            },
+            "basename": "osx-64/bioconductor-cn.mops-1.26.0-r341hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-exomecopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.7,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.12,<2.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.3,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.26.0/osx-64/bioconductor-cn.mops-1.26.0-r341hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.26.0/osx-64/bioconductor-cn.mops-1.26.0-r341hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "ee80a313feaee76ac155912205068af0",
+            "ndownloads": 276,
+            "owner": "bioconda",
+            "size": 1125833,
+            "type": "conda",
+            "upload_time": "2018-10-13 09:49:49.086000+00:00",
+            "version": "1.26.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "bioconductor-exomecopy >=1.26.0,<1.28.0",
+                    "bioconductor-genomeinfodb >=1.16.0,<1.18.0",
+                    "bioconductor-genomicranges >=1.32.7,<1.34.0",
+                    "bioconductor-iranges >=2.14.12,<2.16.0",
+                    "bioconductor-rsamtools >=1.32.3,<1.34.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "libgcc-ng >=4.9",
+                    "libstdcxx-ng >=4.9",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539474293540
+            },
+            "basename": "linux-64/bioconductor-cn.mops-1.26.0-r351hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-exomecopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.7,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.12,<2.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.3,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.26.0/linux-64/bioconductor-cn.mops-1.26.0-r351hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.26.0/linux-64/bioconductor-cn.mops-1.26.0-r351hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "c7f3eb0a52eb2f51068c87ce09cd8cde",
+            "ndownloads": 264,
+            "owner": "bioconda",
+            "size": 1318609,
+            "type": "conda",
+            "upload_time": "2018-10-13 23:51:35.523000+00:00",
+            "version": "1.26.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "bioconductor-exomecopy >=1.26.0,<1.28.0",
+                    "bioconductor-genomeinfodb >=1.16.0,<1.18.0",
+                    "bioconductor-genomicranges >=1.32.7,<1.34.0",
+                    "bioconductor-iranges >=2.14.12,<2.16.0",
+                    "bioconductor-rsamtools >=1.32.3,<1.34.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "libgcc-ng >=4.9",
+                    "libstdcxx-ng >=4.9",
+                    "r-base >=3.4.1,<3.4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539474398482
+            },
+            "basename": "linux-64/bioconductor-cn.mops-1.26.0-r341hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-exomecopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.7,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.12,<2.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.3,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.26.0/linux-64/bioconductor-cn.mops-1.26.0-r341hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.26.0/linux-64/bioconductor-cn.mops-1.26.0-r341hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "9be7da380be5696cb62b0aad4cb905ad",
+            "ndownloads": 791,
+            "owner": "bioconda",
+            "size": 1126191,
+            "type": "conda",
+            "upload_time": "2018-10-13 23:51:38.531000+00:00",
+            "version": "1.26.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h0a44026_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "bioconductor-exomecopy >=1.28.0,<1.29.0",
+                    "bioconductor-genomeinfodb >=1.18.0,<1.19.0",
+                    "bioconductor-genomicranges >=1.34.0,<1.35.0",
+                    "bioconductor-iranges >=2.16.0,<2.17.0",
+                    "bioconductor-rsamtools >=1.34.0,<1.35.0",
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1544451492351
+            },
+            "basename": "osx-64/bioconductor-cn.mops-1.28.0-r351h0a44026_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-exomecopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.28.0/osx-64/bioconductor-cn.mops-1.28.0-r351h0a44026_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.28.0/osx-64/bioconductor-cn.mops-1.28.0-r351h0a44026_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "beba15639a9061405163a84a0e6fd211",
+            "ndownloads": 672,
+            "owner": "bioconda",
+            "size": 1319877,
+            "type": "conda",
+            "upload_time": "2018-12-10 14:19:22.396000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hf484d3e_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "bioconductor-exomecopy >=1.28.0,<1.29.0",
+                    "bioconductor-genomeinfodb >=1.18.0,<1.19.0",
+                    "bioconductor-genomicranges >=1.34.0,<1.35.0",
+                    "bioconductor-iranges >=2.16.0,<2.17.0",
+                    "bioconductor-rsamtools >=1.34.0,<1.35.0",
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1544678210231
+            },
+            "basename": "linux-64/bioconductor-cn.mops-1.28.0-r351hf484d3e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-exomecopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.28.0/linux-64/bioconductor-cn.mops-1.28.0-r351hf484d3e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.28.0/linux-64/bioconductor-cn.mops-1.28.0-r351hf484d3e_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "47eb891e49d2da5ed24aaccc3a9fa03c",
+            "ndownloads": 1255,
+            "owner": "bioconda",
+            "size": 1318968,
+            "type": "conda",
+            "upload_time": "2018-12-13 05:20:49.270000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "bioconductor-exomecopy >=1.30.0,<1.31.0",
+                    "bioconductor-genomeinfodb >=1.20.0,<1.21.0",
+                    "bioconductor-genomicranges >=1.36.0,<1.37.0",
+                    "bioconductor-iranges >=2.18.0,<2.19.0",
+                    "bioconductor-rsamtools >=2.0.0,<2.1.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1564178797714
+            },
+            "basename": "osx-64/bioconductor-cn.mops-1.30.0-r36h6de7cb9_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-exomecopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.30.0/osx-64/bioconductor-cn.mops-1.30.0-r36h6de7cb9_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.30.0/osx-64/bioconductor-cn.mops-1.30.0-r36h6de7cb9_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "938dc814ab2cb3d28f86c8c0af2d40fa",
+            "ndownloads": 345,
+            "owner": "bioconda",
+            "size": 1320361,
+            "type": "conda",
+            "upload_time": "2019-07-26 22:07:49.910000+00:00",
+            "version": "1.30.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "bioconductor-exomecopy >=1.30.0,<1.31.0",
+                    "bioconductor-genomeinfodb >=1.20.0,<1.21.0",
+                    "bioconductor-genomicranges >=1.36.0,<1.37.0",
+                    "bioconductor-iranges >=2.18.0,<2.19.0",
+                    "bioconductor-rsamtools >=2.0.0,<2.1.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1564519547469
+            },
+            "basename": "linux-64/bioconductor-cn.mops-1.30.0-r36he1b5a44_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-exomecopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.30.0/linux-64/bioconductor-cn.mops-1.30.0-r36he1b5a44_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.30.0/linux-64/bioconductor-cn.mops-1.30.0-r36he1b5a44_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f6229b4c6a3b02e1cde1fcf958fa67ee",
+            "ndownloads": 75,
+            "owner": "bioconda",
+            "size": 1320018,
+            "type": "conda",
+            "upload_time": "2019-07-30 20:49:58.914000+00:00",
+            "version": "1.30.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-exomecopy >=1.32.0,<1.33.0",
+                    "bioconductor-genomeinfodb >=1.22.0,<1.23.0",
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "bioconductor-iranges >=2.20.0,<2.21.0",
+                    "bioconductor-rsamtools >=2.2.0,<2.3.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572656356048
+            },
+            "basename": "osx-64/bioconductor-cn.mops-1.32.0-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-exomecopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.32.0/osx-64/bioconductor-cn.mops-1.32.0-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.32.0/osx-64/bioconductor-cn.mops-1.32.0-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bca01a3847564ceeea5fbf80f37ee242",
+            "ndownloads": 155,
+            "owner": "bioconda",
+            "size": 1316182,
+            "type": "conda",
+            "upload_time": "2019-11-02 01:00:23.599000+00:00",
+            "version": "1.32.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-exomecopy >=1.32.0,<1.33.0",
+                    "bioconductor-genomeinfodb >=1.22.0,<1.23.0",
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "bioconductor-iranges >=2.20.0,<2.21.0",
+                    "bioconductor-rsamtools >=2.2.0,<2.3.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572778529255
+            },
+            "basename": "linux-64/bioconductor-cn.mops-1.32.0-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-exomecopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-cn.mops/1.32.0/linux-64/bioconductor-cn.mops-1.32.0-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-cn.mops/1.32.0/linux-64/bioconductor-cn.mops-1.32.0-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4781cc6dc5930b170275cf11bca3eea9",
+            "ndownloads": 37,
+            "owner": "bioconda",
+            "size": 1331607,
+            "type": "conda",
+            "upload_time": "2019-11-03 11:00:51.860000+00:00",
+            "version": "1.32.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-cn.mops",
+    "home": "None",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-cn.mops",
+    "id": "5677ddcb42cb1767b8f2857d",
+    "latest_version": "1.32.0",
+    "license": "LGPL (>= 2.0)",
+    "license_url": null,
+    "modified_at": "2019-11-03 11:00:52.285000+00:00",
+    "name": "bioconductor-cn.mops",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [
+                "linux-64/bioconductor-cn.mops-1.16.2-0.tar.bz2",
+                "osx-64/bioconductor-cn.mops-1.16.2-0.tar.bz2"
+            ],
+            "full_name": "bioconda/bioconductor-cn.mops/1.16.2",
+            "version": "1.16.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-cn.mops/1.18.0",
+            "version": "1.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-cn.mops/1.22.0",
+            "version": "1.22.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-cn.mops/1.24.0",
+            "version": "1.24.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-cn.mops/1.26.0",
+            "version": "1.26.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-cn.mops/1.28.0",
+            "version": "1.28.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-cn.mops/1.30.0",
+            "version": "1.30.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-cn.mops/1.32.0",
+            "version": "1.32.0"
+        }
+    ],
+    "revision": 16,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "cn.mops - Mixture of Poissons for CNV detection in NGS data",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-cn.mops",
+    "versions": [
+        "1.16.2",
+        "1.18.0",
+        "1.22.0",
+        "1.24.0",
+        "1.26.0",
+        "1.28.0",
+        "1.30.0",
+        "1.32.0"
+    ],
+    "watchers": 1
+}

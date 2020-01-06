@@ -1,0 +1,969 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351hfc679d8_0",
+        "r351h0a44026_0",
+        "r351hf484d3e_0",
+        "r36he1b5a44_1",
+        "r36h6de7cb9_1",
+        "r3.4.1_0",
+        "r36he1b5a44_0",
+        "r341hfc679d8_0",
+        "r36h6de7cb9_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2018-02-16 10:30:17.535000+00:00",
+    "description": "Matching cell populations and building meta-clusters and templates from a collection of FC samples.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-flowcore",
+                    "r-base 3.4.1*",
+                    "r-rcpp >=0.11.0"
+                ],
+                "has_prefix": true,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-flowmatch-1.14.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-flowcore",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-flowmatch/1.14.0/linux-64/bioconductor-flowmatch-1.14.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-flowmatch/1.14.0/linux-64/bioconductor-flowmatch-1.14.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "1fedf1bc51ed756b584309626cde1f9f",
+            "ndownloads": 306,
+            "owner": "bioconda",
+            "size": 4145563,
+            "type": "conda",
+            "upload_time": "2018-02-16 10:30:17.996000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-flowcore",
+                    "libcxx",
+                    "r-base 3.4.1*",
+                    "r-rcpp >=0.11.0"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-flowmatch-1.14.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-flowcore",
+                        "specs": []
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-flowmatch/1.14.0/osx-64/bioconductor-flowmatch-1.14.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-flowmatch/1.14.0/osx-64/bioconductor-flowmatch-1.14.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "138f922c15275f3e10be0dcd467f6cad",
+            "ndownloads": 738,
+            "owner": "bioconda",
+            "size": 4099095,
+            "type": "conda",
+            "upload_time": "2018-02-16 11:34:37.603000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-flowcore >=1.46.2,<1.48.0",
+                    "libgcc-ng >=4.9",
+                    "libstdcxx-ng >=4.9",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-rcpp >=0.11.0"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539483134957
+            },
+            "basename": "linux-64/bioconductor-flowmatch-1.16.0-r351hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowcore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.2,<1.48.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-flowmatch/1.16.0/linux-64/bioconductor-flowmatch-1.16.0-r351hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-flowmatch/1.16.0/linux-64/bioconductor-flowmatch-1.16.0-r351hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "a2c22b27a73f17638950c44a7ce58090",
+            "ndownloads": 604,
+            "owner": "bioconda",
+            "size": 4259914,
+            "type": "conda",
+            "upload_time": "2018-10-14 02:18:49.884000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-flowcore >=1.46.2,<1.48.0",
+                    "libgcc-ng >=4.9",
+                    "libstdcxx-ng >=4.9",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "r-rcpp >=0.11.0"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539483234076
+            },
+            "basename": "linux-64/bioconductor-flowmatch-1.16.0-r341hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowcore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.2,<1.48.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-flowmatch/1.16.0/linux-64/bioconductor-flowmatch-1.16.0-r341hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-flowmatch/1.16.0/linux-64/bioconductor-flowmatch-1.16.0-r341hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "2130c99969bf9e41d8d78d76290fa0bd",
+            "ndownloads": 483,
+            "owner": "bioconda",
+            "size": 4161248,
+            "type": "conda",
+            "upload_time": "2018-10-14 02:18:52.855000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hf484d3e_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-flowcore >=1.48.0,<1.49.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-rcpp >=0.11.0"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1544715997176
+            },
+            "basename": "linux-64/bioconductor-flowmatch-1.18.0-r351hf484d3e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowcore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-flowmatch/1.18.0/linux-64/bioconductor-flowmatch-1.18.0-r351hf484d3e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-flowmatch/1.18.0/linux-64/bioconductor-flowmatch-1.18.0-r351hf484d3e_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "004078f2f04d5fff0af3e3811e9a7ca2",
+            "ndownloads": 90,
+            "owner": "bioconda",
+            "size": 4113562,
+            "type": "conda",
+            "upload_time": "2018-12-13 15:50:30.293000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h0a44026_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-flowcore >=1.48.0,<1.49.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-rcpp >=0.11.0"
+                ],
+                "has_prefix": true,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1545511439216
+            },
+            "basename": "osx-64/bioconductor-flowmatch-1.18.0-r351h0a44026_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowcore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-flowmatch/1.18.0/osx-64/bioconductor-flowmatch-1.18.0-r351h0a44026_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-flowmatch/1.18.0/osx-64/bioconductor-flowmatch-1.18.0-r351h0a44026_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "d66a77e3a50a7a60d48b71cfa7e25c80",
+            "ndownloads": 668,
+            "owner": "bioconda",
+            "size": 4109523,
+            "type": "conda",
+            "upload_time": "2018-12-22 20:45:05.678000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-flowcore >=1.50.0,<1.51.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-rcpp >=0.11.0"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1564131391417
+            },
+            "basename": "linux-64/bioconductor-flowmatch-1.20.0-r36he1b5a44_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowcore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-flowmatch/1.20.0/linux-64/bioconductor-flowmatch-1.20.0-r36he1b5a44_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-flowmatch/1.20.0/linux-64/bioconductor-flowmatch-1.20.0-r36he1b5a44_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c295f07db65067e0179532d9482edd88",
+            "ndownloads": 49,
+            "owner": "bioconda",
+            "size": 4087860,
+            "type": "conda",
+            "upload_time": "2019-07-26 09:00:43.291000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-flowcore >=1.50.0,<1.51.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-rcpp >=0.11.0"
+                ],
+                "has_prefix": true,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1564679552236
+            },
+            "basename": "osx-64/bioconductor-flowmatch-1.20.0-r36h6de7cb9_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowcore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-flowmatch/1.20.0/osx-64/bioconductor-flowmatch-1.20.0-r36h6de7cb9_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-flowmatch/1.20.0/osx-64/bioconductor-flowmatch-1.20.0-r36h6de7cb9_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b48b59998fb4dd191dae462476c86f58",
+            "ndownloads": 305,
+            "owner": "bioconda",
+            "size": 4091059,
+            "type": "conda",
+            "upload_time": "2019-08-01 17:13:37.542000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-flowcore >=1.52.0,<1.53.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-rcpp >=0.11.0"
+                ],
+                "has_prefix": true,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572596366062
+            },
+            "basename": "osx-64/bioconductor-flowmatch-1.22.0-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowcore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-flowmatch/1.22.0/osx-64/bioconductor-flowmatch-1.22.0-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-flowmatch/1.22.0/osx-64/bioconductor-flowmatch-1.22.0-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "54b27c68abb1d0e50824eec34068e292",
+            "ndownloads": 159,
+            "owner": "bioconda",
+            "size": 4071526,
+            "type": "conda",
+            "upload_time": "2019-11-01 08:20:24.803000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-flowcore >=1.52.0,<1.53.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-rcpp >=0.11.0"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572608800574
+            },
+            "basename": "linux-64/bioconductor-flowmatch-1.22.0-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowcore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-flowmatch/1.22.0/linux-64/bioconductor-flowmatch-1.22.0-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-flowmatch/1.22.0/linux-64/bioconductor-flowmatch-1.22.0-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a4f9a6511fd7af2fee17d07d7a63d850",
+            "ndownloads": 33,
+            "owner": "bioconda",
+            "size": 4079260,
+            "type": "conda",
+            "upload_time": "2019-11-01 11:51:56.984000+00:00",
+            "version": "1.22.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-flowmatch",
+    "home": "http://bioconductor.org/packages/3.6/bioc/html/flowMatch.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-flowmatch",
+    "id": "5a86b2b982e5d2123f973240",
+    "latest_version": "1.22.0",
+    "license": "Artistic-2.0",
+    "license_url": null,
+    "modified_at": "2019-11-01 11:51:57.345000+00:00",
+    "name": "bioconductor-flowmatch",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-flowmatch/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-flowmatch/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-flowmatch/1.18.0",
+            "version": "1.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-flowmatch/1.20.0",
+            "version": "1.20.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-flowmatch/1.22.0",
+            "version": "1.22.0"
+        }
+    ],
+    "revision": 10,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Matching and meta-clustering in flow cytometry",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-flowmatch",
+    "versions": [
+        "1.14.0",
+        "1.16.0",
+        "1.18.0",
+        "1.20.0",
+        "1.22.0"
+    ],
+    "watchers": 1
+}

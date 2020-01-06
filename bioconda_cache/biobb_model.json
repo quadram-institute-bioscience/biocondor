@@ -1,0 +1,817 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "py_0",
+        "py_1"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2018-10-22 22:51:37.752000+00:00",
+    "description": "[![Documentation Status](https://readthedocs.org/projects/biobb-model/badge/?version=latest)](https://biobb-model.readthedocs.io/en/latest/?badge=latest)\n\n# biobb_model\n\n### Introduction\nBiobb_model is the Biobb module collection to check and model 3d structures,\ncreate mutations or reconstruct missing atoms.\nBiobb (BioExcel building blocks) packages are Python building blocks that\ncreate new layer of compatibility and interoperability over popular\nbioinformatics tools.\nThe latest documentation of this package can be found in our readthedocs site:\n[latest API documentation](http://biobb_model.readthedocs.io/en/latest/).\n\n### Copyright & Licensing\n This software has been developed in the [MMB group](http://mmb.irbbarcelona.org) at the [BSC](http://www.bsc.es/) & [IRB](https://www.irbbarcelona.org/) for the [European BioExcel](http://bioexcel.eu/), funded by the European Commission (EU H2020 [823830](http://cordis.europa.eu/projects/823830), EU H2020 [675728](http://cordis.europa.eu/projects/675728)).\n\n* (c) 2015-2019 [Barcelona Supercomputing Center](https://www.bsc.es/)\n* (c) 2015-2019 [Institute for Research in Biomedicine](https://www.irbbarcelona.org/)\n\nLicensed under the\n[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0), see the file LICENSE for details.\n\n![](https://bioexcel.eu/wp-content/uploads/2019/04/Bioexcell_logo_1080px_transp.png \"Bioexcel\")\n\n\n",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "biobb_common",
+                    "biopython",
+                    "jsonschema 2.6.0",
+                    "mistune 0.7.4",
+                    "python >=3.5"
+                ],
+                "has_prefix": false,
+                "license": "Apache Software License",
+                "license_family": "APACHE",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1540248223087
+            },
+            "basename": "noarch/biobb_model-0.0.6-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biobb_common",
+                        "specs": []
+                    },
+                    {
+                        "name": "biopython",
+                        "specs": []
+                    },
+                    {
+                        "name": "jsonschema",
+                        "specs": [
+                            [
+                                "==",
+                                "2.6.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "mistune",
+                        "specs": [
+                            [
+                                "==",
+                                "0.7.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biobb_model/0.0.6/noarch/biobb_model-0.0.6-py_0.tar.bz2",
+            "full_name": "bioconda/biobb_model/0.0.6/noarch/biobb_model-0.0.6-py_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "0ab17c5746d0155cc483a99534f955dd",
+            "ndownloads": 73,
+            "owner": "bioconda",
+            "size": 31586,
+            "type": "conda",
+            "upload_time": "2018-10-22 22:51:38.450000+00:00",
+            "version": "0.0.6"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "biobb_common",
+                    "biopython",
+                    "python >=3"
+                ],
+                "has_prefix": false,
+                "license": "Apache Software License",
+                "license_family": "APACHE",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1541343953660
+            },
+            "basename": "noarch/biobb_model-0.1.0-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biobb_common",
+                        "specs": []
+                    },
+                    {
+                        "name": "biopython",
+                        "specs": []
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biobb_model/0.1.0/noarch/biobb_model-0.1.0-py_0.tar.bz2",
+            "full_name": "bioconda/biobb_model/0.1.0/noarch/biobb_model-0.1.0-py_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "2e6ecddffab605feb7fd7bbffb6f7fdc",
+            "ndownloads": 100,
+            "owner": "bioconda",
+            "size": 45031,
+            "type": "conda",
+            "upload_time": "2018-11-04 15:11:57.387000+00:00",
+            "version": "0.1.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "biobb_common >=0.1.2",
+                    "python >=3"
+                ],
+                "has_prefix": false,
+                "license": "Apache Software License",
+                "license_family": "APACHE",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1549283598336
+            },
+            "basename": "noarch/biobb_model-0.1.3-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biobb_common",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.1.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biobb_model/0.1.3/noarch/biobb_model-0.1.3-py_0.tar.bz2",
+            "full_name": "bioconda/biobb_model/0.1.3/noarch/biobb_model-0.1.3-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "48ebccbf2efce8f214183ffc18688ce9",
+            "ndownloads": 77,
+            "owner": "bioconda",
+            "size": 45547,
+            "type": "conda",
+            "upload_time": "2019-02-04 12:37:18.010000+00:00",
+            "version": "0.1.3"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "biobb_common >=0.1.2",
+                    "python >=3"
+                ],
+                "has_prefix": false,
+                "license": "Apache Software License",
+                "license_family": "APACHE",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1550080053838
+            },
+            "basename": "noarch/biobb_model-0.1.5-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biobb_common",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.1.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biobb_model/0.1.5/noarch/biobb_model-0.1.5-py_0.tar.bz2",
+            "full_name": "bioconda/biobb_model/0.1.5/noarch/biobb_model-0.1.5-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d9aa32728358d3b67225d0919019a5a1",
+            "ndownloads": 121,
+            "owner": "bioconda",
+            "size": 45585,
+            "type": "conda",
+            "upload_time": "2019-02-13 17:51:36.148000+00:00",
+            "version": "0.1.5"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "biobb_common >=0.0.8",
+                    "biopython",
+                    "python >=3"
+                ],
+                "has_prefix": false,
+                "license": "Apache Software License",
+                "license_family": "APACHE",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1548448543811
+            },
+            "basename": "noarch/biobb_model-0.1.1-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biobb_common",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "biopython",
+                        "specs": []
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biobb_model/0.1.1/noarch/biobb_model-0.1.1-py_0.tar.bz2",
+            "full_name": "bioconda/biobb_model/0.1.1/noarch/biobb_model-0.1.1-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3840755620665fd768fe1f2180ed17a0",
+            "ndownloads": 77,
+            "owner": "bioconda",
+            "size": 45756,
+            "type": "conda",
+            "upload_time": "2019-01-25 20:40:31.630000+00:00",
+            "version": "0.1.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_1",
+                "build_number": 1,
+                "depends": [
+                    "biobb_common >=0.1.2",
+                    "python >=3"
+                ],
+                "has_prefix": false,
+                "license": "Apache Software License",
+                "license_family": "APACHE",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1552478815168
+            },
+            "basename": "noarch/biobb_model-0.1.5-py_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biobb_common",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.1.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biobb_model/0.1.5/noarch/biobb_model-0.1.5-py_1.tar.bz2",
+            "full_name": "bioconda/biobb_model/0.1.5/noarch/biobb_model-0.1.5-py_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f53ad84e057add055b232c7d513b40c5",
+            "ndownloads": 90,
+            "owner": "bioconda",
+            "size": 45649,
+            "type": "conda",
+            "upload_time": "2019-03-13 12:11:01.061000+00:00",
+            "version": "0.1.5"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_1",
+                "build_number": 1,
+                "depends": [
+                    "biobb_common >=0.1.2",
+                    "python >=3"
+                ],
+                "has_prefix": false,
+                "license": "Apache Software License",
+                "license_family": "APACHE",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1554811879038
+            },
+            "basename": "noarch/biobb_model-0.1.6-py_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biobb_common",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.1.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biobb_model/0.1.6/noarch/biobb_model-0.1.6-py_1.tar.bz2",
+            "full_name": "bioconda/biobb_model/0.1.6/noarch/biobb_model-0.1.6-py_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1501e4b82fcfa252eef8752b804d5252",
+            "ndownloads": 77,
+            "owner": "bioconda",
+            "size": 31120,
+            "type": "conda",
+            "upload_time": "2019-04-09 12:14:27.706000+00:00",
+            "version": "0.1.6"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_1",
+                "build_number": 1,
+                "depends": [
+                    "biobb_common 0.1.4",
+                    "biobb_structure_checking 1.0.6",
+                    "python 3.6.*"
+                ],
+                "has_prefix": false,
+                "license": "Apache Software License",
+                "license_family": "APACHE",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1555011943944
+            },
+            "basename": "noarch/biobb_model-0.1.7-py_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biobb_common",
+                        "specs": [
+                            [
+                                "==",
+                                "0.1.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "biobb_structure_checking",
+                        "specs": [
+                            [
+                                "==",
+                                "1.0.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biobb_model/0.1.7/noarch/biobb_model-0.1.7-py_1.tar.bz2",
+            "full_name": "bioconda/biobb_model/0.1.7/noarch/biobb_model-0.1.7-py_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c5e604373e93f8406f4670be5deb74ff",
+            "ndownloads": 68,
+            "owner": "bioconda",
+            "size": 31139,
+            "type": "conda",
+            "upload_time": "2019-04-11 19:48:36.562000+00:00",
+            "version": "0.1.7"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "biobb_common 0.1.4",
+                    "biobb_structure_checking 1.0.6",
+                    "python 3.6.*"
+                ],
+                "has_prefix": false,
+                "license": "Apache Software License",
+                "license_family": "APACHE",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1556194034450
+            },
+            "basename": "noarch/biobb_model-0.1.8-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biobb_common",
+                        "specs": [
+                            [
+                                "==",
+                                "0.1.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "biobb_structure_checking",
+                        "specs": [
+                            [
+                                "==",
+                                "1.0.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biobb_model/0.1.8/noarch/biobb_model-0.1.8-py_0.tar.bz2",
+            "full_name": "bioconda/biobb_model/0.1.8/noarch/biobb_model-0.1.8-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9273c23d464f40c5ebc77e8336d34a42",
+            "ndownloads": 153,
+            "owner": "bioconda",
+            "size": 9172,
+            "type": "conda",
+            "upload_time": "2019-04-25 12:10:13.456000+00:00",
+            "version": "0.1.8"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "biobb_common 1.1.6",
+                    "biobb_structure_checking 1.0.6",
+                    "python 3.6.*"
+                ],
+                "has_prefix": false,
+                "license": "Apache Software License",
+                "license_family": "APACHE",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1557907170627
+            },
+            "basename": "noarch/biobb_model-1.1.9-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biobb_common",
+                        "specs": [
+                            [
+                                "==",
+                                "1.1.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "biobb_structure_checking",
+                        "specs": [
+                            [
+                                "==",
+                                "1.0.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biobb_model/1.1.9/noarch/biobb_model-1.1.9-py_0.tar.bz2",
+            "full_name": "bioconda/biobb_model/1.1.9/noarch/biobb_model-1.1.9-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "af62b5b455c61c7e3aa4a3e820925296",
+            "ndownloads": 116,
+            "owner": "bioconda",
+            "size": 9201,
+            "type": "conda",
+            "upload_time": "2019-05-15 08:02:26.369000+00:00",
+            "version": "1.1.9"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "biobb_common 2.0.1",
+                    "biobb_structure_checking 1.0.6",
+                    "python 3.6.*"
+                ],
+                "has_prefix": false,
+                "license": "Apache Software License",
+                "license_family": "APACHE",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1574952739204
+            },
+            "basename": "noarch/biobb_model-2.0.0-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biobb_common",
+                        "specs": [
+                            [
+                                "==",
+                                "2.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "biobb_structure_checking",
+                        "specs": [
+                            [
+                                "==",
+                                "1.0.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biobb_model/2.0.0/noarch/biobb_model-2.0.0-py_0.tar.bz2",
+            "full_name": "bioconda/biobb_model/2.0.0/noarch/biobb_model-2.0.0-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "109c27394171bc37d6e8ac17464cddb0",
+            "ndownloads": 22,
+            "owner": "bioconda",
+            "size": 9968,
+            "type": "conda",
+            "upload_time": "2019-11-28 14:55:21.578000+00:00",
+            "version": "2.0.0"
+        }
+    ],
+    "full_name": "bioconda/biobb_model",
+    "home": "https://github.com/bioexcel/biobb_model",
+    "html_url": "http://anaconda.org/bioconda/biobb_model",
+    "id": "5bce5479ed836d133a97f323",
+    "latest_version": "2.0.0",
+    "license": "Apache Software License",
+    "license_url": null,
+    "modified_at": "2019-11-28 14:55:22.084000+00:00",
+    "name": "biobb_model",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/biobb_model/0.0.6",
+            "version": "0.0.6"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/biobb_model/0.1.0",
+            "version": "0.1.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/biobb_model/0.1.1",
+            "version": "0.1.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/biobb_model/0.1.3",
+            "version": "0.1.3"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/biobb_model/0.1.5",
+            "version": "0.1.5"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/biobb_model/0.1.6",
+            "version": "0.1.6"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/biobb_model/0.1.7",
+            "version": "0.1.7"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/biobb_model/0.1.8",
+            "version": "0.1.8"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/biobb_model/1.1.9",
+            "version": "1.1.9"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/biobb_model/2.0.0",
+            "version": "2.0.0"
+        }
+    ],
+    "revision": 20,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Biobb_model is the Biobb module collection to check and model 3d structures, create mutations or reconstruct missing atoms.",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/biobb_model",
+    "versions": [
+        "0.0.6",
+        "0.1.0",
+        "0.1.1",
+        "0.1.3",
+        "0.1.5",
+        "0.1.6",
+        "0.1.7",
+        "0.1.8",
+        "1.1.9",
+        "2.0.0"
+    ],
+    "watchers": 1
+}

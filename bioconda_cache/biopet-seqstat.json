@@ -1,0 +1,570 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "1",
+        "0",
+        "py36_0",
+        "py35_0",
+        "py27_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64",
+        "noarch"
+    ],
+    "created_at": "2018-06-12 07:40:32.337000+00:00",
+    "description": "SeqStat is a package that contains tools\nto generate stats from a FastQ file,\nmerge those stats for multiple samples,\nand validate the generated stats files.\n\n     \n#### Mode - Generate\n\nGenerate outputs several stats on a FASTQ file.\n\nOutputted stats:\n\n- Bases\n   - Total number\n   - Base qualities, with the number of bases having that quality\n   - Number of each nucleotide\n- Reads\n   - Total number\n   - minimum length\n   - maximum length\n   - A histogram of the average base qualities\n   - The quality encoding (Sanger, solexa etc.)\n   - A histogram of the read lengths.\n    \n        \n\n#### Mode - Merge\n\nThis module will merge seqstat files together and keep the sample/library/readgroup structure.\nIf required it's also possible to collapse this, the output file then des not have any sample/library/readgroup structure.\n    \n        \n\n aggregation values can not be regenerated the file is considered corrupt.\nThis should only happen when the user will edit the seqstat file manually.\n\nFor documentation and manuals visit our github.io page: https://biopet.github.io/seqstat",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "openjdk >=8,<9",
+                    "python"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1529669673709
+            },
+            "basename": "noarch/biopet-seqstat-1.0-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "openjdk",
+                        "specs": [
+                            [
+                                ">=",
+                                "8,<9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biopet-seqstat/1.0/noarch/biopet-seqstat-1.0-0.tar.bz2",
+            "full_name": "bioconda/biopet-seqstat/1.0/noarch/biopet-seqstat-1.0-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "68325e0672882295a10c1213dd108783",
+            "ndownloads": 107,
+            "owner": "bioconda",
+            "size": 18242787,
+            "type": "conda",
+            "upload_time": "2018-06-22 12:16:51.825000+00:00",
+            "version": "1.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py35_0",
+                "build_number": 0,
+                "depends": [
+                    "openjdk >=8,<9",
+                    "python 3.5*"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/biopet-seqstat-0.1-py35_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "openjdk",
+                        "specs": [
+                            [
+                                ">=",
+                                "8,<9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.5"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biopet-seqstat/0.1/osx-64/biopet-seqstat-0.1-py35_0.tar.bz2",
+            "full_name": "bioconda/biopet-seqstat/0.1/osx-64/biopet-seqstat-0.1-py35_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "8a18143d26f1ceadf691e4a923ac73b5",
+            "ndownloads": 183,
+            "owner": "bioconda",
+            "size": 27673610,
+            "type": "conda",
+            "upload_time": "2018-06-12 07:42:05.454000+00:00",
+            "version": "0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py27_0",
+                "build_number": 0,
+                "depends": [
+                    "openjdk >=8,<9",
+                    "python 2.7*"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/biopet-seqstat-0.1-py27_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "openjdk",
+                        "specs": [
+                            [
+                                ">=",
+                                "8,<9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "2.7"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biopet-seqstat/0.1/osx-64/biopet-seqstat-0.1-py27_0.tar.bz2",
+            "full_name": "bioconda/biopet-seqstat/0.1/osx-64/biopet-seqstat-0.1-py27_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "d3f2f4f97ad0571f8c20c388b2d404e7",
+            "ndownloads": 103,
+            "owner": "bioconda",
+            "size": 27673652,
+            "type": "conda",
+            "upload_time": "2018-06-12 07:43:35.726000+00:00",
+            "version": "0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py35_0",
+                "build_number": 0,
+                "depends": [
+                    "openjdk >=8,<9",
+                    "python 3.5*"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/biopet-seqstat-0.1-py35_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "openjdk",
+                        "specs": [
+                            [
+                                ">=",
+                                "8,<9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.5"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biopet-seqstat/0.1/linux-64/biopet-seqstat-0.1-py35_0.tar.bz2",
+            "full_name": "bioconda/biopet-seqstat/0.1/linux-64/biopet-seqstat-0.1-py35_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "48da8c1448d51b3b0a5bf0e0067562ac",
+            "ndownloads": 114,
+            "owner": "bioconda",
+            "size": 27673514,
+            "type": "conda",
+            "upload_time": "2018-06-12 07:46:41.894000+00:00",
+            "version": "0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py27_0",
+                "build_number": 0,
+                "depends": [
+                    "openjdk >=8,<9",
+                    "python 2.7*"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/biopet-seqstat-0.1-py27_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "openjdk",
+                        "specs": [
+                            [
+                                ">=",
+                                "8,<9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "2.7"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biopet-seqstat/0.1/linux-64/biopet-seqstat-0.1-py27_0.tar.bz2",
+            "full_name": "bioconda/biopet-seqstat/0.1/linux-64/biopet-seqstat-0.1-py27_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "0e416973ef740824f170c6603326ea04",
+            "ndownloads": 269,
+            "owner": "bioconda",
+            "size": 27674364,
+            "type": "conda",
+            "upload_time": "2018-06-12 07:52:05.479000+00:00",
+            "version": "0.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "1",
+                "build_number": 1,
+                "depends": [
+                    "openjdk >=8,<9",
+                    "python"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1529669372972
+            },
+            "basename": "noarch/biopet-seqstat-0.1-1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "openjdk",
+                        "specs": [
+                            [
+                                ">=",
+                                "8,<9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biopet-seqstat/0.1/noarch/biopet-seqstat-0.1-1.tar.bz2",
+            "full_name": "bioconda/biopet-seqstat/0.1/noarch/biopet-seqstat-0.1-1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "b9c8d661bc59d41e158af64b124ceb12",
+            "ndownloads": 91,
+            "owner": "bioconda",
+            "size": 27677078,
+            "type": "conda",
+            "upload_time": "2018-06-22 12:12:42.093000+00:00",
+            "version": "0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py36_0",
+                "build_number": 0,
+                "depends": [
+                    "openjdk >=8,<9",
+                    "python 3.6*"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/biopet-seqstat-0.1-py36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "openjdk",
+                        "specs": [
+                            [
+                                ">=",
+                                "8,<9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biopet-seqstat/0.1/osx-64/biopet-seqstat-0.1-py36_0.tar.bz2",
+            "full_name": "bioconda/biopet-seqstat/0.1/osx-64/biopet-seqstat-0.1-py36_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "2bde4847b6d4c8eac3096274d730002c",
+            "ndownloads": 500,
+            "owner": "bioconda",
+            "size": 27673609,
+            "type": "conda",
+            "upload_time": "2018-06-12 07:40:33.091000+00:00",
+            "version": "0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py36_0",
+                "build_number": 0,
+                "depends": [
+                    "openjdk >=8,<9",
+                    "python 3.6*"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/biopet-seqstat-0.1-py36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "openjdk",
+                        "specs": [
+                            [
+                                ">=",
+                                "8,<9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biopet-seqstat/0.1/linux-64/biopet-seqstat-0.1-py36_0.tar.bz2",
+            "full_name": "bioconda/biopet-seqstat/0.1/linux-64/biopet-seqstat-0.1-py36_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "83b9aa22870229f4be55920297fa1dac",
+            "ndownloads": 134,
+            "owner": "bioconda",
+            "size": 27673491,
+            "type": "conda",
+            "upload_time": "2018-06-12 07:40:46.696000+00:00",
+            "version": "0.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "openjdk >=8,<9",
+                    "python"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1534945274892
+            },
+            "basename": "noarch/biopet-seqstat-1.0.1-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "openjdk",
+                        "specs": [
+                            [
+                                ">=",
+                                "8,<9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biopet-seqstat/1.0.1/noarch/biopet-seqstat-1.0.1-0.tar.bz2",
+            "full_name": "bioconda/biopet-seqstat/1.0.1/noarch/biopet-seqstat-1.0.1-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "e52afcb82d829c1b3c583300bcc2231c",
+            "ndownloads": 365,
+            "owner": "bioconda",
+            "size": 18543474,
+            "type": "conda",
+            "upload_time": "2018-08-22 13:44:22.171000+00:00",
+            "version": "1.0.1"
+        }
+    ],
+    "full_name": "bioconda/biopet-seqstat",
+    "home": "https://github.com/biopet/seqstat",
+    "html_url": "http://anaconda.org/bioconda/biopet-seqstat",
+    "id": "5b1f78f05d3358120da45783",
+    "latest_version": "1.0.1",
+    "license": "MIT",
+    "license_url": null,
+    "modified_at": "2018-08-22 13:44:23.517000+00:00",
+    "name": "biopet-seqstat",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/biopet-seqstat/0.1",
+            "version": "0.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/biopet-seqstat/1.0",
+            "version": "1.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/biopet-seqstat/1.0.1",
+            "version": "1.0.1"
+        }
+    ],
+    "revision": 6,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "SeqStat is a package that contains tools to generate stats from a FastQ file, merge those stats for multiple samples, and validate the generated stats files.",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/biopet-seqstat",
+    "versions": [
+        "0.1",
+        "1.0",
+        "1.0.1"
+    ],
+    "watchers": 1
+}
