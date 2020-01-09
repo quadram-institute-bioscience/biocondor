@@ -1,6 +1,6 @@
 # biocondor
 
-![biocondor logo](docs/biocondor.png)
+![biocondor logo](docs/biocondor-logo.png)
 
 
 Retrieve, cache and search for bioconda packages and their descriptions
