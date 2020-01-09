@@ -1,5 +1,8 @@
 # biocondor
 
+![biocondor logo](docs/biocondor.png)
+
+
 Retrieve, cache and search for bioconda packages and their descriptions
 
 ## scripts
