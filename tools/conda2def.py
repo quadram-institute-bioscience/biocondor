@@ -20,16 +20,13 @@ Bootstrap: docker
 
 From: continuumio/miniconda3
 
-%files
- {0}
-
 %environment
  PATH=/opt/conda/envs/{1}/bin:$PATH
 
 %post
  echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc
  echo "source activate {1}" > ~/.bashrc
- /opt/conda/bin/conda env create -n {1} {2} {3}
+ /opt/conda/bin/conda env create -n {1} {2} -y {3}
 
 %runscript
  exec "$@"
@@ -81,8 +78,8 @@ if __name__ == '__main__':
         env_name = data['name']
         channels_string = ''
         packages_string = ''
-        if opt.channel != None:
-            for c in opt.channel:
+        if data['channels'] != None:
+            for c in data['channels']:
                 channels_string += ' -c {} '.format(c)
 
         for p in data['dependencies']:
