@@ -29,13 +29,15 @@ From: continuumio/miniconda3
 %post
  echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc
  echo "source activate {1}" > ~/.bashrc
- /opt/conda/bin/conda env create -f env.yaml
+ /opt/conda/bin/conda env create -n {1} {2} {3}
 
 %runscript
  exec "$@"
 """.format(
     opt.env_file,
-    env_name
+    env_name,
+    channels_string,
+    packages_string,
 ))
     
 
@@ -77,6 +79,15 @@ if __name__ == '__main__':
                     eprint('\nFATAL ERROR:\nTrying to read {}:\n{}'.format(opt.env_file,exc))
 
         env_name = data['name']
+        channels_string = ''
+        packages_string = ''
+        if opt.channel != None:
+            for c in opt.channel:
+                channels_string += ' -c {} '.format(c)
+
+        for p in data['dependencies']:
+            packages_string += ' {} '.format(p)
+
         makeDefFromYaml()
     else:
         if opt.package == None:
