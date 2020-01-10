@@ -114,14 +114,14 @@ packages = {}
 package_data = {}
 keys = {}
 
-regex = re.compile(opt.regex)
+regex = re.compile(opt.regex, re.IGNORECASE)
 for package in bioconda:
     counters['total'] += 1
     for key in package:
         name = package['name']
         
         if isinstance(package[key], str) and regex.search(package[key]):
-            match = regex.search(package[key], re.IGNORECASE)
+            match = regex.search(package[key])
             increment(keys, key)
             increment(packages, name)
             
