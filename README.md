@@ -1,6 +1,6 @@
 # BioCondor (alpha)
 
-![biocondor logo](docs/biocondor-logo.png)
+[![biocondor logo](docs/biocondor-logo.png)](https://github.com/quadram-institute-bioscience/biocondor/wiki)
 
 
 Retrieve, cache and search for bioconda packages and their descriptions
