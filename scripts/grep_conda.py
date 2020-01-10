@@ -133,10 +133,13 @@ for package in bioconda:
                 package_data[name][key] = package[key]
 
             package_data[name]['summary'] = package['summary']
-            package_data[name]['match'] = match.string[match.span()[0]-opt.margin:match.span()[1]+opt.margin]
+            match_context = ''
+            if match != None:
+                match_context = match.string[match.span()[0]-opt.margin:match.span()[1]+opt.margin]
+                package_data[name]['match'] = match_context
             vprint ('#{}\t{}\t...{}...'.format(
                     name, key, 
-                    match.string[match.span()[0]-opt.margin:match.span()[1]+opt.margin]
+                    match_context
                     ))
         
 
@@ -149,12 +152,13 @@ for package in bioconda:
 
 for p in {k: v for k, v in sorted(packages.items(), key=lambda item: item[1],reverse=False) }:
     ColorPrint.print_pass('[{}]'.format(p), end='')
-    print(' {}'.format( package_data[p]['summary']))
-  
+    print(' {} ({})'.format( package_data[p]['summary'], packages[p]))
+    counters['output'] += 1
+    if not opt.verbose:
+        continue
     for key in package_data[p]['keys']:
         if key != 'summary':
             print('{}: {}'.format(key, package_data[p][key]))
 
 
-for p in keys:
-    vprint('~KEY\t{}\t{}'.format(p, keys[p]))
+eprint("{} packages found".format(counters['output']))
