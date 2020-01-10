@@ -5,11 +5,8 @@
 
 Retrieve, cache and search for bioconda packages and their descriptions
 
-## scripts
+## Documentation
 
-* **saveBiocondaCache.py**
+:warning: This repository is used to store a very preliminar version of BioCondor. 
 
-download JSON files from BioConda: the global list (bioconda.json) and the JSON metadata for each package. If the bioconda.json is recent, it won't be downloaded. If the package version is equal to the version in bioconda.json, it won't be downloaded.
-
-* **biocondor.py**
-search a package using a downloaded cache
+The documentation is in the :book: [repository wiki](https://github.com/quadram-institute-bioscience/biocondor/wiki).
