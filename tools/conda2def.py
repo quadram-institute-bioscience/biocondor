@@ -26,7 +26,7 @@ From: continuumio/miniconda3
 %post
  echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc
  echo "source activate {1}" > ~/.bashrc
- /opt/conda/bin/conda env create -n {1} {2} -y {3}
+ /opt/conda/bin/conda create -n {1} {2} -y {3}
 
 %runscript
  exec "$@"
