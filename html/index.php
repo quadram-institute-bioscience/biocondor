@@ -35,8 +35,10 @@
         </form>
       </div>
 </nav>
+
 <div class="container">
-    <h1>Litera</h1>
+    <br>
+    <h1>Package name<sup>version</sup></h1>
     <div>
         <a href="#" class="btn btn-default">Default</a>
         <a href="#" class="btn btn-primary">Primary</a>
@@ -47,6 +49,7 @@
     </div>
 
     <!-- demo table -->
+<br>
 <table class="table table-hover">
   <thead>
     <tr>
