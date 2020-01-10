@@ -9,9 +9,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="#">Navbar</a>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">BioCondor</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -24,9 +24,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Features</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
+ 
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
           </li>
@@ -36,8 +34,8 @@
           <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
-    </nav>
-
+</nav>
+<div class="container">
     <h1>Litera</h1>
     <div>
         <a href="#" class="btn btn-default">Default</a>
