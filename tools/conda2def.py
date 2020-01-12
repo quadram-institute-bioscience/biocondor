@@ -54,6 +54,14 @@ opt_parser.add_argument('-p', '--package',
                         help='Conda package(s) (when not using --env-file)',
                         action='append')
 
+opt_parser.add_argument('-b', '--ignore-build',
+                        help='Ignore package build number (use when YAML file was generated in OSX)',
+                        action='store_true')
+
+
+opt_parser.add_argument('-r', '--ignore-version',
+                        help='Ignore package version (not recommended, implies -b)',
+                        action='store_true')
 
 opt_parser.add_argument('-v', '--verbose',
                         help='Increase output verbosity',
@@ -61,6 +69,7 @@ opt_parser.add_argument('-v', '--verbose',
 
 
 opt = opt_parser.parse_args()
+
 
 if __name__ == '__main__':
     
@@ -83,12 +92,21 @@ if __name__ == '__main__':
                 channels_string += ' -c {} '.format(c)
 
         for p in data['dependencies']:
-            packages_string += ' {} '.format(p)
+            package_list = p.split('=')
+            if len(package_list) != 3:
+                eprint("ERROR: Package {} is not in the 'name'='version'='build' format".format(p))
+                exit(1)
+            if (opt.ignore_version):
+                packages_string += '{} '.format(package_list[0])
+            elif (opt.ignore_build):
+                packages_string += '{}={} '.format(package_list[0], package_list[1])
+            else:
+                packages_string += ' {} '.format(p)
 
         makeDefFromYaml()
     else:
         if opt.package == None:
-            eprint("FATAL ERROR:\nSpecify at least a package with -p PACKAGE (or env file)\nTry --help")
+            eprint("Missing parameters: Specify at least a package with -p PACKAGE (or env file)\nUse -h or --help to print usage.")
             exit()
         else:
             pass
