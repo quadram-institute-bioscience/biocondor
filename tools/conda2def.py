@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Create a singularity definition file from a list of conda packages
+or from an ENVIRONMENT.YAML file.
+"""
 
 import sys
 import argparse
@@ -46,11 +50,11 @@ opt_parser = argparse.ArgumentParser(description='Create a Singularity definitio
 opt_parser.add_argument('-e', '--env-file',
                         help='Conda environment file in YAML format')
 
-opt_parser.add_argument('-c', '--channel',
+opt_parser.add_argument('-c', '--channels',
                         help='Conda channel (when not using --env-file)',
                         action='append')
 
-opt_parser.add_argument('-p', '--package',
+opt_parser.add_argument('-p', '--packages',
                         help='Conda package(s) (when not using --env-file)',
                         action='append')
 
@@ -74,7 +78,7 @@ opt = opt_parser.parse_args()
 if __name__ == '__main__':
     
     if opt.env_file != None:
-        vprint('loading: {}'.format(opt.env_file))
+        vprint('- Environment mode: {}'.format(opt.env_file))
         try:
             with open(opt.env_file, 'r') as stream:
                 try:
@@ -104,9 +108,30 @@ if __name__ == '__main__':
                 packages_string += ' {} '.format(p)
 
         makeDefFromYaml()
+    elif opt.packages != None:
+        vprint('- Package mode:')
+
+        env_name = 'container'
+        channels_string = ''
+        packages_string = ''
+        if opt.channels != None:
+            for channel in opt.channels:
+                vprint(' - Channel: {}'.format(channel))
+                channels_string += ' -c {} '.format(channel)
+
+        for package in opt.packages:
+            package_list = package.split('=')
+            if (opt.ignore_version):
+                packages_string += '{} '.format(package_list[0])
+                vprint(' - Package (no version): {} (was: {})'.format(package_list[0], package))
+            elif (opt.ignore_build) and (len(package_list) > 1):
+                packages_string += '{}={} '.format(package_list[0], package_list[1])
+                vprint(' - Package (no build): {}={} (was: {})'.format(package_list[0], package_list[1], package))
+            else:
+                packages_string += ' {} '.format(package)
+                vprint(' - Package: {}'.format(package))
+
+        makeDefFromYaml()
     else:
-        if opt.package == None:
-            eprint("Missing parameters: Specify at least a package with -p PACKAGE (or env file)\nUse -h or --help to print usage.")
-            exit()
-        else:
-            pass
+        eprint("Missing parameters: Specify at least a package with -p PACKAGE (or env file)\nUse -h or --help to print usage.")
+        exit()
