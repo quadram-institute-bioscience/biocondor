@@ -3,17 +3,19 @@
     "app_summary": {},
     "app_type": {},
     "builds": [
+        "py_0",
         "py27_1",
         "py27_0"
     ],
     "conda_platforms": [
         "linux-64",
+        "noarch",
         "osx-64"
     ],
     "created_at": "2018-03-20 21:26:40.663000+00:00",
     "description": ".. image:: https://travis-ci.org/IDR/idr-py.svg?branch=master\n    :target: https://travis-ci.org/IDR/idr-py\n\n.. image:: https://badge.fury.io/py/idr-py.svg\n    :target: https://badge.fury.io/py/idr-py\n\nIDR-PY\n======\n\nLibrary with helper methods for accessing the Image Data Resource (IDR).\n\nRequirements\n============\n\n * OMERO.py 5.3.x\n * Python 2.6+\n\nInstalling from PyPI\n====================\n\nThis section assumes that an OMERO.web is already installed.\n\n\nInstall the app using `pip <https://pip.pypa.io/en/stable/>`_:\n\n::\n\n    $ pip install -U idr-py\n\n\nLicense\n-------\n\nThis project, similar to many Open Microscopy Environment (OME) projects, is licensed under the terms of the GNU General Public License (GPL) v2 or later.\n\nCopyright\n---------\n\n2017, The Open Microscopy Environment",
-    "dev_url": null,
-    "doc_url": null,
+    "dev_url": "https://github.com/IDR/idr-py",
+    "doc_url": "https://idr.openmicroscopy.org/about/api.html",
     "files": [
         {
             "attrs": {
@@ -95,7 +97,7 @@
                 "cf201901"
             ],
             "md5": "09096f91b228c1f0e3e4043fd33c60bc",
-            "ndownloads": 250,
+            "ndownloads": 252,
             "owner": "bioconda",
             "size": 27299,
             "type": "conda",
@@ -182,7 +184,7 @@
                 "cf201901"
             ],
             "md5": "acab3204b587e36442e5b82b0262ba01",
-            "ndownloads": 739,
+            "ndownloads": 828,
             "owner": "bioconda",
             "size": 27061,
             "type": "conda",
@@ -269,7 +271,7 @@
                 "cf201901"
             ],
             "md5": "c1edab9cb491d920a43213b27155e4a9",
-            "ndownloads": 338,
+            "ndownloads": 340,
             "owner": "bioconda",
             "size": 27298,
             "type": "conda",
@@ -356,7 +358,7 @@
                 "cf201901"
             ],
             "md5": "01b8abc31624f218e3e54fd4363c93dc",
-            "ndownloads": 730,
+            "ndownloads": 819,
             "owner": "bioconda",
             "size": 27132,
             "type": "conda",
@@ -530,7 +532,7 @@
                 "cf201901"
             ],
             "md5": "d4bd777fd3f97b2be842e1b5b380693b",
-            "ndownloads": 889,
+            "ndownloads": 911,
             "owner": "bioconda",
             "size": 27278,
             "type": "conda",
@@ -618,7 +620,7 @@
                 "cf201901"
             ],
             "md5": "775616a539845f95d6903dc0cccf1429",
-            "ndownloads": 578,
+            "ndownloads": 667,
             "owner": "bioconda",
             "size": 27610,
             "type": "conda",
@@ -706,22 +708,105 @@
                 "cf201901"
             ],
             "md5": "7ddad9e9e09321f3789676e1e259f8b1",
-            "ndownloads": 234,
+            "ndownloads": 236,
             "owner": "bioconda",
             "size": 27379,
             "type": "conda",
             "upload_time": "2018-07-12 04:07:11.216000+00:00",
             "version": "0.3.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "ipython",
+                    "ipywidgets",
+                    "matplotlib-base",
+                    "pandas",
+                    "python >=3",
+                    "python-omero",
+                    "requests",
+                    "seaborn"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2.0+",
+                "license_family": "GPL2",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1580767826839
+            },
+            "basename": "noarch/idr-py-0.4.0.dev3-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "ipython",
+                        "specs": []
+                    },
+                    {
+                        "name": "ipywidgets",
+                        "specs": []
+                    },
+                    {
+                        "name": "matplotlib-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "pandas",
+                        "specs": []
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python-omero",
+                        "specs": []
+                    },
+                    {
+                        "name": "requests",
+                        "specs": []
+                    },
+                    {
+                        "name": "seaborn",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/idr-py/0.4.0.dev3/noarch/idr-py-0.4.0.dev3-py_0.tar.bz2",
+            "full_name": "bioconda/idr-py/0.4.0.dev3/noarch/idr-py-0.4.0.dev3-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d70ac0645f35a1c56345d2ac819a5bbf",
+            "ndownloads": 7,
+            "owner": "bioconda",
+            "size": 18400,
+            "type": "conda",
+            "upload_time": "2020-02-03 22:33:17.583000+00:00",
+            "version": "0.4.0.dev3"
         }
     ],
     "full_name": "bioconda/idr-py",
     "home": "https://github.com/IDR/idr-py",
     "html_url": "http://anaconda.org/bioconda/idr-py",
     "id": "5ab17c900b42f311f5d2b991",
-    "latest_version": "0.3.0",
+    "latest_version": "0.4.0.dev3",
     "license": "GPL-2.0+",
     "license_url": null,
-    "modified_at": "2018-07-12 04:07:11.647000+00:00",
+    "modified_at": "2020-02-03 22:33:18.046000+00:00",
     "name": "idr-py",
     "owner": {
         "company": "",
@@ -752,9 +837,14 @@
             "distributions": [],
             "full_name": "bioconda/idr-py/0.3.0",
             "version": "0.3.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/idr-py/0.4.0.dev3",
+            "version": "0.4.0.dev3"
         }
     ],
-    "revision": 6,
+    "revision": 8,
     "source_git_tag": null,
     "source_git_url": null,
     "summary": "Helper methods for accessing the Image Data Resource (IDR)",
@@ -763,7 +853,8 @@
     "versions": [
         "0.2.0",
         "0.2.1",
-        "0.3.0"
+        "0.3.0",
+        "0.4.0.dev3"
     ],
     "watchers": 1
 }

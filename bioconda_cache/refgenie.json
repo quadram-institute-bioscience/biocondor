@@ -94,7 +94,7 @@
                 "main"
             ],
             "md5": "13634d040bc4e1c8cde3ae8415d8b616",
-            "ndownloads": 16,
+            "ndownloads": 22,
             "owner": "bioconda",
             "size": 24754,
             "type": "conda",
@@ -182,7 +182,7 @@
                 "main"
             ],
             "md5": "3d011472c9f2974d27293211149a50e3",
-            "ndownloads": 15,
+            "ndownloads": 19,
             "owner": "bioconda",
             "size": 27156,
             "type": "conda",
@@ -270,22 +270,110 @@
                 "main"
             ],
             "md5": "4e0bd711337c9cdc69e737338cea8208",
-            "ndownloads": 12,
+            "ndownloads": 17,
             "owner": "bioconda",
             "size": 27166,
             "type": "conda",
             "upload_time": "2019-12-13 23:09:18.046000+00:00",
             "version": "0.8.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "logmuse >=0.2",
+                    "piper >=0.12.1",
+                    "pyfaidx >=0.5.5.2",
+                    "python >=3",
+                    "refgenconf >=0.5.3"
+                ],
+                "has_prefix": false,
+                "license": "BSD-2-Clause",
+                "license_family": "BSD",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1578499745162
+            },
+            "basename": "noarch/refgenie-0.8.2-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "logmuse",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "piper",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pyfaidx",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.5.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "refgenconf",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.3"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/refgenie/0.8.2/noarch/refgenie-0.8.2-py_0.tar.bz2",
+            "full_name": "bioconda/refgenie/0.8.2/noarch/refgenie-0.8.2-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "fd63bec5b4a225a236184060880e1a9b",
+            "ndownloads": 28,
+            "owner": "bioconda",
+            "size": 27257,
+            "type": "conda",
+            "upload_time": "2020-01-08 21:34:30.476000+00:00",
+            "version": "0.8.2"
         }
     ],
     "full_name": "bioconda/refgenie",
     "home": "http://refgenie.databio.org",
     "html_url": "http://anaconda.org/bioconda/refgenie",
     "id": "5dc69fcb778a8709e74a910d",
-    "latest_version": "0.8.1",
+    "latest_version": "0.8.2",
     "license": "BSD-2-Clause",
     "license_url": null,
-    "modified_at": "2019-12-13 23:09:18.775000+00:00",
+    "modified_at": "2020-01-08 21:34:30.783000+00:00",
     "name": "refgenie",
     "owner": {
         "company": "",
@@ -316,9 +404,14 @@
             "distributions": [],
             "full_name": "bioconda/refgenie/0.8.1",
             "version": "0.8.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/refgenie/0.8.2",
+            "version": "0.8.2"
         }
     ],
-    "revision": 6,
+    "revision": 8,
     "source_git_tag": null,
     "source_git_url": null,
     "summary": "Refgenie creates a standardized folder structure for reference genome files and indexes. You can download pre-built genomes or build your own for any fasta file",
@@ -327,7 +420,8 @@
     "versions": [
         "0.7.2",
         "0.8.0",
-        "0.8.1"
+        "0.8.1",
+        "0.8.2"
     ],
     "watchers": 1
 }

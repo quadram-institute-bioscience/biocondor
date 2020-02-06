@@ -3,6 +3,7 @@
     "app_summary": {},
     "app_type": {},
     "builds": [
+        "py_0",
         "py_2",
         "py27_1",
         "py27_0"
@@ -58,7 +59,7 @@
                 "cf201901"
             ],
             "md5": "b46563471af6dfc9fe9031c223da6702",
-            "ndownloads": 511,
+            "ndownloads": 600,
             "owner": "bioconda",
             "size": 29909,
             "type": "conda",
@@ -106,7 +107,7 @@
                 "cf201901"
             ],
             "md5": "a5667b8aec980dca2c5dea455518ffde",
-            "ndownloads": 507,
+            "ndownloads": 596,
             "owner": "bioconda",
             "size": 30251,
             "type": "conda",
@@ -154,7 +155,7 @@
                 "cf201901"
             ],
             "md5": "d197e6fc3b3ff31d0e0bed7a8f369b0a",
-            "ndownloads": 281,
+            "ndownloads": 283,
             "owner": "bioconda",
             "size": 30012,
             "type": "conda",
@@ -201,7 +202,7 @@
                 "cf201901"
             ],
             "md5": "43f672e16e12f324bc26a31181c9679b",
-            "ndownloads": 480,
+            "ndownloads": 483,
             "owner": "bioconda",
             "size": 27483,
             "type": "conda",
@@ -295,7 +296,7 @@
                 "cf201901"
             ],
             "md5": "f58fb84b82f1dc5785dfb6906b7acdf8",
-            "ndownloads": 382,
+            "ndownloads": 384,
             "owner": "bioconda",
             "size": 27268,
             "type": "conda",
@@ -342,7 +343,7 @@
                 "cf201901"
             ],
             "md5": "d86148b580d8ee2c68d7e385a4d37bb2",
-            "ndownloads": 251,
+            "ndownloads": 252,
             "owner": "bioconda",
             "size": 27040,
             "type": "conda",
@@ -390,7 +391,7 @@
                 "cf201901"
             ],
             "md5": "95688f7d6f1bd38e5ea63cae9bd58785",
-            "ndownloads": 226,
+            "ndownloads": 228,
             "owner": "bioconda",
             "size": 29760,
             "type": "conda",
@@ -438,12 +439,65 @@
                 "main"
             ],
             "md5": "9c14904916a64eec571ce7a225b0aaf6",
-            "ndownloads": 20,
+            "ndownloads": 25,
             "owner": "bioconda",
             "size": 20584,
             "type": "conda",
             "upload_time": "2019-10-26 18:33:49.829000+00:00",
             "version": "1.6.5"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "python >=3",
+                    "six"
+                ],
+                "has_prefix": false,
+                "license": "BSD License",
+                "license_family": "BSD",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1578911836385
+            },
+            "basename": "noarch/pp-1.6.4.4-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "six",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/pp/1.6.4.4/noarch/pp-1.6.4.4-py_0.tar.bz2",
+            "full_name": "bioconda/pp/1.6.4.4/noarch/pp-1.6.4.4-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4fba0ae30586e6bc83babb02766c3fe6",
+            "ndownloads": 38,
+            "owner": "bioconda",
+            "size": 22610,
+            "type": "conda",
+            "upload_time": "2020-01-13 10:59:18.274000+00:00",
+            "version": "1.6.4.4"
         }
     ],
     "full_name": "bioconda/pp",
@@ -453,7 +507,7 @@
     "latest_version": "1.6.5",
     "license": {},
     "license_url": {},
-    "modified_at": "2019-10-26 18:33:50.088000+00:00",
+    "modified_at": "2020-01-13 10:59:18.595000+00:00",
     "name": "pp",
     "owner": {
         "company": "",
@@ -479,9 +533,14 @@
             "distributions": [],
             "full_name": "bioconda/pp/1.6.4",
             "version": "1.6.4"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/pp/1.6.4.4",
+            "version": "1.6.4.4"
         }
     ],
-    "revision": 2,
+    "revision": 3,
     "source_git_tag": {},
     "source_git_url": {},
     "summary": "",
@@ -489,7 +548,8 @@
     "url": "http://api.anaconda.org/packages/bioconda/pp",
     "versions": [
         "1.6.5",
-        "1.6.4"
+        "1.6.4",
+        "1.6.4.4"
     ],
     "watchers": 1
 }

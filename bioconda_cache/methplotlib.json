@@ -89,7 +89,7 @@
                 "main"
             ],
             "md5": "1b336e47852b4cfeab755e80733abd24",
-            "ndownloads": 15,
+            "ndownloads": 20,
             "owner": "bioconda",
             "size": 15329,
             "type": "conda",
@@ -172,7 +172,7 @@
                 "main"
             ],
             "md5": "228db809b0f3822a2b00dd51cbdbb91f",
-            "ndownloads": 21,
+            "ndownloads": 26,
             "owner": "bioconda",
             "size": 15986,
             "type": "conda",
@@ -255,7 +255,7 @@
                 "main"
             ],
             "md5": "9f9dd72d890fbf1797f833dc4faed6f4",
-            "ndownloads": 19,
+            "ndownloads": 24,
             "owner": "bioconda",
             "size": 20992,
             "type": "conda",
@@ -358,7 +358,7 @@
                 "main"
             ],
             "md5": "bb10993b2037e63078b726d8335741d7",
-            "ndownloads": 18,
+            "ndownloads": 23,
             "owner": "bioconda",
             "size": 21329,
             "type": "conda",
@@ -476,22 +476,140 @@
                 "main"
             ],
             "md5": "e7662337f2bdd176c9320a9ce844495d",
-            "ndownloads": 6,
+            "ndownloads": 12,
             "owner": "bioconda",
             "size": 24404,
             "type": "conda",
             "upload_time": "2020-01-03 14:24:50.795000+00:00",
             "version": "0.12.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "biopython",
+                    "fisher >=0.1.9",
+                    "numpy >=1.14.3",
+                    "pandas >=0.23.4",
+                    "plotly >=4.1.1",
+                    "pyfaidx",
+                    "pyranges >=0.0.63",
+                    "pysam",
+                    "python >=3",
+                    "scikit-learn"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "license_family": "MIT",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1579274996872
+            },
+            "basename": "noarch/methplotlib-0.13.0-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biopython",
+                        "specs": []
+                    },
+                    {
+                        "name": "fisher",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.1.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "numpy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pandas",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.23.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "plotly",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pyfaidx",
+                        "specs": []
+                    },
+                    {
+                        "name": "pyranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.0.63"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": []
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "scikit-learn",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/methplotlib/0.13.0/noarch/methplotlib-0.13.0-py_0.tar.bz2",
+            "full_name": "bioconda/methplotlib/0.13.0/noarch/methplotlib-0.13.0-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bae6fb9f5ab27c6ff80113c5346df547",
+            "ndownloads": 11,
+            "owner": "bioconda",
+            "size": 24691,
+            "type": "conda",
+            "upload_time": "2020-01-17 15:34:47.657000+00:00",
+            "version": "0.13.0"
         }
     ],
     "full_name": "bioconda/methplotlib",
     "home": "https://github.com/wdecoster/methplotlib",
     "html_url": "http://anaconda.org/bioconda/methplotlib",
     "id": "5d9b0a8d778a870c842ffa65",
-    "latest_version": "0.12.0",
+    "latest_version": "0.13.0",
     "license": "MIT",
     "license_url": null,
-    "modified_at": "2020-01-03 14:24:51.098000+00:00",
+    "modified_at": "2020-01-17 15:34:48.364000+00:00",
     "name": "methplotlib",
     "owner": {
         "company": "",
@@ -532,9 +650,14 @@
             "distributions": [],
             "full_name": "bioconda/methplotlib/0.12.0",
             "version": "0.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/methplotlib/0.13.0",
+            "version": "0.13.0"
         }
     ],
-    "revision": 10,
+    "revision": 12,
     "source_git_tag": null,
     "source_git_url": null,
     "summary": "Plot methylation data obtained from nanopolish",
@@ -545,7 +668,8 @@
         "0.6.0",
         "0.7.0",
         "0.8.0",
-        "0.12.0"
+        "0.12.0",
+        "0.13.0"
     ],
     "watchers": 1
 }

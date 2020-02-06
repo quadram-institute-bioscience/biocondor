@@ -3,6 +3,7 @@
     "app_summary": {},
     "app_type": {},
     "builds": [
+        "py_0",
         "py27h24bf2e0_2",
         "py_3",
         "py27_0"
@@ -80,7 +81,7 @@
                 "cf201901"
             ],
             "md5": "223536814dff5fb5628e8da9bdc5be28",
-            "ndownloads": 1267,
+            "ndownloads": 1270,
             "owner": "bioconda",
             "size": 13221,
             "type": "conda",
@@ -150,7 +151,7 @@
                 "cf201901"
             ],
             "md5": "57433f6f0ac99be8290a12ad66fe8b18",
-            "ndownloads": 812,
+            "ndownloads": 901,
             "owner": "bioconda",
             "size": 13132,
             "type": "conda",
@@ -222,7 +223,7 @@
                 "cf201901"
             ],
             "md5": "b72d7d56b99e742f229babf84759a5ff",
-            "ndownloads": 213,
+            "ndownloads": 216,
             "owner": "bioconda",
             "size": 14157,
             "type": "conda",
@@ -367,7 +368,7 @@
                 "cf201901"
             ],
             "md5": "32f513bc01a5387eed684bac43e74cf4",
-            "ndownloads": 716,
+            "ndownloads": 806,
             "owner": "bioconda",
             "size": 14080,
             "type": "conda",
@@ -440,7 +441,7 @@
                 "cf201901"
             ],
             "md5": "5ff2fb88d94a2e120ed4b6dcd752e3c0",
-            "ndownloads": 425,
+            "ndownloads": 429,
             "owner": "bioconda",
             "size": 14088,
             "type": "conda",
@@ -513,22 +514,95 @@
                 "main"
             ],
             "md5": "f2a854b454820a654f5296e3c64107a6",
-            "ndownloads": 30,
+            "ndownloads": 39,
             "owner": "bioconda",
             "size": 11305,
             "type": "conda",
             "upload_time": "2019-10-26 17:43:15.472000+00:00",
             "version": "1.2.4"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "click",
+                    "matplotlib",
+                    "numpy",
+                    "pandas",
+                    "python <3",
+                    "seaborn"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "license_family": "MIT",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1578787867733
+            },
+            "basename": "noarch/bcl2fastq-nextseq-1.2.6-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "click",
+                        "specs": []
+                    },
+                    {
+                        "name": "matplotlib",
+                        "specs": []
+                    },
+                    {
+                        "name": "numpy",
+                        "specs": []
+                    },
+                    {
+                        "name": "pandas",
+                        "specs": []
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "<",
+                                "3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "seaborn",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bcl2fastq-nextseq/1.2.6/noarch/bcl2fastq-nextseq-1.2.6-py_0.tar.bz2",
+            "full_name": "bioconda/bcl2fastq-nextseq/1.2.6/noarch/bcl2fastq-nextseq-1.2.6-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "84354ff9d732e21bf6e581e1e80e2d7b",
+            "ndownloads": 19,
+            "owner": "bioconda",
+            "size": 12512,
+            "type": "conda",
+            "upload_time": "2020-01-12 07:57:38.814000+00:00",
+            "version": "1.2.6"
         }
     ],
     "full_name": "bioconda/bcl2fastq-nextseq",
     "home": "None",
     "html_url": "http://anaconda.org/bioconda/bcl2fastq-nextseq",
     "id": "57a51738fe3f5a1c94cc761e",
-    "latest_version": "1.2.4",
+    "latest_version": "1.2.6",
     "license": "MIT",
     "license_url": null,
-    "modified_at": "2019-10-26 17:43:15.758000+00:00",
+    "modified_at": "2020-01-12 07:57:39.126000+00:00",
     "name": "bcl2fastq-nextseq",
     "owner": {
         "company": "",
@@ -554,9 +628,14 @@
             "distributions": [],
             "full_name": "bioconda/bcl2fastq-nextseq/1.2.4",
             "version": "1.2.4"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bcl2fastq-nextseq/1.2.6",
+            "version": "1.2.6"
         }
     ],
-    "revision": 3,
+    "revision": 5,
     "source_git_tag": null,
     "source_git_url": null,
     "summary": "NextSeq .bcl Conversion",
@@ -564,7 +643,8 @@
     "url": "http://api.anaconda.org/packages/bioconda/bcl2fastq-nextseq",
     "versions": [
         "0.1.0",
-        "1.2.4"
+        "1.2.4",
+        "1.2.6"
     ],
     "watchers": 1
 }
