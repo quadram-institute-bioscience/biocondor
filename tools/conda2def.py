@@ -88,7 +88,9 @@ if __name__ == '__main__':
         except Exception as exc:
                     eprint('\nFATAL ERROR:\nTrying to read {}:\n{}'.format(opt.env_file,exc))
 
-        env_name = data['name']
+        env_name = 'default'
+        if 'name' in data:
+            env_name = data['name']
         channels_string = ''
         packages_string = ''
         if data['channels'] != None:
@@ -97,7 +99,7 @@ if __name__ == '__main__':
 
         for p in data['dependencies']:
             package_list = p.split('=')
-            if len(package_list) != 3:
+            if len(package_list) < 2:
                 eprint("ERROR: Package {} is not in the 'name'='version'='build' format".format(p))
                 exit(1)
             if (opt.ignore_version):
