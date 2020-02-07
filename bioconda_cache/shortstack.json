@@ -4,6 +4,7 @@
     "app_type": {},
     "builds": [
         "1",
+        "0",
         "2",
         "pl5._0"
     ],
@@ -82,7 +83,7 @@
                 "cf201901"
             ],
             "md5": "c9bf1937f13da2b2a3ed7b5129f13696",
-            "ndownloads": 782,
+            "ndownloads": 871,
             "owner": "bioconda",
             "size": 60080,
             "type": "conda",
@@ -154,7 +155,7 @@
                 "cf201901"
             ],
             "md5": "d5dc6310298d33e2b59d49ec4cce5c81",
-            "ndownloads": 1160,
+            "ndownloads": 1162,
             "owner": "bioconda",
             "size": 60446,
             "type": "conda",
@@ -226,7 +227,7 @@
                 "cf201901"
             ],
             "md5": "939c59da2378e3d5e278dd78c93b8c50",
-            "ndownloads": 777,
+            "ndownloads": 866,
             "owner": "bioconda",
             "size": 60973,
             "type": "conda",
@@ -298,7 +299,7 @@
                 "cf201901"
             ],
             "md5": "d5718042374038b76ddec6e91a2c4864",
-            "ndownloads": 304,
+            "ndownloads": 306,
             "owner": "bioconda",
             "size": 61187,
             "type": "conda",
@@ -444,7 +445,7 @@
                 "cf201901"
             ],
             "md5": "61a39bc29102abaeaa953d2b1df4f479",
-            "ndownloads": 702,
+            "ndownloads": 705,
             "owner": "bioconda",
             "size": 61262,
             "type": "conda",
@@ -512,12 +513,85 @@
                 "main"
             ],
             "md5": "a219d596863912b91888d385ec21fa42",
-            "ndownloads": 39,
+            "ndownloads": 58,
             "owner": "bioconda",
             "size": 62605,
             "type": "conda",
             "upload_time": "2019-10-26 19:08:10.101000+00:00",
             "version": "3.8.5"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "bowtie",
+                    "perl 5.*",
+                    "samtools 1.*",
+                    "viennarna 2.*"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3.0",
+                "license_family": "GPL",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1578469234707
+            },
+            "basename": "noarch/shortstack-3.6-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bowtie",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                "==",
+                                "5."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "viennarna",
+                        "specs": [
+                            [
+                                "==",
+                                "2."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/shortstack/3.6/noarch/shortstack-3.6-0.tar.bz2",
+            "full_name": "bioconda/shortstack/3.6/noarch/shortstack-3.6-0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9f956fcab47c7801ba928b219a1e0308",
+            "ndownloads": 13,
+            "owner": "bioconda",
+            "size": 61699,
+            "type": "conda",
+            "upload_time": "2020-01-08 07:54:24.448000+00:00",
+            "version": "3.6"
         }
     ],
     "full_name": "bioconda/shortstack",
@@ -527,7 +601,7 @@
     "latest_version": "3.8.5",
     "license": "GPL-3.0",
     "license_url": null,
-    "modified_at": "2019-10-26 19:08:10.498000+00:00",
+    "modified_at": "2020-01-08 07:54:24.737000+00:00",
     "name": "shortstack",
     "owner": {
         "company": "",
@@ -553,9 +627,14 @@
             "distributions": [],
             "full_name": "bioconda/shortstack/3.8.5",
             "version": "3.8.5"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/shortstack/3.6",
+            "version": "3.6"
         }
     ],
-    "revision": 4,
+    "revision": 5,
     "source_git_tag": null,
     "source_git_url": null,
     "summary": "ShortStack: Comprehensive annotation and quantification of small RNA genes",
@@ -563,7 +642,8 @@
     "url": "http://api.anaconda.org/packages/bioconda/shortstack",
     "versions": [
         "3.8.3",
-        "3.8.5"
+        "3.8.5",
+        "3.6"
     ],
     "watchers": 1
 }

@@ -65,7 +65,7 @@
                 "main"
             ],
             "md5": "1ef91a36f6f4f5cce9a9a5133e528519",
-            "ndownloads": 537,
+            "ndownloads": 626,
             "owner": "bioconda",
             "size": 28244,
             "type": "conda",
@@ -121,7 +121,7 @@
                 "main"
             ],
             "md5": "0ca1526423d9a4c680bb21bf2ba17041",
-            "ndownloads": 73,
+            "ndownloads": 75,
             "owner": "bioconda",
             "size": 28234,
             "type": "conda",
@@ -177,7 +177,7 @@
                 "main"
             ],
             "md5": "ca9d059e5a35409434706c6f64f210dd",
-            "ndownloads": 489,
+            "ndownloads": 578,
             "owner": "bioconda",
             "size": 28230,
             "type": "conda",
@@ -233,7 +233,7 @@
                 "main"
             ],
             "md5": "7c666f5192f08c7a7334bb102e3f50e1",
-            "ndownloads": 61,
+            "ndownloads": 63,
             "owner": "bioconda",
             "size": 28292,
             "type": "conda",
@@ -290,22 +290,79 @@
                 "main"
             ],
             "md5": "f0f7d605ec3ca8332cc55ccf0a0363d5",
-            "ndownloads": 18,
+            "ndownloads": 23,
             "owner": "bioconda",
             "size": 28720,
             "type": "conda",
             "upload_time": "2019-10-26 22:56:15.133000+00:00",
             "version": "1.0.3"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "pl526_0",
+                "build_number": 0,
+                "depends": [
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-uri",
+                    "tbl2asn"
+                ],
+                "has_prefix": false,
+                "license": "BSD-3-Clause",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1579796101199
+            },
+            "basename": "noarch/wgs2ncbi-1.1.2-pl526_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-uri",
+                        "specs": []
+                    },
+                    {
+                        "name": "tbl2asn",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/wgs2ncbi/1.1.2/noarch/wgs2ncbi-1.1.2-pl526_0.tar.bz2",
+            "full_name": "bioconda/wgs2ncbi/1.1.2/noarch/wgs2ncbi-1.1.2-pl526_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c32007ee4949a62b3850df90cb70c2e3",
+            "ndownloads": 10,
+            "owner": "bioconda",
+            "size": 29057,
+            "type": "conda",
+            "upload_time": "2020-01-24 07:47:10.962000+00:00",
+            "version": "1.1.2"
         }
     ],
     "full_name": "bioconda/wgs2ncbi",
     "home": "https://github.com/naturalis/wgs2ncbi",
     "html_url": "http://anaconda.org/bioconda/wgs2ncbi",
     "id": "5cb8d38e2cff03133bdf7808",
-    "latest_version": "1.0.3",
+    "latest_version": "1.1.2",
     "license": "BSD-3-Clause",
     "license_url": null,
-    "modified_at": "2019-10-26 22:56:15.460000+00:00",
+    "modified_at": "2020-01-24 07:47:11.246000+00:00",
     "name": "wgs2ncbi",
     "owner": {
         "company": "",
@@ -331,9 +388,14 @@
             "distributions": [],
             "full_name": "bioconda/wgs2ncbi/1.0.3",
             "version": "1.0.3"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/wgs2ncbi/1.1.2",
+            "version": "1.1.2"
         }
     ],
-    "revision": 4,
+    "revision": 6,
     "source_git_tag": null,
     "source_git_url": null,
     "summary": "Toolkit for preparing genomes for submission to NCBI",
@@ -341,7 +403,8 @@
     "url": "http://api.anaconda.org/packages/bioconda/wgs2ncbi",
     "versions": [
         "1.0.1",
-        "1.0.3"
+        "1.0.3",
+        "1.1.2"
     ],
     "watchers": 1
 }

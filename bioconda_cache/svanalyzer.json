@@ -78,7 +78,7 @@
                 "main"
             ],
             "md5": "50159e011a0a07d1f2c0f5264b38b227",
-            "ndownloads": 27,
+            "ndownloads": 33,
             "owner": "bioconda",
             "size": 67101,
             "type": "conda",
@@ -150,7 +150,7 @@
                 "main"
             ],
             "md5": "fee84390041cdb64f90a5bdf2490fa90",
-            "ndownloads": 28,
+            "ndownloads": 33,
             "owner": "bioconda",
             "size": 67088,
             "type": "conda",
@@ -222,7 +222,7 @@
                 "main"
             ],
             "md5": "361dbb7e923fcf8a770e5d4450bc4e56",
-            "ndownloads": 31,
+            "ndownloads": 36,
             "owner": "bioconda",
             "size": 67220,
             "type": "conda",
@@ -294,7 +294,7 @@
                 "main"
             ],
             "md5": "5e0d6500dce250b448ff285410150398",
-            "ndownloads": 14,
+            "ndownloads": 19,
             "owner": "bioconda",
             "size": 68264,
             "type": "conda",
@@ -366,22 +366,94 @@
                 "main"
             ],
             "md5": "6217b4f81a911a5e92c562074b7b8d78",
-            "ndownloads": 7,
+            "ndownloads": 13,
             "owner": "bioconda",
             "size": 68634,
             "type": "conda",
             "upload_time": "2019-12-26 20:39:18.035000+00:00",
             "version": "0.34"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "pl526_0",
+                "build_number": 0,
+                "depends": [
+                    "bedtools",
+                    "edlib",
+                    "mummer",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-log-log4perl",
+                    "samtools"
+                ],
+                "has_prefix": false,
+                "license": "CC0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1580466338905
+            },
+            "basename": "noarch/svanalyzer-0.35-pl526_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bedtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "edlib",
+                        "specs": []
+                    },
+                    {
+                        "name": "mummer",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-log-log4perl",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/svanalyzer/0.35/noarch/svanalyzer-0.35-pl526_0.tar.bz2",
+            "full_name": "bioconda/svanalyzer/0.35/noarch/svanalyzer-0.35-pl526_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0e0679b4f220751d4ba156d6b279891d",
+            "ndownloads": 11,
+            "owner": "bioconda",
+            "size": 68917,
+            "type": "conda",
+            "upload_time": "2020-01-31 10:59:50.443000+00:00",
+            "version": "0.35"
         }
     ],
     "full_name": "bioconda/svanalyzer",
     "home": "http://svanalyzer.readthedocs.io/",
     "html_url": "http://anaconda.org/bioconda/svanalyzer",
     "id": "5d76c49e778a870c84c136ef",
-    "latest_version": "0.34",
+    "latest_version": "0.35",
     "license": "CC0",
     "license_url": null,
-    "modified_at": "2019-12-26 20:39:18.362000+00:00",
+    "modified_at": "2020-01-31 10:59:50.814000+00:00",
     "name": "svanalyzer",
     "owner": {
         "company": "",
@@ -422,9 +494,14 @@
             "distributions": [],
             "full_name": "bioconda/svanalyzer/0.34",
             "version": "0.34"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/svanalyzer/0.35",
+            "version": "0.35"
         }
     ],
-    "revision": 10,
+    "revision": 12,
     "source_git_tag": null,
     "source_git_url": null,
     "summary": "SVanalyzer: tools for the analysis of structural variation in genomes",
@@ -435,7 +512,8 @@
         "0.31",
         "0.32",
         "0.33",
-        "0.34"
+        "0.34",
+        "0.35"
     ],
     "watchers": 1
 }

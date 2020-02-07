@@ -74,7 +74,7 @@
                 "main"
             ],
             "md5": "09cfbedaa17c8b81bc52febe3a3a17cb",
-            "ndownloads": 28,
+            "ndownloads": 34,
             "owner": "bioconda",
             "size": 32413,
             "type": "conda",
@@ -141,7 +141,7 @@
                 "main"
             ],
             "md5": "ec0dfb106fceaf75de78ec4c1d7da44c",
-            "ndownloads": 22,
+            "ndownloads": 27,
             "owner": "bioconda",
             "size": 27901,
             "type": "conda",
@@ -208,22 +208,89 @@
                 "main"
             ],
             "md5": "ace9e2408d5bb384a348dd22fab3ddaa",
-            "ndownloads": 8,
+            "ndownloads": 14,
             "owner": "bioconda",
             "size": 34078,
             "type": "conda",
             "upload_time": "2019-12-28 22:31:42.817000+00:00",
             "version": "0.4.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "blast >=2.2",
+                    "cairosvg",
+                    "python >=3.6",
+                    "sibelia"
+                ],
+                "has_prefix": false,
+                "license": "GPLv3",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1580284616968
+            },
+            "basename": "noarch/chromatiblock-0.4.2-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "blast",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "cairosvg",
+                        "specs": []
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "sibelia",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/chromatiblock/0.4.2/noarch/chromatiblock-0.4.2-py_0.tar.bz2",
+            "full_name": "bioconda/chromatiblock/0.4.2/noarch/chromatiblock-0.4.2-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b1e624f5aaef72abc9bdd5a3e94078ae",
+            "ndownloads": 7,
+            "owner": "bioconda",
+            "size": 34145,
+            "type": "conda",
+            "upload_time": "2020-01-29 08:09:59.075000+00:00",
+            "version": "0.4.2"
         }
     ],
     "full_name": "bioconda/chromatiblock",
     "home": "http://github.com/mjsull/chromatiblock/",
     "html_url": "http://anaconda.org/bioconda/chromatiblock",
     "id": "5d9ef9effe6b2a0c3fc44119",
-    "latest_version": "0.4.1",
+    "latest_version": "0.4.2",
     "license": "GPLv3",
     "license_url": null,
-    "modified_at": "2019-12-28 22:31:43.216000+00:00",
+    "modified_at": "2020-01-29 08:09:59.466000+00:00",
     "name": "chromatiblock",
     "owner": {
         "company": "",
@@ -254,9 +321,14 @@
             "distributions": [],
             "full_name": "bioconda/chromatiblock/0.4.1",
             "version": "0.4.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/chromatiblock/0.4.2",
+            "version": "0.4.2"
         }
     ],
-    "revision": 6,
+    "revision": 8,
     "source_git_tag": null,
     "source_git_url": null,
     "summary": "Scalable, whole-genome visualisation of structural changes in prokaryotes.",
@@ -265,7 +337,8 @@
     "versions": [
         "0.3.0",
         "0.3.1",
-        "0.4.1"
+        "0.4.1",
+        "0.4.2"
     ],
     "watchers": 1
 }

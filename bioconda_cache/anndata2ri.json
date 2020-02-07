@@ -78,7 +78,7 @@
                 "main"
             ],
             "md5": "a6a9844e57a0b0bb2a1541f23ecd1406",
-            "ndownloads": 35,
+            "ndownloads": 38,
             "owner": "bioconda",
             "size": 28015,
             "type": "conda",
@@ -150,22 +150,94 @@
                 "main"
             ],
             "md5": "7d877c8925459dff28871d2673a69923",
-            "ndownloads": 32,
+            "ndownloads": 48,
             "owner": "bioconda",
             "size": 28142,
             "type": "conda",
             "upload_time": "2019-11-21 17:44:46.129000+00:00",
             "version": "1.0.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "anndata",
+                    "get_version",
+                    "python >=3.6",
+                    "rpy2 >=3.0.1",
+                    "tzlocal"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1580467456914
+            },
+            "basename": "noarch/anndata2ri-1.0.2-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "anndata",
+                        "specs": []
+                    },
+                    {
+                        "name": "get_version",
+                        "specs": []
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "rpy2",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "tzlocal",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/anndata2ri/1.0.2/noarch/anndata2ri-1.0.2-py_0.tar.bz2",
+            "full_name": "bioconda/anndata2ri/1.0.2/noarch/anndata2ri-1.0.2-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6c501080b54724d61e79b2332d8a57b2",
+            "ndownloads": 9,
+            "owner": "bioconda",
+            "size": 28450,
+            "type": "conda",
+            "upload_time": "2020-01-31 11:03:38.402000+00:00",
+            "version": "1.0.2"
         }
     ],
     "full_name": "bioconda/anndata2ri",
     "home": "https://github.com/theislab/anndata2ri",
     "html_url": "http://anaconda.org/bioconda/anndata2ri",
     "id": "5d88856e83b6630c3464b04d",
-    "latest_version": "1.0.1",
+    "latest_version": "1.0.2",
     "license": "GPL-3",
     "license_url": null,
-    "modified_at": "2019-11-21 17:44:46.478000+00:00",
+    "modified_at": "2020-01-31 11:03:38.668000+00:00",
     "name": "anndata2ri",
     "owner": {
         "company": "",
@@ -191,9 +263,14 @@
             "distributions": [],
             "full_name": "bioconda/anndata2ri/1.0.1",
             "version": "1.0.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/anndata2ri/1.0.2",
+            "version": "1.0.2"
         }
     ],
-    "revision": 4,
+    "revision": 6,
     "source_git_tag": null,
     "source_git_url": null,
     "summary": "Convert between AnnData and SingleCellExperiment",
@@ -201,7 +278,8 @@
     "url": "http://api.anaconda.org/packages/bioconda/anndata2ri",
     "versions": [
         "1.0",
-        "1.0.1"
+        "1.0.1",
+        "1.0.2"
     ],
     "watchers": 1
 }

@@ -78,7 +78,7 @@
                 "main"
             ],
             "md5": "0eeaf2b5292bd0b4d634e74bd0a7b469",
-            "ndownloads": 120,
+            "ndownloads": 124,
             "owner": "bioconda",
             "size": 49811,
             "type": "conda",
@@ -150,7 +150,7 @@
                 "main"
             ],
             "md5": "f32b90eacdeb12112c119eab369098f5",
-            "ndownloads": 40,
+            "ndownloads": 43,
             "owner": "bioconda",
             "size": 48627,
             "type": "conda",
@@ -222,7 +222,7 @@
                 "main"
             ],
             "md5": "c1d7f2d7f0583cceda609fa1b817cb74",
-            "ndownloads": 30,
+            "ndownloads": 34,
             "owner": "bioconda",
             "size": 48738,
             "type": "conda",
@@ -294,7 +294,7 @@
                 "main"
             ],
             "md5": "15b32adaa1e7b2a68588a51ae085698d",
-            "ndownloads": 16,
+            "ndownloads": 19,
             "owner": "bioconda",
             "size": 49101,
             "type": "conda",
@@ -366,22 +366,94 @@
                 "main"
             ],
             "md5": "cc3fd1c0144f27e816ad996909b2fa70",
-            "ndownloads": 10,
+            "ndownloads": 14,
             "owner": "bioconda",
             "size": 49097,
             "type": "conda",
             "upload_time": "2019-12-18 19:39:33.883000+00:00",
             "version": "1.0.5"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "numpy",
+                    "pandas",
+                    "python",
+                    "scikit-image",
+                    "scipy",
+                    "tifffile >=0.13.5"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1580893915446
+            },
+            "basename": "noarch/imctools-1.0.6-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "numpy",
+                        "specs": []
+                    },
+                    {
+                        "name": "pandas",
+                        "specs": []
+                    },
+                    {
+                        "name": "python",
+                        "specs": []
+                    },
+                    {
+                        "name": "scikit-image",
+                        "specs": []
+                    },
+                    {
+                        "name": "scipy",
+                        "specs": []
+                    },
+                    {
+                        "name": "tifffile",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.13.5"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/imctools/1.0.6/noarch/imctools-1.0.6-py_0.tar.bz2",
+            "full_name": "bioconda/imctools/1.0.6/noarch/imctools-1.0.6-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0b3ae27c132d68baf39d969b57638ef5",
+            "ndownloads": 5,
+            "owner": "bioconda",
+            "size": 49231,
+            "type": "conda",
+            "upload_time": "2020-02-05 22:32:21.729000+00:00",
+            "version": "1.0.6"
         }
     ],
     "full_name": "bioconda/imctools",
     "home": "https://github.com/BodenmillerGroup/imctools",
     "html_url": "http://anaconda.org/bioconda/imctools",
     "id": "5c5225c337f33915bfa33e64",
-    "latest_version": "1.0.5",
+    "latest_version": "1.0.6",
     "license": "MIT",
     "license_url": null,
-    "modified_at": "2019-12-18 19:39:34.250000+00:00",
+    "modified_at": "2020-02-05 22:32:21.988000+00:00",
     "name": "imctools",
     "owner": {
         "company": "",
@@ -422,9 +494,14 @@
             "distributions": [],
             "full_name": "bioconda/imctools/1.0.5",
             "version": "1.0.5"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/imctools/1.0.6",
+            "version": "1.0.6"
         }
     ],
-    "revision": 10,
+    "revision": 12,
     "source_git_tag": null,
     "source_git_url": null,
     "summary": "An Image Mass Cytometry (IMC) file conversion tool that aims to convert IMC rawfiles (.mcd, .txt) into an intermediary ome.tiff, containing all the relevant metadata. Further it contains tools to generate simpler tiff files that can be directly be used as input files for e.g. CellProfiller, Ilastik, Fiji etc",
@@ -435,7 +512,8 @@
         "1.0.1",
         "1.0.3",
         "1.0.4",
-        "1.0.5"
+        "1.0.5",
+        "1.0.6"
     ],
     "watchers": 1
 }

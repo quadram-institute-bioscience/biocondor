@@ -80,7 +80,7 @@
                 "main"
             ],
             "md5": "1ea3c699e8f62ff975198783368ca5a6",
-            "ndownloads": 16,
+            "ndownloads": 20,
             "owner": "bioconda",
             "size": 33169,
             "type": "conda",
@@ -153,7 +153,7 @@
                 "main"
             ],
             "md5": "6aa0774831ed212f0d8a71e7993baef1",
-            "ndownloads": 20,
+            "ndownloads": 24,
             "owner": "bioconda",
             "size": 33425,
             "type": "conda",
@@ -226,7 +226,7 @@
                 "main"
             ],
             "md5": "eb457961ebea03637be4332f7751e824",
-            "ndownloads": 12,
+            "ndownloads": 17,
             "owner": "bioconda",
             "size": 33596,
             "type": "conda",
@@ -299,22 +299,95 @@
                 "main"
             ],
             "md5": "7386db6a9ee2eb39e5a6360b2f5fe395",
-            "ndownloads": 10,
+            "ndownloads": 23,
             "owner": "bioconda",
             "size": 33621,
             "type": "conda",
             "upload_time": "2019-12-15 23:38:21.083000+00:00",
             "version": "1.2.16"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "biopython",
+                    "configs",
+                    "pybedtools",
+                    "python >=3.4",
+                    "reportlab",
+                    "wand"
+                ],
+                "has_prefix": false,
+                "license": "WTFPL",
+                "license_family": "OTHER",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1580467165189
+            },
+            "basename": "noarch/svist4get-1.2.17.1-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biopython",
+                        "specs": []
+                    },
+                    {
+                        "name": "configs",
+                        "specs": []
+                    },
+                    {
+                        "name": "pybedtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "reportlab",
+                        "specs": []
+                    },
+                    {
+                        "name": "wand",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/svist4get/1.2.17.1/noarch/svist4get-1.2.17.1-py_0.tar.bz2",
+            "full_name": "bioconda/svist4get/1.2.17.1/noarch/svist4get-1.2.17.1-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "428df0adcc9683215f0f2d58ecfca2e0",
+            "ndownloads": 6,
+            "owner": "bioconda",
+            "size": 33845,
+            "type": "conda",
+            "upload_time": "2020-01-31 11:00:08.102000+00:00",
+            "version": "1.2.17.1"
         }
     ],
     "full_name": "bioconda/svist4get",
     "home": "https://bitbucket.org/artegorov/svist4get/",
     "html_url": "http://anaconda.org/bioconda/svist4get",
     "id": "5ddcd623fe6b2a0f1eca2c67",
-    "latest_version": "1.2.16",
+    "latest_version": "1.2.17.1",
     "license": "WTFPL",
     "license_url": null,
-    "modified_at": "2019-12-15 23:38:21.385000+00:00",
+    "modified_at": "2020-01-31 11:00:08.507000+00:00",
     "name": "svist4get",
     "owner": {
         "company": "",
@@ -345,9 +418,14 @@
             "distributions": [],
             "full_name": "bioconda/svist4get/1.2.16",
             "version": "1.2.16"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/svist4get/1.2.17.1",
+            "version": "1.2.17.1"
         }
     ],
-    "revision": 6,
+    "revision": 8,
     "source_git_tag": null,
     "source_git_url": null,
     "summary": "A simple visualization tool for genomic tracks from sequencing experiments",
@@ -356,7 +434,8 @@
     "versions": [
         "1.2.14",
         "1.2.15",
-        "1.2.16"
+        "1.2.16",
+        "1.2.17.1"
     ],
     "watchers": 1
 }

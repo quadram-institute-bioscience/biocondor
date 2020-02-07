@@ -3,9 +3,11 @@
     "app_summary": {},
     "app_type": {},
     "builds": [
+        "pl5.22.0r3.4.1_0",
         "h470a237_1",
         "h470a237_0",
-        "pl5.22.0r3.4.1_0",
+        "h516909a_0",
+        "h01d97ff_0",
         "pl5.22.0r3.3.2_0"
     ],
     "conda_platforms": [
@@ -58,7 +60,7 @@
                 "cf201901"
             ],
             "md5": "6e04fcdc124b163a4d04323dd2b4cc10",
-            "ndownloads": 731,
+            "ndownloads": 820,
             "owner": "bioconda",
             "size": 1416805,
             "type": "conda",
@@ -106,7 +108,7 @@
                 "cf201901"
             ],
             "md5": "8cc7ddbc74f42cbc4969e4af098a9d2f",
-            "ndownloads": 732,
+            "ndownloads": 821,
             "owner": "bioconda",
             "size": 802666,
             "type": "conda",
@@ -167,7 +169,7 @@
                 "cf201901"
             ],
             "md5": "7d236ee94addaae6d1e217fb8f74fb14",
-            "ndownloads": 526,
+            "ndownloads": 528,
             "owner": "bioconda",
             "size": 1494044,
             "type": "conda",
@@ -228,7 +230,7 @@
                 "cf201901"
             ],
             "md5": "556e90dcd21061c2ae9f3db1ccdd21d3",
-            "ndownloads": 399,
+            "ndownloads": 401,
             "owner": "bioconda",
             "size": 1493713,
             "type": "conda",
@@ -289,7 +291,7 @@
                 "cf201901"
             ],
             "md5": "effd95f93e62285e09a245a33e7ae402",
-            "ndownloads": 554,
+            "ndownloads": 556,
             "owner": "bioconda",
             "size": 1494232,
             "type": "conda",
@@ -347,7 +349,7 @@
                 "cf201901"
             ],
             "md5": "30975f5c92acaee640e79ae6085a5fc4",
-            "ndownloads": 258,
+            "ndownloads": 260,
             "owner": "bioconda",
             "size": 1498148,
             "type": "conda",
@@ -405,7 +407,7 @@
                 "cf201901"
             ],
             "md5": "aa6899c3881e6312717451c0fd442de2",
-            "ndownloads": 343,
+            "ndownloads": 348,
             "owner": "bioconda",
             "size": 882272,
             "type": "conda",
@@ -466,7 +468,7 @@
                 "cf201901"
             ],
             "md5": "af4e3f05ca6383851fd7c4168f0d9f28",
-            "ndownloads": 732,
+            "ndownloads": 821,
             "owner": "bioconda",
             "size": 1419505,
             "type": "conda",
@@ -588,22 +590,126 @@
                 "cf201901"
             ],
             "md5": "e91f232fa4bdfb29c430372b83f06219",
-            "ndownloads": 733,
+            "ndownloads": 822,
             "owner": "bioconda",
             "size": 1419143,
             "type": "conda",
             "upload_time": "2017-09-19 00:22:31.324000+00:00",
             "version": "1.2.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h516909a_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "perl",
+                    "r-base"
+                ],
+                "has_prefix": true,
+                "license": "MIT",
+                "license_family": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1578888833828
+            },
+            "basename": "linux-64/irfinder-1.2.6-h516909a_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/irfinder/1.2.6/linux-64/irfinder-1.2.6-h516909a_0.tar.bz2",
+            "full_name": "bioconda/irfinder/1.2.6/linux-64/irfinder-1.2.6-h516909a_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8ed71b2a90466f3bab3be90ba8367646",
+            "ndownloads": 14,
+            "owner": "bioconda",
+            "size": 817135,
+            "type": "conda",
+            "upload_time": "2020-01-13 11:00:50.536000+00:00",
+            "version": "1.2.6"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h01d97ff_0",
+                "build_number": 0,
+                "depends": [
+                    "perl",
+                    "r-base"
+                ],
+                "has_prefix": true,
+                "license": "MIT",
+                "license_family": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1578889456455
+            },
+            "basename": "osx-64/irfinder-1.2.6-h01d97ff_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "perl",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/irfinder/1.2.6/osx-64/irfinder-1.2.6-h01d97ff_0.tar.bz2",
+            "full_name": "bioconda/irfinder/1.2.6/osx-64/irfinder-1.2.6-h01d97ff_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "61c4b8b1ab96ddf639e413de27a65485",
+            "ndownloads": 75,
+            "owner": "bioconda",
+            "size": 810100,
+            "type": "conda",
+            "upload_time": "2020-01-13 11:00:52.646000+00:00",
+            "version": "1.2.6"
         }
     ],
     "full_name": "bioconda/irfinder",
     "home": "https://github.com/williamritchie/IRFinder",
     "html_url": "http://anaconda.org/bioconda/irfinder",
     "id": "598b2cb83fa8a812cb0f92ab",
-    "latest_version": "1.2.5",
+    "latest_version": "1.2.6",
     "license": "MIT",
     "license_url": null,
-    "modified_at": "2018-08-18 15:44:46.626000+00:00",
+    "modified_at": "2020-01-13 11:00:52.918000+00:00",
     "name": "irfinder",
     "owner": {
         "company": "",
@@ -639,9 +745,14 @@
             "distributions": [],
             "full_name": "bioconda/irfinder/1.2.5",
             "version": "1.2.5"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/irfinder/1.2.6",
+            "version": "1.2.6"
         }
     ],
-    "revision": 8,
+    "revision": 10,
     "source_git_tag": null,
     "source_git_url": null,
     "summary": "Intron Retention Finder",
@@ -651,7 +762,8 @@
         "1.2.2",
         "1.2.3",
         "1.2.4",
-        "1.2.5"
+        "1.2.5",
+        "1.2.6"
     ],
     "watchers": 1
 }
