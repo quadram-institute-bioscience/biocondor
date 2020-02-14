@@ -39,7 +39,7 @@ From: continuumio/miniconda3
     env_name,
     channels_string,
     packages_string,
-    opt.entrypoint
+    opt.cmd
 ))
     
 
@@ -63,7 +63,7 @@ opt_parser.add_argument('-b', '--ignore-build',
                         help='Ignore package build number (use when YAML file was generated in OSX)',
                         action='store_true')
 
-opt_parser.add_argument('-e', '--entrypoint',
+opt_parser.add_argument('-x', '--cmd',
                         help='Default command',
                         default='')
 
