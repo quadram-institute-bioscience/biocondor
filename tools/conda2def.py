@@ -33,12 +33,13 @@ From: continuumio/miniconda3
  /opt/conda/bin/conda create -n {1} {2} -y {3}
 
 %runscript
- exec "$@"
+ exec {4} "$@"
 """.format(
     opt.env_file,
     env_name,
     channels_string,
     packages_string,
+    opt.entrypoint
 ))
     
 
@@ -61,6 +62,10 @@ opt_parser.add_argument('-p', '--packages',
 opt_parser.add_argument('-b', '--ignore-build',
                         help='Ignore package build number (use when YAML file was generated in OSX)',
                         action='store_true')
+
+opt_parser.add_argument('-e', '--entrypoint',
+                        help='Default command',
+                        default='')
 
 
 opt_parser.add_argument('-r', '--ignore-version',
