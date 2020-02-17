@@ -75,7 +75,7 @@
                 "main"
             ],
             "md5": "84045b008d03cab0b7e1b8a79be5e5b6",
-            "ndownloads": 28,
+            "ndownloads": 32,
             "owner": "bioconda",
             "size": 15204,
             "type": "conda",
@@ -143,7 +143,7 @@
                 "main"
             ],
             "md5": "80dccb0563a2c7d6692843f22e85fdbe",
-            "ndownloads": 24,
+            "ndownloads": 28,
             "owner": "bioconda",
             "size": 15271,
             "type": "conda",
@@ -216,7 +216,7 @@
                 "main"
             ],
             "md5": "6b88bf95734ad1c384479f8261530908",
-            "ndownloads": 20,
+            "ndownloads": 24,
             "owner": "bioconda",
             "size": 15361,
             "type": "conda",
@@ -289,7 +289,7 @@
                 "main"
             ],
             "md5": "5cee0c8e74c659f573d98a9d614e7fef",
-            "ndownloads": 20,
+            "ndownloads": 23,
             "owner": "bioconda",
             "size": 15615,
             "type": "conda",
@@ -362,22 +362,95 @@
                 "main"
             ],
             "md5": "7db1d6cd14c0be4261200ac202d09570",
-            "ndownloads": 22,
+            "ndownloads": 26,
             "owner": "bioconda",
             "size": 15833,
             "type": "conda",
             "upload_time": "2019-10-25 10:34:46.117000+00:00",
             "version": "0.0.4"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-loomexperiment",
+                    "bioconductor-scmap >=1.6.0,<1.7",
+                    "bioconductor-singlecellexperiment",
+                    "r-optparse",
+                    "r-workflowscriptscommon"
+                ],
+                "has_prefix": false,
+                "license": "Apache 2.0",
+                "license_family": "GPL",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1581524081669
+            },
+            "basename": "noarch/scmap-cli-0.0.5-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-loomexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-scmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-optparse",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-workflowscriptscommon",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/scmap-cli/0.0.5/noarch/scmap-cli-0.0.5-0.tar.bz2",
+            "full_name": "bioconda/scmap-cli/0.0.5/noarch/scmap-cli-0.0.5-0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d18c39eb7a324a287e9748c07580b546",
+            "ndownloads": 5,
+            "owner": "bioconda",
+            "size": 16483,
+            "type": "conda",
+            "upload_time": "2020-02-13 07:42:17.386000+00:00",
+            "version": "0.0.5"
         }
     ],
     "full_name": "bioconda/scmap-cli",
     "home": "https://github.com/ebi-gene-expression-group/scmap-cli",
     "html_url": "http://anaconda.org/bioconda/scmap-cli",
     "id": "5d543f4a83b6630c34252a52",
-    "latest_version": "0.0.4",
+    "latest_version": "0.0.5",
     "license": "Apache 2.0",
     "license_url": null,
-    "modified_at": "2019-10-25 10:34:46.409000+00:00",
+    "modified_at": "2020-02-13 07:42:17.902000+00:00",
     "name": "scmap-cli",
     "owner": {
         "company": "",
@@ -413,9 +486,14 @@
             "distributions": [],
             "full_name": "bioconda/scmap-cli/0.0.4",
             "version": "0.0.4"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/scmap-cli/0.0.5",
+            "version": "0.0.5"
         }
     ],
-    "revision": 8,
+    "revision": 10,
     "source_git_tag": null,
     "source_git_url": null,
     "summary": "CLI scripts for the scmap package",
@@ -425,7 +503,8 @@
         "0.0.1",
         "0.0.2",
         "0.0.3",
-        "0.0.4"
+        "0.0.4",
+        "0.0.5"
     ],
     "watchers": 1
 }

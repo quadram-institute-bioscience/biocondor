@@ -64,7 +64,7 @@
                 "main"
             ],
             "md5": "0377afb9e3d7c65b9f3e796c6bf8e8a0",
-            "ndownloads": 70,
+            "ndownloads": 75,
             "owner": "bioconda",
             "size": 22106,
             "type": "conda",
@@ -122,7 +122,7 @@
                 "main"
             ],
             "md5": "94cb0a4220da94d412edc251346a8010",
-            "ndownloads": 61,
+            "ndownloads": 67,
             "owner": "bioconda",
             "size": 22325,
             "type": "conda",
@@ -180,22 +180,80 @@
                 "main"
             ],
             "md5": "c494a0db8e4482c76978feebec5ffadf",
-            "ndownloads": 254,
+            "ndownloads": 283,
             "owner": "bioconda",
             "size": 36051,
             "type": "conda",
             "upload_time": "2019-04-09 08:40:44.059000+00:00",
             "version": "1.0.6"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "py_0",
+                "build_number": 0,
+                "depends": [
+                    "biobb_structure_manager 1.0.0",
+                    "python 3.6.*"
+                ],
+                "has_prefix": false,
+                "license": "Apache Software License",
+                "license_family": "APACHE",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1581611454784
+            },
+            "basename": "noarch/biobb_structure_checking-1.0.7-py_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biobb_structure_manager",
+                        "specs": [
+                            [
+                                "==",
+                                "1.0.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biobb_structure_checking/1.0.7/noarch/biobb_structure_checking-1.0.7-py_0.tar.bz2",
+            "full_name": "bioconda/biobb_structure_checking/1.0.7/noarch/biobb_structure_checking-1.0.7-py_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "60f2d7f71866c78c6fdb24002190def7",
+            "ndownloads": 9,
+            "owner": "bioconda",
+            "size": 35731,
+            "type": "conda",
+            "upload_time": "2020-02-13 16:34:20.113000+00:00",
+            "version": "1.0.7"
         }
     ],
     "full_name": "bioconda/biobb_structure_checking",
     "home": "https://github.com/bioexcel/biobb_analysis",
     "html_url": "http://anaconda.org/bioconda/biobb_structure_checking",
     "id": "5cab4561d9c2cf15cbfff295",
-    "latest_version": "1.0.6",
+    "latest_version": "1.0.7",
     "license": "Apache Software License",
     "license_url": null,
-    "modified_at": "2019-04-09 08:40:44.487000+00:00",
+    "modified_at": "2020-02-13 16:34:20.489000+00:00",
     "name": "biobb_structure_checking",
     "owner": {
         "company": "",
@@ -226,9 +284,14 @@
             "distributions": [],
             "full_name": "bioconda/biobb_structure_checking/1.0.6",
             "version": "1.0.6"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/biobb_structure_checking/1.0.7",
+            "version": "1.0.7"
         }
     ],
-    "revision": 6,
+    "revision": 8,
     "source_git_tag": null,
     "source_git_url": null,
     "summary": "BioBB_structure_checking performs MDWeb structure checking set as a command line utility.",
@@ -237,7 +300,8 @@
     "versions": [
         "0.0.1",
         "1.0.5",
-        "1.0.6"
+        "1.0.6",
+        "1.0.7"
     ],
     "watchers": 1
 }

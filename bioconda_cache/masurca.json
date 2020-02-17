@@ -5,7 +5,8 @@
     "builds": [
         "pl526h4ce7ceb_0",
         "pl526haae6466_0",
-        "pl526h4422958_0"
+        "pl526h4422958_0",
+        "pl526h66be062_0"
     ],
     "conda_platforms": [
         "linux-64"
@@ -105,7 +106,7 @@
                 "cf201901"
             ],
             "md5": "0f5f43deaba16ae135ffd80d3b76389d",
-            "ndownloads": 1094,
+            "ndownloads": 1211,
             "owner": "bioconda",
             "size": 56076891,
             "type": "conda",
@@ -202,7 +203,7 @@
                 "cf201901"
             ],
             "md5": "41c26da381c51645b1c2384fd1ba43a1",
-            "ndownloads": 996,
+            "ndownloads": 1113,
             "owner": "bioconda",
             "size": 56074886,
             "type": "conda",
@@ -299,7 +300,7 @@
                 "cf201901"
             ],
             "md5": "ee830fff5dfdd9a9d69c471285913346",
-            "ndownloads": 1019,
+            "ndownloads": 1136,
             "owner": "bioconda",
             "size": 56094471,
             "type": "conda",
@@ -396,7 +397,7 @@
                 "cf201901"
             ],
             "md5": "104d927e4402c482cc1ba6b066a6084a",
-            "ndownloads": 1150,
+            "ndownloads": 1292,
             "owner": "bioconda",
             "size": 41184739,
             "type": "conda",
@@ -498,7 +499,7 @@
                 "main"
             ],
             "md5": "aad9bc62c4fa7b68a2cdcf5a66f59160",
-            "ndownloads": 819,
+            "ndownloads": 942,
             "owner": "bioconda",
             "size": 24590567,
             "type": "conda",
@@ -600,7 +601,7 @@
                 "main"
             ],
             "md5": "e0608408d7e70c5d8fce9e59b11a2264",
-            "ndownloads": 320,
+            "ndownloads": 437,
             "owner": "bioconda",
             "size": 24216765,
             "type": "conda",
@@ -702,7 +703,7 @@
                 "main"
             ],
             "md5": "547df4918146738df899864c8f85d143",
-            "ndownloads": 375,
+            "ndownloads": 495,
             "owner": "bioconda",
             "size": 24192738,
             "type": "conda",
@@ -804,22 +805,226 @@
                 "main"
             ],
             "md5": "c561e2d7da6670ee3de7cd9c9a1a443f",
-            "ndownloads": 115,
+            "ndownloads": 290,
             "owner": "bioconda",
             "size": 26941848,
             "type": "conda",
             "upload_time": "2019-12-16 22:24:36.032000+00:00",
             "version": "3.3.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526haae6466_0",
+                "build_number": 0,
+                "depends": [
+                    "boost >=1.70.0,<1.70.1.0a0",
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "grep",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1581028016515
+            },
+            "basename": "linux-64/masurca-3.3.6-pl526haae6466_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70.0,<1.70.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "grep",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/masurca/3.3.6/linux-64/masurca-3.3.6-pl526haae6466_0.tar.bz2",
+            "full_name": "bioconda/masurca/3.3.6/linux-64/masurca-3.3.6-pl526haae6466_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "23b60fa0c357dfa75b1a07017a56ed17",
+            "ndownloads": 50,
+            "owner": "bioconda",
+            "size": 26918084,
+            "type": "conda",
+            "upload_time": "2020-02-07 04:24:24.690000+00:00",
+            "version": "3.3.6"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526h66be062_0",
+                "build_number": 0,
+                "depends": [
+                    "boost-cpp >=1.70.0,<1.70.1.0a0",
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "grep",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1581715082390
+            },
+            "basename": "linux-64/masurca-3.3.7-pl526h66be062_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "boost-cpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70.0,<1.70.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "grep",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/masurca/3.3.7/linux-64/masurca-3.3.7-pl526h66be062_0.tar.bz2",
+            "full_name": "bioconda/masurca/3.3.7/linux-64/masurca-3.3.7-pl526h66be062_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6038d0e465ffef83f452e52228d28e4e",
+            "ndownloads": 24,
+            "owner": "bioconda",
+            "size": 26948057,
+            "type": "conda",
+            "upload_time": "2020-02-14 21:31:05.853000+00:00",
+            "version": "3.3.7"
         }
     ],
     "full_name": "bioconda/masurca",
     "home": "http://masurca.blogspot.co.uk/",
     "html_url": "http://anaconda.org/bioconda/masurca",
     "id": "5b7cfbf7c77f6a135fed89f3",
-    "latest_version": "3.3.5",
+    "latest_version": "3.3.7",
     "license": "GPLv3",
     "license_url": null,
-    "modified_at": "2019-12-16 22:24:36.976000+00:00",
+    "modified_at": "2020-02-14 21:31:07.154000+00:00",
     "name": "masurca",
     "owner": {
         "company": "",
@@ -875,9 +1080,19 @@
             "distributions": [],
             "full_name": "bioconda/masurca/3.3.5",
             "version": "3.3.5"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/masurca/3.3.6",
+            "version": "3.3.6"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/masurca/3.3.7",
+            "version": "3.3.7"
         }
     ],
-    "revision": 16,
+    "revision": 20,
     "source_git_tag": null,
     "source_git_url": null,
     "summary": "MaSuRCA (Maryland Super-Read Celera Assembler) genome assembly software.\nMaSuRCA requires Illumina data, and supports third-generation PacBio/Nanopore\nMinION reads for hybrid assembly.\n",
@@ -891,7 +1106,9 @@
         "3.3.1",
         "3.3.3",
         "3.3.4",
-        "3.3.5"
+        "3.3.5",
+        "3.3.6",
+        "3.3.7"
     ],
     "watchers": 1
 }
