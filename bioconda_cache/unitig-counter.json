@@ -3,7 +3,8 @@
     "app_summary": {},
     "app_type": {},
     "builds": [
-        "hdbcaa40_0"
+        "hdbcaa40_0",
+        "h56fc30b_0"
     ],
     "conda_platforms": [
         "linux-64"
@@ -78,7 +79,7 @@
                 "main"
             ],
             "md5": "b8dea3f51664249a2f43375ebda3eda4",
-            "ndownloads": 673,
+            "ndownloads": 787,
             "owner": "bioconda",
             "size": 8719571,
             "type": "conda",
@@ -150,22 +151,94 @@
                 "main"
             ],
             "md5": "7321649183a0100f25f334a9acd03fb4",
-            "ndownloads": 540,
+            "ndownloads": 665,
             "owner": "bioconda",
             "size": 7372678,
             "type": "conda",
             "upload_time": "2019-06-08 23:18:42.968000+00:00",
             "version": "1.0.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h56fc30b_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "pthread-stubs",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GNU Affero General Public License",
+                "license_family": "AGPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1581947165370
+            },
+            "basename": "linux-64/unitig-counter-1.1.0-h56fc30b_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pthread-stubs",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/unitig-counter/1.1.0/linux-64/unitig-counter-1.1.0-h56fc30b_0.tar.bz2",
+            "full_name": "bioconda/unitig-counter/1.1.0/linux-64/unitig-counter-1.1.0-h56fc30b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "233174c4fe21e67f4e0b834d0d1ae9f3",
+            "ndownloads": 4,
+            "owner": "bioconda",
+            "size": 3865785,
+            "type": "conda",
+            "upload_time": "2020-02-17 14:10:38.685000+00:00",
+            "version": "1.1.0"
         }
     ],
     "full_name": "bioconda/unitig-counter",
     "home": "https://github.com/johnlees/unitig-counter",
     "html_url": "http://anaconda.org/bioconda/unitig-counter",
     "id": "5c9d405371b03f0d263ca8f7",
-    "latest_version": "1.0.5",
+    "latest_version": "1.1.0",
     "license": "GNU Affero General Public License",
     "license_url": null,
-    "modified_at": "2019-06-08 23:18:43.450000+00:00",
+    "modified_at": "2020-02-17 14:10:40.097000+00:00",
     "name": "unitig-counter",
     "owner": {
         "company": "",
@@ -191,9 +264,14 @@
             "distributions": [],
             "full_name": "bioconda/unitig-counter/1.0.5",
             "version": "1.0.5"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/unitig-counter/1.1.0",
+            "version": "1.1.0"
         }
     ],
-    "revision": 4,
+    "revision": 6,
     "source_git_tag": null,
     "source_git_url": null,
     "summary": "Uses a compressed de Bruijn graph (implemented in GATB) to count unitigs in bacterial populations.",
@@ -201,7 +279,8 @@
     "url": "http://api.anaconda.org/packages/bioconda/unitig-counter",
     "versions": [
         "1.0.4",
-        "1.0.5"
+        "1.0.5",
+        "1.1.0"
     ],
     "watchers": 1
 }
