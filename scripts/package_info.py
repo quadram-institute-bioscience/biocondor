@@ -13,6 +13,22 @@ import sys
 import datetime
 from pprint import pprint
 
+def downloads(package):
+    total = 0
+
+    for release in package['files']:
+        total += release['ndownloads']
+    return total
+
+def downloads_per_version(package):
+    """
+    Return a dictionary of version -> downloads
+    """
+    downloads = {}
+    for release in package['files']:
+        downloads[release['version']] = release['ndownloads']
+    return downloads
+
 
 def import_date_from_json(datetime_string):
     (inputdate, zone) = datetime_string.split('+')
@@ -37,7 +53,12 @@ def print_info(package):
         if attr in package and package[attr] != None and package[attr] != '' and package[attr] != 'None':
             print("{}:\t{}".format(label, package[attr]))
 
+
     print("{}:\t{}".format('Downloads', downloads(package)))
+    dpv = downloads_per_version(package)
+    for version, download in dpv.items():
+        print(" - {}:\t{}".format( version, download))
+
     if 'created_at' in package:
         created = import_date_from_json(package['created_at'])
         diff = datetime.datetime.now() - created
@@ -48,10 +69,7 @@ def print_info(package):
         diff = datetime.datetime.now() - edited
         print("Modified:\t{} ({} days)".format(edited.date(), diff.days))
 
-    print("Versions:")
-    for version in package['releases']:
-        print(" - {}".format(version['version']))
-        
+   
 
     print("Dependencies")
     for dep in package['files'][-1]['dependencies']['depends']:
@@ -60,13 +78,6 @@ def print_info(package):
             print('   - ' + ' '.join(s))
              
 
-
-def downloads(package):
-    total = 0
-
-    for release in package['files']:
-        total += release['ndownloads']
-    return total
 
 class ColorPrint:
 
@@ -136,7 +147,7 @@ opt_parser.add_argument('-p', '--package', help="Package name")
 
 opt_parser.add_argument('-c', '--cachedir',
                         help='Path to the cache directory[default: {}]'.format(os.path.join(script_dir, '../bioconda_cache')),
-                        default=os.path.join(script_dir, '../bioconda_cache'))
+                        default=os.path.join(script_dir, '../biocondor_cache'))
  
 opt_parser.add_argument('-v', '--verbose',
                         help='Increase output verbosity',

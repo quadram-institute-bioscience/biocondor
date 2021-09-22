@@ -48,6 +48,10 @@ opt_parser.add_argument('-c', '--cachedir',
 opt_parser.add_argument('-k', '--key',
                         help='Property to be scanned',
                         required=True)
+                        
+opt_parser.add_argument('-m', '--maxlines',
+                        help='Print top MAX lines',
+                        default=10)
 
 opt_parser.add_argument('-r', '--reverse',
                         help='Reverse output',
@@ -65,7 +69,7 @@ opt = opt_parser.parse_args()
 # Check 'bioconda.json'
 biocondafile = opt.cachedir + '/bioconda.json'
 
-bioconda = loadJsonFile(biocondafile)
+#bioconda = loadJsonFile(biocondafile)
 
 # Initialize counters
 counters = {"total": 0, "has_key": 0, "is_defined":0, "is_string": 0, "is_valid": 0, "output": 0}
@@ -73,8 +77,15 @@ counters = {"total": 0, "has_key": 0, "is_defined":0, "is_string": 0, "is_valid"
 # Output is archived in a dictionary key: occurences
 strings = {}
 
-for package in bioconda:
+bioconda = []
+# Read all files in opt.cachedir to bioconda
+for root, dirs, files in os.walk(opt.cachedir):
+    for name in files:
+        if name.endswith('.json'):
+            bioconda.append(name.replace('.json', ''))
+for package_name in bioconda:
     counters['total'] += 1
+    package = loadJsonFile(opt.cachedir + '/' + package_name + '.json')
     if opt.key in package:
         value = package[opt.key]
         counters['has_key'] +=1
@@ -100,6 +111,8 @@ reverse = not opt.reverse
 for item in {k: v for k, v in sorted(strings.items(), key=lambda item: item[1],reverse=reverse) }:
     counters['output'] += 1
     print('#{}\t{}\t{}'.format(counters['output'],strings[item], item))
+    if counters['output'] >= opt.maxlines:
+        break
 
 
 # Print counters to STDERR
