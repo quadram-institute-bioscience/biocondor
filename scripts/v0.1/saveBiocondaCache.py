@@ -30,22 +30,43 @@ def fileAgeDays(pathname):
     return int( (time.time() - os.stat(pathname)[stat.ST_MTIME]) / 3600)
     
 def downloadBioconda(destination):
-    try:    
+    try:
         vprint("Downloading BioConda main file")
         r = requests.get(url='https://api.anaconda.org/packages/bioconda')
+        r.raise_for_status()
+        if 'application/json' not in r.headers.get('content-type', ''):
+            eprint("FATAL ERROR: Invalid content type. Expected JSON, but got:")
+            eprint(r.headers.get('content-type'))
+            eprint("Response text was:")
+            eprint(r.text)
+            exit(2)
         data = r.json()
-        return data
-    except Exception as e:
-        eprint("FATAL ERROR: Unable to download BioConda metadata:\n {}".format(e))
+    except requests.exceptions.HTTPError as errh:
+        eprint("FATAL ERROR: HTTP Error:", errh)
         exit(2)
-	
+    except requests.exceptions.ConnectionError as errc:
+        eprint("FATAL ERROR: Error Connecting:", errc)
+        exit(2)
+    except requests.exceptions.Timeout as errt:
+        eprint("FATAL ERROR: Timeout Error:", errt)
+        exit(2)
+    except requests.exceptions.RequestException as err:
+        eprint("FATAL ERROR: Something Else", err)
+        exit(2)
+    except json.JSONDecodeError as e:
+        eprint("FATAL ERROR: Unable to download BioConda metadata:\n ".format(e))
+        eprint("Response text was:")
+        eprint(r.text)
+        exit(2)
+
     try:
         with open(destination, 'w') as outfile:
             vprint("Saving BioConda metadata to {}".format(destination))
             outfile.write(json.dumps(data, indent=4, sort_keys=True))
     except Exception as e:
-        eprint("FATAL ERROR: Unable to save BioConda metadata to {}:\n {}".format(destination, e))
+        eprint("FATAL ERROR: Unable to save BioConda metadata to {}:\n ".format(destination, e))
         exit(2)
+    return data
 
 def downloadPackage(name, filename):
     vprint(" - Downloading {}".format(name) )
