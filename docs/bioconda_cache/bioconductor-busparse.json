@@ -1,0 +1,4696 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r40h64ad5ed_0",
+        "r41h7cba510_1",
+        "r41h399db7b_0",
+        "r36he1b5a44_0",
+        "r41hc247a5b_2",
+        "r40h5f743cb_0",
+        "r44h35d7169_0",
+        "r40h832b226_0",
+        "r43hc0ef7c4_0",
+        "r42hc247a5b_0",
+        "r41hb890f52_2",
+        "r40h399db7b_0",
+        "r42hc0ef7c4_1",
+        "r36h6de7cb9_0",
+        "r42hf17093f_1",
+        "r44he5774e6_0",
+        "r41h832b226_0",
+        "r42hb890f52_0",
+        "r43hf17093f_0",
+        "r41h619a076_1"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2019-11-01 16:03:18.054000+00:00",
+    "description": "The kallisto | bustools pipeline is a fast and modular set of tools to convert single cell RNA-seq reads in fastq files into gene count or transcript compatibility counts (TCC) matrices for downstream analysis. Central to this pipeline is the barcode, UMI, and set (BUS) file format. This package serves the following purposes: First, this package allows users to manipulate BUS format files as data frames in R and then convert them into gene count or TCC matrices. Furthermore, since R and Rcpp code is easier to handle than pure C++ code, users are encouraged to tweak the source code of this package to experiment with new uses of BUS format and different ways to convert the BUS file into gene count matrix. Second, this package can conveniently generate files required to generate gene count matrices for spliced and unspliced transcripts for RNA velocity. Here biotypes can be filtered and scaffolds and haplotypes can be removed, and the filtered transcriptome can be extracted and written to disk. Third, this package implements utility functions to get transcripts and associated genes required to convert BUS files to gene count matrices, to write the transcript to gene information in the format required by bustools, and to read output of bustools into R as sparses matrices.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.48.0,<1.49.0",
+                    "bioconductor-annotationfilter >=1.10.0,<1.11.0",
+                    "bioconductor-biomart >=2.42.0,<2.43.0",
+                    "bioconductor-biostrings >=2.54.0,<2.55.0",
+                    "bioconductor-bsgenome >=1.54.0,<1.55.0",
+                    "bioconductor-ensembldb >=2.10.0,<2.11.0",
+                    "bioconductor-genomeinfodb >=1.22.0,<1.23.0",
+                    "bioconductor-genomicfeatures >=1.38.0,<1.39.0",
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "bioconductor-plyranges >=1.6.0,<1.7.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-bh",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppparallel",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": true,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572624116996
+            },
+            "basename": "osx-64/bioconductor-busparse-1.0.0-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationfilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-plyranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppprogress",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zeallot",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.0.0/osx-64/bioconductor-busparse-1.0.0-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.0.0/osx-64/bioconductor-busparse-1.0.0-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "fcf8f16b481df913dd09962465bb690b",
+            "ndownloads": 3785,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 842141,
+            "type": "conda",
+            "upload_time": "2019-11-01 16:03:19.511000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.48.0,<1.49.0",
+                    "bioconductor-annotationfilter >=1.10.0,<1.11.0",
+                    "bioconductor-biomart >=2.42.0,<2.43.0",
+                    "bioconductor-biostrings >=2.54.0,<2.55.0",
+                    "bioconductor-bsgenome >=1.54.0,<1.55.0",
+                    "bioconductor-ensembldb >=2.10.0,<2.11.0",
+                    "bioconductor-genomeinfodb >=1.22.0,<1.23.0",
+                    "bioconductor-genomicfeatures >=1.38.0,<1.39.0",
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "bioconductor-plyranges >=1.6.0,<1.7.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-bh",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppparallel",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572890647812
+            },
+            "basename": "linux-64/bioconductor-busparse-1.0.0-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationfilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-plyranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppprogress",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zeallot",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.0.0/linux-64/bioconductor-busparse-1.0.0-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.0.0/linux-64/bioconductor-busparse-1.0.0-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5801cd377778bb54d7ec60449263d1af",
+            "ndownloads": 1345,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 835832,
+            "type": "conda",
+            "upload_time": "2019-11-04 18:09:39.929000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h64ad5ed_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.50.0,<1.51.0",
+                    "bioconductor-annotationfilter >=1.12.0,<1.13.0",
+                    "bioconductor-biocgenerics >=0.34.0,<0.35.0",
+                    "bioconductor-biomart >=2.44.0,<2.45.0",
+                    "bioconductor-biostrings >=2.56.0,<2.57.0",
+                    "bioconductor-bsgenome >=1.56.0,<1.57.0",
+                    "bioconductor-ensembldb >=2.12.0,<2.13.0",
+                    "bioconductor-genomeinfodb >=1.24.0,<1.25.0",
+                    "bioconductor-genomicfeatures >=1.40.0,<1.41.0",
+                    "bioconductor-genomicranges >=1.40.0,<1.41.0",
+                    "bioconductor-iranges >=2.22.0,<2.23.0",
+                    "bioconductor-plyranges >=1.8.0,<1.9.0",
+                    "bioconductor-s4vectors >=0.26.0,<0.27.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=9.0.1",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": true,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1589187267578
+            },
+            "basename": "osx-64/bioconductor-busparse-1.2.1-r40h64ad5ed_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationfilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.34.0,<0.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.56.0,<2.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.12.0,<2.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.22.0,<2.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-plyranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppprogress",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zeallot",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.2.1/osx-64/bioconductor-busparse-1.2.1-r40h64ad5ed_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.2.1/osx-64/bioconductor-busparse-1.2.1-r40h64ad5ed_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "77848182cf0afdda9ebc8fbf15ee6a98",
+            "ndownloads": 3321,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 913492,
+            "type": "conda",
+            "upload_time": "2020-05-11 08:56:30.918000+00:00",
+            "version": "1.2.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h5f743cb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.50.0,<1.51.0",
+                    "bioconductor-annotationfilter >=1.12.0,<1.13.0",
+                    "bioconductor-biocgenerics >=0.34.0,<0.35.0",
+                    "bioconductor-biomart >=2.44.0,<2.45.0",
+                    "bioconductor-biostrings >=2.56.0,<2.57.0",
+                    "bioconductor-bsgenome >=1.56.0,<1.57.0",
+                    "bioconductor-ensembldb >=2.12.0,<2.13.0",
+                    "bioconductor-genomeinfodb >=1.24.0,<1.25.0",
+                    "bioconductor-genomicfeatures >=1.40.0,<1.41.0",
+                    "bioconductor-genomicranges >=1.40.0,<1.41.0",
+                    "bioconductor-iranges >=2.22.0,<2.23.0",
+                    "bioconductor-plyranges >=1.8.0,<1.9.0",
+                    "bioconductor-s4vectors >=0.26.0,<0.27.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.3.0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1589211562016
+            },
+            "basename": "linux-64/bioconductor-busparse-1.2.1-r40h5f743cb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationfilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.34.0,<0.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.56.0,<2.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.12.0,<2.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.22.0,<2.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-plyranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppprogress",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zeallot",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.2.1/linux-64/bioconductor-busparse-1.2.1-r40h5f743cb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.2.1/linux-64/bioconductor-busparse-1.2.1-r40h5f743cb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "67facebfe885ff63535005edcf2bec54",
+            "ndownloads": 297,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 859974,
+            "type": "conda",
+            "upload_time": "2020-05-11 15:46:15.974000+00:00",
+            "version": "1.2.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h64ad5ed_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.52.0,<1.53.0",
+                    "bioconductor-annotationfilter >=1.14.0,<1.15.0",
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-biomart >=2.46.0,<2.47.0",
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-bsgenome >=1.58.0,<1.59.0",
+                    "bioconductor-ensembldb >=2.14.0,<2.15.0",
+                    "bioconductor-genomeinfodb >=1.26.0,<1.27.0",
+                    "bioconductor-genomicfeatures >=1.42.0,<1.43.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-plyranges >=1.10.0,<1.11.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=9.0.1",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": true,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1604161184325
+            },
+            "basename": "osx-64/bioconductor-busparse-1.4.0-r40h64ad5ed_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationfilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.0,<2.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-plyranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppprogress",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zeallot",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.4.0/osx-64/bioconductor-busparse-1.4.0-r40h64ad5ed_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.4.0/osx-64/bioconductor-busparse-1.4.0-r40h64ad5ed_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0456f910da61c4feae0f2188b43daf10",
+            "ndownloads": 2980,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 869808,
+            "type": "conda",
+            "upload_time": "2020-10-31 16:21:29.012000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h5f743cb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.52.0,<1.53.0",
+                    "bioconductor-annotationfilter >=1.14.0,<1.15.0",
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-biomart >=2.46.0,<2.47.0",
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-bsgenome >=1.58.0,<1.59.0",
+                    "bioconductor-ensembldb >=2.14.0,<2.15.0",
+                    "bioconductor-genomeinfodb >=1.26.0,<1.27.0",
+                    "bioconductor-genomicfeatures >=1.42.0,<1.43.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-plyranges >=1.10.0,<1.11.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=7.5.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1604204060676
+            },
+            "basename": "linux-64/bioconductor-busparse-1.4.0-r40h5f743cb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationfilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.0,<2.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-plyranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppprogress",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zeallot",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.4.0/linux-64/bioconductor-busparse-1.4.0-r40h5f743cb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.4.0/linux-64/bioconductor-busparse-1.4.0-r40h5f743cb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "656d70cb4c99fdb383ea9bdaa1caf1ed",
+            "ndownloads": 290,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 884078,
+            "type": "conda",
+            "upload_time": "2020-11-01 04:21:44.653000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h832b226_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.52.0,<1.53.0",
+                    "bioconductor-annotationfilter >=1.14.0,<1.15.0",
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-biomart >=2.46.0,<2.47.0",
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-bsgenome >=1.58.0,<1.59.0",
+                    "bioconductor-ensembldb >=2.14.0,<2.15.0",
+                    "bioconductor-genomeinfodb >=1.26.0,<1.27.0",
+                    "bioconductor-genomicfeatures >=1.42.0,<1.43.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-plyranges >=1.10.0,<1.11.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=11.1.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": true,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1617021985048
+            },
+            "basename": "osx-64/bioconductor-busparse-1.4.2-r40h832b226_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationfilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.0,<2.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-plyranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppprogress",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zeallot",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.4.2/osx-64/bioconductor-busparse-1.4.2-r40h832b226_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.4.2/osx-64/bioconductor-busparse-1.4.2-r40h832b226_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "01b5e0e22c2aaa7200aeea7b6a2c0152",
+            "ndownloads": 2694,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 877594,
+            "type": "conda",
+            "upload_time": "2021-03-29 12:48:18.666000+00:00",
+            "version": "1.4.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h399db7b_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.52.0,<1.53.0",
+                    "bioconductor-annotationfilter >=1.14.0,<1.15.0",
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-biomart >=2.46.0,<2.47.0",
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-bsgenome >=1.58.0,<1.59.0",
+                    "bioconductor-ensembldb >=2.14.0,<2.15.0",
+                    "bioconductor-genomeinfodb >=1.26.0,<1.27.0",
+                    "bioconductor-genomicfeatures >=1.42.0,<1.43.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-plyranges >=1.10.0,<1.11.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=9.3.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1617555382955
+            },
+            "basename": "linux-64/bioconductor-busparse-1.4.2-r40h399db7b_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationfilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.0,<2.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-plyranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppprogress",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zeallot",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.4.2/linux-64/bioconductor-busparse-1.4.2-r40h399db7b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.4.2/linux-64/bioconductor-busparse-1.4.2-r40h399db7b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3b6d89a8869110b74321d556de42a042",
+            "ndownloads": 286,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 874638,
+            "type": "conda",
+            "upload_time": "2021-04-04 17:05:00.950000+00:00",
+            "version": "1.4.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h832b226_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.54.0,<1.55.0",
+                    "bioconductor-annotationfilter >=1.16.0,<1.17.0",
+                    "bioconductor-biocgenerics >=0.38.0,<0.39.0",
+                    "bioconductor-biomart >=2.48.0,<2.49.0",
+                    "bioconductor-biostrings >=2.60.0,<2.61.0",
+                    "bioconductor-bsgenome >=1.60.0,<1.61.0",
+                    "bioconductor-ensembldb >=2.16.0,<2.17.0",
+                    "bioconductor-genomeinfodb >=1.28.0,<1.29.0",
+                    "bioconductor-genomicfeatures >=1.44.0,<1.45.0",
+                    "bioconductor-genomicranges >=1.44.0,<1.45.0",
+                    "bioconductor-iranges >=2.26.0,<2.27.0",
+                    "bioconductor-plyranges >=1.12.0,<1.13.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=11.1.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": true,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1622587095770
+            },
+            "basename": "osx-64/bioconductor-busparse-1.5.3-r41h832b226_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationfilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.38.0,<0.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.60.0,<2.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-plyranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppprogress",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zeallot",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.5.3/osx-64/bioconductor-busparse-1.5.3-r41h832b226_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.5.3/osx-64/bioconductor-busparse-1.5.3-r41h832b226_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6763bfe106805f27981fe170d8c28b2f",
+            "ndownloads": 2584,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 869552,
+            "type": "conda",
+            "upload_time": "2021-06-01 22:40:13.829000+00:00",
+            "version": "1.5.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h399db7b_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.54.0,<1.55.0",
+                    "bioconductor-annotationfilter >=1.16.0,<1.17.0",
+                    "bioconductor-biocgenerics >=0.38.0,<0.39.0",
+                    "bioconductor-biomart >=2.48.0,<2.49.0",
+                    "bioconductor-biostrings >=2.60.0,<2.61.0",
+                    "bioconductor-bsgenome >=1.60.0,<1.61.0",
+                    "bioconductor-ensembldb >=2.16.0,<2.17.0",
+                    "bioconductor-genomeinfodb >=1.28.0,<1.29.0",
+                    "bioconductor-genomicfeatures >=1.44.0,<1.45.0",
+                    "bioconductor-genomicranges >=1.44.0,<1.45.0",
+                    "bioconductor-iranges >=2.26.0,<2.27.0",
+                    "bioconductor-plyranges >=1.12.0,<1.13.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=9.3.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1622796668863
+            },
+            "basename": "linux-64/bioconductor-busparse-1.5.3-r41h399db7b_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationfilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.38.0,<0.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.60.0,<2.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-plyranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppprogress",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zeallot",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.5.3/linux-64/bioconductor-busparse-1.5.3-r41h399db7b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.5.3/linux-64/bioconductor-busparse-1.5.3-r41h399db7b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7837602a72f70f6dbb12e3ba3d08ef0d",
+            "ndownloads": 497,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 906688,
+            "type": "conda",
+            "upload_time": "2021-06-04 09:00:22.114000+00:00",
+            "version": "1.5.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h832b226_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.56.0,<1.57.0",
+                    "bioconductor-annotationfilter >=1.18.0,<1.19.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biomart >=2.50.0,<2.51.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-bsgenome >=1.62.0,<1.63.0",
+                    "bioconductor-ensembldb >=2.18.0,<2.19.0",
+                    "bioconductor-genomeinfodb >=1.30.0,<1.31.0",
+                    "bioconductor-genomicfeatures >=1.46.0,<1.47.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-plyranges >=1.14.0,<1.15.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=11.1.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": true,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1636185085211
+            },
+            "basename": "osx-64/bioconductor-busparse-1.8.0-r41h832b226_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationfilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-plyranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppprogress",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zeallot",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.8.0/osx-64/bioconductor-busparse-1.8.0-r41h832b226_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.8.0/osx-64/bioconductor-busparse-1.8.0-r41h832b226_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3dfa600c6089bd0a1525e27b42f94bab",
+            "ndownloads": 560,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 869497,
+            "type": "conda",
+            "upload_time": "2021-11-06 07:53:40.130000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h399db7b_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.56.0,<1.57.0",
+                    "bioconductor-annotationfilter >=1.18.0,<1.19.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biomart >=2.50.0,<2.51.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-bsgenome >=1.62.0,<1.63.0",
+                    "bioconductor-ensembldb >=2.18.0,<2.19.0",
+                    "bioconductor-genomeinfodb >=1.30.0,<1.31.0",
+                    "bioconductor-genomicfeatures >=1.46.0,<1.47.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-plyranges >=1.14.0,<1.15.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=9.4.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1636476295741
+            },
+            "basename": "linux-64/bioconductor-busparse-1.8.0-r41h399db7b_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationfilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-plyranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppprogress",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zeallot",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.8.0/linux-64/bioconductor-busparse-1.8.0-r41h399db7b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.8.0/linux-64/bioconductor-busparse-1.8.0-r41h399db7b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "37ab357d629f38d1183b955caa3c843e",
+            "ndownloads": 243,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 885325,
+            "type": "conda",
+            "upload_time": "2021-11-09 16:55:39.433000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h619a076_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.56.0,<1.57.0",
+                    "bioconductor-annotationfilter >=1.18.0,<1.19.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biomart >=2.50.0,<2.51.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-bsgenome >=1.62.0,<1.63.0",
+                    "bioconductor-ensembldb >=2.18.0,<2.19.0",
+                    "bioconductor-genomeinfodb >=1.30.0,<1.31.0",
+                    "bioconductor-genomicfeatures >=1.46.0,<1.47.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-plyranges >=1.14.0,<1.15.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=10.3.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1645806245402
+            },
+            "basename": "linux-64/bioconductor-busparse-1.8.0-r41h619a076_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationfilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-plyranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppprogress",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zeallot",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.8.0/linux-64/bioconductor-busparse-1.8.0-r41h619a076_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.8.0/linux-64/bioconductor-busparse-1.8.0-r41h619a076_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "fdcbfffa06dfd30eacf240008b1a7327",
+            "ndownloads": 417,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 897933,
+            "type": "conda",
+            "upload_time": "2022-02-25 16:33:47.412000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h7cba510_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.56.0,<1.57.0",
+                    "bioconductor-annotationfilter >=1.18.0,<1.19.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biomart >=2.50.0,<2.51.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-bsgenome >=1.62.0,<1.63.0",
+                    "bioconductor-ensembldb >=2.18.0,<2.19.0",
+                    "bioconductor-genomeinfodb >=1.30.0,<1.31.0",
+                    "bioconductor-genomicfeatures >=1.46.0,<1.47.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-plyranges >=1.14.0,<1.15.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=12.0.1",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1645816143605
+            },
+            "basename": "osx-64/bioconductor-busparse-1.8.0-r41h7cba510_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationfilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-plyranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bh",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcppprogress",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zeallot",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.8.0/osx-64/bioconductor-busparse-1.8.0-r41h7cba510_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.8.0/osx-64/bioconductor-busparse-1.8.0-r41h7cba510_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bf550d03986975bfdfcb1521368b7987",
+            "ndownloads": 65,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 894981,
+            "type": "conda",
+            "upload_time": "2022-02-25 19:11:32.730000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hb890f52_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.56.0,<1.57.0",
+                    "bioconductor-annotationfilter >=1.18.0,<1.19.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biomart >=2.50.0,<2.51.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-bsgenome >=1.62.0,<1.63.0",
+                    "bioconductor-ensembldb >=2.18.0,<2.19.0",
+                    "bioconductor-genomeinfodb >=1.30.0,<1.31.0",
+                    "bioconductor-genomicfeatures >=1.46.0,<1.47.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-plyranges >=1.14.0,<1.15.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=14.0.4",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1663319023710
+            },
+            "basename": "osx-64/bioconductor-busparse-1.8.0-r41hb890f52_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.8.0/osx-64/bioconductor-busparse-1.8.0-r41hb890f52_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.8.0/osx-64/bioconductor-busparse-1.8.0-r41hb890f52_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7e81b0d928fbc12594c65fd9edbb8f5d",
+            "ndownloads": 1237,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 865543,
+            "type": "conda",
+            "upload_time": "2022-09-16 09:05:58.072000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hc247a5b_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.56.0,<1.57.0",
+                    "bioconductor-annotationfilter >=1.18.0,<1.19.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biomart >=2.50.0,<2.51.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-bsgenome >=1.62.0,<1.63.0",
+                    "bioconductor-ensembldb >=2.18.0,<2.19.0",
+                    "bioconductor-genomeinfodb >=1.30.0,<1.31.0",
+                    "bioconductor-genomicfeatures >=1.46.0,<1.47.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-plyranges >=1.14.0,<1.15.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1663367727757
+            },
+            "basename": "linux-64/bioconductor-busparse-1.8.0-r41hc247a5b_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.8.0/linux-64/bioconductor-busparse-1.8.0-r41hc247a5b_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.8.0/linux-64/bioconductor-busparse-1.8.0-r41hc247a5b_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e5e9ffe9f24b12160f364e1e19787089",
+            "ndownloads": 369,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 888096,
+            "type": "conda",
+            "upload_time": "2022-09-16 22:40:31.443000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hb890f52_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.60.0,<1.61.0",
+                    "bioconductor-annotationfilter >=1.22.0,<1.23.0",
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biomart >=2.54.0,<2.55.0",
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-bsgenome >=1.66.0,<1.67.0",
+                    "bioconductor-ensembldb >=2.22.0,<2.23.0",
+                    "bioconductor-genomeinfodb >=1.34.0,<1.35.0",
+                    "bioconductor-genomicfeatures >=1.50.0,<1.51.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-plyranges >=1.18.0,<1.19.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=14.0.4",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1667988163710
+            },
+            "basename": "osx-64/bioconductor-busparse-1.12.0-r42hb890f52_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.12.0/osx-64/bioconductor-busparse-1.12.0-r42hb890f52_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.12.0/osx-64/bioconductor-busparse-1.12.0-r42hb890f52_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8ced46e9a07027f7868e58d40c5a1bc9",
+            "ndownloads": 436,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 868234,
+            "type": "conda",
+            "upload_time": "2022-11-09 10:04:51.642000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc247a5b_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.60.0,<1.61.0",
+                    "bioconductor-annotationfilter >=1.22.0,<1.23.0",
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biomart >=2.54.0,<2.55.0",
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-bsgenome >=1.66.0,<1.67.0",
+                    "bioconductor-ensembldb >=2.22.0,<2.23.0",
+                    "bioconductor-genomeinfodb >=1.34.0,<1.35.0",
+                    "bioconductor-genomicfeatures >=1.50.0,<1.51.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-plyranges >=1.18.0,<1.19.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1667988704548
+            },
+            "basename": "linux-64/bioconductor-busparse-1.12.0-r42hc247a5b_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.12.0/linux-64/bioconductor-busparse-1.12.0-r42hc247a5b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.12.0/linux-64/bioconductor-busparse-1.12.0-r42hc247a5b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6035ce11d8c0b0a53943814adbdb3e4a",
+            "ndownloads": 588,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 857436,
+            "type": "conda",
+            "upload_time": "2022-11-09 10:16:44.738000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hf17093f_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.60.0,<1.61.0",
+                    "bioconductor-annotationfilter >=1.22.0,<1.23.0",
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biomart >=2.54.0,<2.55.0",
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-bsgenome >=1.66.0,<1.67.0",
+                    "bioconductor-ensembldb >=2.22.0,<2.23.0",
+                    "bioconductor-genomeinfodb >=1.34.0,<1.35.0",
+                    "bioconductor-genomicfeatures >=1.50.0,<1.51.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-plyranges >=1.18.0,<1.19.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1684439783308
+            },
+            "basename": "linux-64/bioconductor-busparse-1.12.0-r42hf17093f_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.12.0/linux-64/bioconductor-busparse-1.12.0-r42hf17093f_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.12.0/linux-64/bioconductor-busparse-1.12.0-r42hf17093f_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "691f2ac7270a843212cbfbdc9a6ab3be",
+            "ndownloads": 1805,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 895107,
+            "type": "conda",
+            "upload_time": "2023-05-18 20:01:22.318000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc0ef7c4_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.60.0,<1.61.0",
+                    "bioconductor-annotationfilter >=1.22.0,<1.23.0",
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biomart >=2.54.0,<2.55.0",
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-bsgenome >=1.66.0,<1.67.0",
+                    "bioconductor-ensembldb >=2.22.0,<2.23.0",
+                    "bioconductor-genomeinfodb >=1.34.0,<1.35.0",
+                    "bioconductor-genomicfeatures >=1.50.0,<1.51.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-plyranges >=1.18.0,<1.19.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1685233303964
+            },
+            "basename": "osx-64/bioconductor-busparse-1.12.0-r42hc0ef7c4_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.12.0/osx-64/bioconductor-busparse-1.12.0-r42hc0ef7c4_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.12.0/osx-64/bioconductor-busparse-1.12.0-r42hc0ef7c4_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1da021292b4f5a5353219170157bf4f6",
+            "ndownloads": 1343,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 861149,
+            "type": "conda",
+            "upload_time": "2023-05-28 00:23:40.536000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hc0ef7c4_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.62.0,<1.63.0",
+                    "bioconductor-annotationfilter >=1.24.0,<1.25.0",
+                    "bioconductor-biocgenerics >=0.46.0,<0.47.0",
+                    "bioconductor-biomart >=2.56.0,<2.57.0",
+                    "bioconductor-biostrings >=2.68.0,<2.69.0",
+                    "bioconductor-bsgenome >=1.68.0,<1.69.0",
+                    "bioconductor-ensembldb >=2.24.0,<2.25.0",
+                    "bioconductor-genomeinfodb >=1.36.0,<1.37.0",
+                    "bioconductor-genomicfeatures >=1.52.0,<1.53.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-plyranges >=1.20.0,<1.21.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1689373517567
+            },
+            "basename": "osx-64/bioconductor-busparse-1.14.1-r43hc0ef7c4_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.14.1/osx-64/bioconductor-busparse-1.14.1-r43hc0ef7c4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.14.1/osx-64/bioconductor-busparse-1.14.1-r43hc0ef7c4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d0511bbd368777439144bb82c49b0041",
+            "ndownloads": 1244,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 857319,
+            "type": "conda",
+            "upload_time": "2023-07-14 22:27:09.747000+00:00",
+            "version": "1.14.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hf17093f_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.62.0,<1.63.0",
+                    "bioconductor-annotationfilter >=1.24.0,<1.25.0",
+                    "bioconductor-biocgenerics >=0.46.0,<0.47.0",
+                    "bioconductor-biomart >=2.56.0,<2.57.0",
+                    "bioconductor-biostrings >=2.68.0,<2.69.0",
+                    "bioconductor-bsgenome >=1.68.0,<1.69.0",
+                    "bioconductor-ensembldb >=2.24.0,<2.25.0",
+                    "bioconductor-genomeinfodb >=1.36.0,<1.37.0",
+                    "bioconductor-genomicfeatures >=1.52.0,<1.53.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-plyranges >=1.20.0,<1.21.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1689465165803
+            },
+            "basename": "linux-64/bioconductor-busparse-1.14.1-r43hf17093f_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.14.1/linux-64/bioconductor-busparse-1.14.1-r43hf17093f_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.14.1/linux-64/bioconductor-busparse-1.14.1-r43hf17093f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1471674bbbf42a62807af806a197bb89",
+            "ndownloads": 573,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 892933,
+            "type": "conda",
+            "upload_time": "2023-07-15 23:57:57.220000+00:00",
+            "version": "1.14.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hc0ef7c4_0",
+                "build_number": 0,
+                "depends": [
+                    "__osx >=10.9",
+                    "bioconductor-annotationdbi >=1.64.0,<1.65.0",
+                    "bioconductor-annotationdbi >=1.64.1,<1.65.0a0",
+                    "bioconductor-annotationfilter >=1.26.0,<1.27.0",
+                    "bioconductor-annotationfilter >=1.26.0,<1.27.0a0",
+                    "bioconductor-biocgenerics >=0.48.0,<0.49.0",
+                    "bioconductor-biocgenerics >=0.48.1,<0.49.0a0",
+                    "bioconductor-biomart >=2.58.0,<2.59.0",
+                    "bioconductor-biomart >=2.58.0,<2.59.0a0",
+                    "bioconductor-biostrings >=2.70.0,<2.71.0",
+                    "bioconductor-biostrings >=2.70.1,<2.71.0a0",
+                    "bioconductor-bsgenome >=1.70.0,<1.71.0",
+                    "bioconductor-bsgenome >=1.70.1,<1.71.0a0",
+                    "bioconductor-ensembldb >=2.26.0,<2.27.0",
+                    "bioconductor-ensembldb >=2.26.0,<2.27.0a0",
+                    "bioconductor-genomeinfodb >=1.38.0,<1.39.0",
+                    "bioconductor-genomeinfodb >=1.38.1,<1.39.0a0",
+                    "bioconductor-genomicfeatures >=1.54.0,<1.55.0",
+                    "bioconductor-genomicfeatures >=1.54.1,<1.55.0a0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-genomicranges >=1.54.1,<1.55.0a0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0a0",
+                    "bioconductor-plyranges >=1.22.0,<1.23.0",
+                    "bioconductor-plyranges >=1.22.0,<1.23.0a0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-s4vectors >=0.40.2,<0.41.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1702068584831
+            },
+            "basename": "osx-64/bioconductor-busparse-1.16.0-r43hc0ef7c4_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.16.0/osx-64/bioconductor-busparse-1.16.0-r43hc0ef7c4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.16.0/osx-64/bioconductor-busparse-1.16.0-r43hc0ef7c4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5d6f8e4864ffeae5ddcacdbe52d75834",
+            "ndownloads": 985,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 890835,
+            "type": "conda",
+            "upload_time": "2023-12-08 20:51:07.134000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hf17093f_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.64.0,<1.65.0",
+                    "bioconductor-annotationdbi >=1.64.1,<1.65.0a0",
+                    "bioconductor-annotationfilter >=1.26.0,<1.27.0",
+                    "bioconductor-annotationfilter >=1.26.0,<1.27.0a0",
+                    "bioconductor-biocgenerics >=0.48.0,<0.49.0",
+                    "bioconductor-biocgenerics >=0.48.1,<0.49.0a0",
+                    "bioconductor-biomart >=2.58.0,<2.59.0",
+                    "bioconductor-biomart >=2.58.0,<2.59.0a0",
+                    "bioconductor-biostrings >=2.70.0,<2.71.0",
+                    "bioconductor-biostrings >=2.70.1,<2.71.0a0",
+                    "bioconductor-bsgenome >=1.70.0,<1.71.0",
+                    "bioconductor-bsgenome >=1.70.1,<1.71.0a0",
+                    "bioconductor-ensembldb >=2.26.0,<2.27.0",
+                    "bioconductor-ensembldb >=2.26.0,<2.27.0a0",
+                    "bioconductor-genomeinfodb >=1.38.0,<1.39.0",
+                    "bioconductor-genomeinfodb >=1.38.1,<1.39.0a0",
+                    "bioconductor-genomicfeatures >=1.54.0,<1.55.0",
+                    "bioconductor-genomicfeatures >=1.54.1,<1.55.0a0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-genomicranges >=1.54.1,<1.55.0a0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0a0",
+                    "bioconductor-plyranges >=1.22.0,<1.23.0",
+                    "bioconductor-plyranges >=1.22.0,<1.23.0a0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-s4vectors >=0.40.2,<0.41.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1702151208234
+            },
+            "basename": "linux-64/bioconductor-busparse-1.16.0-r43hf17093f_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.16.0/linux-64/bioconductor-busparse-1.16.0-r43hf17093f_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.16.0/linux-64/bioconductor-busparse-1.16.0-r43hf17093f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4a1ac05a59071cbbeaab97ab5c7fe770",
+            "ndownloads": 2042,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 879095,
+            "type": "conda",
+            "upload_time": "2023-12-09 19:49:56.262000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h35d7169_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0a0",
+                    "bioconductor-annotationfilter >=1.30.0,<1.31.0",
+                    "bioconductor-annotationfilter >=1.30.0,<1.31.0a0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0a0",
+                    "bioconductor-biomart >=2.62.0,<2.63.0",
+                    "bioconductor-biomart >=2.62.0,<2.63.0a0",
+                    "bioconductor-biostrings >=2.74.0,<2.75.0",
+                    "bioconductor-biostrings >=2.74.0,<2.75.0a0",
+                    "bioconductor-bsgenome >=1.74.0,<1.75.0",
+                    "bioconductor-bsgenome >=1.74.0,<1.75.0a0",
+                    "bioconductor-ensembldb >=2.30.0,<2.31.0",
+                    "bioconductor-ensembldb >=2.30.0,<2.31.0a0",
+                    "bioconductor-genomeinfodb >=1.42.0,<1.43.0",
+                    "bioconductor-genomeinfodb >=1.42.0,<1.43.0a0",
+                    "bioconductor-genomicfeatures >=1.58.0,<1.59.0",
+                    "bioconductor-genomicfeatures >=1.58.0,<1.59.0a0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0a0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0a0",
+                    "bioconductor-plyranges >=1.26.0,<1.27.0",
+                    "bioconductor-plyranges >=1.26.0,<1.27.0a0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=18",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1735924596261
+            },
+            "basename": "osx-64/bioconductor-busparse-1.20.0-r44h35d7169_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.20.0/osx-64/bioconductor-busparse-1.20.0-r44h35d7169_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.20.0/osx-64/bioconductor-busparse-1.20.0-r44h35d7169_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d61d46c85e95f52664f1adca32e71bae",
+            "ndownloads": 198,
+            "owner": "bioconda",
+            "sha256": "01703242ce0d97aecad0ed10684a8e6c14d9346d06894b991f0b538415476718",
+            "size": 975520,
+            "type": "conda",
+            "upload_time": "2025-01-03 17:18:39.138000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44he5774e6_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0a0",
+                    "bioconductor-annotationfilter >=1.30.0,<1.31.0",
+                    "bioconductor-annotationfilter >=1.30.0,<1.31.0a0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0a0",
+                    "bioconductor-biomart >=2.62.0,<2.63.0",
+                    "bioconductor-biomart >=2.62.0,<2.63.0a0",
+                    "bioconductor-biostrings >=2.74.0,<2.75.0",
+                    "bioconductor-biostrings >=2.74.0,<2.75.0a0",
+                    "bioconductor-bsgenome >=1.74.0,<1.75.0",
+                    "bioconductor-bsgenome >=1.74.0,<1.75.0a0",
+                    "bioconductor-ensembldb >=2.30.0,<2.31.0",
+                    "bioconductor-ensembldb >=2.30.0,<2.31.0a0",
+                    "bioconductor-genomeinfodb >=1.42.0,<1.43.0",
+                    "bioconductor-genomeinfodb >=1.42.0,<1.43.0a0",
+                    "bioconductor-genomicfeatures >=1.58.0,<1.59.0",
+                    "bioconductor-genomicfeatures >=1.58.0,<1.59.0a0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0a0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0a0",
+                    "bioconductor-plyranges >=1.26.0,<1.27.0",
+                    "bioconductor-plyranges >=1.26.0,<1.27.0a0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx >=13",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-bh",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppprogress",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-zeallot"
+                ],
+                "has_prefix": false,
+                "license": "BSD_2_clause + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1735927670666
+            },
+            "basename": "linux-64/bioconductor-busparse-1.20.0-r44he5774e6_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-busparse/1.20.0/linux-64/bioconductor-busparse-1.20.0-r44he5774e6_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-busparse/1.20.0/linux-64/bioconductor-busparse-1.20.0-r44he5774e6_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f3a19d4d6e6c63161ef4222f62249c7b",
+            "ndownloads": 157,
+            "owner": "bioconda",
+            "sha256": "81410fdebe29d98e83467c8dfdf4150d83e2c6e1eb317f206c5b588e7614124b",
+            "size": 926927,
+            "type": "conda",
+            "upload_time": "2025-01-03 18:10:26.900000+00:00",
+            "version": "1.20.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-busparse",
+    "home": "https://bioconductor.org/packages/3.10/bioc/html/BUSpaRse.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-busparse",
+    "id": "5dbc574678705870133af302",
+    "latest_version": "1.20.0",
+    "license": "BSD_2_clause + file LICENSE",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:19.867000+00:00",
+    "name": "bioconductor-busparse",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.20.0",
+        "osx-64": "1.20.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-busparse/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-busparse/1.2.1",
+            "version": "1.2.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-busparse/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-busparse/1.4.2",
+            "version": "1.4.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-busparse/1.5.3",
+            "version": "1.5.3"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-busparse/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-busparse/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-busparse/1.14.1",
+            "version": "1.14.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-busparse/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-busparse/1.20.0",
+            "version": "1.20.0"
+        }
+    ],
+    "revision": 22,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "kallisto | bustools R utilities",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-busparse",
+    "versions": [
+        "1.0.0",
+        "1.2.1",
+        "1.4.0",
+        "1.4.2",
+        "1.5.3",
+        "1.8.0",
+        "1.12.0",
+        "1.14.1",
+        "1.16.0",
+        "1.20.0"
+    ],
+    "watchers": 1
+}

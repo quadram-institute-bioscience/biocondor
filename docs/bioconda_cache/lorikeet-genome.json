@@ -1,0 +1,2937 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "h9eda3c7_0",
+        "haf990a0_0",
+        "h8e1a5b0_0",
+        "h28a2364_0",
+        "h9eda3c7_1",
+        "h7826b6f_0",
+        "h28a2364_1"
+    ],
+    "conda_platforms": [
+        "linux-64"
+    ],
+    "created_at": "2020-05-27 05:47:19.161000+00:00",
+    "description": "Lorikeet aims to call variants in metagenomes using local reassembly of haplotypes.",
+    "dev_url": null,
+    "doc_url": "https://rhysnewell.github.io/Lorikeet/",
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h7826b6f_0",
+                "build_number": 0,
+                "depends": [
+                    "bwa >=0.7.17",
+                    "dashing",
+                    "fastani",
+                    "gsl >=2.6,<2.7.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "libstdcxx-ng >=7.5.0",
+                    "minimap2",
+                    "openblas >=0.3.6,<0.3.7.0a0",
+                    "openssl >=1.1.1g,<1.1.2a",
+                    "snippy >=4.4.5",
+                    "starcode",
+                    "svim",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1590542446510
+            },
+            "basename": "linux-64/lorikeet-genome-0.3.2-h7826b6f_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bwa",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.7.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "dashing",
+                        "specs": []
+                    },
+                    {
+                        "name": "fastani",
+                        "specs": []
+                    },
+                    {
+                        "name": "gsl",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6,<2.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "minimap2",
+                        "specs": []
+                    },
+                    {
+                        "name": "openblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.6,<0.3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.1g,<1.1.2a"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "snippy",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.4.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "starcode",
+                        "specs": []
+                    },
+                    {
+                        "name": "svim",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lorikeet-genome/0.3.2/linux-64/lorikeet-genome-0.3.2-h7826b6f_0.tar.bz2",
+            "full_name": "bioconda/lorikeet-genome/0.3.2/linux-64/lorikeet-genome-0.3.2-h7826b6f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b732e343dab27f51dc14911b2bc72a0a",
+            "ndownloads": 3596,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2810951,
+            "type": "conda",
+            "upload_time": "2020-05-27 05:47:19.934000+00:00",
+            "version": "0.3.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h7826b6f_0",
+                "build_number": 0,
+                "depends": [
+                    "bcftools",
+                    "bwa >=0.7.17",
+                    "dashing",
+                    "fastani",
+                    "freebayes >=1.3.2",
+                    "gsl >=2.6,<2.7.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "libstdcxx-ng >=7.5.0",
+                    "minimap2",
+                    "ngmlr",
+                    "openblas >=0.3.6,<0.3.7.0a0",
+                    "openssl >=1.1.1g,<1.1.2a",
+                    "parallel",
+                    "pysam >=0.16",
+                    "starcode",
+                    "svim",
+                    "vt",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1593128622449
+            },
+            "basename": "linux-64/lorikeet-genome-0.3.4-h7826b6f_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bcftools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bwa",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.7.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "dashing",
+                        "specs": []
+                    },
+                    {
+                        "name": "fastani",
+                        "specs": []
+                    },
+                    {
+                        "name": "freebayes",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "gsl",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6,<2.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "minimap2",
+                        "specs": []
+                    },
+                    {
+                        "name": "ngmlr",
+                        "specs": []
+                    },
+                    {
+                        "name": "openblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.6,<0.3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.1g,<1.1.2a"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "parallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.16"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "starcode",
+                        "specs": []
+                    },
+                    {
+                        "name": "svim",
+                        "specs": []
+                    },
+                    {
+                        "name": "vt",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lorikeet-genome/0.3.4/linux-64/lorikeet-genome-0.3.4-h7826b6f_0.tar.bz2",
+            "full_name": "bioconda/lorikeet-genome/0.3.4/linux-64/lorikeet-genome-0.3.4-h7826b6f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "afba6a6354f28afec16495ec5605d3ed",
+            "ndownloads": 3535,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4705720,
+            "type": "conda",
+            "upload_time": "2020-06-26 07:04:00.682000+00:00",
+            "version": "0.3.4"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h7826b6f_0",
+                "build_number": 0,
+                "depends": [
+                    "bcftools",
+                    "bwa >=0.7.17",
+                    "dashing",
+                    "fastani",
+                    "freebayes >=1.3.2",
+                    "gsl >=2.6,<2.7.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "libstdcxx-ng >=7.5.0",
+                    "minimap2",
+                    "ngmlr",
+                    "openblas >=0.3.6,<0.3.7.0a0",
+                    "openssl >=1.1.1g,<1.1.2a",
+                    "parallel",
+                    "prokka",
+                    "pysam >=0.16",
+                    "r-base",
+                    "samtools",
+                    "starcode",
+                    "svim",
+                    "vt",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1594536992109
+            },
+            "basename": "linux-64/lorikeet-genome-0.3.5-h7826b6f_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bcftools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bwa",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.7.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "dashing",
+                        "specs": []
+                    },
+                    {
+                        "name": "fastani",
+                        "specs": []
+                    },
+                    {
+                        "name": "freebayes",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "gsl",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6,<2.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "minimap2",
+                        "specs": []
+                    },
+                    {
+                        "name": "ngmlr",
+                        "specs": []
+                    },
+                    {
+                        "name": "openblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.6,<0.3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.1g,<1.1.2a"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "parallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "prokka",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.16"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "starcode",
+                        "specs": []
+                    },
+                    {
+                        "name": "svim",
+                        "specs": []
+                    },
+                    {
+                        "name": "vt",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lorikeet-genome/0.3.5/linux-64/lorikeet-genome-0.3.5-h7826b6f_0.tar.bz2",
+            "full_name": "bioconda/lorikeet-genome/0.3.5/linux-64/lorikeet-genome-0.3.5-h7826b6f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d04ff0ee17547ba9dad2d3f936701b9a",
+            "ndownloads": 3494,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4738394,
+            "type": "conda",
+            "upload_time": "2020-07-14 04:52:05.632000+00:00",
+            "version": "0.3.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h7826b6f_0",
+                "build_number": 0,
+                "depends": [
+                    "bcftools",
+                    "bwa >=0.7.17",
+                    "dashing",
+                    "fastani",
+                    "freebayes >=1.3.2",
+                    "gsl >=2.6,<2.7.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "libstdcxx-ng >=7.5.0",
+                    "minimap2",
+                    "ngmlr",
+                    "openblas >=0.3.6,<0.3.7.0a0",
+                    "openssl >=1.1.1g,<1.1.2a",
+                    "parallel",
+                    "prokka",
+                    "pysam >=0.16",
+                    "r-base",
+                    "samtools",
+                    "starcode",
+                    "svim",
+                    "vt",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1595476523563
+            },
+            "basename": "linux-64/lorikeet-genome-0.3.6-h7826b6f_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bcftools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bwa",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.7.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "dashing",
+                        "specs": []
+                    },
+                    {
+                        "name": "fastani",
+                        "specs": []
+                    },
+                    {
+                        "name": "freebayes",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "gsl",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6,<2.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "minimap2",
+                        "specs": []
+                    },
+                    {
+                        "name": "ngmlr",
+                        "specs": []
+                    },
+                    {
+                        "name": "openblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.6,<0.3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.1g,<1.1.2a"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "parallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "prokka",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.16"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "starcode",
+                        "specs": []
+                    },
+                    {
+                        "name": "svim",
+                        "specs": []
+                    },
+                    {
+                        "name": "vt",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lorikeet-genome/0.3.6/linux-64/lorikeet-genome-0.3.6-h7826b6f_0.tar.bz2",
+            "full_name": "bioconda/lorikeet-genome/0.3.6/linux-64/lorikeet-genome-0.3.6-h7826b6f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7feecc14ca5901c04664ea29d52046f0",
+            "ndownloads": 333,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4805057,
+            "type": "conda",
+            "upload_time": "2020-07-23 07:16:45.138000+00:00",
+            "version": "0.3.6"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h9eda3c7_1",
+                "build_number": 1,
+                "depends": [
+                    "bcftools",
+                    "bwa >=0.7.17",
+                    "dashing",
+                    "fastani",
+                    "freebayes >=1.3.2",
+                    "gsl >=2.6,<2.7.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "libstdcxx-ng >=7.5.0",
+                    "minimap2",
+                    "ngmlr",
+                    "openblas",
+                    "openssl >=1.1.1g,<1.1.2a",
+                    "parallel",
+                    "prokka",
+                    "pysam >=0.16",
+                    "r-base",
+                    "samtools",
+                    "starcode",
+                    "svim",
+                    "vt",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1598913965049
+            },
+            "basename": "linux-64/lorikeet-genome-0.3.6-h9eda3c7_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bcftools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bwa",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.7.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "dashing",
+                        "specs": []
+                    },
+                    {
+                        "name": "fastani",
+                        "specs": []
+                    },
+                    {
+                        "name": "freebayes",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "gsl",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6,<2.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "minimap2",
+                        "specs": []
+                    },
+                    {
+                        "name": "ngmlr",
+                        "specs": []
+                    },
+                    {
+                        "name": "openblas",
+                        "specs": []
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.1g,<1.1.2a"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "parallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "prokka",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.16"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "starcode",
+                        "specs": []
+                    },
+                    {
+                        "name": "svim",
+                        "specs": []
+                    },
+                    {
+                        "name": "vt",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lorikeet-genome/0.3.6/linux-64/lorikeet-genome-0.3.6-h9eda3c7_1.tar.bz2",
+            "full_name": "bioconda/lorikeet-genome/0.3.6/linux-64/lorikeet-genome-0.3.6-h9eda3c7_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "34d6b9ba148bc1af0a1b777d8c03cc58",
+            "ndownloads": 3389,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4815691,
+            "type": "conda",
+            "upload_time": "2020-08-31 23:03:58.327000+00:00",
+            "version": "0.3.6"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h9eda3c7_0",
+                "build_number": 0,
+                "depends": [
+                    "bcftools",
+                    "bwa >=0.7.17",
+                    "dashing",
+                    "fastani",
+                    "freebayes >=1.3.2",
+                    "gsl >=2.6,<2.7.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "libstdcxx-ng >=7.5.0",
+                    "minimap2",
+                    "ngmlr",
+                    "openblas",
+                    "openssl >=1.1.1g,<1.1.2a",
+                    "parallel",
+                    "prokka",
+                    "pysam >=0.16",
+                    "r-base",
+                    "samtools",
+                    "starcode",
+                    "svim",
+                    "vt",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1599023083136
+            },
+            "basename": "linux-64/lorikeet-genome-0.3.7-h9eda3c7_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bcftools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bwa",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.7.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "dashing",
+                        "specs": []
+                    },
+                    {
+                        "name": "fastani",
+                        "specs": []
+                    },
+                    {
+                        "name": "freebayes",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "gsl",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6,<2.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "minimap2",
+                        "specs": []
+                    },
+                    {
+                        "name": "ngmlr",
+                        "specs": []
+                    },
+                    {
+                        "name": "openblas",
+                        "specs": []
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.1g,<1.1.2a"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "parallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "prokka",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.16"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "starcode",
+                        "specs": []
+                    },
+                    {
+                        "name": "svim",
+                        "specs": []
+                    },
+                    {
+                        "name": "vt",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lorikeet-genome/0.3.7/linux-64/lorikeet-genome-0.3.7-h9eda3c7_0.tar.bz2",
+            "full_name": "bioconda/lorikeet-genome/0.3.7/linux-64/lorikeet-genome-0.3.7-h9eda3c7_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c78eedbc7298ac99dc420b9e18db42d9",
+            "ndownloads": 257,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5212981,
+            "type": "conda",
+            "upload_time": "2020-09-02 08:26:33.020000+00:00",
+            "version": "0.3.7"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h9eda3c7_1",
+                "build_number": 1,
+                "depends": [
+                    "bcftools",
+                    "bwa >=0.7.17",
+                    "dashing",
+                    "fastani",
+                    "freebayes >=1.3.2",
+                    "gsl >=2.6,<2.7.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "libstdcxx-ng >=7.5.0",
+                    "minimap2",
+                    "ngmlr",
+                    "openblas",
+                    "openssl >=1.1.1g,<1.1.2a",
+                    "parallel",
+                    "prokka",
+                    "pysam >=0.16",
+                    "r-base",
+                    "samtools",
+                    "starcode",
+                    "svim",
+                    "vt",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1599051054500
+            },
+            "basename": "linux-64/lorikeet-genome-0.3.7-h9eda3c7_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bcftools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bwa",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.7.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "dashing",
+                        "specs": []
+                    },
+                    {
+                        "name": "fastani",
+                        "specs": []
+                    },
+                    {
+                        "name": "freebayes",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "gsl",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6,<2.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "minimap2",
+                        "specs": []
+                    },
+                    {
+                        "name": "ngmlr",
+                        "specs": []
+                    },
+                    {
+                        "name": "openblas",
+                        "specs": []
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.1g,<1.1.2a"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "parallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "prokka",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.16"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "starcode",
+                        "specs": []
+                    },
+                    {
+                        "name": "svim",
+                        "specs": []
+                    },
+                    {
+                        "name": "vt",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lorikeet-genome/0.3.7/linux-64/lorikeet-genome-0.3.7-h9eda3c7_1.tar.bz2",
+            "full_name": "bioconda/lorikeet-genome/0.3.7/linux-64/lorikeet-genome-0.3.7-h9eda3c7_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ee64b2b3dc4008a4c3391d8b9befb886",
+            "ndownloads": 3397,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5221484,
+            "type": "conda",
+            "upload_time": "2020-09-02 13:10:42.822000+00:00",
+            "version": "0.3.7"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h9eda3c7_0",
+                "build_number": 0,
+                "depends": [
+                    "bcftools",
+                    "bwa >=0.7.17",
+                    "dashing",
+                    "fastani",
+                    "freebayes",
+                    "gsl >=2.6,<2.7.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "libstdcxx-ng >=7.5.0",
+                    "minimap2",
+                    "ngmlr",
+                    "openblas",
+                    "openssl >=1.1.1h,<1.1.2a",
+                    "parallel",
+                    "prodigal",
+                    "pysam >=0.16",
+                    "r-base",
+                    "samtools 1.9.*",
+                    "starcode",
+                    "svim",
+                    "vt",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1601977725321
+            },
+            "basename": "linux-64/lorikeet-genome-0.4.0-h9eda3c7_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bcftools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bwa",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.7.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "dashing",
+                        "specs": []
+                    },
+                    {
+                        "name": "fastani",
+                        "specs": []
+                    },
+                    {
+                        "name": "freebayes",
+                        "specs": []
+                    },
+                    {
+                        "name": "gsl",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6,<2.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "minimap2",
+                        "specs": []
+                    },
+                    {
+                        "name": "ngmlr",
+                        "specs": []
+                    },
+                    {
+                        "name": "openblas",
+                        "specs": []
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.1h,<1.1.2a"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "parallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.16"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.9."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "starcode",
+                        "specs": []
+                    },
+                    {
+                        "name": "svim",
+                        "specs": []
+                    },
+                    {
+                        "name": "vt",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lorikeet-genome/0.4.0/linux-64/lorikeet-genome-0.4.0-h9eda3c7_0.tar.bz2",
+            "full_name": "bioconda/lorikeet-genome/0.4.0/linux-64/lorikeet-genome-0.4.0-h9eda3c7_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "222f8590caf0edb812fc1db7ae83f823",
+            "ndownloads": 3306,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5436458,
+            "type": "conda",
+            "upload_time": "2020-10-06 20:42:40.126000+00:00",
+            "version": "0.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h9eda3c7_0",
+                "build_number": 0,
+                "depends": [
+                    "bcftools",
+                    "bwa >=0.7.17",
+                    "dashing",
+                    "fastani",
+                    "freebayes",
+                    "gsl >=2.6,<2.7.0a0",
+                    "hdbscan",
+                    "libgcc-ng >=7.5.0",
+                    "libstdcxx-ng >=7.5.0",
+                    "matplotlib-base",
+                    "minimap2",
+                    "ngmlr",
+                    "numpy",
+                    "openblas",
+                    "openssl >=1.1.1h,<1.1.2a",
+                    "parallel",
+                    "prodigal",
+                    "pysam >=0.16",
+                    "python 3.7.*",
+                    "r-base",
+                    "samtools 1.9.*",
+                    "scikit-bio",
+                    "scikit-learn",
+                    "seaborn",
+                    "starcode",
+                    "svim",
+                    "umap-learn",
+                    "vt",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1605239863534
+            },
+            "basename": "linux-64/lorikeet-genome-0.5.0-h9eda3c7_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bcftools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bwa",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.7.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "dashing",
+                        "specs": []
+                    },
+                    {
+                        "name": "fastani",
+                        "specs": []
+                    },
+                    {
+                        "name": "freebayes",
+                        "specs": []
+                    },
+                    {
+                        "name": "gsl",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6,<2.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "hdbscan",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "matplotlib-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "minimap2",
+                        "specs": []
+                    },
+                    {
+                        "name": "ngmlr",
+                        "specs": []
+                    },
+                    {
+                        "name": "numpy",
+                        "specs": []
+                    },
+                    {
+                        "name": "openblas",
+                        "specs": []
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.1h,<1.1.2a"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "parallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.16"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                "==",
+                                "3.7."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.9."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "scikit-bio",
+                        "specs": []
+                    },
+                    {
+                        "name": "scikit-learn",
+                        "specs": []
+                    },
+                    {
+                        "name": "seaborn",
+                        "specs": []
+                    },
+                    {
+                        "name": "starcode",
+                        "specs": []
+                    },
+                    {
+                        "name": "svim",
+                        "specs": []
+                    },
+                    {
+                        "name": "umap-learn",
+                        "specs": []
+                    },
+                    {
+                        "name": "vt",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lorikeet-genome/0.5.0/linux-64/lorikeet-genome-0.5.0-h9eda3c7_0.tar.bz2",
+            "full_name": "bioconda/lorikeet-genome/0.5.0/linux-64/lorikeet-genome-0.5.0-h9eda3c7_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bfd06cf5c5fde1bf2fe363e45f8f5d00",
+            "ndownloads": 3229,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5722639,
+            "type": "conda",
+            "upload_time": "2020-11-13 07:28:57.862000+00:00",
+            "version": "0.5.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "haf990a0_0",
+                "build_number": 0,
+                "depends": [
+                    "bcftools",
+                    "bwa >=0.7.17",
+                    "dashing",
+                    "fastani",
+                    "gsl >=2.7,<2.8.0a0",
+                    "htslib >=1.15.1,<1.16.0a0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "libstdcxx-ng >=10.3.0",
+                    "libzlib >=1.2.11,<1.3.0a0",
+                    "matplotlib-base",
+                    "minimap2",
+                    "ngmlr",
+                    "numpy",
+                    "openssl >=1.1.1o,<1.1.2a",
+                    "parallel",
+                    "prodigal",
+                    "pysam >=0.16",
+                    "python >=3.9",
+                    "samtools >=1.9",
+                    "scikit-bio",
+                    "scikit-learn",
+                    "seaborn",
+                    "starcode",
+                    "svim",
+                    "vt",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1651809897584
+            },
+            "basename": "linux-64/lorikeet-genome-0.6.6-haf990a0_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bcftools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bwa",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.7.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "dashing",
+                        "specs": []
+                    },
+                    {
+                        "name": "fastani",
+                        "specs": []
+                    },
+                    {
+                        "name": "gsl",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.7,<2.8.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.15.1,<1.16.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "matplotlib-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "minimap2",
+                        "specs": []
+                    },
+                    {
+                        "name": "ngmlr",
+                        "specs": []
+                    },
+                    {
+                        "name": "numpy",
+                        "specs": []
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.1o,<1.1.2a"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "parallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.16"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "scikit-bio",
+                        "specs": []
+                    },
+                    {
+                        "name": "scikit-learn",
+                        "specs": []
+                    },
+                    {
+                        "name": "seaborn",
+                        "specs": []
+                    },
+                    {
+                        "name": "starcode",
+                        "specs": []
+                    },
+                    {
+                        "name": "svim",
+                        "specs": []
+                    },
+                    {
+                        "name": "vt",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lorikeet-genome/0.6.6/linux-64/lorikeet-genome-0.6.6-haf990a0_0.tar.bz2",
+            "full_name": "bioconda/lorikeet-genome/0.6.6/linux-64/lorikeet-genome-0.6.6-haf990a0_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5d1a14ecbb4472cbb99cbc59e8764a63",
+            "ndownloads": 2139,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 6256750,
+            "type": "conda",
+            "upload_time": "2022-05-09 07:39:40.132000+00:00",
+            "version": "0.6.6"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "haf990a0_0",
+                "build_number": 0,
+                "depends": [
+                    "bcftools",
+                    "bwa >=0.7.17",
+                    "dashing",
+                    "fastani",
+                    "gsl >=2.7,<2.8.0a0",
+                    "htslib >=1.15.1,<1.16.0a0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "libstdcxx-ng >=12",
+                    "libzlib >=1.2.12,<1.3.0a0",
+                    "matplotlib-base",
+                    "minimap2",
+                    "ngmlr",
+                    "numpy",
+                    "openssl >=1.1.1p,<1.1.2a",
+                    "parallel",
+                    "prodigal",
+                    "pysam >=0.16",
+                    "python >=3.9",
+                    "samtools >=1.9",
+                    "scikit-bio",
+                    "scikit-learn",
+                    "seaborn",
+                    "starcode",
+                    "svim",
+                    "vt",
+                    "zlib >=1.2.12,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1656907025855
+            },
+            "basename": "linux-64/lorikeet-genome-0.7.0-haf990a0_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bcftools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bwa",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.7.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "dashing",
+                        "specs": []
+                    },
+                    {
+                        "name": "fastani",
+                        "specs": []
+                    },
+                    {
+                        "name": "gsl",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.7,<2.8.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.15.1,<1.16.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.12,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "matplotlib-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "minimap2",
+                        "specs": []
+                    },
+                    {
+                        "name": "ngmlr",
+                        "specs": []
+                    },
+                    {
+                        "name": "numpy",
+                        "specs": []
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.1p,<1.1.2a"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "parallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.16"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "scikit-bio",
+                        "specs": []
+                    },
+                    {
+                        "name": "scikit-learn",
+                        "specs": []
+                    },
+                    {
+                        "name": "seaborn",
+                        "specs": []
+                    },
+                    {
+                        "name": "starcode",
+                        "specs": []
+                    },
+                    {
+                        "name": "svim",
+                        "specs": []
+                    },
+                    {
+                        "name": "vt",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.12,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lorikeet-genome/0.7.0/linux-64/lorikeet-genome-0.7.0-haf990a0_0.tar.bz2",
+            "full_name": "bioconda/lorikeet-genome/0.7.0/linux-64/lorikeet-genome-0.7.0-haf990a0_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4b198424db8a6ff5bbee1de2b49ba383",
+            "ndownloads": 2016,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 6400039,
+            "type": "conda",
+            "upload_time": "2022-07-04 06:30:10.990000+00:00",
+            "version": "0.7.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "haf990a0_0",
+                "build_number": 0,
+                "depends": [
+                    "bcftools",
+                    "bwa >=0.7.17",
+                    "dashing",
+                    "fastani",
+                    "gsl >=2.7,<2.8.0a0",
+                    "htslib >=1.15.1,<1.16.0a0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "libstdcxx-ng >=12",
+                    "libzlib >=1.2.12,<1.3.0a0",
+                    "matplotlib-base",
+                    "minimap2",
+                    "ngmlr",
+                    "numpy",
+                    "openssl >=1.1.1q,<1.1.2a",
+                    "parallel",
+                    "prodigal",
+                    "pysam >=0.16",
+                    "python >=3.9",
+                    "samtools >=1.9",
+                    "scikit-bio",
+                    "scikit-learn",
+                    "seaborn",
+                    "starcode",
+                    "svim",
+                    "vt",
+                    "zlib >=1.2.12,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1658110587466
+            },
+            "basename": "linux-64/lorikeet-genome-0.7.1-haf990a0_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bcftools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bwa",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.7.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "dashing",
+                        "specs": []
+                    },
+                    {
+                        "name": "fastani",
+                        "specs": []
+                    },
+                    {
+                        "name": "gsl",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.7,<2.8.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.15.1,<1.16.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.12,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "matplotlib-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "minimap2",
+                        "specs": []
+                    },
+                    {
+                        "name": "ngmlr",
+                        "specs": []
+                    },
+                    {
+                        "name": "numpy",
+                        "specs": []
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.1q,<1.1.2a"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "parallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.16"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "scikit-bio",
+                        "specs": []
+                    },
+                    {
+                        "name": "scikit-learn",
+                        "specs": []
+                    },
+                    {
+                        "name": "seaborn",
+                        "specs": []
+                    },
+                    {
+                        "name": "starcode",
+                        "specs": []
+                    },
+                    {
+                        "name": "svim",
+                        "specs": []
+                    },
+                    {
+                        "name": "vt",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.12,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lorikeet-genome/0.7.1/linux-64/lorikeet-genome-0.7.1-haf990a0_0.tar.bz2",
+            "full_name": "bioconda/lorikeet-genome/0.7.1/linux-64/lorikeet-genome-0.7.1-haf990a0_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "703990451d492df1ffc51968dbcc0d1a",
+            "ndownloads": 1992,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 6407536,
+            "type": "conda",
+            "upload_time": "2022-07-19 03:06:34.764000+00:00",
+            "version": "0.7.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "haf990a0_0",
+                "build_number": 0,
+                "depends": [
+                    "bcftools",
+                    "bwa >=0.7.17",
+                    "dashing",
+                    "fastani",
+                    "gsl >=2.7,<2.8.0a0",
+                    "htslib >=1.15.1,<1.16.0a0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "libstdcxx-ng >=12",
+                    "libzlib >=1.2.12,<1.3.0a0",
+                    "matplotlib-base",
+                    "minimap2",
+                    "ngmlr",
+                    "numpy",
+                    "openssl >=1.1.1q,<1.1.2a",
+                    "parallel",
+                    "polars",
+                    "prodigal",
+                    "python >=3.9",
+                    "samtools >=1.9",
+                    "scikit-allel",
+                    "scipy",
+                    "starcode",
+                    "svim",
+                    "vt",
+                    "zlib >=1.2.12,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1661504520761
+            },
+            "basename": "linux-64/lorikeet-genome-0.7.2-haf990a0_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bcftools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bwa",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.7.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "dashing",
+                        "specs": []
+                    },
+                    {
+                        "name": "fastani",
+                        "specs": []
+                    },
+                    {
+                        "name": "gsl",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.7,<2.8.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.15.1,<1.16.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.12,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "matplotlib-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "minimap2",
+                        "specs": []
+                    },
+                    {
+                        "name": "ngmlr",
+                        "specs": []
+                    },
+                    {
+                        "name": "numpy",
+                        "specs": []
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.1q,<1.1.2a"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "parallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "polars",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "scikit-allel",
+                        "specs": []
+                    },
+                    {
+                        "name": "scipy",
+                        "specs": []
+                    },
+                    {
+                        "name": "starcode",
+                        "specs": []
+                    },
+                    {
+                        "name": "svim",
+                        "specs": []
+                    },
+                    {
+                        "name": "vt",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.12,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lorikeet-genome/0.7.2/linux-64/lorikeet-genome-0.7.2-haf990a0_0.tar.bz2",
+            "full_name": "bioconda/lorikeet-genome/0.7.2/linux-64/lorikeet-genome-0.7.2-haf990a0_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "91d8f529a0f461f1bfabaaff3dd2eec5",
+            "ndownloads": 1930,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 6421103,
+            "type": "conda",
+            "upload_time": "2022-08-26 09:53:40.850000+00:00",
+            "version": "0.7.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h28a2364_1",
+                "build_number": 1,
+                "depends": [
+                    "bcftools",
+                    "bwa >=0.7.17",
+                    "dashing",
+                    "fastani",
+                    "gsl >=2.7,<2.8.0a0",
+                    "htslib >=1.16,<1.17.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "libstdcxx-ng >=12",
+                    "libzlib >=1.2.12,<1.3.0a0",
+                    "matplotlib-base",
+                    "minimap2",
+                    "ngmlr",
+                    "numpy",
+                    "openssl >=1.1.1q,<1.1.2a",
+                    "parallel",
+                    "polars",
+                    "prodigal",
+                    "python >=3.9",
+                    "samtools >=1.9",
+                    "scikit-allel",
+                    "scipy",
+                    "starcode",
+                    "svim",
+                    "vt",
+                    "zlib >=1.2.12,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1664179319628
+            },
+            "basename": "linux-64/lorikeet-genome-0.7.2-h28a2364_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lorikeet-genome/0.7.2/linux-64/lorikeet-genome-0.7.2-h28a2364_1.tar.bz2",
+            "full_name": "bioconda/lorikeet-genome/0.7.2/linux-64/lorikeet-genome-0.7.2-h28a2364_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f688e61c88fbd50e764af2e30258f8d1",
+            "ndownloads": 190,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 6432364,
+            "type": "conda",
+            "upload_time": "2022-09-26 08:08:51.158000+00:00",
+            "version": "0.7.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h28a2364_0",
+                "build_number": 0,
+                "depends": [
+                    "bcftools",
+                    "bwa >=0.7.17",
+                    "bwa-mem2 >=2.2.1",
+                    "dashing",
+                    "fastani",
+                    "gsl >=2.7,<2.8.0a0",
+                    "htslib >=1.16,<1.17.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "libstdcxx-ng >=12",
+                    "libzlib >=1.2.12,<1.3.0a0",
+                    "matplotlib-base",
+                    "minimap2",
+                    "ngmlr",
+                    "numpy",
+                    "openssl >=1.1.1q,<1.1.2a",
+                    "parallel",
+                    "polars",
+                    "prodigal",
+                    "python >=3.9",
+                    "samtools >=1.9",
+                    "scikit-allel",
+                    "scipy",
+                    "starcode",
+                    "svim",
+                    "vt",
+                    "zlib >=1.2.12,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1665014359430
+            },
+            "basename": "linux-64/lorikeet-genome-0.7.3-h28a2364_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lorikeet-genome/0.7.3/linux-64/lorikeet-genome-0.7.3-h28a2364_0.tar.bz2",
+            "full_name": "bioconda/lorikeet-genome/0.7.3/linux-64/lorikeet-genome-0.7.3-h28a2364_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d18a8c2ff253ccf69f2e28c81253b3d9",
+            "ndownloads": 183,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2802602,
+            "type": "conda",
+            "upload_time": "2022-10-06 19:54:25.547000+00:00",
+            "version": "0.7.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h28a2364_1",
+                "build_number": 1,
+                "depends": [
+                    "bcftools",
+                    "bwa >=0.7.17",
+                    "bwa-mem2 >=2.2.1",
+                    "dashing",
+                    "fastani",
+                    "gsl >=2.7,<2.8.0a0",
+                    "htslib >=1.16,<1.17.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "libstdcxx-ng >=12",
+                    "libzlib >=1.2.12,<1.3.0a0",
+                    "matplotlib-base",
+                    "minimap2",
+                    "ngmlr",
+                    "numpy",
+                    "openssl >=1.1.1q,<1.1.2a",
+                    "parallel",
+                    "polars",
+                    "prodigal",
+                    "python >=3.9",
+                    "samtools >=1.9",
+                    "scikit-allel",
+                    "scipy",
+                    "starcode",
+                    "svim",
+                    "vt",
+                    "zlib >=1.2.12,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1665432205515
+            },
+            "basename": "linux-64/lorikeet-genome-0.7.3-h28a2364_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lorikeet-genome/0.7.3/linux-64/lorikeet-genome-0.7.3-h28a2364_1.tar.bz2",
+            "full_name": "bioconda/lorikeet-genome/0.7.3/linux-64/lorikeet-genome-0.7.3-h28a2364_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bd45b2cb0aa33922f2700af9742c40a2",
+            "ndownloads": 1920,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2803434,
+            "type": "conda",
+            "upload_time": "2022-10-10 20:08:54.471000+00:00",
+            "version": "0.7.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h8e1a5b0_0",
+                "build_number": 0,
+                "depends": [
+                    "bcftools",
+                    "bwa >=0.7.17",
+                    "bwa-mem2",
+                    "cmake >=3.21",
+                    "coreutils",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "libstdcxx-ng >=12",
+                    "libzlib >=1.2.13,<1.3.0a0",
+                    "minimap2 >=2.24",
+                    "numpy",
+                    "openssl >=3.2.0,<4.0a0",
+                    "pip",
+                    "polars >=0.18",
+                    "prodigal",
+                    "python 3.10",
+                    "samtools >=1.9",
+                    "scikit-allel >=1.3.6",
+                    "scipy >=1.11",
+                    "svim"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1701985063394
+            },
+            "basename": "linux-64/lorikeet-genome-0.8.2-h8e1a5b0_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lorikeet-genome/0.8.2/linux-64/lorikeet-genome-0.8.2-h8e1a5b0_0.tar.bz2",
+            "full_name": "bioconda/lorikeet-genome/0.8.2/linux-64/lorikeet-genome-0.8.2-h8e1a5b0_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8c329be20542f7d8300eab49ee640cb0",
+            "ndownloads": 1109,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3019389,
+            "type": "conda",
+            "upload_time": "2023-12-08 00:06:23.418000+00:00",
+            "version": "0.8.2"
+        }
+    ],
+    "full_name": "bioconda/lorikeet-genome",
+    "home": "https://github.com/rhysnewell/Lorikeet",
+    "html_url": "http://anaconda.org/bioconda/lorikeet-genome",
+    "id": "5ecdfee7778a87708f03ee2f",
+    "latest_version": "0.8.2",
+    "license": "GPL3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:23.630000+00:00",
+    "name": "lorikeet-genome",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "0.8.2"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/lorikeet-genome/0.3.2",
+            "version": "0.3.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/lorikeet-genome/0.3.4",
+            "version": "0.3.4"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/lorikeet-genome/0.3.5",
+            "version": "0.3.5"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/lorikeet-genome/0.3.6",
+            "version": "0.3.6"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/lorikeet-genome/0.3.7",
+            "version": "0.3.7"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/lorikeet-genome/0.4.0",
+            "version": "0.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/lorikeet-genome/0.5.0",
+            "version": "0.5.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/lorikeet-genome/0.6.6",
+            "version": "0.6.6"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/lorikeet-genome/0.7.0",
+            "version": "0.7.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/lorikeet-genome/0.7.1",
+            "version": "0.7.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/lorikeet-genome/0.7.2",
+            "version": "0.7.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/lorikeet-genome/0.7.3",
+            "version": "0.7.3"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/lorikeet-genome/0.8.2",
+            "version": "0.8.2"
+        }
+    ],
+    "revision": 26,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Metagenomic Variant Calling & Diversity Analysis",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/lorikeet-genome",
+    "versions": [
+        "0.3.2",
+        "0.3.4",
+        "0.3.5",
+        "0.3.6",
+        "0.3.7",
+        "0.4.0",
+        "0.5.0",
+        "0.6.6",
+        "0.7.0",
+        "0.7.1",
+        "0.7.2",
+        "0.7.3",
+        "0.8.2"
+    ],
+    "watchers": 1
+}

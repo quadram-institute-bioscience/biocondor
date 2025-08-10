@@ -1,0 +1,2037 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r43h4c50009_0",
+        "r41h3be46a4_2",
+        "r40h037d062_0",
+        "r41haba8685_1",
+        "r40h68a2ddb_1",
+        "r41h68a2ddb_0",
+        "r36h516909a_0",
+        "r42h4c50009_1",
+        "r40h8909d69_0",
+        "r351h1de35cc_0",
+        "r351h14c3975_0",
+        "r41hd029910_0",
+        "r43ha9d7317_1",
+        "r36h516909a_1",
+        "r44h2f393c0_0",
+        "r42hc0cfd56_0",
+        "r43h4c50009_1",
+        "r42h3be46a4_0",
+        "r44h3df3fcb_0",
+        "r43ha9d7317_0",
+        "r41hc0cfd56_2",
+        "r41h5c21468_1",
+        "r36h01d97ff_0",
+        "r42ha9d7317_1",
+        "r36h01d97ff_1",
+        "r40hd029910_1"
+    ],
+    "conda_platforms": [
+        "osx-64",
+        "linux-64"
+    ],
+    "created_at": "2018-12-09 23:15:46.831000+00:00",
+    "description": "Samples large data such that spectral clustering is possible while preserving density information in edge weights. More specifically, given a matrix of coordinates as input, SamSPECTRAL first builds the communities to sample the data points. Then, it builds a graph and after weighting the edges by conductance computation, the graph is passed to a classic spectral clustering algorithm to find the spectral clusters. The last stage of SamSPECTRAL is to combine the spectral clusters. The resulting \"connected components\" estimate biological cell populations in the data. See the vignette for more details on how to use this package, some illustrations, and simple examples.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h1de35cc_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1544398178855
+            },
+            "basename": "osx-64/bioconductor-samspectral-1.36.0-r351h1de35cc_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.36.0/osx-64/bioconductor-samspectral-1.36.0-r351h1de35cc_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.36.0/osx-64/bioconductor-samspectral-1.36.0-r351h1de35cc_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "1651d43ef9072f5eb6ee693f9fa53b30",
+            "ndownloads": 4342,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 836324,
+            "type": "conda",
+            "upload_time": "2018-12-09 23:30:19.602000+00:00",
+            "version": "1.36.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h14c3975_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1544397188669
+            },
+            "basename": "linux-64/bioconductor-samspectral-1.36.0-r351h14c3975_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.36.0/linux-64/bioconductor-samspectral-1.36.0-r351h14c3975_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.36.0/linux-64/bioconductor-samspectral-1.36.0-r351h14c3975_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "da801aa9de151cdd1b899abaa15d099d",
+            "ndownloads": 555,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 836698,
+            "type": "conda",
+            "upload_time": "2018-12-09 23:15:47.660000+00:00",
+            "version": "1.36.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h1de35cc_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1556079647439
+            },
+            "basename": "osx-64/bioconductor-samspectral-1.36.1-r351h1de35cc_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.36.1/osx-64/bioconductor-samspectral-1.36.1-r351h1de35cc_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.36.1/osx-64/bioconductor-samspectral-1.36.1-r351h1de35cc_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "373e9cadefeb47f62cc0980665c7c3ef",
+            "ndownloads": 4162,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 836352,
+            "type": "conda",
+            "upload_time": "2019-04-24 04:21:28.115000+00:00",
+            "version": "1.36.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h14c3975_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1556079498836
+            },
+            "basename": "linux-64/bioconductor-samspectral-1.36.1-r351h14c3975_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.36.1/linux-64/bioconductor-samspectral-1.36.1-r351h14c3975_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.36.1/linux-64/bioconductor-samspectral-1.36.1-r351h14c3975_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5e43639c9ba647b3f9fc5c428282c7ed",
+            "ndownloads": 357,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 837847,
+            "type": "conda",
+            "upload_time": "2019-04-24 04:22:19.886000+00:00",
+            "version": "1.36.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h1de35cc_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1557269419993
+            },
+            "basename": "osx-64/bioconductor-samspectral-1.38.0-r351h1de35cc_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.38.0/osx-64/bioconductor-samspectral-1.38.0-r351h1de35cc_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.38.0/osx-64/bioconductor-samspectral-1.38.0-r351h1de35cc_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c78ede023d6cfeb153bf626fce55b175",
+            "ndownloads": 228,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 835517,
+            "type": "conda",
+            "upload_time": "2019-05-07 22:51:02.960000+00:00",
+            "version": "1.38.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h14c3975_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1557301177253
+            },
+            "basename": "linux-64/bioconductor-samspectral-1.38.0-r351h14c3975_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.38.0/linux-64/bioconductor-samspectral-1.38.0-r351h14c3975_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.38.0/linux-64/bioconductor-samspectral-1.38.0-r351h14c3975_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "805d28d7f37c076856ccb8140c07f633",
+            "ndownloads": 336,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 836553,
+            "type": "conda",
+            "upload_time": "2019-05-08 07:43:37.936000+00:00",
+            "version": "1.38.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_1",
+                "build_number": 1,
+                "depends": [
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1563348168994
+            },
+            "basename": "osx-64/bioconductor-samspectral-1.38.0-r36h01d97ff_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.38.0/osx-64/bioconductor-samspectral-1.38.0-r36h01d97ff_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.38.0/osx-64/bioconductor-samspectral-1.38.0-r36h01d97ff_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "adcc409d2bd2a9e2125c0eff859bc45a",
+            "ndownloads": 4008,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 836685,
+            "type": "conda",
+            "upload_time": "2019-07-17 07:23:29.734000+00:00",
+            "version": "1.38.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_1",
+                "build_number": 1,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1563555598266
+            },
+            "basename": "linux-64/bioconductor-samspectral-1.38.0-r36h516909a_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.38.0/linux-64/bioconductor-samspectral-1.38.0-r36h516909a_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.38.0/linux-64/bioconductor-samspectral-1.38.0-r36h516909a_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0ef8d0c7a07d029108663565953471fb",
+            "ndownloads": 324,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 837860,
+            "type": "conda",
+            "upload_time": "2019-07-19 17:04:00.333000+00:00",
+            "version": "1.38.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572607299132
+            },
+            "basename": "osx-64/bioconductor-samspectral-1.40.0-r36h01d97ff_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.40.0/osx-64/bioconductor-samspectral-1.40.0-r36h01d97ff_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.40.0/osx-64/bioconductor-samspectral-1.40.0-r36h01d97ff_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ff65609d80ea88415833d7b930fccfee",
+            "ndownloads": 3774,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 849246,
+            "type": "conda",
+            "upload_time": "2019-11-01 11:22:24.796000+00:00",
+            "version": "1.40.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572613623861
+            },
+            "basename": "linux-64/bioconductor-samspectral-1.40.0-r36h516909a_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.40.0/linux-64/bioconductor-samspectral-1.40.0-r36h516909a_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.40.0/linux-64/bioconductor-samspectral-1.40.0-r36h516909a_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "48a6df6386fe0f8a096211f85301ae57",
+            "ndownloads": 311,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 851849,
+            "type": "conda",
+            "upload_time": "2019-11-01 13:11:09.264000+00:00",
+            "version": "1.40.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h8909d69_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1589010924447
+            },
+            "basename": "osx-64/bioconductor-samspectral-1.42.0-r40h8909d69_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.42.0/osx-64/bioconductor-samspectral-1.42.0-r40h8909d69_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.42.0/osx-64/bioconductor-samspectral-1.42.0-r40h8909d69_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e81b046c45725ee0fa25fb47b6619726",
+            "ndownloads": 3335,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 937865,
+            "type": "conda",
+            "upload_time": "2020-05-09 07:56:23.883000+00:00",
+            "version": "1.42.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h037d062_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.3.0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1589034368573
+            },
+            "basename": "linux-64/bioconductor-samspectral-1.42.0-r40h037d062_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.42.0/linux-64/bioconductor-samspectral-1.42.0-r40h037d062_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.42.0/linux-64/bioconductor-samspectral-1.42.0-r40h037d062_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "38e18239e0ccb25f2b157e2ec6f4b5ce",
+            "ndownloads": 273,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 940257,
+            "type": "conda",
+            "upload_time": "2020-05-09 14:31:33.531000+00:00",
+            "version": "1.42.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h8909d69_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1603977267770
+            },
+            "basename": "osx-64/bioconductor-samspectral-1.44.0-r40h8909d69_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.44.0/osx-64/bioconductor-samspectral-1.44.0-r40h8909d69_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.44.0/osx-64/bioconductor-samspectral-1.44.0-r40h8909d69_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2f43f295c88e620a68ea579797b2558a",
+            "ndownloads": 2988,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 937616,
+            "type": "conda",
+            "upload_time": "2020-10-29 13:15:28.035000+00:00",
+            "version": "1.44.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h037d062_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1603980373913
+            },
+            "basename": "linux-64/bioconductor-samspectral-1.44.0-r40h037d062_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.44.0/linux-64/bioconductor-samspectral-1.44.0-r40h037d062_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.44.0/linux-64/bioconductor-samspectral-1.44.0-r40h037d062_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c8dbf0614dadc9283e5f33c2dfea0eeb",
+            "ndownloads": 266,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 937340,
+            "type": "conda",
+            "upload_time": "2020-10-29 14:10:44.918000+00:00",
+            "version": "1.44.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40hd029910_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1616664182806
+            },
+            "basename": "linux-64/bioconductor-samspectral-1.44.0-r40hd029910_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.44.0/linux-64/bioconductor-samspectral-1.44.0-r40hd029910_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.44.0/linux-64/bioconductor-samspectral-1.44.0-r40hd029910_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6b1c20c899ebf71b8951e1d2661a733e",
+            "ndownloads": 244,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 938747,
+            "type": "conda",
+            "upload_time": "2021-03-25 09:28:42.013000+00:00",
+            "version": "1.44.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h68a2ddb_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1616688350232
+            },
+            "basename": "osx-64/bioconductor-samspectral-1.44.0-r40h68a2ddb_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.44.0/osx-64/bioconductor-samspectral-1.44.0-r40h68a2ddb_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.44.0/osx-64/bioconductor-samspectral-1.44.0-r40h68a2ddb_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ba6a874db1bbc439695259d69623f8f1",
+            "ndownloads": 78,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 934356,
+            "type": "conda",
+            "upload_time": "2021-03-25 16:06:57.787000+00:00",
+            "version": "1.44.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h68a2ddb_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1622401791133
+            },
+            "basename": "osx-64/bioconductor-samspectral-1.46.0-r41h68a2ddb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.46.0/osx-64/bioconductor-samspectral-1.46.0-r41h68a2ddb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.46.0/osx-64/bioconductor-samspectral-1.46.0-r41h68a2ddb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4af343f16dc348e00233ec35f5ef9ea0",
+            "ndownloads": 2617,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 939212,
+            "type": "conda",
+            "upload_time": "2021-05-30 19:10:52.347000+00:00",
+            "version": "1.46.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hd029910_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1622425234519
+            },
+            "basename": "linux-64/bioconductor-samspectral-1.46.0-r41hd029910_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.46.0/linux-64/bioconductor-samspectral-1.46.0-r41hd029910_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.46.0/linux-64/bioconductor-samspectral-1.46.0-r41hd029910_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "45838f2f65385d74260f89e6959909d4",
+            "ndownloads": 252,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 938215,
+            "type": "conda",
+            "upload_time": "2021-05-31 01:45:42.202000+00:00",
+            "version": "1.46.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h68a2ddb_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1635779846681
+            },
+            "basename": "osx-64/bioconductor-samspectral-1.48.0-r41h68a2ddb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.48.0/osx-64/bioconductor-samspectral-1.48.0-r41h68a2ddb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.48.0/osx-64/bioconductor-samspectral-1.48.0-r41h68a2ddb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "57ce72b9d3edc9e0462f126d84b10756",
+            "ndownloads": 232,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 939696,
+            "type": "conda",
+            "upload_time": "2021-11-01 15:18:34.125000+00:00",
+            "version": "1.48.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hd029910_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1635782000773
+            },
+            "basename": "linux-64/bioconductor-samspectral-1.48.0-r41hd029910_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.48.0/linux-64/bioconductor-samspectral-1.48.0-r41hd029910_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.48.0/linux-64/bioconductor-samspectral-1.48.0-r41hd029910_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e40fdcb4d1056e9bc1b648a8855ff28b",
+            "ndownloads": 208,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 935653,
+            "type": "conda",
+            "upload_time": "2021-11-01 16:18:13.812000+00:00",
+            "version": "1.48.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41haba8685_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1645467194644
+            },
+            "basename": "osx-64/bioconductor-samspectral-1.48.0-r41haba8685_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.48.0/osx-64/bioconductor-samspectral-1.48.0-r41haba8685_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.48.0/osx-64/bioconductor-samspectral-1.48.0-r41haba8685_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9644b172adfe8d734715854974e78c5e",
+            "ndownloads": 2115,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 938358,
+            "type": "conda",
+            "upload_time": "2022-02-21 18:14:42.735000+00:00",
+            "version": "1.48.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h5c21468_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1645639689012
+            },
+            "basename": "linux-64/bioconductor-samspectral-1.48.0-r41h5c21468_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.48.0/linux-64/bioconductor-samspectral-1.48.0-r41h5c21468_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.48.0/linux-64/bioconductor-samspectral-1.48.0-r41h5c21468_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6fd25de962740c0f02ddf525f404a947",
+            "ndownloads": 200,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 940362,
+            "type": "conda",
+            "upload_time": "2022-02-23 18:14:12.463000+00:00",
+            "version": "1.48.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hc0cfd56_2",
+                "build_number": 2,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1663253762528
+            },
+            "basename": "linux-64/bioconductor-samspectral-1.48.0-r41hc0cfd56_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.48.0/linux-64/bioconductor-samspectral-1.48.0-r41hc0cfd56_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.48.0/linux-64/bioconductor-samspectral-1.48.0-r41hc0cfd56_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3eb73cc74bdb98026894d562ea93966b",
+            "ndownloads": 185,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 940962,
+            "type": "conda",
+            "upload_time": "2022-09-15 14:59:37.263000+00:00",
+            "version": "1.48.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h3be46a4_2",
+                "build_number": 2,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1663260489782
+            },
+            "basename": "osx-64/bioconductor-samspectral-1.48.0-r41h3be46a4_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.48.0/osx-64/bioconductor-samspectral-1.48.0-r41h3be46a4_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.48.0/osx-64/bioconductor-samspectral-1.48.0-r41h3be46a4_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "608ef3942d10ca100c7645fc483751f6",
+            "ndownloads": 63,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 940046,
+            "type": "conda",
+            "upload_time": "2022-09-15 16:49:13.640000+00:00",
+            "version": "1.48.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc0cfd56_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1667459453354
+            },
+            "basename": "linux-64/bioconductor-samspectral-1.52.0-r42hc0cfd56_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.52.0/linux-64/bioconductor-samspectral-1.52.0-r42hc0cfd56_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.52.0/linux-64/bioconductor-samspectral-1.52.0-r42hc0cfd56_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1cfd2957ab4ed8abd12581ad13f4622f",
+            "ndownloads": 175,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 939006,
+            "type": "conda",
+            "upload_time": "2022-11-03 07:13:25.863000+00:00",
+            "version": "1.52.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42h3be46a4_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1667461443724
+            },
+            "basename": "osx-64/bioconductor-samspectral-1.52.0-r42h3be46a4_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.52.0/osx-64/bioconductor-samspectral-1.52.0-r42h3be46a4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.52.0/osx-64/bioconductor-samspectral-1.52.0-r42h3be46a4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6e63bb5e33ac157d2e95726aaa8148fc",
+            "ndownloads": 427,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 940027,
+            "type": "conda",
+            "upload_time": "2022-11-03 07:45:08.255000+00:00",
+            "version": "1.52.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42ha9d7317_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1684106195708
+            },
+            "basename": "linux-64/bioconductor-samspectral-1.52.0-r42ha9d7317_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.52.0/linux-64/bioconductor-samspectral-1.52.0-r42ha9d7317_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.52.0/linux-64/bioconductor-samspectral-1.52.0-r42ha9d7317_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "28de87004f49a11fd993a3c0da1cf8f3",
+            "ndownloads": 145,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 941006,
+            "type": "conda",
+            "upload_time": "2023-05-14 23:19:13.239000+00:00",
+            "version": "1.52.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42h4c50009_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1684301376075
+            },
+            "basename": "osx-64/bioconductor-samspectral-1.52.0-r42h4c50009_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.52.0/osx-64/bioconductor-samspectral-1.52.0-r42h4c50009_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.52.0/osx-64/bioconductor-samspectral-1.52.0-r42h4c50009_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4720a554e98ff65edb88fc58b97c909a",
+            "ndownloads": 1339,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 937672,
+            "type": "conda",
+            "upload_time": "2023-05-17 05:30:26.001000+00:00",
+            "version": "1.52.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43ha9d7317_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1688728990517
+            },
+            "basename": "linux-64/bioconductor-samspectral-1.54.0-r43ha9d7317_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.54.0/linux-64/bioconductor-samspectral-1.54.0-r43ha9d7317_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.54.0/linux-64/bioconductor-samspectral-1.54.0-r43ha9d7317_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "623e32cf7dedd495733c35612c3e450c",
+            "ndownloads": 146,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 944714,
+            "type": "conda",
+            "upload_time": "2023-07-07 11:25:46.377000+00:00",
+            "version": "1.54.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43h4c50009_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1688766283101
+            },
+            "basename": "osx-64/bioconductor-samspectral-1.54.0-r43h4c50009_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.54.0/osx-64/bioconductor-samspectral-1.54.0-r43h4c50009_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.54.0/osx-64/bioconductor-samspectral-1.54.0-r43h4c50009_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bb4bbe1d718eb639d0cf7f0cf8793f71",
+            "ndownloads": 1232,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 943011,
+            "type": "conda",
+            "upload_time": "2023-07-07 21:45:36.031000+00:00",
+            "version": "1.54.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43ha9d7317_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1701617028610
+            },
+            "basename": "linux-64/bioconductor-samspectral-1.56.0-r43ha9d7317_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.56.0/linux-64/bioconductor-samspectral-1.56.0-r43ha9d7317_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.56.0/linux-64/bioconductor-samspectral-1.56.0-r43ha9d7317_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "14a5f1a3df80904f42072c41b4a2fb1a",
+            "ndownloads": 112,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 942563,
+            "type": "conda",
+            "upload_time": "2023-12-03 15:25:20.402000+00:00",
+            "version": "1.56.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43h4c50009_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1701630120687
+            },
+            "basename": "osx-64/bioconductor-samspectral-1.56.0-r43h4c50009_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.56.0/osx-64/bioconductor-samspectral-1.56.0-r43h4c50009_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.56.0/osx-64/bioconductor-samspectral-1.56.0-r43h4c50009_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b7ff36c1a814d862c1c29cb247b775e0",
+            "ndownloads": 941,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 943508,
+            "type": "conda",
+            "upload_time": "2023-12-03 19:02:58.163000+00:00",
+            "version": "1.56.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43ha9d7317_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1701631643165
+            },
+            "basename": "linux-64/bioconductor-samspectral-1.56.0-r43ha9d7317_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.56.0/linux-64/bioconductor-samspectral-1.56.0-r43ha9d7317_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.56.0/linux-64/bioconductor-samspectral-1.56.0-r43ha9d7317_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "42539831369553f58406cdb0e13d4f8a",
+            "ndownloads": 112,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 944742,
+            "type": "conda",
+            "upload_time": "2023-12-03 19:28:54.501000+00:00",
+            "version": "1.56.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h3df3fcb_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1734193550535
+            },
+            "basename": "linux-64/bioconductor-samspectral-1.60.0-r44h3df3fcb_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.60.0/linux-64/bioconductor-samspectral-1.60.0-r44h3df3fcb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.60.0/linux-64/bioconductor-samspectral-1.60.0-r44h3df3fcb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9cffa430c355ac9bc0317362ec19bfad",
+            "ndownloads": 131,
+            "owner": "bioconda",
+            "sha256": "cdc5ea30b9cdbbdeca6c5036f3b7c7534dc973b83723e25ea21900fff918c538",
+            "size": 1056349,
+            "type": "conda",
+            "upload_time": "2024-12-14 16:27:12.848000+00:00",
+            "version": "1.60.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h2f393c0_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1734213851620
+            },
+            "basename": "osx-64/bioconductor-samspectral-1.60.0-r44h2f393c0_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-samspectral/1.60.0/osx-64/bioconductor-samspectral-1.60.0-r44h2f393c0_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-samspectral/1.60.0/osx-64/bioconductor-samspectral-1.60.0-r44h2f393c0_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5275f767981e499ceabdfc52b7c82694",
+            "ndownloads": 235,
+            "owner": "bioconda",
+            "sha256": "e51899333b83a748cbf314b44076c24875869c62645dac415ce0c625ad58e8b2",
+            "size": 1056368,
+            "type": "conda",
+            "upload_time": "2024-12-14 22:05:13.425000+00:00",
+            "version": "1.60.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-samspectral",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/SamSPECTRAL.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-samspectral",
+    "id": "5c0da22237f339134372eec4",
+    "latest_version": "1.60.0",
+    "license": "GPL (>= 2)",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:03.553000+00:00",
+    "name": "bioconductor-samspectral",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.60.0",
+        "osx-64": "1.60.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-samspectral/1.36.0",
+            "version": "1.36.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-samspectral/1.36.1",
+            "version": "1.36.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-samspectral/1.38.0",
+            "version": "1.38.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-samspectral/1.40.0",
+            "version": "1.40.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-samspectral/1.42.0",
+            "version": "1.42.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-samspectral/1.44.0",
+            "version": "1.44.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-samspectral/1.46.0",
+            "version": "1.46.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-samspectral/1.48.0",
+            "version": "1.48.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-samspectral/1.52.0",
+            "version": "1.52.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-samspectral/1.54.0",
+            "version": "1.54.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-samspectral/1.56.0",
+            "version": "1.56.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-samspectral/1.60.0",
+            "version": "1.60.0"
+        }
+    ],
+    "revision": 26,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Identifies cell population in flow cytometry data",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-samspectral",
+    "versions": [
+        "1.36.0",
+        "1.36.1",
+        "1.38.0",
+        "1.40.0",
+        "1.42.0",
+        "1.44.0",
+        "1.46.0",
+        "1.48.0",
+        "1.52.0",
+        "1.54.0",
+        "1.56.0",
+        "1.60.0"
+    ],
+    "watchers": 1
+}

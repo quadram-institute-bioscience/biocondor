@@ -1,0 +1,942 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r41hdfd78af_0",
+        "r44hdfd78af_0",
+        "r43hdfd78af_0",
+        "r40hdfd78af_0",
+        "r40_0",
+        "r40hdfd78af_1",
+        "r42hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2020-05-10 22:16:32.508000+00:00",
+    "description": "Methods and tools for (pre-)processing of metabolomics datasets (i.e. peak matrices), including filtering, normalisation, missing value imputation, scaling, and signal drift and batch effect correction methods. Filtering methods are based on: the fraction of missing values (across samples or features); Relative Standard Deviation (RSD) calculated from the Quality Control (QC) samples; the blank samples. Normalisation methods include Probabilistic Quotient Normalisation (PQN) and normalisation to total signal intensity. A unified user interface for several commonly used missing value imputation algorithms is also provided. Supported methods are: k-nearest neighbours (knn), random forests (rf), Bayesian PCA missing value estimator (bpca), mean or median value of the given feature and a constant small value. The generalised logarithm (glog) transformation algorithm is available to stabilise the variance across low and high intensity mass spectral features. Finally, this package provides an implementation of the Quality Control-Robust Spline Correction (QCRSC) algorithm for signal drift and batch effect correction of mass spectrometry-based datasets.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-impute >=1.62.0,<1.63.0",
+                    "bioconductor-pcamethods >=1.80.0,<1.81.0",
+                    "bioconductor-s4vectors >=0.26.0,<0.27.0",
+                    "bioconductor-summarizedexperiment >=1.18.0,<1.19.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-ggplot2",
+                    "r-matrixstats",
+                    "r-missforest",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589148668700
+            },
+            "basename": "noarch/bioconductor-pmp-1.0.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-impute",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.80.0,<1.81.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pmp/1.0.0/noarch/bioconductor-pmp-1.0.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pmp/1.0.0/noarch/bioconductor-pmp-1.0.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d56e4009d6fba0955381f4c0712c2b28",
+            "ndownloads": 2454,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5132025,
+            "type": "conda",
+            "upload_time": "2020-05-10 22:16:33.345000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-impute >=1.64.0,<1.65.0",
+                    "bioconductor-pcamethods >=1.82.0,<1.83.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-ggplot2",
+                    "r-matrixstats",
+                    "r-missforest",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604133180438
+            },
+            "basename": "noarch/bioconductor-pmp-1.2.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-impute",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.82.0,<1.83.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pmp/1.2.0/noarch/bioconductor-pmp-1.2.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pmp/1.2.0/noarch/bioconductor-pmp-1.2.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "548f26a7ff799adceb9f2f627afd8c80",
+            "ndownloads": 288,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5129521,
+            "type": "conda",
+            "upload_time": "2020-10-31 08:38:52.774000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-impute >=1.64.0,<1.65.0",
+                    "bioconductor-pcamethods >=1.82.0,<1.83.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-ggplot2",
+                    "r-matrixstats",
+                    "r-missforest",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617005480910
+            },
+            "basename": "noarch/bioconductor-pmp-1.2.0-r40hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-impute",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.82.0,<1.83.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pmp/1.2.0/noarch/bioconductor-pmp-1.2.0-r40hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-pmp/1.2.0/noarch/bioconductor-pmp-1.2.0-r40hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4a371e781142543a21db04d3daaab2fd",
+            "ndownloads": 2378,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5149451,
+            "type": "conda",
+            "upload_time": "2021-03-29 08:18:06.571000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-impute >=1.64.0,<1.65.0",
+                    "bioconductor-pcamethods >=1.82.0,<1.83.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-ggplot2",
+                    "r-matrixstats",
+                    "r-missforest",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1621645694225
+            },
+            "basename": "noarch/bioconductor-pmp-1.2.1-r40hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-impute",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.82.0,<1.83.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pmp/1.2.1/noarch/bioconductor-pmp-1.2.1-r40hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pmp/1.2.1/noarch/bioconductor-pmp-1.2.1-r40hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8a1735d1ed7ac15318de0acf965f48ab",
+            "ndownloads": 2360,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5139733,
+            "type": "conda",
+            "upload_time": "2021-05-22 01:15:53.187000+00:00",
+            "version": "1.2.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-impute >=1.66.0,<1.67.0",
+                    "bioconductor-pcamethods >=1.84.0,<1.85.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "bioconductor-summarizedexperiment >=1.22.0,<1.23.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-ggplot2",
+                    "r-matrixstats",
+                    "r-missforest",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622548188833
+            },
+            "basename": "noarch/bioconductor-pmp-1.4.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-impute",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.84.0,<1.85.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pmp/1.4.0/noarch/bioconductor-pmp-1.4.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pmp/1.4.0/noarch/bioconductor-pmp-1.4.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e8dc5e9962d59b303245b322769d4524",
+            "ndownloads": 2311,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5159187,
+            "type": "conda",
+            "upload_time": "2021-06-01 11:56:51.321000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-impute >=1.68.0,<1.69.0",
+                    "bioconductor-pcamethods >=1.86.0,<1.87.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-ggplot2",
+                    "r-matrixstats",
+                    "r-missforest",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1635952637401
+            },
+            "basename": "noarch/bioconductor-pmp-1.6.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-impute",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.86.0,<1.87.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pmp/1.6.0/noarch/bioconductor-pmp-1.6.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pmp/1.6.0/noarch/bioconductor-pmp-1.6.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0e818ddb6401406af2856aa296d66b7a",
+            "ndownloads": 2326,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5144329,
+            "type": "conda",
+            "upload_time": "2021-11-03 15:25:01.737000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-impute >=1.72.0,<1.73.0",
+                    "bioconductor-pcamethods >=1.90.0,<1.91.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-ggplot2",
+                    "r-matrixstats",
+                    "r-missforest",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667697366919
+            },
+            "basename": "noarch/bioconductor-pmp-1.10.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pmp/1.10.0/noarch/bioconductor-pmp-1.10.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pmp/1.10.0/noarch/bioconductor-pmp-1.10.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "00e8c844e103beca874cf6451510cfbc",
+            "ndownloads": 1302,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5142711,
+            "type": "conda",
+            "upload_time": "2022-11-06 01:20:11.777000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-impute >=1.74.0,<1.75.0",
+                    "bioconductor-pcamethods >=1.92.0,<1.93.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "bioconductor-summarizedexperiment >=1.30.0,<1.31.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-ggplot2",
+                    "r-matrixstats",
+                    "r-missforest",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689102100141
+            },
+            "basename": "noarch/bioconductor-pmp-1.12.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pmp/1.12.0/noarch/bioconductor-pmp-1.12.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pmp/1.12.0/noarch/bioconductor-pmp-1.12.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ccc21458f399e09fd529342d454dc783",
+            "ndownloads": 742,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5139861,
+            "type": "conda",
+            "upload_time": "2023-07-11 19:06:37.550000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-impute >=1.76.0,<1.77.0",
+                    "bioconductor-pcamethods >=1.94.0,<1.95.0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-ggplot2",
+                    "r-matrixstats",
+                    "r-missforest",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1702287613931
+            },
+            "basename": "noarch/bioconductor-pmp-1.14.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pmp/1.14.0/noarch/bioconductor-pmp-1.14.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pmp/1.14.0/noarch/bioconductor-pmp-1.14.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e6e4c6436d5242c441437ed26744206d",
+            "ndownloads": 985,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5187857,
+            "type": "conda",
+            "upload_time": "2023-12-11 09:43:20.938000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-impute >=1.80.0,<1.81.0",
+                    "bioconductor-pcamethods >=1.98.0,<1.99.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-ggplot2",
+                    "r-matrixstats",
+                    "r-missforest",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1734773138969
+            },
+            "basename": "noarch/bioconductor-pmp-1.18.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pmp/1.18.0/noarch/bioconductor-pmp-1.18.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pmp/1.18.0/noarch/bioconductor-pmp-1.18.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e802686d6693cbcff34540c5fd6123ff",
+            "ndownloads": 336,
+            "owner": "bioconda",
+            "sha256": "2a6fccf52b2ed9a3001adca71b92d05ac03a1c5cb6d78e8c917732aa1808b826",
+            "size": 5506228,
+            "type": "conda",
+            "upload_time": "2024-12-21 09:27:39.161000+00:00",
+            "version": "1.18.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-pmp",
+    "home": "https://bioconductor.org/packages/3.11/bioc/html/pmp.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-pmp",
+    "id": "5eb87d4083b66372ef9f5140",
+    "latest_version": "1.18.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:23.079000+00:00",
+    "name": "bioconductor-pmp",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.18.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pmp/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pmp/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pmp/1.2.1",
+            "version": "1.2.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pmp/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pmp/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pmp/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pmp/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pmp/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pmp/1.18.0",
+            "version": "1.18.0"
+        }
+    ],
+    "revision": 19,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Peak Matrix Processing and signal batch correction for metabolomics datasets",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-pmp",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.2.1",
+        "1.4.0",
+        "1.6.0",
+        "1.10.0",
+        "1.12.0",
+        "1.14.0",
+        "1.18.0"
+    ],
+    "watchers": 1
+}

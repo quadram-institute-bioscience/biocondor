@@ -1,0 +1,308 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2021-05-17 16:18:52.664000+00:00",
+    "description": "Given an MS run in the mzLite or mzml format and a list of fdr controlled peptide spectrum matches, this tool iterates accross all identified MS/MS scans and groups them by\nthe assigned peptide ion. The scan times of each MS/MS spectrum are then weighted according to the quality of each match to build an reliable estimator for the scan time of\nthe peptide ion in question. This scan time estimator, combined with the monoisotopic m/z, is then used to extract an ion chromatogram. Using wavelet based peak detection\ntechniques we identify all peaks present in the XIC and select the most probable peak our target for quantification. Using parameter estimation techniques we subsequently\nuse peak fitting to fit a set of two gaussian models to the detected peak, from whom the one with the better fit is selected. This allows us not only to report how well\nthe signal fitted to the theoretical expected peak shape but also to obtain accurate estimates for the peak area, our estimator for peptide ion abundance.\nThe quantification tool was designed to allow label-free quantification as well as quantification of full metabolic labeled samples. For this we use the known identity\nof one of the the peptide ions and calculate the m/z of the unobserved differentially labeled counterpart to extract and quantify the corresponding XIC.\n",
+    "dev_url": "https://github.com/CSBiology/ProteomIQon",
+    "doc_url": "https://csbiology.github.io/ProteomIQon/tools/PSMBasedQuantification.html",
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "dotnet-runtime"
+                ],
+                "has_prefix": true,
+                "license": "MIT",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1621000609112
+            },
+            "basename": "noarch/proteomiqon-psmbasedquantification-0.0.4-hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "dotnet-runtime",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/proteomiqon-psmbasedquantification/0.0.4/noarch/proteomiqon-psmbasedquantification-0.0.4-hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/proteomiqon-psmbasedquantification/0.0.4/noarch/proteomiqon-psmbasedquantification-0.0.4-hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "01f6b02e8ec3077d4eebef5465ed191f",
+            "ndownloads": 2634,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 17351495,
+            "type": "conda",
+            "upload_time": "2021-05-17 16:18:54.326000+00:00",
+            "version": "0.0.4"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "dotnet-runtime"
+                ],
+                "has_prefix": true,
+                "license": "MIT",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1624319610691
+            },
+            "basename": "noarch/proteomiqon-psmbasedquantification-0.0.5-hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "dotnet-runtime",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/proteomiqon-psmbasedquantification/0.0.5/noarch/proteomiqon-psmbasedquantification-0.0.5-hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/proteomiqon-psmbasedquantification/0.0.5/noarch/proteomiqon-psmbasedquantification-0.0.5-hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5bd61ec1dd2f9dda16c1277eddb668fb",
+            "ndownloads": 2613,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 17368301,
+            "type": "conda",
+            "upload_time": "2021-06-22 07:12:03.944000+00:00",
+            "version": "0.0.5"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "dotnet-runtime"
+                ],
+                "has_prefix": true,
+                "license": "MIT",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1629905998796
+            },
+            "basename": "noarch/proteomiqon-psmbasedquantification-0.0.7-hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "dotnet-runtime",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/proteomiqon-psmbasedquantification/0.0.7/noarch/proteomiqon-psmbasedquantification-0.0.7-hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/proteomiqon-psmbasedquantification/0.0.7/noarch/proteomiqon-psmbasedquantification-0.0.7-hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ebef1f37d9549992265ea736102a8070",
+            "ndownloads": 2550,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 17419074,
+            "type": "conda",
+            "upload_time": "2021-08-25 15:50:16.964000+00:00",
+            "version": "0.0.7"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "dotnet-runtime 5.0.*",
+                    "openssl 1.1.*"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1651135481388
+            },
+            "basename": "noarch/proteomiqon-psmbasedquantification-0.0.8-hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "dotnet-runtime",
+                        "specs": [
+                            [
+                                "==",
+                                "5.0."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": [
+                            [
+                                "==",
+                                "1.1."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/proteomiqon-psmbasedquantification/0.0.8/noarch/proteomiqon-psmbasedquantification-0.0.8-hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/proteomiqon-psmbasedquantification/0.0.8/noarch/proteomiqon-psmbasedquantification-0.0.8-hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "485a053090bbb2fe09b5e2c08b48feb2",
+            "ndownloads": 2145,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 8616656,
+            "type": "conda",
+            "upload_time": "2022-04-28 09:27:40.043000+00:00",
+            "version": "0.0.8"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "dotnet-runtime 5.0.*",
+                    "openssl 1.1.*"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1676547382471
+            },
+            "basename": "noarch/proteomiqon-psmbasedquantification-0.0.9-hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/proteomiqon-psmbasedquantification/0.0.9/noarch/proteomiqon-psmbasedquantification-0.0.9-hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/proteomiqon-psmbasedquantification/0.0.9/noarch/proteomiqon-psmbasedquantification-0.0.9-hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "15c5937373fd4e10e67f153887f24ea7",
+            "ndownloads": 1621,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 8644112,
+            "type": "conda",
+            "upload_time": "2023-02-16 21:28:47.241000+00:00",
+            "version": "0.0.9"
+        }
+    ],
+    "full_name": "bioconda/proteomiqon-psmbasedquantification",
+    "home": "https://csbiology.github.io/ProteomIQon/",
+    "html_url": "http://anaconda.org/bioconda/proteomiqon-psmbasedquantification",
+    "id": "60a2976c37a0d3ff3375e048",
+    "latest_version": "0.0.9",
+    "license": "MIT",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:27.537000+00:00",
+    "name": "proteomiqon-psmbasedquantification",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "0.0.9"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/proteomiqon-psmbasedquantification/0.0.4",
+            "version": "0.0.4"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/proteomiqon-psmbasedquantification/0.0.5",
+            "version": "0.0.5"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/proteomiqon-psmbasedquantification/0.0.7",
+            "version": "0.0.7"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/proteomiqon-psmbasedquantification/0.0.8",
+            "version": "0.0.8"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/proteomiqon-psmbasedquantification/0.0.9",
+            "version": "0.0.9"
+        }
+    ],
+    "revision": 10,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "The quantification tool was designed to allow label-free quantification as well as quantification of full metabolic labeled samples.",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/proteomiqon-psmbasedquantification",
+    "versions": [
+        "0.0.4",
+        "0.0.5",
+        "0.0.7",
+        "0.0.8",
+        "0.0.9"
+    ],
+    "watchers": 1
+}

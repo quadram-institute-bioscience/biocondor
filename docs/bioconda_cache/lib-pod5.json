@@ -1,0 +1,858 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "py312ha38affd_0",
+        "py310h3ada540_0",
+        "py310h19d314d_0",
+        "py312h12fc78b_0",
+        "py312h9fa68a2_0",
+        "py310h3836861_0",
+        "py39hc63ab86_0",
+        "py311h5cdc41f_0",
+        "py39hc31d4fc_0",
+        "py310h56a89eb_0",
+        "pyhdfd78af_0",
+        "py39h6084019_0",
+        "py311h9ae2fcc_0",
+        "py312h7bd3892_0",
+        "py311h7be6771_0",
+        "py39hb60c5ce_0",
+        "py311h25590d1_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-arm64",
+        "noarch",
+        "linux-aarch64",
+        "osx-64"
+    ],
+    "created_at": "2024-09-10 05:36:27.229000+00:00",
+    "description": "[![Documentation Status](https://readthedocs.org/projects/pod5-file-format/badge/?version=latest)](https://pod5-file-format.readthedocs.io/)\n\n**Python bindings for the POD5 file format**\n\nWhat does this project contain\n------------------------------\n\nThis project contains the low-level core library (extension modules) for reading and writing POD5 files.\nThis project forms the basis of the pure-python [pod5 package](https://github.com/nanoporetech/pod5-file-format) which is probably the project you want.\n\nDocumentation\n-------------\n\nFull documentation is found at https://pod5-file-format.readthedocs.io\n",
+    "dev_url": "https://github.com/nanoporetech/pod5-file-format",
+    "doc_url": "https://pod5-file-format.readthedocs.io/en/latest",
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "pyhdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "numpy >=1.21.0",
+                    "python >=3.8"
+                ],
+                "has_prefix": false,
+                "license": "MPL-2.0",
+                "license_family": "OTHER",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1725945860832
+            },
+            "basename": "noarch/lib-pod5-0.3.15-pyhdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lib-pod5/0.3.15/noarch/lib-pod5-0.3.15-pyhdfd78af_0.tar.bz2",
+            "full_name": "bioconda/lib-pod5/0.3.15/noarch/lib-pod5-0.3.15-pyhdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "30daa1b27ae11d394026c5ad2c47b5d2",
+            "ndownloads": 1243,
+            "owner": "bioconda",
+            "sha256": "843e14725f4d9f6b74521e25eed8c8ef7e754e27e187de14c1b1e8628c1e0074",
+            "size": 2505351,
+            "type": "conda",
+            "upload_time": "2024-09-10 05:36:27.785000+00:00",
+            "version": "0.3.15"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py39hb60c5ce_0",
+                "build_number": 0,
+                "depends": [
+                    "flatbuffers >=24.3.25,<24.3.26.0a0",
+                    "libgcc >=13",
+                    "libstdcxx >=13",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "numpy >=1.21.0",
+                    "pyarrow",
+                    "python >=3.9,<3.10.0a0",
+                    "python_abi 3.9.* *_cp39",
+                    "zstd >=1.5.7,<1.6.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MPL-2.0",
+                "license_family": "OTHER",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1750884307437
+            },
+            "basename": "linux-aarch64/lib-pod5-0.3.27-py39hb60c5ce_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lib-pod5/0.3.27/linux-aarch64/lib-pod5-0.3.27-py39hb60c5ce_0.tar.bz2",
+            "full_name": "bioconda/lib-pod5/0.3.27/linux-aarch64/lib-pod5-0.3.27-py39hb60c5ce_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "aca0c26930ef0548a86e134d579398d5",
+            "ndownloads": 17,
+            "owner": "bioconda",
+            "sha256": "05cb9ac74a6152cee1f7b16e06d95a90c4ec0b849c1217060b4d46c46ada7d6c",
+            "size": 13952900,
+            "type": "conda",
+            "upload_time": "2025-06-25 21:40:10.894000+00:00",
+            "version": "0.3.27"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py310h3ada540_0",
+                "build_number": 0,
+                "depends": [
+                    "flatbuffers >=24.3.25,<24.3.26.0a0",
+                    "libgcc >=13",
+                    "libstdcxx >=13",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "numpy >=1.21.0",
+                    "pyarrow",
+                    "python >=3.10,<3.11.0a0",
+                    "python_abi 3.10.* *_cp310",
+                    "zstd >=1.5.7,<1.6.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MPL-2.0",
+                "license_family": "OTHER",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1750884040495
+            },
+            "basename": "linux-aarch64/lib-pod5-0.3.27-py310h3ada540_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lib-pod5/0.3.27/linux-aarch64/lib-pod5-0.3.27-py310h3ada540_0.tar.bz2",
+            "full_name": "bioconda/lib-pod5/0.3.27/linux-aarch64/lib-pod5-0.3.27-py310h3ada540_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bca2d34aec981a4e49ed459924f8ccaf",
+            "ndownloads": 17,
+            "owner": "bioconda",
+            "sha256": "1d06ec9a8275009391b0889f15b6a58d1f22ca2a4c240b369752b2bbb9d5d59b",
+            "size": 13952077,
+            "type": "conda",
+            "upload_time": "2025-06-25 21:40:17.381000+00:00",
+            "version": "0.3.27"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py311h5cdc41f_0",
+                "build_number": 0,
+                "depends": [
+                    "flatbuffers >=24.3.25,<24.3.26.0a0",
+                    "libgcc >=13",
+                    "libstdcxx >=13",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "numpy >=1.21.0",
+                    "pyarrow",
+                    "python >=3.11,<3.12.0a0",
+                    "python_abi 3.11.* *_cp311",
+                    "zstd >=1.5.7,<1.6.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MPL-2.0",
+                "license_family": "OTHER",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1750883897546
+            },
+            "basename": "linux-aarch64/lib-pod5-0.3.27-py311h5cdc41f_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lib-pod5/0.3.27/linux-aarch64/lib-pod5-0.3.27-py311h5cdc41f_0.tar.bz2",
+            "full_name": "bioconda/lib-pod5/0.3.27/linux-aarch64/lib-pod5-0.3.27-py311h5cdc41f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "245ed87746f1e3dc3085780db22d4f20",
+            "ndownloads": 21,
+            "owner": "bioconda",
+            "sha256": "bf8d044cca183b20345800dd6c61532654fdd34364d5f326b8b9a029e1a8bbc1",
+            "size": 13951754,
+            "type": "conda",
+            "upload_time": "2025-06-25 21:40:32.458000+00:00",
+            "version": "0.3.27"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py310h19d314d_0",
+                "build_number": 0,
+                "depends": [
+                    "flatbuffers >=24.3.25,<24.3.26.0a0",
+                    "libgcc >=13",
+                    "libstdcxx >=13",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "numpy >=1.21.0",
+                    "pyarrow",
+                    "python >=3.10,<3.11.0a0",
+                    "python_abi 3.10.* *_cp310",
+                    "zstd >=1.5.7,<1.6.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MPL-2.0",
+                "license_family": "OTHER",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1750884509996
+            },
+            "basename": "linux-64/lib-pod5-0.3.27-py310h19d314d_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lib-pod5/0.3.27/linux-64/lib-pod5-0.3.27-py310h19d314d_0.tar.bz2",
+            "full_name": "bioconda/lib-pod5/0.3.27/linux-64/lib-pod5-0.3.27-py310h19d314d_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7226bb47e63b02432edd46614058bf44",
+            "ndownloads": 60,
+            "owner": "bioconda",
+            "sha256": "563f279ef4758daa1527e1f80ddbe9382aa160013e1b36f32af5412cf60c1d0d",
+            "size": 15634395,
+            "type": "conda",
+            "upload_time": "2025-06-25 21:40:36.774000+00:00",
+            "version": "0.3.27"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py312ha38affd_0",
+                "build_number": 0,
+                "depends": [
+                    "flatbuffers >=24.3.25,<24.3.26.0a0",
+                    "libgcc >=13",
+                    "libstdcxx >=13",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "numpy >=1.21.0",
+                    "pyarrow",
+                    "python >=3.12,<3.13.0a0",
+                    "python_abi 3.12.* *_cp312",
+                    "zstd >=1.5.7,<1.6.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MPL-2.0",
+                "license_family": "OTHER",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1750884174546
+            },
+            "basename": "linux-aarch64/lib-pod5-0.3.27-py312ha38affd_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lib-pod5/0.3.27/linux-aarch64/lib-pod5-0.3.27-py312ha38affd_0.tar.bz2",
+            "full_name": "bioconda/lib-pod5/0.3.27/linux-aarch64/lib-pod5-0.3.27-py312ha38affd_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "64f6c0ba96b35ada7401617a97b6d14e",
+            "ndownloads": 19,
+            "owner": "bioconda",
+            "sha256": "5ab11669d0932aa34d9fa984d57200ae4d342d8d64389777896279e782353ae0",
+            "size": 13950856,
+            "type": "conda",
+            "upload_time": "2025-06-25 21:40:39.233000+00:00",
+            "version": "0.3.27"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py312h12fc78b_0",
+                "build_number": 0,
+                "depends": [
+                    "flatbuffers >=24.3.25,<24.3.26.0a0",
+                    "libgcc >=13",
+                    "libstdcxx >=13",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "numpy >=1.21.0",
+                    "pyarrow",
+                    "python >=3.12,<3.13.0a0",
+                    "python_abi 3.12.* *_cp312",
+                    "zstd >=1.5.7,<1.6.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MPL-2.0",
+                "license_family": "OTHER",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1750884164119
+            },
+            "basename": "linux-64/lib-pod5-0.3.27-py312h12fc78b_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lib-pod5/0.3.27/linux-64/lib-pod5-0.3.27-py312h12fc78b_0.tar.bz2",
+            "full_name": "bioconda/lib-pod5/0.3.27/linux-64/lib-pod5-0.3.27-py312h12fc78b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "fe1c1fd2e86d25096115eac88c14a9e3",
+            "ndownloads": 179,
+            "owner": "bioconda",
+            "sha256": "909c15e6accbca86312afb49a0c0140cf295f179f5b7f94dd4d2d4c24a57ad47",
+            "size": 15634113,
+            "type": "conda",
+            "upload_time": "2025-06-25 21:40:41.532000+00:00",
+            "version": "0.3.27"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py311h25590d1_0",
+                "build_number": 0,
+                "depends": [
+                    "flatbuffers >=24.3.25,<24.3.26.0a0",
+                    "libgcc >=13",
+                    "libstdcxx >=13",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "numpy >=1.21.0",
+                    "pyarrow",
+                    "python >=3.11,<3.12.0a0",
+                    "python_abi 3.11.* *_cp311",
+                    "zstd >=1.5.7,<1.6.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MPL-2.0",
+                "license_family": "OTHER",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1750884675049
+            },
+            "basename": "linux-64/lib-pod5-0.3.27-py311h25590d1_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lib-pod5/0.3.27/linux-64/lib-pod5-0.3.27-py311h25590d1_0.tar.bz2",
+            "full_name": "bioconda/lib-pod5/0.3.27/linux-64/lib-pod5-0.3.27-py311h25590d1_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "be7ec6472e3091adb4d5811e0ab4672e",
+            "ndownloads": 52,
+            "owner": "bioconda",
+            "sha256": "df61525d8d5bc5227ef53c09bc8bea2325c39c0f96996396a83338d35494ef45",
+            "size": 15638886,
+            "type": "conda",
+            "upload_time": "2025-06-25 21:40:48.346000+00:00",
+            "version": "0.3.27"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py39hc31d4fc_0",
+                "build_number": 0,
+                "depends": [
+                    "flatbuffers >=24.3.25,<24.3.26.0a0",
+                    "libgcc >=13",
+                    "libstdcxx >=13",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "numpy >=1.21.0",
+                    "pyarrow",
+                    "python >=3.9,<3.10.0a0",
+                    "python_abi 3.9.* *_cp39",
+                    "zstd >=1.5.7,<1.6.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MPL-2.0",
+                "license_family": "OTHER",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1750884343411
+            },
+            "basename": "linux-64/lib-pod5-0.3.27-py39hc31d4fc_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lib-pod5/0.3.27/linux-64/lib-pod5-0.3.27-py39hc31d4fc_0.tar.bz2",
+            "full_name": "bioconda/lib-pod5/0.3.27/linux-64/lib-pod5-0.3.27-py39hc31d4fc_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "cabc67cd7b21843227c2c6757856f95a",
+            "ndownloads": 42,
+            "owner": "bioconda",
+            "sha256": "b6c1e119cdc55dcb8d2054657497dfed4d620a111b5a2811d5b881e30089f32e",
+            "size": 15633958,
+            "type": "conda",
+            "upload_time": "2025-06-25 21:40:53.546000+00:00",
+            "version": "0.3.27"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py312h9fa68a2_0",
+                "build_number": 0,
+                "depends": [
+                    "flatbuffers >=24.3.25,<24.3.26.0a0",
+                    "libcxx >=18",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "numpy >=1.21.0",
+                    "pyarrow",
+                    "python >=3.12,<3.13.0a0",
+                    "python_abi 3.12.* *_cp312",
+                    "zstd >=1.5.7,<1.6.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MPL-2.0",
+                "license_family": "OTHER",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1750885673320
+            },
+            "basename": "osx-arm64/lib-pod5-0.3.27-py312h9fa68a2_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lib-pod5/0.3.27/osx-arm64/lib-pod5-0.3.27-py312h9fa68a2_0.tar.bz2",
+            "full_name": "bioconda/lib-pod5/0.3.27/osx-arm64/lib-pod5-0.3.27-py312h9fa68a2_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "eaa7d76d17d8d53c65be2ef8c235ebcb",
+            "ndownloads": 22,
+            "owner": "bioconda",
+            "sha256": "dadcbce4c16158fb86c99406985a7fc23f15bdfd2163ac85ec1973b654f798f8",
+            "size": 8440825,
+            "type": "conda",
+            "upload_time": "2025-06-25 21:40:54.931000+00:00",
+            "version": "0.3.27"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py311h9ae2fcc_0",
+                "build_number": 0,
+                "depends": [
+                    "flatbuffers >=24.3.25,<24.3.26.0a0",
+                    "libcxx >=18",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "numpy >=1.21.0",
+                    "pyarrow",
+                    "python >=3.11,<3.12.0a0",
+                    "python_abi 3.11.* *_cp311",
+                    "zstd >=1.5.7,<1.6.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MPL-2.0",
+                "license_family": "OTHER",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1750885875832
+            },
+            "basename": "osx-arm64/lib-pod5-0.3.27-py311h9ae2fcc_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lib-pod5/0.3.27/osx-arm64/lib-pod5-0.3.27-py311h9ae2fcc_0.tar.bz2",
+            "full_name": "bioconda/lib-pod5/0.3.27/osx-arm64/lib-pod5-0.3.27-py311h9ae2fcc_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d22b57dfece6a4e19b7b15273891fb92",
+            "ndownloads": 12,
+            "owner": "bioconda",
+            "sha256": "0102ee4b0c3fdbacc2fa62cbd3757e14ebea8e29f590d124bfab07027fb30e62",
+            "size": 8435286,
+            "type": "conda",
+            "upload_time": "2025-06-25 21:41:00.336000+00:00",
+            "version": "0.3.27"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py310h3836861_0",
+                "build_number": 0,
+                "depends": [
+                    "flatbuffers >=24.3.25,<24.3.26.0a0",
+                    "libcxx >=18",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "numpy >=1.21.0",
+                    "pyarrow",
+                    "python >=3.10,<3.11.0a0",
+                    "python_abi 3.10.* *_cp310",
+                    "zstd >=1.5.7,<1.6.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MPL-2.0",
+                "license_family": "OTHER",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1750885548995
+            },
+            "basename": "osx-arm64/lib-pod5-0.3.27-py310h3836861_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lib-pod5/0.3.27/osx-arm64/lib-pod5-0.3.27-py310h3836861_0.tar.bz2",
+            "full_name": "bioconda/lib-pod5/0.3.27/osx-arm64/lib-pod5-0.3.27-py310h3836861_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b56149fc2a72ce0d2bd0ec1b903994cb",
+            "ndownloads": 17,
+            "owner": "bioconda",
+            "sha256": "d57f184b203704c23e37164ab6b58d6ce54832f642f8cb9766f455132efe8c5c",
+            "size": 8434734,
+            "type": "conda",
+            "upload_time": "2025-06-25 21:41:05.367000+00:00",
+            "version": "0.3.27"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py39h6084019_0",
+                "build_number": 0,
+                "depends": [
+                    "flatbuffers >=24.3.25,<24.3.26.0a0",
+                    "libcxx >=18",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "numpy >=1.21.0",
+                    "pyarrow",
+                    "python >=3.9,<3.10.0a0",
+                    "python_abi 3.9.* *_cp39",
+                    "zstd >=1.5.7,<1.6.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MPL-2.0",
+                "license_family": "OTHER",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1750885774274
+            },
+            "basename": "osx-arm64/lib-pod5-0.3.27-py39h6084019_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lib-pod5/0.3.27/osx-arm64/lib-pod5-0.3.27-py39h6084019_0.tar.bz2",
+            "full_name": "bioconda/lib-pod5/0.3.27/osx-arm64/lib-pod5-0.3.27-py39h6084019_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "34f2e51b480e4b517ba61c3acc78be1e",
+            "ndownloads": 12,
+            "owner": "bioconda",
+            "sha256": "e73bee49288cbf389ecd3c4b4fffdb2bdc63963749c06a2d2164ffaa8b930699",
+            "size": 8434060,
+            "type": "conda",
+            "upload_time": "2025-06-25 21:41:10.618000+00:00",
+            "version": "0.3.27"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py39hc63ab86_0",
+                "build_number": 0,
+                "depends": [
+                    "flatbuffers >=24.3.25,<24.3.26.0a0",
+                    "libcxx >=18",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "numpy >=1.21.0",
+                    "pyarrow",
+                    "python >=3.9,<3.10.0a0",
+                    "python_abi 3.9.* *_cp39",
+                    "zstd >=1.5.7,<1.6.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MPL-2.0",
+                "license_family": "OTHER",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1750887035916
+            },
+            "basename": "osx-64/lib-pod5-0.3.27-py39hc63ab86_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lib-pod5/0.3.27/osx-64/lib-pod5-0.3.27-py39hc63ab86_0.tar.bz2",
+            "full_name": "bioconda/lib-pod5/0.3.27/osx-64/lib-pod5-0.3.27-py39hc63ab86_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ffddc7b06689e0813c8fac7502ffe962",
+            "ndownloads": 19,
+            "owner": "bioconda",
+            "sha256": "38e55356e5fc836f889a441cb66bad9144f3425a8872fc4fb10035cfdd619c34",
+            "size": 8530906,
+            "type": "conda",
+            "upload_time": "2025-06-25 21:42:47.505000+00:00",
+            "version": "0.3.27"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py310h56a89eb_0",
+                "build_number": 0,
+                "depends": [
+                    "flatbuffers >=24.3.25,<24.3.26.0a0",
+                    "libcxx >=18",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "numpy >=1.21.0",
+                    "pyarrow",
+                    "python >=3.10,<3.11.0a0",
+                    "python_abi 3.10.* *_cp310",
+                    "zstd >=1.5.7,<1.6.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MPL-2.0",
+                "license_family": "OTHER",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1750886403584
+            },
+            "basename": "osx-64/lib-pod5-0.3.27-py310h56a89eb_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lib-pod5/0.3.27/osx-64/lib-pod5-0.3.27-py310h56a89eb_0.tar.bz2",
+            "full_name": "bioconda/lib-pod5/0.3.27/osx-64/lib-pod5-0.3.27-py310h56a89eb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "cbf8427f9fb1edd2c2207d5fff1aefd0",
+            "ndownloads": 22,
+            "owner": "bioconda",
+            "sha256": "d2cddfa889bf3c9ae32028c0675c171da39b56391d240e8c603e2e190e54704b",
+            "size": 8531071,
+            "type": "conda",
+            "upload_time": "2025-06-25 21:42:54.175000+00:00",
+            "version": "0.3.27"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py312h7bd3892_0",
+                "build_number": 0,
+                "depends": [
+                    "flatbuffers >=24.3.25,<24.3.26.0a0",
+                    "libcxx >=18",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "numpy >=1.21.0",
+                    "pyarrow",
+                    "python >=3.12,<3.13.0a0",
+                    "python_abi 3.12.* *_cp312",
+                    "zstd >=1.5.7,<1.6.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MPL-2.0",
+                "license_family": "OTHER",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1750886780788
+            },
+            "basename": "osx-64/lib-pod5-0.3.27-py312h7bd3892_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lib-pod5/0.3.27/osx-64/lib-pod5-0.3.27-py312h7bd3892_0.tar.bz2",
+            "full_name": "bioconda/lib-pod5/0.3.27/osx-64/lib-pod5-0.3.27-py312h7bd3892_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6a1af4ece3d24b0b3e1a4bd29d85d1b6",
+            "ndownloads": 25,
+            "owner": "bioconda",
+            "sha256": "146146419b95e925569a540c47b35a850cf8c4f0c9f136e4136bd280fac1e977",
+            "size": 8532103,
+            "type": "conda",
+            "upload_time": "2025-06-25 21:43:00.260000+00:00",
+            "version": "0.3.27"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py311h7be6771_0",
+                "build_number": 0,
+                "depends": [
+                    "flatbuffers >=24.3.25,<24.3.26.0a0",
+                    "libcxx >=18",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "numpy >=1.21.0",
+                    "pyarrow",
+                    "python >=3.11,<3.12.0a0",
+                    "python_abi 3.11.* *_cp311",
+                    "zstd >=1.5.7,<1.6.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MPL-2.0",
+                "license_family": "OTHER",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1750887233479
+            },
+            "basename": "osx-64/lib-pod5-0.3.27-py311h7be6771_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/lib-pod5/0.3.27/osx-64/lib-pod5-0.3.27-py311h7be6771_0.tar.bz2",
+            "full_name": "bioconda/lib-pod5/0.3.27/osx-64/lib-pod5-0.3.27-py311h7be6771_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7f54eba1b0d43a93f25808ee4cda7b37",
+            "ndownloads": 16,
+            "owner": "bioconda",
+            "sha256": "3d4de72ac806092f4637a169a781bd99fd34254cb3fea2adb46f5e42f2285daa",
+            "size": 8534205,
+            "type": "conda",
+            "upload_time": "2025-06-25 21:43:06.374000+00:00",
+            "version": "0.3.27"
+        }
+    ],
+    "full_name": "bioconda/lib-pod5",
+    "home": "https://github.com/nanoporetech/pod5-file-format",
+    "html_url": "http://anaconda.org/bioconda/lib-pod5",
+    "id": "66dfdadb340fe0ebed2cbace",
+    "latest_version": "0.3.27",
+    "license": "MPL-2.0",
+    "license_url": null,
+    "modified_at": "2025-06-25 21:43:07.759000+00:00",
+    "name": "lib-pod5",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "0.3.27",
+        "linux-aarch64": "0.3.27",
+        "noarch": "0.3.15",
+        "osx-64": "0.3.27",
+        "osx-arm64": "0.3.27"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/lib-pod5/0.3.15",
+            "version": "0.3.15"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/lib-pod5/0.3.27",
+            "version": "0.3.27"
+        }
+    ],
+    "revision": 21,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Python bindings for the POD5 file format.",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/lib-pod5",
+    "versions": [
+        "0.3.15",
+        "0.3.27"
+    ],
+    "watchers": 1
+}

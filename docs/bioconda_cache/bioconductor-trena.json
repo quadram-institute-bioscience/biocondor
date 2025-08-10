@@ -1,0 +1,1465 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351_0",
+        "r36_0",
+        "r40_0",
+        "r42hdfd78af_0",
+        "r41hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2018-12-30 22:29:30.021000+00:00",
+    "description": "Methods for reconstructing transcriptional regulatory networks, especially in species for which genome-wide TF binding site information is available.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.44.0,<1.45.0",
+                    "bioconductor-biocparallel >=1.16.0,<1.17.0",
+                    "bioconductor-biomart >=2.38.0,<2.39.0",
+                    "bioconductor-biostrings >=2.50.0,<2.51.0",
+                    "bioconductor-bsgenome >=1.50.0,<1.51.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg38 >=1.4.0,<1.5.0",
+                    "bioconductor-bsgenome.mmusculus.ucsc.mm10 >=1.4.0,<1.5.0",
+                    "bioconductor-genomicranges >=1.34.0,<1.35.0",
+                    "bioconductor-motifdb >=1.24.0,<1.25.0",
+                    "bioconductor-org.hs.eg.db >=3.7.0,<3.8.0",
+                    "bioconductor-snplocs.hsapiens.dbsnp150.grch38 >=0.99.0,<0.100.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-dbi",
+                    "r-flare",
+                    "r-glmnet >=2.0.3",
+                    "r-lassopv",
+                    "r-randomforest",
+                    "r-rmariadb",
+                    "r-rpostgresql",
+                    "r-rsqlite",
+                    "r-vbsr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1546207708173
+            },
+            "basename": "noarch/bioconductor-trena-1.4.2-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.38.0,<2.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg19",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg38",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.mmusculus.ucsc.mm10",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-motifdb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.7.0,<3.8.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snplocs.hsapiens.dbsnp150.grch38",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.99.0,<0.100.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-flare",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-glmnet",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-lassopv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmariadb",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rpostgresql",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vbsr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-trena/1.4.2/noarch/bioconductor-trena-1.4.2-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-trena/1.4.2/noarch/bioconductor-trena-1.4.2-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "ab1e29db174196aa299cb8cab895f442",
+            "ndownloads": 2757,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1776364,
+            "type": "conda",
+            "upload_time": "2018-12-30 22:29:30.831000+00:00",
+            "version": "1.4.2"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.46.0,<1.47.0",
+                    "bioconductor-biocparallel >=1.18.0,<1.19.0",
+                    "bioconductor-biomart >=2.40.0,<2.41.0",
+                    "bioconductor-biostrings >=2.52.0,<2.53.0",
+                    "bioconductor-bsgenome >=1.52.0,<1.53.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg38 >=1.4.0,<1.5.0",
+                    "bioconductor-bsgenome.mmusculus.ucsc.mm10 >=1.4.0,<1.5.0",
+                    "bioconductor-genomicranges >=1.36.0,<1.37.0",
+                    "bioconductor-motifdb >=1.26.0,<1.27.0",
+                    "bioconductor-org.hs.eg.db >=3.8.0,<3.9.0",
+                    "bioconductor-snplocs.hsapiens.dbsnp150.grch38 >=0.99.0,<0.100.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-dbi",
+                    "r-flare",
+                    "r-glmnet >=2.0.3",
+                    "r-lassopv",
+                    "r-randomforest",
+                    "r-rmysql",
+                    "r-rpostgresql",
+                    "r-rsqlite",
+                    "r-vbsr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1565690011792
+            },
+            "basename": "noarch/bioconductor-trena-1.6.1-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg19",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg38",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.mmusculus.ucsc.mm10",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-motifdb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snplocs.hsapiens.dbsnp150.grch38",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.99.0,<0.100.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-flare",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-glmnet",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-lassopv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmysql",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rpostgresql",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vbsr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-trena/1.6.1/noarch/bioconductor-trena-1.6.1-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-trena/1.6.1/noarch/bioconductor-trena-1.6.1-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "06d9a856a955f1a696bee5716f0f4742",
+            "ndownloads": 2703,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1797282,
+            "type": "conda",
+            "upload_time": "2019-08-13 10:18:01.701000+00:00",
+            "version": "1.6.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.48.0,<1.49.0",
+                    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+                    "bioconductor-biomart >=2.42.0,<2.43.0",
+                    "bioconductor-biostrings >=2.54.0,<2.55.0",
+                    "bioconductor-bsgenome >=1.54.0,<1.55.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg38 >=1.4.0,<1.5.0",
+                    "bioconductor-bsgenome.mmusculus.ucsc.mm10 >=1.4.0,<1.5.0",
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "bioconductor-motifdb >=1.28.0,<1.29.0",
+                    "bioconductor-org.hs.eg.db >=3.10.0,<3.11.0",
+                    "bioconductor-snplocs.hsapiens.dbsnp150.grch38 >=0.99.0,<0.100.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-dbi",
+                    "r-flare",
+                    "r-glmnet >=2.0.3",
+                    "r-lassopv",
+                    "r-randomforest",
+                    "r-rmysql",
+                    "r-rpostgresql",
+                    "r-rsqlite",
+                    "r-vbsr",
+                    "r-xgboost"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572941679633
+            },
+            "basename": "noarch/bioconductor-trena-1.8.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg19",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg38",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.mmusculus.ucsc.mm10",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-motifdb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.10.0,<3.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snplocs.hsapiens.dbsnp150.grch38",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.99.0,<0.100.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-flare",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-glmnet",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-lassopv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmysql",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rpostgresql",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vbsr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-xgboost",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-trena/1.8.0/noarch/bioconductor-trena-1.8.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-trena/1.8.0/noarch/bioconductor-trena-1.8.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "caae2b743b0ec3290e9178adc42a6470",
+            "ndownloads": 2686,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2119356,
+            "type": "conda",
+            "upload_time": "2019-11-05 08:41:33.317000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.52.0,<1.53.0",
+                    "bioconductor-biocparallel >=1.24.0,<1.25.0",
+                    "bioconductor-biomart >=2.46.0,<2.47.0",
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-bsgenome >=1.58.0,<1.59.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg38 >=1.4.0,<1.5.0",
+                    "bioconductor-bsgenome.mmusculus.ucsc.mm10 >=1.4.0,<1.5.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-motifdb >=1.32.0,<1.33.0",
+                    "bioconductor-org.hs.eg.db >=3.12.0,<3.13.0",
+                    "bioconductor-snplocs.hsapiens.dbsnp150.grch38 >=0.99.0,<0.100.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-dbi",
+                    "r-glmnet >=2.0.3",
+                    "r-lassopv",
+                    "r-randomforest",
+                    "r-rmysql",
+                    "r-rpostgresql",
+                    "r-rsqlite",
+                    "r-vbsr",
+                    "r-xgboost"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604611925771
+            },
+            "basename": "noarch/bioconductor-trena-1.11.6-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg19",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg38",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.mmusculus.ucsc.mm10",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-motifdb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snplocs.hsapiens.dbsnp150.grch38",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.99.0,<0.100.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-glmnet",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-lassopv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmysql",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rpostgresql",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vbsr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-xgboost",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-trena/1.11.6/noarch/bioconductor-trena-1.11.6-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-trena/1.11.6/noarch/bioconductor-trena-1.11.6-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "13eb07095889c35b98d0c98c5b941816",
+            "ndownloads": 2659,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2691720,
+            "type": "conda",
+            "upload_time": "2020-11-05 22:05:23.097000+00:00",
+            "version": "1.11.6"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.54.0,<1.55.0",
+                    "bioconductor-biocparallel >=1.26.0,<1.27.0",
+                    "bioconductor-biomart >=2.48.0,<2.49.0",
+                    "bioconductor-biostrings >=2.60.0,<2.61.0",
+                    "bioconductor-bsgenome >=1.60.0,<1.61.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg38 >=1.4.0,<1.5.0",
+                    "bioconductor-bsgenome.mmusculus.ucsc.mm10 >=1.4.0,<1.5.0",
+                    "bioconductor-genomicranges >=1.44.0,<1.45.0",
+                    "bioconductor-motifdb >=1.34.0,<1.35.0",
+                    "bioconductor-org.hs.eg.db >=3.13.0,<3.14.0",
+                    "bioconductor-snplocs.hsapiens.dbsnp150.grch38 >=0.99.0,<0.100.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-dbi",
+                    "r-glmnet >=2.0.3",
+                    "r-lassopv",
+                    "r-randomforest",
+                    "r-rmysql",
+                    "r-rpostgresql",
+                    "r-rsqlite",
+                    "r-vbsr",
+                    "r-xgboost"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1623246875908
+            },
+            "basename": "noarch/bioconductor-trena-1.14.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.60.0,<2.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg19",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg38",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.mmusculus.ucsc.mm10",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-motifdb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.13.0,<3.14.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snplocs.hsapiens.dbsnp150.grch38",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.99.0,<0.100.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-glmnet",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-lassopv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmysql",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rpostgresql",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vbsr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-xgboost",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-trena/1.14.0/noarch/bioconductor-trena-1.14.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-trena/1.14.0/noarch/bioconductor-trena-1.14.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "68504144116d86c3ebb060e345c20a4c",
+            "ndownloads": 2641,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2691648,
+            "type": "conda",
+            "upload_time": "2021-06-09 14:43:58.355000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.56.0,<1.57.0",
+                    "bioconductor-biomart >=2.50.0,<2.51.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-bsgenome >=1.62.0,<1.63.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg38 >=1.4.0,<1.5.0",
+                    "bioconductor-bsgenome.mmusculus.ucsc.mm10 >=1.4.0,<1.5.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-motifdb >=1.36.0,<1.37.0",
+                    "bioconductor-org.hs.eg.db >=3.14.0,<3.15.0",
+                    "bioconductor-snplocs.hsapiens.dbsnp150.grch38 >=0.99.0,<0.100.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-dbi",
+                    "r-glmnet >=2.0.3",
+                    "r-lassopv",
+                    "r-randomforest",
+                    "r-rmysql",
+                    "r-rpostgresql",
+                    "r-rsqlite",
+                    "r-vbsr",
+                    "r-wgcna",
+                    "r-xgboost"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636496665558
+            },
+            "basename": "noarch/bioconductor-trena-1.16.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg19",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg38",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.mmusculus.ucsc.mm10",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-motifdb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.14.0,<3.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snplocs.hsapiens.dbsnp150.grch38",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.99.0,<0.100.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-glmnet",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-lassopv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmysql",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rpostgresql",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rsqlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vbsr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-wgcna",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-xgboost",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-trena/1.16.0/noarch/bioconductor-trena-1.16.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-trena/1.16.0/noarch/bioconductor-trena-1.16.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "801a1664872bb22d29a68d567f5be002",
+            "ndownloads": 2441,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2720828,
+            "type": "conda",
+            "upload_time": "2021-11-09 22:51:35.028000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.60.0,<1.61.0",
+                    "bioconductor-biomart >=2.54.0,<2.55.0",
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-bsgenome >=1.66.0,<1.67.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg38 >=1.4.0,<1.5.0",
+                    "bioconductor-bsgenome.mmusculus.ucsc.mm10 >=1.4.0,<1.5.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-motifdb >=1.40.0,<1.41.0",
+                    "bioconductor-org.hs.eg.db >=3.16.0,<3.17.0",
+                    "bioconductor-snplocs.hsapiens.dbsnp150.grch38 >=0.99.0,<0.100.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-dbi",
+                    "r-glmnet >=2.0.3",
+                    "r-lassopv",
+                    "r-randomforest",
+                    "r-rmysql",
+                    "r-rpostgresql",
+                    "r-rsqlite",
+                    "r-wgcna",
+                    "r-xgboost"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1668107191677
+            },
+            "basename": "noarch/bioconductor-trena-1.20.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-trena/1.20.0/noarch/bioconductor-trena-1.20.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-trena/1.20.0/noarch/bioconductor-trena-1.20.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "26f06611ce68acfa75da1a5bb84725ad",
+            "ndownloads": 1717,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2744275,
+            "type": "conda",
+            "upload_time": "2022-11-10 19:27:15.746000+00:00",
+            "version": "1.20.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-trena",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/trena.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-trena",
+    "id": "5c2946cad9c2cf1352d9b98b",
+    "latest_version": "1.20.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:10.514000+00:00",
+    "name": "bioconductor-trena",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.20.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-trena/1.4.2",
+            "version": "1.4.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-trena/1.6.1",
+            "version": "1.6.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-trena/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-trena/1.11.6",
+            "version": "1.11.6"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-trena/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-trena/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-trena/1.20.0",
+            "version": "1.20.0"
+        }
+    ],
+    "revision": 14,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Fit transcriptional regulatory networks using gene expression, priors, machine learning",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-trena",
+    "versions": [
+        "1.4.2",
+        "1.6.1",
+        "1.8.0",
+        "1.11.6",
+        "1.14.0",
+        "1.16.0",
+        "1.20.0"
+    ],
+    "watchers": 1
+}

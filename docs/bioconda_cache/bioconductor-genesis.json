@@ -1,0 +1,3960 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r36h516909a_0",
+        "r40h037d062_0",
+        "r43h4c50009_0",
+        "r42hc0cfd56_0",
+        "r40h68a2ddb_0",
+        "r42ha9d7317_1",
+        "r41h3be46a4_0",
+        "r41hc0cfd56_0",
+        "r36_0",
+        "r41haba8685_0",
+        "r36h01d97ff_0",
+        "r40h8909d69_0",
+        "r42h3be46a4_0",
+        "r41hd029910_0",
+        "r351_0",
+        "r41h5c21468_0",
+        "r40hd029910_0",
+        "r44h3df3fcb_0",
+        "r42h4c50009_1",
+        "r41h68a2ddb_0",
+        "r43ha9d7317_0",
+        "r44h2f393c0_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64",
+        "noarch"
+    ],
+    "created_at": "2018-12-18 23:15:30.163000+00:00",
+    "description": "The GENESIS package provides methodology for estimating, inferring, and accounting for population and pedigree structure in genetic analyses.  The current implementation provides functions to perform PC-AiR (Conomos et al., 2015, Gen Epi) and PC-Relate (Conomos et al., 2016, AJHG). PC-AiR performs a Principal Components Analysis on genome-wide SNP data for the detection of population structure in a sample that may contain known or cryptic relatedness. Unlike standard PCA, PC-AiR accounts for relatedness in the sample to provide accurate ancestry inference that is not confounded by family structure. PC-Relate uses ancestry representative principal components to adjust for population structure/ancestry and accurately estimate measures of recent genetic relatedness such as kinship coefficients, IBD sharing probabilities, and inbreeding coefficients. Additionally, functions are provided to perform efficient variance component estimation and mixed model association testing for both quantitative and binary phenotypes.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "bioconductor-gdsfmt >=1.18.0,<1.19.0",
+                    "bioconductor-genomicranges >=1.34.0,<1.35.0",
+                    "bioconductor-gwastools >=1.28.0,<1.29.0",
+                    "bioconductor-iranges >=2.16.0,<2.17.0",
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "bioconductor-seqarray >=1.22.0,<1.23.0",
+                    "bioconductor-seqvartools >=1.20.0,<1.21.0",
+                    "bioconductor-snprelate >=1.16.0,<1.17.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-foreach",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1545174686893
+            },
+            "basename": "noarch/bioconductor-genesis-2.12.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gwastools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqvartools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snprelate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.12.0/noarch/bioconductor-genesis-2.12.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.12.0/noarch/bioconductor-genesis-2.12.0-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "6da5e39621a91b6a965e4fae5e076c56",
+            "ndownloads": 2764,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2875567,
+            "type": "conda",
+            "upload_time": "2018-12-18 23:15:31.138000+00:00",
+            "version": "2.12.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "bioconductor-gdsfmt >=1.20.0,<1.21.0",
+                    "bioconductor-genomicranges >=1.36.0,<1.37.0",
+                    "bioconductor-gwastools >=1.30.0,<1.31.0",
+                    "bioconductor-iranges >=2.18.0,<2.19.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "bioconductor-seqarray >=1.24.0,<1.25.0",
+                    "bioconductor-seqvartools >=1.22.0,<1.23.0",
+                    "bioconductor-snprelate >=1.18.0,<1.19.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-foreach",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1565303132714
+            },
+            "basename": "noarch/bioconductor-genesis-2.14.3-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gwastools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqvartools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snprelate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.14.3/noarch/bioconductor-genesis-2.14.3-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.14.3/noarch/bioconductor-genesis-2.14.3-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c90aa6263e42eeb93383776d24301087",
+            "ndownloads": 2705,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4042181,
+            "type": "conda",
+            "upload_time": "2019-08-08 22:31:01.937000+00:00",
+            "version": "2.14.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-gdsfmt >=1.22.0,<1.23.0",
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "bioconductor-gwastools >=1.32.0,<1.33.0",
+                    "bioconductor-iranges >=2.20.0,<2.21.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "bioconductor-seqarray >=1.26.0,<1.27.0",
+                    "bioconductor-seqvartools >=1.24.0,<1.25.0",
+                    "bioconductor-snprelate >=1.20.0,<1.21.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-foreach",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572655033482
+            },
+            "basename": "osx-64/bioconductor-genesis-2.16.0-r36h01d97ff_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gwastools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqvartools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snprelate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.16.0/osx-64/bioconductor-genesis-2.16.0-r36h01d97ff_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.16.0/osx-64/bioconductor-genesis-2.16.0-r36h01d97ff_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2c80ac037803b9f998eced682d451435",
+            "ndownloads": 3833,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4119164,
+            "type": "conda",
+            "upload_time": "2019-11-02 00:38:22.933000+00:00",
+            "version": "2.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-gdsfmt >=1.22.0,<1.23.0",
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "bioconductor-gwastools >=1.32.0,<1.33.0",
+                    "bioconductor-iranges >=2.20.0,<2.21.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "bioconductor-seqarray >=1.26.0,<1.27.0",
+                    "bioconductor-seqvartools >=1.24.0,<1.25.0",
+                    "bioconductor-snprelate >=1.20.0,<1.21.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-foreach",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572680716813
+            },
+            "basename": "linux-64/bioconductor-genesis-2.16.0-r36h516909a_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gwastools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqvartools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snprelate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.16.0/linux-64/bioconductor-genesis-2.16.0-r36h516909a_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.16.0/linux-64/bioconductor-genesis-2.16.0-r36h516909a_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0924e7048ab3041152dc760c20d45464",
+            "ndownloads": 379,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4161889,
+            "type": "conda",
+            "upload_time": "2019-11-02 07:50:42.876000+00:00",
+            "version": "2.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h8909d69_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.48.0,<2.49.0",
+                    "bioconductor-biocgenerics >=0.34.0,<0.35.0",
+                    "bioconductor-gdsfmt >=1.24.0,<1.25.0",
+                    "bioconductor-genomicranges >=1.40.0,<1.41.0",
+                    "bioconductor-gwastools >=1.34.0,<1.35.0",
+                    "bioconductor-iranges >=2.22.0,<2.23.0",
+                    "bioconductor-s4vectors >=0.26.0,<0.27.0",
+                    "bioconductor-seqarray >=1.28.0,<1.29.0",
+                    "bioconductor-seqvartools >=1.26.0,<1.27.0",
+                    "bioconductor-snprelate >=1.22.0,<1.23.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-foreach",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1589186225594
+            },
+            "basename": "osx-64/bioconductor-genesis-2.18.0-r40h8909d69_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.34.0,<0.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gwastools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.22.0,<2.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqvartools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snprelate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.18.0/osx-64/bioconductor-genesis-2.18.0-r40h8909d69_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.18.0/osx-64/bioconductor-genesis-2.18.0-r40h8909d69_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7d71a19bee5aa00aa430c7fe644b6eb4",
+            "ndownloads": 3402,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4089590,
+            "type": "conda",
+            "upload_time": "2020-05-11 08:38:59.554000+00:00",
+            "version": "2.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h037d062_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.48.0,<2.49.0",
+                    "bioconductor-biocgenerics >=0.34.0,<0.35.0",
+                    "bioconductor-gdsfmt >=1.24.0,<1.25.0",
+                    "bioconductor-genomicranges >=1.40.0,<1.41.0",
+                    "bioconductor-gwastools >=1.34.0,<1.35.0",
+                    "bioconductor-iranges >=2.22.0,<2.23.0",
+                    "bioconductor-s4vectors >=0.26.0,<0.27.0",
+                    "bioconductor-seqarray >=1.28.0,<1.29.0",
+                    "bioconductor-seqvartools >=1.26.0,<1.27.0",
+                    "bioconductor-snprelate >=1.22.0,<1.23.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.3.0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-foreach",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1589267941183
+            },
+            "basename": "linux-64/bioconductor-genesis-2.18.0-r40h037d062_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.34.0,<0.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gwastools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.22.0,<2.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqvartools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snprelate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.18.0/linux-64/bioconductor-genesis-2.18.0-r40h037d062_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.18.0/linux-64/bioconductor-genesis-2.18.0-r40h037d062_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c9332c868ba39039e48a97bf6fdf12f5",
+            "ndownloads": 308,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4064096,
+            "type": "conda",
+            "upload_time": "2020-05-12 07:24:39.580000+00:00",
+            "version": "2.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h8909d69_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-gdsfmt >=1.26.0,<1.27.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-gwastools >=1.36.0,<1.37.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-seqarray >=1.30.0,<1.31.0",
+                    "bioconductor-seqvartools >=1.28.0,<1.29.0",
+                    "bioconductor-snprelate >=1.24.0,<1.25.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-data.table",
+                    "r-foreach",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1604007460672
+            },
+            "basename": "osx-64/bioconductor-genesis-2.20.0-r40h8909d69_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gwastools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqvartools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snprelate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.20.0/osx-64/bioconductor-genesis-2.20.0-r40h8909d69_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.20.0/osx-64/bioconductor-genesis-2.20.0-r40h8909d69_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "28a000abc43f6185b02819361d3354b4",
+            "ndownloads": 3092,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4109927,
+            "type": "conda",
+            "upload_time": "2020-10-29 21:39:05.597000+00:00",
+            "version": "2.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h037d062_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-gdsfmt >=1.26.0,<1.27.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-gwastools >=1.36.0,<1.37.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-seqarray >=1.30.0,<1.31.0",
+                    "bioconductor-seqvartools >=1.28.0,<1.29.0",
+                    "bioconductor-snprelate >=1.24.0,<1.25.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-data.table",
+                    "r-foreach",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1604109095067
+            },
+            "basename": "linux-64/bioconductor-genesis-2.20.0-r40h037d062_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gwastools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqvartools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snprelate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.20.0/linux-64/bioconductor-genesis-2.20.0-r40h037d062_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.20.0/linux-64/bioconductor-genesis-2.20.0-r40h037d062_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "03b49f1c22a8aad8242e37113c57b12e",
+            "ndownloads": 292,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4181739,
+            "type": "conda",
+            "upload_time": "2020-10-31 01:57:48.346000+00:00",
+            "version": "2.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h68a2ddb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-gdsfmt >=1.26.0,<1.27.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-gwastools >=1.36.0,<1.37.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-seqarray >=1.30.0,<1.31.0",
+                    "bioconductor-seqvartools >=1.28.0,<1.29.0",
+                    "bioconductor-snprelate >=1.24.0,<1.25.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-data.table",
+                    "r-foreach",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1617047115499
+            },
+            "basename": "osx-64/bioconductor-genesis-2.20.1-r40h68a2ddb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gwastools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqvartools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snprelate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.20.1/osx-64/bioconductor-genesis-2.20.1-r40h68a2ddb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.20.1/osx-64/bioconductor-genesis-2.20.1-r40h68a2ddb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0dabcce3b8c44f0abc70c780730c1ef8",
+            "ndownloads": 2809,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4116864,
+            "type": "conda",
+            "upload_time": "2021-03-29 19:47:14.145000+00:00",
+            "version": "2.20.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40hd029910_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-gdsfmt >=1.26.0,<1.27.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-gwastools >=1.36.0,<1.37.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-seqarray >=1.30.0,<1.31.0",
+                    "bioconductor-seqvartools >=1.28.0,<1.29.0",
+                    "bioconductor-snprelate >=1.24.0,<1.25.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-data.table",
+                    "r-foreach",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1617101908909
+            },
+            "basename": "linux-64/bioconductor-genesis-2.20.1-r40hd029910_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gwastools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqvartools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snprelate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.20.1/linux-64/bioconductor-genesis-2.20.1-r40hd029910_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.20.1/linux-64/bioconductor-genesis-2.20.1-r40hd029910_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "520c1ca56f2d15415ba5e25277761066",
+            "ndownloads": 312,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4130705,
+            "type": "conda",
+            "upload_time": "2021-03-30 11:06:59.401000+00:00",
+            "version": "2.20.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hd029910_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.52.0,<2.53.0",
+                    "bioconductor-biocgenerics >=0.38.0,<0.39.0",
+                    "bioconductor-gdsfmt >=1.28.0,<1.29.0",
+                    "bioconductor-genomicranges >=1.44.0,<1.45.0",
+                    "bioconductor-gwastools >=1.38.0,<1.39.0",
+                    "bioconductor-iranges >=2.26.0,<2.27.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "bioconductor-seqarray >=1.32.0,<1.33.0",
+                    "bioconductor-seqvartools >=1.30.0,<1.31.0",
+                    "bioconductor-snprelate >=1.26.0,<1.27.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-data.table",
+                    "r-foreach",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1622992605095
+            },
+            "basename": "linux-64/bioconductor-genesis-2.22.1-r41hd029910_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.38.0,<0.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gwastools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqvartools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snprelate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.22.1/linux-64/bioconductor-genesis-2.22.1-r41hd029910_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.22.1/linux-64/bioconductor-genesis-2.22.1-r41hd029910_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1b020e74739d4ca05a3748c8fd073230",
+            "ndownloads": 287,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4170331,
+            "type": "conda",
+            "upload_time": "2021-06-06 15:24:13.385000+00:00",
+            "version": "2.22.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h68a2ddb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.52.0,<2.53.0",
+                    "bioconductor-biocgenerics >=0.38.0,<0.39.0",
+                    "bioconductor-gdsfmt >=1.28.0,<1.29.0",
+                    "bioconductor-genomicranges >=1.44.0,<1.45.0",
+                    "bioconductor-gwastools >=1.38.0,<1.39.0",
+                    "bioconductor-iranges >=2.26.0,<2.27.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "bioconductor-seqarray >=1.32.0,<1.33.0",
+                    "bioconductor-seqvartools >=1.30.0,<1.31.0",
+                    "bioconductor-snprelate >=1.26.0,<1.27.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-data.table",
+                    "r-foreach",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1623014111652
+            },
+            "basename": "osx-64/bioconductor-genesis-2.22.1-r41h68a2ddb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.38.0,<0.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gwastools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqvartools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snprelate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.22.1/osx-64/bioconductor-genesis-2.22.1-r41h68a2ddb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.22.1/osx-64/bioconductor-genesis-2.22.1-r41h68a2ddb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "51311d063a9f3b0b55e395f0ce3b3147",
+            "ndownloads": 2681,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4187540,
+            "type": "conda",
+            "upload_time": "2021-06-06 21:16:52.064000+00:00",
+            "version": "2.22.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h68a2ddb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-gdsfmt >=1.30.0,<1.31.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-gwastools >=1.40.0,<1.41.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-seqarray >=1.34.0,<1.35.0",
+                    "bioconductor-seqvartools >=1.32.0,<1.33.0",
+                    "bioconductor-snprelate >=1.28.0,<1.29.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-data.table",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1635966752931
+            },
+            "basename": "osx-64/bioconductor-genesis-2.24.0-r41h68a2ddb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gwastools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqvartools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snprelate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.24.0/osx-64/bioconductor-genesis-2.24.0-r41h68a2ddb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.24.0/osx-64/bioconductor-genesis-2.24.0-r41h68a2ddb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "abcf9d2ef1d44159a4b43a2e2360be46",
+            "ndownloads": 2382,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4199911,
+            "type": "conda",
+            "upload_time": "2021-11-03 19:14:30.864000+00:00",
+            "version": "2.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hd029910_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-gdsfmt >=1.30.0,<1.31.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-gwastools >=1.40.0,<1.41.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-seqarray >=1.34.0,<1.35.0",
+                    "bioconductor-seqvartools >=1.32.0,<1.33.0",
+                    "bioconductor-snprelate >=1.28.0,<1.29.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-data.table",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1636482292584
+            },
+            "basename": "linux-64/bioconductor-genesis-2.24.0-r41hd029910_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gwastools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqvartools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snprelate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.24.0/linux-64/bioconductor-genesis-2.24.0-r41hd029910_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.24.0/linux-64/bioconductor-genesis-2.24.0-r41hd029910_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b1ddb792d42725e0b5852177f4f5c669",
+            "ndownloads": 251,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4127944,
+            "type": "conda",
+            "upload_time": "2021-11-09 18:34:39.338000+00:00",
+            "version": "2.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h5c21468_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-gdsfmt >=1.30.0,<1.31.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-gwastools >=1.40.0,<1.41.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-seqarray >=1.34.0,<1.35.0",
+                    "bioconductor-seqvartools >=1.32.0,<1.33.0",
+                    "bioconductor-snprelate >=1.28.0,<1.29.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-data.table",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1646020708842
+            },
+            "basename": "linux-64/bioconductor-genesis-2.24.1-r41h5c21468_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gwastools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqvartools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snprelate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.24.1/linux-64/bioconductor-genesis-2.24.1-r41h5c21468_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.24.1/linux-64/bioconductor-genesis-2.24.1-r41h5c21468_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5e1857da964a079ff3f042918bd0713c",
+            "ndownloads": 249,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4232415,
+            "type": "conda",
+            "upload_time": "2022-02-28 04:08:34.951000+00:00",
+            "version": "2.24.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41haba8685_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-gdsfmt >=1.30.0,<1.31.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-gwastools >=1.40.0,<1.41.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-seqarray >=1.34.0,<1.35.0",
+                    "bioconductor-seqvartools >=1.32.0,<1.33.0",
+                    "bioconductor-snprelate >=1.28.0,<1.29.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-data.table",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1646059714121
+            },
+            "basename": "osx-64/bioconductor-genesis-2.24.1-r41haba8685_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gdsfmt",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gwastools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-seqvartools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snprelate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.24.1/osx-64/bioconductor-genesis-2.24.1-r41haba8685_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.24.1/osx-64/bioconductor-genesis-2.24.1-r41haba8685_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a1ce402aae9fccc186e7a47648dc4669",
+            "ndownloads": 2152,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4190031,
+            "type": "conda",
+            "upload_time": "2022-02-28 14:51:03.862000+00:00",
+            "version": "2.24.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hc0cfd56_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-gdsfmt >=1.30.0,<1.31.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-gwastools >=1.40.0,<1.41.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-seqarray >=1.34.0,<1.35.0",
+                    "bioconductor-seqvartools >=1.32.0,<1.33.0",
+                    "bioconductor-snprelate >=1.28.0,<1.29.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-data.table",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1663968764390
+            },
+            "basename": "linux-64/bioconductor-genesis-2.24.2-r41hc0cfd56_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.24.2/linux-64/bioconductor-genesis-2.24.2-r41hc0cfd56_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.24.2/linux-64/bioconductor-genesis-2.24.2-r41hc0cfd56_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "aded6716f8ebe2e819a6b5a4e47f6ff1",
+            "ndownloads": 211,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4154790,
+            "type": "conda",
+            "upload_time": "2022-09-23 21:39:59.687000+00:00",
+            "version": "2.24.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h3be46a4_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-gdsfmt >=1.30.0,<1.31.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-gwastools >=1.40.0,<1.41.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-seqarray >=1.34.0,<1.35.0",
+                    "bioconductor-seqvartools >=1.32.0,<1.33.0",
+                    "bioconductor-snprelate >=1.28.0,<1.29.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-data.table",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1663969979641
+            },
+            "basename": "osx-64/bioconductor-genesis-2.24.2-r41h3be46a4_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.24.2/osx-64/bioconductor-genesis-2.24.2-r41h3be46a4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.24.2/osx-64/bioconductor-genesis-2.24.2-r41h3be46a4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6c8f0eb0994ad886d3f46c88d3253d64",
+            "ndownloads": 1800,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4144714,
+            "type": "conda",
+            "upload_time": "2022-09-23 21:54:54.991000+00:00",
+            "version": "2.24.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc0cfd56_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-gdsfmt >=1.34.0,<1.35.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-gwastools >=1.44.0,<1.45.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-seqarray >=1.38.0,<1.39.0",
+                    "bioconductor-seqvartools >=1.36.0,<1.37.0",
+                    "bioconductor-snprelate >=1.32.0,<1.33.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-data.table",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1667662970694
+            },
+            "basename": "linux-64/bioconductor-genesis-2.28.0-r42hc0cfd56_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.28.0/linux-64/bioconductor-genesis-2.28.0-r42hc0cfd56_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.28.0/linux-64/bioconductor-genesis-2.28.0-r42hc0cfd56_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6f764216c290675c7f24982f6af17301",
+            "ndownloads": 351,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4200198,
+            "type": "conda",
+            "upload_time": "2022-11-05 15:49:14.671000+00:00",
+            "version": "2.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42h3be46a4_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-gdsfmt >=1.34.0,<1.35.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-gwastools >=1.44.0,<1.45.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-seqarray >=1.38.0,<1.39.0",
+                    "bioconductor-seqvartools >=1.36.0,<1.37.0",
+                    "bioconductor-snprelate >=1.32.0,<1.33.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-data.table",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1667877359547
+            },
+            "basename": "osx-64/bioconductor-genesis-2.28.0-r42h3be46a4_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.28.0/osx-64/bioconductor-genesis-2.28.0-r42h3be46a4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.28.0/osx-64/bioconductor-genesis-2.28.0-r42h3be46a4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "71af66d8ec45abceb1a4f55e575a805b",
+            "ndownloads": 451,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4187283,
+            "type": "conda",
+            "upload_time": "2022-11-08 03:18:19.954000+00:00",
+            "version": "2.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42ha9d7317_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-gdsfmt >=1.34.0,<1.35.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-gwastools >=1.44.0,<1.45.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-seqarray >=1.38.0,<1.39.0",
+                    "bioconductor-seqvartools >=1.36.0,<1.37.0",
+                    "bioconductor-snprelate >=1.32.0,<1.33.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-data.table",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1685388306766
+            },
+            "basename": "linux-64/bioconductor-genesis-2.28.0-r42ha9d7317_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.28.0/linux-64/bioconductor-genesis-2.28.0-r42ha9d7317_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.28.0/linux-64/bioconductor-genesis-2.28.0-r42ha9d7317_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a0e099b4d09f3c34f991f0abf2d6ac9a",
+            "ndownloads": 241,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4204704,
+            "type": "conda",
+            "upload_time": "2023-05-29 19:30:17.811000+00:00",
+            "version": "2.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42h4c50009_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-gdsfmt >=1.34.0,<1.35.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-gwastools >=1.44.0,<1.45.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-seqarray >=1.38.0,<1.39.0",
+                    "bioconductor-seqvartools >=1.36.0,<1.37.0",
+                    "bioconductor-snprelate >=1.32.0,<1.33.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-data.table",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1685660099241
+            },
+            "basename": "osx-64/bioconductor-genesis-2.28.0-r42h4c50009_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.28.0/osx-64/bioconductor-genesis-2.28.0-r42h4c50009_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.28.0/osx-64/bioconductor-genesis-2.28.0-r42h4c50009_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1ec94fbf4f078ecfb4823426c2cddf62",
+            "ndownloads": 1305,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4162453,
+            "type": "conda",
+            "upload_time": "2023-06-01 22:56:54.471000+00:00",
+            "version": "2.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43ha9d7317_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.60.0,<2.61.0",
+                    "bioconductor-biocgenerics >=0.46.0,<0.47.0",
+                    "bioconductor-biocparallel >=1.34.0,<1.35.0",
+                    "bioconductor-gdsfmt >=1.36.0,<1.37.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-gwastools >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "bioconductor-seqarray >=1.40.0,<1.41.0",
+                    "bioconductor-seqvartools >=1.38.0,<1.39.0",
+                    "bioconductor-snprelate >=1.34.0,<1.35.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-data.table",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1689633922603
+            },
+            "basename": "linux-64/bioconductor-genesis-2.30.0-r43ha9d7317_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.30.0/linux-64/bioconductor-genesis-2.30.0-r43ha9d7317_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.30.0/linux-64/bioconductor-genesis-2.30.0-r43ha9d7317_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3419a957644164573268b8b2f1814076",
+            "ndownloads": 182,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4172577,
+            "type": "conda",
+            "upload_time": "2023-07-17 22:50:30.136000+00:00",
+            "version": "2.30.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43h4c50009_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.60.0,<2.61.0",
+                    "bioconductor-biocgenerics >=0.46.0,<0.47.0",
+                    "bioconductor-biocparallel >=1.34.0,<1.35.0",
+                    "bioconductor-gdsfmt >=1.36.0,<1.37.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-gwastools >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "bioconductor-seqarray >=1.40.0,<1.41.0",
+                    "bioconductor-seqvartools >=1.38.0,<1.39.0",
+                    "bioconductor-snprelate >=1.34.0,<1.35.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-data.table",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1689766973199
+            },
+            "basename": "osx-64/bioconductor-genesis-2.30.0-r43h4c50009_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.30.0/osx-64/bioconductor-genesis-2.30.0-r43h4c50009_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.30.0/osx-64/bioconductor-genesis-2.30.0-r43h4c50009_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1ef07d13a85f12930079fa60e497fb83",
+            "ndownloads": 1178,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4181451,
+            "type": "conda",
+            "upload_time": "2023-07-19 11:44:45.739000+00:00",
+            "version": "2.30.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43h4c50009_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.62.0,<2.63.0",
+                    "bioconductor-biobase >=2.62.0,<2.63.0a0",
+                    "bioconductor-biocgenerics >=0.48.0,<0.49.0",
+                    "bioconductor-biocgenerics >=0.48.1,<0.49.0a0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0a0",
+                    "bioconductor-gdsfmt >=1.38.0,<1.39.0",
+                    "bioconductor-gdsfmt >=1.38.0,<1.39.0a0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-genomicranges >=1.54.1,<1.55.0a0",
+                    "bioconductor-gwastools >=1.48.0,<1.49.0",
+                    "bioconductor-gwastools >=1.48.0,<1.49.0a0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0a0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-s4vectors >=0.40.2,<0.41.0a0",
+                    "bioconductor-seqarray >=1.42.0,<1.43.0",
+                    "bioconductor-seqarray >=1.42.0,<1.43.0a0",
+                    "bioconductor-seqvartools >=1.40.0,<1.41.0",
+                    "bioconductor-seqvartools >=1.40.0,<1.41.0a0",
+                    "bioconductor-snprelate >=1.36.0,<1.37.0",
+                    "bioconductor-snprelate >=1.36.0,<1.37.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-data.table",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1702094818236
+            },
+            "basename": "osx-64/bioconductor-genesis-2.32.0-r43h4c50009_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.32.0/osx-64/bioconductor-genesis-2.32.0-r43h4c50009_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.32.0/osx-64/bioconductor-genesis-2.32.0-r43h4c50009_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "000de362166a374b5bc42a4686329bd1",
+            "ndownloads": 898,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4164046,
+            "type": "conda",
+            "upload_time": "2023-12-09 04:05:58.460000+00:00",
+            "version": "2.32.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43ha9d7317_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.62.0,<2.63.0",
+                    "bioconductor-biobase >=2.62.0,<2.63.0a0",
+                    "bioconductor-biocgenerics >=0.48.0,<0.49.0",
+                    "bioconductor-biocgenerics >=0.48.1,<0.49.0a0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0a0",
+                    "bioconductor-gdsfmt >=1.38.0,<1.39.0",
+                    "bioconductor-gdsfmt >=1.38.0,<1.39.0a0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-genomicranges >=1.54.1,<1.55.0a0",
+                    "bioconductor-gwastools >=1.48.0,<1.49.0",
+                    "bioconductor-gwastools >=1.48.0,<1.49.0a0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0a0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-s4vectors >=0.40.2,<0.41.0a0",
+                    "bioconductor-seqarray >=1.42.0,<1.43.0",
+                    "bioconductor-seqarray >=1.42.0,<1.43.0a0",
+                    "bioconductor-seqvartools >=1.40.0,<1.41.0",
+                    "bioconductor-seqvartools >=1.40.0,<1.41.0a0",
+                    "bioconductor-snprelate >=1.36.0,<1.37.0",
+                    "bioconductor-snprelate >=1.36.0,<1.37.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-data.table",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1702280503284
+            },
+            "basename": "linux-64/bioconductor-genesis-2.32.0-r43ha9d7317_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.32.0/linux-64/bioconductor-genesis-2.32.0-r43ha9d7317_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.32.0/linux-64/bioconductor-genesis-2.32.0-r43ha9d7317_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c04e8b22cad02e0530d702ca4b58ddd2",
+            "ndownloads": 233,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4243764,
+            "type": "conda",
+            "upload_time": "2023-12-11 07:44:43.458000+00:00",
+            "version": "2.32.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h2f393c0_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0a0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0a0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0a0",
+                    "bioconductor-gdsfmt >=1.42.0,<1.43.0",
+                    "bioconductor-gdsfmt >=1.42.0,<1.43.0a0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0a0",
+                    "bioconductor-gwastools >=1.52.0,<1.53.0",
+                    "bioconductor-gwastools >=1.52.0,<1.53.0a0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0a0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0a0",
+                    "bioconductor-seqarray >=1.46.0,<1.47.0",
+                    "bioconductor-seqarray >=1.46.0,<1.47.0a0",
+                    "bioconductor-seqvartools >=1.44.0,<1.45.0",
+                    "bioconductor-seqvartools >=1.44.0,<1.45.0a0",
+                    "bioconductor-snprelate >=1.40.0,<1.41.0",
+                    "bioconductor-snprelate >=1.40.0,<1.41.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-data.table",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1734760946167
+            },
+            "basename": "osx-64/bioconductor-genesis-2.36.0-r44h2f393c0_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.36.0/osx-64/bioconductor-genesis-2.36.0-r44h2f393c0_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.36.0/osx-64/bioconductor-genesis-2.36.0-r44h2f393c0_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2c6c35bdbd7cdd33edf4ba920d098f9f",
+            "ndownloads": 205,
+            "owner": "bioconda",
+            "sha256": "0d68e6d6ad862ae6b5a203a69eb99a763cd8e0601b57ad1ed48af8e12fb23673",
+            "size": 4412503,
+            "type": "conda",
+            "upload_time": "2024-12-21 06:04:11.698000+00:00",
+            "version": "2.36.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h3df3fcb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0a0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0a0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0a0",
+                    "bioconductor-gdsfmt >=1.42.0,<1.43.0",
+                    "bioconductor-gdsfmt >=1.42.0,<1.43.0a0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0a0",
+                    "bioconductor-gwastools >=1.52.0,<1.53.0",
+                    "bioconductor-gwastools >=1.52.0,<1.53.0a0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0a0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0a0",
+                    "bioconductor-seqarray >=1.46.0,<1.47.0",
+                    "bioconductor-seqarray >=1.46.0,<1.47.0a0",
+                    "bioconductor-seqvartools >=1.44.0,<1.45.0",
+                    "bioconductor-seqvartools >=1.44.0,<1.45.0a0",
+                    "bioconductor-snprelate >=1.40.0,<1.41.0",
+                    "bioconductor-snprelate >=1.40.0,<1.41.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-data.table",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1735028388770
+            },
+            "basename": "linux-64/bioconductor-genesis-2.36.0-r44h3df3fcb_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-genesis/2.36.0/linux-64/bioconductor-genesis-2.36.0-r44h3df3fcb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-genesis/2.36.0/linux-64/bioconductor-genesis-2.36.0-r44h3df3fcb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "40adf440bf27d19e075b6d5dac22901b",
+            "ndownloads": 181,
+            "owner": "bioconda",
+            "sha256": "ce6325691ce0a107fcdf187331211250f3f99965e41933cc198d7545db435481",
+            "size": 4357219,
+            "type": "conda",
+            "upload_time": "2024-12-24 08:22:23.556000+00:00",
+            "version": "2.36.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-genesis",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/GENESIS.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-genesis",
+    "id": "5c197f92036b861358e74953",
+    "latest_version": "2.36.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:05.664000+00:00",
+    "name": "bioconductor-genesis",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "2.36.0",
+        "noarch": "2.14.3",
+        "osx-64": "2.36.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-genesis/2.12.0",
+            "version": "2.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-genesis/2.14.3",
+            "version": "2.14.3"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-genesis/2.16.0",
+            "version": "2.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-genesis/2.18.0",
+            "version": "2.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-genesis/2.20.0",
+            "version": "2.20.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-genesis/2.20.1",
+            "version": "2.20.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-genesis/2.22.1",
+            "version": "2.22.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-genesis/2.24.0",
+            "version": "2.24.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-genesis/2.24.1",
+            "version": "2.24.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-genesis/2.24.2",
+            "version": "2.24.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-genesis/2.28.0",
+            "version": "2.28.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-genesis/2.30.0",
+            "version": "2.30.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-genesis/2.32.0",
+            "version": "2.32.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-genesis/2.36.0",
+            "version": "2.36.0"
+        }
+    ],
+    "revision": 30,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "GENetic EStimation and Inference in Structured samples (GENESIS): Statistical methods for analyzing genetic data from samples with population structure and/or relatedness",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-genesis",
+    "versions": [
+        "2.12.0",
+        "2.14.3",
+        "2.16.0",
+        "2.18.0",
+        "2.20.0",
+        "2.20.1",
+        "2.22.1",
+        "2.24.0",
+        "2.24.1",
+        "2.24.2",
+        "2.28.0",
+        "2.30.0",
+        "2.32.0",
+        "2.36.0"
+    ],
+    "watchers": 1
+}

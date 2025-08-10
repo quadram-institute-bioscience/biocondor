@@ -1,0 +1,1180 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r44hdfd78af_0",
+        "r40hdfd78af_1",
+        "r43hdfd78af_0",
+        "r40_0",
+        "r42hdfd78af_0",
+        "r41hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2020-05-13 07:40:19.313000+00:00",
+    "description": "Whole genome single-cell DNA sequencing (scDNA-seq) enables characterization of copy number profiles at the cellular level. This circumvents the averaging effects associated with bulk-tissue sequencing and has increased resolution yet decreased ambiguity in deconvolving cancer subclones and elucidating cancer evolutionary history. ScDNA-seq data is, however, sparse, noisy, and highly variable even within a homogeneous cell population, due to the biases and artifacts that are introduced during the library preparation and sequencing procedure. Here, we propose SCOPE, a normalization and copy number estimation method for scDNA-seq data. The distinguishing features of SCOPE include: (i) utilization of cell-specific Gini coefficients for quality controls and for identification of normal/diploid cells, which are further used as negative control samples in a Poisson latent factor model for normalization; (ii) modeling of GC content bias using an expectation-maximization algorithm embedded in the Poisson generalized linear models, which accounts for the different copy number states along the genome; (iii) a cross-sample iterative segmentation procedure to identify breakpoints that are shared across cells from the same genetic background.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.34.0,<0.35.0",
+                    "bioconductor-biostrings >=2.56.0,<2.57.0",
+                    "bioconductor-bsgenome >=1.56.0,<1.57.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-dnacopy >=1.62.0,<1.63.0",
+                    "bioconductor-genomeinfodb >=1.24.0,<1.25.0",
+                    "bioconductor-genomicranges >=1.40.0,<1.41.0",
+                    "bioconductor-iranges >=2.22.0,<2.23.0",
+                    "bioconductor-rsamtools >=2.4.0,<2.5.0",
+                    "bioconductor-s4vectors >=0.26.0,<0.27.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-desctools",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-gplots",
+                    "r-rcolorbrewer"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589354979926
+            },
+            "basename": "noarch/bioconductor-scope-1.0.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.34.0,<0.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.56.0,<2.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg19",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.22.0,<2.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.4.0,<2.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-desctools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gplots",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scope/1.0.0/noarch/bioconductor-scope-1.0.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scope/1.0.0/noarch/bioconductor-scope-1.0.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bf9d8c47bacf3728dbb0f21ed6aace3f",
+            "ndownloads": 2597,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 662431,
+            "type": "conda",
+            "upload_time": "2020-05-13 07:40:20.307000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-bsgenome >=1.58.0,<1.59.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-dnacopy >=1.64.0,<1.65.0",
+                    "bioconductor-genomeinfodb >=1.26.0,<1.27.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-rsamtools >=2.6.0,<2.7.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-desctools",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-gplots",
+                    "r-rcolorbrewer"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604264059256
+            },
+            "basename": "noarch/bioconductor-scope-1.2.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg19",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-desctools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gplots",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scope/1.2.0/noarch/bioconductor-scope-1.2.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scope/1.2.0/noarch/bioconductor-scope-1.2.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "89e303123c0a994fde7f2b53e6cb136d",
+            "ndownloads": 237,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 662782,
+            "type": "conda",
+            "upload_time": "2020-11-01 21:05:06.485000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-bsgenome >=1.58.0,<1.59.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-dnacopy >=1.64.0,<1.65.0",
+                    "bioconductor-genomeinfodb >=1.26.0,<1.27.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-rsamtools >=2.6.0,<2.7.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-desctools",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-gplots",
+                    "r-rcolorbrewer"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1616954283952
+            },
+            "basename": "noarch/bioconductor-scope-1.2.0-r40hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg19",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-desctools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gplots",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scope/1.2.0/noarch/bioconductor-scope-1.2.0-r40hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-scope/1.2.0/noarch/bioconductor-scope-1.2.0-r40hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3ab0ce0f4ba93db04dcf5e7a50345954",
+            "ndownloads": 2598,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 665740,
+            "type": "conda",
+            "upload_time": "2021-03-28 18:09:02.360000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.38.0,<0.39.0",
+                    "bioconductor-biostrings >=2.60.0,<2.61.0",
+                    "bioconductor-bsgenome >=1.60.0,<1.61.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-dnacopy >=1.66.0,<1.67.0",
+                    "bioconductor-genomeinfodb >=1.28.0,<1.29.0",
+                    "bioconductor-genomicranges >=1.44.0,<1.45.0",
+                    "bioconductor-iranges >=2.26.0,<2.27.0",
+                    "bioconductor-rsamtools >=2.8.0,<2.9.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-desctools",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-gplots",
+                    "r-rcolorbrewer"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622743304359
+            },
+            "basename": "noarch/bioconductor-scope-1.4.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.38.0,<0.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.60.0,<2.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg19",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.8.0,<2.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-desctools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gplots",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scope/1.4.0/noarch/bioconductor-scope-1.4.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scope/1.4.0/noarch/bioconductor-scope-1.4.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bf383c286801a85ef1f1d36957090e63",
+            "ndownloads": 2578,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 667866,
+            "type": "conda",
+            "upload_time": "2021-06-03 18:11:49.372000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-bsgenome >=1.62.0,<1.63.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-dnacopy >=1.68.0,<1.69.0",
+                    "bioconductor-genomeinfodb >=1.30.0,<1.31.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-rsamtools >=2.10.0,<2.11.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-desctools",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-gplots",
+                    "r-rcolorbrewer"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636492170442
+            },
+            "basename": "noarch/bioconductor-scope-1.6.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome.hsapiens.ucsc.hg19",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-desctools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gplots",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scope/1.6.0/noarch/bioconductor-scope-1.6.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scope/1.6.0/noarch/bioconductor-scope-1.6.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e9cf661e105022da6b18065dcb2cf7da",
+            "ndownloads": 2411,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 643779,
+            "type": "conda",
+            "upload_time": "2021-11-09 21:21:33.443000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-bsgenome >=1.66.0,<1.67.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-dnacopy >=1.72.0,<1.73.0",
+                    "bioconductor-genomeinfodb >=1.34.0,<1.35.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-rsamtools >=2.14.0,<2.15.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-desctools",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-gplots",
+                    "r-rcolorbrewer"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667955627631
+            },
+            "basename": "noarch/bioconductor-scope-1.10.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scope/1.10.0/noarch/bioconductor-scope-1.10.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scope/1.10.0/noarch/bioconductor-scope-1.10.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0390707ed409249410db43c9612fbf18",
+            "ndownloads": 1817,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 652784,
+            "type": "conda",
+            "upload_time": "2022-11-09 01:09:36.222000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.46.0,<0.47.0",
+                    "bioconductor-biostrings >=2.68.0,<2.69.0",
+                    "bioconductor-bsgenome >=1.68.0,<1.69.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-dnacopy >=1.74.0,<1.75.0",
+                    "bioconductor-genomeinfodb >=1.36.0,<1.37.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-rsamtools >=2.16.0,<2.17.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-desctools",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-gplots",
+                    "r-rcolorbrewer"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689328843429
+            },
+            "basename": "noarch/bioconductor-scope-1.12.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scope/1.12.0/noarch/bioconductor-scope-1.12.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scope/1.12.0/noarch/bioconductor-scope-1.12.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a4230088b2c74fa2916bbe66f85ac052",
+            "ndownloads": 1305,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 648319,
+            "type": "conda",
+            "upload_time": "2023-07-14 10:10:14.075000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.48.0,<0.49.0",
+                    "bioconductor-biostrings >=2.70.0,<2.71.0",
+                    "bioconductor-bsgenome >=1.70.0,<1.71.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-dnacopy >=1.76.0,<1.77.0",
+                    "bioconductor-genomeinfodb >=1.38.0,<1.39.0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0",
+                    "bioconductor-rsamtools >=2.18.0,<2.19.0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-desctools",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-gplots",
+                    "r-rcolorbrewer"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1703275120494
+            },
+            "basename": "noarch/bioconductor-scope-1.14.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scope/1.14.0/noarch/bioconductor-scope-1.14.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scope/1.14.0/noarch/bioconductor-scope-1.14.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "60b62dff5f0a40b96296c604a5dcc2a6",
+            "ndownloads": 984,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 652465,
+            "type": "conda",
+            "upload_time": "2023-12-22 20:03:35.396000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-biostrings >=2.74.0,<2.75.0",
+                    "bioconductor-bsgenome >=1.74.0,<1.75.0",
+                    "bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0",
+                    "bioconductor-dnacopy >=1.80.0,<1.81.0",
+                    "bioconductor-genomeinfodb >=1.42.0,<1.43.0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0",
+                    "bioconductor-rsamtools >=2.22.0,<2.23.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-desctools",
+                    "r-doparallel",
+                    "r-foreach",
+                    "r-gplots",
+                    "r-rcolorbrewer"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1735676194342
+            },
+            "basename": "noarch/bioconductor-scope-1.18.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scope/1.18.0/noarch/bioconductor-scope-1.18.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scope/1.18.0/noarch/bioconductor-scope-1.18.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6d1282525296995f5a26781975c96773",
+            "ndownloads": 242,
+            "owner": "bioconda",
+            "sha256": "5a53cb32763688895f5f5b05453da71c8531677bda5564af724f49806ee3463e",
+            "size": 643535,
+            "type": "conda",
+            "upload_time": "2024-12-31 20:20:37.008000+00:00",
+            "version": "1.18.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-scope",
+    "home": "https://bioconductor.org/packages/3.11/bioc/html/SCOPE.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-scope",
+    "id": "5ebba463778a877085ad0c6c",
+    "latest_version": "1.18.0",
+    "license": "GPL-2",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:23.348000+00:00",
+    "name": "bioconductor-scope",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.18.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scope/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scope/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scope/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scope/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scope/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scope/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scope/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scope/1.18.0",
+            "version": "1.18.0"
+        }
+    ],
+    "revision": 17,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "A normalization and copy number estimation method for single-cell DNA sequencing",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-scope",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.4.0",
+        "1.6.0",
+        "1.10.0",
+        "1.12.0",
+        "1.14.0",
+        "1.18.0"
+    ],
+    "watchers": 1
+}

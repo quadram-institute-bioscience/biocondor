@@ -1,0 +1,2227 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r40_0",
+        "r44hdfd78af_0",
+        "r36_0",
+        "r41hdfd78af_0",
+        "r351_0",
+        "r43hdfd78af_0",
+        "r40hdfd78af_1",
+        "r42hdfd78af_0",
+        "r3.4.1_0",
+        "r36_1",
+        "r341_0",
+        "r3.3.2_0"
+    ],
+    "conda_platforms": [
+        "osx-64",
+        "linux-64",
+        "noarch"
+    ],
+    "created_at": "2017-08-29 13:47:36.666000+00:00",
+    "description": "A differential abundance analysis for the comparison of two or more conditions. Useful for analyzing data from standard RNA-seq or meta-RNA-seq assays as well as selected and unselected values from in-vitro sequence selections. Uses a Dirichlet-multinomial model to infer abundance from counts, optimized for three or more experimental replicates. The method infers biological and sampling variation to calculate the expected false discovery rate, given the variation, based on a Wilcoxon Rank Sum test and Welch's t-test (via aldex.ttest), a Kruskal-Wallis test (via aldex.kw), a generalized linear model (via aldex.glm), or a correlation test (via aldex.corr). All tests report predicted p-values and posterior Benjamini-Hochberg corrected p-values. ALDEx2 also calculates expected standardized effect sizes for paired or unpaired study designs. ALDEx2 can now be used to estimate the effect of scale on the results and report on the scale-dependent robustness of results.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-multtest",
+                    "bioconductor-s4vectors",
+                    "bioconductor-summarizedexperiment",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-aldex2-1.10.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.10.0/linux-64/bioconductor-aldex2-1.10.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.10.0/linux-64/bioconductor-aldex2-1.10.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "1d0002eb0e804520a1d8a8b7beab63c2",
+            "ndownloads": 969,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 506608,
+            "type": "conda",
+            "upload_time": "2017-11-08 14:50:27.950000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.2_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-s4vectors",
+                    "bioconductor-summarizedexperiment",
+                    "r-base 3.3.2*"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-aldex2-1.8.0-r3.3.2_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.8.0/linux-64/bioconductor-aldex2-1.8.0-r3.3.2_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.8.0/linux-64/bioconductor-aldex2-1.8.0-r3.3.2_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "48e682be099efe9aaae50bbd19a1949e",
+            "ndownloads": 923,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 496344,
+            "type": "conda",
+            "upload_time": "2017-08-29 13:47:37.141000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.2_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-s4vectors",
+                    "bioconductor-summarizedexperiment",
+                    "r-base 3.3.2*"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-aldex2-1.8.0-r3.3.2_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.8.0/osx-64/bioconductor-aldex2-1.8.0-r3.3.2_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.8.0/osx-64/bioconductor-aldex2-1.8.0-r3.3.2_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "436c3a8b803e4f66525d0535551ee98d",
+            "ndownloads": 198,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 496031,
+            "type": "conda",
+            "upload_time": "2017-08-29 14:01:33.603000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-s4vectors",
+                    "bioconductor-summarizedexperiment",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-aldex2-1.8.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.8.0/linux-64/bioconductor-aldex2-1.8.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.8.0/linux-64/bioconductor-aldex2-1.8.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "397624c425753f9a7d07db9f412f7e91",
+            "ndownloads": 768,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 496670,
+            "type": "conda",
+            "upload_time": "2017-09-20 03:57:22.159000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-s4vectors",
+                    "bioconductor-summarizedexperiment",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-aldex2-1.8.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.8.0/osx-64/bioconductor-aldex2-1.8.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.8.0/osx-64/bioconductor-aldex2-1.8.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "47b8bb268c008a67679fb9d36686d162",
+            "ndownloads": 4337,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 496237,
+            "type": "conda",
+            "upload_time": "2017-09-22 13:17:43.697000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges",
+                    "bioconductor-multtest",
+                    "bioconductor-s4vectors",
+                    "bioconductor-summarizedexperiment",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-aldex2-1.10.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.10.0/osx-64/bioconductor-aldex2-1.10.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.10.0/osx-64/bioconductor-aldex2-1.10.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "0ee95954bb29f810f4979c7eeffebfe6",
+            "ndownloads": 4387,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 506101,
+            "type": "conda",
+            "upload_time": "2017-11-10 05:15:50.063000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.14.2,<1.16.0",
+                    "bioconductor-genomicranges >=1.32.7,<1.34.0",
+                    "bioconductor-iranges >=2.14.12,<2.16.0",
+                    "bioconductor-multtest >=2.36.0,<2.38.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "bioconductor-summarizedexperiment >=1.10.1,<1.12.0",
+                    "r-base >=3.4.1,<3.4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1540464931085
+            },
+            "basename": "osx-64/bioconductor-aldex2-1.12.0-r341_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.2,<1.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.7,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.12,<2.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.36.0,<2.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.1,<1.12.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.12.0/osx-64/bioconductor-aldex2-1.12.0-r341_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.12.0/osx-64/bioconductor-aldex2-1.12.0-r341_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "349b36f6d4ea2cfd4d44b4757f78d622",
+            "ndownloads": 101,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 711716,
+            "type": "conda",
+            "upload_time": "2018-10-25 10:56:40.283000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.14.2,<1.16.0",
+                    "bioconductor-genomicranges >=1.32.7,<1.34.0",
+                    "bioconductor-iranges >=2.14.12,<2.16.0",
+                    "bioconductor-multtest >=2.36.0,<2.38.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "bioconductor-summarizedexperiment >=1.10.1,<1.12.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1540464795191
+            },
+            "basename": "osx-64/bioconductor-aldex2-1.12.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.2,<1.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.7,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.12,<2.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.36.0,<2.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.1,<1.12.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.12.0/osx-64/bioconductor-aldex2-1.12.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.12.0/osx-64/bioconductor-aldex2-1.12.0-r351_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "5881b935c65f3bd9c7a4906c9e46be18",
+            "ndownloads": 4324,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 750038,
+            "type": "conda",
+            "upload_time": "2018-10-25 10:56:48.104000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.14.2,<1.16.0",
+                    "bioconductor-genomicranges >=1.32.7,<1.34.0",
+                    "bioconductor-iranges >=2.14.12,<2.16.0",
+                    "bioconductor-multtest >=2.36.0,<2.38.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "bioconductor-summarizedexperiment >=1.10.1,<1.12.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540637501489
+            },
+            "basename": "linux-64/bioconductor-aldex2-1.12.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.2,<1.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.7,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.12,<2.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.36.0,<2.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.1,<1.12.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.12.0/linux-64/bioconductor-aldex2-1.12.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.12.0/linux-64/bioconductor-aldex2-1.12.0-r351_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "f9b894a291d66aa8b391cf8189d6de2f",
+            "ndownloads": 472,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 749576,
+            "type": "conda",
+            "upload_time": "2018-10-27 10:57:45.833000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.14.2,<1.16.0",
+                    "bioconductor-genomicranges >=1.32.7,<1.34.0",
+                    "bioconductor-iranges >=2.14.12,<2.16.0",
+                    "bioconductor-multtest >=2.36.0,<2.38.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "bioconductor-summarizedexperiment >=1.10.1,<1.12.0",
+                    "r-base >=3.4.1,<3.4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540637381129
+            },
+            "basename": "linux-64/bioconductor-aldex2-1.12.0-r341_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.2,<1.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.7,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.12,<2.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.36.0,<2.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.1,<1.12.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.12.0/linux-64/bioconductor-aldex2-1.12.0-r341_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.12.0/linux-64/bioconductor-aldex2-1.12.0-r341_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "282eef76a50d9b31bf166773e89e9a8b",
+            "ndownloads": 572,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 711060,
+            "type": "conda",
+            "upload_time": "2018-10-27 10:57:49.034000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.16.0,<1.17.0",
+                    "bioconductor-genomicranges >=1.34.0,<1.35.0",
+                    "bioconductor-iranges >=2.16.0,<2.17.0",
+                    "bioconductor-multtest >=2.38.0,<2.39.0",
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "bioconductor-summarizedexperiment >=1.12.0,<1.13.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1546535264439
+            },
+            "basename": "noarch/bioconductor-aldex2-1.14.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.38.0,<2.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.14.0/noarch/bioconductor-aldex2-1.14.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.14.0/noarch/bioconductor-aldex2-1.14.0-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "3272c719c05123c25b304497b8cfee42",
+            "ndownloads": 2585,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 751182,
+            "type": "conda",
+            "upload_time": "2019-01-03 17:11:34.841000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.16.0,<1.17.0",
+                    "bioconductor-genomicranges >=1.34.0,<1.35.0",
+                    "bioconductor-iranges >=2.16.0,<2.17.0",
+                    "bioconductor-multtest >=2.38.0,<2.39.0",
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "bioconductor-summarizedexperiment >=1.12.0,<1.13.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1552416885979
+            },
+            "basename": "noarch/bioconductor-aldex2-1.14.1-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.38.0,<2.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.14.1/noarch/bioconductor-aldex2-1.14.1-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.14.1/noarch/bioconductor-aldex2-1.14.1-r351_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9989624c874706fe3d398ca1f969a39c",
+            "ndownloads": 3112,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 751679,
+            "type": "conda",
+            "upload_time": "2019-03-12 18:58:49.477000+00:00",
+            "version": "1.14.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocparallel >=1.18.0,<1.19.0",
+                    "bioconductor-genomicranges >=1.36.0,<1.37.0",
+                    "bioconductor-iranges >=2.18.0,<2.19.0",
+                    "bioconductor-multtest >=2.40.0,<2.41.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "bioconductor-summarizedexperiment >=1.14.0,<1.15.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1564673510448
+            },
+            "basename": "noarch/bioconductor-aldex2-1.16.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.16.0/noarch/bioconductor-aldex2-1.16.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.16.0/noarch/bioconductor-aldex2-1.16.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8db19281ac04e1a1b68fda5d6e82e5c9",
+            "ndownloads": 2526,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1055456,
+            "type": "conda",
+            "upload_time": "2019-08-01 15:35:58.016000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "bioconductor-iranges >=2.20.0,<2.21.0",
+                    "bioconductor-multtest >=2.42.0,<2.43.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572704883437
+            },
+            "basename": "noarch/bioconductor-aldex2-1.18.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.18.0/noarch/bioconductor-aldex2-1.18.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.18.0/noarch/bioconductor-aldex2-1.18.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1bfec3453f3eed5f9b8083047d4dec50",
+            "ndownloads": 2848,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1071334,
+            "type": "conda",
+            "upload_time": "2019-11-02 14:33:26.009000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.22.0,<1.23.0",
+                    "bioconductor-genomicranges >=1.40.0,<1.41.0",
+                    "bioconductor-iranges >=2.22.0,<2.23.0",
+                    "bioconductor-multtest >=2.44.0,<2.45.0",
+                    "bioconductor-s4vectors >=0.26.0,<0.27.0",
+                    "bioconductor-summarizedexperiment >=1.18.0,<1.19.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-zcompositions"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589123569525
+            },
+            "basename": "noarch/bioconductor-aldex2-1.20.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.22.0,<2.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-zcompositions",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.20.0/noarch/bioconductor-aldex2-1.20.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.20.0/noarch/bioconductor-aldex2-1.20.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9b8677114a7d079cb43be21bf4cec474",
+            "ndownloads": 2792,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1078856,
+            "type": "conda",
+            "upload_time": "2020-05-10 15:18:16.594000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.24.0,<1.25.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-multtest >=2.46.0,<2.47.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-zcompositions"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604065829690
+            },
+            "basename": "noarch/bioconductor-aldex2-1.22.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-zcompositions",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.22.0/noarch/bioconductor-aldex2-1.22.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.22.0/noarch/bioconductor-aldex2-1.22.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3fd783f4e83c7c257241e48063128eb4",
+            "ndownloads": 315,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1082854,
+            "type": "conda",
+            "upload_time": "2020-10-30 13:56:26.583000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocparallel >=1.24.0,<1.25.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-multtest >=2.46.0,<2.47.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-zcompositions"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617024848209
+            },
+            "basename": "noarch/bioconductor-aldex2-1.22.0-r40hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-zcompositions",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.22.0/noarch/bioconductor-aldex2-1.22.0-r40hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.22.0/noarch/bioconductor-aldex2-1.22.0-r40hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e9cd5292c6ff279d238a024512bef8e9",
+            "ndownloads": 2908,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1081101,
+            "type": "conda",
+            "upload_time": "2021-03-29 13:40:11.903000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.26.0,<1.27.0",
+                    "bioconductor-genomicranges >=1.44.0,<1.45.0",
+                    "bioconductor-iranges >=2.26.0,<2.27.0",
+                    "bioconductor-multtest >=2.48.0,<2.49.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "bioconductor-summarizedexperiment >=1.22.0,<1.23.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-rfast",
+                    "r-zcompositions"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622589807315
+            },
+            "basename": "noarch/bioconductor-aldex2-1.24.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rfast",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zcompositions",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.24.0/noarch/bioconductor-aldex2-1.24.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.24.0/noarch/bioconductor-aldex2-1.24.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a516a599e75d18ecb4b0bb4c5f6dfb44",
+            "ndownloads": 2761,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1162639,
+            "type": "conda",
+            "upload_time": "2021-06-01 23:29:51.570000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-multtest >=2.50.0,<2.51.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-rfast",
+                    "r-zcompositions"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1635960580047
+            },
+            "basename": "noarch/bioconductor-aldex2-1.26.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rfast",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-zcompositions",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.26.0/noarch/bioconductor-aldex2-1.26.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.26.0/noarch/bioconductor-aldex2-1.26.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "748d5100491f278ff3883d871a9d9345",
+            "ndownloads": 3209,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1154324,
+            "type": "conda",
+            "upload_time": "2021-11-03 17:37:56.064000+00:00",
+            "version": "1.26.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-multtest >=2.54.0,<2.55.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-rfast",
+                    "r-zcompositions"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667654267177
+            },
+            "basename": "noarch/bioconductor-aldex2-1.30.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.30.0/noarch/bioconductor-aldex2-1.30.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.30.0/noarch/bioconductor-aldex2-1.30.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5da284054aa258371bc101d897f8d92f",
+            "ndownloads": 2672,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1187613,
+            "type": "conda",
+            "upload_time": "2022-11-05 13:21:51.331000+00:00",
+            "version": "1.30.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.34.0,<1.35.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-multtest >=2.56.0,<2.57.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "bioconductor-summarizedexperiment >=1.30.0,<1.31.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-rfast",
+                    "r-zcompositions"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689099137998
+            },
+            "basename": "noarch/bioconductor-aldex2-1.32.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.32.0/noarch/bioconductor-aldex2-1.32.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.32.0/noarch/bioconductor-aldex2-1.32.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "115f25c492fb484dcc08545bd330534d",
+            "ndownloads": 1421,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1184252,
+            "type": "conda",
+            "upload_time": "2023-07-11 18:17:00.374000+00:00",
+            "version": "1.32.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0",
+                    "bioconductor-multtest >=2.58.0,<2.59.0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-directlabels",
+                    "r-lattice",
+                    "r-latticeextra",
+                    "r-rfast",
+                    "r-zcompositions"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=3)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1702295646212
+            },
+            "basename": "noarch/bioconductor-aldex2-1.34.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.34.0/noarch/bioconductor-aldex2-1.34.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.34.0/noarch/bioconductor-aldex2-1.34.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3077346d1571fc97162284d58ba09f2b",
+            "ndownloads": 1477,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2695110,
+            "type": "conda",
+            "upload_time": "2023-12-11 11:57:15.658000+00:00",
+            "version": "1.34.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0",
+                    "bioconductor-multtest >=2.62.0,<2.63.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-directlabels",
+                    "r-lattice",
+                    "r-latticeextra",
+                    "r-rfast",
+                    "r-zcompositions"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=3)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1734764361449
+            },
+            "basename": "noarch/bioconductor-aldex2-1.38.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-aldex2/1.38.0/noarch/bioconductor-aldex2-1.38.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-aldex2/1.38.0/noarch/bioconductor-aldex2-1.38.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a34017be8c1891ff3c4f096c6675af5c",
+            "ndownloads": 377,
+            "owner": "bioconda",
+            "sha256": "eacd5ed3a397ff93a6dcecdf28a979ad7be966ed2c7d57cc5b33be107605b5e5",
+            "size": 2914444,
+            "type": "conda",
+            "upload_time": "2024-12-21 07:01:41.061000+00:00",
+            "version": "1.38.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-aldex2",
+    "home": "http://bioconductor.org/packages/3.5/bioc/html/ALDEx2.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-aldex2",
+    "id": "59a570781140991310c41433",
+    "latest_version": "1.38.0",
+    "license": "GPL (>=3)",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:28:51.513000+00:00",
+    "name": "bioconductor-aldex2",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.12.0",
+        "noarch": "1.38.0",
+        "osx-64": "1.12.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-aldex2/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-aldex2/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-aldex2/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-aldex2/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-aldex2/1.14.1",
+            "version": "1.14.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-aldex2/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-aldex2/1.18.0",
+            "version": "1.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-aldex2/1.20.0",
+            "version": "1.20.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-aldex2/1.22.0",
+            "version": "1.22.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-aldex2/1.24.0",
+            "version": "1.24.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-aldex2/1.26.0",
+            "version": "1.26.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-aldex2/1.30.0",
+            "version": "1.30.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-aldex2/1.32.0",
+            "version": "1.32.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-aldex2/1.34.0",
+            "version": "1.34.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-aldex2/1.38.0",
+            "version": "1.38.0"
+        }
+    ],
+    "revision": 31,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Analysis Of Differential Abundance Taking Sample and Scale Variation Into Account",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-aldex2",
+    "versions": [
+        "1.8.0",
+        "1.10.0",
+        "1.12.0",
+        "1.14.0",
+        "1.14.1",
+        "1.16.0",
+        "1.18.0",
+        "1.20.0",
+        "1.22.0",
+        "1.24.0",
+        "1.26.0",
+        "1.30.0",
+        "1.32.0",
+        "1.34.0",
+        "1.38.0"
+    ],
+    "watchers": 1
+}

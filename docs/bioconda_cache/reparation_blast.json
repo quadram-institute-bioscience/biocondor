@@ -1,0 +1,2174 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "pl526_2",
+        "pl526_1",
+        "pl5262hdfd78af_2",
+        "pl5321hdfd78af_3",
+        "pl526_0"
+    ],
+    "conda_platforms": [
+        "noarch",
+        "linux-64"
+    ],
+    "created_at": "2018-09-11 08:06:26.813000+00:00",
+    "description": "A pipeline that uses ribosome profiling data for a de novo open reading frame delineation in prokaryotic (bacterial) genomes. I changed the original reparation project to use the open-source blast tool (https://blast.ncbi.nlm.nih.gov/Blast.cgi) instead of the commercial usearch --ublast tool (https://drive5.com/usearch/manual/ublast_algo.html). I did this in order to add this tool to bioconda without having licensing issues with the commercial usearch -ublast tool. The original software was created at VIB-UGent Center for Medical Biotechnology and Lab of Bioinformatics and Computational Genomics (Biobix), University of Gent, Belgium, by Elvis Ndah. (https://github.com/Biobix/REPARATION). Be advised that the adapted version has slightly different results and is slower than the original reparation software.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526_0",
+                "build_number": 0,
+                "depends": [
+                    "blast >=2.7.1",
+                    "glimmer",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-bioperl",
+                    "perl-posix",
+                    "plastid",
+                    "prodigal",
+                    "pysam 0.14.1.*",
+                    "r-ggplot2 >=3.0",
+                    "r-prroc >=1.3.1",
+                    "r-randomforest",
+                    "r-rocr",
+                    "r-sizer",
+                    "samtools"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1537431315070
+            },
+            "basename": "linux-64/reparation_blast-v1.0.5-pl526_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "blast",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.7.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "glimmer",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-bioperl",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl-posix",
+                        "specs": []
+                    },
+                    {
+                        "name": "plastid",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                "==",
+                                "0.14.1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-prroc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rocr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sizer",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/reparation_blast/v1.0.5/linux-64/reparation_blast-v1.0.5-pl526_0.tar.bz2",
+            "full_name": "bioconda/reparation_blast/v1.0.5/linux-64/reparation_blast-v1.0.5-pl526_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "d2e690fd2cfa01264f20882cad18d35e",
+            "ndownloads": 4828,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 40439,
+            "type": "conda",
+            "upload_time": "2018-09-20 08:34:40.699000+00:00",
+            "version": "v1.0.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526_0",
+                "build_number": 0,
+                "depends": [
+                    "blast >=2.7.1",
+                    "glimmer",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-bioperl",
+                    "perl-posix",
+                    "plastid",
+                    "prodigal",
+                    "r-ggplot2 >=3.0",
+                    "r-prroc >=1.3.1",
+                    "r-randomforest",
+                    "r-rocr",
+                    "r-sizer",
+                    "samtools"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1536651033981
+            },
+            "basename": "linux-64/reparation_blast-v1.0.1-pl526_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "blast",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.7.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "glimmer",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-bioperl",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl-posix",
+                        "specs": []
+                    },
+                    {
+                        "name": "plastid",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-prroc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rocr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sizer",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/reparation_blast/v1.0.1/linux-64/reparation_blast-v1.0.1-pl526_0.tar.bz2",
+            "full_name": "bioconda/reparation_blast/v1.0.1/linux-64/reparation_blast-v1.0.1-pl526_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "4469b8707cd08f8721b696ae306ab12b",
+            "ndownloads": 4820,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 39523,
+            "type": "conda",
+            "upload_time": "2018-09-11 08:06:27.968000+00:00",
+            "version": "v1.0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526_1",
+                "build_number": 1,
+                "depends": [
+                    "blast >=2.7.1",
+                    "glimmer",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-bioperl",
+                    "perl-posix",
+                    "plastid",
+                    "prodigal",
+                    "pysam 0.14.1.*",
+                    "r-ggplot2 >=3.0",
+                    "r-prroc >=1.3.1",
+                    "r-randomforest",
+                    "r-rocr",
+                    "r-sizer",
+                    "samtools"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1536740126041
+            },
+            "basename": "linux-64/reparation_blast-v1.0.2-pl526_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "blast",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.7.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "glimmer",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-bioperl",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl-posix",
+                        "specs": []
+                    },
+                    {
+                        "name": "plastid",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                "==",
+                                "0.14.1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-prroc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rocr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sizer",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/reparation_blast/v1.0.2/linux-64/reparation_blast-v1.0.2-pl526_1.tar.bz2",
+            "full_name": "bioconda/reparation_blast/v1.0.2/linux-64/reparation_blast-v1.0.2-pl526_1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "483bc2722f041a92542f1f85a6441c36",
+            "ndownloads": 4825,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 40450,
+            "type": "conda",
+            "upload_time": "2018-09-12 08:54:55.681000+00:00",
+            "version": "v1.0.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526_2",
+                "build_number": 2,
+                "depends": [
+                    "blast >=2.7.1",
+                    "glimmer",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-bioperl",
+                    "perl-posix",
+                    "plastid",
+                    "prodigal",
+                    "pysam 0.14.1.*",
+                    "r-ggplot2 >=3.0",
+                    "r-prroc >=1.3.1",
+                    "r-randomforest",
+                    "r-rocr",
+                    "r-sizer",
+                    "samtools"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1536766231107
+            },
+            "basename": "linux-64/reparation_blast-v1.0.3-pl526_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "blast",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.7.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "glimmer",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-bioperl",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl-posix",
+                        "specs": []
+                    },
+                    {
+                        "name": "plastid",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                "==",
+                                "0.14.1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-prroc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rocr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sizer",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/reparation_blast/v1.0.3/linux-64/reparation_blast-v1.0.3-pl526_2.tar.bz2",
+            "full_name": "bioconda/reparation_blast/v1.0.3/linux-64/reparation_blast-v1.0.3-pl526_2.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "ad29aa40129f3ab1fe40744c724eddbe",
+            "ndownloads": 4809,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 40467,
+            "type": "conda",
+            "upload_time": "2018-09-12 16:18:15.821000+00:00",
+            "version": "v1.0.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526_0",
+                "build_number": 0,
+                "depends": [
+                    "blast >=2.7.1",
+                    "glimmer",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-bioperl",
+                    "perl-posix",
+                    "plastid",
+                    "prodigal",
+                    "pysam 0.14.1.*",
+                    "r-ggplot2 >=3.0",
+                    "r-prroc >=1.3.1",
+                    "r-randomforest",
+                    "r-rocr",
+                    "r-sizer",
+                    "samtools"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1537340694570
+            },
+            "basename": "linux-64/reparation_blast-v1.0.4-pl526_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "blast",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.7.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "glimmer",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-bioperl",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl-posix",
+                        "specs": []
+                    },
+                    {
+                        "name": "plastid",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                "==",
+                                "0.14.1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-prroc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rocr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sizer",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/reparation_blast/v1.0.4/linux-64/reparation_blast-v1.0.4-pl526_0.tar.bz2",
+            "full_name": "bioconda/reparation_blast/v1.0.4/linux-64/reparation_blast-v1.0.4-pl526_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "f72e27d7b8b13b3eb70e26ee8d8404e0",
+            "ndownloads": 4810,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 40428,
+            "type": "conda",
+            "upload_time": "2018-09-19 07:32:11.933000+00:00",
+            "version": "v1.0.4"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526_0",
+                "build_number": 0,
+                "depends": [
+                    "blast >=2.7.1",
+                    "glimmer",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-bioperl",
+                    "perl-posix",
+                    "plastid",
+                    "prodigal",
+                    "pysam 0.14.1.*",
+                    "r-ggplot2 >=3.0",
+                    "r-prroc >=1.3.1",
+                    "r-randomforest",
+                    "r-rocr",
+                    "r-sizer",
+                    "samtools"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1538416575063
+            },
+            "basename": "linux-64/reparation_blast-v1.0.6-pl526_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "blast",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.7.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "glimmer",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-bioperl",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl-posix",
+                        "specs": []
+                    },
+                    {
+                        "name": "plastid",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                "==",
+                                "0.14.1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-prroc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rocr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sizer",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/reparation_blast/v1.0.6/linux-64/reparation_blast-v1.0.6-pl526_0.tar.bz2",
+            "full_name": "bioconda/reparation_blast/v1.0.6/linux-64/reparation_blast-v1.0.6-pl526_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "a23fac47d2aafe8be2ba8b7d62406f01",
+            "ndownloads": 4811,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 40771,
+            "type": "conda",
+            "upload_time": "2018-10-01 18:19:14.995000+00:00",
+            "version": "v1.0.6"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526_0",
+                "build_number": 0,
+                "depends": [
+                    "blast >=2.7.1",
+                    "glimmer",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-bioperl",
+                    "perl-posix",
+                    "plastid",
+                    "prodigal",
+                    "pysam 0.14.1.*",
+                    "r-ggplot2 >=3.0",
+                    "r-prroc >=1.3.1",
+                    "r-randomforest",
+                    "r-rocr",
+                    "r-sizer",
+                    "samtools"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1538603647735
+            },
+            "basename": "linux-64/reparation_blast-v1.0.7-pl526_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "blast",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.7.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "glimmer",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-bioperl",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl-posix",
+                        "specs": []
+                    },
+                    {
+                        "name": "plastid",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                "==",
+                                "0.14.1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-prroc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rocr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sizer",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/reparation_blast/v1.0.7/linux-64/reparation_blast-v1.0.7-pl526_0.tar.bz2",
+            "full_name": "bioconda/reparation_blast/v1.0.7/linux-64/reparation_blast-v1.0.7-pl526_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "24fce057e57da7d6b4a252558b7ae367",
+            "ndownloads": 705,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 41066,
+            "type": "conda",
+            "upload_time": "2018-10-03 22:21:45+00:00",
+            "version": "v1.0.7"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526_1",
+                "build_number": 1,
+                "depends": [
+                    "blast >=2.7.1",
+                    "glimmer",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-bioperl >=1.7.2",
+                    "perl-posix",
+                    "plastid",
+                    "prodigal",
+                    "pysam 0.14.1.*",
+                    "r-ggplot2 >=3.0",
+                    "r-prroc >=1.3.1",
+                    "r-randomforest",
+                    "r-rocr",
+                    "r-sizer",
+                    "samtools"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1543928446289
+            },
+            "basename": "linux-64/reparation_blast-v1.0.7-pl526_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "blast",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.7.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "glimmer",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-bioperl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.7.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-posix",
+                        "specs": []
+                    },
+                    {
+                        "name": "plastid",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                "==",
+                                "0.14.1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-prroc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rocr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sizer",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/reparation_blast/v1.0.7/linux-64/reparation_blast-v1.0.7-pl526_1.tar.bz2",
+            "full_name": "bioconda/reparation_blast/v1.0.7/linux-64/reparation_blast-v1.0.7-pl526_1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "89595131c2114741b1e1c57ffe42a483",
+            "ndownloads": 4463,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 41123,
+            "type": "conda",
+            "upload_time": "2018-12-04 13:14:32.899000+00:00",
+            "version": "v1.0.7"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526_2",
+                "build_number": 2,
+                "depends": [
+                    "blast 2.7.1.*",
+                    "glimmer",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-bioperl >=1.7.2",
+                    "perl-posix",
+                    "plastid",
+                    "prodigal",
+                    "pysam 0.14.1.*",
+                    "r-ggplot2 >=3.0",
+                    "r-prroc >=1.3.1",
+                    "r-randomforest",
+                    "r-rocr",
+                    "r-sizer",
+                    "samtools"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1560850659957
+            },
+            "basename": "linux-64/reparation_blast-1.0.7-pl526_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "blast",
+                        "specs": [
+                            [
+                                "==",
+                                "2.7.1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "glimmer",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-bioperl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.7.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-posix",
+                        "specs": []
+                    },
+                    {
+                        "name": "plastid",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                "==",
+                                "0.14.1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-prroc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rocr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sizer",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/reparation_blast/1.0.7/linux-64/reparation_blast-1.0.7-pl526_2.tar.bz2",
+            "full_name": "bioconda/reparation_blast/1.0.7/linux-64/reparation_blast-1.0.7-pl526_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ce5bce6631d366d1e0efacff0c8f72ff",
+            "ndownloads": 1907,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 41684,
+            "type": "conda",
+            "upload_time": "2019-06-18 09:51:57.014000+00:00",
+            "version": "1.0.7"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "pl526_0",
+                "build_number": 0,
+                "depends": [
+                    "blast 2.7.1.*",
+                    "glimmer",
+                    "openssl 1.0.2.*",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-bioperl >=1.7.2",
+                    "perl-posix",
+                    "plastid",
+                    "prodigal",
+                    "pysam 0.14.1.*",
+                    "r-ggplot2 >=3.0",
+                    "r-prroc >=1.3.1",
+                    "r-randomforest",
+                    "r-rocr",
+                    "r-sizer",
+                    "samtools"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1560863183554
+            },
+            "basename": "noarch/reparation_blast-1.0.7-pl526_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "blast",
+                        "specs": [
+                            [
+                                "==",
+                                "2.7.1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "glimmer",
+                        "specs": []
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": [
+                            [
+                                "==",
+                                "1.0.2."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-bioperl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.7.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-posix",
+                        "specs": []
+                    },
+                    {
+                        "name": "plastid",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                "==",
+                                "0.14.1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-prroc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rocr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sizer",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/reparation_blast/1.0.7/noarch/reparation_blast-1.0.7-pl526_0.tar.bz2",
+            "full_name": "bioconda/reparation_blast/1.0.7/noarch/reparation_blast-1.0.7-pl526_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "184eab6d11cfb2a8b376ec3e7762ed98",
+            "ndownloads": 2702,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 41824,
+            "type": "conda",
+            "upload_time": "2019-06-18 13:30:58.603000+00:00",
+            "version": "1.0.7"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "pl526_0",
+                "build_number": 0,
+                "depends": [
+                    "blast 2.7.1.*",
+                    "glimmer",
+                    "openssl 1.0.2.*",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-bioperl >=1.7.2",
+                    "perl-posix",
+                    "plastid",
+                    "prodigal",
+                    "pysam 0.14.1.*",
+                    "r-ggplot2 >=3.0",
+                    "r-prroc >=1.3.1",
+                    "r-randomforest",
+                    "r-rocr",
+                    "r-sizer",
+                    "samtools"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1579296917249
+            },
+            "basename": "noarch/reparation_blast-1.0.8-pl526_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "blast",
+                        "specs": [
+                            [
+                                "==",
+                                "2.7.1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "glimmer",
+                        "specs": []
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": [
+                            [
+                                "==",
+                                "1.0.2."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-bioperl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.7.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-posix",
+                        "specs": []
+                    },
+                    {
+                        "name": "plastid",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                "==",
+                                "0.14.1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-prroc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rocr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sizer",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/reparation_blast/1.0.8/noarch/reparation_blast-1.0.8-pl526_0.tar.bz2",
+            "full_name": "bioconda/reparation_blast/1.0.8/noarch/reparation_blast-1.0.8-pl526_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8f9c436b1bc563a084c774e2627bf664",
+            "ndownloads": 2667,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 41934,
+            "type": "conda",
+            "upload_time": "2020-01-18 08:21:00.811000+00:00",
+            "version": "1.0.8"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "pl526_0",
+                "build_number": 0,
+                "depends": [
+                    "blast 2.7.1.*",
+                    "glimmer",
+                    "openssl 1.0.2.*",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-bioperl >=1.7.2",
+                    "perl-posix",
+                    "plastid",
+                    "prodigal",
+                    "pysam 0.14.1.*",
+                    "r-ggplot2 >=3.0",
+                    "r-prroc >=1.3.1",
+                    "r-randomforest",
+                    "r-rocr",
+                    "r-sizer",
+                    "samtools"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1579560209662
+            },
+            "basename": "noarch/reparation_blast-1.0.9-pl526_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "blast",
+                        "specs": [
+                            [
+                                "==",
+                                "2.7.1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "glimmer",
+                        "specs": []
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": [
+                            [
+                                "==",
+                                "1.0.2."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-bioperl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.7.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-posix",
+                        "specs": []
+                    },
+                    {
+                        "name": "plastid",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                "==",
+                                "0.14.1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-prroc",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rocr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sizer",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/reparation_blast/1.0.9/noarch/reparation_blast-1.0.9-pl526_0.tar.bz2",
+            "full_name": "bioconda/reparation_blast/1.0.9/noarch/reparation_blast-1.0.9-pl526_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d1e664315f044933e915a3c522e0a76a",
+            "ndownloads": 268,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 41907,
+            "type": "conda",
+            "upload_time": "2020-01-20 23:43:05.146000+00:00",
+            "version": "1.0.9"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "pl526_1",
+                "build_number": 1,
+                "depends": [
+                    "biopython 1.77.*",
+                    "blast",
+                    "glimmer",
+                    "openssl",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-bioperl >=1.7.2",
+                    "perl-posix",
+                    "plastid",
+                    "prodigal",
+                    "pysam 0.16.0.1.*",
+                    "r-ggplot2",
+                    "r-prroc",
+                    "r-randomforest",
+                    "r-rocr",
+                    "r-sizer",
+                    "samtools"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1600352707563
+            },
+            "basename": "noarch/reparation_blast-1.0.9-pl526_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biopython",
+                        "specs": [
+                            [
+                                "==",
+                                "1.77."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "blast",
+                        "specs": []
+                    },
+                    {
+                        "name": "glimmer",
+                        "specs": []
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-bioperl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.7.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-posix",
+                        "specs": []
+                    },
+                    {
+                        "name": "plastid",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                "==",
+                                "0.16.0.1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-prroc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rocr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sizer",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/reparation_blast/1.0.9/noarch/reparation_blast-1.0.9-pl526_1.tar.bz2",
+            "full_name": "bioconda/reparation_blast/1.0.9/noarch/reparation_blast-1.0.9-pl526_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "798f1be58722cfa1f2875b630c5466c7",
+            "ndownloads": 539,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 42249,
+            "type": "conda",
+            "upload_time": "2020-09-17 14:38:25.760000+00:00",
+            "version": "1.0.9"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "pl5262hdfd78af_2",
+                "build_number": 2,
+                "depends": [
+                    "biopython 1.77.*",
+                    "blast",
+                    "glimmer",
+                    "openssl",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-bioperl >=1.7.2",
+                    "perl-posix",
+                    "plastid",
+                    "prodigal",
+                    "pysam 0.16.0.1.*",
+                    "r-ggplot2",
+                    "r-prroc",
+                    "r-randomforest",
+                    "r-rocr",
+                    "r-sizer",
+                    "samtools"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1616722265231
+            },
+            "basename": "noarch/reparation_blast-1.0.9-pl5262hdfd78af_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biopython",
+                        "specs": [
+                            [
+                                "==",
+                                "1.77."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "blast",
+                        "specs": []
+                    },
+                    {
+                        "name": "glimmer",
+                        "specs": []
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-bioperl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.7.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-posix",
+                        "specs": []
+                    },
+                    {
+                        "name": "plastid",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                "==",
+                                "0.16.0.1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-prroc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rocr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sizer",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/reparation_blast/1.0.9/noarch/reparation_blast-1.0.9-pl5262hdfd78af_2.tar.bz2",
+            "full_name": "bioconda/reparation_blast/1.0.9/noarch/reparation_blast-1.0.9-pl5262hdfd78af_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d0c1693914771b4aaebb3556009fb405",
+            "ndownloads": 221,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 42479,
+            "type": "conda",
+            "upload_time": "2021-03-26 01:45:29.273000+00:00",
+            "version": "1.0.9"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "pl5321hdfd78af_3",
+                "build_number": 3,
+                "depends": [
+                    "biopython 1.77.*",
+                    "blast",
+                    "glimmer",
+                    "openssl",
+                    "perl >=5.32.1,<6.0a0 *_perl5",
+                    "perl-bioperl >=1.7.2",
+                    "perl-posix",
+                    "plastid",
+                    "prodigal",
+                    "pysam 0.16.0.1.*",
+                    "r-ggplot2",
+                    "r-prroc",
+                    "r-randomforest",
+                    "r-rocr",
+                    "r-sizer",
+                    "samtools"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1644057878385
+            },
+            "basename": "noarch/reparation_blast-1.0.9-pl5321hdfd78af_3.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "biopython",
+                        "specs": [
+                            [
+                                "==",
+                                "1.77."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "blast",
+                        "specs": []
+                    },
+                    {
+                        "name": "glimmer",
+                        "specs": []
+                    },
+                    {
+                        "name": "openssl",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.32.1,<6.0a0 *_perl5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-bioperl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.7.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-posix",
+                        "specs": []
+                    },
+                    {
+                        "name": "plastid",
+                        "specs": []
+                    },
+                    {
+                        "name": "prodigal",
+                        "specs": []
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                "==",
+                                "0.16.0.1."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-prroc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rocr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sizer",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/reparation_blast/1.0.9/noarch/reparation_blast-1.0.9-pl5321hdfd78af_3.tar.bz2",
+            "full_name": "bioconda/reparation_blast/1.0.9/noarch/reparation_blast-1.0.9-pl5321hdfd78af_3.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e6c1bcacf5dc22626176f838fd86b0fd",
+            "ndownloads": 2335,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 43076,
+            "type": "conda",
+            "upload_time": "2022-02-05 11:10:28.898000+00:00",
+            "version": "1.0.9"
+        }
+    ],
+    "full_name": "bioconda/reparation_blast",
+    "home": "https://github.com/RickGelhausen/REPARATION_blast",
+    "html_url": "http://anaconda.org/bioconda/reparation_blast",
+    "id": "5b977782ab12f91341359a52",
+    "latest_version": "1.0.9",
+    "license": "GPL3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:02.048000+00:00",
+    "name": "reparation_blast",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.0.7",
+        "noarch": "1.0.9"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/reparation_blast/v1.0.1",
+            "version": "v1.0.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/reparation_blast/v1.0.2",
+            "version": "v1.0.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/reparation_blast/v1.0.3",
+            "version": "v1.0.3"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/reparation_blast/v1.0.4",
+            "version": "v1.0.4"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/reparation_blast/v1.0.5",
+            "version": "v1.0.5"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/reparation_blast/v1.0.6",
+            "version": "v1.0.6"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/reparation_blast/v1.0.7",
+            "version": "v1.0.7"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/reparation_blast/1.0.7",
+            "version": "1.0.7"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/reparation_blast/1.0.8",
+            "version": "1.0.8"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/reparation_blast/1.0.9",
+            "version": "1.0.9"
+        }
+    ],
+    "revision": 20,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "A pipeline that detects novel open reading frames with ribseq data for bacteria.",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/reparation_blast",
+    "versions": [
+        "v1.0.1",
+        "v1.0.2",
+        "v1.0.3",
+        "v1.0.4",
+        "v1.0.5",
+        "v1.0.6",
+        "v1.0.7",
+        "1.0.7",
+        "1.0.8",
+        "1.0.9"
+    ],
+    "watchers": 1
+}

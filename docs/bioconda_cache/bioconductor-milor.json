@@ -1,0 +1,874 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r43hdfd78af_0",
+        "r44he5774e6_0",
+        "r41hdfd78af_0",
+        "r42hdfd78af_0",
+        "r44h35d7169_0"
+    ],
+    "conda_platforms": [
+        "noarch",
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2021-06-03 01:00:42.224000+00:00",
+    "description": "Milo performs single-cell differential abundance testing. Cell states are modelled as representative neighbourhoods on a nearest neighbour graph. Hypothesis testing is performed using either a negative bionomial generalized linear model or negative binomial generalized linear mixed model.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocneighbors >=1.10.0,<1.11.0",
+                    "bioconductor-biocparallel >=1.26.0,<1.27.0",
+                    "bioconductor-biocsingular >=1.8.0,<1.9.0",
+                    "bioconductor-edger >=3.34.0,<3.35.0",
+                    "bioconductor-limma >=3.48.0,<3.49.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "bioconductor-singlecellexperiment >=1.14.0,<1.15.0",
+                    "bioconductor-summarizedexperiment >=1.22.0,<1.23.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-cowplot",
+                    "r-dplyr",
+                    "r-ggbeeswarm",
+                    "r-ggplot2",
+                    "r-ggraph",
+                    "r-ggrepel",
+                    "r-gtools",
+                    "r-igraph",
+                    "r-irlba",
+                    "r-matrix >=1.3-0",
+                    "r-matrixstats",
+                    "r-patchwork",
+                    "r-rcolorbrewer",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3 + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622681504779
+            },
+            "basename": "noarch/bioconductor-milor-1.0.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocneighbors",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocsingular",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.34.0,<3.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.48.0,<3.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggbeeswarm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggrepel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3-0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-patchwork",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-milor/1.0.0/noarch/bioconductor-milor-1.0.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-milor/1.0.0/noarch/bioconductor-milor-1.0.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a6d72ceb24626cb1d7e5e1f5bf4f657f",
+            "ndownloads": 2648,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4030308,
+            "type": "conda",
+            "upload_time": "2021-06-03 01:00:43.913000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocneighbors >=1.12.0,<1.13.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-biocsingular >=1.10.0,<1.11.0",
+                    "bioconductor-edger >=3.36.0,<3.37.0",
+                    "bioconductor-limma >=3.50.0,<3.51.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-cowplot",
+                    "r-dplyr",
+                    "r-ggbeeswarm",
+                    "r-ggplot2",
+                    "r-ggraph",
+                    "r-ggrepel",
+                    "r-gtools",
+                    "r-igraph",
+                    "r-irlba",
+                    "r-matrix >=1.3-0",
+                    "r-matrixstats",
+                    "r-patchwork",
+                    "r-rcolorbrewer",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3 + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636033091220
+            },
+            "basename": "noarch/bioconductor-milor-1.2.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocneighbors",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocsingular",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.36.0,<3.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.50.0,<3.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggbeeswarm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggrepel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3-0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-patchwork",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-milor/1.2.0/noarch/bioconductor-milor-1.2.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-milor/1.2.0/noarch/bioconductor-milor-1.2.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3365edf014c2c1da35ff190744de1c25",
+            "ndownloads": 3116,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4110774,
+            "type": "conda",
+            "upload_time": "2021-11-04 13:47:49.161000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biocneighbors >=1.16.0,<1.17.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-biocsingular >=1.14.0,<1.15.0",
+                    "bioconductor-edger >=3.40.0,<3.41.0",
+                    "bioconductor-limma >=3.54.0,<3.55.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-singlecellexperiment >=1.20.0,<1.21.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-cowplot",
+                    "r-dplyr",
+                    "r-ggbeeswarm",
+                    "r-ggplot2",
+                    "r-ggraph",
+                    "r-ggrepel",
+                    "r-gtools",
+                    "r-igraph",
+                    "r-irlba",
+                    "r-matrix >=1.3-0",
+                    "r-matrixstats",
+                    "r-patchwork",
+                    "r-rcolorbrewer",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3 + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667714159362
+            },
+            "basename": "noarch/bioconductor-milor-1.6.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-milor/1.6.0/noarch/bioconductor-milor-1.6.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-milor/1.6.0/noarch/bioconductor-milor-1.6.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f0410ef4778207078e1de1f17bd5a2f5",
+            "ndownloads": 1948,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5174427,
+            "type": "conda",
+            "upload_time": "2022-11-06 06:00:06.729000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.46.0,<0.47.0",
+                    "bioconductor-biocneighbors >=1.18.0,<1.19.0",
+                    "bioconductor-biocparallel >=1.34.0,<1.35.0",
+                    "bioconductor-biocsingular >=1.16.0,<1.17.0",
+                    "bioconductor-edger >=3.42.0,<3.43.0",
+                    "bioconductor-limma >=3.56.0,<3.57.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "bioconductor-singlecellexperiment >=1.22.0,<1.23.0",
+                    "bioconductor-summarizedexperiment >=1.30.0,<1.31.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-cowplot",
+                    "r-dplyr",
+                    "r-ggbeeswarm",
+                    "r-ggplot2",
+                    "r-ggraph",
+                    "r-ggrepel",
+                    "r-gtools",
+                    "r-igraph",
+                    "r-irlba",
+                    "r-matrix >=1.3-0",
+                    "r-matrixstats",
+                    "r-patchwork",
+                    "r-rcolorbrewer",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3 + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689104248645
+            },
+            "basename": "noarch/bioconductor-milor-1.8.1-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-milor/1.8.1/noarch/bioconductor-milor-1.8.1-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-milor/1.8.1/noarch/bioconductor-milor-1.8.1-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "16857e2b09f903852666ce5df11267a3",
+            "ndownloads": 1420,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5180327,
+            "type": "conda",
+            "upload_time": "2023-07-11 19:42:00.686000+00:00",
+            "version": "1.8.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.48.0,<0.49.0",
+                    "bioconductor-biocneighbors >=1.20.0,<1.21.0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0",
+                    "bioconductor-biocsingular >=1.18.0,<1.19.0",
+                    "bioconductor-edger >=4.0.0,<4.1.0",
+                    "bioconductor-limma >=3.58.0,<3.59.0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-singlecellexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-cowplot",
+                    "r-dplyr",
+                    "r-ggbeeswarm",
+                    "r-ggplot2",
+                    "r-ggraph",
+                    "r-ggrepel",
+                    "r-gtools",
+                    "r-igraph",
+                    "r-irlba",
+                    "r-matrix >=1.3-0",
+                    "r-matrixstats",
+                    "r-patchwork",
+                    "r-rcolorbrewer",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3 + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1702924402862
+            },
+            "basename": "noarch/bioconductor-milor-1.10.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-milor/1.10.0/noarch/bioconductor-milor-1.10.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-milor/1.10.0/noarch/bioconductor-milor-1.10.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "15e78ee02837b1ea131b8031c4ecd03e",
+            "ndownloads": 1496,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5269043,
+            "type": "conda",
+            "upload_time": "2023-12-18 18:36:36.894000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h35d7169_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0a0",
+                    "bioconductor-biocneighbors >=2.0.0,<2.1.0",
+                    "bioconductor-biocneighbors >=2.0.0,<2.1.0a0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0a0",
+                    "bioconductor-biocsingular >=1.22.0,<1.23.0",
+                    "bioconductor-biocsingular >=1.22.0,<1.23.0a0",
+                    "bioconductor-edger >=4.4.0,<4.5.0",
+                    "bioconductor-edger >=4.4.0,<4.5.0a0",
+                    "bioconductor-limma >=3.62.0,<3.63.0",
+                    "bioconductor-limma >=3.62.0,<3.63.0a0",
+                    "bioconductor-matrixgenerics >=1.18.0,<1.19.0",
+                    "bioconductor-matrixgenerics >=1.18.0,<1.19.0a0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0a0",
+                    "bioconductor-singlecellexperiment >=1.28.0,<1.29.0",
+                    "bioconductor-singlecellexperiment >=1.28.0,<1.29.0a0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=18",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-cowplot",
+                    "r-dplyr",
+                    "r-ggbeeswarm",
+                    "r-ggplot2",
+                    "r-ggraph",
+                    "r-ggrepel",
+                    "r-gtools",
+                    "r-igraph",
+                    "r-irlba",
+                    "r-matrix >=1.3-0",
+                    "r-matrixstats",
+                    "r-numderiv",
+                    "r-patchwork",
+                    "r-pracma",
+                    "r-rcolorbrewer",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppeigen",
+                    "r-rcppml",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3 + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1734760532113
+            },
+            "basename": "osx-64/bioconductor-milor-2.2.0-r44h35d7169_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-milor/2.2.0/osx-64/bioconductor-milor-2.2.0-r44h35d7169_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-milor/2.2.0/osx-64/bioconductor-milor-2.2.0-r44h35d7169_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d654fc9333ae53b0599ac0697c52e351",
+            "ndownloads": 227,
+            "owner": "bioconda",
+            "sha256": "895ee8b092d68373c2d749201d48bb4c176f4ccfbf98f07dcd094de1211b9de0",
+            "size": 7132193,
+            "type": "conda",
+            "upload_time": "2024-12-21 05:57:18.733000+00:00",
+            "version": "2.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44he5774e6_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0a0",
+                    "bioconductor-biocneighbors >=2.0.0,<2.1.0",
+                    "bioconductor-biocneighbors >=2.0.0,<2.1.0a0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0a0",
+                    "bioconductor-biocsingular >=1.22.0,<1.23.0",
+                    "bioconductor-biocsingular >=1.22.0,<1.23.0a0",
+                    "bioconductor-edger >=4.4.0,<4.5.0",
+                    "bioconductor-edger >=4.4.0,<4.5.0a0",
+                    "bioconductor-limma >=3.62.0,<3.63.0",
+                    "bioconductor-limma >=3.62.0,<3.63.0a0",
+                    "bioconductor-matrixgenerics >=1.18.0,<1.19.0",
+                    "bioconductor-matrixgenerics >=1.18.0,<1.19.0a0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0a0",
+                    "bioconductor-singlecellexperiment >=1.28.0,<1.29.0",
+                    "bioconductor-singlecellexperiment >=1.28.0,<1.29.0a0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx >=13",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-cowplot",
+                    "r-dplyr",
+                    "r-ggbeeswarm",
+                    "r-ggplot2",
+                    "r-ggraph",
+                    "r-ggrepel",
+                    "r-gtools",
+                    "r-igraph",
+                    "r-irlba",
+                    "r-matrix >=1.3-0",
+                    "r-matrixstats",
+                    "r-numderiv",
+                    "r-patchwork",
+                    "r-pracma",
+                    "r-rcolorbrewer",
+                    "r-rcpp",
+                    "r-rcpparmadillo",
+                    "r-rcppeigen",
+                    "r-rcppml",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3 + file LICENSE",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1735963006938
+            },
+            "basename": "linux-64/bioconductor-milor-2.2.0-r44he5774e6_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-milor/2.2.0/linux-64/bioconductor-milor-2.2.0-r44he5774e6_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-milor/2.2.0/linux-64/bioconductor-milor-2.2.0-r44he5774e6_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bda968a869db70ba9e8155d1e029720c",
+            "ndownloads": 202,
+            "owner": "bioconda",
+            "sha256": "8b059ab1b83c061fe73f37fd546f601ca74cdd1d0dd4bd95b112ec30cdd275c3",
+            "size": 7214050,
+            "type": "conda",
+            "upload_time": "2025-01-04 03:59:19.668000+00:00",
+            "version": "2.2.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-milor",
+    "home": "https://bioconductor.org/packages/3.13/bioc/html/miloR.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-milor",
+    "id": "60b829ba907535954269b8d8",
+    "latest_version": "2.2.0",
+    "license": "GPL-3 + file LICENSE",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:28.613000+00:00",
+    "name": "bioconductor-milor",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "2.2.0",
+        "noarch": "1.10.0",
+        "osx-64": "2.2.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-milor/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-milor/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-milor/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-milor/1.8.1",
+            "version": "1.8.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-milor/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-milor/2.2.0",
+            "version": "2.2.0"
+        }
+    ],
+    "revision": 14,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Differential neighbourhood abundance testing on a graph",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-milor",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.6.0",
+        "1.8.1",
+        "1.10.0",
+        "2.2.0"
+    ],
+    "watchers": 1
+}

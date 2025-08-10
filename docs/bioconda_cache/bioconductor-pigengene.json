@@ -1,0 +1,1655 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r36_1",
+        "r351_0",
+        "r36_0",
+        "r44hdfd78af_0",
+        "r40hdfd78af_1",
+        "r43hdfd78af_0",
+        "r40_0",
+        "r42hdfd78af_0",
+        "r41hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2018-12-31 20:55:32.014000+00:00",
+    "description": "Pigengene package provides an efficient way to infer biological signatures from gene expression profiles. The signatures are independent from the underlying platform, e.g., the input can be microarray or RNA Seq data. It can even infer the signatures using data from one platform, and evaluate them on the other. Pigengene identifies the modules (clusters) of highly coexpressed genes using coexpression network analysis, summarizes the biological information of each module in an eigengene, learns a Bayesian network that models the probabilistic dependencies between modules, and builds a decision tree based on the expression of eigengenes.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-go.db >=3.7.0,<3.8.0",
+                    "bioconductor-graph >=1.60.0,<1.61.0",
+                    "bioconductor-impute >=1.56.0,<1.57.0",
+                    "bioconductor-preprocesscore >=1.44.0,<1.45.0",
+                    "bioconductor-rgraphviz >=2.26.0,<2.27.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-bnlearn",
+                    "r-c50 >=0.1.2",
+                    "r-mass",
+                    "r-matrixstats",
+                    "r-partykit",
+                    "r-pheatmap >=1.0.8",
+                    "r-wgcna"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1546289481035
+            },
+            "basename": "noarch/bioconductor-pigengene-1.8.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.7.0,<3.8.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-impute",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rgraphviz",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bnlearn",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-c50",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.1.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-partykit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-wgcna",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pigengene/1.8.0/noarch/bioconductor-pigengene-1.8.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pigengene/1.8.0/noarch/bioconductor-pigengene-1.8.0-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "2a291690a027bb0e747e806b41691ff6",
+            "ndownloads": 2722,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2987421,
+            "type": "conda",
+            "upload_time": "2018-12-31 20:55:33.472000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-go.db >=3.8.0,<3.9.0",
+                    "bioconductor-graph >=1.62.0,<1.63.0",
+                    "bioconductor-impute >=1.58.0,<1.59.0",
+                    "bioconductor-preprocesscore >=1.46.0,<1.47.0",
+                    "bioconductor-rgraphviz >=2.28.0,<2.29.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-bnlearn >=4.4.1",
+                    "r-c50 >=0.1.2",
+                    "r-mass",
+                    "r-matrixstats",
+                    "r-partykit",
+                    "r-pheatmap >=1.0.8",
+                    "r-wgcna"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1564916702905
+            },
+            "basename": "noarch/bioconductor-pigengene-1.10.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-impute",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rgraphviz",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bnlearn",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-c50",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.1.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-partykit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-wgcna",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pigengene/1.10.0/noarch/bioconductor-pigengene-1.10.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-pigengene/1.10.0/noarch/bioconductor-pigengene-1.10.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "674f7b0acb775bc72810176a31f7461a",
+            "ndownloads": 2678,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2995368,
+            "type": "conda",
+            "upload_time": "2019-08-04 11:10:30.383000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-go.db >=3.10.0,<3.11.0",
+                    "bioconductor-graph >=1.64.0,<1.65.0",
+                    "bioconductor-impute >=1.60.0,<1.61.0",
+                    "bioconductor-preprocesscore >=1.48.0,<1.49.0",
+                    "bioconductor-rgraphviz >=2.30.0,<2.31.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-bnlearn >=4.4.1",
+                    "r-c50 >=0.1.2",
+                    "r-dplyr",
+                    "r-gdata",
+                    "r-mass",
+                    "r-matrixstats",
+                    "r-partykit",
+                    "r-pheatmap >=1.0.8",
+                    "r-wgcna"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572809373938
+            },
+            "basename": "noarch/bioconductor-pigengene-1.12.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.10.0,<3.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-impute",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rgraphviz",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.30.0,<2.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bnlearn",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-c50",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.1.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gdata",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-partykit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-wgcna",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pigengene/1.12.0/noarch/bioconductor-pigengene-1.12.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pigengene/1.12.0/noarch/bioconductor-pigengene-1.12.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "520c0502bc61096af793430f956c4097",
+            "ndownloads": 2664,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3091717,
+            "type": "conda",
+            "upload_time": "2019-11-03 19:35:08.771000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-go.db >=3.11.0,<3.12.0",
+                    "bioconductor-graph >=1.66.0,<1.67.0",
+                    "bioconductor-impute >=1.62.0,<1.63.0",
+                    "bioconductor-preprocesscore >=1.50.0,<1.51.0",
+                    "bioconductor-rgraphviz >=2.32.0,<2.33.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-bnlearn >=4.4.1",
+                    "r-c50 >=0.1.2",
+                    "r-dplyr",
+                    "r-gdata",
+                    "r-mass",
+                    "r-matrixstats",
+                    "r-partykit",
+                    "r-pheatmap >=1.0.8",
+                    "r-wgcna"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589324049528
+            },
+            "basename": "noarch/bioconductor-pigengene-1.14.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.11.0,<3.12.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-impute",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rgraphviz",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.32.0,<2.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bnlearn",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-c50",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.1.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gdata",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-partykit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-wgcna",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pigengene/1.14.0/noarch/bioconductor-pigengene-1.14.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pigengene/1.14.0/noarch/bioconductor-pigengene-1.14.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bf98d3e1b50523b0f97634f897c484ca",
+            "ndownloads": 2659,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3095081,
+            "type": "conda",
+            "upload_time": "2020-05-12 22:59:48.088000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-go.db >=3.12.1,<3.13.0",
+                    "bioconductor-graph >=1.68.0,<1.69.0",
+                    "bioconductor-impute >=1.64.0,<1.65.0",
+                    "bioconductor-preprocesscore >=1.52.0,<1.53.0",
+                    "bioconductor-rgraphviz >=2.34.0,<2.35.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-bnlearn >=4.4.1",
+                    "r-c50 >=0.1.2",
+                    "r-dplyr",
+                    "r-gdata",
+                    "r-mass",
+                    "r-matrixstats",
+                    "r-partykit",
+                    "r-pheatmap >=1.0.8",
+                    "r-wgcna"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604271844141
+            },
+            "basename": "noarch/bioconductor-pigengene-1.16.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.1,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-impute",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rgraphviz",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.34.0,<2.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bnlearn",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-c50",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.1.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gdata",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-partykit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-wgcna",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pigengene/1.16.0/noarch/bioconductor-pigengene-1.16.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pigengene/1.16.0/noarch/bioconductor-pigengene-1.16.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3304a92a1a71c21712ba74b3c2126311",
+            "ndownloads": 251,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3094859,
+            "type": "conda",
+            "upload_time": "2020-11-01 23:11:59.270000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-go.db >=3.12.1,<3.13.0",
+                    "bioconductor-graph >=1.68.0,<1.69.0",
+                    "bioconductor-impute >=1.64.0,<1.65.0",
+                    "bioconductor-preprocesscore >=1.52.0,<1.53.0",
+                    "bioconductor-rgraphviz >=2.34.0,<2.35.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-bnlearn >=4.4.1",
+                    "r-c50 >=0.1.2",
+                    "r-dplyr",
+                    "r-gdata",
+                    "r-mass",
+                    "r-matrixstats",
+                    "r-partykit",
+                    "r-pheatmap >=1.0.8",
+                    "r-wgcna"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617217271918
+            },
+            "basename": "noarch/bioconductor-pigengene-1.16.0-r40hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.1,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-impute",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rgraphviz",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.34.0,<2.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bnlearn",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-c50",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.1.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gdata",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-partykit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-wgcna",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pigengene/1.16.0/noarch/bioconductor-pigengene-1.16.0-r40hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-pigengene/1.16.0/noarch/bioconductor-pigengene-1.16.0-r40hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "45626cdb41e3fd400689b81ae32ccace",
+            "ndownloads": 2625,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3095803,
+            "type": "conda",
+            "upload_time": "2021-03-31 19:08:36.716000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocstyle >=2.20.0,<2.21.0",
+                    "bioconductor-go.db >=3.13.0,<3.14.0",
+                    "bioconductor-graph >=1.70.0,<1.71.0",
+                    "bioconductor-impute >=1.66.0,<1.67.0",
+                    "bioconductor-preprocesscore >=1.54.0,<1.55.0",
+                    "bioconductor-rgraphviz >=2.36.0,<2.37.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-bnlearn >=4.4.1",
+                    "r-c50 >=0.1.2",
+                    "r-dplyr",
+                    "r-gdata",
+                    "r-mass",
+                    "r-matrixstats",
+                    "r-partykit",
+                    "r-pheatmap >=1.0.8",
+                    "r-wgcna"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622822054580
+            },
+            "basename": "noarch/bioconductor-pigengene-1.18.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocstyle",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.13.0,<3.14.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70.0,<1.71.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-impute",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rgraphviz",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.36.0,<2.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bnlearn",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-c50",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.1.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gdata",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-partykit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-wgcna",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pigengene/1.18.0/noarch/bioconductor-pigengene-1.18.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pigengene/1.18.0/noarch/bioconductor-pigengene-1.18.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6844b3fd32a64a96fd50c7fe68b03a3d",
+            "ndownloads": 2636,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3099694,
+            "type": "conda",
+            "upload_time": "2021-06-04 16:01:47.979000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocstyle >=2.22.0,<2.23.0",
+                    "bioconductor-clusterprofiler >=4.2.0,<4.3.0",
+                    "bioconductor-go.db >=3.14.0,<3.15.0",
+                    "bioconductor-graph >=1.72.0,<1.73.0",
+                    "bioconductor-impute >=1.68.0,<1.69.0",
+                    "bioconductor-preprocesscore >=1.56.0,<1.57.0",
+                    "bioconductor-reactomepa >=1.38.0,<1.39.0",
+                    "bioconductor-rgraphviz >=2.38.0,<2.39.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-bnlearn >=4.7",
+                    "r-c50 >=0.1.2",
+                    "r-dbi",
+                    "r-dplyr",
+                    "r-gdata",
+                    "r-ggplot2",
+                    "r-mass",
+                    "r-matrixstats",
+                    "r-openxlsx",
+                    "r-partykit",
+                    "r-pheatmap >=1.0.8",
+                    "r-wgcna"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636480073077
+            },
+            "basename": "noarch/bioconductor-pigengene-1.20.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocstyle",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.22.0,<2.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-clusterprofiler",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.2.0,<4.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.14.0,<3.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-impute",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-preprocesscore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-reactomepa",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rgraphviz",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.38.0,<2.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bnlearn",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-c50",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.1.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gdata",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-openxlsx",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-partykit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-wgcna",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pigengene/1.20.0/noarch/bioconductor-pigengene-1.20.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pigengene/1.20.0/noarch/bioconductor-pigengene-1.20.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a26ceec7f5384e5e2eda892b30efcf3d",
+            "ndownloads": 1889,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3125358,
+            "type": "conda",
+            "upload_time": "2021-11-09 18:05:12.683000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocstyle >=2.26.0,<2.27.0",
+                    "bioconductor-clusterprofiler >=4.6.0,<4.7.0",
+                    "bioconductor-dose >=3.24.0,<3.25.0",
+                    "bioconductor-go.db >=3.16.0,<3.17.0",
+                    "bioconductor-graph >=1.76.0,<1.77.0",
+                    "bioconductor-impute >=1.72.0,<1.73.0",
+                    "bioconductor-preprocesscore >=1.60.0,<1.61.0",
+                    "bioconductor-reactomepa >=1.42.0,<1.43.0",
+                    "bioconductor-rgraphviz >=2.42.0,<2.43.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-bnlearn >=4.7",
+                    "r-c50 >=0.1.2",
+                    "r-dbi",
+                    "r-dplyr",
+                    "r-gdata",
+                    "r-ggplot2",
+                    "r-mass",
+                    "r-matrixstats",
+                    "r-openxlsx",
+                    "r-partykit",
+                    "r-pheatmap >=1.0.8",
+                    "r-wgcna"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667905282007
+            },
+            "basename": "noarch/bioconductor-pigengene-1.24.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pigengene/1.24.0/noarch/bioconductor-pigengene-1.24.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pigengene/1.24.0/noarch/bioconductor-pigengene-1.24.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "840ba73fd8c348d5a13e9a3eb5f08353",
+            "ndownloads": 1427,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3141695,
+            "type": "conda",
+            "upload_time": "2022-11-08 11:13:08.272000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocstyle >=2.28.0,<2.29.0",
+                    "bioconductor-clusterprofiler >=4.8.0,<4.9.0",
+                    "bioconductor-dose >=3.26.0,<3.27.0",
+                    "bioconductor-go.db >=3.17.0,<3.18.0",
+                    "bioconductor-graph >=1.78.0,<1.79.0",
+                    "bioconductor-impute >=1.74.0,<1.75.0",
+                    "bioconductor-preprocesscore >=1.62.0,<1.63.0",
+                    "bioconductor-reactomepa >=1.44.0,<1.45.0",
+                    "bioconductor-rgraphviz >=2.44.0,<2.45.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-bnlearn >=4.7",
+                    "r-c50 >=0.1.2",
+                    "r-dbi",
+                    "r-dplyr",
+                    "r-gdata",
+                    "r-ggplot2",
+                    "r-mass",
+                    "r-matrixstats",
+                    "r-openxlsx",
+                    "r-partykit",
+                    "r-pheatmap >=1.0.8",
+                    "r-wgcna"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689767826192
+            },
+            "basename": "noarch/bioconductor-pigengene-1.26.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pigengene/1.26.0/noarch/bioconductor-pigengene-1.26.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pigengene/1.26.0/noarch/bioconductor-pigengene-1.26.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f2a9cc73ecd2733a861716f71dc349f0",
+            "ndownloads": 897,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3162379,
+            "type": "conda",
+            "upload_time": "2023-07-19 12:08:23.258000+00:00",
+            "version": "1.26.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocstyle >=2.30.0,<2.31.0",
+                    "bioconductor-clusterprofiler >=4.10.0,<4.11.0",
+                    "bioconductor-dose >=3.28.0,<3.29.0",
+                    "bioconductor-go.db >=3.18.0,<3.19.0",
+                    "bioconductor-graph >=1.80.0,<1.81.0",
+                    "bioconductor-impute >=1.76.0,<1.77.0",
+                    "bioconductor-preprocesscore >=1.64.0,<1.65.0",
+                    "bioconductor-reactomepa >=1.46.0,<1.47.0",
+                    "bioconductor-rgraphviz >=2.46.0,<2.47.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-bnlearn >=4.7",
+                    "r-c50 >=0.1.2",
+                    "r-dbi",
+                    "r-dplyr",
+                    "r-gdata",
+                    "r-ggplot2",
+                    "r-mass",
+                    "r-matrixstats",
+                    "r-openxlsx",
+                    "r-partykit",
+                    "r-pheatmap >=1.0.8",
+                    "r-wgcna"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1703023406396
+            },
+            "basename": "noarch/bioconductor-pigengene-1.28.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pigengene/1.28.0/noarch/bioconductor-pigengene-1.28.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pigengene/1.28.0/noarch/bioconductor-pigengene-1.28.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "95750c0711ef9f4b503fec6fb8d464f6",
+            "ndownloads": 768,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3160168,
+            "type": "conda",
+            "upload_time": "2023-12-19 22:10:07.183000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocstyle >=2.34.0,<2.35.0",
+                    "bioconductor-clusterprofiler >=4.14.0,<4.15.0",
+                    "bioconductor-dose >=4.0.0,<4.1.0",
+                    "bioconductor-go.db >=3.20.0,<3.21.0",
+                    "bioconductor-graph >=1.84.0,<1.85.0",
+                    "bioconductor-impute >=1.80.0,<1.81.0",
+                    "bioconductor-preprocesscore >=1.68.0,<1.69.0",
+                    "bioconductor-reactomepa >=1.50.0,<1.51.0",
+                    "bioconductor-rgraphviz >=2.50.0,<2.51.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-bnlearn >=4.7",
+                    "r-c50 >=0.1.2",
+                    "r-dbi",
+                    "r-dplyr",
+                    "r-gdata",
+                    "r-ggplot2",
+                    "r-mass",
+                    "r-matrixstats",
+                    "r-openxlsx",
+                    "r-partykit",
+                    "r-pheatmap >=1.0.8",
+                    "r-wgcna"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1735959312194
+            },
+            "basename": "noarch/bioconductor-pigengene-1.32.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pigengene/1.32.0/noarch/bioconductor-pigengene-1.32.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pigengene/1.32.0/noarch/bioconductor-pigengene-1.32.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "63737fd45739168269a311627afc4bca",
+            "ndownloads": 252,
+            "owner": "bioconda",
+            "sha256": "b1f23a2038da93410bdcaaf5b6dcad4665ee950ee0adf54406a48164b363ccfa",
+            "size": 3171014,
+            "type": "conda",
+            "upload_time": "2025-01-04 03:00:52.400000+00:00",
+            "version": "1.32.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-pigengene",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/Pigengene.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-pigengene",
+    "id": "5c2a8244036b860246809912",
+    "latest_version": "1.32.0",
+    "license": "GPL (>=2)",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:10.784000+00:00",
+    "name": "bioconductor-pigengene",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.32.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pigengene/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pigengene/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pigengene/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pigengene/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pigengene/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pigengene/1.18.0",
+            "version": "1.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pigengene/1.20.0",
+            "version": "1.20.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pigengene/1.24.0",
+            "version": "1.24.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pigengene/1.26.0",
+            "version": "1.26.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pigengene/1.28.0",
+            "version": "1.28.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pigengene/1.32.0",
+            "version": "1.32.0"
+        }
+    ],
+    "revision": 23,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Infers biological signatures from gene expression data",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-pigengene",
+    "versions": [
+        "1.8.0",
+        "1.10.0",
+        "1.12.0",
+        "1.14.0",
+        "1.16.0",
+        "1.18.0",
+        "1.20.0",
+        "1.24.0",
+        "1.26.0",
+        "1.28.0",
+        "1.32.0"
+    ],
+    "watchers": 1
+}

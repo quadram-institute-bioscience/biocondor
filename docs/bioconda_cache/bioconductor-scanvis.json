@@ -1,0 +1,746 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r41hdfd78af_0",
+        "r44hdfd78af_0",
+        "r43hdfd78af_0",
+        "r40_0",
+        "r40hdfd78af_1",
+        "r36_0",
+        "r42hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-11-03 21:21:36.604000+00:00",
+    "description": "SCANVIS is a set of annotation-dependent tools for analyzing splice junctions and their read support as predetermined by an alignment tool of choice (for example, STAR aligner). SCANVIS assesses each junction's relative read support (RRS) by relating to the context of local split reads aligning to annotated transcripts. SCANVIS also annotates each splice junction by indicating whether the junction is supported by annotation or not, and if not, what type of junction it is (e.g. exon skipping, alternative 5' or 3' events, Novel Exons). Unannotated junctions are also futher annotated by indicating whether it induces a frame shift or not. SCANVIS includes a visualization function to generate static sashimi-style plots depicting relative read support and number of split reads using arc thickness and arc heights, making it easy for users to spot well-supported junctions. These plots also clearly delineate unannotated junctions from annotated ones using designated color schemes, and users can also highlight splice junctions of choice. Variants and/or a read profile are also incoroporated into the plot if the user supplies variants in bed format and/or the BAM file. One further feature of the visualization function is that users can submit multiple samples of a certain disease or cohort to generate a single plot - this occurs via a \"merge\" function wherein junction details over multiple samples are merged to generate a single sashimi plot, which is useful when contrasting cohorots (eg. disease vs control).",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-iranges >=2.20.0,<2.21.0",
+                    "bioconductor-rtracklayer >=1.46.0,<1.47.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-plotrix",
+                    "r-rcurl"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572815778157
+            },
+            "basename": "noarch/bioconductor-scanvis-1.0.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plotrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcurl",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scanvis/1.0.0/noarch/bioconductor-scanvis-1.0.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scanvis/1.0.0/noarch/bioconductor-scanvis-1.0.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "de5b8c7699897f95093c30f9d8157e59",
+            "ndownloads": 2660,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 451529,
+            "type": "conda",
+            "upload_time": "2019-11-03 21:21:37.436000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-iranges >=2.22.0,<2.23.0",
+                    "bioconductor-rtracklayer >=1.48.0,<1.49.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-plotrix",
+                    "r-rcurl"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589143224424
+            },
+            "basename": "noarch/bioconductor-scanvis-1.2.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.22.0,<2.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plotrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcurl",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scanvis/1.2.0/noarch/bioconductor-scanvis-1.2.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scanvis/1.2.0/noarch/bioconductor-scanvis-1.2.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "40104947286796d99b423b8d1282a82d",
+            "ndownloads": 2650,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 450865,
+            "type": "conda",
+            "upload_time": "2020-05-10 20:45:57.075000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-rtracklayer >=1.50.0,<1.51.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-plotrix",
+                    "r-rcurl"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604078293285
+            },
+            "basename": "noarch/bioconductor-scanvis-1.4.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plotrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcurl",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scanvis/1.4.0/noarch/bioconductor-scanvis-1.4.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scanvis/1.4.0/noarch/bioconductor-scanvis-1.4.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "330c7003cae2ecc78fc48c801043681d",
+            "ndownloads": 232,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 451307,
+            "type": "conda",
+            "upload_time": "2020-10-30 17:24:08.702000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-rtracklayer >=1.50.0,<1.51.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-plotrix",
+                    "r-rcurl"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617148888272
+            },
+            "basename": "noarch/bioconductor-scanvis-1.4.0-r40hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plotrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcurl",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scanvis/1.4.0/noarch/bioconductor-scanvis-1.4.0-r40hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-scanvis/1.4.0/noarch/bioconductor-scanvis-1.4.0-r40hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9e1dea55508d0be3d35625cb7ae423a4",
+            "ndownloads": 2566,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 451598,
+            "type": "conda",
+            "upload_time": "2021-03-31 00:07:28.699000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-iranges >=2.26.0,<2.27.0",
+                    "bioconductor-rtracklayer >=1.52.0,<1.53.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-plotrix",
+                    "r-rcurl"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622619855252
+            },
+            "basename": "noarch/bioconductor-scanvis-1.6.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plotrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcurl",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scanvis/1.6.0/noarch/bioconductor-scanvis-1.6.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scanvis/1.6.0/noarch/bioconductor-scanvis-1.6.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7ded927f6b5f61f10a6ac4e713b4d59c",
+            "ndownloads": 2602,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 451799,
+            "type": "conda",
+            "upload_time": "2021-06-02 07:51:21.077000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-rtracklayer >=1.54.0,<1.55.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-plotrix",
+                    "r-rcurl"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636107617566
+            },
+            "basename": "noarch/bioconductor-scanvis-1.7.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plotrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcurl",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scanvis/1.7.0/noarch/bioconductor-scanvis-1.7.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scanvis/1.7.0/noarch/bioconductor-scanvis-1.7.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1563650ae1ad6c68afd291b5abb3e136",
+            "ndownloads": 2401,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 451937,
+            "type": "conda",
+            "upload_time": "2021-11-05 10:27:09.127000+00:00",
+            "version": "1.7.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-rtracklayer >=1.58.0,<1.59.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-plotrix",
+                    "r-rcurl"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667775008325
+            },
+            "basename": "noarch/bioconductor-scanvis-1.12.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scanvis/1.12.0/noarch/bioconductor-scanvis-1.12.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scanvis/1.12.0/noarch/bioconductor-scanvis-1.12.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c0707bc675ce12163e2d9926a7c490c2",
+            "ndownloads": 1815,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 453539,
+            "type": "conda",
+            "upload_time": "2022-11-06 22:54:12.783000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-rtracklayer >=1.60.0,<1.61.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-plotrix",
+                    "r-rcurl"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689262613593
+            },
+            "basename": "noarch/bioconductor-scanvis-1.14.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scanvis/1.14.0/noarch/bioconductor-scanvis-1.14.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scanvis/1.14.0/noarch/bioconductor-scanvis-1.14.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "853e6a2362e7f7e002bfc1367b868dc7",
+            "ndownloads": 1304,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 459975,
+            "type": "conda",
+            "upload_time": "2023-07-13 15:41:10.349000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-iranges >=2.36.0,<2.37.0",
+                    "bioconductor-rtracklayer >=1.62.0,<1.63.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-plotrix",
+                    "r-rcurl"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1703273658506
+            },
+            "basename": "noarch/bioconductor-scanvis-1.16.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scanvis/1.16.0/noarch/bioconductor-scanvis-1.16.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scanvis/1.16.0/noarch/bioconductor-scanvis-1.16.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "90f7faf1da1f9fe46daa824dbb363105",
+            "ndownloads": 974,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 460381,
+            "type": "conda",
+            "upload_time": "2023-12-22 19:37:19.653000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-iranges >=2.40.0,<2.41.0",
+                    "bioconductor-rtracklayer >=1.66.0,<1.67.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-plotrix",
+                    "r-rcurl"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1735245595065
+            },
+            "basename": "noarch/bioconductor-scanvis-1.20.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scanvis/1.20.0/noarch/bioconductor-scanvis-1.20.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scanvis/1.20.0/noarch/bioconductor-scanvis-1.20.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9c2c6caa998a836c0e0417232e7f35b6",
+            "ndownloads": 249,
+            "owner": "bioconda",
+            "sha256": "b1ffa2382c2683c2a9ceb8f4be06aa7122b46323160e6f3f1354730a26494ada",
+            "size": 459761,
+            "type": "conda",
+            "upload_time": "2024-12-26 20:42:07.868000+00:00",
+            "version": "1.20.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-scanvis",
+    "home": "https://bioconductor.org/packages/3.10/bioc/html/SCANVIS.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-scanvis",
+    "id": "5dbf44e0fe6b2a52a0d91f97",
+    "latest_version": "1.20.0",
+    "license": "file LICENSE",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:20.135000+00:00",
+    "name": "bioconductor-scanvis",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.20.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scanvis/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scanvis/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scanvis/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scanvis/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scanvis/1.7.0",
+            "version": "1.7.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scanvis/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scanvis/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scanvis/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scanvis/1.20.0",
+            "version": "1.20.0"
+        }
+    ],
+    "revision": 19,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "SCANVIS - a tool for SCoring, ANnotating and VISualizing splice junctions",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-scanvis",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.4.0",
+        "1.6.0",
+        "1.7.0",
+        "1.12.0",
+        "1.14.0",
+        "1.16.0",
+        "1.20.0"
+    ],
+    "watchers": 1
+}

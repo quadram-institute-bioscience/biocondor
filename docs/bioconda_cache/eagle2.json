@@ -1,0 +1,150 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "h6a68c12_0",
+        "h43736c0_0"
+    ],
+    "conda_platforms": [
+        "osx-64",
+        "linux-64"
+    ],
+    "created_at": "2024-11-04 13:40:33.449000+00:00",
+    "description": "Eagle2 is now the default phasing method used by the Sanger and Michigan imputation servers and uses a new very fast HMM-based algorithm that improves speed and accuracy over existing methods via two key ideas; a new data structure based on the positional Burrows-Wheeler transform and a rapid search algorithm that explores only the most relevant paths through the HMM. Compared to the Eagle1 algorithm, Eagle2 has similar speed but much greater accuracy at sample sizes <50,000; as such, we have made the Eagle2 algorithm the default option. (The Eagle1 algorithm can be accessed via the --v1 flag.) Eagle v2.3+ supports phasing sequence data with or without a reference and also supports phasing chrX.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h6a68c12_0",
+                "build_number": 0,
+                "depends": [
+                    "boost-cpp >=1.85.0,<2.0a0",
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "htslib >=1.21,<1.22.0a0",
+                    "libgcc >=12",
+                    "libstdcxx >=12",
+                    "libzlib >=1.2.13,<2.0a0",
+                    "openblas >=0.3.28,<1.0a0",
+                    "zlib >=1.2.13,<2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3.0-or-later",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1730712141132
+            },
+            "basename": "linux-64/eagle2-2.4.1-h6a68c12_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/eagle2/2.4.1/linux-64/eagle2-2.4.1-h6a68c12_0.tar.bz2",
+            "full_name": "bioconda/eagle2/2.4.1/linux-64/eagle2-2.4.1-h6a68c12_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "94650377c9e43bd3ef2ed96c4e3387f1",
+            "ndownloads": 246,
+            "owner": "bioconda",
+            "sha256": "adc29076872f2ee89928e593378ce887f8faa2a0f11ea271807c4df03f70da2d",
+            "size": 297540,
+            "type": "conda",
+            "upload_time": "2024-11-04 13:40:33.830000+00:00",
+            "version": "2.4.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h43736c0_0",
+                "build_number": 0,
+                "depends": [
+                    "boost-cpp >=1.85.0,<2.0a0",
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "htslib >=1.21,<1.22.0a0",
+                    "libcxx >=16",
+                    "libzlib >=1.2.13,<2.0a0",
+                    "openblas >=0.3.28,<1.0a0",
+                    "zlib >=1.2.13,<2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3.0-or-later",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1730713021776
+            },
+            "basename": "osx-64/eagle2-2.4.1-h43736c0_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/eagle2/2.4.1/osx-64/eagle2-2.4.1-h43736c0_0.tar.bz2",
+            "full_name": "bioconda/eagle2/2.4.1/osx-64/eagle2-2.4.1-h43736c0_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f1481cf53dbe3b3447e86e90e8da33d9",
+            "ndownloads": 177,
+            "owner": "bioconda",
+            "sha256": "419c88362747278e2f32965f6a7027863c1f928d3bc25089b3f147a87766db0f",
+            "size": 306179,
+            "type": "conda",
+            "upload_time": "2024-11-04 13:43:53.163000+00:00",
+            "version": "2.4.1"
+        }
+    ],
+    "full_name": "bioconda/eagle2",
+    "home": "https://github.com/poruloh/Eagle",
+    "html_url": "http://anaconda.org/bioconda/eagle2",
+    "id": "6728ced13f2e3c5b01cf0fdf",
+    "latest_version": "2.4.1",
+    "license": "GPL-3.0-or-later",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:42.989000+00:00",
+    "name": "eagle2",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "2.4.1",
+        "osx-64": "2.4.1"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/eagle2/2.4.1",
+            "version": "2.4.1"
+        }
+    ],
+    "revision": 4,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "The Eagle software estimates haplotype phase either within a genotyped cohort or using a phased reference panel.",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/eagle2",
+    "versions": [
+        "2.4.1"
+    ],
+    "watchers": 1
+}

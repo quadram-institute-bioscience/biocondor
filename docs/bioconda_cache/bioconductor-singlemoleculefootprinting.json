@@ -1,0 +1,560 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r42hdfd78af_0",
+        "r41hdfd78af_0",
+        "r44hdfd78af_0",
+        "r43hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2021-06-03 14:31:46.247000+00:00",
+    "description": "SingleMoleculeFootprinting provides functions to analyze Single Molecule Footprinting (SMF) data. Following the workflow exemplified in its vignette, the user will be able to perform basic data analysis of SMF data with minimal coding effort. Starting from an aligned bam file, we show how to perform quality controls over sequencing libraries, extract methylation information at the single molecule level accounting for the two possible kind of SMF experiments (single enzyme or double enzyme), classify single molecules based on their patterns of molecular occupancy, plot SMF information at a given genomic location.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.38.0,<0.39.0",
+                    "bioconductor-biostrings >=2.60.0,<2.61.0",
+                    "bioconductor-bsgenome >=1.60.0,<1.61.0",
+                    "bioconductor-genomeinfodb >=1.28.0,<1.29.0",
+                    "bioconductor-genomicranges >=1.44.0,<1.45.0",
+                    "bioconductor-iranges >=2.26.0,<2.27.0",
+                    "bioconductor-quasr >=1.32.0,<1.33.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-data.table",
+                    "r-plyr",
+                    "r-rcolorbrewer"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622730287323
+            },
+            "basename": "noarch/bioconductor-singlemoleculefootprinting-1.0.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.38.0,<0.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.60.0,<2.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-quasr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-singlemoleculefootprinting/1.0.0/noarch/bioconductor-singlemoleculefootprinting-1.0.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-singlemoleculefootprinting/1.0.0/noarch/bioconductor-singlemoleculefootprinting-1.0.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "54e7d5032533086bc536cb909895ac90",
+            "ndownloads": 2648,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 680250,
+            "type": "conda",
+            "upload_time": "2021-06-03 14:31:49.063000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-bsgenome >=1.62.0,<1.63.0",
+                    "bioconductor-genomeinfodb >=1.30.0,<1.31.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-quasr >=1.34.0,<1.35.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-data.table",
+                    "r-plyr",
+                    "r-rcolorbrewer"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636489333667
+            },
+            "basename": "noarch/bioconductor-singlemoleculefootprinting-1.2.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-quasr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-singlemoleculefootprinting/1.2.0/noarch/bioconductor-singlemoleculefootprinting-1.2.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-singlemoleculefootprinting/1.2.0/noarch/bioconductor-singlemoleculefootprinting-1.2.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "28cd26fd311688d92972ae887c671850",
+            "ndownloads": 2495,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 685926,
+            "type": "conda",
+            "upload_time": "2021-11-09 20:30:57.532000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-bsgenome >=1.66.0,<1.67.0",
+                    "bioconductor-genomeinfodb >=1.34.0,<1.35.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-quasr >=1.38.0,<1.39.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-data.table",
+                    "r-plyr",
+                    "r-rcolorbrewer"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667957788732
+            },
+            "basename": "noarch/bioconductor-singlemoleculefootprinting-1.6.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-singlemoleculefootprinting/1.6.0/noarch/bioconductor-singlemoleculefootprinting-1.6.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-singlemoleculefootprinting/1.6.0/noarch/bioconductor-singlemoleculefootprinting-1.6.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1e423b8087ab28394398823a7b91f4f8",
+            "ndownloads": 1824,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 679109,
+            "type": "conda",
+            "upload_time": "2022-11-09 01:40:48.579000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.46.0,<0.47.0",
+                    "bioconductor-biostrings >=2.68.0,<2.69.0",
+                    "bioconductor-bsgenome >=1.68.0,<1.69.0",
+                    "bioconductor-genomeinfodb >=1.36.0,<1.37.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-quasr >=1.40.0,<1.41.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-data.table",
+                    "r-plyr",
+                    "r-rcolorbrewer"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689547260054
+            },
+            "basename": "noarch/bioconductor-singlemoleculefootprinting-1.8.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-singlemoleculefootprinting/1.8.0/noarch/bioconductor-singlemoleculefootprinting-1.8.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-singlemoleculefootprinting/1.8.0/noarch/bioconductor-singlemoleculefootprinting-1.8.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b4ca0065356394a866ff65b98776f1a0",
+            "ndownloads": 1300,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 688297,
+            "type": "conda",
+            "upload_time": "2023-07-16 22:46:41.244000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.48.0,<0.49.0",
+                    "bioconductor-biostrings >=2.70.0,<2.71.0",
+                    "bioconductor-bsgenome >=1.70.0,<1.71.0",
+                    "bioconductor-genomeinfodb >=1.38.0,<1.39.0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0",
+                    "bioconductor-quasr >=1.42.0,<1.43.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-data.table",
+                    "r-plyr",
+                    "r-rcolorbrewer"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1702288719720
+            },
+            "basename": "noarch/bioconductor-singlemoleculefootprinting-1.10.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-singlemoleculefootprinting/1.10.0/noarch/bioconductor-singlemoleculefootprinting-1.10.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-singlemoleculefootprinting/1.10.0/noarch/bioconductor-singlemoleculefootprinting-1.10.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ae7e75275995cca7ab45d0cf10b17a05",
+            "ndownloads": 776,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 698114,
+            "type": "conda",
+            "upload_time": "2023-12-11 10:01:47.041000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-biostrings >=2.74.0,<2.75.0",
+                    "bioconductor-bsgenome >=1.74.0,<1.75.0",
+                    "bioconductor-genomeinfodb >=1.42.0,<1.43.0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0",
+                    "bioconductor-plyranges >=1.26.0,<1.27.0",
+                    "bioconductor-quasr >=1.46.0,<1.47.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-ggpointdensity",
+                    "r-ggrepel",
+                    "r-matrix",
+                    "r-patchwork",
+                    "r-plyr",
+                    "r-rcolorbrewer",
+                    "r-rlang",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-tidyverse",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1735776939525
+            },
+            "basename": "noarch/bioconductor-singlemoleculefootprinting-2.0.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-singlemoleculefootprinting/2.0.0/noarch/bioconductor-singlemoleculefootprinting-2.0.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-singlemoleculefootprinting/2.0.0/noarch/bioconductor-singlemoleculefootprinting-2.0.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "831b2f6ea9cf3cd8a858c5d5ed2af87d",
+            "ndownloads": 243,
+            "owner": "bioconda",
+            "sha256": "c0cf7a9e2d9a8a822d62f5e81d0da5d66ec8c94af9a58609acdc9168fef71243",
+            "size": 4268253,
+            "type": "conda",
+            "upload_time": "2025-01-02 00:18:34.959000+00:00",
+            "version": "2.0.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-singlemoleculefootprinting",
+    "home": "https://bioconductor.org/packages/3.13/bioc/html/SingleMoleculeFootprinting.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-singlemoleculefootprinting",
+    "id": "60b8e7d25f0624224ab61e2a",
+    "latest_version": "2.0.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:28.693000+00:00",
+    "name": "bioconductor-singlemoleculefootprinting",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "2.0.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-singlemoleculefootprinting/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-singlemoleculefootprinting/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-singlemoleculefootprinting/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-singlemoleculefootprinting/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-singlemoleculefootprinting/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-singlemoleculefootprinting/2.0.0",
+            "version": "2.0.0"
+        }
+    ],
+    "revision": 13,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Analysis tools for Single Molecule Footprinting (SMF) data",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-singlemoleculefootprinting",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.6.0",
+        "1.8.0",
+        "1.10.0",
+        "2.0.0"
+    ],
+    "watchers": 1
+}

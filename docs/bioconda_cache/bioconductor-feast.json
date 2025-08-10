@@ -1,0 +1,1455 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r44h3df3fcb_0",
+        "r41hd029910_0",
+        "r44h2f393c0_0",
+        "r42ha9d7317_1",
+        "r41h68a2ddb_0",
+        "r42h3be46a4_0",
+        "r41haba8685_1",
+        "r42hc0cfd56_0",
+        "r43h4c50009_0",
+        "r43ha9d7317_0",
+        "r41h3be46a4_2",
+        "r41h5c21468_1",
+        "r41hc0cfd56_2"
+    ],
+    "conda_platforms": [
+        "osx-64",
+        "linux-64"
+    ],
+    "created_at": "2021-06-01 20:57:25.760000+00:00",
+    "description": "Cell clustering is one of the most important and commonly performed tasks in single-cell RNA sequencing (scRNA-seq) data analysis. An important step in cell clustering is to select a subset of genes (referred to as \u201cfeatures\u201d), whose expression patterns will then be used for downstream clustering. A good set of features should include the ones that distinguish different cell types, and the quality of such set could have significant impact on the clustering accuracy. FEAST is an R library for selecting most representative features before performing the core of scRNA-seq clustering. It can be used as a plug-in for the etablished clustering algorithms such as SC3, TSCAN, SHARP, SIMLR, and Seurat. The core of FEAST algorithm includes three steps: 1. consensus clustering; 2. gene-level significance inference; 3. validation of an optimized feature set.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h68a2ddb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.26.0,<1.27.0",
+                    "bioconductor-sc3 >=1.20.0,<1.21.0",
+                    "bioconductor-singlecellexperiment >=1.14.0,<1.15.0",
+                    "bioconductor-summarizedexperiment >=1.22.0,<1.23.0",
+                    "bioconductor-tscan >=1.30.0,<1.31.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-irlba",
+                    "r-matrixstats",
+                    "r-mclust"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1622580943810
+            },
+            "basename": "osx-64/bioconductor-feast-1.0.0-r41h68a2ddb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-sc3",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tscan",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mclust",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-feast/1.0.0/osx-64/bioconductor-feast-1.0.0-r41h68a2ddb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-feast/1.0.0/osx-64/bioconductor-feast-1.0.0-r41h68a2ddb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "54cc611f29418aec45fc70a905d17969",
+            "ndownloads": 2783,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4835946,
+            "type": "conda",
+            "upload_time": "2021-06-01 20:57:27.232000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hd029910_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.26.0,<1.27.0",
+                    "bioconductor-sc3 >=1.20.0,<1.21.0",
+                    "bioconductor-singlecellexperiment >=1.14.0,<1.15.0",
+                    "bioconductor-summarizedexperiment >=1.22.0,<1.23.0",
+                    "bioconductor-tscan >=1.30.0,<1.31.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-irlba",
+                    "r-matrixstats",
+                    "r-mclust"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1622823046048
+            },
+            "basename": "linux-64/bioconductor-feast-1.0.0-r41hd029910_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-sc3",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tscan",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mclust",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-feast/1.0.0/linux-64/bioconductor-feast-1.0.0-r41hd029910_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-feast/1.0.0/linux-64/bioconductor-feast-1.0.0-r41hd029910_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6dfcc3aa9fddf2bb0731d47b7aabcfa1",
+            "ndownloads": 304,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4837615,
+            "type": "conda",
+            "upload_time": "2021-06-04 16:18:07.418000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h68a2ddb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-sc3 >=1.22.0,<1.23.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-tscan >=1.32.0,<1.33.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-irlba",
+                    "r-matrixstats",
+                    "r-mclust"
+                ],
+                "has_prefix": true,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1636041422765
+            },
+            "basename": "osx-64/bioconductor-feast-1.2.0-r41h68a2ddb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-sc3",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tscan",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mclust",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-feast/1.2.0/osx-64/bioconductor-feast-1.2.0-r41h68a2ddb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-feast/1.2.0/osx-64/bioconductor-feast-1.2.0-r41h68a2ddb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c0b1d8eec73560ba00553d47a9f66851",
+            "ndownloads": 339,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4845465,
+            "type": "conda",
+            "upload_time": "2021-11-04 15:59:27.628000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hd029910_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-sc3 >=1.22.0,<1.23.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-tscan >=1.32.0,<1.33.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-irlba",
+                    "r-matrixstats",
+                    "r-mclust"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1636187641140
+            },
+            "basename": "linux-64/bioconductor-feast-1.2.0-r41hd029910_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-sc3",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tscan",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mclust",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-feast/1.2.0/linux-64/bioconductor-feast-1.2.0-r41hd029910_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-feast/1.2.0/linux-64/bioconductor-feast-1.2.0-r41hd029910_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "76f74f4fc7d67a6502987e442a528684",
+            "ndownloads": 277,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4833922,
+            "type": "conda",
+            "upload_time": "2021-11-06 08:42:14.776000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41haba8685_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-sc3 >=1.22.0,<1.23.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-tscan >=1.32.0,<1.33.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-irlba",
+                    "r-matrixstats",
+                    "r-mclust"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1646018599978
+            },
+            "basename": "osx-64/bioconductor-feast-1.2.0-r41haba8685_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-sc3",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tscan",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mclust",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-feast/1.2.0/osx-64/bioconductor-feast-1.2.0-r41haba8685_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-feast/1.2.0/osx-64/bioconductor-feast-1.2.0-r41haba8685_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "cd688dd9b79ac1e2fbba6663ff39e35f",
+            "ndownloads": 2189,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4847331,
+            "type": "conda",
+            "upload_time": "2022-02-28 03:25:47.287000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h5c21468_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-sc3 >=1.22.0,<1.23.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-tscan >=1.32.0,<1.33.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-irlba",
+                    "r-matrixstats",
+                    "r-mclust"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1646034599911
+            },
+            "basename": "linux-64/bioconductor-feast-1.2.0-r41h5c21468_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-sc3",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tscan",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mclust",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-feast/1.2.0/linux-64/bioconductor-feast-1.2.0-r41h5c21468_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-feast/1.2.0/linux-64/bioconductor-feast-1.2.0-r41h5c21468_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0d7e91a4a84630f96230a0b8c24a646e",
+            "ndownloads": 258,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4851687,
+            "type": "conda",
+            "upload_time": "2022-02-28 08:00:39.995000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h3be46a4_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-sc3 >=1.22.0,<1.23.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-tscan >=1.32.0,<1.33.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-irlba",
+                    "r-matrixstats",
+                    "r-mclust"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1663940285213
+            },
+            "basename": "osx-64/bioconductor-feast-1.2.0-r41h3be46a4_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-feast/1.2.0/osx-64/bioconductor-feast-1.2.0-r41h3be46a4_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-feast/1.2.0/osx-64/bioconductor-feast-1.2.0-r41h3be46a4_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7942ae141687c3fd1a3d6f0d3a6c1505",
+            "ndownloads": 127,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4850424,
+            "type": "conda",
+            "upload_time": "2022-09-23 13:40:26.587000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hc0cfd56_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-sc3 >=1.22.0,<1.23.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-tscan >=1.32.0,<1.33.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-irlba",
+                    "r-matrixstats",
+                    "r-mclust"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1663944699102
+            },
+            "basename": "linux-64/bioconductor-feast-1.2.0-r41hc0cfd56_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-feast/1.2.0/linux-64/bioconductor-feast-1.2.0-r41hc0cfd56_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-feast/1.2.0/linux-64/bioconductor-feast-1.2.0-r41hc0cfd56_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9207729be0a79b5dd0cdcdd0cb35d3e1",
+            "ndownloads": 244,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4850485,
+            "type": "conda",
+            "upload_time": "2022-09-23 14:56:45.497000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc0cfd56_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-sc3 >=1.26.0,<1.27.0",
+                    "bioconductor-singlecellexperiment >=1.20.0,<1.21.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "bioconductor-tscan >=1.36.0,<1.37.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-irlba",
+                    "r-matrixstats",
+                    "r-mclust"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1667741567312
+            },
+            "basename": "linux-64/bioconductor-feast-1.6.0-r42hc0cfd56_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-feast/1.6.0/linux-64/bioconductor-feast-1.6.0-r42hc0cfd56_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-feast/1.6.0/linux-64/bioconductor-feast-1.6.0-r42hc0cfd56_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6c4e2f9080902b6bdc0277760b586bca",
+            "ndownloads": 239,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4853909,
+            "type": "conda",
+            "upload_time": "2022-11-06 13:37:45.581000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42h3be46a4_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-sc3 >=1.26.0,<1.27.0",
+                    "bioconductor-singlecellexperiment >=1.20.0,<1.21.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "bioconductor-tscan >=1.36.0,<1.37.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-irlba",
+                    "r-matrixstats",
+                    "r-mclust"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1667935537638
+            },
+            "basename": "osx-64/bioconductor-feast-1.6.0-r42h3be46a4_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-feast/1.6.0/osx-64/bioconductor-feast-1.6.0-r42h3be46a4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-feast/1.6.0/osx-64/bioconductor-feast-1.6.0-r42h3be46a4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "206bbccea1c9e1dc3b221c666ac2d0e4",
+            "ndownloads": 1781,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4851040,
+            "type": "conda",
+            "upload_time": "2022-11-08 19:28:07.656000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42ha9d7317_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-sc3 >=1.26.0,<1.27.0",
+                    "bioconductor-singlecellexperiment >=1.20.0,<1.21.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "bioconductor-tscan >=1.36.0,<1.37.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-irlba",
+                    "r-matrixstats",
+                    "r-mclust"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1685625582125
+            },
+            "basename": "linux-64/bioconductor-feast-1.6.0-r42ha9d7317_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-feast/1.6.0/linux-64/bioconductor-feast-1.6.0-r42ha9d7317_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-feast/1.6.0/linux-64/bioconductor-feast-1.6.0-r42ha9d7317_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6a5a0ea041d4aeb2b0ebbf83ae369b4f",
+            "ndownloads": 208,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4854954,
+            "type": "conda",
+            "upload_time": "2023-06-01 13:24:57.189000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43h4c50009_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.34.0,<1.35.0",
+                    "bioconductor-sc3 >=1.28.0,<1.29.0",
+                    "bioconductor-singlecellexperiment >=1.22.0,<1.23.0",
+                    "bioconductor-summarizedexperiment >=1.30.0,<1.31.0",
+                    "bioconductor-tscan >=1.38.0,<1.39.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-irlba",
+                    "r-matrixstats",
+                    "r-mclust"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1689454982853
+            },
+            "basename": "osx-64/bioconductor-feast-1.8.0-r43h4c50009_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-feast/1.8.0/osx-64/bioconductor-feast-1.8.0-r43h4c50009_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-feast/1.8.0/osx-64/bioconductor-feast-1.8.0-r43h4c50009_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "499757aa3da24f08c1e05a86a3c65a53",
+            "ndownloads": 1244,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4848837,
+            "type": "conda",
+            "upload_time": "2023-07-15 21:04:51.589000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43ha9d7317_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.34.0,<1.35.0",
+                    "bioconductor-sc3 >=1.28.0,<1.29.0",
+                    "bioconductor-singlecellexperiment >=1.22.0,<1.23.0",
+                    "bioconductor-summarizedexperiment >=1.30.0,<1.31.0",
+                    "bioconductor-tscan >=1.38.0,<1.39.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-irlba",
+                    "r-matrixstats",
+                    "r-mclust"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1689459076596
+            },
+            "basename": "linux-64/bioconductor-feast-1.8.0-r43ha9d7317_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-feast/1.8.0/linux-64/bioconductor-feast-1.8.0-r43ha9d7317_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-feast/1.8.0/linux-64/bioconductor-feast-1.8.0-r43ha9d7317_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9c2b5b2f5b395d2f14b191425605a5b2",
+            "ndownloads": 131,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4835376,
+            "type": "conda",
+            "upload_time": "2023-07-15 22:15:22.254000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43h4c50009_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0a0",
+                    "bioconductor-sc3 >=1.30.0,<1.31.0",
+                    "bioconductor-sc3 >=1.30.0,<1.31.0a0",
+                    "bioconductor-singlecellexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-singlecellexperiment >=1.24.0,<1.25.0a0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0a0",
+                    "bioconductor-tscan >=1.40.0,<1.41.0",
+                    "bioconductor-tscan >=1.40.0,<1.41.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-irlba",
+                    "r-matrixstats",
+                    "r-mclust"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1702610428314
+            },
+            "basename": "osx-64/bioconductor-feast-1.10.0-r43h4c50009_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-feast/1.10.0/osx-64/bioconductor-feast-1.10.0-r43h4c50009_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-feast/1.10.0/osx-64/bioconductor-feast-1.10.0-r43h4c50009_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b21e38de49750777978e08c1d4f3009e",
+            "ndownloads": 914,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4843681,
+            "type": "conda",
+            "upload_time": "2023-12-15 03:22:28.742000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43ha9d7317_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0a0",
+                    "bioconductor-sc3 >=1.30.0,<1.31.0",
+                    "bioconductor-sc3 >=1.30.0,<1.31.0a0",
+                    "bioconductor-singlecellexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-singlecellexperiment >=1.24.0,<1.25.0a0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0a0",
+                    "bioconductor-tscan >=1.40.0,<1.41.0",
+                    "bioconductor-tscan >=1.40.0,<1.41.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-irlba",
+                    "r-matrixstats",
+                    "r-mclust"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1703302771120
+            },
+            "basename": "linux-64/bioconductor-feast-1.10.0-r43ha9d7317_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-feast/1.10.0/linux-64/bioconductor-feast-1.10.0-r43ha9d7317_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-feast/1.10.0/linux-64/bioconductor-feast-1.10.0-r43ha9d7317_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "74485a4261df6950875cf098fce0b981",
+            "ndownloads": 116,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4853893,
+            "type": "conda",
+            "upload_time": "2023-12-23 03:42:30.830000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h2f393c0_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0a0",
+                    "bioconductor-sc3 >=1.34.0,<1.35.0",
+                    "bioconductor-sc3 >=1.34.0,<1.35.0a0",
+                    "bioconductor-singlecellexperiment >=1.28.0,<1.29.0",
+                    "bioconductor-singlecellexperiment >=1.28.0,<1.29.0a0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0a0",
+                    "bioconductor-tscan >=1.44.0,<1.45.0",
+                    "bioconductor-tscan >=1.44.0,<1.45.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-irlba",
+                    "r-matrixstats",
+                    "r-mclust"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1734868857469
+            },
+            "basename": "osx-64/bioconductor-feast-1.14.0-r44h2f393c0_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-feast/1.14.0/osx-64/bioconductor-feast-1.14.0-r44h2f393c0_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-feast/1.14.0/osx-64/bioconductor-feast-1.14.0-r44h2f393c0_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bed992206b48772218805c76fac98229",
+            "ndownloads": 210,
+            "owner": "bioconda",
+            "sha256": "062a47e80d19a144fa793fb80e1567abb65836295246125462f9c5edc41d76de",
+            "size": 4863244,
+            "type": "conda",
+            "upload_time": "2024-12-22 12:02:11.554000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h3df3fcb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0a0",
+                    "bioconductor-sc3 >=1.34.0,<1.35.0",
+                    "bioconductor-sc3 >=1.34.0,<1.35.0a0",
+                    "bioconductor-singlecellexperiment >=1.28.0,<1.29.0",
+                    "bioconductor-singlecellexperiment >=1.28.0,<1.29.0a0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0a0",
+                    "bioconductor-tscan >=1.44.0,<1.45.0",
+                    "bioconductor-tscan >=1.44.0,<1.45.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-irlba",
+                    "r-matrixstats",
+                    "r-mclust"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1735562694062
+            },
+            "basename": "linux-64/bioconductor-feast-1.14.0-r44h3df3fcb_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-feast/1.14.0/linux-64/bioconductor-feast-1.14.0-r44h3df3fcb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-feast/1.14.0/linux-64/bioconductor-feast-1.14.0-r44h3df3fcb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2fe94698b0ff60f3f4c2c4704a0ada98",
+            "ndownloads": 114,
+            "owner": "bioconda",
+            "sha256": "15013c135b5a59907fd766a8907b5be893348294d1b43f459edbbde26a187b82",
+            "size": 4866757,
+            "type": "conda",
+            "upload_time": "2024-12-30 12:47:27.736000+00:00",
+            "version": "1.14.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-feast",
+    "home": "https://bioconductor.org/packages/3.13/bioc/html/FEAST.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-feast",
+    "id": "60b69f3569aed84d146658e6",
+    "latest_version": "1.14.0",
+    "license": "GPL-2",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:28.426000+00:00",
+    "name": "bioconductor-feast",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.14.0",
+        "osx-64": "1.14.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-feast/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-feast/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-feast/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-feast/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-feast/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-feast/1.14.0",
+            "version": "1.14.0"
+        }
+    ],
+    "revision": 14,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "FEAture SelcTion (FEAST) for Single-cell clustering",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-feast",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.6.0",
+        "1.8.0",
+        "1.10.0",
+        "1.14.0"
+    ],
+    "watchers": 1
+}

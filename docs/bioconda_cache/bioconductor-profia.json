@@ -1,0 +1,3288 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r41haba8685_1",
+        "r36h516909a_0",
+        "r41h5c21468_1",
+        "r3.3.1_0",
+        "r36h01d97ff_1",
+        "r3.4.1_0",
+        "r42h4c50009_1",
+        "r40h037d062_0",
+        "r42ha9d7317_1",
+        "r40h8909d69_0",
+        "r41h68a2ddb_0",
+        "r351h14c3975_0",
+        "r42hc0cfd56_0",
+        "r3.3.2_0",
+        "r36h516909a_1",
+        "r41h3be46a4_2",
+        "r41hc0cfd56_2",
+        "r351h1de35cc_0",
+        "r41hd029910_0",
+        "r36h01d97ff_0",
+        "r40h68a2ddb_0",
+        "0",
+        "r40hd029910_0",
+        "r42h3be46a4_0"
+    ],
+    "conda_platforms": [
+        "osx-64",
+        "linux-64"
+    ],
+    "created_at": "2017-06-12 14:17:58.477000+00:00",
+    "description": "Flow Injection Analysis coupled to High-Resolution Mass Spectrometry is a promising approach for high-throughput metabolomics. FIA- HRMS data, however, cannot be pre-processed with current software tools which rely on liquid chromatography separation, or handle low resolution data only. Here we present the proFIA package, which implements a new methodology to pre-process FIA-HRMS raw data (netCDF, mzData, mzXML, and mzML) including noise modelling and injection peak reconstruction, and generate the peak table. The workflow includes noise modelling, band detection and filtering then signal matching and missing value imputation. The peak table can then be exported as a .tsv file for further analysis. Visualisations to assess the quality of the data and of the signal made are easely produced.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocparallel",
+                    "bioconductor-ropls",
+                    "bioconductor-xcms",
+                    "r-base >=3.3.0",
+                    "r-fnn",
+                    "r-maxlik",
+                    "r-minpack.lm",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-profia-1.2.0-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fnn",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-maxlik",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.2.0/osx-64/bioconductor-profia-1.2.0-0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.2.0/osx-64/bioconductor-profia-1.2.0-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "f13b8f7b03a3a1707b0ca4e5a62ae79c",
+            "ndownloads": 4358,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 587340,
+            "type": "conda",
+            "upload_time": "2017-10-22 15:29:54.127000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocparallel",
+                    "bioconductor-ropls",
+                    "bioconductor-xcms",
+                    "r-base 3.3.1*",
+                    "r-fnn",
+                    "r-maxlik",
+                    "r-minpack.lm",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-profia-1.2.0-r3.3.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fnn",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-maxlik",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.2.0/linux-64/bioconductor-profia-1.2.0-r3.3.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.2.0/linux-64/bioconductor-profia-1.2.0-r3.3.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "522c8074bbe3c76fc3935765c47f06fd",
+            "ndownloads": 656,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 557095,
+            "type": "conda",
+            "upload_time": "2017-06-12 14:17:58.960000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.2_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocparallel",
+                    "bioconductor-ropls",
+                    "bioconductor-xcms",
+                    "r-base 3.3.2*",
+                    "r-fnn",
+                    "r-maxlik",
+                    "r-minpack.lm",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-profia-1.2.0-r3.3.2_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fnn",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-maxlik",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.2.0/linux-64/bioconductor-profia-1.2.0-r3.3.2_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.2.0/linux-64/bioconductor-profia-1.2.0-r3.3.2_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "9cfe21b5c5ba3ba171a65aff0db6f2e5",
+            "ndownloads": 653,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 556695,
+            "type": "conda",
+            "upload_time": "2017-06-14 08:26:19.200000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocparallel",
+                    "bioconductor-ropls",
+                    "bioconductor-xcms",
+                    "r-base 3.4.1*",
+                    "r-fnn",
+                    "r-maxlik",
+                    "r-minpack.lm",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-profia-1.2.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fnn",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-maxlik",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.2.0/linux-64/bioconductor-profia-1.2.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.2.0/linux-64/bioconductor-profia-1.2.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "eb3d534c0fa98226c3e2174c373b2b15",
+            "ndownloads": 788,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 571236,
+            "type": "conda",
+            "upload_time": "2017-09-23 00:25:09.213000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocparallel",
+                    "bioconductor-ropls",
+                    "bioconductor-xcms",
+                    "r-base >=3.3.0",
+                    "r-fnn",
+                    "r-maxlik",
+                    "r-minpack.lm",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-profia-1.2.0-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fnn",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-maxlik",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.2.0/linux-64/bioconductor-profia-1.2.0-0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.2.0/linux-64/bioconductor-profia-1.2.0-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "da21e22fe68f1f6cffadac6f2afe40b2",
+            "ndownloads": 632,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 589139,
+            "type": "conda",
+            "upload_time": "2017-10-19 01:39:51.421000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocparallel",
+                    "bioconductor-ropls",
+                    "bioconductor-xcms",
+                    "r-base 3.4.1*",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-profia-1.4.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.4.0/osx-64/bioconductor-profia-1.4.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.4.0/osx-64/bioconductor-profia-1.4.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "d2d46eb0658bdd9ff45000efe22b230e",
+            "ndownloads": 4346,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1660707,
+            "type": "conda",
+            "upload_time": "2017-11-11 13:58:15.485000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-biocparallel",
+                    "bioconductor-ropls",
+                    "bioconductor-xcms",
+                    "r-base 3.4.1*",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-profia-1.4.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.4.0/linux-64/bioconductor-profia-1.4.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.4.0/linux-64/bioconductor-profia-1.4.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "58ce2cc9f4106dcf3d3171c95d38112c",
+            "ndownloads": 931,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1662891,
+            "type": "conda",
+            "upload_time": "2017-11-12 22:49:37.870000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h1de35cc_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-biocparallel >=1.16.0,<1.17.0",
+                    "bioconductor-ropls >=1.14.0,<1.15.0",
+                    "bioconductor-xcms >=3.4.0,<3.5.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": true,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1545212845301
+            },
+            "basename": "osx-64/bioconductor-profia-1.8.0-r351h1de35cc_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.0,<3.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.8.0/osx-64/bioconductor-profia-1.8.0-r351h1de35cc_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.8.0/osx-64/bioconductor-profia-1.8.0-r351h1de35cc_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "7c40196f1d86cf6affc0eb890c204379",
+            "ndownloads": 4337,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1910089,
+            "type": "conda",
+            "upload_time": "2018-12-19 09:48:50.466000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h1de35cc_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-biocparallel >=1.16.0,<1.17.0",
+                    "bioconductor-ropls >=1.14.0,<1.15.0",
+                    "bioconductor-xcms >=3.4.0,<3.5.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": true,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1546871664666
+            },
+            "basename": "osx-64/bioconductor-profia-1.8.1-r351h1de35cc_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.0,<3.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.8.1/osx-64/bioconductor-profia-1.8.1-r351h1de35cc_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.8.1/osx-64/bioconductor-profia-1.8.1-r351h1de35cc_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "bccd7404d3571c7d40a275372dec3eed",
+            "ndownloads": 4332,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1910172,
+            "type": "conda",
+            "upload_time": "2019-01-07 14:35:44.135000+00:00",
+            "version": "1.8.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h14c3975_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-biocparallel >=1.16.0,<1.17.0",
+                    "bioconductor-ropls >=1.14.0,<1.15.0",
+                    "bioconductor-xcms >=3.4.0,<3.5.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1546874573593
+            },
+            "basename": "linux-64/bioconductor-profia-1.8.1-r351h14c3975_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.0,<3.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.8.1/linux-64/bioconductor-profia-1.8.1-r351h14c3975_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.8.1/linux-64/bioconductor-profia-1.8.1-r351h14c3975_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "798242615f0c1e8303ff55df2e8f20d2",
+            "ndownloads": 345,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1914571,
+            "type": "conda",
+            "upload_time": "2019-01-07 15:26:49.946000+00:00",
+            "version": "1.8.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-biocparallel >=1.18.0,<1.19.0",
+                    "bioconductor-ropls >=1.16.0,<1.17.0",
+                    "bioconductor-xcms >=3.6.0,<3.7.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": true,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1564126408714
+            },
+            "basename": "osx-64/bioconductor-profia-1.10.0-r36h01d97ff_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6.0,<3.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.10.0/osx-64/bioconductor-profia-1.10.0-r36h01d97ff_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.10.0/osx-64/bioconductor-profia-1.10.0-r36h01d97ff_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "08cd973f09d4f804a09dcbf36c24fd9b",
+            "ndownloads": 4013,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1989908,
+            "type": "conda",
+            "upload_time": "2019-07-26 07:34:36.296000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-biocparallel >=1.18.0,<1.19.0",
+                    "bioconductor-ropls >=1.16.0,<1.17.0",
+                    "bioconductor-xcms >=3.6.0,<3.7.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1564334925447
+            },
+            "basename": "linux-64/bioconductor-profia-1.10.0-r36h516909a_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6.0,<3.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.10.0/linux-64/bioconductor-profia-1.10.0-r36h516909a_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.10.0/linux-64/bioconductor-profia-1.10.0-r36h516909a_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "63610d1853df84ddc41e337a2c60b3b5",
+            "ndownloads": 302,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1987080,
+            "type": "conda",
+            "upload_time": "2019-07-28 17:34:01.341000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+                    "bioconductor-ropls >=1.18.0,<1.19.0",
+                    "bioconductor-xcms >=3.8.0,<3.9.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": true,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572658201929
+            },
+            "basename": "osx-64/bioconductor-profia-1.12.0-r36h01d97ff_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.12.0/osx-64/bioconductor-profia-1.12.0-r36h01d97ff_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.12.0/osx-64/bioconductor-profia-1.12.0-r36h01d97ff_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "dbaf64135e6b55b37ee78ce8755a1289",
+            "ndownloads": 3804,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2032134,
+            "type": "conda",
+            "upload_time": "2019-11-02 01:31:32.584000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+                    "bioconductor-ropls >=1.18.0,<1.19.0",
+                    "bioconductor-xcms >=3.8.0,<3.9.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572803728342
+            },
+            "basename": "linux-64/bioconductor-profia-1.12.0-r36h516909a_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.12.0/linux-64/bioconductor-profia-1.12.0-r36h516909a_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.12.0/linux-64/bioconductor-profia-1.12.0-r36h516909a_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "cb5809e6196d0c009f76ab095bfbff8e",
+            "ndownloads": 299,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2001295,
+            "type": "conda",
+            "upload_time": "2019-11-03 18:02:16.558000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h037d062_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.48.0,<2.49.0",
+                    "bioconductor-biocparallel >=1.22.0,<1.23.0",
+                    "bioconductor-ropls >=1.20.0,<1.21.0",
+                    "bioconductor-xcms >=3.10.0,<3.11.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.3.0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1589152205996
+            },
+            "basename": "linux-64/bioconductor-profia-1.14.0-r40h037d062_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.10.0,<3.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.14.0/linux-64/bioconductor-profia-1.14.0-r40h037d062_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.14.0/linux-64/bioconductor-profia-1.14.0-r40h037d062_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "da08d13d5088a89f7cba89106917d6d6",
+            "ndownloads": 271,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2084457,
+            "type": "conda",
+            "upload_time": "2020-05-10 23:17:00.559000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h8909d69_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.48.0,<2.49.0",
+                    "bioconductor-biocparallel >=1.22.0,<1.23.0",
+                    "bioconductor-ropls >=1.20.0,<1.21.0",
+                    "bioconductor-xcms >=3.10.0,<3.11.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": true,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1589183868729
+            },
+            "basename": "osx-64/bioconductor-profia-1.14.0-r40h8909d69_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.10.0,<3.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.14.0/osx-64/bioconductor-profia-1.14.0-r40h8909d69_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.14.0/osx-64/bioconductor-profia-1.14.0-r40h8909d69_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "18ddcfc64d0b6cc45c391be7f748d22e",
+            "ndownloads": 3321,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2097815,
+            "type": "conda",
+            "upload_time": "2020-05-11 07:59:59.402000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h8909d69_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-biocparallel >=1.24.0,<1.25.0",
+                    "bioconductor-ropls >=1.22.0,<1.23.0",
+                    "bioconductor-xcms >=3.12.0,<3.13.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": true,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1604062135259
+            },
+            "basename": "osx-64/bioconductor-profia-1.15.0-r40h8909d69_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.15.0/osx-64/bioconductor-profia-1.15.0-r40h8909d69_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.15.0/osx-64/bioconductor-profia-1.15.0-r40h8909d69_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "86c0c6dbffc2154d20914c598583b7c0",
+            "ndownloads": 2996,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2098376,
+            "type": "conda",
+            "upload_time": "2020-10-30 12:50:36.246000+00:00",
+            "version": "1.15.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h037d062_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-biocparallel >=1.24.0,<1.25.0",
+                    "bioconductor-ropls >=1.22.0,<1.23.0",
+                    "bioconductor-xcms >=3.12.0,<3.13.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1604211245610
+            },
+            "basename": "linux-64/bioconductor-profia-1.15.0-r40h037d062_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.15.0/linux-64/bioconductor-profia-1.15.0-r40h037d062_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.15.0/linux-64/bioconductor-profia-1.15.0-r40h037d062_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "218e6b7fa17a54f5e4998873d7487c3a",
+            "ndownloads": 258,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2095678,
+            "type": "conda",
+            "upload_time": "2020-11-01 06:21:47.928000+00:00",
+            "version": "1.15.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h68a2ddb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-biocparallel >=1.24.0,<1.25.0",
+                    "bioconductor-ropls >=1.22.0,<1.23.0",
+                    "bioconductor-xcms >=3.12.0,<3.13.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": true,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1616967111923
+            },
+            "basename": "osx-64/bioconductor-profia-1.16.3-r40h68a2ddb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.16.3/osx-64/bioconductor-profia-1.16.3-r40h68a2ddb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.16.3/osx-64/bioconductor-profia-1.16.3-r40h68a2ddb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3c31c38b263d704d45afccd7e3074dc8",
+            "ndownloads": 2714,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2085019,
+            "type": "conda",
+            "upload_time": "2021-03-28 21:33:39.006000+00:00",
+            "version": "1.16.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40hd029910_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-biocparallel >=1.24.0,<1.25.0",
+                    "bioconductor-ropls >=1.22.0,<1.23.0",
+                    "bioconductor-xcms >=3.12.0,<3.13.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1617145637739
+            },
+            "basename": "linux-64/bioconductor-profia-1.16.3-r40hd029910_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.16.3/linux-64/bioconductor-profia-1.16.3-r40hd029910_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.16.3/linux-64/bioconductor-profia-1.16.3-r40hd029910_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "dbb9fd5915938f38aed7d8f4fad67613",
+            "ndownloads": 239,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2089315,
+            "type": "conda",
+            "upload_time": "2021-03-30 23:16:27.503000+00:00",
+            "version": "1.16.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h68a2ddb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.52.0,<2.53.0",
+                    "bioconductor-biocparallel >=1.26.0,<1.27.0",
+                    "bioconductor-ropls >=1.24.0,<1.25.0",
+                    "bioconductor-xcms >=3.14.0,<3.15.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": true,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1622542324908
+            },
+            "basename": "osx-64/bioconductor-profia-1.18.0-r41h68a2ddb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.14.0,<3.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.18.0/osx-64/bioconductor-profia-1.18.0-r41h68a2ddb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.18.0/osx-64/bioconductor-profia-1.18.0-r41h68a2ddb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "53b3fb5a98601898adcb40b6c078d464",
+            "ndownloads": 2594,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2073181,
+            "type": "conda",
+            "upload_time": "2021-06-01 10:14:00.030000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hd029910_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.52.0,<2.53.0",
+                    "bioconductor-biocparallel >=1.26.0,<1.27.0",
+                    "bioconductor-ropls >=1.24.0,<1.25.0",
+                    "bioconductor-xcms >=3.14.0,<3.15.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1622750903947
+            },
+            "basename": "linux-64/bioconductor-profia-1.18.0-r41hd029910_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.14.0,<3.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.18.0/linux-64/bioconductor-profia-1.18.0-r41hd029910_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.18.0/linux-64/bioconductor-profia-1.18.0-r41hd029910_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3d4c3bae1b2dc6c639085f9bdea4bfef",
+            "ndownloads": 244,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2091586,
+            "type": "conda",
+            "upload_time": "2021-06-03 20:15:26.505000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h68a2ddb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-ropls >=1.26.0,<1.27.0",
+                    "bioconductor-xcms >=3.16.0,<3.17.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": true,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1635945248447
+            },
+            "basename": "osx-64/bioconductor-profia-1.20.0-r41h68a2ddb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.16.0,<3.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.20.0/osx-64/bioconductor-profia-1.20.0-r41h68a2ddb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.20.0/osx-64/bioconductor-profia-1.20.0-r41h68a2ddb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "05b71a0de863c7340fc855fcef837048",
+            "ndownloads": 287,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2088757,
+            "type": "conda",
+            "upload_time": "2021-11-03 13:16:07.064000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hd029910_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-ropls >=1.26.0,<1.27.0",
+                    "bioconductor-xcms >=3.16.0,<3.17.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1636035039233
+            },
+            "basename": "linux-64/bioconductor-profia-1.20.0-r41hd029910_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.16.0,<3.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.20.0/linux-64/bioconductor-profia-1.20.0-r41hd029910_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.20.0/linux-64/bioconductor-profia-1.20.0-r41hd029910_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1e5bc1434fc7b37db93f37fb4423eff0",
+            "ndownloads": 214,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2086153,
+            "type": "conda",
+            "upload_time": "2021-11-04 14:19:54.488000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41haba8685_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-ropls >=1.26.0,<1.27.0",
+                    "bioconductor-xcms >=3.16.0,<3.17.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1646025821440
+            },
+            "basename": "osx-64/bioconductor-profia-1.20.0-r41haba8685_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.16.0,<3.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.20.0/osx-64/bioconductor-profia-1.20.0-r41haba8685_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.20.0/osx-64/bioconductor-profia-1.20.0-r41haba8685_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "52e27207e850dd3109b2db8d0ef318d8",
+            "ndownloads": 2126,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2082638,
+            "type": "conda",
+            "upload_time": "2022-02-28 05:26:28.046000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h5c21468_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-ropls >=1.26.0,<1.27.0",
+                    "bioconductor-xcms >=3.16.0,<3.17.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1646034827920
+            },
+            "basename": "linux-64/bioconductor-profia-1.20.0-r41h5c21468_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ropls",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-xcms",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.16.0,<3.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-minpack.lm",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-missforest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pracma",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.20.0/linux-64/bioconductor-profia-1.20.0-r41h5c21468_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.20.0/linux-64/bioconductor-profia-1.20.0-r41h5c21468_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "13bf75f9dedadf1b05e8fd0a1556b1d7",
+            "ndownloads": 196,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2077645,
+            "type": "conda",
+            "upload_time": "2022-02-28 08:03:38.242000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hc0cfd56_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-ropls >=1.26.0,<1.27.0",
+                    "bioconductor-xcms >=3.16.0,<3.17.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1663945146629
+            },
+            "basename": "linux-64/bioconductor-profia-1.20.0-r41hc0cfd56_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.20.0/linux-64/bioconductor-profia-1.20.0-r41hc0cfd56_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.20.0/linux-64/bioconductor-profia-1.20.0-r41hc0cfd56_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "fd7397910df8fd77361d3eb87e36ac84",
+            "ndownloads": 173,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2093336,
+            "type": "conda",
+            "upload_time": "2022-09-23 15:04:01.821000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h3be46a4_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-ropls >=1.26.0,<1.27.0",
+                    "bioconductor-xcms >=3.16.0,<3.17.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1663950868808
+            },
+            "basename": "osx-64/bioconductor-profia-1.20.0-r41h3be46a4_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.20.0/osx-64/bioconductor-profia-1.20.0-r41h3be46a4_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.20.0/osx-64/bioconductor-profia-1.20.0-r41h3be46a4_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6e1f19df3a3393c1ac792fb71cd74de6",
+            "ndownloads": 66,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2112125,
+            "type": "conda",
+            "upload_time": "2022-09-23 16:36:31.915000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc0cfd56_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-ropls >=1.30.0,<1.31.0",
+                    "bioconductor-xcms >=3.20.0,<3.21.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1667732696497
+            },
+            "basename": "linux-64/bioconductor-profia-1.23.0-r42hc0cfd56_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.23.0/linux-64/bioconductor-profia-1.23.0-r42hc0cfd56_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.23.0/linux-64/bioconductor-profia-1.23.0-r42hc0cfd56_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f1cf42b4ce8ad038c6d1872735c76be3",
+            "ndownloads": 176,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2088675,
+            "type": "conda",
+            "upload_time": "2022-11-06 11:10:18.794000+00:00",
+            "version": "1.23.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42h3be46a4_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-ropls >=1.30.0,<1.31.0",
+                    "bioconductor-xcms >=3.20.0,<3.21.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1667872532464
+            },
+            "basename": "osx-64/bioconductor-profia-1.23.0-r42h3be46a4_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.23.0/osx-64/bioconductor-profia-1.23.0-r42h3be46a4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.23.0/osx-64/bioconductor-profia-1.23.0-r42h3be46a4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "02862dbec5ecdcc27c749d3f00f7ce28",
+            "ndownloads": 434,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2080091,
+            "type": "conda",
+            "upload_time": "2022-11-08 01:57:40.750000+00:00",
+            "version": "1.23.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42ha9d7317_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-ropls >=1.30.0,<1.31.0",
+                    "bioconductor-xcms >=3.20.0,<3.21.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1685232403944
+            },
+            "basename": "linux-64/bioconductor-profia-1.23.0-r42ha9d7317_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.23.0/linux-64/bioconductor-profia-1.23.0-r42ha9d7317_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.23.0/linux-64/bioconductor-profia-1.23.0-r42ha9d7317_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "060dcfc46576becd007a9eccae0446a3",
+            "ndownloads": 142,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2103156,
+            "type": "conda",
+            "upload_time": "2023-05-28 00:11:48.410000+00:00",
+            "version": "1.23.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42h4c50009_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-ropls >=1.30.0,<1.31.0",
+                    "bioconductor-xcms >=3.20.0,<3.21.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-minpack.lm",
+                    "r-missforest",
+                    "r-pracma"
+                ],
+                "has_prefix": false,
+                "license": "CeCILL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1685394023652
+            },
+            "basename": "osx-64/bioconductor-profia-1.23.0-r42h4c50009_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-profia/1.23.0/osx-64/bioconductor-profia-1.23.0-r42h4c50009_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-profia/1.23.0/osx-64/bioconductor-profia-1.23.0-r42h4c50009_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3f5310b71cbfc933f9aa7d5b29af3368",
+            "ndownloads": 1315,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2100226,
+            "type": "conda",
+            "upload_time": "2023-05-29 21:02:27.378000+00:00",
+            "version": "1.23.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-profia",
+    "home": "http://bioconductor.org/packages/3.5/bioc/html/proFIA.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-profia",
+    "id": "593ea296afcd0a12b2d10168",
+    "latest_version": "1.23.0",
+    "license": "CeCILL",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:28:48.941000+00:00",
+    "name": "bioconductor-profia",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.23.0",
+        "osx-64": "1.23.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-profia/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-profia/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-profia/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-profia/1.8.1",
+            "version": "1.8.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-profia/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-profia/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-profia/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-profia/1.15.0",
+            "version": "1.15.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-profia/1.16.3",
+            "version": "1.16.3"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-profia/1.18.0",
+            "version": "1.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-profia/1.20.0",
+            "version": "1.20.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-profia/1.23.0",
+            "version": "1.23.0"
+        }
+    ],
+    "revision": 24,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Preprocessing of FIA-HRMS data",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-profia",
+    "versions": [
+        "1.2.0",
+        "1.4.0",
+        "1.8.0",
+        "1.8.1",
+        "1.10.0",
+        "1.12.0",
+        "1.14.0",
+        "1.15.0",
+        "1.16.3",
+        "1.18.0",
+        "1.20.0",
+        "1.23.0"
+    ],
+    "watchers": 1
+}

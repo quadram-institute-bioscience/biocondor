@@ -1,0 +1,207 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r44hdfd78af_0",
+        "r43hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2023-12-12 01:07:10.528000+00:00",
+    "description": "The understanding of cancer mechanism requires the identification of genes playing a role in the development of the pathology and the characterization of their role (notably oncogenes and tumor suppressors). We present an updated version of the R/bioconductor package called MoonlightR, namely Moonlight2R, which returns a list of candidate driver genes for specific cancer types on the basis of omics data integration. The Moonlight framework contains a primary layer where gene expression data and information about biological processes are integrated to predict genes called oncogenic mediators, divided into putative tumor suppressors and putative oncogenes. This is done through functional enrichment analyses, gene regulatory networks and upstream regulator analyses to score the importance of well-known biological processes with respect to the studied cancer type. By evaluating the effect of the oncogenic mediators on biological processes or through random forests, the primary layer predicts two putative roles for the oncogenic mediators: i) tumor suppressor genes (TSGs) and ii) oncogenes (OCGs). As gene expression data alone is not enough to explain the deregulation of the genes, a second layer of evidence is needed. We have automated the integration of a secondary mutational layer through new functionalities in Moonlight2R. These functionalities analyze mutations in the cancer cohort and classifies these into driver and passenger mutations using the driver mutation prediction tool, CScape-somatic. Those oncogenic mediators with at least one driver mutation are retained as the driver genes. As a consequence, this methodology does not only identify genes playing a dual role (e.g. TSG in one cancer type and OCG in another) but also helps in elucidating the biological processes underlying their specific roles. In particular, Moonlight2R can be used to discover OCGs and TSGs in the same cancer type. This may for instance help in answering the question whether some genes change role between early stages (I, II) and late stages (III, IV). In the future, this analysis could be useful to determine the causes of different resistances to chemotherapeutic treatments.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationhub >=3.10.0,<3.11.0",
+                    "bioconductor-biobase >=2.62.0,<2.63.0",
+                    "bioconductor-clusterprofiler >=4.10.0,<4.11.0",
+                    "bioconductor-complexheatmap >=2.18.0,<2.19.0",
+                    "bioconductor-dose >=3.28.0,<3.29.0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-geoquery >=2.70.0,<2.71.0",
+                    "bioconductor-org.hs.eg.db >=3.18.0,<3.19.0",
+                    "bioconductor-rtracklayer >=1.62.0,<1.63.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-circlize",
+                    "r-doparallel",
+                    "r-dplyr",
+                    "r-easypubmed",
+                    "r-foreach",
+                    "r-fuzzyjoin",
+                    "r-gplots",
+                    "r-hiver",
+                    "r-magrittr",
+                    "r-parmigene",
+                    "r-purrr",
+                    "r-qpdf",
+                    "r-randomforest",
+                    "r-rcolorbrewer",
+                    "r-readr",
+                    "r-rismed",
+                    "r-seqminer",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyheatmap",
+                    "r-tidyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1702342853783
+            },
+            "basename": "noarch/bioconductor-moonlight2r-1.0.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-moonlight2r/1.0.0/noarch/bioconductor-moonlight2r-1.0.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-moonlight2r/1.0.0/noarch/bioconductor-moonlight2r-1.0.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2d8631e1385138de6c4d3e1968d38898",
+            "ndownloads": 983,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4577253,
+            "type": "conda",
+            "upload_time": "2023-12-12 01:07:10.947000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationhub >=3.14.0,<3.15.0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-clusterprofiler >=4.14.0,<4.15.0",
+                    "bioconductor-complexheatmap >=2.22.0,<2.23.0",
+                    "bioconductor-dose >=4.0.0,<4.1.0",
+                    "bioconductor-epimix >=1.8.0,<1.9.0",
+                    "bioconductor-experimenthub >=2.14.0,<2.15.0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0",
+                    "bioconductor-geoquery >=2.74.0,<2.75.0",
+                    "bioconductor-org.hs.eg.db >=3.20.0,<3.21.0",
+                    "bioconductor-rtracklayer >=1.66.0,<1.67.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-circlize",
+                    "r-doparallel",
+                    "r-dplyr",
+                    "r-easypubmed",
+                    "r-foreach",
+                    "r-fuzzyjoin",
+                    "r-ggplot2",
+                    "r-gplots",
+                    "r-hiver",
+                    "r-magrittr",
+                    "r-parmigene",
+                    "r-purrr",
+                    "r-qpdf",
+                    "r-randomforest",
+                    "r-rcolorbrewer",
+                    "r-readr",
+                    "r-rismed",
+                    "r-seqminer",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyheatmap",
+                    "r-tidyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1736054689181
+            },
+            "basename": "noarch/bioconductor-moonlight2r-1.4.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-moonlight2r/1.4.0/noarch/bioconductor-moonlight2r-1.4.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-moonlight2r/1.4.0/noarch/bioconductor-moonlight2r-1.4.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "25737ee160d0a50adb809b71b658341d",
+            "ndownloads": 228,
+            "owner": "bioconda",
+            "sha256": "6cdb458cd6eaec8be1ce9c7730aec6d90fecb8ce0564df662a5f358937ef8f9e",
+            "size": 4625714,
+            "type": "conda",
+            "upload_time": "2025-01-05 05:29:47.505000+00:00",
+            "version": "1.4.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-moonlight2r",
+    "home": "https://bioconductor.org/packages/3.18/bioc/html/Moonlight2R.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-moonlight2r",
+    "id": "6577b23ea1ff0c2c4697a3c6",
+    "latest_version": "1.4.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:39.688000+00:00",
+    "name": "bioconductor-moonlight2r",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.4.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-moonlight2r/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-moonlight2r/1.4.0",
+            "version": "1.4.0"
+        }
+    ],
+    "revision": 5,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Identify oncogenes and tumor suppressor genes from omics data",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-moonlight2r",
+    "versions": [
+        "1.0.0",
+        "1.4.0"
+    ],
+    "watchers": 1
+}

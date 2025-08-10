@@ -1,0 +1,878 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "h376f1d3_3",
+        "h4ac6f70_4",
+        "h2df963e_0",
+        "h5fa12a8_5",
+        "hee3b9ab_0",
+        "h66c8072_0",
+        "h2df963e_2",
+        "hac4f329_4",
+        "h9948957_5",
+        "h376f1d3_2",
+        "h66c8072_1",
+        "h7361148_0",
+        "h2df963e_1",
+        "h4a44e45_3"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2021-04-22 10:11:35.777000+00:00",
+    "description": "Haploflow is a strain-aware viral genome assembler for short read sequence data.\nIt uses a flow algorithm on a deBruijn graph data structure to resolve viral strains.\nHaploflow is still actively under development and written entirely in C++.\n",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "hee3b9ab_0",
+                "build_number": 0,
+                "depends": [
+                    "boost-cpp >=1.74.0,<1.74.1.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "libstdcxx-ng >=9.3.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0 AND MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1619084456355
+            },
+            "basename": "linux-64/haploflow-0.1-hee3b9ab_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "boost-cpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.74.0,<1.74.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/haploflow/0.1/linux-64/haploflow-0.1-hee3b9ab_0.tar.bz2",
+            "full_name": "bioconda/haploflow/0.1/linux-64/haploflow-0.1-hee3b9ab_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "fad9df7fa9c9eb783686691602cbe8f2",
+            "ndownloads": 258,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 176852,
+            "type": "conda",
+            "upload_time": "2021-04-22 10:11:36.773000+00:00",
+            "version": "0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h7361148_0",
+                "build_number": 0,
+                "depends": [
+                    "boost-cpp >=1.74.0,<1.74.1.0a0",
+                    "libcxx >=11.1.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0 AND MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1619085286034
+            },
+            "basename": "osx-64/haploflow-0.1-h7361148_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "boost-cpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.74.0,<1.74.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/haploflow/0.1/osx-64/haploflow-0.1-h7361148_0.tar.bz2",
+            "full_name": "bioconda/haploflow/0.1/osx-64/haploflow-0.1-h7361148_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e34571f845290e6855f22c4720fc53c9",
+            "ndownloads": 2781,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 155839,
+            "type": "conda",
+            "upload_time": "2021-04-22 10:11:49.665000+00:00",
+            "version": "0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h66c8072_1",
+                "build_number": 1,
+                "depends": [
+                    "boost-cpp >=1.74.0,<1.74.1.0a0",
+                    "libcxx >=12.0.1"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0 AND MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1645525071765
+            },
+            "basename": "osx-64/haploflow-0.1-h66c8072_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "boost-cpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.74.0,<1.74.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/haploflow/0.1/osx-64/haploflow-0.1-h66c8072_1.tar.bz2",
+            "full_name": "bioconda/haploflow/0.1/osx-64/haploflow-0.1-h66c8072_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "23cae618f4171f5c62aaf1c7d8cf6dfa",
+            "ndownloads": 68,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 160361,
+            "type": "conda",
+            "upload_time": "2022-02-22 10:19:02.955000+00:00",
+            "version": "0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h2df963e_1",
+                "build_number": 1,
+                "depends": [
+                    "boost-cpp >=1.74.0,<1.74.1.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "libstdcxx-ng >=10.3.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0 AND MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1645570625939
+            },
+            "basename": "linux-64/haploflow-0.1-h2df963e_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "boost-cpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.74.0,<1.74.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/haploflow/0.1/linux-64/haploflow-0.1-h2df963e_1.tar.bz2",
+            "full_name": "bioconda/haploflow/0.1/linux-64/haploflow-0.1-h2df963e_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "32e84d6f21d786c1b235a3d5fd2e4c15",
+            "ndownloads": 198,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 172136,
+            "type": "conda",
+            "upload_time": "2022-02-22 23:01:59.439000+00:00",
+            "version": "0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h2df963e_0",
+                "build_number": 0,
+                "depends": [
+                    "boost-cpp >=1.74.0,<1.74.1.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "libstdcxx-ng >=10.3.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0 AND MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1648244188506
+            },
+            "basename": "linux-64/haploflow-1.0-h2df963e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "boost-cpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.74.0,<1.74.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/haploflow/1.0/linux-64/haploflow-1.0-h2df963e_0.tar.bz2",
+            "full_name": "bioconda/haploflow/1.0/linux-64/haploflow-1.0-h2df963e_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7a8e9a5868e0915454e97e129764a754",
+            "ndownloads": 252,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 182992,
+            "type": "conda",
+            "upload_time": "2022-03-26 01:02:42.481000+00:00",
+            "version": "1.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h66c8072_0",
+                "build_number": 0,
+                "depends": [
+                    "boost-cpp >=1.74.0,<1.74.1.0a0",
+                    "libcxx >=12.0.1"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0 AND MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1648245484495
+            },
+            "basename": "osx-64/haploflow-1.0-h66c8072_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "boost-cpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.74.0,<1.74.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/haploflow/1.0/osx-64/haploflow-1.0-h66c8072_0.tar.bz2",
+            "full_name": "bioconda/haploflow/1.0/osx-64/haploflow-1.0-h66c8072_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "916db7e291a421ee58b6c9c53f4cec2e",
+            "ndownloads": 345,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 171172,
+            "type": "conda",
+            "upload_time": "2022-03-26 01:02:54.209000+00:00",
+            "version": "1.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h2df963e_1",
+                "build_number": 1,
+                "depends": [
+                    "boost-cpp >=1.74.0,<1.74.1.0a0",
+                    "libgcc-ng >=12",
+                    "libstdcxx-ng >=12"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0 AND MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1659373549132
+            },
+            "basename": "linux-64/haploflow-1.0-h2df963e_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "boost-cpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.74.0,<1.74.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "12"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/haploflow/1.0/linux-64/haploflow-1.0-h2df963e_1.tar.bz2",
+            "full_name": "bioconda/haploflow/1.0/linux-64/haploflow-1.0-h2df963e_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7ff0c1c209623aa0c40878276af32404",
+            "ndownloads": 278,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 183631,
+            "type": "conda",
+            "upload_time": "2022-08-01 17:08:16.935000+00:00",
+            "version": "1.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h66c8072_1",
+                "build_number": 1,
+                "depends": [
+                    "boost-cpp >=1.74.0,<1.74.1.0a0",
+                    "libcxx >=12.0.1"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0 AND MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1662388520503
+            },
+            "basename": "osx-64/haploflow-1.0-h66c8072_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "boost-cpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.74.0,<1.74.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/haploflow/1.0/osx-64/haploflow-1.0-h66c8072_1.tar.bz2",
+            "full_name": "bioconda/haploflow/1.0/osx-64/haploflow-1.0-h66c8072_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2533f87e4d6c2c1e1516be41705dd201",
+            "ndownloads": 1269,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 171707,
+            "type": "conda",
+            "upload_time": "2022-09-05 14:36:20.628000+00:00",
+            "version": "1.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h2df963e_2",
+                "build_number": 2,
+                "depends": [
+                    "boost-cpp >=1.74.0,<1.74.1.0a0",
+                    "libgcc-ng >=12",
+                    "libstdcxx-ng >=12"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0 AND MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1683896542376
+            },
+            "basename": "linux-64/haploflow-1.0-h2df963e_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/haploflow/1.0/linux-64/haploflow-1.0-h2df963e_2.tar.bz2",
+            "full_name": "bioconda/haploflow/1.0/linux-64/haploflow-1.0-h2df963e_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e1a35135166afb51de403a94a194451e",
+            "ndownloads": 153,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 184149,
+            "type": "conda",
+            "upload_time": "2023-05-12 13:05:10.130000+00:00",
+            "version": "1.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h376f1d3_2",
+                "build_number": 2,
+                "depends": [
+                    "boost-cpp >=1.78.0,<1.78.1.0a0",
+                    "libgcc-ng >=12",
+                    "libstdcxx-ng >=12"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0 AND MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1684121520208
+            },
+            "basename": "linux-64/haploflow-1.0-h376f1d3_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/haploflow/1.0/linux-64/haploflow-1.0-h376f1d3_2.tar.bz2",
+            "full_name": "bioconda/haploflow/1.0/linux-64/haploflow-1.0-h376f1d3_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c6f13196946143f340e24eda017511ae",
+            "ndownloads": 140,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 183301,
+            "type": "conda",
+            "upload_time": "2023-05-15 03:34:00.251000+00:00",
+            "version": "1.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h376f1d3_3",
+                "build_number": 3,
+                "depends": [
+                    "boost-cpp >=1.78.0,<1.78.1.0a0",
+                    "libgcc-ng >=12",
+                    "libstdcxx-ng >=12"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0 AND MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1684199937656
+            },
+            "basename": "linux-64/haploflow-1.0-h376f1d3_3.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/haploflow/1.0/linux-64/haploflow-1.0-h376f1d3_3.tar.bz2",
+            "full_name": "bioconda/haploflow/1.0/linux-64/haploflow-1.0-h376f1d3_3.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "34028333e1348fa789fcce2ce298b624",
+            "ndownloads": 229,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 183326,
+            "type": "conda",
+            "upload_time": "2023-05-16 01:20:31.274000+00:00",
+            "version": "1.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h4a44e45_3",
+                "build_number": 3,
+                "depends": [
+                    "boost-cpp >=1.78.0,<1.78.1.0a0",
+                    "libcxx >=15.0.7"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0 AND MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1684218514141
+            },
+            "basename": "osx-64/haploflow-1.0-h4a44e45_3.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/haploflow/1.0/osx-64/haploflow-1.0-h4a44e45_3.tar.bz2",
+            "full_name": "bioconda/haploflow/1.0/osx-64/haploflow-1.0-h4a44e45_3.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7a53d5734f67de1c2ad8d7a647fe955e",
+            "ndownloads": 72,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 176172,
+            "type": "conda",
+            "upload_time": "2023-05-16 06:29:19.294000+00:00",
+            "version": "1.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h4ac6f70_4",
+                "build_number": 4,
+                "depends": [
+                    "boost-cpp",
+                    "libgcc-ng >=12",
+                    "libstdcxx-ng >=12"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0 AND MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1717510864702
+            },
+            "basename": "linux-64/haploflow-1.0-h4ac6f70_4.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/haploflow/1.0/linux-64/haploflow-1.0-h4ac6f70_4.tar.bz2",
+            "full_name": "bioconda/haploflow/1.0/linux-64/haploflow-1.0-h4ac6f70_4.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "93812db256c2326d19fa6fbff80d04e5",
+            "ndownloads": 160,
+            "owner": "bioconda",
+            "sha256": "7f432e41a6b13fb2db0bd05fed1aac93fb29d4ca3a06c0a31602438096be11db",
+            "size": 181971,
+            "type": "conda",
+            "upload_time": "2024-06-04 14:22:13.431000+00:00",
+            "version": "1.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "hac4f329_4",
+                "build_number": 4,
+                "depends": [
+                    "boost-cpp",
+                    "libcxx >=16"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0 AND MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1717523474625
+            },
+            "basename": "osx-64/haploflow-1.0-hac4f329_4.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/haploflow/1.0/osx-64/haploflow-1.0-hac4f329_4.tar.bz2",
+            "full_name": "bioconda/haploflow/1.0/osx-64/haploflow-1.0-hac4f329_4.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "15c63c61516f8fc2162bb2b9f6478cdc",
+            "ndownloads": 617,
+            "owner": "bioconda",
+            "sha256": "1d77f543d9f22a983b680c2b22f2d271acad96166c3a5ac9a85f71f9fa52715d",
+            "size": 178419,
+            "type": "conda",
+            "upload_time": "2024-06-04 17:52:36.556000+00:00",
+            "version": "1.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h5fa12a8_5",
+                "build_number": 5,
+                "depends": [
+                    "boost-cpp",
+                    "libcxx >=18"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0 AND MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1733853810650
+            },
+            "basename": "osx-64/haploflow-1.0-h5fa12a8_5.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/haploflow/1.0/osx-64/haploflow-1.0-h5fa12a8_5.tar.bz2",
+            "full_name": "bioconda/haploflow/1.0/osx-64/haploflow-1.0-h5fa12a8_5.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0bf332cf3b9efa4082268f6ef0c9db49",
+            "ndownloads": 46,
+            "owner": "bioconda",
+            "sha256": "a383ab2b2ee4908e866c313ed3e017f2318f18b8ca216cc9bfd4b16ef081fbb4",
+            "size": 174261,
+            "type": "conda",
+            "upload_time": "2024-12-10 18:04:34.662000+00:00",
+            "version": "1.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h9948957_5",
+                "build_number": 5,
+                "depends": [
+                    "boost-cpp",
+                    "libgcc >=13",
+                    "libstdcxx >=13"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0 AND MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1734020045612
+            },
+            "basename": "linux-64/haploflow-1.0-h9948957_5.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/haploflow/1.0/linux-64/haploflow-1.0-h9948957_5.tar.bz2",
+            "full_name": "bioconda/haploflow/1.0/linux-64/haploflow-1.0-h9948957_5.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "73e3b512a91ed3ef4318590dd7a1fa0a",
+            "ndownloads": 158,
+            "owner": "bioconda",
+            "sha256": "7bf15bfe27fd7084a7387df537725b11577ca023c51876bbc16e41c259a123b4",
+            "size": 185107,
+            "type": "conda",
+            "upload_time": "2024-12-12 16:15:15.150000+00:00",
+            "version": "1.0"
+        }
+    ],
+    "full_name": "bioconda/haploflow",
+    "home": "https://github.com/hzi-bifo/Haploflow",
+    "html_url": "http://anaconda.org/bioconda/haploflow",
+    "id": "60814bd7dcb792e0caad125b",
+    "latest_version": "1.0",
+    "license": "Apache-2.0 AND MIT",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:27.352000+00:00",
+    "name": "haploflow",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.0",
+        "osx-64": "1.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/haploflow/0.1",
+            "version": "0.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/haploflow/1.0",
+            "version": "1.0"
+        }
+    ],
+    "revision": 8,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Strain-aware viral genome assembler for short read sequence data",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/haploflow",
+    "versions": [
+        "0.1",
+        "1.0"
+    ],
+    "watchers": 1
+}

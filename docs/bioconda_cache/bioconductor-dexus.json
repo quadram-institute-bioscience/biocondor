@@ -1,0 +1,1617 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r341hfc679d8_0",
+        "r40h64ad5ed_0",
+        "r40h5f743cb_0",
+        "r40h832b226_1",
+        "r351hf484d3e_0",
+        "r40h399db7b_1",
+        "r351h0a44026_0",
+        "r36he1b5a44_1",
+        "r36he1b5a44_0",
+        "r36h6de7cb9_0",
+        "r36h6de7cb9_1",
+        "r3.4.1_0",
+        "r351hfc679d8_0"
+    ],
+    "conda_platforms": [
+        "osx-64",
+        "linux-64"
+    ],
+    "created_at": "2018-02-16 11:35:24.918000+00:00",
+    "description": "DEXUS identifies differentially expressed genes in RNA-Seq data under all possible study designs such as studies without replicates, without sample groups, and with unknown conditions. DEXUS works also for known conditions, for example for RNA-Seq data with two or multiple conditions. RNA-Seq read count data can be provided both by the S4 class Count Data Set and by read count matrices. Differentially expressed transcripts can be visualized by heatmaps, in which unknown conditions, replicates, and samples groups are also indicated. This software is fast since the core algorithm is written in C. For very large data sets, a parallel version of DEXUS is provided in this package. DEXUS is a statistical model that is selected in a Bayesian framework by an EM algorithm. DEXUS does not need replicates to detect differentially expressed transcripts, since the replicates (or conditions) are estimated by the EM method for each transcript. The method provides an informative/non-informative value to extract differentially expressed transcripts at a desired significance level or power.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-dexus-1.18.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.18.0/linux-64/bioconductor-dexus-1.18.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.18.0/linux-64/bioconductor-dexus-1.18.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "53e8a53b4682d0ea5eeec7140ec5e965",
+            "ndownloads": 641,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3418812,
+            "type": "conda",
+            "upload_time": "2018-02-16 11:35:25.457000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hf484d3e_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1544463268076
+            },
+            "basename": "linux-64/bioconductor-dexus-1.22.0-r351hf484d3e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.22.0/linux-64/bioconductor-dexus-1.22.0-r351hf484d3e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.22.0/linux-64/bioconductor-dexus-1.22.0-r351hf484d3e_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "90e339999c028c51a09fb65636de97d5",
+            "ndownloads": 400,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3473694,
+            "type": "conda",
+            "upload_time": "2018-12-10 17:37:08.133000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics",
+                    "libcxx",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-dexus-1.18.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.18.0/osx-64/bioconductor-dexus-1.18.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.18.0/osx-64/bioconductor-dexus-1.18.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "adb7f86c4c7d1b77e53574bcdd043551",
+            "ndownloads": 4446,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3417221,
+            "type": "conda",
+            "upload_time": "2018-02-16 14:25:24.629000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "r-base >=3.4.1,<3.4.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539166148101
+            },
+            "basename": "osx-64/bioconductor-dexus-1.20.0-r341hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.20.0/osx-64/bioconductor-dexus-1.20.0-r341hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.20.0/osx-64/bioconductor-dexus-1.20.0-r341hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "185a3949f25aa39b7230f492e3993891",
+            "ndownloads": 206,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3418368,
+            "type": "conda",
+            "upload_time": "2018-10-10 10:09:54.109000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539166055955
+            },
+            "basename": "osx-64/bioconductor-dexus-1.20.0-r351hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.20.0/osx-64/bioconductor-dexus-1.20.0-r351hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.20.0/osx-64/bioconductor-dexus-1.20.0-r351hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "fa3f910d96b4aacaeb6875ef0e4eebec",
+            "ndownloads": 4308,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3469941,
+            "type": "conda",
+            "upload_time": "2018-10-10 10:09:59.697000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "libgcc-ng >=4.9",
+                    "libstdcxx-ng >=4.9",
+                    "r-base >=3.4.1,<3.4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539334765463
+            },
+            "basename": "linux-64/bioconductor-dexus-1.20.0-r341hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.20.0/linux-64/bioconductor-dexus-1.20.0-r341hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.20.0/linux-64/bioconductor-dexus-1.20.0-r341hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "40c483f481f34f2070760c9d3f4e9759",
+            "ndownloads": 514,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3419891,
+            "type": "conda",
+            "upload_time": "2018-10-12 09:05:10.576000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "libgcc-ng >=4.9",
+                    "libstdcxx-ng >=4.9",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539334824813
+            },
+            "basename": "linux-64/bioconductor-dexus-1.20.0-r351hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.20.0/linux-64/bioconductor-dexus-1.20.0-r351hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.20.0/linux-64/bioconductor-dexus-1.20.0-r351hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "c377127292dc8c16cbc7e7f67e07f8ab",
+            "ndownloads": 531,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3470109,
+            "type": "conda",
+            "upload_time": "2018-10-12 09:05:15.495000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1544329110638
+            },
+            "basename": "osx-64/bioconductor-dexus-1.22.0-r351hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.22.0/osx-64/bioconductor-dexus-1.22.0-r351hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.22.0/osx-64/bioconductor-dexus-1.22.0-r351hfc679d8_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "30adac732bf448c2f6263a5dcee4a4a6",
+            "ndownloads": 4318,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3473884,
+            "type": "conda",
+            "upload_time": "2018-12-09 04:19:15.172000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h0a44026_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1552833667495
+            },
+            "basename": "osx-64/bioconductor-dexus-1.22.1-r351h0a44026_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.22.1/osx-64/bioconductor-dexus-1.22.1-r351h0a44026_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.22.1/osx-64/bioconductor-dexus-1.22.1-r351h0a44026_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "461f1147e23684b88ba963b53a555b19",
+            "ndownloads": 4218,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3469964,
+            "type": "conda",
+            "upload_time": "2019-03-17 14:41:42.187000+00:00",
+            "version": "1.22.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hf484d3e_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1552833948975
+            },
+            "basename": "linux-64/bioconductor-dexus-1.22.1-r351hf484d3e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.22.1/linux-64/bioconductor-dexus-1.22.1-r351hf484d3e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.22.1/linux-64/bioconductor-dexus-1.22.1-r351hf484d3e_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b56ce961ed6171de04d9bf11257b1e03",
+            "ndownloads": 391,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3473846,
+            "type": "conda",
+            "upload_time": "2019-03-17 14:49:47.528000+00:00",
+            "version": "1.22.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1563481268158
+            },
+            "basename": "osx-64/bioconductor-dexus-1.24.0-r36h6de7cb9_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.24.0/osx-64/bioconductor-dexus-1.24.0-r36h6de7cb9_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.24.0/osx-64/bioconductor-dexus-1.24.0-r36h6de7cb9_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b7d3a26d060f2d94235d088e91354ecd",
+            "ndownloads": 3950,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3477517,
+            "type": "conda",
+            "upload_time": "2019-07-18 20:21:53.818000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1563681880333
+            },
+            "basename": "linux-64/bioconductor-dexus-1.24.0-r36he1b5a44_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.24.0/linux-64/bioconductor-dexus-1.24.0-r36he1b5a44_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.24.0/linux-64/bioconductor-dexus-1.24.0-r36he1b5a44_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "193300272228d946d0f507557c5701de",
+            "ndownloads": 352,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3470646,
+            "type": "conda",
+            "upload_time": "2019-07-21 04:08:41.832000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572594109045
+            },
+            "basename": "linux-64/bioconductor-dexus-1.26.0-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.26.0/linux-64/bioconductor-dexus-1.26.0-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.26.0/linux-64/bioconductor-dexus-1.26.0-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ed8c49f6364ddafb032d82f45cb7bcf9",
+            "ndownloads": 337,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3480502,
+            "type": "conda",
+            "upload_time": "2019-11-01 07:45:58.435000+00:00",
+            "version": "1.26.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572597201637
+            },
+            "basename": "osx-64/bioconductor-dexus-1.26.0-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.26.0/osx-64/bioconductor-dexus-1.26.0-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.26.0/osx-64/bioconductor-dexus-1.26.0-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3e671cedd0fe1a5d90bff7f5e297204b",
+            "ndownloads": 3828,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3483065,
+            "type": "conda",
+            "upload_time": "2019-11-01 08:34:07.558000+00:00",
+            "version": "1.26.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h64ad5ed_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.34.0,<0.35.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=9.0.1",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1589020448226
+            },
+            "basename": "osx-64/bioconductor-dexus-1.28.0-r40h64ad5ed_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.34.0,<0.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.28.0/osx-64/bioconductor-dexus-1.28.0-r40h64ad5ed_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.28.0/osx-64/bioconductor-dexus-1.28.0-r40h64ad5ed_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "40eb1a959cebb31f5fb01e9c075c7e23",
+            "ndownloads": 3360,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3527767,
+            "type": "conda",
+            "upload_time": "2020-05-09 10:35:19.855000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h5f743cb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.34.0,<0.35.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.3.0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1589056808697
+            },
+            "basename": "linux-64/bioconductor-dexus-1.28.0-r40h5f743cb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.34.0,<0.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.28.0/linux-64/bioconductor-dexus-1.28.0-r40h5f743cb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.28.0/linux-64/bioconductor-dexus-1.28.0-r40h5f743cb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "60a6a5ec4e72ead6639aba9863840dbf",
+            "ndownloads": 303,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3527663,
+            "type": "conda",
+            "upload_time": "2020-05-09 20:44:15.173000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h64ad5ed_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=9.0.1",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1603971174280
+            },
+            "basename": "osx-64/bioconductor-dexus-1.30.0-r40h64ad5ed_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.30.0/osx-64/bioconductor-dexus-1.30.0-r40h64ad5ed_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.30.0/osx-64/bioconductor-dexus-1.30.0-r40h64ad5ed_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5ea9b229dd1ea8ee6a99850ca1581f68",
+            "ndownloads": 355,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3527637,
+            "type": "conda",
+            "upload_time": "2020-10-29 11:33:56.115000+00:00",
+            "version": "1.30.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h5f743cb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=7.5.0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1604042819603
+            },
+            "basename": "linux-64/bioconductor-dexus-1.30.0-r40h5f743cb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.30.0/linux-64/bioconductor-dexus-1.30.0-r40h5f743cb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.30.0/linux-64/bioconductor-dexus-1.30.0-r40h5f743cb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "218c8575b3e083744539d19d8f9cc97f",
+            "ndownloads": 274,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3528138,
+            "type": "conda",
+            "upload_time": "2020-10-30 07:31:34.315000+00:00",
+            "version": "1.30.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h399db7b_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=9.3.0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1616816972702
+            },
+            "basename": "linux-64/bioconductor-dexus-1.30.0-r40h399db7b_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.30.0/linux-64/bioconductor-dexus-1.30.0-r40h399db7b_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.30.0/linux-64/bioconductor-dexus-1.30.0-r40h399db7b_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a7862e8f74ae92241bf961db262459a6",
+            "ndownloads": 277,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3529168,
+            "type": "conda",
+            "upload_time": "2021-03-27 03:55:56.715000+00:00",
+            "version": "1.30.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h832b226_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=11.1.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.0)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1616840379582
+            },
+            "basename": "osx-64/bioconductor-dexus-1.30.0-r40h832b226_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-dexus/1.30.0/osx-64/bioconductor-dexus-1.30.0-r40h832b226_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-dexus/1.30.0/osx-64/bioconductor-dexus-1.30.0-r40h832b226_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e6eecad82a5b6c4c22a65213336613d1",
+            "ndownloads": 2819,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3529168,
+            "type": "conda",
+            "upload_time": "2021-03-27 10:20:45.528000+00:00",
+            "version": "1.30.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-dexus",
+    "home": "http://bioconductor.org/packages/3.6/bioc/html/dexus.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-dexus",
+    "id": "5a86c1fcbaec3611fb368129",
+    "latest_version": "1.30.0",
+    "license": "LGPL (>= 2.0)",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:28:56.018000+00:00",
+    "name": "bioconductor-dexus",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.30.0",
+        "osx-64": "1.30.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-dexus/1.18.0",
+            "version": "1.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-dexus/1.20.0",
+            "version": "1.20.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-dexus/1.22.0",
+            "version": "1.22.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-dexus/1.22.1",
+            "version": "1.22.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-dexus/1.24.0",
+            "version": "1.24.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-dexus/1.26.0",
+            "version": "1.26.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-dexus/1.28.0",
+            "version": "1.28.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-dexus/1.30.0",
+            "version": "1.30.0"
+        }
+    ],
+    "revision": 16,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "DEXUS - Identifying Differential Expression in RNA-Seq Studies with Unknown Conditions or without Replicates",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-dexus",
+    "versions": [
+        "1.18.0",
+        "1.20.0",
+        "1.22.0",
+        "1.22.1",
+        "1.24.0",
+        "1.26.0",
+        "1.28.0",
+        "1.30.0"
+    ],
+    "watchers": 1
+}

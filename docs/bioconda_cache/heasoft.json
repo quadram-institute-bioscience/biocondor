@@ -1,0 +1,265 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "hedafe93_0",
+        "hedafe93_1"
+    ],
+    "conda_platforms": [
+        "linux-64"
+    ],
+    "created_at": "2025-05-28 11:52:05.647000+00:00",
+    "description": "HEAsoft is a unified release of the FTOOLS and XANADU software packages for high-energy astrophysics data analysis, including tools like XSPEC.\n\nAfter installation, users must **initialize the HEAsoft environment** by running the following commands:\n\n```\nexport HEADAS=$(ls -d \"${CONDA_PREFIX}/x86_64-pc-linux-gnu-libc\"*/ | head -n 1)\nsource \"${HEADAS}/headas-init.sh\"\nexport LHEAPERL=\"${CONDA_PREFIX}/bin/perl\"\n```\n\nThis setup configures several environment variables required for HEAsoft, including `PATH`, `LD_LIBRARY_PATH`, `PFILES`, `PERL5LIB`, `PYTHONPATH`, and component-specific variables such as `PGPLOT_DIR`, `XANADU`, and `POW_LIBRARY`.\n\n**Note**: `LHEAPERL` must be manually set to point to your Conda environment's Perl interpreter after sourcing `headas-init.sh`.\n\nFor mission-specific functionality (e.g., Swift, NuSTAR, IXPE), additional environment setup may be required. Refer to the HEAsoft documentation for details.\n\n**Warning for XSPEC Users**: The `/spectral/modelData` directory (~5.9GB) is excluded from this package to reduce its size, making XSPEC unusable without it.\n\nTo enable XSPEC, follow these steps:\n\n1. Download the HEAsoft source tarball for the same version as this package (6.35.2):\n   ```\n   wget https://heasarc.gsfc.nasa.gov/FTP/software/lheasoft/lheasoft6.35.2/heasoft-6.35.2src.tar.gz\n   ```\n   Replace `6.35.2` by the actual the package version (e.g., 6.35.2).\n\n2. Extract the tarball:\n   ```\n   tar zxf heasoft-6.35.2src.tar.gz\n   ```\n\n3. Copy the `modelData` directory to the appropriate location:\n   ```\n   mkdir -p \"${CONDA_PREFIX}/spectral\"\n   cp -r heasoft-6.35.2/Xspec/src/spectral/modelData \"${CONDA_PREFIX}/spectral/\"\n   ```\n",
+    "dev_url": null,
+    "doc_url": "https://heasarc.gsfc.nasa.gov/docs/software/heasoft/",
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "hedafe93_0",
+                "build_number": 0,
+                "depends": [
+                    "astropy >=6.1.4",
+                    "astropy-iers-data",
+                    "curl >=8.13.0,<9.0a0",
+                    "gsl >=2.7,<2.8.0a0",
+                    "gsl >=2.7,<3.0a0",
+                    "libgcc >=13",
+                    "libgcc-ng >=15.1.0,<16.0a0",
+                    "libgfortran",
+                    "libgfortran-ng >=15.1.0,<16.0a0",
+                    "libgfortran5 >=13.3.0",
+                    "libpng >=1.6.47,<1.7.0a0",
+                    "libpng >=1.6.47,<2.0a0",
+                    "libstdcxx >=13",
+                    "libstdcxx-ng >=15.1.0,<16.0a0",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "matplotlib-base >=3.9.2",
+                    "ncurses >=6.5,<7.0a0",
+                    "numpy >=1.21,<3",
+                    "numpy >=2.2.6,<3.0a0",
+                    "perl >=5.32.1",
+                    "python >=3.13,<3.14.0a0",
+                    "python_abi 3.13.* *_cp313",
+                    "readline >=8.2,<9.0a0",
+                    "scipy >=1.14.1",
+                    "xorg-libx11 >=1.8.12,<2.0a0",
+                    "xorg-libxext >=1.3.6,<2.0a0",
+                    "xorg-libxt >=1.3.1,<2.0a0",
+                    "xorg-xextproto >=7.3.0,<8.0a0",
+                    "xorg-xproto >=7.0.31,<8.0a0",
+                    "zlib >=1.3.1,<2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "Clear BSD License",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1748430880583
+            },
+            "basename": "linux-64/heasoft-6.35.1-hedafe93_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/heasoft/6.35.1/linux-64/heasoft-6.35.1-hedafe93_0.tar.bz2",
+            "full_name": "bioconda/heasoft/6.35.1/linux-64/heasoft-6.35.1-hedafe93_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d55912aafdefb8e9fae12e0d1eb7bbae",
+            "ndownloads": 53,
+            "owner": "bioconda",
+            "sha256": "320d711a4b9ae03ad0069fb239c07bd3b289cb2a286aed6b0235b3dd103c7333",
+            "size": 814698601,
+            "type": "conda",
+            "upload_time": "2025-05-28 11:52:06.663000+00:00",
+            "version": "6.35.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "hedafe93_1",
+                "build_number": 1,
+                "depends": [
+                    "astropy >=6.1.4",
+                    "astropy-iers-data",
+                    "curl >=8.14.0,<9.0a0",
+                    "gsl >=2.7,<2.8.0a0",
+                    "gsl >=2.7,<3.0a0",
+                    "libgcc >=13",
+                    "libgcc-ng >=15.1.0,<16.0a0",
+                    "libgfortran",
+                    "libgfortran-ng >=15.1.0,<16.0a0",
+                    "libgfortran5 >=13.3.0",
+                    "libpng >=1.6.47,<1.7.0a0",
+                    "libpng >=1.6.47,<2.0a0",
+                    "libstdcxx >=13",
+                    "libstdcxx-ng >=15.1.0,<16.0a0",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "matplotlib-base >=3.9.2",
+                    "ncurses >=6.5,<7.0a0",
+                    "numpy >=1.21,<3",
+                    "numpy >=2.2.6,<3.0a0",
+                    "perl >=5.32.1",
+                    "python >=3.13,<3.14.0a0",
+                    "python_abi 3.13.* *_cp313",
+                    "readline >=8.2,<9.0a0",
+                    "scipy >=1.14.1",
+                    "xorg-libx11 >=1.8.12,<2.0a0",
+                    "xorg-libxext >=1.3.6,<2.0a0",
+                    "xorg-libxt >=1.3.1,<2.0a0",
+                    "xorg-xextproto >=7.3.0,<8.0a0",
+                    "xorg-xproto >=7.0.31,<8.0a0",
+                    "zlib >=1.3.1,<2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "Clear BSD License",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1748443956683
+            },
+            "basename": "linux-64/heasoft-6.35.1-hedafe93_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/heasoft/6.35.1/linux-64/heasoft-6.35.1-hedafe93_1.tar.bz2",
+            "full_name": "bioconda/heasoft/6.35.1/linux-64/heasoft-6.35.1-hedafe93_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3a34b3daf6a9f73120db9d1a9db8569f",
+            "ndownloads": 45011,
+            "owner": "bioconda",
+            "sha256": "a595d2572a56f4fb7e8e681a52bb63f3472d93b261cb09c977b70120ea6d6d37",
+            "size": 814568563,
+            "type": "conda",
+            "upload_time": "2025-06-18 01:22:32.010000+00:00",
+            "version": "6.35.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "hedafe93_0",
+                "build_number": 0,
+                "depends": [
+                    "astropy >=6.1.4",
+                    "astropy-iers-data",
+                    "curl >=8.14.1,<9.0a0",
+                    "gsl >=2.7,<2.8.0a0",
+                    "gsl >=2.7,<3.0a0",
+                    "libgcc >=13",
+                    "libgcc-ng >=15.1.0,<16.0a0",
+                    "libgfortran",
+                    "libgfortran-ng >=15.1.0,<16.0a0",
+                    "libgfortran5 >=13.3.0",
+                    "libpng >=1.6.50,<1.7.0a0",
+                    "libpng >=1.6.50,<2.0a0",
+                    "libstdcxx >=13",
+                    "libstdcxx-ng >=15.1.0,<16.0a0",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "matplotlib-base >=3.9.2",
+                    "ncurses >=6.5,<7.0a0",
+                    "numpy >=1.23,<3",
+                    "numpy >=2.3.1,<3.0a0",
+                    "perl >=5.32.1",
+                    "python >=3.13,<3.14.0a0",
+                    "python_abi 3.13.* *_cp313",
+                    "readline >=8.2,<9.0a0",
+                    "scipy >=1.14.1",
+                    "xorg-libx11 >=1.8.12,<2.0a0",
+                    "xorg-libxext >=1.3.6,<2.0a0",
+                    "xorg-libxt >=1.3.1,<2.0a0",
+                    "xorg-xextproto >=7.3.0,<8.0a0",
+                    "xorg-xproto >=7.0.31,<8.0a0",
+                    "zlib >=1.3.1,<2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "Clear BSD License",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1752738489692
+            },
+            "basename": "linux-64/heasoft-6.35.2-hedafe93_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/heasoft/6.35.2/linux-64/heasoft-6.35.2-hedafe93_0.tar.bz2",
+            "full_name": "bioconda/heasoft/6.35.2/linux-64/heasoft-6.35.2-hedafe93_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "13f6440da815737e0e391ff288c53f04",
+            "ndownloads": 42,
+            "owner": "bioconda",
+            "sha256": "da9de1746e99507852372dccb5f83603e3c958bfc4b85c5d7924899d1ab74a52",
+            "size": 814808001,
+            "type": "conda",
+            "upload_time": "2025-07-17 17:28:51.311000+00:00",
+            "version": "6.35.2"
+        }
+    ],
+    "full_name": "bioconda/heasoft",
+    "home": "https://heasarc.gsfc.nasa.gov/lheasoft/",
+    "html_url": "http://anaconda.org/bioconda/heasoft",
+    "id": "6836f8e50c24c730902c0160",
+    "latest_version": "6.35.2",
+    "license": "Clear BSD License",
+    "license_url": null,
+    "modified_at": "2025-07-17 17:29:05.957000+00:00",
+    "name": "heasoft",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "6.35.2"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/heasoft/6.35.1",
+            "version": "6.35.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/heasoft/6.35.2",
+            "version": "6.35.2"
+        }
+    ],
+    "revision": 7,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "NASA High Energy Astrophysics Software (HEAsoft)",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/heasoft",
+    "versions": [
+        "6.35.1",
+        "6.35.2"
+    ],
+    "watchers": 1
+}

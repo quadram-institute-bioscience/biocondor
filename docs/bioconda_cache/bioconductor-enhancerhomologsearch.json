@@ -1,0 +1,1597 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r44he5774e6_0",
+        "r42hb890f52_0",
+        "r41hc247a5b_0",
+        "r43hf17093f_0",
+        "r41h7cba510_1",
+        "r44h35d7169_0",
+        "r41h399db7b_0",
+        "r42hc0ef7c4_1",
+        "r41hb890f52_0",
+        "r41h619a076_1",
+        "r43hc0ef7c4_0",
+        "r42hc247a5b_0",
+        "r41h832b226_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2021-11-02 01:58:03.197000+00:00",
+    "description": "Get ENCODE data of enhancer region via H3K4me1 peaks and search homolog regions for given sequences. The candidates of enhancer homolog regions can be filtered by distance to target TSS. The top candidates from human and mouse will be aligned to each other and then exported as multiple alignments with given enhancer.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h832b226_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocfilecache >=2.2.0,<2.3.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-bsgenome >=1.62.0,<1.63.0",
+                    "bioconductor-genomeinfodb >=1.30.0,<1.31.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-motifmatchr >=1.16.0,<1.17.0",
+                    "bioconductor-rtracklayer >=1.54.0,<1.55.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=11.1.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-httr",
+                    "r-jsonlite",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1635818116029
+            },
+            "basename": "osx-64/bioconductor-enhancerhomologsearch-1.0.0-r41h832b226_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocfilecache",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-motifmatchr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-httr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-jsonlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-enhancerhomologsearch/1.0.0/osx-64/bioconductor-enhancerhomologsearch-1.0.0-r41h832b226_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.0.0/osx-64/bioconductor-enhancerhomologsearch-1.0.0-r41h832b226_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ac7b2a1da5dca3bf1614d3dc104421bf",
+            "ndownloads": 2333,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1930423,
+            "type": "conda",
+            "upload_time": "2021-11-02 01:58:05.710000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h399db7b_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocfilecache >=2.2.0,<2.3.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-bsgenome >=1.62.0,<1.63.0",
+                    "bioconductor-genomeinfodb >=1.30.0,<1.31.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-motifmatchr >=1.16.0,<1.17.0",
+                    "bioconductor-rtracklayer >=1.54.0,<1.55.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=9.4.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-httr",
+                    "r-jsonlite",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1636475686934
+            },
+            "basename": "linux-64/bioconductor-enhancerhomologsearch-1.0.0-r41h399db7b_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocfilecache",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-motifmatchr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-httr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-jsonlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-enhancerhomologsearch/1.0.0/linux-64/bioconductor-enhancerhomologsearch-1.0.0-r41h399db7b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.0.0/linux-64/bioconductor-enhancerhomologsearch-1.0.0-r41h399db7b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "84ba9ebec3dda0eaa2a8ebd71604fc5f",
+            "ndownloads": 217,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1981077,
+            "type": "conda",
+            "upload_time": "2021-11-09 16:45:39.633000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h619a076_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocfilecache >=2.2.0,<2.3.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-bsgenome >=1.62.0,<1.63.0",
+                    "bioconductor-genomeinfodb >=1.30.0,<1.31.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-motifmatchr >=1.16.0,<1.17.0",
+                    "bioconductor-rtracklayer >=1.54.0,<1.55.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=10.3.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-httr",
+                    "r-jsonlite",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1645524780345
+            },
+            "basename": "linux-64/bioconductor-enhancerhomologsearch-1.0.0-r41h619a076_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocfilecache",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-motifmatchr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-httr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-jsonlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-enhancerhomologsearch/1.0.0/linux-64/bioconductor-enhancerhomologsearch-1.0.0-r41h619a076_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.0.0/linux-64/bioconductor-enhancerhomologsearch-1.0.0-r41h619a076_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8adcc0940946a792e2006c667a976dd7",
+            "ndownloads": 204,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1945727,
+            "type": "conda",
+            "upload_time": "2022-02-22 10:23:19.170000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h7cba510_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocfilecache >=2.2.0,<2.3.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-bsgenome >=1.62.0,<1.63.0",
+                    "bioconductor-genomeinfodb >=1.30.0,<1.31.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-motifmatchr >=1.16.0,<1.17.0",
+                    "bioconductor-rtracklayer >=1.54.0,<1.55.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=12.0.1",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-httr",
+                    "r-jsonlite",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1645759916689
+            },
+            "basename": "osx-64/bioconductor-enhancerhomologsearch-1.0.0-r41h7cba510_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocfilecache",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-motifmatchr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-httr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-jsonlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-enhancerhomologsearch/1.0.0/osx-64/bioconductor-enhancerhomologsearch-1.0.0-r41h7cba510_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.0.0/osx-64/bioconductor-enhancerhomologsearch-1.0.0-r41h7cba510_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6f5000be0324b9001502f730b394138c",
+            "ndownloads": 61,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1882226,
+            "type": "conda",
+            "upload_time": "2022-02-25 03:34:53.145000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hc247a5b_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocfilecache >=2.2.0,<2.3.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-bsgenome >=1.62.0,<1.63.0",
+                    "bioconductor-genomeinfodb >=1.30.0,<1.31.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-motifmatchr >=1.16.0,<1.17.0",
+                    "bioconductor-rtracklayer >=1.54.0,<1.55.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-httr",
+                    "r-jsonlite",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1663372252874
+            },
+            "basename": "linux-64/bioconductor-enhancerhomologsearch-1.0.1-r41hc247a5b_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-enhancerhomologsearch/1.0.1/linux-64/bioconductor-enhancerhomologsearch-1.0.1-r41hc247a5b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.0.1/linux-64/bioconductor-enhancerhomologsearch-1.0.1-r41hc247a5b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6919c75118ce0ea65196a11c779e16cb",
+            "ndownloads": 191,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1947171,
+            "type": "conda",
+            "upload_time": "2022-09-16 23:56:07.548000+00:00",
+            "version": "1.0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hb890f52_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocfilecache >=2.2.0,<2.3.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-bsgenome >=1.62.0,<1.63.0",
+                    "bioconductor-genomeinfodb >=1.30.0,<1.31.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-motifmatchr >=1.16.0,<1.17.0",
+                    "bioconductor-rtracklayer >=1.54.0,<1.55.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=14.0.4",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-httr",
+                    "r-jsonlite",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1664664358272
+            },
+            "basename": "osx-64/bioconductor-enhancerhomologsearch-1.0.1-r41hb890f52_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-enhancerhomologsearch/1.0.1/osx-64/bioconductor-enhancerhomologsearch-1.0.1-r41hb890f52_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.0.1/osx-64/bioconductor-enhancerhomologsearch-1.0.1-r41hb890f52_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bbbc2345a3516645d0a239b7299884d0",
+            "ndownloads": 1766,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1879484,
+            "type": "conda",
+            "upload_time": "2022-10-01 22:48:33.948000+00:00",
+            "version": "1.0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc247a5b_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocfilecache >=2.6.0,<2.7.0",
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-bsgenome >=1.66.0,<1.67.0",
+                    "bioconductor-genomeinfodb >=1.34.0,<1.35.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-motifmatchr >=1.20.0,<1.21.0",
+                    "bioconductor-rtracklayer >=1.58.0,<1.59.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-httr",
+                    "r-jsonlite",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1667933015075
+            },
+            "basename": "linux-64/bioconductor-enhancerhomologsearch-1.4.0-r42hc247a5b_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-enhancerhomologsearch/1.4.0/linux-64/bioconductor-enhancerhomologsearch-1.4.0-r42hc247a5b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.4.0/linux-64/bioconductor-enhancerhomologsearch-1.4.0-r42hc247a5b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "27274d1764cf8a1b4847af283a4fb562",
+            "ndownloads": 186,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1972871,
+            "type": "conda",
+            "upload_time": "2022-11-08 18:48:52.882000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hb890f52_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocfilecache >=2.6.0,<2.7.0",
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-bsgenome >=1.66.0,<1.67.0",
+                    "bioconductor-genomeinfodb >=1.34.0,<1.35.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-motifmatchr >=1.20.0,<1.21.0",
+                    "bioconductor-rtracklayer >=1.58.0,<1.59.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=14.0.6",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-httr",
+                    "r-jsonlite",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1668257351523
+            },
+            "basename": "osx-64/bioconductor-enhancerhomologsearch-1.4.0-r42hb890f52_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-enhancerhomologsearch/1.4.0/osx-64/bioconductor-enhancerhomologsearch-1.4.0-r42hb890f52_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.4.0/osx-64/bioconductor-enhancerhomologsearch-1.4.0-r42hb890f52_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f810ad5ab405d474433d7401251497c5",
+            "ndownloads": 397,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1911943,
+            "type": "conda",
+            "upload_time": "2022-11-12 12:52:13.907000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc0ef7c4_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocfilecache >=2.6.0,<2.7.0",
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-bsgenome >=1.66.0,<1.67.0",
+                    "bioconductor-genomeinfodb >=1.34.0,<1.35.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-motifmatchr >=1.20.0,<1.21.0",
+                    "bioconductor-rtracklayer >=1.58.0,<1.59.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-httr",
+                    "r-jsonlite",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1684446078778
+            },
+            "basename": "osx-64/bioconductor-enhancerhomologsearch-1.4.0-r42hc0ef7c4_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-enhancerhomologsearch/1.4.0/osx-64/bioconductor-enhancerhomologsearch-1.4.0-r42hc0ef7c4_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.4.0/osx-64/bioconductor-enhancerhomologsearch-1.4.0-r42hc0ef7c4_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "14df0f577eff46fd7d0255b17dd31662",
+            "ndownloads": 1321,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1928695,
+            "type": "conda",
+            "upload_time": "2023-05-18 21:43:42.445000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hf17093f_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocfilecache >=2.8.0,<2.9.0",
+                    "bioconductor-biocgenerics >=0.46.0,<0.47.0",
+                    "bioconductor-biocparallel >=1.34.0,<1.35.0",
+                    "bioconductor-biostrings >=2.68.0,<2.69.0",
+                    "bioconductor-bsgenome >=1.68.0,<1.69.0",
+                    "bioconductor-genomeinfodb >=1.36.0,<1.37.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-motifmatchr >=1.22.0,<1.23.0",
+                    "bioconductor-rtracklayer >=1.60.0,<1.61.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-httr",
+                    "r-jsonlite",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1689681731981
+            },
+            "basename": "linux-64/bioconductor-enhancerhomologsearch-1.6.1-r43hf17093f_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-enhancerhomologsearch/1.6.1/linux-64/bioconductor-enhancerhomologsearch-1.6.1-r43hf17093f_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.6.1/linux-64/bioconductor-enhancerhomologsearch-1.6.1-r43hf17093f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "349b98b2eedac78c13037f4854a6c68d",
+            "ndownloads": 136,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2001225,
+            "type": "conda",
+            "upload_time": "2023-07-18 12:07:36.434000+00:00",
+            "version": "1.6.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hc0ef7c4_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocfilecache >=2.8.0,<2.9.0",
+                    "bioconductor-biocgenerics >=0.46.0,<0.47.0",
+                    "bioconductor-biocparallel >=1.34.0,<1.35.0",
+                    "bioconductor-biostrings >=2.68.0,<2.69.0",
+                    "bioconductor-bsgenome >=1.68.0,<1.69.0",
+                    "bioconductor-genomeinfodb >=1.36.0,<1.37.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-motifmatchr >=1.22.0,<1.23.0",
+                    "bioconductor-rtracklayer >=1.60.0,<1.61.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-httr",
+                    "r-jsonlite",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1689793471961
+            },
+            "basename": "osx-64/bioconductor-enhancerhomologsearch-1.6.1-r43hc0ef7c4_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-enhancerhomologsearch/1.6.1/osx-64/bioconductor-enhancerhomologsearch-1.6.1-r43hc0ef7c4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.6.1/osx-64/bioconductor-enhancerhomologsearch-1.6.1-r43hc0ef7c4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6f21ebd394f949117807a23d6a2e5042",
+            "ndownloads": 1197,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1950758,
+            "type": "conda",
+            "upload_time": "2023-07-19 19:06:47.738000+00:00",
+            "version": "1.6.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hc0ef7c4_0",
+                "build_number": 0,
+                "depends": [
+                    "__osx >=10.9",
+                    "bioconductor-biocfilecache >=2.10.0,<2.11.0",
+                    "bioconductor-biocfilecache >=2.10.1,<2.11.0a0",
+                    "bioconductor-biocgenerics >=0.48.0,<0.49.0",
+                    "bioconductor-biocgenerics >=0.48.1,<0.49.0a0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0a0",
+                    "bioconductor-biostrings >=2.70.0,<2.71.0",
+                    "bioconductor-biostrings >=2.70.1,<2.71.0a0",
+                    "bioconductor-bsgenome >=1.70.0,<1.71.0",
+                    "bioconductor-bsgenome >=1.70.1,<1.71.0a0",
+                    "bioconductor-genomeinfodb >=1.38.0,<1.39.0",
+                    "bioconductor-genomeinfodb >=1.38.1,<1.39.0a0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-genomicranges >=1.54.1,<1.55.0a0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0a0",
+                    "bioconductor-motifmatchr >=1.24.0,<1.25.0",
+                    "bioconductor-motifmatchr >=1.24.0,<1.25.0a0",
+                    "bioconductor-rtracklayer >=1.62.0,<1.63.0",
+                    "bioconductor-rtracklayer >=1.62.0,<1.63.0a0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-s4vectors >=0.40.2,<0.41.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-httr",
+                    "r-jsonlite",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1702118361616
+            },
+            "basename": "osx-64/bioconductor-enhancerhomologsearch-1.8.2-r43hc0ef7c4_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-enhancerhomologsearch/1.8.2/osx-64/bioconductor-enhancerhomologsearch-1.8.2-r43hc0ef7c4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.8.2/osx-64/bioconductor-enhancerhomologsearch-1.8.2-r43hc0ef7c4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e62a737cfa579c4f0ad67737a041412c",
+            "ndownloads": 921,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2010936,
+            "type": "conda",
+            "upload_time": "2023-12-09 10:41:23.556000+00:00",
+            "version": "1.8.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hf17093f_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocfilecache >=2.10.0,<2.11.0",
+                    "bioconductor-biocfilecache >=2.10.1,<2.11.0a0",
+                    "bioconductor-biocgenerics >=0.48.0,<0.49.0",
+                    "bioconductor-biocgenerics >=0.48.1,<0.49.0a0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0a0",
+                    "bioconductor-biostrings >=2.70.0,<2.71.0",
+                    "bioconductor-biostrings >=2.70.1,<2.71.0a0",
+                    "bioconductor-bsgenome >=1.70.0,<1.71.0",
+                    "bioconductor-bsgenome >=1.70.1,<1.71.0a0",
+                    "bioconductor-genomeinfodb >=1.38.0,<1.39.0",
+                    "bioconductor-genomeinfodb >=1.38.1,<1.39.0a0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-genomicranges >=1.54.1,<1.55.0a0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0a0",
+                    "bioconductor-motifmatchr >=1.24.0,<1.25.0",
+                    "bioconductor-motifmatchr >=1.24.0,<1.25.0a0",
+                    "bioconductor-rtracklayer >=1.62.0,<1.63.0",
+                    "bioconductor-rtracklayer >=1.62.0,<1.63.0a0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-s4vectors >=0.40.2,<0.41.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-httr",
+                    "r-jsonlite",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1702605955948
+            },
+            "basename": "linux-64/bioconductor-enhancerhomologsearch-1.8.2-r43hf17093f_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-enhancerhomologsearch/1.8.2/linux-64/bioconductor-enhancerhomologsearch-1.8.2-r43hf17093f_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.8.2/linux-64/bioconductor-enhancerhomologsearch-1.8.2-r43hf17093f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "15d6550d438b9ec1d61643e9130fed72",
+            "ndownloads": 108,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2015269,
+            "type": "conda",
+            "upload_time": "2023-12-15 02:10:09.666000+00:00",
+            "version": "1.8.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h35d7169_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocfilecache >=2.14.0,<2.15.0",
+                    "bioconductor-biocfilecache >=2.14.0,<2.15.0a0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0a0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0a0",
+                    "bioconductor-biostrings >=2.74.0,<2.75.0",
+                    "bioconductor-biostrings >=2.74.0,<2.75.0a0",
+                    "bioconductor-bsgenome >=1.74.0,<1.75.0",
+                    "bioconductor-bsgenome >=1.74.0,<1.75.0a0",
+                    "bioconductor-genomeinfodb >=1.42.0,<1.43.0",
+                    "bioconductor-genomeinfodb >=1.42.0,<1.43.0a0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0a0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0a0",
+                    "bioconductor-motifmatchr >=1.28.0,<1.29.0",
+                    "bioconductor-motifmatchr >=1.28.0,<1.29.0a0",
+                    "bioconductor-pwalign >=1.2.0,<1.3.0",
+                    "bioconductor-pwalign >=1.2.0,<1.3.0a0",
+                    "bioconductor-rtracklayer >=1.66.0,<1.67.0",
+                    "bioconductor-rtracklayer >=1.66.0,<1.67.0a0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=18",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-httr",
+                    "r-jsonlite",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1735923324429
+            },
+            "basename": "osx-64/bioconductor-enhancerhomologsearch-1.12.0-r44h35d7169_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-enhancerhomologsearch/1.12.0/osx-64/bioconductor-enhancerhomologsearch-1.12.0-r44h35d7169_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.12.0/osx-64/bioconductor-enhancerhomologsearch-1.12.0-r44h35d7169_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "75efde2d2eaf36c79dd5972c367ae40f",
+            "ndownloads": 184,
+            "owner": "bioconda",
+            "sha256": "039980f45dace1b0d388a07f2c2f475a385d28cf9a3639e788bf7285560e0da0",
+            "size": 1919354,
+            "type": "conda",
+            "upload_time": "2025-01-03 16:57:57.676000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44he5774e6_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocfilecache >=2.14.0,<2.15.0",
+                    "bioconductor-biocfilecache >=2.14.0,<2.15.0a0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0a0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0a0",
+                    "bioconductor-biostrings >=2.74.0,<2.75.0",
+                    "bioconductor-biostrings >=2.74.0,<2.75.0a0",
+                    "bioconductor-bsgenome >=1.74.0,<1.75.0",
+                    "bioconductor-bsgenome >=1.74.0,<1.75.0a0",
+                    "bioconductor-genomeinfodb >=1.42.0,<1.43.0",
+                    "bioconductor-genomeinfodb >=1.42.0,<1.43.0a0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0a0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0a0",
+                    "bioconductor-motifmatchr >=1.28.0,<1.29.0",
+                    "bioconductor-motifmatchr >=1.28.0,<1.29.0a0",
+                    "bioconductor-pwalign >=1.2.0,<1.3.0",
+                    "bioconductor-pwalign >=1.2.0,<1.3.0a0",
+                    "bioconductor-rtracklayer >=1.66.0,<1.67.0",
+                    "bioconductor-rtracklayer >=1.66.0,<1.67.0a0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx >=13",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-httr",
+                    "r-jsonlite",
+                    "r-matrix",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1735924814587
+            },
+            "basename": "linux-64/bioconductor-enhancerhomologsearch-1.12.0-r44he5774e6_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-enhancerhomologsearch/1.12.0/linux-64/bioconductor-enhancerhomologsearch-1.12.0-r44he5774e6_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.12.0/linux-64/bioconductor-enhancerhomologsearch-1.12.0-r44he5774e6_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ebd8a04126829604f06c45ffe9700491",
+            "ndownloads": 118,
+            "owner": "bioconda",
+            "sha256": "a29fa763e755776058eb5111bbdc9e6c7cf5b99c36e3cdcc792b2c2e685c1a49",
+            "size": 2047728,
+            "type": "conda",
+            "upload_time": "2025-01-03 17:23:16.243000+00:00",
+            "version": "1.12.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-enhancerhomologsearch",
+    "home": "https://bioconductor.org/packages/3.14/bioc/html/enhancerHomologSearch.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-enhancerhomologsearch",
+    "id": "61809b2b73f6e1937e6807f5",
+    "latest_version": "1.12.0",
+    "license": "GPL (>= 2)",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:30.141000+00:00",
+    "name": "bioconductor-enhancerhomologsearch",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.12.0",
+        "osx-64": "1.12.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.0.1",
+            "version": "1.0.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.6.1",
+            "version": "1.6.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.8.2",
+            "version": "1.8.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-enhancerhomologsearch/1.12.0",
+            "version": "1.12.0"
+        }
+    ],
+    "revision": 14,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Identification of putative mammalian orthologs to given enhancer",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-enhancerhomologsearch",
+    "versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.4.0",
+        "1.6.1",
+        "1.8.2",
+        "1.12.0"
+    ],
+    "watchers": 1
+}

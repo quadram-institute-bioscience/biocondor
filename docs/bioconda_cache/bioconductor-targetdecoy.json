@@ -1,0 +1,337 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r44hdfd78af_0",
+        "r41hdfd78af_0",
+        "r42hdfd78af_0",
+        "r43hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2021-11-02 18:16:54.121000+00:00",
+    "description": "A first step in the data analysis of Mass Spectrometry (MS) based proteomics data is to identify peptides and proteins. With this respect the huge number of experimental mass spectra typically have to be assigned to theoretical peptides derived from a sequence database. Search engines are used for this purpose. These tools compare each of the observed spectra to all candidate theoretical spectra derived from the sequence data base and calculate a score for each comparison. The observed spectrum is then assigned to the theoretical peptide with the best score, which is also referred to as the peptide to spectrum match (PSM). It is of course crucial for the downstream analysis to evaluate the quality of these matches. Therefore False Discovery Rate (FDR) control is used to return a reliable list PSMs. The FDR, however, requires a good characterisation of the score distribution of PSMs that are matched to the wrong peptide (bad target hits). In proteomics, the target decoy approach (TDA) is typically used for this purpose. The TDA method matches the spectra to a database of real (targets) and nonsense peptides (decoys). A popular approach to generate these decoys is to reverse the target database. Hence, all the PSMs that match to a decoy are known to be bad hits and the distribution of their scores are used to estimate the distribution of the bad scoring target PSMs. A crucial assumption of the TDA is that the decoy PSM hits have similar properties as bad target hits so that the decoy PSM scores are a good simulation of the target PSM scores. Users, however, typically do not evaluate these assumptions. To this end we developed TargetDecoy to generate diagnostic plots to evaluate the quality of the target decoy method.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-mzid >=1.32.0,<1.33.0",
+                    "bioconductor-mzr >=2.28.0,<2.29.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-ggplot2",
+                    "r-ggpubr"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1635876526326
+            },
+            "basename": "noarch/bioconductor-targetdecoy-1.0.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-mzid",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-mzr",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggpubr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-targetdecoy/1.0.0/noarch/bioconductor-targetdecoy-1.0.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-targetdecoy/1.0.0/noarch/bioconductor-targetdecoy-1.0.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b1076fa4c3a4cdfff17506b59c920779",
+            "ndownloads": 2448,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3744446,
+            "type": "conda",
+            "upload_time": "2021-11-02 18:16:55.726000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-mzid >=1.36.0,<1.37.0",
+                    "bioconductor-mzr >=2.32.0,<2.33.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-ggplot2",
+                    "r-ggpubr",
+                    "r-miniui",
+                    "r-shiny"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667526520117
+            },
+            "basename": "noarch/bioconductor-targetdecoy-1.4.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-targetdecoy/1.4.0/noarch/bioconductor-targetdecoy-1.4.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-targetdecoy/1.4.0/noarch/bioconductor-targetdecoy-1.4.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3328ab3501ba39ebddca615f3bf0c5a4",
+            "ndownloads": 1789,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3849465,
+            "type": "conda",
+            "upload_time": "2022-11-04 01:53:43.400000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-mzid >=1.38.0,<1.39.0",
+                    "bioconductor-mzr >=2.34.0,<2.35.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-ggplot2",
+                    "r-ggpubr",
+                    "r-miniui",
+                    "r-shiny"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689063509584
+            },
+            "basename": "noarch/bioconductor-targetdecoy-1.6.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-targetdecoy/1.6.0/noarch/bioconductor-targetdecoy-1.6.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-targetdecoy/1.6.0/noarch/bioconductor-targetdecoy-1.6.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4ab8b1413699a1fb677e0249ee1252d5",
+            "ndownloads": 1295,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3847700,
+            "type": "conda",
+            "upload_time": "2023-07-11 08:23:57.074000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-mzid >=1.40.0,<1.41.0",
+                    "bioconductor-mzr >=2.36.0,<2.37.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-ggplot2",
+                    "r-ggpubr",
+                    "r-miniui",
+                    "r-shiny"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1701900651569
+            },
+            "basename": "noarch/bioconductor-targetdecoy-1.8.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-targetdecoy/1.8.0/noarch/bioconductor-targetdecoy-1.8.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-targetdecoy/1.8.0/noarch/bioconductor-targetdecoy-1.8.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bdf55393a91a20822d7bda4aa3426cc9",
+            "ndownloads": 1006,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3855592,
+            "type": "conda",
+            "upload_time": "2023-12-06 22:14:00.001000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-mzid >=1.44.0,<1.45.0",
+                    "bioconductor-mzr >=2.40.0,<2.41.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-ggplot2",
+                    "r-ggpubr",
+                    "r-miniui",
+                    "r-shiny"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1734561621155
+            },
+            "basename": "noarch/bioconductor-targetdecoy-1.12.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-targetdecoy/1.12.0/noarch/bioconductor-targetdecoy-1.12.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-targetdecoy/1.12.0/noarch/bioconductor-targetdecoy-1.12.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "183ed6f796c1aff0e119cef87082837c",
+            "ndownloads": 276,
+            "owner": "bioconda",
+            "sha256": "422768ae0b985ed85b5f1aaa0ec08a822a00a0a53fd3874f7afb4e23208e4445",
+            "size": 4054414,
+            "type": "conda",
+            "upload_time": "2024-12-18 22:42:35.748000+00:00",
+            "version": "1.12.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-targetdecoy",
+    "home": "https://bioconductor.org/packages/3.14/bioc/html/TargetDecoy.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-targetdecoy",
+    "id": "618180965884df75bfd62caa",
+    "latest_version": "1.12.0",
+    "license": "Artistic-2.0",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:30.211000+00:00",
+    "name": "bioconductor-targetdecoy",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.12.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-targetdecoy/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-targetdecoy/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-targetdecoy/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-targetdecoy/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-targetdecoy/1.12.0",
+            "version": "1.12.0"
+        }
+    ],
+    "revision": 11,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Diagnostic Plots to Evaluate the Target Decoy Approach",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-targetdecoy",
+    "versions": [
+        "1.0.0",
+        "1.4.0",
+        "1.6.0",
+        "1.8.0",
+        "1.12.0"
+    ],
+    "watchers": 1
+}

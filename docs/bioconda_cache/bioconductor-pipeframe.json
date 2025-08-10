@@ -1,0 +1,953 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r42hdfd78af_0",
+        "r36_1",
+        "r40hdfd78af_1",
+        "r43hdfd78af_0",
+        "r40_0",
+        "r44hdfd78af_0",
+        "r36_0",
+        "r41hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-08-12 22:39:19.118000+00:00",
+    "description": "pipeFrame is an R package for building a componentized bioinformatics pipeline. Each step in this pipeline is wrapped in the framework, so the connection among steps is created seamlessly and automatically. Users could focus more on fine-tuning arguments rather than spending a lot of time on transforming file format, passing task outputs to task inputs or installing the dependencies. Componentized step elements can be customized into other new pipelines flexibly as well. This pipeline can be split into several important functional steps, so it is much easier for users to understand the complex arguments from each step rather than parameter combination from the whole pipeline. At the same time, componentized pipeline can restart at the breakpoint and avoid rerunning the whole pipeline, which may save a lot of time for users on pipeline tuning or such issues as power off or process other interrupts.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biostrings >=2.52.0,<2.53.0",
+                    "bioconductor-bsgenome >=1.52.0,<1.53.0",
+                    "bioconductor-genomeinfodb >=1.20.0,<1.21.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-digest",
+                    "r-magrittr",
+                    "r-visnetwork"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1565649239239
+            },
+            "basename": "noarch/bioconductor-pipeframe-1.0.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-digest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-visnetwork",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pipeframe/1.0.0/noarch/bioconductor-pipeframe-1.0.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-pipeframe/1.0.0/noarch/bioconductor-pipeframe-1.0.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ca44b3cc23ee5b93a48455a1ee5849bb",
+            "ndownloads": 2689,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1192223,
+            "type": "conda",
+            "upload_time": "2019-08-12 22:39:19.992000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.54.0,<2.55.0",
+                    "bioconductor-bsgenome >=1.54.0,<1.55.0",
+                    "bioconductor-genomeinfodb >=1.22.0,<1.23.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-digest",
+                    "r-magrittr",
+                    "r-visnetwork"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572866363241
+            },
+            "basename": "noarch/bioconductor-pipeframe-1.2.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-digest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-visnetwork",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pipeframe/1.2.0/noarch/bioconductor-pipeframe-1.2.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pipeframe/1.2.0/noarch/bioconductor-pipeframe-1.2.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d64091466ca3fe435725a7ac460ca1b1",
+            "ndownloads": 2713,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1213663,
+            "type": "conda",
+            "upload_time": "2019-11-04 11:24:46.632000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.56.0,<2.57.0",
+                    "bioconductor-bsgenome >=1.56.0,<1.57.0",
+                    "bioconductor-genomeinfodb >=1.24.0,<1.25.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-digest",
+                    "r-magrittr",
+                    "r-visnetwork"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589190036173
+            },
+            "basename": "noarch/bioconductor-pipeframe-1.4.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.56.0,<2.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-digest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-visnetwork",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pipeframe/1.4.0/noarch/bioconductor-pipeframe-1.4.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pipeframe/1.4.0/noarch/bioconductor-pipeframe-1.4.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "da6d742b00cc296642cf39e1b6579385",
+            "ndownloads": 2691,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1207053,
+            "type": "conda",
+            "upload_time": "2020-05-11 09:46:09.269000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-bsgenome >=1.58.0,<1.59.0",
+                    "bioconductor-genomeinfodb >=1.26.0,<1.27.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-digest",
+                    "r-magrittr",
+                    "r-visnetwork"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604153232833
+            },
+            "basename": "noarch/bioconductor-pipeframe-1.6.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-digest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-visnetwork",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pipeframe/1.6.0/noarch/bioconductor-pipeframe-1.6.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pipeframe/1.6.0/noarch/bioconductor-pipeframe-1.6.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "10a123d6783213d94adf2735d4cc5e8f",
+            "ndownloads": 272,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1203877,
+            "type": "conda",
+            "upload_time": "2020-10-31 14:13:18.500000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-bsgenome >=1.58.0,<1.59.0",
+                    "bioconductor-genomeinfodb >=1.26.0,<1.27.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-digest",
+                    "r-magrittr",
+                    "r-visnetwork"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617435484373
+            },
+            "basename": "noarch/bioconductor-pipeframe-1.6.0-r40hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-digest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-visnetwork",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pipeframe/1.6.0/noarch/bioconductor-pipeframe-1.6.0-r40hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-pipeframe/1.6.0/noarch/bioconductor-pipeframe-1.6.0-r40hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ba06b7e5ee2b93c84461924db052a9b4",
+            "ndownloads": 2654,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1205182,
+            "type": "conda",
+            "upload_time": "2021-04-03 07:51:20.337000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.60.0,<2.61.0",
+                    "bioconductor-bsgenome >=1.60.0,<1.61.0",
+                    "bioconductor-genomeinfodb >=1.28.0,<1.29.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-digest",
+                    "r-magrittr",
+                    "r-visnetwork"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622620817730
+            },
+            "basename": "noarch/bioconductor-pipeframe-1.8.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.60.0,<2.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-digest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-visnetwork",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pipeframe/1.8.0/noarch/bioconductor-pipeframe-1.8.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pipeframe/1.8.0/noarch/bioconductor-pipeframe-1.8.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "76486a31417771ebd1c6424cd439e20c",
+            "ndownloads": 2681,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1201738,
+            "type": "conda",
+            "upload_time": "2021-06-02 08:06:22.860000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-bsgenome >=1.62.0,<1.63.0",
+                    "bioconductor-genomeinfodb >=1.30.0,<1.31.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-digest",
+                    "r-magrittr",
+                    "r-rmarkdown",
+                    "r-visnetwork"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636324759414
+            },
+            "basename": "noarch/bioconductor-pipeframe-1.10.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-digest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rmarkdown",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-visnetwork",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pipeframe/1.10.0/noarch/bioconductor-pipeframe-1.10.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pipeframe/1.10.0/noarch/bioconductor-pipeframe-1.10.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "82a2db3e625803847e8c44c452fa7042",
+            "ndownloads": 2562,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1164012,
+            "type": "conda",
+            "upload_time": "2021-11-07 22:47:48.170000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-bsgenome >=1.66.0,<1.67.0",
+                    "bioconductor-genomeinfodb >=1.34.0,<1.35.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-digest",
+                    "r-magrittr",
+                    "r-rmarkdown",
+                    "r-visnetwork"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667861927596
+            },
+            "basename": "noarch/bioconductor-pipeframe-1.14.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pipeframe/1.14.0/noarch/bioconductor-pipeframe-1.14.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pipeframe/1.14.0/noarch/bioconductor-pipeframe-1.14.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f42b46e74a7d4152497a3da859170df7",
+            "ndownloads": 1860,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1166944,
+            "type": "conda",
+            "upload_time": "2022-11-07 23:03:46.065000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.68.0,<2.69.0",
+                    "bioconductor-bsgenome >=1.68.0,<1.69.0",
+                    "bioconductor-genomeinfodb >=1.36.0,<1.37.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-digest",
+                    "r-magrittr",
+                    "r-rmarkdown",
+                    "r-visnetwork"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689299887336
+            },
+            "basename": "noarch/bioconductor-pipeframe-1.16.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pipeframe/1.16.0/noarch/bioconductor-pipeframe-1.16.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pipeframe/1.16.0/noarch/bioconductor-pipeframe-1.16.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "cfe1f0dede2e6b7d95e920193e8ebcce",
+            "ndownloads": 1300,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1190294,
+            "type": "conda",
+            "upload_time": "2023-07-14 02:03:49.532000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.70.0,<2.71.0",
+                    "bioconductor-bsgenome >=1.70.0,<1.71.0",
+                    "bioconductor-genomeinfodb >=1.38.0,<1.39.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-digest",
+                    "r-magrittr",
+                    "r-rmarkdown",
+                    "r-visnetwork"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1702488920657
+            },
+            "basename": "noarch/bioconductor-pipeframe-1.18.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pipeframe/1.18.0/noarch/bioconductor-pipeframe-1.18.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pipeframe/1.18.0/noarch/bioconductor-pipeframe-1.18.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e3eaadda2f47bf7b075925032be2713f",
+            "ndownloads": 1067,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1192842,
+            "type": "conda",
+            "upload_time": "2023-12-13 17:38:24.994000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.74.0,<2.75.0",
+                    "bioconductor-bsgenome >=1.74.0,<1.75.0",
+                    "bioconductor-genomeinfodb >=1.42.0,<1.43.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-digest",
+                    "r-magrittr",
+                    "r-rmarkdown",
+                    "r-visnetwork"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1735494037190
+            },
+            "basename": "noarch/bioconductor-pipeframe-1.22.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-pipeframe/1.22.0/noarch/bioconductor-pipeframe-1.22.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-pipeframe/1.22.0/noarch/bioconductor-pipeframe-1.22.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a32face9fd3ff2cf9c4b3db8897bb1a0",
+            "ndownloads": 104,
+            "owner": "bioconda",
+            "sha256": "104a65b07ff3d74f8dadaefadb937f10e4e4413987d1ed6ba1c4c57e18275f2f",
+            "size": 1199666,
+            "type": "conda",
+            "upload_time": "2024-12-29 17:43:01.231000+00:00",
+            "version": "1.22.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-pipeframe",
+    "home": "https://bioconductor.org/packages/3.9/bioc/html/pipeFrame.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-pipeframe",
+    "id": "5d51ea977870581667c26d7a",
+    "latest_version": "1.22.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:18.231000+00:00",
+    "name": "bioconductor-pipeframe",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.22.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pipeframe/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pipeframe/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pipeframe/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pipeframe/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pipeframe/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pipeframe/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pipeframe/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pipeframe/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pipeframe/1.18.0",
+            "version": "1.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-pipeframe/1.22.0",
+            "version": "1.22.0"
+        }
+    ],
+    "revision": 21,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Pipeline framework for bioinformatics in R",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-pipeframe",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.4.0",
+        "1.6.0",
+        "1.8.0",
+        "1.10.0",
+        "1.14.0",
+        "1.16.0",
+        "1.18.0",
+        "1.22.0"
+    ],
+    "watchers": 1
+}

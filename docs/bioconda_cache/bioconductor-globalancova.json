@@ -1,0 +1,3946 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r40hd029910_1",
+        "r44h3df3fcb_0",
+        "r341h470a237_0",
+        "r351h470a237_0",
+        "r41haba8685_1",
+        "r41h5c21468_1",
+        "r36h516909a_0",
+        "r44h59b44dc_2",
+        "r36h01d97ff_1",
+        "r40h68a2ddb_1",
+        "r44h2f393c0_0",
+        "r3.4.1_0",
+        "r44h2f393c0_2",
+        "r42h4c50009_1",
+        "r43ha9d7317_0",
+        "r40h037d062_0",
+        "r42ha9d7317_1",
+        "r40h8909d69_0",
+        "r41h68a2ddb_0",
+        "r44h3df3fcb_2",
+        "r351h14c3975_0",
+        "r42hc0cfd56_0",
+        "r43h4c50009_0",
+        "r41h3be46a4_2",
+        "r36h516909a_1",
+        "r41hc0cfd56_2",
+        "r44h1b44f6e_1",
+        "r351h1de35cc_0",
+        "r44h2f393c0_1",
+        "r41hd029910_0",
+        "r44h1b44f6e_2",
+        "r36h01d97ff_0",
+        "r42h3be46a4_0",
+        "r44h3df3fcb_1"
+    ],
+    "conda_platforms": [
+        "osx-arm64",
+        "osx-64",
+        "linux-aarch64",
+        "linux-64"
+    ],
+    "created_at": "2018-01-31 16:06:03.409000+00:00",
+    "description": "The association between a variable of interest (e.g. two groups) and the global pattern of a group of variables (e.g. a gene set) is tested via a global F-test. We give the following arguments in support of the GlobalAncova approach: After appropriate normalisation, gene-expression-data appear rather symmetrical and outliers are no real problem, so least squares should be rather robust. ANCOVA with interaction yields saturated data modelling e.g. different means per group and gene. Covariate adjustment can help to correct for possible selection bias. Variance homogeneity and uncorrelated residuals cannot be expected. Application of ordinary least squares gives unbiased, but no longer optimal estimates (Gauss-Markov-Aitken). Therefore, using the classical F-test is inappropriate, due to correlation. The test statistic however mirrors deviations from the null hypothesis. In combination with a permutation approach, empirical significance levels can be approximated. Alternatively, an approximation yields asymptotic p-values. The framework is generalized to groups of categorical variables or even mixed data by a likelihood ratio approach. Closed and hierarchical testing procedures are supported. This work was supported by the NGFN grant 01 GR 0459, BMBF, Germany and BMBF grant 01ZX1309B, Germany.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate",
+                    "bioconductor-annotationdbi",
+                    "bioconductor-globaltest",
+                    "r-base 3.4.1*",
+                    "r-corpcor"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-globalancova-3.46.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/3.46.0/linux-64/bioconductor-globalancova-3.46.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/3.46.0/linux-64/bioconductor-globalancova-3.46.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "9b386d4c9c13fd3c98b1b498fb82b607",
+            "ndownloads": 609,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1173746,
+            "type": "conda",
+            "upload_time": "2018-01-31 16:06:03.981000+00:00",
+            "version": "3.46.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate",
+                    "bioconductor-annotationdbi",
+                    "bioconductor-globaltest",
+                    "r-base 3.4.1*",
+                    "r-corpcor"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-globalancova-3.46.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/3.46.0/osx-64/bioconductor-globalancova-3.46.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/3.46.0/osx-64/bioconductor-globalancova-3.46.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "21ffefcc7bc4c8ff28382d36ca7fa06d",
+            "ndownloads": 4496,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1173814,
+            "type": "conda",
+            "upload_time": "2018-01-31 16:19:22.719000+00:00",
+            "version": "3.46.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.58.0,<1.60.0",
+                    "bioconductor-annotationdbi >=1.42.1,<1.44.0",
+                    "bioconductor-globaltest >=5.34.1,<5.36.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-corpcor"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1540360347375
+            },
+            "basename": "osx-64/bioconductor-globalancova-3.48.0-r351h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.60.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.1,<1.44.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.34.1,<5.36.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/3.48.0/osx-64/bioconductor-globalancova-3.48.0-r351h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/3.48.0/osx-64/bioconductor-globalancova-3.48.0-r351h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "f7204f7efb850ebadd079fbd8f047dc2",
+            "ndownloads": 4391,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1255953,
+            "type": "conda",
+            "upload_time": "2018-10-24 05:55:58.202000+00:00",
+            "version": "3.48.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.58.0,<1.60.0",
+                    "bioconductor-annotationdbi >=1.42.1,<1.44.0",
+                    "bioconductor-globaltest >=5.34.1,<5.36.0",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "r-corpcor"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1540360488759
+            },
+            "basename": "osx-64/bioconductor-globalancova-3.48.0-r341h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.60.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.1,<1.44.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.34.1,<5.36.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/3.48.0/osx-64/bioconductor-globalancova-3.48.0-r341h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/3.48.0/osx-64/bioconductor-globalancova-3.48.0-r341h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "4578a2ad31f04b4772b593bfb2964393",
+            "ndownloads": 159,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1174901,
+            "type": "conda",
+            "upload_time": "2018-10-24 05:56:02.396000+00:00",
+            "version": "3.48.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.58.0,<1.60.0",
+                    "bioconductor-annotationdbi >=1.42.1,<1.44.0",
+                    "bioconductor-globaltest >=5.34.1,<5.36.0",
+                    "libgcc-ng >=4.9",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-corpcor"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540493824815
+            },
+            "basename": "linux-64/bioconductor-globalancova-3.48.0-r351h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.60.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.1,<1.44.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.34.1,<5.36.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/3.48.0/linux-64/bioconductor-globalancova-3.48.0-r351h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/3.48.0/linux-64/bioconductor-globalancova-3.48.0-r351h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "c1500022c047efa48b15e808a8e13154",
+            "ndownloads": 407,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1256168,
+            "type": "conda",
+            "upload_time": "2018-10-25 19:02:33.190000+00:00",
+            "version": "3.48.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.58.0,<1.60.0",
+                    "bioconductor-annotationdbi >=1.42.1,<1.44.0",
+                    "bioconductor-globaltest >=5.34.1,<5.36.0",
+                    "libgcc-ng >=4.9",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "r-corpcor"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540493710182
+            },
+            "basename": "linux-64/bioconductor-globalancova-3.48.0-r341h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.60.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.1,<1.44.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.34.1,<5.36.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/3.48.0/linux-64/bioconductor-globalancova-3.48.0-r341h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/3.48.0/linux-64/bioconductor-globalancova-3.48.0-r341h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "1b3bf873e852b5c5c1f8acb580b0dd93",
+            "ndownloads": 523,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1175849,
+            "type": "conda",
+            "upload_time": "2018-10-25 19:02:36.299000+00:00",
+            "version": "3.48.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h1de35cc_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.60.0,<1.61.0",
+                    "bioconductor-annotationdbi >=1.44.0,<1.45.0",
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-globaltest >=5.36.0,<5.37.0",
+                    "bioconductor-gseabase >=1.44.0,<1.45.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1545522169356
+            },
+            "basename": "osx-64/bioconductor-globalancova-4.0.0-r351h1de35cc_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.36.0,<5.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dendextend",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vgam",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.0.0/osx-64/bioconductor-globalancova-4.0.0-r351h1de35cc_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.0.0/osx-64/bioconductor-globalancova-4.0.0-r351h1de35cc_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "d989427e9f3825c8a178829f6ac94dfe",
+            "ndownloads": 4405,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1468617,
+            "type": "conda",
+            "upload_time": "2018-12-22 23:44:09.864000+00:00",
+            "version": "4.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h14c3975_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.60.0,<1.61.0",
+                    "bioconductor-annotationdbi >=1.44.0,<1.45.0",
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-globaltest >=5.36.0,<5.37.0",
+                    "bioconductor-gseabase >=1.44.0,<1.45.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1546427003032
+            },
+            "basename": "linux-64/bioconductor-globalancova-4.0.0-r351h14c3975_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.36.0,<5.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dendextend",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vgam",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.0.0/linux-64/bioconductor-globalancova-4.0.0-r351h14c3975_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.0.0/linux-64/bioconductor-globalancova-4.0.0-r351h14c3975_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "89219a036976d56f2c5221a68c1dc97b",
+            "ndownloads": 367,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1467924,
+            "type": "conda",
+            "upload_time": "2019-01-02 11:07:20.232000+00:00",
+            "version": "4.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotate >=1.62.0,<1.63.0",
+                    "bioconductor-annotationdbi >=1.46.0,<1.47.0",
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-globaltest >=5.38.0,<5.39.0",
+                    "bioconductor-gseabase >=1.46.0,<1.47.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1564695094044
+            },
+            "basename": "osx-64/bioconductor-globalancova-4.2.0-r36h01d97ff_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.38.0,<5.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dendextend",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vgam",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.2.0/osx-64/bioconductor-globalancova-4.2.0-r36h01d97ff_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.2.0/osx-64/bioconductor-globalancova-4.2.0-r36h01d97ff_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "081e876fea33e0800f974a124b8ab4ca",
+            "ndownloads": 4026,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1435342,
+            "type": "conda",
+            "upload_time": "2019-08-01 21:32:37.900000+00:00",
+            "version": "4.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotate >=1.62.0,<1.63.0",
+                    "bioconductor-annotationdbi >=1.46.0,<1.47.0",
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-globaltest >=5.38.0,<5.39.0",
+                    "bioconductor-gseabase >=1.46.0,<1.47.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1565105682690
+            },
+            "basename": "linux-64/bioconductor-globalancova-4.2.0-r36h516909a_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.38.0,<5.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dendextend",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vgam",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.2.0/linux-64/bioconductor-globalancova-4.2.0-r36h516909a_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.2.0/linux-64/bioconductor-globalancova-4.2.0-r36h516909a_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2e39e4f6a09f8863b8c633d4b08df717",
+            "ndownloads": 310,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1441419,
+            "type": "conda",
+            "upload_time": "2019-08-06 15:39:00.884000+00:00",
+            "version": "4.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.64.0,<1.65.0",
+                    "bioconductor-annotationdbi >=1.48.0,<1.49.0",
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-globaltest >=5.40.0,<5.41.0",
+                    "bioconductor-gseabase >=1.48.0,<1.49.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572654305496
+            },
+            "basename": "osx-64/bioconductor-globalancova-4.4.0-r36h01d97ff_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.40.0,<5.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dendextend",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vgam",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.4.0/osx-64/bioconductor-globalancova-4.4.0-r36h01d97ff_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.4.0/osx-64/bioconductor-globalancova-4.4.0-r36h01d97ff_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4f268618fe15bb487a5e52d652634199",
+            "ndownloads": 3855,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1450167,
+            "type": "conda",
+            "upload_time": "2019-11-02 00:26:02.762000+00:00",
+            "version": "4.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.64.0,<1.65.0",
+                    "bioconductor-annotationdbi >=1.48.0,<1.49.0",
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-globaltest >=5.40.0,<5.41.0",
+                    "bioconductor-gseabase >=1.48.0,<1.49.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572825740782
+            },
+            "basename": "linux-64/bioconductor-globalancova-4.4.0-r36h516909a_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.40.0,<5.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dendextend",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vgam",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.4.0/linux-64/bioconductor-globalancova-4.4.0-r36h516909a_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.4.0/linux-64/bioconductor-globalancova-4.4.0-r36h516909a_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f46a5ee9dcdf71bfe4c246f42b0530ce",
+            "ndownloads": 338,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1454228,
+            "type": "conda",
+            "upload_time": "2019-11-04 00:07:36.729000+00:00",
+            "version": "4.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h037d062_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.66.0,<1.67.0",
+                    "bioconductor-annotationdbi >=1.50.0,<1.51.0",
+                    "bioconductor-biobase >=2.48.0,<2.49.0",
+                    "bioconductor-globaltest >=5.42.0,<5.43.0",
+                    "bioconductor-gseabase >=1.50.0,<1.51.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.3.0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1589268599029
+            },
+            "basename": "linux-64/bioconductor-globalancova-4.6.0-r40h037d062_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.42.0,<5.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dendextend",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vgam",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.6.0/linux-64/bioconductor-globalancova-4.6.0-r40h037d062_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.6.0/linux-64/bioconductor-globalancova-4.6.0-r40h037d062_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "fa4be4217ea95f542945f79216e2d2af",
+            "ndownloads": 276,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1557427,
+            "type": "conda",
+            "upload_time": "2020-05-12 07:35:27.818000+00:00",
+            "version": "4.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h8909d69_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.66.0,<1.67.0",
+                    "bioconductor-annotationdbi >=1.50.0,<1.51.0",
+                    "bioconductor-biobase >=2.48.0,<2.49.0",
+                    "bioconductor-globaltest >=5.42.0,<5.43.0",
+                    "bioconductor-gseabase >=1.50.0,<1.51.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1589326916596
+            },
+            "basename": "osx-64/bioconductor-globalancova-4.6.0-r40h8909d69_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.42.0,<5.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dendextend",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vgam",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.6.0/osx-64/bioconductor-globalancova-4.6.0-r40h8909d69_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.6.0/osx-64/bioconductor-globalancova-4.6.0-r40h8909d69_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "58e6ce32ec7f1ce19d09f6e980b56e86",
+            "ndownloads": 3484,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1542853,
+            "type": "conda",
+            "upload_time": "2020-05-12 23:43:20.400000+00:00",
+            "version": "4.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h8909d69_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.68.0,<1.69.0",
+                    "bioconductor-annotationdbi >=1.52.0,<1.53.0",
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-globaltest >=5.44.0,<5.45.0",
+                    "bioconductor-gseabase >=1.52.0,<1.53.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1604146695347
+            },
+            "basename": "osx-64/bioconductor-globalancova-4.8.0-r40h8909d69_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.44.0,<5.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dendextend",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vgam",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.8.0/osx-64/bioconductor-globalancova-4.8.0-r40h8909d69_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.8.0/osx-64/bioconductor-globalancova-4.8.0-r40h8909d69_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7ead17de863d76b78e97012a20405c03",
+            "ndownloads": 3139,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1549218,
+            "type": "conda",
+            "upload_time": "2020-10-31 12:19:31.779000+00:00",
+            "version": "4.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h037d062_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.68.0,<1.69.0",
+                    "bioconductor-annotationdbi >=1.52.0,<1.53.0",
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-globaltest >=5.44.0,<5.45.0",
+                    "bioconductor-gseabase >=1.52.0,<1.53.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1604247232136
+            },
+            "basename": "linux-64/bioconductor-globalancova-4.8.0-r40h037d062_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.44.0,<5.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dendextend",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vgam",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.8.0/linux-64/bioconductor-globalancova-4.8.0-r40h037d062_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.8.0/linux-64/bioconductor-globalancova-4.8.0-r40h037d062_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "792524014768c205775fac51754fa741",
+            "ndownloads": 251,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1554455,
+            "type": "conda",
+            "upload_time": "2020-11-01 16:21:14.269000+00:00",
+            "version": "4.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h68a2ddb_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotate >=1.68.0,<1.69.0",
+                    "bioconductor-annotationdbi >=1.52.0,<1.53.0",
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-globaltest >=5.44.0,<5.45.0",
+                    "bioconductor-gseabase >=1.52.0,<1.53.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1616870865172
+            },
+            "basename": "osx-64/bioconductor-globalancova-4.8.0-r40h68a2ddb_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.44.0,<5.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dendextend",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vgam",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.8.0/osx-64/bioconductor-globalancova-4.8.0-r40h68a2ddb_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.8.0/osx-64/bioconductor-globalancova-4.8.0-r40h68a2ddb_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d8c21468a0baab53f96142702876ce79",
+            "ndownloads": 94,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1540939,
+            "type": "conda",
+            "upload_time": "2021-03-27 18:49:01.034000+00:00",
+            "version": "4.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40hd029910_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotate >=1.68.0,<1.69.0",
+                    "bioconductor-annotationdbi >=1.52.0,<1.53.0",
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-globaltest >=5.44.0,<5.45.0",
+                    "bioconductor-gseabase >=1.52.0,<1.53.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1617238349769
+            },
+            "basename": "linux-64/bioconductor-globalancova-4.8.0-r40hd029910_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.44.0,<5.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dendextend",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vgam",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.8.0/linux-64/bioconductor-globalancova-4.8.0-r40hd029910_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.8.0/linux-64/bioconductor-globalancova-4.8.0-r40hd029910_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6798a8d7e624f8493b383e4fa100ad2a",
+            "ndownloads": 382,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1572494,
+            "type": "conda",
+            "upload_time": "2021-04-01 00:59:43.539000+00:00",
+            "version": "4.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h68a2ddb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.70.0,<1.71.0",
+                    "bioconductor-annotationdbi >=1.54.0,<1.55.0",
+                    "bioconductor-biobase >=2.52.0,<2.53.0",
+                    "bioconductor-globaltest >=5.46.0,<5.47.0",
+                    "bioconductor-gseabase >=1.54.0,<1.55.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1622619605876
+            },
+            "basename": "osx-64/bioconductor-globalancova-4.10.0-r41h68a2ddb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70.0,<1.71.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.46.0,<5.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dendextend",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vgam",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.10.0/osx-64/bioconductor-globalancova-4.10.0-r41h68a2ddb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.10.0/osx-64/bioconductor-globalancova-4.10.0-r41h68a2ddb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "010d30567038981f1f75595a5be5887a",
+            "ndownloads": 2577,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1532405,
+            "type": "conda",
+            "upload_time": "2021-06-02 07:41:32.853000+00:00",
+            "version": "4.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hd029910_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.70.0,<1.71.0",
+                    "bioconductor-annotationdbi >=1.54.0,<1.55.0",
+                    "bioconductor-biobase >=2.52.0,<2.53.0",
+                    "bioconductor-globaltest >=5.46.0,<5.47.0",
+                    "bioconductor-gseabase >=1.54.0,<1.55.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1622684669854
+            },
+            "basename": "linux-64/bioconductor-globalancova-4.10.0-r41hd029910_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70.0,<1.71.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.46.0,<5.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dendextend",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vgam",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.10.0/linux-64/bioconductor-globalancova-4.10.0-r41hd029910_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.10.0/linux-64/bioconductor-globalancova-4.10.0-r41hd029910_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "dfead28f0917e116955594cfa7b5c2dc",
+            "ndownloads": 250,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1535518,
+            "type": "conda",
+            "upload_time": "2021-06-03 01:51:43.108000+00:00",
+            "version": "4.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h68a2ddb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.72.0,<1.73.0",
+                    "bioconductor-annotationdbi >=1.56.0,<1.57.0",
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-globaltest >=5.48.0,<5.49.0",
+                    "bioconductor-gseabase >=1.56.0,<1.57.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1636060442787
+            },
+            "basename": "osx-64/bioconductor-globalancova-4.12.0-r41h68a2ddb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.48.0,<5.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dendextend",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vgam",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.12.0/osx-64/bioconductor-globalancova-4.12.0-r41h68a2ddb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.12.0/osx-64/bioconductor-globalancova-4.12.0-r41h68a2ddb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "cd54faa085a481bc0725c955a0710876",
+            "ndownloads": 265,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1533211,
+            "type": "conda",
+            "upload_time": "2021-11-04 21:15:36.388000+00:00",
+            "version": "4.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hd029910_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.72.0,<1.73.0",
+                    "bioconductor-annotationdbi >=1.56.0,<1.57.0",
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-globaltest >=5.48.0,<5.49.0",
+                    "bioconductor-gseabase >=1.56.0,<1.57.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1636195841435
+            },
+            "basename": "linux-64/bioconductor-globalancova-4.12.0-r41hd029910_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.48.0,<5.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dendextend",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vgam",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.12.0/linux-64/bioconductor-globalancova-4.12.0-r41hd029910_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.12.0/linux-64/bioconductor-globalancova-4.12.0-r41hd029910_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d7fa475b44129416a599c74bd7049244",
+            "ndownloads": 216,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1539004,
+            "type": "conda",
+            "upload_time": "2021-11-06 10:58:48.335000+00:00",
+            "version": "4.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41haba8685_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotate >=1.72.0,<1.73.0",
+                    "bioconductor-annotationdbi >=1.56.0,<1.57.0",
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-globaltest >=5.48.0,<5.49.0",
+                    "bioconductor-gseabase >=1.56.0,<1.57.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1645877958889
+            },
+            "basename": "osx-64/bioconductor-globalancova-4.12.0-r41haba8685_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.48.0,<5.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dendextend",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vgam",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.12.0/osx-64/bioconductor-globalancova-4.12.0-r41haba8685_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.12.0/osx-64/bioconductor-globalancova-4.12.0-r41haba8685_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "62d50ba09921c012a1533608c90f5841",
+            "ndownloads": 2065,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1536818,
+            "type": "conda",
+            "upload_time": "2022-02-26 12:21:04.445000+00:00",
+            "version": "4.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h5c21468_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotate >=1.72.0,<1.73.0",
+                    "bioconductor-annotationdbi >=1.56.0,<1.57.0",
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-globaltest >=5.48.0,<5.49.0",
+                    "bioconductor-gseabase >=1.56.0,<1.57.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1646035580639
+            },
+            "basename": "linux-64/bioconductor-globalancova-4.12.0-r41h5c21468_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotate",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-globaltest",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.48.0,<5.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gseabase",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corpcor",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dendextend",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-vgam",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.12.0/linux-64/bioconductor-globalancova-4.12.0-r41h5c21468_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.12.0/linux-64/bioconductor-globalancova-4.12.0-r41h5c21468_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "20665e2a0309beec0986153c8e1a6a0f",
+            "ndownloads": 207,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1538899,
+            "type": "conda",
+            "upload_time": "2022-02-28 08:14:21.300000+00:00",
+            "version": "4.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hc0cfd56_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-annotate >=1.72.0,<1.73.0",
+                    "bioconductor-annotationdbi >=1.56.0,<1.57.0",
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-globaltest >=5.48.0,<5.49.0",
+                    "bioconductor-gseabase >=1.56.0,<1.57.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1663377390739
+            },
+            "basename": "linux-64/bioconductor-globalancova-4.12.0-r41hc0cfd56_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.12.0/linux-64/bioconductor-globalancova-4.12.0-r41hc0cfd56_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.12.0/linux-64/bioconductor-globalancova-4.12.0-r41hc0cfd56_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4831e90309852e7148e714ce33641855",
+            "ndownloads": 208,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1547413,
+            "type": "conda",
+            "upload_time": "2022-09-17 01:21:45.846000+00:00",
+            "version": "4.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h3be46a4_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-annotate >=1.72.0,<1.73.0",
+                    "bioconductor-annotationdbi >=1.56.0,<1.57.0",
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-globaltest >=5.48.0,<5.49.0",
+                    "bioconductor-gseabase >=1.56.0,<1.57.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1663948570265
+            },
+            "basename": "osx-64/bioconductor-globalancova-4.12.0-r41h3be46a4_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.12.0/osx-64/bioconductor-globalancova-4.12.0-r41h3be46a4_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.12.0/osx-64/bioconductor-globalancova-4.12.0-r41h3be46a4_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f4e02ec28300e8cb01d3c991cc8c0aa7",
+            "ndownloads": 77,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1545340,
+            "type": "conda",
+            "upload_time": "2022-09-23 15:57:59.693000+00:00",
+            "version": "4.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc0cfd56_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.76.0,<1.77.0",
+                    "bioconductor-annotationdbi >=1.60.0,<1.61.0",
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-globaltest >=5.52.0,<5.53.0",
+                    "bioconductor-gseabase >=1.60.0,<1.61.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1668011938564
+            },
+            "basename": "linux-64/bioconductor-globalancova-4.16.0-r42hc0cfd56_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.16.0/linux-64/bioconductor-globalancova-4.16.0-r42hc0cfd56_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.16.0/linux-64/bioconductor-globalancova-4.16.0-r42hc0cfd56_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a97c63980efa20972c997a6c493b5b01",
+            "ndownloads": 177,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1442390,
+            "type": "conda",
+            "upload_time": "2022-11-09 16:42:57.906000+00:00",
+            "version": "4.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42h3be46a4_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.76.0,<1.77.0",
+                    "bioconductor-annotationdbi >=1.60.0,<1.61.0",
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-globaltest >=5.52.0,<5.53.0",
+                    "bioconductor-gseabase >=1.60.0,<1.61.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1668014534983
+            },
+            "basename": "osx-64/bioconductor-globalancova-4.16.0-r42h3be46a4_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.16.0/osx-64/bioconductor-globalancova-4.16.0-r42h3be46a4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.16.0/osx-64/bioconductor-globalancova-4.16.0-r42h3be46a4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e076aba87f547ba3f56caacf3b0b0a57",
+            "ndownloads": 444,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1398392,
+            "type": "conda",
+            "upload_time": "2022-11-09 17:23:55.825000+00:00",
+            "version": "4.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42ha9d7317_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotate >=1.76.0,<1.77.0",
+                    "bioconductor-annotationdbi >=1.60.0,<1.61.0",
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-globaltest >=5.52.0,<5.53.0",
+                    "bioconductor-gseabase >=1.60.0,<1.61.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1685500536694
+            },
+            "basename": "linux-64/bioconductor-globalancova-4.16.0-r42ha9d7317_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.16.0/linux-64/bioconductor-globalancova-4.16.0-r42ha9d7317_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.16.0/linux-64/bioconductor-globalancova-4.16.0-r42ha9d7317_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1c1d88bab5c8f25c6a3ec93bb044a165",
+            "ndownloads": 163,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1439804,
+            "type": "conda",
+            "upload_time": "2023-05-31 02:39:33.482000+00:00",
+            "version": "4.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42h4c50009_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotate >=1.76.0,<1.77.0",
+                    "bioconductor-annotationdbi >=1.60.0,<1.61.0",
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-globaltest >=5.52.0,<5.53.0",
+                    "bioconductor-gseabase >=1.60.0,<1.61.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1685791400820
+            },
+            "basename": "osx-64/bioconductor-globalancova-4.16.0-r42h4c50009_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.16.0/osx-64/bioconductor-globalancova-4.16.0-r42h4c50009_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.16.0/osx-64/bioconductor-globalancova-4.16.0-r42h4c50009_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "dd4b4a26e16f24899ad9dca9382eed9b",
+            "ndownloads": 1269,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1405220,
+            "type": "conda",
+            "upload_time": "2023-06-03 11:24:48.375000+00:00",
+            "version": "4.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43h4c50009_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.78.0,<1.79.0",
+                    "bioconductor-annotationdbi >=1.62.0,<1.63.0",
+                    "bioconductor-biobase >=2.60.0,<2.61.0",
+                    "bioconductor-globaltest >=5.54.0,<5.55.0",
+                    "bioconductor-gseabase >=1.62.0,<1.63.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1689375777202
+            },
+            "basename": "osx-64/bioconductor-globalancova-4.18.0-r43h4c50009_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.18.0/osx-64/bioconductor-globalancova-4.18.0-r43h4c50009_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.18.0/osx-64/bioconductor-globalancova-4.18.0-r43h4c50009_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "64672148f5f8e32cff90fecd668a53a2",
+            "ndownloads": 1194,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1412043,
+            "type": "conda",
+            "upload_time": "2023-07-14 23:04:22.331000+00:00",
+            "version": "4.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43ha9d7317_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.78.0,<1.79.0",
+                    "bioconductor-annotationdbi >=1.62.0,<1.63.0",
+                    "bioconductor-biobase >=2.60.0,<2.61.0",
+                    "bioconductor-globaltest >=5.54.0,<5.55.0",
+                    "bioconductor-gseabase >=1.62.0,<1.63.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1689378190692
+            },
+            "basename": "linux-64/bioconductor-globalancova-4.18.0-r43ha9d7317_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.18.0/linux-64/bioconductor-globalancova-4.18.0-r43ha9d7317_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.18.0/linux-64/bioconductor-globalancova-4.18.0-r43ha9d7317_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7442bf08d78e1c350300c58ea628d201",
+            "ndownloads": 140,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1447058,
+            "type": "conda",
+            "upload_time": "2023-07-14 23:47:10.250000+00:00",
+            "version": "4.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43h4c50009_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.80.0,<1.81.0",
+                    "bioconductor-annotate >=1.80.0,<1.81.0a0",
+                    "bioconductor-annotationdbi >=1.64.0,<1.65.0",
+                    "bioconductor-annotationdbi >=1.64.1,<1.65.0a0",
+                    "bioconductor-biobase >=2.62.0,<2.63.0",
+                    "bioconductor-biobase >=2.62.0,<2.63.0a0",
+                    "bioconductor-globaltest >=5.56.0,<5.57.0",
+                    "bioconductor-globaltest >=5.56.0,<5.57.0a0",
+                    "bioconductor-gseabase >=1.64.0,<1.65.0",
+                    "bioconductor-gseabase >=1.64.0,<1.65.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1702402159501
+            },
+            "basename": "osx-64/bioconductor-globalancova-4.20.0-r43h4c50009_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.20.0/osx-64/bioconductor-globalancova-4.20.0-r43h4c50009_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.20.0/osx-64/bioconductor-globalancova-4.20.0-r43h4c50009_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "696680c9d77e8a78152049bbffc5601f",
+            "ndownloads": 925,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1446163,
+            "type": "conda",
+            "upload_time": "2023-12-12 17:29:20.527000+00:00",
+            "version": "4.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43ha9d7317_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.80.0,<1.81.0",
+                    "bioconductor-annotate >=1.80.0,<1.81.0a0",
+                    "bioconductor-annotationdbi >=1.64.0,<1.65.0",
+                    "bioconductor-annotationdbi >=1.64.1,<1.65.0a0",
+                    "bioconductor-biobase >=2.62.0,<2.63.0",
+                    "bioconductor-biobase >=2.62.0,<2.63.0a0",
+                    "bioconductor-globaltest >=5.56.0,<5.57.0",
+                    "bioconductor-globaltest >=5.56.0,<5.57.0a0",
+                    "bioconductor-gseabase >=1.64.0,<1.65.0",
+                    "bioconductor-gseabase >=1.64.0,<1.65.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1703250620354
+            },
+            "basename": "linux-64/bioconductor-globalancova-4.20.0-r43ha9d7317_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.20.0/linux-64/bioconductor-globalancova-4.20.0-r43ha9d7317_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.20.0/linux-64/bioconductor-globalancova-4.20.0-r43ha9d7317_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9b63ddbe7efe94cfbc7ba206387559a6",
+            "ndownloads": 139,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1423422,
+            "type": "conda",
+            "upload_time": "2023-12-22 13:13:10.134000+00:00",
+            "version": "4.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h2f393c0_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.84.0,<1.85.0",
+                    "bioconductor-annotate >=1.84.0,<1.85.0a0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0a0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0a0",
+                    "bioconductor-globaltest >=5.60.0,<5.61.0",
+                    "bioconductor-globaltest >=5.60.0,<5.61.0a0",
+                    "bioconductor-gseabase >=1.68.0,<1.69.0",
+                    "bioconductor-gseabase >=1.68.0,<1.69.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1735281083777
+            },
+            "basename": "osx-64/bioconductor-globalancova-4.24.0-r44h2f393c0_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.24.0/osx-64/bioconductor-globalancova-4.24.0-r44h2f393c0_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.24.0/osx-64/bioconductor-globalancova-4.24.0-r44h2f393c0_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7e347dd934aef4b22905ab830cb0dbc1",
+            "ndownloads": 107,
+            "owner": "bioconda",
+            "sha256": "474f46c58819d8bd18d0ce15c2ef5bbe22662a438b82f02593c4333f0f2d6a94",
+            "size": 1742118,
+            "type": "conda",
+            "upload_time": "2024-12-27 06:33:32.082000+00:00",
+            "version": "4.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h3df3fcb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotate >=1.84.0,<1.85.0",
+                    "bioconductor-annotate >=1.84.0,<1.85.0a0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0a0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0a0",
+                    "bioconductor-globaltest >=5.60.0,<5.61.0",
+                    "bioconductor-globaltest >=5.60.0,<5.61.0a0",
+                    "bioconductor-gseabase >=1.68.0,<1.69.0",
+                    "bioconductor-gseabase >=1.68.0,<1.69.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1735325074818
+            },
+            "basename": "linux-64/bioconductor-globalancova-4.24.0-r44h3df3fcb_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.24.0/linux-64/bioconductor-globalancova-4.24.0-r44h3df3fcb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.24.0/linux-64/bioconductor-globalancova-4.24.0-r44h3df3fcb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "771c7cc5519d9551622923a2141ae2ab",
+            "ndownloads": 101,
+            "owner": "bioconda",
+            "sha256": "68b731322f9066d041414725303f6d140b18d4f1accdb3b6b20b45350cf05ac8",
+            "size": 1739825,
+            "type": "conda",
+            "upload_time": "2024-12-27 18:46:33.665000+00:00",
+            "version": "4.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h3df3fcb_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotate >=1.84.0,<1.85.0",
+                    "bioconductor-annotate >=1.84.0,<1.85.0a0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0a0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0a0",
+                    "bioconductor-globaltest >=5.60.0,<5.61.0",
+                    "bioconductor-globaltest >=5.60.0,<5.61.0a0",
+                    "bioconductor-gseabase >=1.68.0,<1.69.0",
+                    "bioconductor-gseabase >=1.68.0,<1.69.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1738806302730
+            },
+            "basename": "linux-64/bioconductor-globalancova-4.24.0-r44h3df3fcb_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.24.0/linux-64/bioconductor-globalancova-4.24.0-r44h3df3fcb_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.24.0/linux-64/bioconductor-globalancova-4.24.0-r44h3df3fcb_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "213e0aefdfcca0579b2c4c23d02843c8",
+            "ndownloads": 86,
+            "owner": "bioconda",
+            "sha256": "846ca730cbf14bec45c1360e6cfcad78c63ece436766e17ef9af31091918ef54",
+            "size": 1742898,
+            "type": "conda",
+            "upload_time": "2025-02-06 06:55:23.962000+00:00",
+            "version": "4.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "r44h1b44f6e_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotate >=1.84.0,<1.85.0",
+                    "bioconductor-annotate >=1.84.0,<1.85.0a0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0a0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0a0",
+                    "bioconductor-globaltest >=5.60.0,<5.61.0",
+                    "bioconductor-globaltest >=5.60.0,<5.61.0a0",
+                    "bioconductor-gseabase >=1.68.0,<1.69.0",
+                    "bioconductor-gseabase >=1.68.0,<1.69.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1738806017112
+            },
+            "basename": "osx-arm64/bioconductor-globalancova-4.24.0-r44h1b44f6e_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.24.0/osx-arm64/bioconductor-globalancova-4.24.0-r44h1b44f6e_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.24.0/osx-arm64/bioconductor-globalancova-4.24.0-r44h1b44f6e_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f1731a0e2ba15509f7f415e610875f2c",
+            "ndownloads": 22,
+            "owner": "bioconda",
+            "sha256": "d4b18bb3d058e585e966b38b46d4cf34c18fc2435e5963186622877902ea570b",
+            "size": 1740923,
+            "type": "conda",
+            "upload_time": "2025-02-06 06:56:59.525000+00:00",
+            "version": "4.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h2f393c0_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotate >=1.84.0,<1.85.0",
+                    "bioconductor-annotate >=1.84.0,<1.85.0a0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0a0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0a0",
+                    "bioconductor-globaltest >=5.60.0,<5.61.0",
+                    "bioconductor-globaltest >=5.60.0,<5.61.0a0",
+                    "bioconductor-gseabase >=1.68.0,<1.69.0",
+                    "bioconductor-gseabase >=1.68.0,<1.69.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1738807853744
+            },
+            "basename": "osx-64/bioconductor-globalancova-4.24.0-r44h2f393c0_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.24.0/osx-64/bioconductor-globalancova-4.24.0-r44h2f393c0_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.24.0/osx-64/bioconductor-globalancova-4.24.0-r44h2f393c0_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5716e87e47c0de2b7363736938af72bc",
+            "ndownloads": 29,
+            "owner": "bioconda",
+            "sha256": "8d52c9ac39ace4eaa26dbc567ca64c259b906ae3b5c7c1a32b412e95f809a26e",
+            "size": 1734399,
+            "type": "conda",
+            "upload_time": "2025-02-06 06:57:29.558000+00:00",
+            "version": "4.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h3df3fcb_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-annotate >=1.84.0,<1.85.0",
+                    "bioconductor-annotate >=1.84.0,<1.85.0a0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0a0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0a0",
+                    "bioconductor-globaltest >=5.60.0,<5.61.0",
+                    "bioconductor-globaltest >=5.60.0,<5.61.0a0",
+                    "bioconductor-gseabase >=1.68.0,<1.69.0",
+                    "bioconductor-gseabase >=1.68.0,<1.69.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1738828712778
+            },
+            "basename": "linux-64/bioconductor-globalancova-4.24.0-r44h3df3fcb_2.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.24.0/linux-64/bioconductor-globalancova-4.24.0-r44h3df3fcb_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.24.0/linux-64/bioconductor-globalancova-4.24.0-r44h3df3fcb_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "65944f6e11ceacbc7adc07a297b191f9",
+            "ndownloads": 112,
+            "owner": "bioconda",
+            "sha256": "e29aa4302cf6071f2d4ad235439daad16771da77a9659a9872d8a70c5bbf0bcb",
+            "size": 1735489,
+            "type": "conda",
+            "upload_time": "2025-02-06 21:32:30.125000+00:00",
+            "version": "4.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "r44h59b44dc_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-annotate >=1.84.0,<1.85.0",
+                    "bioconductor-annotate >=1.84.0,<1.85.0a0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0a0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0a0",
+                    "bioconductor-globaltest >=5.60.0,<5.61.0",
+                    "bioconductor-globaltest >=5.60.0,<5.61.0a0",
+                    "bioconductor-gseabase >=1.68.0,<1.69.0",
+                    "bioconductor-gseabase >=1.68.0,<1.69.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1738828493701
+            },
+            "basename": "linux-aarch64/bioconductor-globalancova-4.24.0-r44h59b44dc_2.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.24.0/linux-aarch64/bioconductor-globalancova-4.24.0-r44h59b44dc_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.24.0/linux-aarch64/bioconductor-globalancova-4.24.0-r44h59b44dc_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "18179f91e3ac54aa400d6973a8750080",
+            "ndownloads": 41,
+            "owner": "bioconda",
+            "sha256": "22c1d54a3117779a97c52b1e569412c7b03cfd8c6d3646bad8e5177a1b07be40",
+            "size": 1740326,
+            "type": "conda",
+            "upload_time": "2025-02-06 21:32:30.546000+00:00",
+            "version": "4.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h2f393c0_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-annotate >=1.84.0,<1.85.0",
+                    "bioconductor-annotate >=1.84.0,<1.85.0a0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0a0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0a0",
+                    "bioconductor-globaltest >=5.60.0,<5.61.0",
+                    "bioconductor-globaltest >=5.60.0,<5.61.0a0",
+                    "bioconductor-gseabase >=1.68.0,<1.69.0",
+                    "bioconductor-gseabase >=1.68.0,<1.69.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1738829637274
+            },
+            "basename": "osx-64/bioconductor-globalancova-4.24.0-r44h2f393c0_2.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.24.0/osx-64/bioconductor-globalancova-4.24.0-r44h2f393c0_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.24.0/osx-64/bioconductor-globalancova-4.24.0-r44h2f393c0_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e8e9e407589c6a5af7137ae8783049b3",
+            "ndownloads": 137,
+            "owner": "bioconda",
+            "sha256": "ae20aa78a09ca87114010fe986ee600c102cd2884ea11ba72b4cf35808bfa1d7",
+            "size": 1731434,
+            "type": "conda",
+            "upload_time": "2025-02-06 21:36:09.386000+00:00",
+            "version": "4.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "r44h1b44f6e_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-annotate >=1.84.0,<1.85.0",
+                    "bioconductor-annotate >=1.84.0,<1.85.0a0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0",
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0a0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0a0",
+                    "bioconductor-globaltest >=5.60.0,<5.61.0",
+                    "bioconductor-globaltest >=5.60.0,<5.61.0a0",
+                    "bioconductor-gseabase >=1.68.0,<1.69.0",
+                    "bioconductor-gseabase >=1.68.0,<1.69.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-corpcor",
+                    "r-dendextend",
+                    "r-vgam"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1738828514082
+            },
+            "basename": "osx-arm64/bioconductor-globalancova-4.24.0-r44h1b44f6e_2.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-globalancova/4.24.0/osx-arm64/bioconductor-globalancova-4.24.0-r44h1b44f6e_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-globalancova/4.24.0/osx-arm64/bioconductor-globalancova-4.24.0-r44h1b44f6e_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "38f2f9ff1a17885591838def0d8f7ed0",
+            "ndownloads": 23,
+            "owner": "bioconda",
+            "sha256": "6c525ee9b51429d774bb9b7b3dfdc2b89a9573a8b251db4c84f1ef750eab6e7f",
+            "size": 1734713,
+            "type": "conda",
+            "upload_time": "2025-02-06 22:02:51.153000+00:00",
+            "version": "4.24.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-globalancova",
+    "home": "http://bioconductor.org/packages/3.6/bioc/html/GlobalAncova.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-globalancova",
+    "id": "5a71e96b55e6db121082cf86",
+    "latest_version": "4.24.0",
+    "license": "GPL (>= 2)",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:28:54.544000+00:00",
+    "name": "bioconductor-globalancova",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "4.24.0",
+        "linux-aarch64": "4.24.0",
+        "osx-64": "4.24.0",
+        "osx-arm64": "4.24.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-globalancova/3.46.0",
+            "version": "3.46.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-globalancova/3.48.0",
+            "version": "3.48.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-globalancova/4.0.0",
+            "version": "4.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-globalancova/4.2.0",
+            "version": "4.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-globalancova/4.4.0",
+            "version": "4.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-globalancova/4.6.0",
+            "version": "4.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-globalancova/4.8.0",
+            "version": "4.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-globalancova/4.10.0",
+            "version": "4.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-globalancova/4.12.0",
+            "version": "4.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-globalancova/4.16.0",
+            "version": "4.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-globalancova/4.18.0",
+            "version": "4.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-globalancova/4.20.0",
+            "version": "4.20.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-globalancova/4.24.0",
+            "version": "4.24.0"
+        }
+    ],
+    "revision": 35,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Global test for groups of variables via model comparisons",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-globalancova",
+    "versions": [
+        "3.46.0",
+        "3.48.0",
+        "4.0.0",
+        "4.2.0",
+        "4.4.0",
+        "4.6.0",
+        "4.8.0",
+        "4.10.0",
+        "4.12.0",
+        "4.16.0",
+        "4.18.0",
+        "4.20.0",
+        "4.24.0"
+    ],
+    "watchers": 1
+}

@@ -1,0 +1,746 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r44hdfd78af_0",
+        "r36_0",
+        "r40_0",
+        "r41hdfd78af_0",
+        "r43hdfd78af_0",
+        "r42hdfd78af_0",
+        "r40hdfd78af_1"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-11-02 22:28:03.777000+00:00",
+    "description": "RNA-sense tool compares RNA-seq time curves in two experimental conditions, i.e. wild-type and mutant, and works in three steps. At Step 1, it builds expression profile for each transcript in one condition (i.e. wild-type) and tests if the transcript abundance grows or decays significantly. Dynamic transcripts are then sorted to non-overlapping groups (time profiles) by the time point of switch up or down. At Step 2, RNA-sense outputs the groups of differentially expressed transcripts, which are up- or downregulated in the mutant compared to the wild-type at each time point. At Step 3, Correlations (Fisher's exact test) between the outputs of Step 1 (switch up- and switch down- time profile groups) and the outputs of Step2 (differentially expressed transcript groups) are calculated. The results of the correlation analysis are printed as two-dimensional color plot, with time profiles and differential expression groups at y- and x-axis, respectively, and facilitates the biological interpretation of the data.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-qvalue >=2.18.0,<2.19.0",
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-ggplot2",
+                    "r-nbpseq"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572733359483
+            },
+            "basename": "noarch/bioconductor-rnasense-1.0.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-qvalue",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nbpseq",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnasense/1.0.0/noarch/bioconductor-rnasense-1.0.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnasense/1.0.0/noarch/bioconductor-rnasense-1.0.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9785491c82741d91ccf110af9f7620af",
+            "ndownloads": 2356,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 995263,
+            "type": "conda",
+            "upload_time": "2019-11-02 22:28:04.563000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-qvalue >=2.20.0,<2.21.0",
+                    "bioconductor-summarizedexperiment >=1.18.0,<1.19.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-ggplot2",
+                    "r-nbpseq"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589351578269
+            },
+            "basename": "noarch/bioconductor-rnasense-1.2.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-qvalue",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nbpseq",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnasense/1.2.0/noarch/bioconductor-rnasense-1.2.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnasense/1.2.0/noarch/bioconductor-rnasense-1.2.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "deefe37e40f638d23b8d84bd489758f5",
+            "ndownloads": 2387,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 991084,
+            "type": "conda",
+            "upload_time": "2020-05-13 06:38:41.173000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-qvalue >=2.22.0,<2.23.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-ggplot2",
+                    "r-nbpseq"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604143324264
+            },
+            "basename": "noarch/bioconductor-rnasense-1.4.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-qvalue",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.22.0,<2.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nbpseq",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnasense/1.4.0/noarch/bioconductor-rnasense-1.4.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnasense/1.4.0/noarch/bioconductor-rnasense-1.4.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "80c9135f7ac3cc23f7264418b4d38336",
+            "ndownloads": 247,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 992292,
+            "type": "conda",
+            "upload_time": "2020-10-31 11:28:00.248000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-qvalue >=2.22.0,<2.23.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-ggplot2",
+                    "r-nbpseq"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617006129956
+            },
+            "basename": "noarch/bioconductor-rnasense-1.4.0-r40hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-qvalue",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.22.0,<2.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nbpseq",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnasense/1.4.0/noarch/bioconductor-rnasense-1.4.0-r40hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnasense/1.4.0/noarch/bioconductor-rnasense-1.4.0-r40hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "df6c2a8e8adf2eed6d7857cbc067db70",
+            "ndownloads": 2615,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 995344,
+            "type": "conda",
+            "upload_time": "2021-03-29 08:28:54.393000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-qvalue >=2.24.0,<2.25.0",
+                    "bioconductor-summarizedexperiment >=1.22.0,<1.23.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-ggplot2",
+                    "r-nbpseq"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622738834041
+            },
+            "basename": "noarch/bioconductor-rnasense-1.6.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-qvalue",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nbpseq",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnasense/1.6.0/noarch/bioconductor-rnasense-1.6.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnasense/1.6.0/noarch/bioconductor-rnasense-1.6.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1e22d5dd748e65dcccf1a7a5726b69a9",
+            "ndownloads": 2634,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 995745,
+            "type": "conda",
+            "upload_time": "2021-06-03 16:53:39.615000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-qvalue >=2.26.0,<2.27.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-ggplot2",
+                    "r-nbpseq"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636019769452
+            },
+            "basename": "noarch/bioconductor-rnasense-1.8.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-qvalue",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nbpseq",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnasense/1.8.0/noarch/bioconductor-rnasense-1.8.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnasense/1.8.0/noarch/bioconductor-rnasense-1.8.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6384dc7fe3074e47fc2677371f25d94c",
+            "ndownloads": 2485,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 983579,
+            "type": "conda",
+            "upload_time": "2021-11-04 10:03:23.886000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-qvalue >=2.30.0,<2.31.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-ggplot2",
+                    "r-nbpseq"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667698186355
+            },
+            "basename": "noarch/bioconductor-rnasense-1.12.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnasense/1.12.0/noarch/bioconductor-rnasense-1.12.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnasense/1.12.0/noarch/bioconductor-rnasense-1.12.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "730d42e4ffc67b83044d29ba6efd3210",
+            "ndownloads": 1844,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 994360,
+            "type": "conda",
+            "upload_time": "2022-11-06 01:34:07.170000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-qvalue >=2.32.0,<2.33.0",
+                    "bioconductor-summarizedexperiment >=1.30.0,<1.31.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-ggplot2",
+                    "r-nbpseq"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689511897070
+            },
+            "basename": "noarch/bioconductor-rnasense-1.14.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnasense/1.14.0/noarch/bioconductor-rnasense-1.14.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnasense/1.14.0/noarch/bioconductor-rnasense-1.14.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2ed6d2e5869b21f872b808d90dc32e28",
+            "ndownloads": 1316,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 991238,
+            "type": "conda",
+            "upload_time": "2023-07-16 12:56:09.329000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-qvalue >=2.34.0,<2.35.0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-ggplot2",
+                    "r-nbpseq"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1702307339492
+            },
+            "basename": "noarch/bioconductor-rnasense-1.16.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnasense/1.16.0/noarch/bioconductor-rnasense-1.16.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnasense/1.16.0/noarch/bioconductor-rnasense-1.16.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ad7229540ffa55cfa6b3996ac7521e4a",
+            "ndownloads": 1028,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 992495,
+            "type": "conda",
+            "upload_time": "2023-12-11 15:12:05.060000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-qvalue >=2.38.0,<2.39.0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-ggplot2",
+                    "r-nbpseq"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1734771615838
+            },
+            "basename": "noarch/bioconductor-rnasense-1.20.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnasense/1.20.0/noarch/bioconductor-rnasense-1.20.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnasense/1.20.0/noarch/bioconductor-rnasense-1.20.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8488d19deef8a88c1ff10eb51ec6f372",
+            "ndownloads": 269,
+            "owner": "bioconda",
+            "sha256": "33a4cce125af9c5052fd3af922b1108130eb4520a35c0ac6972ea93b6fbee134",
+            "size": 1009852,
+            "type": "conda",
+            "upload_time": "2024-12-21 09:02:10.496000+00:00",
+            "version": "1.20.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-rnasense",
+    "home": "https://bioconductor.org/packages/3.10/bioc/html/RNAsense.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-rnasense",
+    "id": "5dbe02f378705870136b5edc",
+    "latest_version": "1.20.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:20.024000+00:00",
+    "name": "bioconductor-rnasense",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.20.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnasense/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnasense/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnasense/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnasense/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnasense/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnasense/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnasense/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnasense/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnasense/1.20.0",
+            "version": "1.20.0"
+        }
+    ],
+    "revision": 19,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Analysis of Time-Resolved RNA-Seq Data",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-rnasense",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.4.0",
+        "1.6.0",
+        "1.8.0",
+        "1.12.0",
+        "1.14.0",
+        "1.16.0",
+        "1.20.0"
+    ],
+    "watchers": 1
+}

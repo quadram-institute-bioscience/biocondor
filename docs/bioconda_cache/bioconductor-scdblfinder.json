@@ -1,0 +1,1391 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r44hdfd78af_0",
+        "r36_0",
+        "r40hdfd78af_1",
+        "r43hdfd78af_0",
+        "r40_0",
+        "r42hdfd78af_0",
+        "r41hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-11-05 01:34:35.257000+00:00",
+    "description": "The scDblFinder package gathers various methods for the detection and handling of doublets/multiplets in single-cell sequencing data (i.e. multiple cells captured within the same droplet or reaction volume). It includes methods formerly found in the scran package, the new fast and comprehensive scDblFinder method, and a reimplementation of the Amulet detection method for single-cell ATAC-seq.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+                    "bioconductor-scater >=1.14.0,<1.15.0",
+                    "bioconductor-scran >=1.14.0,<1.15.0",
+                    "bioconductor-singlecellexperiment >=1.8.0,<1.9.0",
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-randomforest"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572917351257
+            },
+            "basename": "noarch/bioconductor-scdblfinder-1.0.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scdblfinder/1.0.0/noarch/bioconductor-scdblfinder-1.0.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scdblfinder/1.0.0/noarch/bioconductor-scdblfinder-1.0.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "05a6feaca10b7f2067dd361897231c90",
+            "ndownloads": 2799,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 914465,
+            "type": "conda",
+            "upload_time": "2019-11-05 01:34:36.146000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocneighbors >=1.6.0,<1.7.0",
+                    "bioconductor-biocparallel >=1.22.0,<1.23.0",
+                    "bioconductor-biocsingular >=1.4.0,<1.5.0",
+                    "bioconductor-delayedarray >=0.14.0,<0.15.0",
+                    "bioconductor-scater >=1.16.0,<1.17.0",
+                    "bioconductor-scran >=1.16.0,<1.17.0",
+                    "bioconductor-singlecellexperiment >=1.10.0,<1.11.0",
+                    "bioconductor-summarizedexperiment >=1.18.0,<1.19.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-randomforest"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589157639119
+            },
+            "basename": "noarch/bioconductor-scdblfinder-1.2.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocneighbors",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocsingular",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.14.0,<0.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-randomforest",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scdblfinder/1.2.0/noarch/bioconductor-scdblfinder-1.2.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scdblfinder/1.2.0/noarch/bioconductor-scdblfinder-1.2.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6cad11fbb890ab36c22e05c93fb65e68",
+            "ndownloads": 2701,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 878382,
+            "type": "conda",
+            "upload_time": "2020-05-11 00:47:12.157000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-biocneighbors >=1.8.0,<1.9.0",
+                    "bioconductor-biocparallel >=1.24.0,<1.25.0",
+                    "bioconductor-biocsingular >=1.6.0,<1.7.0",
+                    "bioconductor-bluster >=1.0.0,<1.1.0",
+                    "bioconductor-delayedarray >=0.16.0,<0.17.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-scater >=1.18.0,<1.19.0",
+                    "bioconductor-scran >=1.18.0,<1.19.0",
+                    "bioconductor-scuttle >=1.0.0,<1.1.0",
+                    "bioconductor-singlecellexperiment >=1.12.0,<1.13.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-xgboost"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604363626676
+            },
+            "basename": "noarch/bioconductor-scdblfinder-1.4.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocneighbors",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocsingular",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bluster",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0,<1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.16.0,<0.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scuttle",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0,<1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-xgboost",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scdblfinder/1.4.0/noarch/bioconductor-scdblfinder-1.4.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scdblfinder/1.4.0/noarch/bioconductor-scdblfinder-1.4.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "387f209a2e22d71907526849ae07b8e7",
+            "ndownloads": 336,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2186063,
+            "type": "conda",
+            "upload_time": "2020-11-03 00:41:05.326000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-biocneighbors >=1.8.0,<1.9.0",
+                    "bioconductor-biocparallel >=1.24.0,<1.25.0",
+                    "bioconductor-biocsingular >=1.6.0,<1.7.0",
+                    "bioconductor-bluster >=1.0.0,<1.1.0",
+                    "bioconductor-delayedarray >=0.16.0,<0.17.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-scater >=1.18.0,<1.19.0",
+                    "bioconductor-scran >=1.18.0,<1.19.0",
+                    "bioconductor-scuttle >=1.0.0,<1.1.0",
+                    "bioconductor-singlecellexperiment >=1.12.0,<1.13.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-xgboost"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617271441205
+            },
+            "basename": "noarch/bioconductor-scdblfinder-1.4.0-r40hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocneighbors",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocsingular",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bluster",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0,<1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.16.0,<0.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scuttle",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0,<1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-xgboost",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scdblfinder/1.4.0/noarch/bioconductor-scdblfinder-1.4.0-r40hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-scdblfinder/1.4.0/noarch/bioconductor-scdblfinder-1.4.0-r40hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7cb0e36e89ed8ddedad60a51adda84dd",
+            "ndownloads": 4376,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2215118,
+            "type": "conda",
+            "upload_time": "2021-04-01 10:11:02.279000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.38.0,<0.39.0",
+                    "bioconductor-biocneighbors >=1.10.0,<1.11.0",
+                    "bioconductor-biocparallel >=1.26.0,<1.27.0",
+                    "bioconductor-biocsingular >=1.8.0,<1.9.0",
+                    "bioconductor-bluster >=1.2.0,<1.3.0",
+                    "bioconductor-delayedarray >=0.18.0,<0.19.0",
+                    "bioconductor-mbkmeans >=1.8.0,<1.9.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "bioconductor-scater >=1.20.0,<1.21.0",
+                    "bioconductor-scran >=1.20.0,<1.21.0",
+                    "bioconductor-scuttle >=1.2.0,<1.3.0",
+                    "bioconductor-singlecellexperiment >=1.14.0,<1.15.0",
+                    "bioconductor-summarizedexperiment >=1.22.0,<1.23.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-igraph",
+                    "r-matrix",
+                    "r-xgboost"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622898632681
+            },
+            "basename": "noarch/bioconductor-scdblfinder-1.6.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.38.0,<0.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocneighbors",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocsingular",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bluster",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.0,<1.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.0,<0.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-mbkmeans",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scuttle",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.0,<1.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-xgboost",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scdblfinder/1.6.0/noarch/bioconductor-scdblfinder-1.6.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scdblfinder/1.6.0/noarch/bioconductor-scdblfinder-1.6.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f0443d13d4386f1961bdc660a1ef7d31",
+            "ndownloads": 2680,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2546950,
+            "type": "conda",
+            "upload_time": "2021-06-05 13:19:42.485000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocneighbors >=1.12.0,<1.13.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-biocsingular >=1.10.0,<1.11.0",
+                    "bioconductor-bluster >=1.4.0,<1.5.0",
+                    "bioconductor-delayedarray >=0.20.0,<0.21.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-scater >=1.22.0,<1.23.0",
+                    "bioconductor-scran >=1.22.0,<1.23.0",
+                    "bioconductor-scuttle >=1.4.0,<1.5.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-igraph",
+                    "r-mass",
+                    "r-matrix",
+                    "r-xgboost"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636239297049
+            },
+            "basename": "noarch/bioconductor-scdblfinder-1.8.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocneighbors",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocsingular",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bluster",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scuttle",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-xgboost",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scdblfinder/1.8.0/noarch/bioconductor-scdblfinder-1.8.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scdblfinder/1.8.0/noarch/bioconductor-scdblfinder-1.8.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "03b2ddf953867b8ac53dd06f18c877fd",
+            "ndownloads": 4196,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2640048,
+            "type": "conda",
+            "upload_time": "2021-11-06 23:02:39.427000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biocneighbors >=1.16.0,<1.17.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-biocsingular >=1.14.0,<1.15.0",
+                    "bioconductor-bluster >=1.8.0,<1.9.0",
+                    "bioconductor-delayedarray >=0.24.0,<0.25.0",
+                    "bioconductor-genomeinfodb >=1.34.0,<1.35.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-rsamtools >=2.14.0,<2.15.0",
+                    "bioconductor-rtracklayer >=1.58.0,<1.59.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-scater >=1.26.0,<1.27.0",
+                    "bioconductor-scran >=1.26.0,<1.27.0",
+                    "bioconductor-scuttle >=1.8.0,<1.9.0",
+                    "bioconductor-singlecellexperiment >=1.20.0,<1.21.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-igraph",
+                    "r-mass",
+                    "r-matrix",
+                    "r-xgboost"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3 + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667782834148
+            },
+            "basename": "noarch/bioconductor-scdblfinder-1.12.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scdblfinder/1.12.0/noarch/bioconductor-scdblfinder-1.12.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scdblfinder/1.12.0/noarch/bioconductor-scdblfinder-1.12.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "49ccdfd50afb2a207b3b339985d32684",
+            "ndownloads": 2810,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2411284,
+            "type": "conda",
+            "upload_time": "2022-11-07 01:06:00.780000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.46.0,<0.47.0",
+                    "bioconductor-biocneighbors >=1.18.0,<1.19.0",
+                    "bioconductor-biocparallel >=1.34.0,<1.35.0",
+                    "bioconductor-biocsingular >=1.16.0,<1.17.0",
+                    "bioconductor-bluster >=1.10.0,<1.11.0",
+                    "bioconductor-delayedarray >=0.26.0,<0.27.0",
+                    "bioconductor-genomeinfodb >=1.36.0,<1.37.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-rsamtools >=2.16.0,<2.17.0",
+                    "bioconductor-rtracklayer >=1.60.0,<1.61.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "bioconductor-scater >=1.28.0,<1.29.0",
+                    "bioconductor-scran >=1.28.0,<1.29.0",
+                    "bioconductor-scuttle >=1.10.0,<1.11.0",
+                    "bioconductor-singlecellexperiment >=1.22.0,<1.23.0",
+                    "bioconductor-summarizedexperiment >=1.30.0,<1.31.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-igraph",
+                    "r-mass",
+                    "r-matrix",
+                    "r-xgboost"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3 + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1691363628362
+            },
+            "basename": "noarch/bioconductor-scdblfinder-1.14.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scdblfinder/1.14.0/noarch/bioconductor-scdblfinder-1.14.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scdblfinder/1.14.0/noarch/bioconductor-scdblfinder-1.14.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "745d840efb22e4b9690e2be3becc27c0",
+            "ndownloads": 2412,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2398801,
+            "type": "conda",
+            "upload_time": "2023-08-07 07:53:47.360000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.48.0,<0.49.0",
+                    "bioconductor-biocneighbors >=1.20.0,<1.21.0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0",
+                    "bioconductor-biocsingular >=1.18.0,<1.19.0",
+                    "bioconductor-bluster >=1.12.0,<1.13.0",
+                    "bioconductor-delayedarray >=0.28.0,<0.29.0",
+                    "bioconductor-genomeinfodb >=1.38.0,<1.39.0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0",
+                    "bioconductor-rsamtools >=2.18.0,<2.19.0",
+                    "bioconductor-rtracklayer >=1.62.0,<1.63.0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-scater >=1.30.0,<1.31.0",
+                    "bioconductor-scran >=1.30.0,<1.31.0",
+                    "bioconductor-scuttle >=1.12.0,<1.13.0",
+                    "bioconductor-singlecellexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-igraph",
+                    "r-mass",
+                    "r-matrix",
+                    "r-xgboost"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3 + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1703195427373
+            },
+            "basename": "noarch/bioconductor-scdblfinder-1.16.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scdblfinder/1.16.0/noarch/bioconductor-scdblfinder-1.16.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scdblfinder/1.16.0/noarch/bioconductor-scdblfinder-1.16.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "03a737f04734fceac968beb873e6725c",
+            "ndownloads": 3523,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2388349,
+            "type": "conda",
+            "upload_time": "2023-12-21 21:54:42.112000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-biocneighbors >=2.0.0,<2.1.0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0",
+                    "bioconductor-biocsingular >=1.22.0,<1.23.0",
+                    "bioconductor-bluster >=1.16.0,<1.17.0",
+                    "bioconductor-delayedarray >=0.32.0,<0.33.0",
+                    "bioconductor-genomeinfodb >=1.42.0,<1.43.0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0",
+                    "bioconductor-rsamtools >=2.22.0,<2.23.0",
+                    "bioconductor-rtracklayer >=1.66.0,<1.67.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-scater >=1.34.0,<1.35.0",
+                    "bioconductor-scran >=1.34.0,<1.35.0",
+                    "bioconductor-scuttle >=1.16.0,<1.17.0",
+                    "bioconductor-singlecellexperiment >=1.28.0,<1.29.0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-igraph",
+                    "r-mass",
+                    "r-matrix",
+                    "r-xgboost"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3 + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1742490131596
+            },
+            "basename": "noarch/bioconductor-scdblfinder-1.20.2-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-scdblfinder/1.20.2/noarch/bioconductor-scdblfinder-1.20.2-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-scdblfinder/1.20.2/noarch/bioconductor-scdblfinder-1.20.2-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "88da548823f071501a5cd1ae19396212",
+            "ndownloads": 490,
+            "owner": "bioconda",
+            "sha256": "8550486353fa747b634bb1bf8bdc6738636f50479381de9593b71352bdbe3e7e",
+            "size": 2444573,
+            "type": "conda",
+            "upload_time": "2025-03-20 18:00:11.239000+00:00",
+            "version": "1.20.2"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-scdblfinder",
+    "home": "https://bioconductor.org/packages/3.10/bioc/html/scDblFinder.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-scdblfinder",
+    "id": "5dc0d1ab78705816e80b5486",
+    "latest_version": "1.20.2",
+    "license": "GPL-3 + file LICENSE",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:20.333000+00:00",
+    "name": "bioconductor-scdblfinder",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.20.2"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scdblfinder/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scdblfinder/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scdblfinder/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scdblfinder/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scdblfinder/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scdblfinder/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scdblfinder/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scdblfinder/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-scdblfinder/1.20.2",
+            "version": "1.20.2"
+        }
+    ],
+    "revision": 19,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "scDblFinder",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-scdblfinder",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.4.0",
+        "1.6.0",
+        "1.8.0",
+        "1.12.0",
+        "1.14.0",
+        "1.16.0",
+        "1.20.2"
+    ],
+    "watchers": 1
+}

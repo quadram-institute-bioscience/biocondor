@@ -1,0 +1,2380 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "h2be2f5d_0",
+        "h9bd41fd_2",
+        "h0ffbbc5_1",
+        "h3972b5b_1",
+        "hd3f47d2_0",
+        "h4dd5b6e_1",
+        "hf9012cd_0",
+        "hda81887_2",
+        "h8cf9fa0_0",
+        "h1ff6639_1",
+        "hf3df60e_2"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2021-12-16 11:59:35.017000+00:00",
+    "description": "",
+    "dev_url": "https://gitlab.svi.edu.au/biocellgen-public/sgcocaller",
+    "doc_url": "https://gitlab.svi.edu.au/biocellgen-public/sgcocaller",
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h2be2f5d_0",
+                "build_number": 0,
+                "depends": [
+                    "_openmp_mutex >=4.5",
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "htslib >=1.12,<1.13.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "libgfortran-ng",
+                    "libgfortran5 >=9.4.0",
+                    "libstdcxx-ng >=9.4.0",
+                    "libzlib >=1.2.11,<1.3.0a0",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1639648289987
+            },
+            "basename": "linux-64/sgcocaller-0.3.4-h2be2f5d_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "_openmp_mutex",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12,<1.13.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran-ng",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pcre",
+                        "specs": [
+                            [
+                                ">=",
+                                "8.45,<9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.4/linux-64/sgcocaller-0.3.4-h2be2f5d_0.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.4/linux-64/sgcocaller-0.3.4-h2be2f5d_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5cd1e8b27f977752da15247724c2e608",
+            "ndownloads": 199,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 508707,
+            "type": "conda",
+            "upload_time": "2021-12-16 11:59:36.888000+00:00",
+            "version": "0.3.4"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "hd3f47d2_0",
+                "build_number": 0,
+                "depends": [
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "f2c",
+                    "htslib >=1.12,<1.13.0a0",
+                    "libcxx >=11.1.0",
+                    "libgfortran 5.*",
+                    "libgfortran5 >=9.3.0",
+                    "libzlib >=1.2.11,<1.3.0a0",
+                    "llvm-openmp >=12.0.1",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1639650054251
+            },
+            "basename": "osx-64/sgcocaller-0.3.4-hd3f47d2_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "f2c",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12,<1.13.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran",
+                        "specs": [
+                            [
+                                "==",
+                                "5."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "llvm-openmp",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pcre",
+                        "specs": [
+                            [
+                                ">=",
+                                "8.45,<9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.4/osx-64/sgcocaller-0.3.4-hd3f47d2_0.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.4/osx-64/sgcocaller-0.3.4-hd3f47d2_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9c585a7516aa2dcfc710b458d5ea3ef2",
+            "ndownloads": 2242,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 460975,
+            "type": "conda",
+            "upload_time": "2021-12-16 11:59:41.069000+00:00",
+            "version": "0.3.4"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "hd3f47d2_0",
+                "build_number": 0,
+                "depends": [
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "f2c",
+                    "htslib >=1.12,<1.13.0a0",
+                    "libcxx >=11.1.0",
+                    "libgfortran 5.*",
+                    "libgfortran5 >=9.3.0",
+                    "libzlib >=1.2.11,<1.3.0a0",
+                    "llvm-openmp >=12.0.1",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1640080961884
+            },
+            "basename": "osx-64/sgcocaller-0.3.5-hd3f47d2_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "f2c",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12,<1.13.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran",
+                        "specs": [
+                            [
+                                "==",
+                                "5."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "llvm-openmp",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pcre",
+                        "specs": [
+                            [
+                                ">=",
+                                "8.45,<9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.5/osx-64/sgcocaller-0.3.5-hd3f47d2_0.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.5/osx-64/sgcocaller-0.3.5-hd3f47d2_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4eeaabc7c8e290cc193c70fc0629e9bc",
+            "ndownloads": 2236,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 457073,
+            "type": "conda",
+            "upload_time": "2021-12-21 10:03:32.858000+00:00",
+            "version": "0.3.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h2be2f5d_0",
+                "build_number": 0,
+                "depends": [
+                    "_openmp_mutex >=4.5",
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "htslib >=1.12,<1.13.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "libgfortran-ng",
+                    "libgfortran5 >=9.4.0",
+                    "libstdcxx-ng >=9.4.0",
+                    "libzlib >=1.2.11,<1.3.0a0",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1640080762082
+            },
+            "basename": "linux-64/sgcocaller-0.3.5-h2be2f5d_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "_openmp_mutex",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12,<1.13.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran-ng",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pcre",
+                        "specs": [
+                            [
+                                ">=",
+                                "8.45,<9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.5/linux-64/sgcocaller-0.3.5-h2be2f5d_0.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.5/linux-64/sgcocaller-0.3.5-h2be2f5d_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9e8c51186fcf0fb4edfe6a39324c2b01",
+            "ndownloads": 196,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 510875,
+            "type": "conda",
+            "upload_time": "2021-12-21 10:04:01.679000+00:00",
+            "version": "0.3.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h2be2f5d_0",
+                "build_number": 0,
+                "depends": [
+                    "_openmp_mutex >=4.5",
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "htslib >=1.12,<1.13.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "libgfortran-ng",
+                    "libgfortran5 >=9.4.0",
+                    "libstdcxx-ng >=9.4.0",
+                    "libzlib >=1.2.11,<1.3.0a0",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1641909574363
+            },
+            "basename": "linux-64/sgcocaller-0.3.6-h2be2f5d_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "_openmp_mutex",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12,<1.13.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran-ng",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pcre",
+                        "specs": [
+                            [
+                                ">=",
+                                "8.45,<9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.6/linux-64/sgcocaller-0.3.6-h2be2f5d_0.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.6/linux-64/sgcocaller-0.3.6-h2be2f5d_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e316012d6f2f9805bb217c2e1ab462f7",
+            "ndownloads": 191,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 508784,
+            "type": "conda",
+            "upload_time": "2022-01-11 14:04:25.123000+00:00",
+            "version": "0.3.6"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "hd3f47d2_0",
+                "build_number": 0,
+                "depends": [
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "f2c",
+                    "htslib >=1.12,<1.13.0a0",
+                    "libcxx >=11.1.0",
+                    "libgfortran 5.*",
+                    "libgfortran5 >=9.3.0",
+                    "libzlib >=1.2.11,<1.3.0a0",
+                    "llvm-openmp >=12.0.1",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1641910064974
+            },
+            "basename": "osx-64/sgcocaller-0.3.6-hd3f47d2_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "f2c",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12,<1.13.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran",
+                        "specs": [
+                            [
+                                "==",
+                                "5."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "llvm-openmp",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pcre",
+                        "specs": [
+                            [
+                                ">=",
+                                "8.45,<9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.6/osx-64/sgcocaller-0.3.6-hd3f47d2_0.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.6/osx-64/sgcocaller-0.3.6-hd3f47d2_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "69a6a6da869f0e982c3c1dafdc754147",
+            "ndownloads": 2190,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 420002,
+            "type": "conda",
+            "upload_time": "2022-01-11 14:08:49.627000+00:00",
+            "version": "0.3.6"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h4dd5b6e_1",
+                "build_number": 1,
+                "depends": [
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "f2c",
+                    "htslib >=1.14,<1.15.0a0",
+                    "libcxx >=11.1.0",
+                    "libgfortran 5.*",
+                    "libgfortran5 >=9.3.0",
+                    "libzlib >=1.2.11,<1.3.0a0",
+                    "llvm-openmp >=11.1.0",
+                    "llvm-openmp >=12.0.1",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1642251235006
+            },
+            "basename": "osx-64/sgcocaller-0.3.6-h4dd5b6e_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "f2c",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14,<1.15.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran",
+                        "specs": [
+                            [
+                                "==",
+                                "5."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "llvm-openmp",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "llvm-openmp",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pcre",
+                        "specs": [
+                            [
+                                ">=",
+                                "8.45,<9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.6/osx-64/sgcocaller-0.3.6-h4dd5b6e_1.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.6/osx-64/sgcocaller-0.3.6-h4dd5b6e_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5dcb0164d0f36233f0b5dfcceb954779",
+            "ndownloads": 59,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 458118,
+            "type": "conda",
+            "upload_time": "2022-01-15 12:54:50.094000+00:00",
+            "version": "0.3.6"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h3972b5b_1",
+                "build_number": 1,
+                "depends": [
+                    "_openmp_mutex >=4.5",
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "htslib >=1.14,<1.15.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "libgfortran-ng",
+                    "libgfortran5 >=9.4.0",
+                    "libstdcxx-ng >=9.4.0",
+                    "libzlib >=1.2.11,<1.3.0a0",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1642478049636
+            },
+            "basename": "linux-64/sgcocaller-0.3.6-h3972b5b_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "_openmp_mutex",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14,<1.15.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran-ng",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pcre",
+                        "specs": [
+                            [
+                                ">=",
+                                "8.45,<9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.6/linux-64/sgcocaller-0.3.6-h3972b5b_1.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.6/linux-64/sgcocaller-0.3.6-h3972b5b_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e625a1346e0e2f2ac50ebb711a63d5be",
+            "ndownloads": 184,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 468787,
+            "type": "conda",
+            "upload_time": "2022-01-18 03:57:50.719000+00:00",
+            "version": "0.3.6"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h2be2f5d_0",
+                "build_number": 0,
+                "depends": [
+                    "_openmp_mutex >=4.5",
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "htslib >=1.12,<1.13.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "libgfortran-ng",
+                    "libgfortran5 >=9.4.0",
+                    "libstdcxx-ng >=9.4.0",
+                    "libzlib >=1.2.11,<1.3.0a0",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1642668642550
+            },
+            "basename": "linux-64/sgcocaller-0.3.7-h2be2f5d_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "_openmp_mutex",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12,<1.13.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran-ng",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pcre",
+                        "specs": [
+                            [
+                                ">=",
+                                "8.45,<9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.7/linux-64/sgcocaller-0.3.7-h2be2f5d_0.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.7/linux-64/sgcocaller-0.3.7-h2be2f5d_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8eda5cd7ea4762f389ca70770608005e",
+            "ndownloads": 190,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 468933,
+            "type": "conda",
+            "upload_time": "2022-01-20 08:55:47.617000+00:00",
+            "version": "0.3.7"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "hd3f47d2_0",
+                "build_number": 0,
+                "depends": [
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "f2c",
+                    "htslib >=1.12,<1.13.0a0",
+                    "libcxx >=11.1.0",
+                    "libgfortran 5.*",
+                    "libgfortran5 >=9.3.0",
+                    "libzlib >=1.2.11,<1.3.0a0",
+                    "llvm-openmp >=12.0.1",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1642668929063
+            },
+            "basename": "osx-64/sgcocaller-0.3.7-hd3f47d2_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "f2c",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12,<1.13.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran",
+                        "specs": [
+                            [
+                                "==",
+                                "5."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "llvm-openmp",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pcre",
+                        "specs": [
+                            [
+                                ">=",
+                                "8.45,<9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.7/osx-64/sgcocaller-0.3.7-hd3f47d2_0.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.7/osx-64/sgcocaller-0.3.7-hd3f47d2_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9cc68b39d72b01d0264fa5c429bdd001",
+            "ndownloads": 109,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 419128,
+            "type": "conda",
+            "upload_time": "2022-01-20 08:56:19.694000+00:00",
+            "version": "0.3.7"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h4dd5b6e_1",
+                "build_number": 1,
+                "depends": [
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "f2c",
+                    "htslib >=1.14,<1.15.0a0",
+                    "libcxx >=11.1.0",
+                    "libgfortran 5.*",
+                    "libgfortran5 >=9.3.0",
+                    "libzlib >=1.2.11,<1.3.0a0",
+                    "llvm-openmp >=11.1.0",
+                    "llvm-openmp >=12.0.1",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1644325266090
+            },
+            "basename": "osx-64/sgcocaller-0.3.7-h4dd5b6e_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "f2c",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14,<1.15.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran",
+                        "specs": [
+                            [
+                                "==",
+                                "5."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "llvm-openmp",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "llvm-openmp",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pcre",
+                        "specs": [
+                            [
+                                ">=",
+                                "8.45,<9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.7/osx-64/sgcocaller-0.3.7-h4dd5b6e_1.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.7/osx-64/sgcocaller-0.3.7-h4dd5b6e_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "92c456b8b3b734b683278e2ad64466d8",
+            "ndownloads": 47,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 460458,
+            "type": "conda",
+            "upload_time": "2022-02-08 13:02:02.467000+00:00",
+            "version": "0.3.7"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h3972b5b_1",
+                "build_number": 1,
+                "depends": [
+                    "_openmp_mutex >=4.5",
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "htslib >=1.14,<1.15.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "libgfortran-ng",
+                    "libgfortran5 >=9.4.0",
+                    "libstdcxx-ng >=9.4.0",
+                    "libzlib >=1.2.11,<1.3.0a0",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1644325742810
+            },
+            "basename": "linux-64/sgcocaller-0.3.7-h3972b5b_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "_openmp_mutex",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14,<1.15.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran-ng",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pcre",
+                        "specs": [
+                            [
+                                ">=",
+                                "8.45,<9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.7/linux-64/sgcocaller-0.3.7-h3972b5b_1.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.7/linux-64/sgcocaller-0.3.7-h3972b5b_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "083f2ee9206e6112ecb39920a7a20129",
+            "ndownloads": 184,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 490589,
+            "type": "conda",
+            "upload_time": "2022-02-08 13:14:35.622000+00:00",
+            "version": "0.3.7"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "hf3df60e_2",
+                "build_number": 2,
+                "depends": [
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "f2c",
+                    "htslib >=1.14,<1.15.0a0",
+                    "libcxx >=12.0.1",
+                    "libgfortran 5.*",
+                    "libgfortran5 >=9.3.0",
+                    "libzlib >=1.2.11,<1.3.0a0",
+                    "llvm-openmp >=12.0.1",
+                    "llvm-openmp >=13.0.1",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1645635867183
+            },
+            "basename": "osx-64/sgcocaller-0.3.7-hf3df60e_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "f2c",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14,<1.15.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran",
+                        "specs": [
+                            [
+                                "==",
+                                "5."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "llvm-openmp",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "llvm-openmp",
+                        "specs": [
+                            [
+                                ">=",
+                                "13.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pcre",
+                        "specs": [
+                            [
+                                ">=",
+                                "8.45,<9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.7/osx-64/sgcocaller-0.3.7-hf3df60e_2.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.7/osx-64/sgcocaller-0.3.7-hf3df60e_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "af5436d5dc5959e3f62d99324503026b",
+            "ndownloads": 2120,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 460113,
+            "type": "conda",
+            "upload_time": "2022-02-23 17:05:26.998000+00:00",
+            "version": "0.3.7"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h9bd41fd_2",
+                "build_number": 2,
+                "depends": [
+                    "_openmp_mutex >=4.5",
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "htslib >=1.14,<1.15.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "libgfortran-ng",
+                    "libgfortran5 >=10.3.0",
+                    "libstdcxx-ng >=10.3.0",
+                    "libzlib >=1.2.11,<1.3.0a0",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1645639079957
+            },
+            "basename": "linux-64/sgcocaller-0.3.7-h9bd41fd_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "_openmp_mutex",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14,<1.15.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran-ng",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pcre",
+                        "specs": [
+                            [
+                                ">=",
+                                "8.45,<9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.7/linux-64/sgcocaller-0.3.7-h9bd41fd_2.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.7/linux-64/sgcocaller-0.3.7-h9bd41fd_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d1c93fdfd787457b15b9d175b744a2fe",
+            "ndownloads": 196,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 508553,
+            "type": "conda",
+            "upload_time": "2022-02-23 18:03:39.959000+00:00",
+            "version": "0.3.7"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "hf9012cd_0",
+                "build_number": 0,
+                "depends": [
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "f2c",
+                    "htslib >=1.15.1,<1.16.0a0",
+                    "libcxx >=12.0.1",
+                    "libgfortran 5.*",
+                    "libgfortran5 >=9.3.0",
+                    "libzlib >=1.2.12,<1.3.0a0",
+                    "llvm-openmp >=12.0.1",
+                    "llvm-openmp >=14.0.4",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.12,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1658235613469
+            },
+            "basename": "osx-64/sgcocaller-0.3.9-hf9012cd_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "f2c",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.15.1,<1.16.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran",
+                        "specs": [
+                            [
+                                "==",
+                                "5."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.12,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "llvm-openmp",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "llvm-openmp",
+                        "specs": [
+                            [
+                                ">=",
+                                "14.0.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pcre",
+                        "specs": [
+                            [
+                                ">=",
+                                "8.45,<9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.12,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.9/osx-64/sgcocaller-0.3.9-hf9012cd_0.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.9/osx-64/sgcocaller-0.3.9-hf9012cd_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7738260f6603abd6d60c9bf980664cd9",
+            "ndownloads": 1842,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 471065,
+            "type": "conda",
+            "upload_time": "2022-07-19 13:00:49.592000+00:00",
+            "version": "0.3.9"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h8cf9fa0_0",
+                "build_number": 0,
+                "depends": [
+                    "_openmp_mutex >=4.5",
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "htslib >=1.15.1,<1.16.0a0",
+                    "libgcc-ng >=12",
+                    "libgfortran-ng",
+                    "libgfortran5 >=10.3.0",
+                    "libstdcxx-ng >=12",
+                    "libzlib >=1.2.12,<1.3.0a0",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.12,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1658282782857
+            },
+            "basename": "linux-64/sgcocaller-0.3.9-h8cf9fa0_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "_openmp_mutex",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bzip2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8,<2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.15.1,<1.16.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran-ng",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.12,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pcre",
+                        "specs": [
+                            [
+                                ">=",
+                                "8.45,<9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.12,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.9/linux-64/sgcocaller-0.3.9-h8cf9fa0_0.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.9/linux-64/sgcocaller-0.3.9-h8cf9fa0_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d9266f17528752a210cfb7c8d7405a64",
+            "ndownloads": 182,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 502919,
+            "type": "conda",
+            "upload_time": "2022-07-20 02:08:52.299000+00:00",
+            "version": "0.3.9"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h1ff6639_1",
+                "build_number": 1,
+                "depends": [
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "f2c",
+                    "htslib >=1.16,<1.17.0a0",
+                    "libcxx >=14.0.4",
+                    "libgfortran 5.*",
+                    "libgfortran5 >=11.3.0",
+                    "libzlib >=1.2.12,<1.3.0a0",
+                    "llvm-openmp >=14.0.4",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.12,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1663268157831
+            },
+            "basename": "osx-64/sgcocaller-0.3.9-h1ff6639_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.9/osx-64/sgcocaller-0.3.9-h1ff6639_1.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.9/osx-64/sgcocaller-0.3.9-h1ff6639_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0e83b37268c69d78768d91877f389f24",
+            "ndownloads": 58,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 445553,
+            "type": "conda",
+            "upload_time": "2022-09-15 18:56:39.088000+00:00",
+            "version": "0.3.9"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h0ffbbc5_1",
+                "build_number": 1,
+                "depends": [
+                    "_openmp_mutex >=4.5",
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "htslib >=1.16,<1.17.0a0",
+                    "libgcc-ng >=12",
+                    "libgfortran-ng",
+                    "libgfortran5 >=10.4.0",
+                    "libstdcxx-ng >=12",
+                    "libzlib >=1.2.12,<1.3.0a0",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.12,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1663378996032
+            },
+            "basename": "linux-64/sgcocaller-0.3.9-h0ffbbc5_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.9/linux-64/sgcocaller-0.3.9-h0ffbbc5_1.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.9/linux-64/sgcocaller-0.3.9-h0ffbbc5_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7028d1b809db7a5e11f3cafb5a8a38ea",
+            "ndownloads": 171,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 529194,
+            "type": "conda",
+            "upload_time": "2022-09-17 01:45:54.914000+00:00",
+            "version": "0.3.9"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "hda81887_2",
+                "build_number": 2,
+                "depends": [
+                    "_openmp_mutex >=4.5",
+                    "bzip2 >=1.0.8,<2.0a0",
+                    "htslib >=1.17,<1.18.0a0",
+                    "libgcc-ng >=12",
+                    "libgfortran-ng",
+                    "libgfortran5 >=10.4.0",
+                    "libstdcxx-ng >=12",
+                    "libzlib >=1.2.13,<1.3.0a0",
+                    "pcre >=8.45,<9.0a0",
+                    "zlib >=1.2.13,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1678178636920
+            },
+            "basename": "linux-64/sgcocaller-0.3.9-hda81887_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/sgcocaller/0.3.9/linux-64/sgcocaller-0.3.9-hda81887_2.tar.bz2",
+            "full_name": "bioconda/sgcocaller/0.3.9/linux-64/sgcocaller-0.3.9-hda81887_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "11faea8e69d3b92342865ffd33c7a303",
+            "ndownloads": 187,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 528828,
+            "type": "conda",
+            "upload_time": "2023-03-07 08:45:35.524000+00:00",
+            "version": "0.3.9"
+        }
+    ],
+    "full_name": "bioconda/sgcocaller",
+    "home": "https://gitlab.svi.edu.au/biocellgen-public/sgcocaller",
+    "html_url": "http://anaconda.org/bioconda/sgcocaller",
+    "id": "61bb2a274645634239e2ec8b",
+    "latest_version": "0.3.9",
+    "license": "MIT",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:31.516000+00:00",
+    "name": "sgcocaller",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "0.3.9",
+        "osx-64": "0.3.9"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/sgcocaller/0.3.4",
+            "version": "0.3.4"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/sgcocaller/0.3.5",
+            "version": "0.3.5"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/sgcocaller/0.3.6",
+            "version": "0.3.6"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/sgcocaller/0.3.7",
+            "version": "0.3.7"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/sgcocaller/0.3.9",
+            "version": "0.3.9"
+        }
+    ],
+    "revision": 10,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Personalized haplotype construction and crossover calling in single-cell DNA sequenced gamete cells.",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/sgcocaller",
+    "versions": [
+        "0.3.4",
+        "0.3.5",
+        "0.3.6",
+        "0.3.7",
+        "0.3.9"
+    ],
+    "watchers": 1
+}

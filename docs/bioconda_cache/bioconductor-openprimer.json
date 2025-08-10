@@ -1,0 +1,3027 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351_0",
+        "r44hdfd78af_0",
+        "r36_0",
+        "r40_0",
+        "r40hdfd78af_0",
+        "r41hdfd78af_0",
+        "r43hdfd78af_0",
+        "r36_1",
+        "r42hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-01-11 14:24:26.143000+00:00",
+    "description": "An implementation of methods for designing, evaluating, and comparing primer sets for multiplex PCR. Primers are designed by solving a set cover problem such that the number of covered template sequences is maximized with the smallest possible set of primers. To guarantee that high-quality primers are generated, only primers fulfilling constraints on their physicochemical properties are selected. A Shiny app providing a user interface for the functionalities of this package is provided by the 'openPrimeRui' package.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "bioconductor-biostrings >=2.50.0,<2.51.0",
+                    "bioconductor-decipher >=2.10.0,<2.11.0",
+                    "bioconductor-genomicranges >=1.34.0,<1.35.0",
+                    "bioconductor-iranges >=2.16.0,<2.17.0",
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "r-ape >=3.5",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-digest >=0.6.9",
+                    "r-distr >=2.6",
+                    "r-distrex >=2.6",
+                    "r-dplyr >=0.5.0",
+                    "r-fitdistrplus >=1.0-7",
+                    "r-foreach >=1.4.3",
+                    "r-ggplot2 >=2.1.0",
+                    "r-hmisc >=3.17-4",
+                    "r-lpsolveapi >=5.5.2.0-17",
+                    "r-magrittr >=1.5",
+                    "r-openxlsx >=4.0.17",
+                    "r-plyr >=1.8.4",
+                    "r-rcolorbrewer >=1.1-2",
+                    "r-reshape2 >=1.4.1",
+                    "r-scales >=0.4.0",
+                    "r-seqinr >=3.3-3",
+                    "r-stringdist >=0.9.4.1",
+                    "r-stringr >=1.0.0",
+                    "r-tinytex >=0.5",
+                    "r-uniqtag >=1.0",
+                    "r-xml >=3.98-1.4"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1547216352215
+            },
+            "basename": "noarch/bioconductor-openprimer-1.4.1-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-decipher",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-digest",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-distr",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-distrex",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fitdistrplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0-7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-hmisc",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.17-4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-lpsolveapi",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.5.2.0-17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-openxlsx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1-2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-seqinr",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.3-3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringdist",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.9.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-tinytex",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-uniqtag",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-xml",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.98-1.4"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-openprimer/1.4.1/noarch/bioconductor-openprimer-1.4.1-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-openprimer/1.4.1/noarch/bioconductor-openprimer-1.4.1-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "11551e73fc69502f42c468fcd1955243",
+            "ndownloads": 2720,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3000683,
+            "type": "conda",
+            "upload_time": "2019-01-11 14:24:27.028000+00:00",
+            "version": "1.4.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "bioconductor-biostrings >=2.52.0,<2.53.0",
+                    "bioconductor-decipher >=2.12.0,<2.13.0",
+                    "bioconductor-genomicranges >=1.36.0,<1.37.0",
+                    "bioconductor-iranges >=2.18.0,<2.19.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "r-ape >=3.5",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-digest >=0.6.9",
+                    "r-distr >=2.6",
+                    "r-distrex >=2.6",
+                    "r-dplyr >=0.5.0",
+                    "r-fitdistrplus >=1.0-7",
+                    "r-foreach >=1.4.3",
+                    "r-ggplot2 >=2.1.0",
+                    "r-hmisc >=3.17-4",
+                    "r-lpsolveapi >=5.5.2.0-17",
+                    "r-magrittr >=1.5",
+                    "r-openxlsx >=4.0.17",
+                    "r-plyr >=1.8.4",
+                    "r-rcolorbrewer >=1.1-2",
+                    "r-reshape2 >=1.4.1",
+                    "r-scales >=0.4.0",
+                    "r-seqinr >=3.3-3",
+                    "r-stringdist >=0.9.4.1",
+                    "r-stringr >=1.0.0",
+                    "r-tinytex >=0.5",
+                    "r-uniqtag >=1.0",
+                    "r-xml >=3.98-1.4"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1564047671806
+            },
+            "basename": "noarch/bioconductor-openprimer-1.6.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-decipher",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.12.0,<2.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-digest",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-distr",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-distrex",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fitdistrplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0-7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-hmisc",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.17-4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-lpsolveapi",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.5.2.0-17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-openxlsx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1-2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-seqinr",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.3-3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringdist",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.9.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-tinytex",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-uniqtag",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-xml",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.98-1.4"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-openprimer/1.6.0/noarch/bioconductor-openprimer-1.6.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-openprimer/1.6.0/noarch/bioconductor-openprimer-1.6.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "cf890a85175aaca4a98056cab201be2e",
+            "ndownloads": 2673,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2938993,
+            "type": "conda",
+            "upload_time": "2019-07-25 09:46:34.558000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-biostrings >=2.54.0,<2.55.0",
+                    "bioconductor-decipher >=2.14.0,<2.15.0",
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "bioconductor-iranges >=2.20.0,<2.21.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "mafft >=7.305",
+                    "r-ape >=3.5",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-digest >=0.6.9",
+                    "r-distr >=2.6",
+                    "r-distrex >=2.6",
+                    "r-dplyr >=0.5.0",
+                    "r-fitdistrplus >=1.0-7",
+                    "r-foreach >=1.4.3",
+                    "r-ggplot2 >=2.1.0",
+                    "r-hmisc >=3.17-4",
+                    "r-lpsolveapi >=5.5.2.0-17",
+                    "r-magrittr >=1.5",
+                    "r-openxlsx >=4.0.17",
+                    "r-plyr >=1.8.4",
+                    "r-rcolorbrewer >=1.1-2",
+                    "r-reshape2 >=1.4.1",
+                    "r-scales >=0.4.0",
+                    "r-seqinr >=3.3-3",
+                    "r-stringdist >=0.9.4.1",
+                    "r-stringr >=1.0.0",
+                    "r-tinytex >=0.5",
+                    "r-uniqtag >=1.0",
+                    "r-xml >=3.98-1.4"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572769641759
+            },
+            "basename": "noarch/bioconductor-openprimer-1.8.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-decipher",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.0,<2.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "mafft",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.305"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-digest",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-distr",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-distrex",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fitdistrplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0-7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-hmisc",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.17-4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-lpsolveapi",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.5.2.0-17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-openxlsx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1-2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-seqinr",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.3-3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringdist",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.9.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-tinytex",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-uniqtag",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-xml",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.98-1.4"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-openprimer/1.8.0/noarch/bioconductor-openprimer-1.8.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-openprimer/1.8.0/noarch/bioconductor-openprimer-1.8.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5ab9e958e06544baf741caa9a64612e2",
+            "ndownloads": 2675,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2917769,
+            "type": "conda",
+            "upload_time": "2019-11-03 08:32:48.168000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.34.0,<0.35.0",
+                    "bioconductor-biostrings >=2.56.0,<2.57.0",
+                    "bioconductor-decipher >=2.16.0,<2.17.0",
+                    "bioconductor-genomicranges >=1.40.0,<1.41.0",
+                    "bioconductor-iranges >=2.22.0,<2.23.0",
+                    "bioconductor-s4vectors >=0.26.0,<0.27.0",
+                    "mafft >=7.305",
+                    "r-ape >=3.5",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-digest >=0.6.9",
+                    "r-distr >=2.6",
+                    "r-distrex >=2.6",
+                    "r-dplyr >=0.5.0",
+                    "r-fitdistrplus >=1.0-7",
+                    "r-foreach >=1.4.3",
+                    "r-ggplot2 >=2.1.0",
+                    "r-hmisc >=3.17-4",
+                    "r-lpsolveapi >=5.5.2.0-17",
+                    "r-magrittr >=1.5",
+                    "r-openxlsx >=4.0.17",
+                    "r-plyr >=1.8.4",
+                    "r-rcolorbrewer >=1.1-2",
+                    "r-reshape2 >=1.4.1",
+                    "r-scales >=0.4.0",
+                    "r-seqinr >=3.3-3",
+                    "r-stringdist >=0.9.4.1",
+                    "r-stringr >=1.0.0",
+                    "r-uniqtag >=1.0",
+                    "r-xml >=3.98-1.4"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589121406631
+            },
+            "basename": "noarch/bioconductor-openprimer-1.10.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.34.0,<0.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.56.0,<2.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-decipher",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.22.0,<2.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "mafft",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.305"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-digest",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-distr",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-distrex",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fitdistrplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0-7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-hmisc",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.17-4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-lpsolveapi",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.5.2.0-17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-openxlsx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1-2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-seqinr",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.3-3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringdist",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.9.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-uniqtag",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-xml",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.98-1.4"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-openprimer/1.10.0/noarch/bioconductor-openprimer-1.10.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-openprimer/1.10.0/noarch/bioconductor-openprimer-1.10.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "668dc9b71884f43eee8afe5a95ed6966",
+            "ndownloads": 2742,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2912626,
+            "type": "conda",
+            "upload_time": "2020-05-10 14:42:06.118000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-decipher >=2.18.0,<2.19.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "mafft >=7.305",
+                    "r-ape >=3.5",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-digest >=0.6.9",
+                    "r-distr >=2.6",
+                    "r-distrex >=2.6",
+                    "r-dplyr >=0.5.0",
+                    "r-fitdistrplus >=1.0-7",
+                    "r-foreach >=1.4.3",
+                    "r-ggplot2 >=2.1.0",
+                    "r-hmisc >=3.17-4",
+                    "r-lpsolveapi >=5.5.2.0-17",
+                    "r-magrittr >=1.5",
+                    "r-openxlsx >=4.0.17",
+                    "r-plyr >=1.8.4",
+                    "r-rcolorbrewer >=1.1-2",
+                    "r-reshape2 >=1.4.1",
+                    "r-scales >=0.4.0",
+                    "r-seqinr >=3.3-3",
+                    "r-stringdist >=0.9.4.1",
+                    "r-stringr >=1.0.0",
+                    "r-uniqtag >=1.0",
+                    "r-xml >=3.98-1.4"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604107602727
+            },
+            "basename": "noarch/bioconductor-openprimer-1.12.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-decipher",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "mafft",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.305"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-digest",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-distr",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-distrex",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fitdistrplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0-7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-hmisc",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.17-4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-lpsolveapi",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.5.2.0-17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-openxlsx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1-2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-seqinr",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.3-3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringdist",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.9.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-uniqtag",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-xml",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.98-1.4"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-openprimer/1.12.0/noarch/bioconductor-openprimer-1.12.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-openprimer/1.12.0/noarch/bioconductor-openprimer-1.12.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2a90d809c66b56733e1d61ee14ea2f20",
+            "ndownloads": 2769,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2899134,
+            "type": "conda",
+            "upload_time": "2020-10-31 01:34:40.352000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-decipher >=2.18.0,<2.19.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "mafft >=7.305",
+                    "r-ape >=3.5",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-digest >=0.6.9",
+                    "r-distr >=2.6",
+                    "r-distrex >=2.6",
+                    "r-dplyr >=0.5.0",
+                    "r-fitdistrplus >=1.0-7",
+                    "r-foreach >=1.4.3",
+                    "r-ggplot2 >=2.1.0",
+                    "r-hmisc >=3.17-4",
+                    "r-lpsolveapi >=5.5.2.0-17",
+                    "r-magrittr >=1.5",
+                    "r-openxlsx >=4.0.17",
+                    "r-plyr >=1.8.4",
+                    "r-rcolorbrewer >=1.1-2",
+                    "r-reshape2 >=1.4.1",
+                    "r-scales >=0.4.0",
+                    "r-seqinr >=3.3-3",
+                    "r-stringdist >=0.9.4.1",
+                    "r-stringr >=1.0.0",
+                    "r-uniqtag >=1.0",
+                    "r-xml >=3.98-1.4"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617058761958
+            },
+            "basename": "noarch/bioconductor-openprimer-1.12.1-r40hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-decipher",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "mafft",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.305"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-digest",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-distr",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-distrex",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fitdistrplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0-7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-hmisc",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.17-4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-lpsolveapi",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.5.2.0-17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-openxlsx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1-2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-seqinr",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.3-3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringdist",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.9.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-uniqtag",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-xml",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.98-1.4"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-openprimer/1.12.1/noarch/bioconductor-openprimer-1.12.1-r40hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-openprimer/1.12.1/noarch/bioconductor-openprimer-1.12.1-r40hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "37c69de3764bbabad47da78ca7268751",
+            "ndownloads": 2753,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2913517,
+            "type": "conda",
+            "upload_time": "2021-03-29 23:06:51.277000+00:00",
+            "version": "1.12.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.38.0,<0.39.0",
+                    "bioconductor-biostrings >=2.60.0,<2.61.0",
+                    "bioconductor-decipher >=2.20.0,<2.21.0",
+                    "bioconductor-genomicranges >=1.44.0,<1.45.0",
+                    "bioconductor-iranges >=2.26.0,<2.27.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "mafft >=7.305",
+                    "r-ape >=3.5",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-digest >=0.6.9",
+                    "r-distr >=2.6",
+                    "r-distrex >=2.6",
+                    "r-dplyr >=0.5.0",
+                    "r-fitdistrplus >=1.0-7",
+                    "r-foreach >=1.4.3",
+                    "r-ggplot2 >=2.1.0",
+                    "r-hmisc >=3.17-4",
+                    "r-lpsolveapi >=5.5.2.0-17",
+                    "r-magrittr >=1.5",
+                    "r-openxlsx >=4.0.17",
+                    "r-plyr >=1.8.4",
+                    "r-rcolorbrewer >=1.1-2",
+                    "r-reshape2 >=1.4.1",
+                    "r-scales >=0.4.0",
+                    "r-seqinr >=3.3-3",
+                    "r-stringdist >=0.9.4.1",
+                    "r-stringr >=1.0.0",
+                    "r-uniqtag >=1.0",
+                    "r-xml >=3.98-1.4"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622933098610
+            },
+            "basename": "noarch/bioconductor-openprimer-1.14.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.38.0,<0.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.60.0,<2.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-decipher",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "mafft",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.305"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-digest",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-distr",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-distrex",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fitdistrplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0-7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-hmisc",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.17-4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-lpsolveapi",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.5.2.0-17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-openxlsx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1-2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-seqinr",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.3-3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringdist",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.9.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-uniqtag",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-xml",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.98-1.4"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-openprimer/1.14.0/noarch/bioconductor-openprimer-1.14.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-openprimer/1.14.0/noarch/bioconductor-openprimer-1.14.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e01c29c0601a309ac039ce4951e4471d",
+            "ndownloads": 2706,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2897407,
+            "type": "conda",
+            "upload_time": "2021-06-05 22:53:45.493000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-decipher >=2.22.0,<2.23.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "mafft >=7.305",
+                    "r-ape >=3.5",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-digest >=0.6.9",
+                    "r-distr >=2.6",
+                    "r-distrex >=2.6",
+                    "r-dplyr >=0.5.0",
+                    "r-fitdistrplus >=1.0-7",
+                    "r-foreach >=1.4.3",
+                    "r-ggplot2 >=2.1.0",
+                    "r-hmisc >=3.17-4",
+                    "r-lpsolveapi >=5.5.2.0-17",
+                    "r-magrittr >=1.5",
+                    "r-openxlsx >=4.0.17",
+                    "r-plyr >=1.8.4",
+                    "r-rcolorbrewer >=1.1-2",
+                    "r-reshape2 >=1.4.1",
+                    "r-scales >=0.4.0",
+                    "r-seqinr >=3.3-3",
+                    "r-stringdist >=0.9.4.1",
+                    "r-stringr >=1.0.0",
+                    "r-uniqtag >=1.0",
+                    "r-xml >=3.98-1.4"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1635939941908
+            },
+            "basename": "noarch/bioconductor-openprimer-1.16.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-decipher",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.22.0,<2.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "mafft",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.305"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ape",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-digest",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-distr",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-distrex",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fitdistrplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0-7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-hmisc",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.17-4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-lpsolveapi",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.5.2.0-17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-openxlsx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.4"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1-2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-seqinr",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.3-3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringdist",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.9.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-uniqtag",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-xml",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.98-1.4"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-openprimer/1.16.0/noarch/bioconductor-openprimer-1.16.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-openprimer/1.16.0/noarch/bioconductor-openprimer-1.16.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9378ec1968788eec80114a137dcc0754",
+            "ndownloads": 2572,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2941278,
+            "type": "conda",
+            "upload_time": "2021-11-03 11:54:11.844000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-decipher >=2.26.0,<2.27.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "mafft >=7.305",
+                    "r-ape >=3.5",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-digest >=0.6.9",
+                    "r-distr >=2.6",
+                    "r-distrex >=2.6",
+                    "r-dplyr >=0.5.0",
+                    "r-fitdistrplus >=1.0-7",
+                    "r-foreach >=1.4.3",
+                    "r-ggplot2 >=2.1.0",
+                    "r-hmisc >=3.17-4",
+                    "r-lpsolveapi >=5.5.2.0-17",
+                    "r-magrittr >=1.5",
+                    "r-openxlsx >=4.0.17",
+                    "r-plyr >=1.8.4",
+                    "r-rcolorbrewer >=1.1-2",
+                    "r-reshape2 >=1.4.1",
+                    "r-scales >=0.4.0",
+                    "r-seqinr >=3.3-3",
+                    "r-stringdist >=0.9.4.1",
+                    "r-stringr >=1.0.0",
+                    "r-uniqtag >=1.0",
+                    "r-xml >=3.98-1.4"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667760357618
+            },
+            "basename": "noarch/bioconductor-openprimer-1.20.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-openprimer/1.20.0/noarch/bioconductor-openprimer-1.20.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-openprimer/1.20.0/noarch/bioconductor-openprimer-1.20.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4bbb0753eccbfd420916ae9e5277ab22",
+            "ndownloads": 1680,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2899687,
+            "type": "conda",
+            "upload_time": "2022-11-06 18:51:10.391000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.46.0,<0.47.0",
+                    "bioconductor-biostrings >=2.68.0,<2.69.0",
+                    "bioconductor-decipher >=2.28.0,<2.29.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "mafft >=7.305",
+                    "r-ape >=3.5",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-digest >=0.6.9",
+                    "r-distr >=2.6",
+                    "r-distrex >=2.6",
+                    "r-dplyr >=0.5.0",
+                    "r-fitdistrplus >=1.0-7",
+                    "r-foreach >=1.4.3",
+                    "r-ggplot2 >=2.1.0",
+                    "r-hmisc >=3.17-4",
+                    "r-lpsolveapi >=5.5.2.0-17",
+                    "r-magrittr >=1.5",
+                    "r-openxlsx >=4.0.17",
+                    "r-plyr >=1.8.4",
+                    "r-rcolorbrewer >=1.1-2",
+                    "r-reshape2 >=1.4.1",
+                    "r-scales >=0.4.0",
+                    "r-seqinr >=3.3-3",
+                    "r-stringdist >=0.9.4.1",
+                    "r-stringr >=1.0.0",
+                    "r-uniqtag >=1.0",
+                    "r-xml >=3.98-1.4"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689270553513
+            },
+            "basename": "noarch/bioconductor-openprimer-1.22.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-openprimer/1.22.0/noarch/bioconductor-openprimer-1.22.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-openprimer/1.22.0/noarch/bioconductor-openprimer-1.22.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7f701fa49db4610e028c85d73826040d",
+            "ndownloads": 1285,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2916151,
+            "type": "conda",
+            "upload_time": "2023-07-13 17:53:35.529000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.48.0,<0.49.0",
+                    "bioconductor-biostrings >=2.70.0,<2.71.0",
+                    "bioconductor-decipher >=2.30.0,<2.31.0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "mafft >=7.305",
+                    "r-ape >=3.5",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-digest >=0.6.9",
+                    "r-distr >=2.6",
+                    "r-distrex >=2.6",
+                    "r-dplyr >=0.5.0",
+                    "r-fitdistrplus >=1.0-7",
+                    "r-foreach >=1.4.3",
+                    "r-ggplot2 >=2.1.0",
+                    "r-hmisc >=3.17-4",
+                    "r-lpsolveapi >=5.5.2.0-17",
+                    "r-magrittr >=1.5",
+                    "r-openxlsx >=4.0.17",
+                    "r-plyr >=1.8.4",
+                    "r-rcolorbrewer >=1.1-2",
+                    "r-reshape2 >=1.4.1",
+                    "r-scales >=0.4.0",
+                    "r-seqinr >=3.3-3",
+                    "r-stringdist >=0.9.4.1",
+                    "r-stringr >=1.0.0",
+                    "r-uniqtag >=1.0",
+                    "r-xml >=3.98-1.4"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1702074315805
+            },
+            "basename": "noarch/bioconductor-openprimer-1.24.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-openprimer/1.24.0/noarch/bioconductor-openprimer-1.24.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-openprimer/1.24.0/noarch/bioconductor-openprimer-1.24.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b07f880b79581dd29134bb94d82e81b3",
+            "ndownloads": 1024,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2940443,
+            "type": "conda",
+            "upload_time": "2023-12-08 22:28:25.492000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-biostrings >=2.74.0,<2.75.0",
+                    "bioconductor-decipher >=3.2.0,<3.3.0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0",
+                    "bioconductor-pwalign >=1.2.0,<1.3.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "mafft >=7.305",
+                    "r-ape >=3.5",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-digest >=0.6.9",
+                    "r-dplyr >=0.5.0",
+                    "r-foreach >=1.4.3",
+                    "r-ggplot2 >=2.1.0",
+                    "r-hmisc >=3.17-4",
+                    "r-lpsolveapi >=5.5.2.0-17",
+                    "r-magrittr >=1.5",
+                    "r-openxlsx >=4.0.17",
+                    "r-plyr >=1.8.4",
+                    "r-rcolorbrewer >=1.1-2",
+                    "r-reshape2 >=1.4.1",
+                    "r-scales >=0.4.0",
+                    "r-seqinr >=3.3-3",
+                    "r-stringdist >=0.9.4.1",
+                    "r-stringr >=1.0.0",
+                    "r-uniqtag >=1.0",
+                    "r-xml >=3.98-1.4"
+                ],
+                "has_prefix": false,
+                "license": "GPL-2",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1734708740869
+            },
+            "basename": "noarch/bioconductor-openprimer-1.28.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-openprimer/1.28.0/noarch/bioconductor-openprimer-1.28.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-openprimer/1.28.0/noarch/bioconductor-openprimer-1.28.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6f435f48060b987c0e61a9fc20ae4b60",
+            "ndownloads": 254,
+            "owner": "bioconda",
+            "sha256": "bb25f44cbddaa0c4f50f588378076ba52a12c56989ae30849734235204aa425a",
+            "size": 3002772,
+            "type": "conda",
+            "upload_time": "2024-12-20 15:34:30.281000+00:00",
+            "version": "1.28.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-openprimer",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/openPrimeR.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-openprimer",
+    "id": "5c38a71a37f339133f419b22",
+    "latest_version": "1.28.0",
+    "license": "GPL-2",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:14.370000+00:00",
+    "name": "bioconductor-openprimer",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.28.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-openprimer/1.4.1",
+            "version": "1.4.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-openprimer/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-openprimer/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-openprimer/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-openprimer/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-openprimer/1.12.1",
+            "version": "1.12.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-openprimer/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-openprimer/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-openprimer/1.20.0",
+            "version": "1.20.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-openprimer/1.22.0",
+            "version": "1.22.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-openprimer/1.24.0",
+            "version": "1.24.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-openprimer/1.28.0",
+            "version": "1.28.0"
+        }
+    ],
+    "revision": 25,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Multiplex PCR Primer Design and Analysis",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-openprimer",
+    "versions": [
+        "1.4.1",
+        "1.6.0",
+        "1.8.0",
+        "1.10.0",
+        "1.12.0",
+        "1.12.1",
+        "1.14.0",
+        "1.16.0",
+        "1.20.0",
+        "1.22.0",
+        "1.24.0",
+        "1.28.0"
+    ],
+    "watchers": 1
+}

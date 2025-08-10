@@ -1,0 +1,1321 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r3.4.1_0",
+        "r341_0",
+        "r36_0",
+        "r43hdfd78af_0",
+        "r41hdfd78af_0",
+        "r42hdfd78af_0",
+        "r44hdfd78af_0",
+        "r40_0",
+        "r351_0",
+        "r40hdfd78af_1",
+        "r36_1"
+    ],
+    "conda_platforms": [
+        "noarch",
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2018-02-19 19:10:28.309000+00:00",
+    "description": "Performs hybrid multiple testing that incorporates method selection and assumption evaluations into the analysis using empirical Bayes probability (EBP) estimates obtained by Grenander density estimation. For instance, for 3-group comparison analysis, Hybrid Multiple testing considers EBPs as weighted EBPs between F-test and H-test with EBPs from Shapiro Wilk test of normality as weigth. Instead of just using EBPs from F-test only or using H-test only, this methodology combines both types of EBPs through EBPs from Shapiro Wilk test of normality. This methodology uses then the law of total EBPs.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "r-base 3.4.1*",
+                    "r-fdrtool",
+                    "r-mass",
+                    "r-survival"
+                ],
+                "has_prefix": false,
+                "license": "GPL Version 2 or later",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-hybridmtest-1.22.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fdrtool",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-survival",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hybridmtest/1.22.0/linux-64/bioconductor-hybridmtest-1.22.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hybridmtest/1.22.0/linux-64/bioconductor-hybridmtest-1.22.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "a5d918d82ac5b48a29ec86fcae8439aa",
+            "ndownloads": 585,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 241184,
+            "type": "conda",
+            "upload_time": "2018-02-19 19:10:28.840000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "r-base 3.4.1*",
+                    "r-fdrtool",
+                    "r-mass",
+                    "r-survival"
+                ],
+                "has_prefix": false,
+                "license": "GPL Version 2 or later",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-hybridmtest-1.22.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fdrtool",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-survival",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hybridmtest/1.22.0/osx-64/bioconductor-hybridmtest-1.22.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hybridmtest/1.22.0/osx-64/bioconductor-hybridmtest-1.22.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "955ad34d53d2efaa887f73fb4e175c36",
+            "ndownloads": 4373,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 241360,
+            "type": "conda",
+            "upload_time": "2018-02-19 19:46:53.823000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-fdrtool",
+                    "r-mass",
+                    "r-survival"
+                ],
+                "has_prefix": false,
+                "license": "GPL Version 2 or later",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539428220920
+            },
+            "basename": "osx-64/bioconductor-hybridmtest-1.24.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fdrtool",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-survival",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hybridmtest/1.24.0/osx-64/bioconductor-hybridmtest-1.24.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hybridmtest/1.24.0/osx-64/bioconductor-hybridmtest-1.24.0-r351_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "4d4c0c9b36ef264486ca2919647b34e8",
+            "ndownloads": 4353,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 280886,
+            "type": "conda",
+            "upload_time": "2018-10-13 10:57:38.948000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "r-fdrtool",
+                    "r-mass",
+                    "r-survival"
+                ],
+                "has_prefix": false,
+                "license": "GPL Version 2 or later",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539428146450
+            },
+            "basename": "osx-64/bioconductor-hybridmtest-1.24.0-r341_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fdrtool",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-survival",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hybridmtest/1.24.0/osx-64/bioconductor-hybridmtest-1.24.0-r341_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hybridmtest/1.24.0/osx-64/bioconductor-hybridmtest-1.24.0-r341_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "0ce4383191473f8936edb4be35fcc1c8",
+            "ndownloads": 96,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 242105,
+            "type": "conda",
+            "upload_time": "2018-10-13 10:57:43.233000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-fdrtool",
+                    "r-mass",
+                    "r-survival"
+                ],
+                "has_prefix": false,
+                "license": "GPL Version 2 or later",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539496841849
+            },
+            "basename": "linux-64/bioconductor-hybridmtest-1.24.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fdrtool",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-survival",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hybridmtest/1.24.0/linux-64/bioconductor-hybridmtest-1.24.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hybridmtest/1.24.0/linux-64/bioconductor-hybridmtest-1.24.0-r351_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "6f5d3af3cca05a733a5ffba073b0c2a3",
+            "ndownloads": 525,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 280497,
+            "type": "conda",
+            "upload_time": "2018-10-14 06:05:25.724000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "r-fdrtool",
+                    "r-mass",
+                    "r-survival"
+                ],
+                "has_prefix": false,
+                "license": "GPL Version 2 or later",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539496779236
+            },
+            "basename": "linux-64/bioconductor-hybridmtest-1.24.0-r341_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fdrtool",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-survival",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hybridmtest/1.24.0/linux-64/bioconductor-hybridmtest-1.24.0-r341_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hybridmtest/1.24.0/linux-64/bioconductor-hybridmtest-1.24.0-r341_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "cdbc4626d71f6a87368d59bea230af03",
+            "ndownloads": 394,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 241829,
+            "type": "conda",
+            "upload_time": "2018-10-14 06:05:28.645000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-fdrtool",
+                    "r-mass",
+                    "r-survival"
+                ],
+                "has_prefix": false,
+                "license": "GPL Version 2 or later",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1544746750607
+            },
+            "basename": "noarch/bioconductor-hybridmtest-1.26.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fdrtool",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-survival",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hybridmtest/1.26.0/noarch/bioconductor-hybridmtest-1.26.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hybridmtest/1.26.0/noarch/bioconductor-hybridmtest-1.26.0-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "5d0bb94c5fe1e1398c3f2c601682e304",
+            "ndownloads": 2704,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 281552,
+            "type": "conda",
+            "upload_time": "2018-12-14 00:21:53.232000+00:00",
+            "version": "1.26.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-fdrtool",
+                    "r-mass",
+                    "r-survival"
+                ],
+                "has_prefix": false,
+                "license": "GPL Version 2 or later",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1564047055271
+            },
+            "basename": "noarch/bioconductor-hybridmtest-1.28.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fdrtool",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-survival",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hybridmtest/1.28.0/noarch/bioconductor-hybridmtest-1.28.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-hybridmtest/1.28.0/noarch/bioconductor-hybridmtest-1.28.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b49ddda211209d64d6172bd00ffa57fe",
+            "ndownloads": 2680,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 283097,
+            "type": "conda",
+            "upload_time": "2019-07-25 09:34:53.180000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-fdrtool",
+                    "r-mass",
+                    "r-survival"
+                ],
+                "has_prefix": false,
+                "license": "GPL Version 2 or later",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572613518963
+            },
+            "basename": "noarch/bioconductor-hybridmtest-1.30.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fdrtool",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-survival",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hybridmtest/1.30.0/noarch/bioconductor-hybridmtest-1.30.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hybridmtest/1.30.0/noarch/bioconductor-hybridmtest-1.30.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0ee20c3347bc8a9e6e017075fa040304",
+            "ndownloads": 2650,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 296109,
+            "type": "conda",
+            "upload_time": "2019-11-01 13:09:23.056000+00:00",
+            "version": "1.30.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.48.0,<2.49.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-fdrtool",
+                    "r-mass",
+                    "r-survival"
+                ],
+                "has_prefix": false,
+                "license": "GPL Version 2 or later",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589061603511
+            },
+            "basename": "noarch/bioconductor-hybridmtest-1.32.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fdrtool",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-survival",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hybridmtest/1.32.0/noarch/bioconductor-hybridmtest-1.32.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hybridmtest/1.32.0/noarch/bioconductor-hybridmtest-1.32.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4016bfe0f52441c45e62e81e439e3a18",
+            "ndownloads": 2613,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 296150,
+            "type": "conda",
+            "upload_time": "2020-05-09 22:05:26.812000+00:00",
+            "version": "1.32.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-fdrtool",
+                    "r-mass",
+                    "r-survival"
+                ],
+                "has_prefix": false,
+                "license": "GPL Version 2 or later",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1603997878043
+            },
+            "basename": "noarch/bioconductor-hybridmtest-1.34.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fdrtool",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-survival",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hybridmtest/1.34.0/noarch/bioconductor-hybridmtest-1.34.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hybridmtest/1.34.0/noarch/bioconductor-hybridmtest-1.34.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2fad3e96f51cc393a874832a983db00f",
+            "ndownloads": 255,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 295402,
+            "type": "conda",
+            "upload_time": "2020-10-29 19:03:23.996000+00:00",
+            "version": "1.34.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-fdrtool",
+                    "r-mass",
+                    "r-survival"
+                ],
+                "has_prefix": false,
+                "license": "GPL Version 2 or later",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1616949853068
+            },
+            "basename": "noarch/bioconductor-hybridmtest-1.34.0-r40hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fdrtool",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-survival",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hybridmtest/1.34.0/noarch/bioconductor-hybridmtest-1.34.0-r40hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-hybridmtest/1.34.0/noarch/bioconductor-hybridmtest-1.34.0-r40hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "60e592f9cb5153e5b1d1ea049f53e7d6",
+            "ndownloads": 2607,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 295743,
+            "type": "conda",
+            "upload_time": "2021-03-28 16:50:37.299000+00:00",
+            "version": "1.34.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.52.0,<2.53.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-fdrtool",
+                    "r-mass",
+                    "r-survival"
+                ],
+                "has_prefix": false,
+                "license": "GPL Version 2 or later",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622486870820
+            },
+            "basename": "noarch/bioconductor-hybridmtest-1.36.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fdrtool",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-survival",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hybridmtest/1.36.0/noarch/bioconductor-hybridmtest-1.36.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hybridmtest/1.36.0/noarch/bioconductor-hybridmtest-1.36.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b2a55c7beef6c29c967e71e33688bba3",
+            "ndownloads": 2621,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 296125,
+            "type": "conda",
+            "upload_time": "2021-05-31 18:53:58.368000+00:00",
+            "version": "1.36.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-fdrtool",
+                    "r-mass",
+                    "r-survival"
+                ],
+                "has_prefix": false,
+                "license": "GPL Version 2 or later",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1635927752287
+            },
+            "basename": "noarch/bioconductor-hybridmtest-1.38.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-fdrtool",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-survival",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hybridmtest/1.38.0/noarch/bioconductor-hybridmtest-1.38.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hybridmtest/1.38.0/noarch/bioconductor-hybridmtest-1.38.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b7f1c9a8cdb4fb330131f4a1c26dd865",
+            "ndownloads": 2487,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 295983,
+            "type": "conda",
+            "upload_time": "2021-11-03 08:28:37.243000+00:00",
+            "version": "1.38.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-fdrtool",
+                    "r-mass",
+                    "r-survival"
+                ],
+                "has_prefix": false,
+                "license": "GPL Version 2 or later",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667506853231
+            },
+            "basename": "noarch/bioconductor-hybridmtest-1.42.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hybridmtest/1.42.0/noarch/bioconductor-hybridmtest-1.42.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hybridmtest/1.42.0/noarch/bioconductor-hybridmtest-1.42.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a3c15cf95205a1f34224f810e5b92189",
+            "ndownloads": 1220,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 262362,
+            "type": "conda",
+            "upload_time": "2022-11-03 20:23:31.220000+00:00",
+            "version": "1.42.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.60.0,<2.61.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-fdrtool",
+                    "r-mass",
+                    "r-survival"
+                ],
+                "has_prefix": false,
+                "license": "GPL Version 2 or later",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689010886966
+            },
+            "basename": "noarch/bioconductor-hybridmtest-1.44.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hybridmtest/1.44.0/noarch/bioconductor-hybridmtest-1.44.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hybridmtest/1.44.0/noarch/bioconductor-hybridmtest-1.44.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1e52ad76121d498684625d06a5c7ea45",
+            "ndownloads": 782,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 266411,
+            "type": "conda",
+            "upload_time": "2023-07-10 17:44:28.049000+00:00",
+            "version": "1.44.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.62.0,<2.63.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-fdrtool",
+                    "r-mass",
+                    "r-survival"
+                ],
+                "has_prefix": false,
+                "license": "GPL Version 2 or later",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1701807956931
+            },
+            "basename": "noarch/bioconductor-hybridmtest-1.46.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hybridmtest/1.46.0/noarch/bioconductor-hybridmtest-1.46.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hybridmtest/1.46.0/noarch/bioconductor-hybridmtest-1.46.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6770c2edbcfdcff6bd56b0a60f64c1ff",
+            "ndownloads": 619,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 266699,
+            "type": "conda",
+            "upload_time": "2023-12-05 20:27:43.434000+00:00",
+            "version": "1.46.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-fdrtool",
+                    "r-mass",
+                    "r-survival"
+                ],
+                "has_prefix": false,
+                "license": "GPL Version 2 or later",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1734324867882
+            },
+            "basename": "noarch/bioconductor-hybridmtest-1.50.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hybridmtest/1.50.0/noarch/bioconductor-hybridmtest-1.50.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hybridmtest/1.50.0/noarch/bioconductor-hybridmtest-1.50.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f412e4205e3127f362581e0a9ac462e8",
+            "ndownloads": 307,
+            "owner": "bioconda",
+            "sha256": "9f0aa39d862ed3283c7178985a9430b0d778b9d9a758b750c9371b3c0c8585eb",
+            "size": 267372,
+            "type": "conda",
+            "upload_time": "2024-12-16 04:55:50.642000+00:00",
+            "version": "1.50.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-hybridmtest",
+    "home": "http://bioconductor.org/packages/3.6/bioc/html/HybridMTest.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-hybridmtest",
+    "id": "5a8b2124baec3611fd92bf93",
+    "latest_version": "1.50.0",
+    "license": "GPL Version 2 or later",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:28:56.755000+00:00",
+    "name": "bioconductor-hybridmtest",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.24.0",
+        "noarch": "1.50.0",
+        "osx-64": "1.24.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hybridmtest/1.22.0",
+            "version": "1.22.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hybridmtest/1.24.0",
+            "version": "1.24.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hybridmtest/1.26.0",
+            "version": "1.26.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hybridmtest/1.28.0",
+            "version": "1.28.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hybridmtest/1.30.0",
+            "version": "1.30.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hybridmtest/1.32.0",
+            "version": "1.32.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hybridmtest/1.34.0",
+            "version": "1.34.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hybridmtest/1.36.0",
+            "version": "1.36.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hybridmtest/1.38.0",
+            "version": "1.38.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hybridmtest/1.42.0",
+            "version": "1.42.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hybridmtest/1.44.0",
+            "version": "1.44.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hybridmtest/1.46.0",
+            "version": "1.46.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hybridmtest/1.50.0",
+            "version": "1.50.0"
+        }
+    ],
+    "revision": 27,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Hybrid Multiple Testing",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-hybridmtest",
+    "versions": [
+        "1.22.0",
+        "1.24.0",
+        "1.26.0",
+        "1.28.0",
+        "1.30.0",
+        "1.32.0",
+        "1.34.0",
+        "1.36.0",
+        "1.38.0",
+        "1.42.0",
+        "1.44.0",
+        "1.46.0",
+        "1.50.0"
+    ],
+    "watchers": 1
+}

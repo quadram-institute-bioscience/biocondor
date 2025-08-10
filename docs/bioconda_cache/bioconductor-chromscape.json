@@ -1,0 +1,4226 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r44he5774e6_0",
+        "r42hb890f52_0",
+        "r43hf17093f_0",
+        "r41h7cba510_1",
+        "r44h35d7169_0",
+        "r41h399db7b_0",
+        "r42hc0ef7c4_1",
+        "r42hf17093f_1",
+        "r41h619a076_1",
+        "r43hc0ef7c4_0",
+        "r42hc247a5b_0",
+        "r40_1",
+        "r41hc247a5b_2",
+        "r41hb890f52_2",
+        "r40hdfd78af_2",
+        "r41h832b226_0"
+    ],
+    "conda_platforms": [
+        "noarch",
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2020-11-03 08:30:44.280000+00:00",
+    "description": "ChromSCape - Chromatin landscape profiling for Single Cells - is a ready-to-launch user-friendly Shiny Application for the analysis of single-cell epigenomics datasets (scChIP-seq, scATAC-seq, scCUT&Tag, ...) from aligned data to differential analysis & gene set enrichment analysis. It is highly interactive, enables users to save their analysis and covers a wide range of analytical steps: QC, preprocessing, filtering, batch correction, dimensionality reduction, vizualisation, clustering, differential analysis and gene set analysis.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-batchelor >=1.6.0,<1.7.0",
+                    "bioconductor-biocparallel >=1.24.0,<1.25.0",
+                    "bioconductor-consensusclusterplus >=1.54.0,<1.55.0",
+                    "bioconductor-edger >=3.32.0,<3.33.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-rsamtools >=2.6.0,<2.7.0",
+                    "bioconductor-rtracklayer >=1.50.0,<1.51.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-scater >=1.18.0,<1.19.0",
+                    "bioconductor-scran >=1.18.0,<1.19.0",
+                    "bioconductor-singlecellexperiment >=1.12.0,<1.13.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-fs",
+                    "r-ggplot2",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qualv",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-stringdist",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604391584336
+            },
+            "basename": "noarch/bioconductor-chromscape-1.0.0-r40_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-batchelor",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-consensusclusterplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.32.0,<3.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-colorramps",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-colourpicker",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dt",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-jsonlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kableextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-msigdbr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plotly",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-qualv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rlist",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinycssloaders",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinydashboard",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyfiles",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyhelper",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyjs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringdist",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-umap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.0.0/noarch/bioconductor-chromscape-1.0.0-r40_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.0.0/noarch/bioconductor-chromscape-1.0.0-r40_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c051056c2361f9f207d6fa755e4a27cb",
+            "ndownloads": 263,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4541207,
+            "type": "conda",
+            "upload_time": "2020-11-03 08:30:45.162000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-batchelor >=1.6.0,<1.7.0",
+                    "bioconductor-biocparallel >=1.24.0,<1.25.0",
+                    "bioconductor-consensusclusterplus >=1.54.0,<1.55.0",
+                    "bioconductor-edger >=3.32.0,<3.33.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-rsamtools >=2.6.0,<2.7.0",
+                    "bioconductor-rtracklayer >=1.50.0,<1.51.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-scater >=1.18.0,<1.19.0",
+                    "bioconductor-scran >=1.18.0,<1.19.0",
+                    "bioconductor-singlecellexperiment >=1.12.0,<1.13.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-fs",
+                    "r-ggplot2",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qualv",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-stringdist",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617192058588
+            },
+            "basename": "noarch/bioconductor-chromscape-1.0.0-r40hdfd78af_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-batchelor",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-consensusclusterplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.32.0,<3.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-colorramps",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-colourpicker",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dt",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-jsonlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kableextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-msigdbr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plotly",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-qualv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rlist",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinycssloaders",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinydashboard",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyfiles",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyhelper",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyjs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringdist",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-umap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.0.0/noarch/bioconductor-chromscape-1.0.0-r40hdfd78af_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.0.0/noarch/bioconductor-chromscape-1.0.0-r40hdfd78af_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5045ba70f09b6533e2ce5280eb26ceda",
+            "ndownloads": 2682,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4561018,
+            "type": "conda",
+            "upload_time": "2021-03-31 12:12:09.826000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h832b226_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-batchelor >=1.8.0,<1.9.0",
+                    "bioconductor-biocparallel >=1.26.0,<1.27.0",
+                    "bioconductor-consensusclusterplus >=1.56.0,<1.57.0",
+                    "bioconductor-delayedarray >=0.18.0,<0.19.0",
+                    "bioconductor-edger >=3.34.0,<3.35.0",
+                    "bioconductor-genomicranges >=1.44.0,<1.45.0",
+                    "bioconductor-iranges >=2.26.0,<2.27.0",
+                    "bioconductor-rsamtools >=2.8.0,<2.9.0",
+                    "bioconductor-rtracklayer >=1.52.0,<1.53.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "bioconductor-scater >=1.20.0,<1.21.0",
+                    "bioconductor-scran >=1.20.0,<1.21.0",
+                    "bioconductor-singlecellexperiment >=1.14.0,<1.15.0",
+                    "bioconductor-summarizedexperiment >=1.22.0,<1.23.0",
+                    "bioconductor-sushi >=1.30.0,<1.31.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=11.1.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-coop",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-forcats",
+                    "r-fs",
+                    "r-ggplot2",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-matrixtests",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qs",
+                    "r-qualv",
+                    "r-rcpp",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-stringdist",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1622555217549
+            },
+            "basename": "osx-64/bioconductor-chromscape-1.2.0-r41h832b226_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-batchelor",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-consensusclusterplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.0,<0.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.34.0,<3.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.8.0,<2.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-sushi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-colorramps",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-colourpicker",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-coop",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dt",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-forcats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-jsonlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kableextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixtests",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-msigdbr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plotly",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-qs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-qualv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rlist",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinycssloaders",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinydashboard",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyfiles",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyhelper",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyjs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringdist",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-umap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.2.0/osx-64/bioconductor-chromscape-1.2.0-r41h832b226_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.2.0/osx-64/bioconductor-chromscape-1.2.0-r41h832b226_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2beb880dd6e7f77d6c6f210938332ec4",
+            "ndownloads": 2722,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5923747,
+            "type": "conda",
+            "upload_time": "2021-06-01 13:49:33.111000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h399db7b_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-batchelor >=1.8.0,<1.9.0",
+                    "bioconductor-biocparallel >=1.26.0,<1.27.0",
+                    "bioconductor-consensusclusterplus >=1.56.0,<1.57.0",
+                    "bioconductor-delayedarray >=0.18.0,<0.19.0",
+                    "bioconductor-edger >=3.34.0,<3.35.0",
+                    "bioconductor-genomicranges >=1.44.0,<1.45.0",
+                    "bioconductor-iranges >=2.26.0,<2.27.0",
+                    "bioconductor-rsamtools >=2.8.0,<2.9.0",
+                    "bioconductor-rtracklayer >=1.52.0,<1.53.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "bioconductor-scater >=1.20.0,<1.21.0",
+                    "bioconductor-scran >=1.20.0,<1.21.0",
+                    "bioconductor-singlecellexperiment >=1.14.0,<1.15.0",
+                    "bioconductor-summarizedexperiment >=1.22.0,<1.23.0",
+                    "bioconductor-sushi >=1.30.0,<1.31.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=9.3.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-coop",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-forcats",
+                    "r-fs",
+                    "r-ggplot2",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-matrixtests",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qs",
+                    "r-qualv",
+                    "r-rcpp",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-stringdist",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1622894693451
+            },
+            "basename": "linux-64/bioconductor-chromscape-1.2.0-r41h399db7b_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-batchelor",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-consensusclusterplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.0,<0.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.34.0,<3.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.8.0,<2.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-sushi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-colorramps",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-colourpicker",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-coop",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dt",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-forcats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-jsonlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kableextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixtests",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-msigdbr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plotly",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-qs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-qualv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rlist",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinycssloaders",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinydashboard",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyfiles",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyhelper",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyjs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringdist",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-umap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.2.0/linux-64/bioconductor-chromscape-1.2.0-r41h399db7b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.2.0/linux-64/bioconductor-chromscape-1.2.0-r41h399db7b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "21fae9b5592db9f0592b98ae6f2dc364",
+            "ndownloads": 258,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5917565,
+            "type": "conda",
+            "upload_time": "2021-06-05 12:18:43.719000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h832b226_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-batchelor >=1.10.0,<1.11.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-consensusclusterplus >=1.58.0,<1.59.0",
+                    "bioconductor-delayedarray >=0.20.0,<0.21.0",
+                    "bioconductor-edger >=3.36.0,<3.37.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-rsamtools >=2.10.0,<2.11.0",
+                    "bioconductor-rtracklayer >=1.54.0,<1.55.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-scater >=1.22.0,<1.23.0",
+                    "bioconductor-scran >=1.22.0,<1.23.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-sushi >=1.31.0,<1.32.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=11.1.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-coop",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-forcats",
+                    "r-fs",
+                    "r-ggplot2",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-matrixtests",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qs",
+                    "r-qualv",
+                    "r-rcpp",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinydashboardplus",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-shinywidgets",
+                    "r-stringdist",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1635972378803
+            },
+            "basename": "osx-64/bioconductor-chromscape-1.4.0-r41h832b226_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-batchelor",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-consensusclusterplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.36.0,<3.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-sushi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.31.0,<1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-colorramps",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-colourpicker",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-coop",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dt",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-forcats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-jsonlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kableextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixtests",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-msigdbr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plotly",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-qs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-qualv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rlist",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinycssloaders",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinydashboard",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinydashboardplus",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyfiles",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyhelper",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyjs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinywidgets",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringdist",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-umap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.4.0/osx-64/bioconductor-chromscape-1.4.0-r41h832b226_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.4.0/osx-64/bioconductor-chromscape-1.4.0-r41h832b226_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "50b8aa29c25fb5651bf4beec0c203b1f",
+            "ndownloads": 644,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5993957,
+            "type": "conda",
+            "upload_time": "2021-11-03 20:48:53.702000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h399db7b_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-batchelor >=1.10.0,<1.11.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-consensusclusterplus >=1.58.0,<1.59.0",
+                    "bioconductor-delayedarray >=0.20.0,<0.21.0",
+                    "bioconductor-edger >=3.36.0,<3.37.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-rsamtools >=2.10.0,<2.11.0",
+                    "bioconductor-rtracklayer >=1.54.0,<1.55.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-scater >=1.22.0,<1.23.0",
+                    "bioconductor-scran >=1.22.0,<1.23.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-sushi >=1.31.0,<1.32.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=9.4.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-coop",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-forcats",
+                    "r-fs",
+                    "r-ggplot2",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-matrixtests",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qs",
+                    "r-qualv",
+                    "r-rcpp",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinydashboardplus",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-shinywidgets",
+                    "r-stringdist",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1636502757542
+            },
+            "basename": "linux-64/bioconductor-chromscape-1.4.0-r41h399db7b_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-batchelor",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-consensusclusterplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.36.0,<3.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-sushi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.31.0,<1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-colorramps",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-colourpicker",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-coop",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dt",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-forcats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-jsonlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kableextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixtests",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-msigdbr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plotly",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-qs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-qualv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rlist",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinycssloaders",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinydashboard",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinydashboardplus",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyfiles",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyhelper",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyjs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinywidgets",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringdist",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-umap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.4.0/linux-64/bioconductor-chromscape-1.4.0-r41h399db7b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.4.0/linux-64/bioconductor-chromscape-1.4.0-r41h399db7b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "327134054871b06c32851f7aac590cb0",
+            "ndownloads": 230,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5982615,
+            "type": "conda",
+            "upload_time": "2021-11-10 00:19:47.917000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h619a076_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-batchelor >=1.10.0,<1.11.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-consensusclusterplus >=1.58.0,<1.59.0",
+                    "bioconductor-delayedarray >=0.20.0,<0.21.0",
+                    "bioconductor-edger >=3.36.0,<3.37.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-rsamtools >=2.10.0,<2.11.0",
+                    "bioconductor-rtracklayer >=1.54.0,<1.55.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-scater >=1.22.0,<1.23.0",
+                    "bioconductor-scran >=1.22.0,<1.23.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-sushi >=1.31.0,<1.32.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=10.3.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-coop",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-forcats",
+                    "r-fs",
+                    "r-ggplot2",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-matrixtests",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qs",
+                    "r-qualv",
+                    "r-rcpp",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinydashboardplus",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-shinywidgets",
+                    "r-stringdist",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1645529376003
+            },
+            "basename": "linux-64/bioconductor-chromscape-1.4.0-r41h619a076_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-batchelor",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-consensusclusterplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.36.0,<3.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-sushi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.31.0,<1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-colorramps",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-colourpicker",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-coop",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dt",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-forcats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-jsonlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kableextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixtests",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-msigdbr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plotly",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-qs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-qualv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rlist",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinycssloaders",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinydashboard",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinydashboardplus",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyfiles",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyhelper",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyjs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinywidgets",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringdist",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-umap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.4.0/linux-64/bioconductor-chromscape-1.4.0-r41h619a076_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.4.0/linux-64/bioconductor-chromscape-1.4.0-r41h619a076_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0cb8ae48144ab78c906d42be96da4b02",
+            "ndownloads": 204,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5990252,
+            "type": "conda",
+            "upload_time": "2022-02-22 11:46:21.831000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h7cba510_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-batchelor >=1.10.0,<1.11.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-consensusclusterplus >=1.58.0,<1.59.0",
+                    "bioconductor-delayedarray >=0.20.0,<0.21.0",
+                    "bioconductor-edger >=3.36.0,<3.37.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-rsamtools >=2.10.0,<2.11.0",
+                    "bioconductor-rtracklayer >=1.54.0,<1.55.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-scater >=1.22.0,<1.23.0",
+                    "bioconductor-scran >=1.22.0,<1.23.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-sushi >=1.31.0,<1.32.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=12.0.1",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-coop",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-forcats",
+                    "r-fs",
+                    "r-ggplot2",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-matrixtests",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qs",
+                    "r-qualv",
+                    "r-rcpp",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinydashboardplus",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-shinywidgets",
+                    "r-stringdist",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1645736859001
+            },
+            "basename": "osx-64/bioconductor-chromscape-1.4.0-r41h7cba510_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-batchelor",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-consensusclusterplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.36.0,<3.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-sushi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.31.0,<1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-colorramps",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-colourpicker",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-coop",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dt",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-forcats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-irlba",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-jsonlite",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kableextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixtests",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-msigdbr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plotly",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-qs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-qualv",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rlist",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinycssloaders",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinydashboard",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinydashboardplus",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyfiles",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyhelper",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyjs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinywidgets",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringdist",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-umap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.4.0/osx-64/bioconductor-chromscape-1.4.0-r41h7cba510_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.4.0/osx-64/bioconductor-chromscape-1.4.0-r41h7cba510_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b5e9bc9b8194597c859458e316434baf",
+            "ndownloads": 51,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5979936,
+            "type": "conda",
+            "upload_time": "2022-02-24 21:10:57.196000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hc247a5b_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-batchelor >=1.10.0,<1.11.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-consensusclusterplus >=1.58.0,<1.59.0",
+                    "bioconductor-delayedarray >=0.20.0,<0.21.0",
+                    "bioconductor-edger >=3.36.0,<3.37.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-rsamtools >=2.10.0,<2.11.0",
+                    "bioconductor-rtracklayer >=1.54.0,<1.55.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-scater >=1.22.0,<1.23.0",
+                    "bioconductor-scran >=1.22.0,<1.23.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-sushi >=1.31.0,<1.32.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-coop",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-forcats",
+                    "r-fs",
+                    "r-ggplot2",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-matrixtests",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qs",
+                    "r-qualv",
+                    "r-rcpp",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinydashboardplus",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-shinywidgets",
+                    "r-stringdist",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1664377471805
+            },
+            "basename": "linux-64/bioconductor-chromscape-1.4.0-r41hc247a5b_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.4.0/linux-64/bioconductor-chromscape-1.4.0-r41hc247a5b_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.4.0/linux-64/bioconductor-chromscape-1.4.0-r41hc247a5b_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c2ce7b51f83749f7867342a2cc3075a4",
+            "ndownloads": 192,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5964124,
+            "type": "conda",
+            "upload_time": "2022-09-28 15:13:28.966000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hb890f52_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-batchelor >=1.10.0,<1.11.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-consensusclusterplus >=1.58.0,<1.59.0",
+                    "bioconductor-delayedarray >=0.20.0,<0.21.0",
+                    "bioconductor-edger >=3.36.0,<3.37.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-rsamtools >=2.10.0,<2.11.0",
+                    "bioconductor-rtracklayer >=1.54.0,<1.55.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-scater >=1.22.0,<1.23.0",
+                    "bioconductor-scran >=1.22.0,<1.23.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-sushi >=1.31.0,<1.32.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=14.0.4",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-coop",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-forcats",
+                    "r-fs",
+                    "r-ggplot2",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-matrixtests",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qs >=0.25.4",
+                    "r-qualv",
+                    "r-rcpp",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinydashboardplus",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-shinywidgets",
+                    "r-stringdist",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1664705805576
+            },
+            "basename": "osx-64/bioconductor-chromscape-1.4.0-r41hb890f52_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.4.0/osx-64/bioconductor-chromscape-1.4.0-r41hb890f52_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.4.0/osx-64/bioconductor-chromscape-1.4.0-r41hb890f52_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e6721df1342312c805b72337545da4dd",
+            "ndownloads": 1805,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5998071,
+            "type": "conda",
+            "upload_time": "2022-10-02 10:21:55.504000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc247a5b_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-batchelor >=1.14.0,<1.15.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-consensusclusterplus >=1.62.0,<1.63.0",
+                    "bioconductor-delayedarray >=0.24.0,<0.25.0",
+                    "bioconductor-edger >=3.40.0,<3.41.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-rsamtools >=2.14.0,<2.15.0",
+                    "bioconductor-rtracklayer >=1.58.0,<1.59.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-scater >=1.26.0,<1.27.0",
+                    "bioconductor-scran >=1.26.0,<1.27.0",
+                    "bioconductor-singlecellexperiment >=1.20.0,<1.21.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-coop",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-forcats",
+                    "r-fs",
+                    "r-gggenes",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-gridextra",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-matrixtests",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qs",
+                    "r-qualv",
+                    "r-rcpp",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinydashboardplus",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-shinywidgets",
+                    "r-stringdist",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1667779798960
+            },
+            "basename": "linux-64/bioconductor-chromscape-1.8.0-r42hc247a5b_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.8.0/linux-64/bioconductor-chromscape-1.8.0-r42hc247a5b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.8.0/linux-64/bioconductor-chromscape-1.8.0-r42hc247a5b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "958d48272b49af0a94d4be24a7f5f9e5",
+            "ndownloads": 183,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 6197994,
+            "type": "conda",
+            "upload_time": "2022-11-07 00:16:11.958000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hb890f52_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-batchelor >=1.14.0,<1.15.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-consensusclusterplus >=1.62.0,<1.63.0",
+                    "bioconductor-delayedarray >=0.24.0,<0.25.0",
+                    "bioconductor-edger >=3.40.0,<3.41.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-rsamtools >=2.14.0,<2.15.0",
+                    "bioconductor-rtracklayer >=1.58.0,<1.59.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-scater >=1.26.0,<1.27.0",
+                    "bioconductor-scran >=1.26.0,<1.27.0",
+                    "bioconductor-singlecellexperiment >=1.20.0,<1.21.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=14.0.4",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-coop",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-forcats",
+                    "r-fs",
+                    "r-gggenes",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-gridextra",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-matrixtests",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qs",
+                    "r-qualv",
+                    "r-rcpp",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinydashboardplus",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-shinywidgets",
+                    "r-stringdist",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1667958099262
+            },
+            "basename": "osx-64/bioconductor-chromscape-1.8.0-r42hb890f52_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.8.0/osx-64/bioconductor-chromscape-1.8.0-r42hb890f52_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.8.0/osx-64/bioconductor-chromscape-1.8.0-r42hb890f52_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6d78c22bb4d90bc677ea950bd5dfc142",
+            "ndownloads": 449,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 6189337,
+            "type": "conda",
+            "upload_time": "2022-11-09 01:45:04.232000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hf17093f_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-batchelor >=1.14.0,<1.15.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-consensusclusterplus >=1.62.0,<1.63.0",
+                    "bioconductor-delayedarray >=0.24.0,<0.25.0",
+                    "bioconductor-edger >=3.40.0,<3.41.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-rsamtools >=2.14.0,<2.15.0",
+                    "bioconductor-rtracklayer >=1.58.0,<1.59.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-scater >=1.26.0,<1.27.0",
+                    "bioconductor-scran >=1.26.0,<1.27.0",
+                    "bioconductor-singlecellexperiment >=1.20.0,<1.21.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-coop",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-forcats",
+                    "r-fs",
+                    "r-gggenes",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-gridextra",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-matrixtests",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qs",
+                    "r-qualv",
+                    "r-rcpp",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinydashboardplus",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-shinywidgets",
+                    "r-stringdist",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1685629162530
+            },
+            "basename": "linux-64/bioconductor-chromscape-1.8.0-r42hf17093f_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.8.0/linux-64/bioconductor-chromscape-1.8.0-r42hf17093f_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.8.0/linux-64/bioconductor-chromscape-1.8.0-r42hf17093f_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "cd52168572be253e3005c3eb4a94212f",
+            "ndownloads": 146,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 6179275,
+            "type": "conda",
+            "upload_time": "2023-06-01 14:25:54.282000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc0ef7c4_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-batchelor >=1.14.0,<1.15.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-consensusclusterplus >=1.62.0,<1.63.0",
+                    "bioconductor-delayedarray >=0.24.0,<0.25.0",
+                    "bioconductor-edger >=3.40.0,<3.41.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-rsamtools >=2.14.0,<2.15.0",
+                    "bioconductor-rtracklayer >=1.58.0,<1.59.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-scater >=1.26.0,<1.27.0",
+                    "bioconductor-scran >=1.26.0,<1.27.0",
+                    "bioconductor-singlecellexperiment >=1.20.0,<1.21.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-coop",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-forcats",
+                    "r-fs",
+                    "r-gggenes",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-gridextra",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-matrixtests",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qs",
+                    "r-qualv",
+                    "r-rcpp",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinydashboardplus",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-shinywidgets",
+                    "r-stringdist",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1685793689709
+            },
+            "basename": "osx-64/bioconductor-chromscape-1.8.0-r42hc0ef7c4_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.8.0/osx-64/bioconductor-chromscape-1.8.0-r42hc0ef7c4_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.8.0/osx-64/bioconductor-chromscape-1.8.0-r42hc0ef7c4_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ccf6d064c32fabc74b42e645508d4acf",
+            "ndownloads": 1320,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 6180565,
+            "type": "conda",
+            "upload_time": "2023-06-03 12:04:09.381000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hc0ef7c4_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-batchelor >=1.16.0,<1.17.0",
+                    "bioconductor-biocparallel >=1.34.0,<1.35.0",
+                    "bioconductor-consensusclusterplus >=1.64.0,<1.65.0",
+                    "bioconductor-delayedarray >=0.26.0,<0.27.0",
+                    "bioconductor-edger >=3.42.0,<3.43.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-rsamtools >=2.16.0,<2.17.0",
+                    "bioconductor-rtracklayer >=1.60.0,<1.61.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "bioconductor-scater >=1.28.0,<1.29.0",
+                    "bioconductor-scran >=1.28.0,<1.29.0",
+                    "bioconductor-singlecellexperiment >=1.22.0,<1.23.0",
+                    "bioconductor-summarizedexperiment >=1.30.0,<1.31.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-coop",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-forcats",
+                    "r-fs",
+                    "r-gggenes",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-gridextra",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-matrixtests",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qs",
+                    "r-qualv",
+                    "r-rcpp",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinydashboardplus",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-shinywidgets",
+                    "r-stringdist",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1689259693102
+            },
+            "basename": "osx-64/bioconductor-chromscape-1.10.0-r43hc0ef7c4_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.10.0/osx-64/bioconductor-chromscape-1.10.0-r43hc0ef7c4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.10.0/osx-64/bioconductor-chromscape-1.10.0-r43hc0ef7c4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0c4533dc6a55788eec04fbe84cf6b229",
+            "ndownloads": 1211,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 6194021,
+            "type": "conda",
+            "upload_time": "2023-07-13 14:50:38.607000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hf17093f_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-batchelor >=1.16.0,<1.17.0",
+                    "bioconductor-biocparallel >=1.34.0,<1.35.0",
+                    "bioconductor-consensusclusterplus >=1.64.0,<1.65.0",
+                    "bioconductor-delayedarray >=0.26.0,<0.27.0",
+                    "bioconductor-edger >=3.42.0,<3.43.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-rsamtools >=2.16.0,<2.17.0",
+                    "bioconductor-rtracklayer >=1.60.0,<1.61.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "bioconductor-scater >=1.28.0,<1.29.0",
+                    "bioconductor-scran >=1.28.0,<1.29.0",
+                    "bioconductor-singlecellexperiment >=1.22.0,<1.23.0",
+                    "bioconductor-summarizedexperiment >=1.30.0,<1.31.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-coop",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-forcats",
+                    "r-fs",
+                    "r-gggenes",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-gridextra",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-matrixtests",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qs",
+                    "r-qualv",
+                    "r-rcpp",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinydashboardplus",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-shinywidgets",
+                    "r-stringdist",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1689695905374
+            },
+            "basename": "linux-64/bioconductor-chromscape-1.10.0-r43hf17093f_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.10.0/linux-64/bioconductor-chromscape-1.10.0-r43hf17093f_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.10.0/linux-64/bioconductor-chromscape-1.10.0-r43hf17093f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ea7901fe1755c8142d097956567073fd",
+            "ndownloads": 148,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 6172303,
+            "type": "conda",
+            "upload_time": "2023-07-18 16:03:42.474000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hc0ef7c4_0",
+                "build_number": 0,
+                "depends": [
+                    "__osx >=10.9",
+                    "bioconductor-batchelor >=1.18.0,<1.19.0",
+                    "bioconductor-batchelor >=1.18.0,<1.19.0a0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0a0",
+                    "bioconductor-consensusclusterplus >=1.66.0,<1.67.0",
+                    "bioconductor-consensusclusterplus >=1.66.0,<1.67.0a0",
+                    "bioconductor-delayedarray >=0.28.0,<0.29.0",
+                    "bioconductor-delayedarray >=0.28.0,<0.29.0a0",
+                    "bioconductor-edger >=4.0.0,<4.1.0",
+                    "bioconductor-edger >=4.0.2,<4.1.0a0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-genomicranges >=1.54.1,<1.55.0a0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0a0",
+                    "bioconductor-rsamtools >=2.18.0,<2.19.0",
+                    "bioconductor-rsamtools >=2.18.0,<2.19.0a0",
+                    "bioconductor-rtracklayer >=1.62.0,<1.63.0",
+                    "bioconductor-rtracklayer >=1.62.0,<1.63.0a0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-s4vectors >=0.40.2,<0.41.0a0",
+                    "bioconductor-scater >=1.30.0,<1.31.0",
+                    "bioconductor-scater >=1.30.1,<1.31.0a0",
+                    "bioconductor-scran >=1.30.0,<1.31.0",
+                    "bioconductor-scran >=1.30.0,<1.31.0a0",
+                    "bioconductor-singlecellexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-singlecellexperiment >=1.24.0,<1.25.0a0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-coop",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-forcats",
+                    "r-fs",
+                    "r-gggenes",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-gridextra",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-matrixtests",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qs",
+                    "r-qualv",
+                    "r-rcpp",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinydashboardplus",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-shinywidgets",
+                    "r-stringdist",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1702341846388
+            },
+            "basename": "osx-64/bioconductor-chromscape-1.12.0-r43hc0ef7c4_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.12.0/osx-64/bioconductor-chromscape-1.12.0-r43hc0ef7c4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.12.0/osx-64/bioconductor-chromscape-1.12.0-r43hc0ef7c4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e2113cc4a3728df1ceaa10141e21783c",
+            "ndownloads": 917,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 6182264,
+            "type": "conda",
+            "upload_time": "2023-12-12 00:46:06.480000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hf17093f_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-batchelor >=1.18.0,<1.19.0",
+                    "bioconductor-batchelor >=1.18.0,<1.19.0a0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0a0",
+                    "bioconductor-consensusclusterplus >=1.66.0,<1.67.0",
+                    "bioconductor-consensusclusterplus >=1.66.0,<1.67.0a0",
+                    "bioconductor-delayedarray >=0.28.0,<0.29.0",
+                    "bioconductor-delayedarray >=0.28.0,<0.29.0a0",
+                    "bioconductor-edger >=4.0.0,<4.1.0",
+                    "bioconductor-edger >=4.0.2,<4.1.0a0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-genomicranges >=1.54.1,<1.55.0a0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0a0",
+                    "bioconductor-rsamtools >=2.18.0,<2.19.0",
+                    "bioconductor-rsamtools >=2.18.0,<2.19.0a0",
+                    "bioconductor-rtracklayer >=1.62.0,<1.63.0",
+                    "bioconductor-rtracklayer >=1.62.0,<1.63.0a0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-s4vectors >=0.40.2,<0.41.0a0",
+                    "bioconductor-scater >=1.30.0,<1.31.0",
+                    "bioconductor-scater >=1.30.1,<1.31.0a0",
+                    "bioconductor-scran >=1.30.0,<1.31.0",
+                    "bioconductor-scran >=1.30.0,<1.31.0a0",
+                    "bioconductor-singlecellexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-singlecellexperiment >=1.24.0,<1.25.0a0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-coop",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-forcats",
+                    "r-fs",
+                    "r-gggenes",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-gridextra",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-matrixtests",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qs",
+                    "r-qualv",
+                    "r-rcpp",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinydashboardplus",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-shinywidgets",
+                    "r-stringdist",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1703615247189
+            },
+            "basename": "linux-64/bioconductor-chromscape-1.12.0-r43hf17093f_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.12.0/linux-64/bioconductor-chromscape-1.12.0-r43hf17093f_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.12.0/linux-64/bioconductor-chromscape-1.12.0-r43hf17093f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "547b3bcca5f6d076c27c458fe894b1f7",
+            "ndownloads": 123,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 6149815,
+            "type": "conda",
+            "upload_time": "2023-12-26 18:31:45.428000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h35d7169_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-batchelor >=1.22.0,<1.23.0",
+                    "bioconductor-batchelor >=1.22.0,<1.23.0a0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0a0",
+                    "bioconductor-consensusclusterplus >=1.70.0,<1.71.0",
+                    "bioconductor-consensusclusterplus >=1.70.0,<1.71.0a0",
+                    "bioconductor-delayedarray >=0.32.0,<0.33.0",
+                    "bioconductor-delayedarray >=0.32.0,<0.33.0a0",
+                    "bioconductor-edger >=4.4.0,<4.5.0",
+                    "bioconductor-edger >=4.4.0,<4.5.0a0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0a0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0a0",
+                    "bioconductor-rsamtools >=2.22.0,<2.23.0",
+                    "bioconductor-rsamtools >=2.22.0,<2.23.0a0",
+                    "bioconductor-rtracklayer >=1.66.0,<1.67.0",
+                    "bioconductor-rtracklayer >=1.66.0,<1.67.0a0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0a0",
+                    "bioconductor-scater >=1.34.0,<1.35.0",
+                    "bioconductor-scater >=1.34.0,<1.35.0a0",
+                    "bioconductor-scran >=1.34.0,<1.35.0",
+                    "bioconductor-scran >=1.34.0,<1.35.0a0",
+                    "bioconductor-singlecellexperiment >=1.28.0,<1.29.0",
+                    "bioconductor-singlecellexperiment >=1.28.0,<1.29.0a0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=18",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-coop",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-forcats",
+                    "r-fs",
+                    "r-gggenes",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-gridextra",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-matrixtests",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qs",
+                    "r-qualv",
+                    "r-rcpp",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinydashboardplus",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-shinywidgets",
+                    "r-stringdist",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1734772445659
+            },
+            "basename": "osx-64/bioconductor-chromscape-1.16.0-r44h35d7169_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.16.0/osx-64/bioconductor-chromscape-1.16.0-r44h35d7169_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.16.0/osx-64/bioconductor-chromscape-1.16.0-r44h35d7169_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d446f83921a96ea4f2d16c8a5cafd016",
+            "ndownloads": 208,
+            "owner": "bioconda",
+            "sha256": "1f57be1cf4cfddca84721758eba9c414a980a687e089aa35b948bdd92ac25270",
+            "size": 6211756,
+            "type": "conda",
+            "upload_time": "2024-12-21 09:15:46.874000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44he5774e6_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-batchelor >=1.22.0,<1.23.0",
+                    "bioconductor-batchelor >=1.22.0,<1.23.0a0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0a0",
+                    "bioconductor-consensusclusterplus >=1.70.0,<1.71.0",
+                    "bioconductor-consensusclusterplus >=1.70.0,<1.71.0a0",
+                    "bioconductor-delayedarray >=0.32.0,<0.33.0",
+                    "bioconductor-delayedarray >=0.32.0,<0.33.0a0",
+                    "bioconductor-edger >=4.4.0,<4.5.0",
+                    "bioconductor-edger >=4.4.0,<4.5.0a0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0a0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0a0",
+                    "bioconductor-rsamtools >=2.22.0,<2.23.0",
+                    "bioconductor-rsamtools >=2.22.0,<2.23.0a0",
+                    "bioconductor-rtracklayer >=1.66.0,<1.67.0",
+                    "bioconductor-rtracklayer >=1.66.0,<1.67.0a0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0a0",
+                    "bioconductor-scater >=1.34.0,<1.35.0",
+                    "bioconductor-scater >=1.34.0,<1.35.0a0",
+                    "bioconductor-scran >=1.34.0,<1.35.0",
+                    "bioconductor-scran >=1.34.0,<1.35.0a0",
+                    "bioconductor-singlecellexperiment >=1.28.0,<1.29.0",
+                    "bioconductor-singlecellexperiment >=1.28.0,<1.29.0a0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx >=13",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-colorramps",
+                    "r-colourpicker",
+                    "r-coop",
+                    "r-dplyr",
+                    "r-dt",
+                    "r-forcats",
+                    "r-fs",
+                    "r-gggenes",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-gridextra",
+                    "r-irlba",
+                    "r-jsonlite",
+                    "r-kableextra",
+                    "r-matrix",
+                    "r-matrixtests",
+                    "r-msigdbr",
+                    "r-plotly",
+                    "r-qs",
+                    "r-qualv",
+                    "r-rcpp",
+                    "r-rlist",
+                    "r-rtsne",
+                    "r-shiny",
+                    "r-shinycssloaders",
+                    "r-shinydashboard",
+                    "r-shinydashboardplus",
+                    "r-shinyfiles",
+                    "r-shinyhelper",
+                    "r-shinyjs",
+                    "r-shinywidgets",
+                    "r-stringdist",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-umap",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1735936295120
+            },
+            "basename": "linux-64/bioconductor-chromscape-1.16.0-r44he5774e6_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chromscape/1.16.0/linux-64/bioconductor-chromscape-1.16.0-r44he5774e6_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chromscape/1.16.0/linux-64/bioconductor-chromscape-1.16.0-r44he5774e6_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b55da43510f32f4403a43405ef404496",
+            "ndownloads": 110,
+            "owner": "bioconda",
+            "sha256": "b3f0209b47283b18173e4810a8bbaf8e06910fec0fa9b53eefa503d7545838a6",
+            "size": 6170948,
+            "type": "conda",
+            "upload_time": "2025-01-03 20:34:39.956000+00:00",
+            "version": "1.16.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-chromscape",
+    "home": "https://bioconductor.org/packages/3.12/bioc/html/ChromSCape.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-chromscape",
+    "id": "5fa11534a58f0d0a51c0f1f9",
+    "latest_version": "1.16.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:25.826000+00:00",
+    "name": "bioconductor-chromscape",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.16.0",
+        "noarch": "1.0.0",
+        "osx-64": "1.16.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chromscape/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chromscape/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chromscape/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chromscape/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chromscape/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chromscape/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chromscape/1.16.0",
+            "version": "1.16.0"
+        }
+    ],
+    "revision": 16,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Analysis of single-cell epigenomics datasets with a Shiny App",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-chromscape",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.4.0",
+        "1.8.0",
+        "1.10.0",
+        "1.12.0",
+        "1.16.0"
+    ],
+    "watchers": 1
+}

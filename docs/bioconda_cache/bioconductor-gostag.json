@@ -1,0 +1,1052 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351_0",
+        "r44hdfd78af_0",
+        "r36_0",
+        "r40_0",
+        "r40hdfd78af_0",
+        "r41hdfd78af_0",
+        "r43hdfd78af_0",
+        "r36_1",
+        "r42hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2018-12-24 15:07:18.391000+00:00",
+    "description": "Gene lists derived from the results of genomic analyses are rich in biological information. For instance, differentially expressed genes (DEGs) from a microarray or RNA-Seq analysis are related functionally in terms of their response to a treatment or condition. Gene lists can vary in size, up to several thousand genes, depending on the robustness of the perturbations or how widely different the conditions are biologically. Having a way to associate biological relatedness between hundreds and thousands of genes systematically is impractical by manually curating the annotation and function of each gene. Over-representation analysis (ORA) of genes was developed to identify biological themes. Given a Gene Ontology (GO) and an annotation of genes that indicate the categories each one fits into, significance of the over-representation of the genes within the ontological categories is determined by a Fisher's exact test or modeling according to a hypergeometric distribution. Comparing a small number of enriched biological categories for a few samples is manageable using Venn diagrams or other means for assessing overlaps. However, with hundreds of enriched categories and many samples, the comparisons are laborious. Furthermore, if there are enriched categories that are shared between samples, trying to represent a common theme across them is highly subjective. goSTAG uses GO subtrees to tag and annotate genes within a set. goSTAG visualizes the similarities between the over-representation of DEGs by clustering the p-values from the enrichment statistical tests and labels clusters with the GO term that has the most paths to the root within the subtree generated from all the GO terms in the cluster.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.44.0,<1.45.0",
+                    "bioconductor-biomart >=2.38.0,<2.39.0",
+                    "bioconductor-go.db >=3.7.0,<3.8.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-memoise"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1545663797237
+            },
+            "basename": "noarch/bioconductor-gostag-1.6.1-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.38.0,<2.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.7.0,<3.8.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-memoise",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gostag/1.6.1/noarch/bioconductor-gostag-1.6.1-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gostag/1.6.1/noarch/bioconductor-gostag-1.6.1-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "87f54b1a3d6176936c9abee2620e3c9c",
+            "ndownloads": 2799,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3314858,
+            "type": "conda",
+            "upload_time": "2018-12-24 15:07:19.194000+00:00",
+            "version": "1.6.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.46.0,<1.47.0",
+                    "bioconductor-biomart >=2.40.0,<2.41.0",
+                    "bioconductor-go.db >=3.8.0,<3.9.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-memoise"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1564965978976
+            },
+            "basename": "noarch/bioconductor-gostag-1.8.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-memoise",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gostag/1.8.0/noarch/bioconductor-gostag-1.8.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-gostag/1.8.0/noarch/bioconductor-gostag-1.8.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "45736fface0be9ff57e91b2bc2eb92a7",
+            "ndownloads": 2755,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3308383,
+            "type": "conda",
+            "upload_time": "2019-08-05 00:51:40.661000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.48.0,<1.49.0",
+                    "bioconductor-biomart >=2.42.0,<2.43.0",
+                    "bioconductor-go.db >=3.10.0,<3.11.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-memoise"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572802652035
+            },
+            "basename": "noarch/bioconductor-gostag-1.10.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.10.0,<3.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-memoise",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gostag/1.10.0/noarch/bioconductor-gostag-1.10.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gostag/1.10.0/noarch/bioconductor-gostag-1.10.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "074d521ba63772949fb0d41c3cb22900",
+            "ndownloads": 2700,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3325729,
+            "type": "conda",
+            "upload_time": "2019-11-03 17:43:01.271000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.50.0,<1.51.0",
+                    "bioconductor-biomart >=2.44.0,<2.45.0",
+                    "bioconductor-go.db >=3.11.0,<3.12.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-memoise"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589261210086
+            },
+            "basename": "noarch/bioconductor-gostag-1.12.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.11.0,<3.12.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-memoise",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gostag/1.12.0/noarch/bioconductor-gostag-1.12.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gostag/1.12.0/noarch/bioconductor-gostag-1.12.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a0ff9ac47a71b204e40c321437dcb4d6",
+            "ndownloads": 2669,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3320732,
+            "type": "conda",
+            "upload_time": "2020-05-12 05:32:27.532000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.52.0,<1.53.0",
+                    "bioconductor-biomart >=2.46.0,<2.47.0",
+                    "bioconductor-go.db >=3.12.0,<3.13.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-memoise"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604078286130
+            },
+            "basename": "noarch/bioconductor-gostag-1.13.1-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-memoise",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gostag/1.13.1/noarch/bioconductor-gostag-1.13.1-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gostag/1.13.1/noarch/bioconductor-gostag-1.13.1-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6b3e73e15b638f2f7dfc3201e747cecd",
+            "ndownloads": 2655,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3327573,
+            "type": "conda",
+            "upload_time": "2020-10-30 17:25:32.808000+00:00",
+            "version": "1.13.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.52.0,<1.53.0",
+                    "bioconductor-biomart >=2.46.0,<2.47.0",
+                    "bioconductor-go.db >=3.12.0,<3.13.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-memoise"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604335354437
+            },
+            "basename": "noarch/bioconductor-gostag-1.14.1-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-memoise",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gostag/1.14.1/noarch/bioconductor-gostag-1.14.1-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gostag/1.14.1/noarch/bioconductor-gostag-1.14.1-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5d8715e968c121494d4f6a08bdaf6204",
+            "ndownloads": 2646,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3321052,
+            "type": "conda",
+            "upload_time": "2020-11-02 16:48:36.826000+00:00",
+            "version": "1.14.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.52.0,<1.53.0",
+                    "bioconductor-biomart >=2.46.0,<2.47.0",
+                    "bioconductor-go.db >=3.12.0,<3.13.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-memoise"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617191294545
+            },
+            "basename": "noarch/bioconductor-gostag-1.14.2-r40hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-memoise",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gostag/1.14.2/noarch/bioconductor-gostag-1.14.2-r40hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gostag/1.14.2/noarch/bioconductor-gostag-1.14.2-r40hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6e6efbeca41988fc424bbc5875d8b798",
+            "ndownloads": 2629,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3322904,
+            "type": "conda",
+            "upload_time": "2021-03-31 11:54:49.751000+00:00",
+            "version": "1.14.2"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.54.0,<1.55.0",
+                    "bioconductor-biomart >=2.48.0,<2.49.0",
+                    "bioconductor-go.db >=3.13.0,<3.14.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-memoise"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622751005361
+            },
+            "basename": "noarch/bioconductor-gostag-1.16.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.13.0,<3.14.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-memoise",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gostag/1.16.0/noarch/bioconductor-gostag-1.16.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gostag/1.16.0/noarch/bioconductor-gostag-1.16.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3b0c3d7bbfa6562b65ec847a077fa1f2",
+            "ndownloads": 2635,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3323503,
+            "type": "conda",
+            "upload_time": "2021-06-03 20:17:18.839000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.56.0,<1.57.0",
+                    "bioconductor-biomart >=2.50.0,<2.51.0",
+                    "bioconductor-go.db >=3.14.0,<3.15.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-memoise"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636345701099
+            },
+            "basename": "noarch/bioconductor-gostag-1.18.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.14.0,<3.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-memoise",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gostag/1.18.0/noarch/bioconductor-gostag-1.18.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gostag/1.18.0/noarch/bioconductor-gostag-1.18.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "10d23e0569b9588dcaeb5700475c44e6",
+            "ndownloads": 2472,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3314253,
+            "type": "conda",
+            "upload_time": "2021-11-08 04:37:11.755000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.60.0,<1.61.0",
+                    "bioconductor-biomart >=2.54.0,<2.55.0",
+                    "bioconductor-go.db >=3.16.0,<3.17.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-memoise"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667880169731
+            },
+            "basename": "noarch/bioconductor-gostag-1.22.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gostag/1.22.0/noarch/bioconductor-gostag-1.22.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gostag/1.22.0/noarch/bioconductor-gostag-1.22.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6017b5d879d2e9f26465f5f83ca89c2e",
+            "ndownloads": 1672,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3321933,
+            "type": "conda",
+            "upload_time": "2022-11-08 04:07:13.228000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.62.0,<1.63.0",
+                    "bioconductor-biomart >=2.56.0,<2.57.0",
+                    "bioconductor-go.db >=3.17.0,<3.18.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-memoise"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689192502176
+            },
+            "basename": "noarch/bioconductor-gostag-1.24.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gostag/1.24.0/noarch/bioconductor-gostag-1.24.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gostag/1.24.0/noarch/bioconductor-gostag-1.24.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7d6af8461f10f201c2887ec65f20d761",
+            "ndownloads": 1206,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3321877,
+            "type": "conda",
+            "upload_time": "2023-07-12 20:13:00.664000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.64.0,<1.65.0",
+                    "bioconductor-biomart >=2.58.0,<2.59.0",
+                    "bioconductor-go.db >=3.18.0,<3.19.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-memoise"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1702070028230
+            },
+            "basename": "noarch/bioconductor-gostag-1.26.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gostag/1.26.0/noarch/bioconductor-gostag-1.26.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gostag/1.26.0/noarch/bioconductor-gostag-1.26.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1cd8a30740e2514fcc4b6d2192949292",
+            "ndownloads": 949,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3339735,
+            "type": "conda",
+            "upload_time": "2023-12-08 21:16:56.421000+00:00",
+            "version": "1.26.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0",
+                    "bioconductor-biomart >=2.62.0,<2.63.0",
+                    "bioconductor-go.db >=3.20.0,<3.21.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-memoise"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1735952533448
+            },
+            "basename": "noarch/bioconductor-gostag-1.30.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gostag/1.30.0/noarch/bioconductor-gostag-1.30.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gostag/1.30.0/noarch/bioconductor-gostag-1.30.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8e22d4ba4b3b7426c652a82678191410",
+            "ndownloads": 236,
+            "owner": "bioconda",
+            "sha256": "853ee9390dffc5c431f39c4ca4f7e8c1664a733ba56ab4ddd616ece0ff0f6eb7",
+            "size": 3372939,
+            "type": "conda",
+            "upload_time": "2025-01-04 01:04:30.674000+00:00",
+            "version": "1.30.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-gostag",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/goSTAG.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-gostag",
+    "id": "5c20f62637f33978ad1e5609",
+    "latest_version": "1.30.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:07.308000+00:00",
+    "name": "bioconductor-gostag",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.30.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gostag/1.6.1",
+            "version": "1.6.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gostag/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gostag/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gostag/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gostag/1.13.1",
+            "version": "1.13.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gostag/1.14.1",
+            "version": "1.14.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gostag/1.14.2",
+            "version": "1.14.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gostag/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gostag/1.18.0",
+            "version": "1.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gostag/1.22.0",
+            "version": "1.22.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gostag/1.24.0",
+            "version": "1.24.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gostag/1.26.0",
+            "version": "1.26.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gostag/1.30.0",
+            "version": "1.30.0"
+        }
+    ],
+    "revision": 27,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "A tool to use GO Subtrees to Tag and Annotate Genes within a set",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-gostag",
+    "versions": [
+        "1.6.1",
+        "1.8.0",
+        "1.10.0",
+        "1.12.0",
+        "1.13.1",
+        "1.14.1",
+        "1.14.2",
+        "1.16.0",
+        "1.18.0",
+        "1.22.0",
+        "1.24.0",
+        "1.26.0",
+        "1.30.0"
+    ],
+    "watchers": 1
+}

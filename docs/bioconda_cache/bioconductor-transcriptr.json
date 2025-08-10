@@ -1,0 +1,2685 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351_0",
+        "r44hdfd78af_0",
+        "r36_0",
+        "r40_0",
+        "r341_0",
+        "r41hdfd78af_0",
+        "r3.4.1_0",
+        "r43hdfd78af_0",
+        "r36_1",
+        "r40hdfd78af_1",
+        "r42hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch",
+        "osx-64",
+        "linux-64"
+    ],
+    "created_at": "2018-03-02 22:43:54.542000+00:00",
+    "description": "The differences in the RNA types being sequenced have an impact on the resulting sequencing profiles. mRNA-seq data is enriched with reads derived from exons, while GRO-, nucRNA- and chrRNA-seq demonstrate a substantial broader coverage of both exonic and intronic regions. The presence of intronic reads in GRO-seq type of data makes it possible to use it to computationally identify and quantify all de novo continuous regions of transcription distributed across the genome. This type of data, however, is more challenging to interpret and less common practice compared to mRNA-seq. One of the challenges for primary transcript detection concerns the simultaneous transcription of closely spaced genes, which needs to be properly divided into individually transcribed units. The R package transcriptR combines RNA-seq data with ChIP-seq data of histone modifications that mark active Transcription Start Sites (TSSs), such as, H3K4me3 or H3K9/14Ac to overcome this challenge. The advantage of this approach over the use of, for example, gene annotations is that this approach is data driven and therefore able to deal also with novel and case specific events. Furthermore, the integration of ChIP- and RNA-seq data allows the identification all known and novel active transcription start sites within a given sample.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics",
+                    "bioconductor-chipseq",
+                    "bioconductor-genomeinfodb",
+                    "bioconductor-genomicalignments",
+                    "bioconductor-genomicfeatures",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges >=2.11.15",
+                    "bioconductor-rsamtools",
+                    "bioconductor-rtracklayer",
+                    "bioconductor-s4vectors",
+                    "r-base 3.4.1*",
+                    "r-caret",
+                    "r-e1071",
+                    "r-ggplot2",
+                    "r-proc",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-transcriptr-1.6.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-chipseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.11.15"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-caret",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-e1071",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-proc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-transcriptr/1.6.0/linux-64/bioconductor-transcriptr-1.6.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-transcriptr/1.6.0/linux-64/bioconductor-transcriptr-1.6.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "846313d841a3fe9161b6afd1aaf5458e",
+            "ndownloads": 595,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2865250,
+            "type": "conda",
+            "upload_time": "2018-03-02 22:43:55.074000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics",
+                    "bioconductor-chipseq",
+                    "bioconductor-genomeinfodb",
+                    "bioconductor-genomicalignments",
+                    "bioconductor-genomicfeatures",
+                    "bioconductor-genomicranges",
+                    "bioconductor-iranges >=2.11.15",
+                    "bioconductor-rsamtools",
+                    "bioconductor-rtracklayer",
+                    "bioconductor-s4vectors",
+                    "r-base 3.4.1*",
+                    "r-caret",
+                    "r-e1071",
+                    "r-ggplot2",
+                    "r-proc",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-transcriptr-1.6.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-chipseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.11.15"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-caret",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-e1071",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-proc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-transcriptr/1.6.0/osx-64/bioconductor-transcriptr-1.6.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-transcriptr/1.6.0/osx-64/bioconductor-transcriptr-1.6.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "6fd860003045010ca5f8b2a1b6cb549f",
+            "ndownloads": 4426,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2866998,
+            "type": "conda",
+            "upload_time": "2018-03-02 23:03:15.016000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "bioconductor-chipseq >=1.30.0,<1.32.0",
+                    "bioconductor-genomeinfodb >=1.16.0,<1.18.0",
+                    "bioconductor-genomicalignments >=1.16.0,<1.18.0",
+                    "bioconductor-genomicfeatures >=1.32.2,<1.34.0",
+                    "bioconductor-genomicranges >=1.32.7,<1.34.0",
+                    "bioconductor-iranges >=2.14.12,<2.16.0",
+                    "bioconductor-rsamtools >=1.32.3,<1.34.0",
+                    "bioconductor-rtracklayer >=1.40.6,<1.42.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "r-caret",
+                    "r-e1071",
+                    "r-ggplot2",
+                    "r-proc",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539951112436
+            },
+            "basename": "osx-64/bioconductor-transcriptr-1.8.0-r341_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-chipseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.2,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.7,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.12,<2.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.3,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.6,<1.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-caret",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-e1071",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-proc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-transcriptr/1.8.0/osx-64/bioconductor-transcriptr-1.8.0-r341_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-transcriptr/1.8.0/osx-64/bioconductor-transcriptr-1.8.0-r341_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "a28b24fb98a09f28535614309471bc1f",
+            "ndownloads": 186,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2873135,
+            "type": "conda",
+            "upload_time": "2018-10-19 12:13:47.597000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "bioconductor-chipseq >=1.30.0,<1.32.0",
+                    "bioconductor-genomeinfodb >=1.16.0,<1.18.0",
+                    "bioconductor-genomicalignments >=1.16.0,<1.18.0",
+                    "bioconductor-genomicfeatures >=1.32.2,<1.34.0",
+                    "bioconductor-genomicranges >=1.32.7,<1.34.0",
+                    "bioconductor-iranges >=2.14.12,<2.16.0",
+                    "bioconductor-rsamtools >=1.32.3,<1.34.0",
+                    "bioconductor-rtracklayer >=1.40.6,<1.42.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-caret",
+                    "r-e1071",
+                    "r-ggplot2",
+                    "r-proc",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539950864681
+            },
+            "basename": "osx-64/bioconductor-transcriptr-1.8.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-chipseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.2,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.7,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.12,<2.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.3,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.6,<1.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-caret",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-e1071",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-proc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-transcriptr/1.8.0/osx-64/bioconductor-transcriptr-1.8.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-transcriptr/1.8.0/osx-64/bioconductor-transcriptr-1.8.0-r351_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "82d8e312d46d503c9e2b9a17a9412809",
+            "ndownloads": 4340,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3027896,
+            "type": "conda",
+            "upload_time": "2018-10-19 12:13:52.073000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "bioconductor-chipseq >=1.30.0,<1.32.0",
+                    "bioconductor-genomeinfodb >=1.16.0,<1.18.0",
+                    "bioconductor-genomicalignments >=1.16.0,<1.18.0",
+                    "bioconductor-genomicfeatures >=1.32.2,<1.34.0",
+                    "bioconductor-genomicranges >=1.32.7,<1.34.0",
+                    "bioconductor-iranges >=2.14.12,<2.16.0",
+                    "bioconductor-rsamtools >=1.32.3,<1.34.0",
+                    "bioconductor-rtracklayer >=1.40.6,<1.42.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "r-caret",
+                    "r-e1071",
+                    "r-ggplot2",
+                    "r-proc",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540121731808
+            },
+            "basename": "linux-64/bioconductor-transcriptr-1.8.0-r341_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-chipseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.2,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.7,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.12,<2.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.3,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.6,<1.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-caret",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-e1071",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-proc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-transcriptr/1.8.0/linux-64/bioconductor-transcriptr-1.8.0-r341_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-transcriptr/1.8.0/linux-64/bioconductor-transcriptr-1.8.0-r341_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "fef4867318baecb1f26efdd95ccc2409",
+            "ndownloads": 424,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2872257,
+            "type": "conda",
+            "upload_time": "2018-10-21 11:47:40.986000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "bioconductor-chipseq >=1.30.0,<1.32.0",
+                    "bioconductor-genomeinfodb >=1.16.0,<1.18.0",
+                    "bioconductor-genomicalignments >=1.16.0,<1.18.0",
+                    "bioconductor-genomicfeatures >=1.32.2,<1.34.0",
+                    "bioconductor-genomicranges >=1.32.7,<1.34.0",
+                    "bioconductor-iranges >=2.14.12,<2.16.0",
+                    "bioconductor-rsamtools >=1.32.3,<1.34.0",
+                    "bioconductor-rtracklayer >=1.40.6,<1.42.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-caret",
+                    "r-e1071",
+                    "r-ggplot2",
+                    "r-proc",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540121965900
+            },
+            "basename": "linux-64/bioconductor-transcriptr-1.8.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-chipseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.2,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.7,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.12,<2.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.3,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.6,<1.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-caret",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-e1071",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-proc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-transcriptr/1.8.0/linux-64/bioconductor-transcriptr-1.8.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-transcriptr/1.8.0/linux-64/bioconductor-transcriptr-1.8.0-r351_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "da6a2a0a83ea0f7341799c60ca490814",
+            "ndownloads": 541,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3026444,
+            "type": "conda",
+            "upload_time": "2018-10-21 11:47:43.970000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "bioconductor-chipseq >=1.32.0,<1.33.0",
+                    "bioconductor-genomeinfodb >=1.18.0,<1.19.0",
+                    "bioconductor-genomicalignments >=1.18.0,<1.19.0",
+                    "bioconductor-genomicfeatures >=1.34.0,<1.35.0",
+                    "bioconductor-genomicranges >=1.34.0,<1.35.0",
+                    "bioconductor-iranges >=2.16.0,<2.17.0",
+                    "bioconductor-rsamtools >=1.34.0,<1.35.0",
+                    "bioconductor-rtracklayer >=1.42.0,<1.43.0",
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-caret",
+                    "r-e1071",
+                    "r-ggplot2",
+                    "r-proc",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1545653635428
+            },
+            "basename": "noarch/bioconductor-transcriptr-1.10.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-chipseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-caret",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-e1071",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-proc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-transcriptr/1.10.0/noarch/bioconductor-transcriptr-1.10.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-transcriptr/1.10.0/noarch/bioconductor-transcriptr-1.10.0-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "5e956c8a736d7b46dd26c7edb4c2dfe0",
+            "ndownloads": 2755,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3013718,
+            "type": "conda",
+            "upload_time": "2018-12-24 12:19:05.104000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "bioconductor-chipseq >=1.34.0,<1.35.0",
+                    "bioconductor-genomeinfodb >=1.20.0,<1.21.0",
+                    "bioconductor-genomicalignments >=1.20.0,<1.21.0",
+                    "bioconductor-genomicfeatures >=1.36.0,<1.37.0",
+                    "bioconductor-genomicranges >=1.36.0,<1.37.0",
+                    "bioconductor-iranges >=2.18.0,<2.19.0",
+                    "bioconductor-rsamtools >=2.0.0,<2.1.0",
+                    "bioconductor-rtracklayer >=1.44.0,<1.45.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-caret",
+                    "r-e1071",
+                    "r-ggplot2",
+                    "r-proc",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1565553694254
+            },
+            "basename": "noarch/bioconductor-transcriptr-1.12.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-chipseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-caret",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-e1071",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-proc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-transcriptr/1.12.0/noarch/bioconductor-transcriptr-1.12.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-transcriptr/1.12.0/noarch/bioconductor-transcriptr-1.12.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3088aa4ca8194780e4ef1db6aca73592",
+            "ndownloads": 2723,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2992134,
+            "type": "conda",
+            "upload_time": "2019-08-11 20:07:16.022000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-chipseq >=1.36.0,<1.37.0",
+                    "bioconductor-genomeinfodb >=1.22.0,<1.23.0",
+                    "bioconductor-genomicalignments >=1.22.0,<1.23.0",
+                    "bioconductor-genomicfeatures >=1.38.0,<1.39.0",
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "bioconductor-iranges >=2.20.0,<2.21.0",
+                    "bioconductor-rsamtools >=2.2.0,<2.3.0",
+                    "bioconductor-rtracklayer >=1.46.0,<1.47.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-caret",
+                    "r-e1071",
+                    "r-ggplot2",
+                    "r-proc",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572824932869
+            },
+            "basename": "noarch/bioconductor-transcriptr-1.14.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-chipseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-caret",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-e1071",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-proc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-transcriptr/1.14.0/noarch/bioconductor-transcriptr-1.14.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-transcriptr/1.14.0/noarch/bioconductor-transcriptr-1.14.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7ab200de1df08f4a08fcb3b7186c0332",
+            "ndownloads": 2718,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3008126,
+            "type": "conda",
+            "upload_time": "2019-11-03 23:55:30.557000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.34.0,<0.35.0",
+                    "bioconductor-chipseq >=1.38.0,<1.39.0",
+                    "bioconductor-genomeinfodb >=1.24.0,<1.25.0",
+                    "bioconductor-genomicalignments >=1.24.0,<1.25.0",
+                    "bioconductor-genomicfeatures >=1.40.0,<1.41.0",
+                    "bioconductor-genomicranges >=1.40.0,<1.41.0",
+                    "bioconductor-iranges >=2.22.0,<2.23.0",
+                    "bioconductor-rsamtools >=2.4.0,<2.5.0",
+                    "bioconductor-rtracklayer >=1.48.0,<1.49.0",
+                    "bioconductor-s4vectors >=0.26.0,<0.27.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-caret",
+                    "r-e1071",
+                    "r-ggplot2",
+                    "r-proc",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589207485970
+            },
+            "basename": "noarch/bioconductor-transcriptr-1.16.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.34.0,<0.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-chipseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.22.0,<2.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.4.0,<2.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-caret",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-e1071",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-proc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-transcriptr/1.16.0/noarch/bioconductor-transcriptr-1.16.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-transcriptr/1.16.0/noarch/bioconductor-transcriptr-1.16.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "18eb677d57a774d6a3b6b9f1132c4f94",
+            "ndownloads": 2698,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3587436,
+            "type": "conda",
+            "upload_time": "2020-05-11 14:38:05.908000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-chipseq >=1.40.0,<1.41.0",
+                    "bioconductor-genomeinfodb >=1.26.0,<1.27.0",
+                    "bioconductor-genomicalignments >=1.26.0,<1.27.0",
+                    "bioconductor-genomicfeatures >=1.42.0,<1.43.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-rsamtools >=2.6.0,<2.7.0",
+                    "bioconductor-rtracklayer >=1.50.0,<1.51.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-caret",
+                    "r-e1071",
+                    "r-ggplot2",
+                    "r-proc",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604305179198
+            },
+            "basename": "noarch/bioconductor-transcriptr-1.18.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-chipseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-caret",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-e1071",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-proc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-transcriptr/1.18.0/noarch/bioconductor-transcriptr-1.18.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-transcriptr/1.18.0/noarch/bioconductor-transcriptr-1.18.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8c586e82f97d80a3f07e8a4fbad5c151",
+            "ndownloads": 260,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3574997,
+            "type": "conda",
+            "upload_time": "2020-11-02 08:27:31.192000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-chipseq >=1.40.0,<1.41.0",
+                    "bioconductor-genomeinfodb >=1.26.0,<1.27.0",
+                    "bioconductor-genomicalignments >=1.26.0,<1.27.0",
+                    "bioconductor-genomicfeatures >=1.42.0,<1.43.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-rsamtools >=2.6.0,<2.7.0",
+                    "bioconductor-rtracklayer >=1.50.0,<1.51.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-caret",
+                    "r-e1071",
+                    "r-ggplot2",
+                    "r-proc",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617383966285
+            },
+            "basename": "noarch/bioconductor-transcriptr-1.18.0-r40hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-chipseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-caret",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-e1071",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-proc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-transcriptr/1.18.0/noarch/bioconductor-transcriptr-1.18.0-r40hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-transcriptr/1.18.0/noarch/bioconductor-transcriptr-1.18.0-r40hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "70b17fd6f0ff301aff9dc1aae4a4d519",
+            "ndownloads": 2662,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3579173,
+            "type": "conda",
+            "upload_time": "2021-04-02 17:28:03.080000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.38.0,<0.39.0",
+                    "bioconductor-chipseq >=1.42.0,<1.43.0",
+                    "bioconductor-genomeinfodb >=1.28.0,<1.29.0",
+                    "bioconductor-genomicalignments >=1.28.0,<1.29.0",
+                    "bioconductor-genomicfeatures >=1.44.0,<1.45.0",
+                    "bioconductor-genomicranges >=1.44.0,<1.45.0",
+                    "bioconductor-iranges >=2.26.0,<2.27.0",
+                    "bioconductor-rsamtools >=2.8.0,<2.9.0",
+                    "bioconductor-rtracklayer >=1.52.0,<1.53.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-caret",
+                    "r-e1071",
+                    "r-ggplot2",
+                    "r-proc",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622817355160
+            },
+            "basename": "noarch/bioconductor-transcriptr-1.20.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.38.0,<0.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-chipseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.8.0,<2.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-caret",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-e1071",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-proc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-transcriptr/1.20.0/noarch/bioconductor-transcriptr-1.20.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-transcriptr/1.20.0/noarch/bioconductor-transcriptr-1.20.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7932358e6d2ab115dc9ba8be6fd755bf",
+            "ndownloads": 2633,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3618765,
+            "type": "conda",
+            "upload_time": "2021-06-04 14:43:13.237000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-chipseq >=1.44.0,<1.45.0",
+                    "bioconductor-genomeinfodb >=1.30.0,<1.31.0",
+                    "bioconductor-genomicalignments >=1.30.0,<1.31.0",
+                    "bioconductor-genomicfeatures >=1.46.0,<1.47.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-rsamtools >=2.10.0,<2.11.0",
+                    "bioconductor-rtracklayer >=1.54.0,<1.55.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-caret",
+                    "r-e1071",
+                    "r-ggplot2",
+                    "r-proc",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636223704225
+            },
+            "basename": "noarch/bioconductor-transcriptr-1.22.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-chipseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-caret",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-e1071",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-proc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-transcriptr/1.22.0/noarch/bioconductor-transcriptr-1.22.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-transcriptr/1.22.0/noarch/bioconductor-transcriptr-1.22.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "15b368545797b70dd82a67614d3c5846",
+            "ndownloads": 2481,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3615874,
+            "type": "conda",
+            "upload_time": "2021-11-06 18:45:45.858000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-chipseq >=1.48.0,<1.49.0",
+                    "bioconductor-genomeinfodb >=1.34.0,<1.35.0",
+                    "bioconductor-genomicalignments >=1.34.0,<1.35.0",
+                    "bioconductor-genomicfeatures >=1.50.0,<1.51.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-rsamtools >=2.14.0,<2.15.0",
+                    "bioconductor-rtracklayer >=1.58.0,<1.59.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-caret",
+                    "r-e1071",
+                    "r-ggplot2",
+                    "r-proc",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667913716275
+            },
+            "basename": "noarch/bioconductor-transcriptr-1.26.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-transcriptr/1.26.0/noarch/bioconductor-transcriptr-1.26.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-transcriptr/1.26.0/noarch/bioconductor-transcriptr-1.26.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6ed99e79117c4a6a4a4d567c2136b0b3",
+            "ndownloads": 1621,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3591683,
+            "type": "conda",
+            "upload_time": "2022-11-08 13:27:34.723000+00:00",
+            "version": "1.26.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.46.0,<0.47.0",
+                    "bioconductor-chipseq >=1.50.0,<1.51.0",
+                    "bioconductor-genomeinfodb >=1.36.0,<1.37.0",
+                    "bioconductor-genomicalignments >=1.36.0,<1.37.0",
+                    "bioconductor-genomicfeatures >=1.52.0,<1.53.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-rsamtools >=2.16.0,<2.17.0",
+                    "bioconductor-rtracklayer >=1.60.0,<1.61.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-caret",
+                    "r-e1071",
+                    "r-ggplot2",
+                    "r-proc",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689509811218
+            },
+            "basename": "noarch/bioconductor-transcriptr-1.28.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-transcriptr/1.28.0/noarch/bioconductor-transcriptr-1.28.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-transcriptr/1.28.0/noarch/bioconductor-transcriptr-1.28.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "692ca4c3c96aebc5b1d0d186656e39e9",
+            "ndownloads": 1148,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3621413,
+            "type": "conda",
+            "upload_time": "2023-07-16 12:22:56.100000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.48.0,<0.49.0",
+                    "bioconductor-chipseq >=1.52.0,<1.53.0",
+                    "bioconductor-genomeinfodb >=1.38.0,<1.39.0",
+                    "bioconductor-genomicalignments >=1.38.0,<1.39.0",
+                    "bioconductor-genomicfeatures >=1.54.0,<1.55.0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0",
+                    "bioconductor-rsamtools >=2.18.0,<2.19.0",
+                    "bioconductor-rtracklayer >=1.62.0,<1.63.0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-caret",
+                    "r-e1071",
+                    "r-ggplot2",
+                    "r-proc",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1702613772578
+            },
+            "basename": "noarch/bioconductor-transcriptr-1.30.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-transcriptr/1.30.0/noarch/bioconductor-transcriptr-1.30.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-transcriptr/1.30.0/noarch/bioconductor-transcriptr-1.30.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "69197eeaba04343695398c7d0d5bcd9a",
+            "ndownloads": 621,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3370342,
+            "type": "conda",
+            "upload_time": "2023-12-15 04:19:29.565000+00:00",
+            "version": "1.30.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-chipseq >=1.56.0,<1.57.0",
+                    "bioconductor-genomeinfodb >=1.42.0,<1.43.0",
+                    "bioconductor-genomicalignments >=1.42.0,<1.43.0",
+                    "bioconductor-genomicfeatures >=1.58.0,<1.59.0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0",
+                    "bioconductor-rsamtools >=2.22.0,<2.23.0",
+                    "bioconductor-rtracklayer >=1.66.0,<1.67.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-caret",
+                    "r-e1071",
+                    "r-ggplot2",
+                    "r-proc",
+                    "r-reshape2"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1735561117779
+            },
+            "basename": "noarch/bioconductor-transcriptr-1.34.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-transcriptr/1.34.0/noarch/bioconductor-transcriptr-1.34.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-transcriptr/1.34.0/noarch/bioconductor-transcriptr-1.34.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bb1f36862484d46437afd66af0b4f434",
+            "ndownloads": 146,
+            "owner": "bioconda",
+            "sha256": "73f764c885f89f91e1c49a5676ea4cde94e08c8fb66e4f71ba8e48e1914bf6e3",
+            "size": 3649028,
+            "type": "conda",
+            "upload_time": "2024-12-30 12:21:20.338000+00:00",
+            "version": "1.34.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-transcriptr",
+    "home": "http://bioconductor.org/packages/3.6/bioc/html/transcriptR.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-transcriptr",
+    "id": "5a99d3aa72eb3a11e0b094e1",
+    "latest_version": "1.34.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:28:57.105000+00:00",
+    "name": "bioconductor-transcriptr",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.8.0",
+        "noarch": "1.34.0",
+        "osx-64": "1.8.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-transcriptr/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-transcriptr/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-transcriptr/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-transcriptr/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-transcriptr/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-transcriptr/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-transcriptr/1.18.0",
+            "version": "1.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-transcriptr/1.20.0",
+            "version": "1.20.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-transcriptr/1.22.0",
+            "version": "1.22.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-transcriptr/1.26.0",
+            "version": "1.26.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-transcriptr/1.28.0",
+            "version": "1.28.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-transcriptr/1.30.0",
+            "version": "1.30.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-transcriptr/1.34.0",
+            "version": "1.34.0"
+        }
+    ],
+    "revision": 27,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "An Integrative Tool for ChIP- And RNA-Seq Based Primary Transcripts Detection and Quantification",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-transcriptr",
+    "versions": [
+        "1.6.0",
+        "1.8.0",
+        "1.10.0",
+        "1.12.0",
+        "1.14.0",
+        "1.16.0",
+        "1.18.0",
+        "1.20.0",
+        "1.22.0",
+        "1.26.0",
+        "1.28.0",
+        "1.30.0",
+        "1.34.0"
+    ],
+    "watchers": 1
+}

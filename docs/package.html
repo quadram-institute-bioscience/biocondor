@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Package Details - Biocondor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --antiflash-white: #F0F1F1ff;
+            --apple-green: #B6BE00ff;
+            --pine-green: #097E74ff;
+            --charcoal: #2F3D46ff;
+        }
+        
+        .duru-sans-regular {
+            font-family: "Duru Sans", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: "Duru Sans", sans-serif;
+            background: linear-gradient(135deg, var(--pine-green) 0%, var(--charcoal) 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .back-button {
+            display: inline-block;
+            background: rgba(240,241,241,0.2);
+            color: var(--antiflash-white);
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-bottom: 20px;
+            transition: background-color 0.3s ease;
+            font-family: "Duru Sans", sans-serif;
+        }
+        
+        .back-button:hover {
+            background: rgba(240,241,241,0.3);
+        }
+        
+        .package-container {
+            background: var(--antiflash-white);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(47,61,70,0.2);
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .package-name {
+            color: var(--charcoal);
+            font-size: 2.5rem;
+            font-weight: 400;
+            margin-bottom: 10px;
+            word-break: break-all;
+        }
+        
+        .package-version {
+            color: var(--pine-green);
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        
+        .package-summary {
+            color: var(--charcoal);
+            opacity: 0.9;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(9,126,116,0.1);
+            border-radius: 10px;
+            border-left: 4px solid var(--pine-green);
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .info-section {
+            background: rgba(9,126,116,0.05);
+            padding: 25px;
+            border-radius: 15px;
+            border: 1px solid rgba(9,126,116,0.2);
+        }
+        
+        .info-section h3 {
+            color: var(--charcoal);
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+            font-weight: 400;
+        }
+        
+        .info-item {
+            margin-bottom: 12px;
+            color: var(--charcoal);
+            opacity: 0.8;
+        }
+        
+        .info-label {
+            font-weight: 400;
+            color: var(--charcoal);
+            display: inline-block;
+            min-width: 120px;
+        }
+        
+        .info-value {
+            color: var(--charcoal);
+            opacity: 0.9;
+        }
+        
+        .platforms-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 8px;
+        }
+        
+        .platform-tag {
+            background: var(--pine-green);
+            color: var(--antiflash-white);
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.85rem;
+        }
+        
+        .versions-list {
+            max-height: 200px;
+            overflow-y: auto;
+            border: 1px solid rgba(9,126,116,0.3);
+            border-radius: 8px;
+            padding: 10px;
+            background: var(--antiflash-white);
+            margin-top: 10px;
+        }
+        
+        .version-item {
+            padding: 5px 0;
+            border-bottom: 1px solid rgba(9,126,116,0.1);
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            color: var(--charcoal);
+        }
+        
+        .version-item:last-child {
+            border-bottom: none;
+        }
+        
+        .external-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .external-link {
+            display: inline-block;
+            background: var(--pine-green);
+            color: var(--antiflash-white);
+            padding: 8px 16px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-family: "Duru Sans", sans-serif;
+            transition: background-color 0.3s ease;
+        }
+        
+        .external-link:hover {
+            background: var(--charcoal);
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 60px;
+            color: var(--pine-green);
+            font-size: 1.2rem;
+        }
+        
+        .error {
+            text-align: center;
+            padding: 60px;
+            color: var(--charcoal);
+            font-size: 1.2rem;
+        }
+        
+        .not-found {
+            text-align: center;
+            padding: 60px;
+        }
+        
+        .not-found h2 {
+            color: var(--charcoal);
+            margin-bottom: 15px;
+        }
+        
+        .not-found p {
+            color: var(--charcoal);
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+            .package-container {
+                padding: 20px;
+            }
+            
+            .package-name {
+                font-size: 2rem;
+            }
+            
+            .info-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="back-button">← Back to Search</a>
+    </div>
+    
+    <div class="package-container" id="packageContainer">
+        <div class="loading">Loading package information...</div>
+    </div>
+
+    <script>
+        let biocondaData = [];
+        
+        // Load the bioconda data
+        async function loadBiocondaData() {
+            try {
+                const response = await fetch('bioconda_cache/bioconda.json');
+                biocondaData = await response.json();
+                console.log(`Loaded ${biocondaData.length} packages`);
+                loadPackageDetails();
+            } catch (error) {
+                console.error('Error loading bioconda data:', error);
+                showError('Error loading package data. Please try again later.');
+            }
+        }
+        
+        // Get package name from URL parameters
+        function getPackageNameFromURL() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('package');
+        }
+        
+        // Show error message
+        function showError(message) {
+            document.getElementById('packageContainer').innerHTML = `
+                <div class="error">${message}</div>
+            `;
+        }
+        
+        // Show not found message
+        function showNotFound(packageName) {
+            document.getElementById('packageContainer').innerHTML = `
+                <div class="not-found">
+                    <h2>Package Not Found</h2>
+                    <p>The package "${packageName}" was not found in the bioconda repository.</p>
+                    <a href="index.html" class="external-link" style="margin-top: 20px;">Return to Search</a>
+                </div>
+            `;
+        }
+        
+        // Format file size
+        function formatFileSize(bytes) {
+            if (!bytes) return 'N/A';
+            const sizes = ['B', 'KB', 'MB', 'GB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(1024));
+            return Math.round(bytes / Math.pow(1024, i) * 100) / 100 + ' ' + sizes[i];
+        }
+        
+        // Load and display package details
+        function loadPackageDetails() {
+            const packageName = getPackageNameFromURL();
+            
+            if (!packageName) {
+                showError('No package specified.');
+                return;
+            }
+            
+            // Find the package in the data
+            const packageData = biocondaData.find(pkg => 
+                pkg.name && pkg.name.toLowerCase() === packageName.toLowerCase()
+            );
+            
+            if (!packageData) {
+                showNotFound(packageName);
+                return;
+            }
+            
+            // Update page title
+            document.title = `${packageData.name} - Biocondor`;
+            
+            // Build external links
+            const externalLinks = [];
+            if (packageData.html_url) {
+                externalLinks.push(`<a href="${packageData.html_url}" class="external-link" target="_blank">Anaconda.org</a>`);
+            }
+            if (packageData.home && packageData.home !== 'None') {
+                externalLinks.push(`<a href="${packageData.home}" class="external-link" target="_blank">Homepage</a>`);
+            }
+            if (packageData.doc_url) {
+                externalLinks.push(`<a href="${packageData.doc_url}" class="external-link" target="_blank">Documentation</a>`);
+            }
+            if (packageData.dev_url) {
+                externalLinks.push(`<a href="${packageData.dev_url}" class="external-link" target="_blank">Source Code</a>`);
+            }
+            
+            // Build platforms list
+            const platforms = Object.keys(packageData.platforms || {});
+            const platformTags = platforms.map(platform => 
+                `<span class="platform-tag">${platform}</span>`
+            ).join('');
+            
+            // Build versions list
+            const versions = packageData.versions || [];
+            const versionsList = versions.map(version => 
+                `<div class="version-item">${version}</div>`
+            ).join('');
+            
+            // Build the package details HTML
+            const packageHTML = `
+                <div class="package-name">${packageData.name}</div>
+                <div class="package-version">Latest version: ${packageData.latest_version || 'N/A'}</div>
+                
+                ${packageData.summary ? `
+                <div class="package-summary">
+                    ${packageData.summary}
+                </div>
+                ` : ''}
+                
+                <div class="info-grid">
+                    <div class="info-section">
+                        <h3>Basic Information</h3>
+                        <div class="info-item">
+                            <span class="info-label">Owner:</span>
+                            <span class="info-value">${packageData.owner || 'N/A'}</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">License:</span>
+                            <span class="info-value">${packageData.license || 'N/A'}</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Package Type:</span>
+                            <span class="info-value">${(packageData.package_types || []).join(', ') || 'N/A'}</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Revision:</span>
+                            <span class="info-value">${packageData.revision || 'N/A'}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-section">
+                        <h3>Platforms</h3>
+                        <div class="platforms-list">
+                            ${platformTags || '<span class="info-value">No platforms available</span>'}
+                        </div>
+                    </div>
+                    
+                    ${versions.length > 0 ? `
+                    <div class="info-section">
+                        <h3>Available Versions</h3>
+                        <div class="versions-list">
+                            ${versionsList}
+                        </div>
+                    </div>
+                    ` : ''}
+                    
+                    ${externalLinks.length > 0 ? `
+                    <div class="info-section">
+                        <h3>External Links</h3>
+                        <div class="external-links">
+                            ${externalLinks.join('')}
+                        </div>
+                    </div>
+                    ` : ''}
+                </div>
+            `;
+            
+            document.getElementById('packageContainer').innerHTML = packageHTML;
+        }
+        
+        // Load data when page loads
+        window.addEventListener('load', loadBiocondaData);
+    </script>
+</body>
+</html>

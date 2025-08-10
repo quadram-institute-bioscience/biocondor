@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biocondor search</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --antiflash-white: #F0F1F1ff;
+            --apple-green: #B6BE00ff;
+            --pine-green: #097E74ff;
+            --charcoal: #2F3D46ff;
+        }
+        
+        .duru-sans-regular {
+            font-family: "Duru Sans", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: "Duru Sans", sans-serif;
+            background: linear-gradient(135deg, var(--pine-green) 0%, var(--charcoal) 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .search-container {
+            background: var(--antiflash-white);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(47,61,70,0.2);
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: var(--charcoal);
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            font-weight: 400;
+        }
+        
+        .search-box {
+            display: flex;
+            margin-bottom: 20px;
+            border: 2px solid var(--pine-green);
+            border-radius: 50px;
+            overflow: hidden;
+            transition: border-color 0.3s ease;
+        }
+        
+        .search-box:focus-within {
+            border-color: var(--apple-green);
+        }
+        
+        #searchInput {
+            flex: 1;
+            padding: 15px 25px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            font-family: "Duru Sans", sans-serif;
+            background: transparent;
+            color: var(--charcoal);
+        }
+        
+        #searchButton {
+            padding: 15px 25px;
+            background: var(--pine-green);
+            color: var(--antiflash-white);
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-family: "Duru Sans", sans-serif;
+            transition: background-color 0.3s ease;
+        }
+        
+        #searchButton:hover {
+            background: var(--charcoal);
+        }
+        
+        .search-info {
+            text-align: center;
+            color: var(--charcoal);
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        
+        .results-container {
+            background: var(--antiflash-white);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(47,61,70,0.2);
+            width: 100%;
+            max-width: 800px;
+            max-height: 600px;
+            overflow-y: auto;
+            display: none;
+        }
+        
+        .result-item {
+            padding: 20px;
+            border-bottom: 1px solid #f0f0f0;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .result-item:hover {
+            background-color: rgba(9,126,116,0.1);
+        }
+        
+        .result-item:last-child {
+            border-bottom: none;
+        }
+        
+        .result-name {
+            font-weight: 400;
+            font-size: 18px;
+            color: var(--charcoal);
+            margin-bottom: 8px;
+        }
+        
+        .result-version {
+            color: var(--pine-green);
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        
+        .result-summary {
+            color: var(--charcoal);
+            opacity: 0.8;
+            font-size: 14px;
+            line-height: 1.4;
+            margin-bottom: 8px;
+        }
+        
+        .result-platforms {
+            font-size: 12px;
+            color: var(--charcoal);
+            opacity: 0.6;
+        }
+        
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: var(--charcoal);
+            opacity: 0.8;
+            font-size: 16px;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: var(--pine-green);
+            font-size: 16px;
+        }
+        
+        .highlight {
+            background-color: var(--apple-green);
+            color: var(--charcoal);
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+        
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: var(--antiflash-white);
+            opacity: 0.9;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <h1>Biocondor search</h1>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search for bioconda packages..." autocomplete="off">
+            <button id="searchButton">Search</button>
+        </div>
+        <div class="search-info">
+            Search by package name or description
+        </div>
+    </div>
+    
+    <div class="results-container" id="resultsContainer">
+        <!-- Results will be populated here -->
+    </div>
+    
+    <footer>
+        Powered by Bioconda community packages
+    </footer>
+
+    <script>
+        let biocondaData = [];
+        
+        // Load the bioconda data
+        async function loadBiocondaData() {
+            try {
+                const response = await fetch('bioconda_cache/bioconda.json');
+                biocondaData = await response.json();
+                console.log(`Loaded ${biocondaData.length} packages`);
+            } catch (error) {
+                console.error('Error loading bioconda data:', error);
+            }
+        }
+        
+        // Search function
+        function searchPackages(query) {
+            if (!query.trim()) return [];
+            
+            const searchTerm = query.toLowerCase();
+            const results = [];
+            
+            // First pass: exact name matches (highest priority)
+            biocondaData.forEach(pkg => {
+                if (pkg.name && pkg.name.toLowerCase() === searchTerm) {
+                    results.push({ ...pkg, matchType: 'exact' });
+                }
+            });
+            
+            // Second pass: name starts with search term
+            biocondaData.forEach(pkg => {
+                if (pkg.name && pkg.name.toLowerCase().startsWith(searchTerm) && 
+                    !results.find(r => r.name === pkg.name)) {
+                    results.push({ ...pkg, matchType: 'prefix' });
+                }
+            });
+            
+            // Third pass: name contains search term
+            biocondaData.forEach(pkg => {
+                if (pkg.name && pkg.name.toLowerCase().includes(searchTerm) && 
+                    !results.find(r => r.name === pkg.name)) {
+                    results.push({ ...pkg, matchType: 'name' });
+                }
+            });
+            
+            // Fourth pass: description contains search term
+            biocondaData.forEach(pkg => {
+                if (pkg.summary && pkg.summary.toLowerCase().includes(searchTerm) && 
+                    !results.find(r => r.name === pkg.name)) {
+                    results.push({ ...pkg, matchType: 'description' });
+                }
+            });
+            
+            return results.slice(0, 50); // Limit to first 50 results
+        }
+        
+        // Highlight search terms in text
+        function highlightText(text, query) {
+            if (!text || !query) return text;
+            const regex = new RegExp(`(${query})`, 'gi');
+            return text.replace(regex, '<span class="highlight">$1</span>');
+        }
+        
+        // Display search results
+        function displayResults(results, query) {
+            const container = document.getElementById('resultsContainer');
+            
+            if (results.length === 0) {
+                container.innerHTML = '<div class="no-results">No packages found matching your search.</div>';
+                container.style.display = 'block';
+                return;
+            }
+            
+            const resultsHTML = results.map(pkg => {
+                const platforms = Object.keys(pkg.platforms || {}).join(', ') || 'N/A';
+                const summary = pkg.summary || 'No description available';
+                
+                return `
+                    <div class="result-item" onclick="openPackage('${pkg.name}')">
+                        <div class="result-name">${highlightText(pkg.name, query)}</div>
+                        <div class="result-version">Latest version: ${pkg.latest_version || 'N/A'}</div>
+                        <div class="result-summary">${highlightText(summary, query)}</div>
+                        <div class="result-platforms">Platforms: ${platforms}</div>
+                    </div>
+                `;
+            }).join('');
+            
+            container.innerHTML = resultsHTML;
+            container.style.display = 'block';
+        }
+        
+        // Open package details page
+        function openPackage(packageName) {
+            window.location.href = `package.html?package=${encodeURIComponent(packageName)}`;
+        }
+        
+        // Perform search
+        function performSearch() {
+            const query = document.getElementById('searchInput').value;
+            if (!query.trim()) {
+                document.getElementById('resultsContainer').style.display = 'none';
+                return;
+            }
+            
+            // Show loading
+            const container = document.getElementById('resultsContainer');
+            container.innerHTML = '<div class="loading">Searching...</div>';
+            container.style.display = 'block';
+            
+            // Perform search with small delay for UI responsiveness
+            setTimeout(() => {
+                const results = searchPackages(query);
+                displayResults(results, query);
+            }, 100);
+        }
+        
+        // Event listeners
+        document.getElementById('searchButton').addEventListener('click', performSearch);
+        document.getElementById('searchInput').addEventListener('keyup', function(event) {
+            if (event.key === 'Enter') {
+                performSearch();
+            } else {
+                // Auto-search after typing stops for 300ms
+                clearTimeout(window.searchTimeout);
+                window.searchTimeout = setTimeout(performSearch, 300);
+            }
+        });
+        
+        // Load data when page loads
+        window.addEventListener('load', loadBiocondaData);
+    </script>
+</body>
+</html>

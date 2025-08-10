@@ -1,0 +1,550 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r41hdfd78af_0",
+        "r42hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2021-06-05 12:20:40.719000+00:00",
+    "description": "CONCLUS is a tool for robust clustering and positive marker features selection of single-cell RNA-seq (sc-RNA-seq) datasets. It takes advantage of a consensus clustering approach that greatly simplify sc-RNA-seq data analysis for the user. Of note, CONCLUS does not cover the preprocessing steps of sequencing files obtained following next-generation sequencing. CONCLUS is organized into the following steps: Generation of multiple t-SNE plots with a range of parameters including different selection of genes extracted from PCA. Use the Density-based spatial clustering of applications with noise (DBSCAN) algorithm for idenfication of clusters in each generated t-SNE plot. All DBSCAN results are combined into a cell similarity matrix. The cell similarity matrix is used to define \"CONSENSUS\" clusters conserved accross the previously defined clustering solutions. Identify marker genes for each concensus cluster.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.54.0,<1.55.0",
+                    "bioconductor-biobase >=2.52.0,<2.53.0",
+                    "bioconductor-biocfilecache >=2.0.0,<2.1.0",
+                    "bioconductor-biomart >=2.48.0,<2.49.0",
+                    "bioconductor-clusterprofiler >=4.0.0,<4.1.0",
+                    "bioconductor-geoquery >=2.60.0,<2.61.0",
+                    "bioconductor-scater >=1.20.0,<1.21.0",
+                    "bioconductor-scran >=1.20.0,<1.21.0",
+                    "bioconductor-singlecellexperiment >=1.14.0,<1.15.0",
+                    "bioconductor-summarizedexperiment >=1.22.0,<1.23.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-dbscan",
+                    "r-doparallel",
+                    "r-dplyr",
+                    "r-factoextra",
+                    "r-foreach",
+                    "r-fpc",
+                    "r-ggplot2",
+                    "r-gridextra",
+                    "r-pheatmap",
+                    "r-rtsne",
+                    "r-scales",
+                    "r-stringr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622894925946
+            },
+            "basename": "noarch/bioconductor-conclus-1.0.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocfilecache",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-clusterprofiler",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.0,<4.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-geoquery",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.60.0,<2.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbscan",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factoextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fpc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pheatmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-conclus/1.0.0/noarch/bioconductor-conclus-1.0.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-conclus/1.0.0/noarch/bioconductor-conclus-1.0.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "cf5227daf6316fe021d865e3aee250ef",
+            "ndownloads": 2639,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1721074,
+            "type": "conda",
+            "upload_time": "2021-06-05 12:20:41.880000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.56.0,<1.57.0",
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocfilecache >=2.2.0,<2.3.0",
+                    "bioconductor-biomart >=2.50.0,<2.51.0",
+                    "bioconductor-clusterprofiler >=4.2.0,<4.3.0",
+                    "bioconductor-geoquery >=2.62.0,<2.63.0",
+                    "bioconductor-scater >=1.22.0,<1.23.0",
+                    "bioconductor-scran >=1.22.0,<1.23.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-dbscan",
+                    "r-doparallel",
+                    "r-dplyr",
+                    "r-factoextra",
+                    "r-foreach",
+                    "r-fpc",
+                    "r-ggplot2",
+                    "r-gridextra",
+                    "r-pheatmap",
+                    "r-rtsne",
+                    "r-scales",
+                    "r-stringr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636399603703
+            },
+            "basename": "noarch/bioconductor-conclus-1.2.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocfilecache",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-clusterprofiler",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.2.0,<4.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-geoquery",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbscan",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factoextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-foreach",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fpc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pheatmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-conclus/1.2.0/noarch/bioconductor-conclus-1.2.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-conclus/1.2.0/noarch/bioconductor-conclus-1.2.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4317897e0744ce20919b33b3958d09bd",
+            "ndownloads": 2490,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1731343,
+            "type": "conda",
+            "upload_time": "2021-11-08 19:39:26.550000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.60.0,<1.61.0",
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-biocfilecache >=2.6.0,<2.7.0",
+                    "bioconductor-biomart >=2.54.0,<2.55.0",
+                    "bioconductor-clusterprofiler >=4.6.0,<4.7.0",
+                    "bioconductor-geoquery >=2.66.0,<2.67.0",
+                    "bioconductor-org.hs.eg.db >=3.16.0,<3.17.0",
+                    "bioconductor-org.mm.eg.db >=3.16.0,<3.17.0",
+                    "bioconductor-scater >=1.26.0,<1.27.0",
+                    "bioconductor-scran >=1.26.0,<1.27.0",
+                    "bioconductor-singlecellexperiment >=1.20.0,<1.21.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-dbscan",
+                    "r-doparallel",
+                    "r-dplyr",
+                    "r-factoextra",
+                    "r-foreach",
+                    "r-fpc",
+                    "r-ggplot2",
+                    "r-gridextra",
+                    "r-pheatmap",
+                    "r-rlang",
+                    "r-rtsne",
+                    "r-scales",
+                    "r-stringr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667874202233
+            },
+            "basename": "noarch/bioconductor-conclus-1.5.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-conclus/1.5.0/noarch/bioconductor-conclus-1.5.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-conclus/1.5.0/noarch/bioconductor-conclus-1.5.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b01fa7c022ab6c5a27b052dbdf2efecc",
+            "ndownloads": 1801,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1741977,
+            "type": "conda",
+            "upload_time": "2022-11-08 02:33:00.423000+00:00",
+            "version": "1.5.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-conclus",
+    "home": "https://bioconductor.org/packages/3.13/bioc/html/conclus.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-conclus",
+    "id": "60bb6c18f6b6213aa3be5cad",
+    "latest_version": "1.5.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:28.868000+00:00",
+    "name": "bioconductor-conclus",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.5.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-conclus/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-conclus/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-conclus/1.5.0",
+            "version": "1.5.0"
+        }
+    ],
+    "revision": 6,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "ScRNA-seq Workflow CONCLUS - From CONsensus CLUSters To A Meaningful CONCLUSion",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-conclus",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.5.0"
+    ],
+    "watchers": 1
+}

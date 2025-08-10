@@ -1,0 +1,349 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r41hdfd78af_1",
+        "r41hdfd78af_0",
+        "r43hdfd78af_0",
+        "r42hdfd78af_0",
+        "r43hdfd78af_1",
+        "r44hdfd78af_2"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2021-11-01 17:33:50.207000+00:00",
+    "description": "Genomic coordinates of CTCF binding sites, with strand orientation (directionality of binding). Position weight matrices (PWMs) from JASPAR, HOCOMOCO, CIS-BP, CTCFBSDB, SwissRegulon, Jolma 2013, were used to uniformly predict CTCF binding sites using FIMO (default settings) on human (hg18, hg19, hg38, T2T) and mouse (mm9, mm10, mm39) genome assemblies. Extra columns include motif/PWM name (e.g., MA0139.1), score, p-value, q-value, and the motif sequence. It is recommended to filter FIMO-predicted sites by 1e-6 p-value threshold instead of using the default 1e-4 threshold. Experimentally obtained CTCF-bound cis-regulatory elements from ENCODE SCREEN and predicted CTCF sites from CTCFBSDB are also included. Selected data are lifted over from a different genome assembly as we demonstrated liftOver is a viable option to obtain CTCF coordinates in different genome assemblies. CTCF sites obtained using JASPAR's MA0139.1 PWM and filtered at 1e-6 p-value threshold are recommended.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "curl >=7.79.1,<8.0a0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1635787640582
+            },
+            "basename": "noarch/bioconductor-ctcf-0.99.4-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "curl",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.79.1,<8.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ctcf/0.99.4/noarch/bioconductor-ctcf-0.99.4-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-ctcf/0.99.4/noarch/bioconductor-ctcf-0.99.4-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c33e777e28efec8e193f6dbbba680215",
+            "ndownloads": 686,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 7877,
+            "type": "conda",
+            "upload_time": "2021-11-01 17:33:52.251000+00:00",
+            "version": "0.99.4"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "curl >=7.83.1,<8.0a0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1660658430999
+            },
+            "basename": "noarch/bioconductor-ctcf-0.99.4-r41hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "curl",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.83.1,<8.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ctcf/0.99.4/noarch/bioconductor-ctcf-0.99.4-r41hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-ctcf/0.99.4/noarch/bioconductor-ctcf-0.99.4-r41hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c10505f4445e5f2ad5bd79f6635f028f",
+            "ndownloads": 1907,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 8763,
+            "type": "conda",
+            "upload_time": "2022-08-16 14:04:06.714000+00:00",
+            "version": "0.99.4"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-data-packages >=20221102",
+                    "curl >=7.86.0,<8.0a0",
+                    "r-base >=4.2,<4.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667471528163
+            },
+            "basename": "noarch/bioconductor-ctcf-0.99.9-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ctcf/0.99.9/noarch/bioconductor-ctcf-0.99.9-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-ctcf/0.99.9/noarch/bioconductor-ctcf-0.99.9-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d586c47e537ef5825ce70595ee1f10cd",
+            "ndownloads": 1789,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 8692,
+            "type": "conda",
+            "upload_time": "2022-11-03 10:34:58.500000+00:00",
+            "version": "0.99.9"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-data-packages >=20230706",
+                    "curl",
+                    "r-base >=4.3,<4.4.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1688763151059
+            },
+            "basename": "noarch/bioconductor-ctcf-0.99.11-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ctcf/0.99.11/noarch/bioconductor-ctcf-0.99.11-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-ctcf/0.99.11/noarch/bioconductor-ctcf-0.99.11-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9cbd2c253bd3e0892684e8236d1fb90c",
+            "ndownloads": 395,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 9225,
+            "type": "conda",
+            "upload_time": "2023-07-07 20:55:41.104000+00:00",
+            "version": "0.99.11"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-data-packages >=20231203",
+                    "curl",
+                    "r-base >=4.3,<4.4.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1701840624509
+            },
+            "basename": "noarch/bioconductor-ctcf-0.99.11-r43hdfd78af_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ctcf/0.99.11/noarch/bioconductor-ctcf-0.99.11-r43hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-ctcf/0.99.11/noarch/bioconductor-ctcf-0.99.11-r43hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "600069186f4a74a720f001131facb46d",
+            "ndownloads": 817,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 9365,
+            "type": "conda",
+            "upload_time": "2023-12-06 05:33:19.888000+00:00",
+            "version": "0.99.11"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-data-packages >=20241103",
+                    "curl",
+                    "r-base >=4.4,<4.5.0a0"
+                ],
+                "has_prefix": false,
+                "license": "MIT + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1734410516961
+            },
+            "basename": "noarch/bioconductor-ctcf-0.99.11-r44hdfd78af_2.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-ctcf/0.99.11/noarch/bioconductor-ctcf-0.99.11-r44hdfd78af_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-ctcf/0.99.11/noarch/bioconductor-ctcf-0.99.11-r44hdfd78af_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d6ea1f4455b74ce7cddbbcb8e039d24c",
+            "ndownloads": 266,
+            "owner": "bioconda",
+            "sha256": "637ed65d85f72af97dac8726388f42ac2ce6041361b7eb434281cac953ff224f",
+            "size": 9292,
+            "type": "conda",
+            "upload_time": "2024-12-17 04:43:30.102000+00:00",
+            "version": "0.99.11"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-ctcf",
+    "home": "https://bioconductor.org/packages/3.14/data/annotation/html/CTCF.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-ctcf",
+    "id": "618024fec5bceb1e0f64b9fe",
+    "latest_version": "0.99.11",
+    "license": "MIT + file LICENSE",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:30.114000+00:00",
+    "name": "bioconductor-ctcf",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "0.99.11"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-ctcf/0.99.4",
+            "version": "0.99.4"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-ctcf/0.99.9",
+            "version": "0.99.9"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-ctcf/0.99.11",
+            "version": "0.99.11"
+        }
+    ],
+    "revision": 7,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Genomic coordinates of CTCF binding sites, with orientation",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-ctcf",
+    "versions": [
+        "0.99.4",
+        "0.99.9",
+        "0.99.11"
+    ],
+    "watchers": 1
+}

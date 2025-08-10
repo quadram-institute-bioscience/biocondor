@@ -1,0 +1,789 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351_0",
+        "r40_0",
+        "r40hdfd78af_1",
+        "r36_0",
+        "r44hdfd78af_0",
+        "r42hdfd78af_0",
+        "r36_1",
+        "r43hdfd78af_0",
+        "r41hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2018-12-22 18:58:48.721000+00:00",
+    "description": "BiFET identifies TFs whose footprints are over-represented in target regions compared to background regions after correcting for the bias arising from the imbalance in read counts and GC contents between the target and background regions. For a given TF k, BiFET tests the null hypothesis that the target regions have the same probability of having footprints for the TF k as the background regions while correcting for the read count and GC content bias. For this, we use the number of target regions with footprints for TF k, t_k as a test statistic and calculate the p-value as the probability of observing t_k or more target regions with footprints under the null hypothesis.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-genomicranges >=1.34.0,<1.35.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-poibin"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1545504965989
+            },
+            "basename": "noarch/bioconductor-bifet-1.2.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-poibin",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bifet/1.2.0/noarch/bioconductor-bifet-1.2.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bifet/1.2.0/noarch/bioconductor-bifet-1.2.0-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "c7777b985bb0b5ccfade34a42931b3ef",
+            "ndownloads": 2695,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 808272,
+            "type": "conda",
+            "upload_time": "2018-12-22 18:58:49.445000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-genomicranges >=1.36.0,<1.37.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-poibin"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1564007048763
+            },
+            "basename": "noarch/bioconductor-bifet-1.4.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-poibin",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bifet/1.4.0/noarch/bioconductor-bifet-1.4.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-bifet/1.4.0/noarch/bioconductor-bifet-1.4.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3272afa997ec8fd37c2201bdf3fc58e5",
+            "ndownloads": 2662,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 808400,
+            "type": "conda",
+            "upload_time": "2019-07-24 22:28:10.278000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-poibin"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572734534718
+            },
+            "basename": "noarch/bioconductor-bifet-1.6.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-poibin",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bifet/1.6.0/noarch/bioconductor-bifet-1.6.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bifet/1.6.0/noarch/bioconductor-bifet-1.6.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3f16fef52d64b1a8ff7653c48f0a6935",
+            "ndownloads": 2697,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 826745,
+            "type": "conda",
+            "upload_time": "2019-11-02 22:47:22.309000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-genomicranges >=1.40.0,<1.41.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-poibin"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589094372985
+            },
+            "basename": "noarch/bioconductor-bifet-1.8.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-poibin",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bifet/1.8.0/noarch/bioconductor-bifet-1.8.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bifet/1.8.0/noarch/bioconductor-bifet-1.8.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2a301a566ffd224576b889e5a838a12b",
+            "ndownloads": 2665,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 825402,
+            "type": "conda",
+            "upload_time": "2020-05-10 07:11:31.177000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-poibin"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604073548978
+            },
+            "basename": "noarch/bioconductor-bifet-1.10.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-poibin",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bifet/1.10.0/noarch/bioconductor-bifet-1.10.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bifet/1.10.0/noarch/bioconductor-bifet-1.10.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b32536c8e4050c8aa1b87128894f9792",
+            "ndownloads": 242,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 821017,
+            "type": "conda",
+            "upload_time": "2020-10-30 16:03:30.272000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-poibin"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617018170741
+            },
+            "basename": "noarch/bioconductor-bifet-1.10.0-r40hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-poibin",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bifet/1.10.0/noarch/bioconductor-bifet-1.10.0-r40hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-bifet/1.10.0/noarch/bioconductor-bifet-1.10.0-r40hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4ff2a2975f16710261111d9bf6464c37",
+            "ndownloads": 2666,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 819158,
+            "type": "conda",
+            "upload_time": "2021-03-29 11:48:10.861000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-genomicranges >=1.44.0,<1.45.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-poibin"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622529971657
+            },
+            "basename": "noarch/bioconductor-bifet-1.12.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-poibin",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bifet/1.12.0/noarch/bioconductor-bifet-1.12.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bifet/1.12.0/noarch/bioconductor-bifet-1.12.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5ceb93010d054ca215e5e6406b7a8dc3",
+            "ndownloads": 2638,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 826356,
+            "type": "conda",
+            "upload_time": "2021-06-01 06:51:06.458000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-poibin"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1635939794854
+            },
+            "basename": "noarch/bioconductor-bifet-1.14.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-poibin",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bifet/1.14.0/noarch/bioconductor-bifet-1.14.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bifet/1.14.0/noarch/bioconductor-bifet-1.14.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ea6f8dca0d542f8ffebc450989d22b8b",
+            "ndownloads": 2471,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 820183,
+            "type": "conda",
+            "upload_time": "2021-11-03 11:49:34.483000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-poibin"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667643828784
+            },
+            "basename": "noarch/bioconductor-bifet-1.18.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bifet/1.18.0/noarch/bioconductor-bifet-1.18.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bifet/1.18.0/noarch/bioconductor-bifet-1.18.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ebf604637d2516393a54aa4401e6b805",
+            "ndownloads": 1810,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 727247,
+            "type": "conda",
+            "upload_time": "2022-11-05 10:27:47.178000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-poibin"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689078740359
+            },
+            "basename": "noarch/bioconductor-bifet-1.20.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bifet/1.20.0/noarch/bioconductor-bifet-1.20.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bifet/1.20.0/noarch/bioconductor-bifet-1.20.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "54b5134bba56a7b4552921a0a588b357",
+            "ndownloads": 1307,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 726255,
+            "type": "conda",
+            "upload_time": "2023-07-11 12:35:55.623000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-poibin"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1701948539925
+            },
+            "basename": "noarch/bioconductor-bifet-1.22.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bifet/1.22.0/noarch/bioconductor-bifet-1.22.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bifet/1.22.0/noarch/bioconductor-bifet-1.22.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1fcf6e23827a746478f874acd3e8b98c",
+            "ndownloads": 1008,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 723729,
+            "type": "conda",
+            "upload_time": "2023-12-07 11:31:54.438000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-poibin"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1734650412863
+            },
+            "basename": "noarch/bioconductor-bifet-1.26.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bifet/1.26.0/noarch/bioconductor-bifet-1.26.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bifet/1.26.0/noarch/bioconductor-bifet-1.26.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0264fb986f66b9969361d23710172651",
+            "ndownloads": 269,
+            "owner": "bioconda",
+            "sha256": "857d6ca19486ffc8fd271b1f230cd6dd4723656fd80abf82cd05ca7cb391c1b3",
+            "size": 726524,
+            "type": "conda",
+            "upload_time": "2024-12-19 23:21:53.855000+00:00",
+            "version": "1.26.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-bifet",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/BiFET.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-bifet",
+    "id": "5c1e8968d9c2cf1353015771",
+    "latest_version": "1.26.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:06.715000+00:00",
+    "name": "bioconductor-bifet",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.26.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bifet/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bifet/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bifet/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bifet/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bifet/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bifet/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bifet/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bifet/1.18.0",
+            "version": "1.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bifet/1.20.0",
+            "version": "1.20.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bifet/1.22.0",
+            "version": "1.22.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bifet/1.26.0",
+            "version": "1.26.0"
+        }
+    ],
+    "revision": 23,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Bias-free Footprint Enrichment Test",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-bifet",
+    "versions": [
+        "1.2.0",
+        "1.4.0",
+        "1.6.0",
+        "1.8.0",
+        "1.10.0",
+        "1.12.0",
+        "1.14.0",
+        "1.18.0",
+        "1.20.0",
+        "1.22.0",
+        "1.26.0"
+    ],
+    "watchers": 1
+}

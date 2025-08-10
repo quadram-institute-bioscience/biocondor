@@ -1,0 +1,451 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r42hdfd78af_0",
+        "r43hdfd78af_0",
+        "r41hdfd78af_0",
+        "r44hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2021-11-06 23:17:32.630000+00:00",
+    "description": "Cell surface proteins form a major fraction of the druggable proteome and can be used for tissue-specific delivery of oligonucleotide/cell-based therapeutics. Alternatively spliced surface protein isoforms have been shown to differ in their subcellular localization and/or their transmembrane (TM) topology. Surface proteins are hydrophobic and remain difficult to study thereby necessitating the use of TM topology prediction methods such as TMHMM and Phobius. However, there exists a need for bioinformatic approaches to streamline batch processing of isoforms for comparing and visualizing topologies. To address this gap, we have developed an R package, surfaltr. It pairs inputted isoforms, either known alternatively spliced or novel, with their APPRIS annotated principal counterparts, predicts their TM topologies using TMHMM or Phobius, and generates a customizable graphical output. Further, surfaltr facilitates the prioritization of biologically diverse isoform pairs through the incorporation of three different ranking metrics and through protein alignment functions. Citations for programs mentioned here can be found in the vignette.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biomart >=2.50.0,<2.51.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-msa >=1.26.0,<1.27.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-dplyr >=1.0.6",
+                    "r-ggplot2 >=3.3.2",
+                    "r-httr >=1.4.2",
+                    "r-protr >=1.6-2",
+                    "r-readr >=1.4.0",
+                    "r-seqinr >=4.2-5",
+                    "r-stringr >=1.4.0",
+                    "r-testthat >=3.0.0",
+                    "r-xml2 >=1.3.2"
+                ],
+                "has_prefix": false,
+                "license": "MIT + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636240142060
+            },
+            "basename": "noarch/bioconductor-surfaltr-1.0.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-msa",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.3.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-httr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-protr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6-2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-readr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-seqinr",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.2-5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-testthat",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.0.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-xml2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.3.2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-surfaltr/1.0.0/noarch/bioconductor-surfaltr-1.0.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-surfaltr/1.0.0/noarch/bioconductor-surfaltr-1.0.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "37b2e5b1a15f5a6b714371b80575e82f",
+            "ndownloads": 2674,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1975803,
+            "type": "conda",
+            "upload_time": "2021-11-06 23:17:33.973000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biomart >=2.54.0,<2.55.0",
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-msa >=1.30.0,<1.31.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-dplyr >=1.0.6",
+                    "r-ggplot2 >=3.3.2",
+                    "r-httr >=1.4.2",
+                    "r-protr >=1.6-2",
+                    "r-readr >=1.4.0",
+                    "r-seqinr >=4.2-5",
+                    "r-stringr >=1.4.0",
+                    "r-testthat >=3.0.0",
+                    "r-xml2 >=1.3.2"
+                ],
+                "has_prefix": false,
+                "license": "MIT + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667791983736
+            },
+            "basename": "noarch/bioconductor-surfaltr-1.4.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-surfaltr/1.4.0/noarch/bioconductor-surfaltr-1.4.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-surfaltr/1.4.0/noarch/bioconductor-surfaltr-1.4.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8511ee5390b5bfdcc561eb7ef7cc91fa",
+            "ndownloads": 1979,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1970045,
+            "type": "conda",
+            "upload_time": "2022-11-07 03:36:59.200000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biomart >=2.56.0,<2.57.0",
+                    "bioconductor-biostrings >=2.68.0,<2.69.0",
+                    "bioconductor-msa >=1.32.0,<1.33.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-dplyr >=1.0.6",
+                    "r-ggplot2 >=3.3.2",
+                    "r-httr >=1.4.2",
+                    "r-protr >=1.6-2",
+                    "r-readr >=1.4.0",
+                    "r-seqinr >=4.2-5",
+                    "r-stringr >=1.4.0",
+                    "r-testthat >=3.0.0",
+                    "r-xml2 >=1.3.2"
+                ],
+                "has_prefix": false,
+                "license": "MIT + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689333351882
+            },
+            "basename": "noarch/bioconductor-surfaltr-1.6.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-surfaltr/1.6.0/noarch/bioconductor-surfaltr-1.6.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-surfaltr/1.6.0/noarch/bioconductor-surfaltr-1.6.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "cce936bd92e4349b448c7a59caae904c",
+            "ndownloads": 1310,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1975417,
+            "type": "conda",
+            "upload_time": "2023-07-14 11:20:11.618000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biomart >=2.58.0,<2.59.0",
+                    "bioconductor-biostrings >=2.70.0,<2.71.0",
+                    "bioconductor-msa >=1.34.0,<1.35.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-dplyr >=1.0.6",
+                    "r-ggplot2 >=3.3.2",
+                    "r-httr >=1.4.2",
+                    "r-protr >=1.6-2",
+                    "r-readr >=1.4.0",
+                    "r-seqinr >=4.2-5",
+                    "r-stringr >=1.4.0",
+                    "r-testthat >=3.0.0",
+                    "r-xml2 >=1.3.2"
+                ],
+                "has_prefix": false,
+                "license": "MIT + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1701989034977
+            },
+            "basename": "noarch/bioconductor-surfaltr-1.8.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-surfaltr/1.8.0/noarch/bioconductor-surfaltr-1.8.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-surfaltr/1.8.0/noarch/bioconductor-surfaltr-1.8.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "08954d61b92ffba1fa2a2b7ac122649d",
+            "ndownloads": 1015,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1987124,
+            "type": "conda",
+            "upload_time": "2023-12-07 22:47:00.151000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biomart >=2.62.0,<2.63.0",
+                    "bioconductor-biostrings >=2.74.0,<2.75.0",
+                    "bioconductor-msa >=1.38.0,<1.39.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-dplyr >=1.0.6",
+                    "r-ggplot2 >=3.3.2",
+                    "r-httr >=1.4.2",
+                    "r-protr >=1.6-2",
+                    "r-readr >=1.4.0",
+                    "r-seqinr >=4.2-5",
+                    "r-stringr >=1.4.0",
+                    "r-testthat >=3.0.0",
+                    "r-xml2 >=1.3.2"
+                ],
+                "has_prefix": false,
+                "license": "MIT + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1734766257715
+            },
+            "basename": "noarch/bioconductor-surfaltr-1.12.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-surfaltr/1.12.0/noarch/bioconductor-surfaltr-1.12.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-surfaltr/1.12.0/noarch/bioconductor-surfaltr-1.12.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "418135f792b7460c812b293149732cea",
+            "ndownloads": 265,
+            "owner": "bioconda",
+            "sha256": "6f6d890d745ba37331cbdd04fdd3191b7d6f25f0e61ee81e539ba4df24bf3360",
+            "size": 1992553,
+            "type": "conda",
+            "upload_time": "2024-12-21 07:33:04.354000+00:00",
+            "version": "1.12.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-surfaltr",
+    "home": "https://bioconductor.org/packages/3.14/bioc/html/surfaltr.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-surfaltr",
+    "id": "61870d0cc16f55df020a1dd0",
+    "latest_version": "1.12.0",
+    "license": "MIT + file LICENSE",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:30.595000+00:00",
+    "name": "bioconductor-surfaltr",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.12.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-surfaltr/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-surfaltr/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-surfaltr/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-surfaltr/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-surfaltr/1.12.0",
+            "version": "1.12.0"
+        }
+    ],
+    "revision": 11,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Rapid Comparison of Surface Protein Isoform Membrane Topologies Through surfaltr",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-surfaltr",
+    "versions": [
+        "1.0.0",
+        "1.4.0",
+        "1.6.0",
+        "1.8.0",
+        "1.12.0"
+    ],
+    "watchers": 1
+}

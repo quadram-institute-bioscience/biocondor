@@ -1,0 +1,4943 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "pl5321h077b44d_11",
+        "pl5321hb33f77a_6",
+        "pl5321h0546b6b_7",
+        "pl526r341h4f16992_0",
+        "pl5262h3198e80_2",
+        "pl5321ha025227_3",
+        "pl526r351hc0aa232_0",
+        "boost1.64_4",
+        "pl5321h1f6ca2e_10",
+        "pl526he62d6ba_1",
+        "pl526ha52163a_1",
+        "pl5321h0aa3852_10",
+        "pl5321h43eeafb_9",
+        "pl526r341hf9d1ead_5",
+        "pl526he62d6ba_0",
+        "pl526hfbaaabd_1",
+        "pl5321h819f6dc_3",
+        "pl526r341h4f16992_4",
+        "pl5321h5ca1c30_10",
+        "pl526ha52163a_0",
+        "pl5321hecb563c_4",
+        "boost1.60_2",
+        "pl5321ha04fe3b_5",
+        "pl5321hf1d9491_9",
+        "boost1.64_3",
+        "pl5321h86e66d2_5",
+        "boost1.64_2",
+        "boost1.64_1",
+        "pl5262h9954cba_2",
+        "boost1.61_1",
+        "boost1.60_0",
+        "pl5321h6b7c446_6",
+        "pl5321hd576cc4_9",
+        "pl5321h1e84f2d_11",
+        "pl5321h2ec61ea_11",
+        "pl526r351h43679fd_0",
+        "0",
+        "pl526r351h0002e82_1",
+        "boost1.61_0",
+        "pl5321h89ae327_4",
+        "pl526h3646b48_1",
+        "pl5321h0033a41_7"
+    ],
+    "conda_platforms": [
+        "osx-64",
+        "linux-aarch64",
+        "linux-64"
+    ],
+    "created_at": "2015-10-12 06:34:11.823000+00:00",
+    "description": "\"RSEM is a software package for estimating gene and isoform expression levels from RNA-Seq data. \"\n\"The RSEM package provides an user-friendly interface, supports threads for parallel computation \"\n\"of the EM algorithm, single-end and paired-end read data, quality scores, variable-length reads \"\n\"and RSPD estimation. In addition, it provides posterior mean and 95% credibility interval \"\n\"estimates for expression levels. For visualization, It can generate BAM and Wiggle files in both \"\n\"transcript-coordinate and genomic-coordinate. Genomic-coordinate files can be visualized by both \"\n\"UCSC Genome browser and Broad Institute's Integrative Genomics Viewer (IGV). Transcript-coordinate \"\n\"files can be visualized by IGV. RSEM also has its own scripts to generate transcript read depth \"\n\"plots in pdf format. The unique feature of RSEM is, the read depth plots can be stacked, with read \"\n\"depth contributed to unique reads shown in black and contributed to multi-reads shown in red. In \"\n\"addition, models learned from data can also be visualized. Last but not least, RSEM contains a \"\n\"simulator.\"\n",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "r >=3.1.0"
+                ],
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/rsem-1.2.22-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.1.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.2.22/linux-64/rsem-1.2.22-0.tar.bz2",
+            "full_name": "bioconda/rsem/1.2.22/linux-64/rsem-1.2.22-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "b934e5f3a94b75c908e57b990906e979",
+            "ndownloads": 5125,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2130893,
+            "type": "conda",
+            "upload_time": "2015-10-12 06:34:12.114000+00:00",
+            "version": "1.2.22"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "boost1.60_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-biobase",
+                    "boost 1.60*",
+                    "htslib 1.3",
+                    "libgcc",
+                    "perl 5.22.0*",
+                    "perl-module-build",
+                    "r 3.3.1*",
+                    "samtools 1.3",
+                    "zlib"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/rsem-1.2.28-boost1.60_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.60"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                "==",
+                                "5.22.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.2.28/osx-64/rsem-1.2.28-boost1.60_2.tar.bz2",
+            "full_name": "bioconda/rsem/1.2.28/osx-64/rsem-1.2.28-boost1.60_2.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "8f56efb1179bf65c907f8b05bd92ff7a",
+            "ndownloads": 4391,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1903123,
+            "type": "conda",
+            "upload_time": "2017-02-09 16:46:09.733000+00:00",
+            "version": "1.2.28"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "boost1.60_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-biobase",
+                    "boost 1.60*",
+                    "htslib 1.3",
+                    "libgcc",
+                    "perl 5.22.0*",
+                    "perl-module-build",
+                    "r 3.3.1*",
+                    "samtools 1.3",
+                    "zlib"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/rsem-1.2.28-boost1.60_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.60"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                "==",
+                                "5.22.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.2.28/linux-64/rsem-1.2.28-boost1.60_2.tar.bz2",
+            "full_name": "bioconda/rsem/1.2.28/linux-64/rsem-1.2.28-boost1.60_2.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "e14e13797c1397cf75bbc9c32f07e7d2",
+            "ndownloads": 727,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1854880,
+            "type": "conda",
+            "upload_time": "2017-02-09 15:42:06.413000+00:00",
+            "version": "1.2.28"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "boost1.60_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost 1.60*",
+                    "libgcc",
+                    "perl 5.22.0*",
+                    "perl-module-build",
+                    "r 3.3.1*",
+                    "samtools 1.3",
+                    "zlib"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/rsem-1.3.0-boost1.60_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.60"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                "==",
+                                "5.22.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.0/linux-64/rsem-1.3.0-boost1.60_0.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.0/linux-64/rsem-1.3.0-boost1.60_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "0d1b934251abd69adb5caf9c3bc59b9d",
+            "ndownloads": 840,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1863367,
+            "type": "conda",
+            "upload_time": "2017-02-10 03:10:56.490000+00:00",
+            "version": "1.3.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "boost1.60_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost 1.60*",
+                    "libgcc",
+                    "perl 5.22.0*",
+                    "perl-module-build",
+                    "r 3.3.1*",
+                    "samtools 1.3",
+                    "zlib"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/rsem-1.3.0-boost1.60_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.60"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                "==",
+                                "5.22.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.0/osx-64/rsem-1.3.0-boost1.60_0.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.0/osx-64/rsem-1.3.0-boost1.60_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "0e3de4b67af95d6a764e378268554659",
+            "ndownloads": 371,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1932194,
+            "type": "conda",
+            "upload_time": "2017-02-10 04:29:51.046000+00:00",
+            "version": "1.3.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "boost1.61_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost 1.61*",
+                    "libgcc",
+                    "perl 5.22.0*",
+                    "perl-module-build",
+                    "r 3.3.1*",
+                    "samtools 1.3",
+                    "zlib"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/rsem-1.3.0-boost1.61_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.61"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                "==",
+                                "5.22.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.0/linux-64/rsem-1.3.0-boost1.61_0.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.0/linux-64/rsem-1.3.0-boost1.61_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "12f0c652af27cb41862d3d8d978ddeb2",
+            "ndownloads": 701,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1863280,
+            "type": "conda",
+            "upload_time": "2017-02-25 12:06:56.533000+00:00",
+            "version": "1.3.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "boost1.61_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost 1.61*",
+                    "libgcc",
+                    "perl 5.22.0*",
+                    "perl-module-build",
+                    "r 3.3.1*",
+                    "samtools 1.3",
+                    "zlib"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/rsem-1.3.0-boost1.61_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.61"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                "==",
+                                "5.22.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.0/osx-64/rsem-1.3.0-boost1.61_0.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.0/osx-64/rsem-1.3.0-boost1.61_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "a9021f5214aed6d9e78877f55da1bdff",
+            "ndownloads": 127,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1932218,
+            "type": "conda",
+            "upload_time": "2017-02-25 12:11:30.858000+00:00",
+            "version": "1.3.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "boost1.64_3",
+                "build_number": 3,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost 1.64*",
+                    "libgcc",
+                    "perl 5.22.0*",
+                    "perl-module-build",
+                    "r-base 3.4.1*",
+                    "samtools 1.3",
+                    "zlib 1.2.11*"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/rsem-1.3.0-boost1.64_3.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.64"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                "==",
+                                "5.22.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                "==",
+                                "1.2.11"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.0/osx-64/rsem-1.3.0-boost1.64_3.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.0/osx-64/rsem-1.3.0-boost1.64_3.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "3b20ed6b57e7e55a82ee8fcd52e51740",
+            "ndownloads": 229,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1930306,
+            "type": "conda",
+            "upload_time": "2018-02-14 12:49:27.524000+00:00",
+            "version": "1.3.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "boost1.61_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost 1.61*",
+                    "libgcc",
+                    "perl 5.22.0*",
+                    "perl-module-build",
+                    "r-base 3.3.1*",
+                    "samtools 1.3",
+                    "zlib"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/rsem-1.3.0-boost1.61_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.61"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                "==",
+                                "5.22.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.0/osx-64/rsem-1.3.0-boost1.61_1.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.0/osx-64/rsem-1.3.0-boost1.61_1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "f66861a1bf1e54d262dc7847d87fb6c5",
+            "ndownloads": 180,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1931453,
+            "type": "conda",
+            "upload_time": "2017-03-29 16:39:23.838000+00:00",
+            "version": "1.3.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "boost1.61_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost 1.61*",
+                    "libgcc",
+                    "perl 5.22.0*",
+                    "perl-module-build",
+                    "r-base 3.3.1*",
+                    "samtools 1.3",
+                    "zlib"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/rsem-1.3.0-boost1.61_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.61"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                "==",
+                                "5.22.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.0/linux-64/rsem-1.3.0-boost1.61_1.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.0/linux-64/rsem-1.3.0-boost1.61_1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "bfe895c0b7bbf173b046fb6f14319cfa",
+            "ndownloads": 1083,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1863529,
+            "type": "conda",
+            "upload_time": "2017-03-29 16:47:45.180000+00:00",
+            "version": "1.3.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "boost1.64_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost 1.64*",
+                    "libgcc",
+                    "perl 5.22.0*",
+                    "perl-module-build",
+                    "r-base 3.3.2*",
+                    "samtools 1.3",
+                    "zlib"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/rsem-1.3.0-boost1.64_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.64"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                "==",
+                                "5.22.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.0/osx-64/rsem-1.3.0-boost1.64_1.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.0/osx-64/rsem-1.3.0-boost1.64_1.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "e83adf24ac58f032625684341a53748a",
+            "ndownloads": 159,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1929258,
+            "type": "conda",
+            "upload_time": "2017-07-05 14:51:10.441000+00:00",
+            "version": "1.3.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "boost1.64_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost 1.64*",
+                    "libgcc",
+                    "perl 5.22.0*",
+                    "perl-module-build",
+                    "r-base 3.4.1*",
+                    "samtools 1.3",
+                    "zlib 1.2.8*"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/rsem-1.3.0-boost1.64_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.64"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                "==",
+                                "5.22.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                "==",
+                                "1.2.8"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.0/linux-64/rsem-1.3.0-boost1.64_2.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.0/linux-64/rsem-1.3.0-boost1.64_2.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "05358325152c298f7913d4ac79c2dd19",
+            "ndownloads": 1637,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1856451,
+            "type": "conda",
+            "upload_time": "2017-12-13 14:28:21.735000+00:00",
+            "version": "1.3.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "boost1.64_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost 1.64*",
+                    "libgcc",
+                    "perl 5.22.0*",
+                    "perl-module-build",
+                    "r-base 3.4.1*",
+                    "samtools 1.3",
+                    "zlib 1.2.8*"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/rsem-1.3.0-boost1.64_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.64"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                "==",
+                                "5.22.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                "==",
+                                "1.2.8"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.0/osx-64/rsem-1.3.0-boost1.64_2.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.0/osx-64/rsem-1.3.0-boost1.64_2.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "aa1b2343e50e856297accd21cee88f88",
+            "ndownloads": 141,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1928342,
+            "type": "conda",
+            "upload_time": "2017-12-13 15:00:13.896000+00:00",
+            "version": "1.3.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "boost1.64_3",
+                "build_number": 3,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost 1.64*",
+                    "libgcc",
+                    "perl 5.22.0*",
+                    "perl-module-build",
+                    "r-base 3.4.1*",
+                    "samtools 1.3",
+                    "zlib 1.2.11*"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/rsem-1.3.0-boost1.64_3.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.64"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                "==",
+                                "5.22.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                "==",
+                                "1.2.11"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.0/linux-64/rsem-1.3.0-boost1.64_3.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.0/linux-64/rsem-1.3.0-boost1.64_3.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "53cd9b2f53d7a189052a63df4076e640",
+            "ndownloads": 1413,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1856413,
+            "type": "conda",
+            "upload_time": "2018-02-14 22:14:09.719000+00:00",
+            "version": "1.3.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "boost1.64_3",
+                "build_number": 3,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost 1.64*",
+                    "libgcc",
+                    "ncurses 5.9*",
+                    "perl 5.22.0*",
+                    "perl-module-build",
+                    "r-base 3.4.1*",
+                    "samtools 0.1.19",
+                    "zlib 1.2.11*"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/rsem-1.2.21-boost1.64_3.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.64"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "ncurses",
+                        "specs": [
+                            [
+                                "==",
+                                "5.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                "==",
+                                "5.22.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "0.1.19"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                "==",
+                                "1.2.11"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.2.21/osx-64/rsem-1.2.21-boost1.64_3.tar.bz2",
+            "full_name": "bioconda/rsem/1.2.21/osx-64/rsem-1.2.21-boost1.64_3.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "b6fe851ced007a40577caf1abbf9cf53",
+            "ndownloads": 135,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1003072,
+            "type": "conda",
+            "upload_time": "2018-03-07 12:31:36.540000+00:00",
+            "version": "1.2.21"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526r341h4f16992_4",
+                "build_number": 4,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost >=1.67.0,<1.67.1.0a0",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-module-build",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "samtools 1.3.*",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1533592461309
+            },
+            "basename": "osx-64/rsem-1.3.0-pl526r341h4f16992_4.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.67.0,<1.67.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.0/osx-64/rsem-1.3.0-pl526r341h4f16992_4.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.0/osx-64/rsem-1.3.0-pl526r341h4f16992_4.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "fd3a919ab0a0eff2158313cf7293f0ac",
+            "ndownloads": 9157,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2093012,
+            "type": "conda",
+            "upload_time": "2018-08-06 21:56:21.904000+00:00",
+            "version": "1.3.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526r341hf9d1ead_5",
+                "build_number": 5,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost >=1.67.0,<1.67.1.0a0",
+                    "libgcc-ng >=4.9",
+                    "libstdcxx-ng >=4.9",
+                    "ncurses >=6.1,<6.2.0a0",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-module-build",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "samtools",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1537861554877
+            },
+            "basename": "linux-64/rsem-1.2.21-pl526r341hf9d1ead_5.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.67.0,<1.67.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "ncurses",
+                        "specs": [
+                            [
+                                ">=",
+                                "6.1,<6.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.2.21/linux-64/rsem-1.2.21-pl526r341hf9d1ead_5.tar.bz2",
+            "full_name": "bioconda/rsem/1.2.21/linux-64/rsem-1.2.21-pl526r341hf9d1ead_5.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "8d0a988cf60ad0ec340c2d726073ab7b",
+            "ndownloads": 444,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1826922,
+            "type": "conda",
+            "upload_time": "2018-09-25 07:51:27.714000+00:00",
+            "version": "1.2.21"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "boost1.64_3",
+                "build_number": 3,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost 1.64*",
+                    "libgcc",
+                    "ncurses 5.9*",
+                    "perl 5.22.0*",
+                    "perl-module-build",
+                    "r-base 3.4.1*",
+                    "samtools 0.1.19",
+                    "zlib 1.2.11*"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/rsem-1.2.21-boost1.64_3.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.64"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "ncurses",
+                        "specs": [
+                            [
+                                "==",
+                                "5.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                "==",
+                                "5.22.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "0.1.19"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                "==",
+                                "1.2.11"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.2.21/linux-64/rsem-1.2.21-boost1.64_3.tar.bz2",
+            "full_name": "bioconda/rsem/1.2.21/linux-64/rsem-1.2.21-boost1.64_3.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "27cd9b995b285568d462c4b4b282a707",
+            "ndownloads": 436,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1839348,
+            "type": "conda",
+            "upload_time": "2018-03-07 12:38:16.319000+00:00",
+            "version": "1.2.21"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "boost1.64_4",
+                "build_number": 4,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost 1.64*",
+                    "libgcc",
+                    "ncurses 5.9*",
+                    "perl 5.22.0*",
+                    "perl-module-build",
+                    "r-base 3.4.1*",
+                    "samtools",
+                    "zlib 1.2.11*"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/rsem-1.2.21-boost1.64_4.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.64"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "ncurses",
+                        "specs": [
+                            [
+                                "==",
+                                "5.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                "==",
+                                "5.22.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                "==",
+                                "1.2.11"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.2.21/osx-64/rsem-1.2.21-boost1.64_4.tar.bz2",
+            "full_name": "bioconda/rsem/1.2.21/osx-64/rsem-1.2.21-boost1.64_4.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "c2de556e9eb40c56c48f9df4e7bffc26",
+            "ndownloads": 166,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1003510,
+            "type": "conda",
+            "upload_time": "2018-03-07 15:07:26.744000+00:00",
+            "version": "1.2.21"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "boost1.64_4",
+                "build_number": 4,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost 1.64*",
+                    "libgcc",
+                    "ncurses 5.9*",
+                    "perl 5.22.0*",
+                    "perl-module-build",
+                    "r-base 3.4.1*",
+                    "samtools",
+                    "zlib 1.2.11*"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/rsem-1.2.21-boost1.64_4.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                "==",
+                                "1.64"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc",
+                        "specs": []
+                    },
+                    {
+                        "name": "ncurses",
+                        "specs": [
+                            [
+                                "==",
+                                "5.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                "==",
+                                "5.22.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                "==",
+                                "1.2.11"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.2.21/linux-64/rsem-1.2.21-boost1.64_4.tar.bz2",
+            "full_name": "bioconda/rsem/1.2.21/linux-64/rsem-1.2.21-boost1.64_4.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "3c30e706e3eda1ad52b268eee8a0d4b5",
+            "ndownloads": 533,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1838975,
+            "type": "conda",
+            "upload_time": "2018-03-07 15:10:46.552000+00:00",
+            "version": "1.2.21"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526r341h4f16992_4",
+                "build_number": 4,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost >=1.67.0,<1.67.1.0a0",
+                    "libgcc-ng >=4.9",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-module-build",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "samtools 1.3.*",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1533594131416
+            },
+            "basename": "linux-64/rsem-1.3.0-pl526r341h4f16992_4.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.67.0,<1.67.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.0/linux-64/rsem-1.3.0-pl526r341h4f16992_4.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.0/linux-64/rsem-1.3.0-pl526r341h4f16992_4.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "29260426c175ec53526b986da29578ea",
+            "ndownloads": 6024,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1860237,
+            "type": "conda",
+            "upload_time": "2018-08-06 22:26:33.027000+00:00",
+            "version": "1.3.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526r341h4f16992_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost >=1.67.0,<1.67.1.0a0",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-module-build",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "samtools 1.3.*",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1534615458650
+            },
+            "basename": "osx-64/rsem-1.3.1-pl526r341h4f16992_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.67.0,<1.67.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.1/osx-64/rsem-1.3.1-pl526r341h4f16992_0.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.1/osx-64/rsem-1.3.1-pl526r341h4f16992_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "c8ac94940b221b3228da779fc55b110f",
+            "ndownloads": 335,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2095605,
+            "type": "conda",
+            "upload_time": "2018-08-18 18:05:55.639000+00:00",
+            "version": "1.3.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526r341h4f16992_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost >=1.67.0,<1.67.1.0a0",
+                    "libgcc-ng >=4.9",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-module-build",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "samtools 1.3.*",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1534615437402
+            },
+            "basename": "linux-64/rsem-1.3.1-pl526r341h4f16992_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.67.0,<1.67.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.1/linux-64/rsem-1.3.1-pl526r341h4f16992_0.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.1/linux-64/rsem-1.3.1-pl526r341h4f16992_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "e1d704ff793bdecfbe4b4f3d29f8ab20",
+            "ndownloads": 1976,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1861059,
+            "type": "conda",
+            "upload_time": "2018-08-18 18:08:12.730000+00:00",
+            "version": "1.3.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526r341hf9d1ead_5",
+                "build_number": 5,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost >=1.67.0,<1.67.1.0a0",
+                    "ncurses >=6.1,<6.2.0a0",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-module-build",
+                    "r-base >=3.4.1,<3.4.2.0a0",
+                    "samtools",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1537860562715
+            },
+            "basename": "osx-64/rsem-1.2.21-pl526r341hf9d1ead_5.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.67.0,<1.67.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "ncurses",
+                        "specs": [
+                            [
+                                ">=",
+                                "6.1,<6.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.2.21/osx-64/rsem-1.2.21-pl526r341hf9d1ead_5.tar.bz2",
+            "full_name": "bioconda/rsem/1.2.21/osx-64/rsem-1.2.21-pl526r341hf9d1ead_5.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "3d68a2f52e837d89466dd71a9ee2dbc2",
+            "ndownloads": 4401,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 993731,
+            "type": "conda",
+            "upload_time": "2018-09-25 07:31:11.355000+00:00",
+            "version": "1.2.21"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "r >=3.1.0"
+                ],
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/rsem-1.2.28-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.1.0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.2.28/linux-64/rsem-1.2.28-0.tar.bz2",
+            "full_name": "bioconda/rsem/1.2.28/linux-64/rsem-1.2.28-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "5635cf58d42478036400d78a4575dc1a",
+            "ndownloads": 11681,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 6401698,
+            "type": "conda",
+            "upload_time": "2016-02-16 22:30:53.298000+00:00",
+            "version": "1.2.28"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526r351h0002e82_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "boost >=1.68.0,<1.68.1.0a0",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-module-build",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "samtools 1.3.*",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1552067748450
+            },
+            "basename": "osx-64/rsem-1.3.1-pl526r351h0002e82_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "boost",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.68.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": [
+                            [
+                                "==",
+                                "1.3."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.1/osx-64/rsem-1.3.1-pl526r351h0002e82_1.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.1/osx-64/rsem-1.3.1-pl526r351h0002e82_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e8cd3519bc7a9c8610bcbe65bc7ed6d1",
+            "ndownloads": 4052,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2104269,
+            "type": "conda",
+            "upload_time": "2019-03-08 17:57:29.247000+00:00",
+            "version": "1.3.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526r351hc0aa232_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.9,<1.10.0a0",
+                    "libgcc-ng >=7.3.0",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-module-build",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "samtools",
+                    "ucsc-bigwigsummary",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1557678299950
+            },
+            "basename": "linux-64/rsem-1.3.2-pl526r351hc0aa232_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.9,<1.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "ucsc-bigwigsummary",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.2/linux-64/rsem-1.3.2-pl526r351hc0aa232_0.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.2/linux-64/rsem-1.3.2-pl526r351hc0aa232_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5b05aef09c49874cf0168be7a1f62265",
+            "ndownloads": 1115,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 499427,
+            "type": "conda",
+            "upload_time": "2019-05-12 16:50:21.894000+00:00",
+            "version": "1.3.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526r351h43679fd_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.9,<1.10.0a0",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-module-build",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "samtools",
+                    "ucsc-bigwigsummary",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPLv3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1557679103922
+            },
+            "basename": "osx-64/rsem-1.3.2-pl526r351h43679fd_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.9,<1.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "ucsc-bigwigsummary",
+                        "specs": []
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.2/osx-64/rsem-1.3.2-pl526r351h43679fd_0.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.2/osx-64/rsem-1.3.2-pl526r351h43679fd_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "52c490d24e949d01081155a26b77b73f",
+            "ndownloads": 9430,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 660581,
+            "type": "conda",
+            "upload_time": "2019-05-12 16:50:24.446000+00:00",
+            "version": "1.3.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526he62d6ba_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.9,<1.10.0a0",
+                    "libcxx >=4.0.1",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-module-build",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1571135590099
+            },
+            "basename": "osx-64/rsem-1.3.2-pl526he62d6ba_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.9,<1.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "ucsc-bigwigsummary",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.2/osx-64/rsem-1.3.2-pl526he62d6ba_1.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.2/osx-64/rsem-1.3.2-pl526he62d6ba_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "05ab4eca1e40abdb9d33017e222b5a08",
+            "ndownloads": 5417,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 672521,
+            "type": "conda",
+            "upload_time": "2019-10-15 10:35:22.692000+00:00",
+            "version": "1.3.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526ha52163a_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.9,<1.10.0a0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-module-build",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1571135623741
+            },
+            "basename": "linux-64/rsem-1.3.2-pl526ha52163a_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.9,<1.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "ucsc-bigwigsummary",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.2/linux-64/rsem-1.3.2-pl526ha52163a_1.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.2/linux-64/rsem-1.3.2-pl526ha52163a_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "44b8f9e48e8e32bec006e2e5b51537fa",
+            "ndownloads": 6823,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 522337,
+            "type": "conda",
+            "upload_time": "2019-10-15 10:39:19.559000+00:00",
+            "version": "1.3.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526ha52163a_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.9,<1.10.0a0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-module-build",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1581711197512
+            },
+            "basename": "linux-64/rsem-1.3.3-pl526ha52163a_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.9,<1.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "ucsc-bigwigsummary",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl526ha52163a_0.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl526ha52163a_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "aa7dbf57a8edd352a599f05772ce1f12",
+            "ndownloads": 5152,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 523995,
+            "type": "conda",
+            "upload_time": "2020-02-14 21:07:03.179000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526he62d6ba_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.9,<1.10.0a0",
+                    "libcxx >=4.0.1",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-module-build",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1581712080029
+            },
+            "basename": "osx-64/rsem-1.3.3-pl526he62d6ba_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.9,<1.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "ucsc-bigwigsummary",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl526he62d6ba_0.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl526he62d6ba_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c432af5058fac4648cfcbf2884d0eb3c",
+            "ndownloads": 7283,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 675398,
+            "type": "conda",
+            "upload_time": "2020-02-14 21:07:05.687000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526hfbaaabd_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.10.2,<1.11.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "libstdcxx-ng >=7.5.0",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-module-build",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1595741639245
+            },
+            "basename": "linux-64/rsem-1.3.3-pl526hfbaaabd_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.2,<1.11.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "ucsc-bigwigsummary",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl526hfbaaabd_1.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl526hfbaaabd_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9231cfa35c2bb620c8ce2a5e45501a95",
+            "ndownloads": 13926,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 522459,
+            "type": "conda",
+            "upload_time": "2020-07-26 05:41:52.663000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl526h3646b48_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.10.2,<1.11.0a0",
+                    "libcxx >=9.0.1",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-module-build",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": false,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1595963008872
+            },
+            "basename": "osx-64/rsem-1.3.3-pl526h3646b48_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.2,<1.11.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "ucsc-bigwigsummary",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl526h3646b48_1.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl526h3646b48_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2bd77246efe3e162c520f7306d20e7db",
+            "ndownloads": 5665,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 726122,
+            "type": "conda",
+            "upload_time": "2020-07-28 19:04:54.858000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl5262h9954cba_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.12,<1.13.0a0",
+                    "libcxx >=11.1.0",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-module-build",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1616643355260
+            },
+            "basename": "osx-64/rsem-1.3.3-pl5262h9954cba_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12,<1.13.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "ucsc-bigwigsummary",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl5262h9954cba_2.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl5262h9954cba_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "db2040f8dd3a13bac23e7be24d482ed4",
+            "ndownloads": 5788,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 725188,
+            "type": "conda",
+            "upload_time": "2021-03-25 03:37:22.774000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl5262h3198e80_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.12,<1.13.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "libstdcxx-ng >=9.3.0",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-module-build",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1616874621780
+            },
+            "basename": "linux-64/rsem-1.3.3-pl5262h3198e80_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12,<1.13.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "ucsc-bigwigsummary",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl5262h3198e80_2.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl5262h3198e80_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e542bc552e42612ab2501b67018acf2b",
+            "ndownloads": 7095,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 541504,
+            "type": "conda",
+            "upload_time": "2021-03-27 19:56:34.243000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl5321ha025227_3",
+                "build_number": 3,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.14,<1.15.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "libstdcxx-ng >=9.4.0",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1643006263004
+            },
+            "basename": "linux-64/rsem-1.3.3-pl5321ha025227_3.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14,<1.15.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.32.1,<5.33.0a0 *_perl5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "ucsc-bigwigsummary",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl5321ha025227_3.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl5321ha025227_3.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4a688b53c8f4a0cf55392ebd59f07b47",
+            "ndownloads": 5566,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 517007,
+            "type": "conda",
+            "upload_time": "2022-01-24 06:46:28.714000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl5321h819f6dc_3",
+                "build_number": 3,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.14,<1.15.0a0",
+                    "libcxx >=11.1.0",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1643011315443
+            },
+            "basename": "osx-64/rsem-1.3.3-pl5321h819f6dc_3.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14,<1.15.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.32.1,<5.33.0a0 *_perl5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "ucsc-bigwigsummary",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl5321h819f6dc_3.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl5321h819f6dc_3.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b2a71b251aed856ad445818f9622667f",
+            "ndownloads": 194,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 725639,
+            "type": "conda",
+            "upload_time": "2022-01-24 08:04:20.240000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl5321hecb563c_4",
+                "build_number": 4,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.14,<1.15.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "libstdcxx-ng >=10.3.0",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1645740806047
+            },
+            "basename": "linux-64/rsem-1.3.3-pl5321hecb563c_4.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14,<1.15.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.32.1,<5.33.0a0 *_perl5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "ucsc-bigwigsummary",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl5321hecb563c_4.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl5321hecb563c_4.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "dcd9e1f1cea5fdbccf8df4af0d5769f2",
+            "ndownloads": 1783,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 528218,
+            "type": "conda",
+            "upload_time": "2022-02-24 22:22:27.254000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl5321h89ae327_4",
+                "build_number": 4,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.15,<1.16.0a0",
+                    "libcxx >=12.0.1",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1645768909622
+            },
+            "basename": "osx-64/rsem-1.3.3-pl5321h89ae327_4.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ebseq",
+                        "specs": []
+                    },
+                    {
+                        "name": "htslib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.15,<1.16.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.32.1,<5.33.0a0 *_perl5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-module-build",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": []
+                    },
+                    {
+                        "name": "samtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "ucsc-bigwigsummary",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl5321h89ae327_4.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl5321h89ae327_4.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "93ddf8c501620441d5f2b8a8a411b91c",
+            "ndownloads": 6210,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 738488,
+            "type": "conda",
+            "upload_time": "2022-02-25 06:03:49.183000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl5321ha04fe3b_5",
+                "build_number": 5,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.16,<1.17.0a0",
+                    "libgcc-ng >=12",
+                    "libstdcxx-ng >=12",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1663293855746
+            },
+            "basename": "linux-64/rsem-1.3.3-pl5321ha04fe3b_5.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl5321ha04fe3b_5.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl5321ha04fe3b_5.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6b26fed79ecde0f5ac9f9dbd910e719c",
+            "ndownloads": 3143,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 540475,
+            "type": "conda",
+            "upload_time": "2022-09-16 02:09:30.597000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl5321h86e66d2_5",
+                "build_number": 5,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.16,<1.17.0a0",
+                    "libcxx >=14.0.4",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1663876272203
+            },
+            "basename": "osx-64/rsem-1.3.3-pl5321h86e66d2_5.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl5321h86e66d2_5.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl5321h86e66d2_5.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "615c6950883dbcc7acd612361387b37d",
+            "ndownloads": 258,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 768595,
+            "type": "conda",
+            "upload_time": "2022-09-22 19:52:26.799000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl5321h6b7c446_6",
+                "build_number": 6,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.17,<1.18.0a0",
+                    "libgcc-ng >=12",
+                    "libstdcxx-ng >=12",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build 0.4232.*",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1678163171266
+            },
+            "basename": "linux-64/rsem-1.3.3-pl5321h6b7c446_6.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl5321h6b7c446_6.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl5321h6b7c446_6.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e15e8bbfd5b4eb22dac5081bfc761a22",
+            "ndownloads": 836,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 514533,
+            "type": "conda",
+            "upload_time": "2023-03-07 04:29:11.076000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl5321hb33f77a_6",
+                "build_number": 6,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.17,<1.18.0a0",
+                    "libcxx >=14.0.6",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build 0.4232.*",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1678165777267
+            },
+            "basename": "osx-64/rsem-1.3.3-pl5321hb33f77a_6.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl5321hb33f77a_6.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl5321hb33f77a_6.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d759811c2fec4556a2193334d0b66e5e",
+            "ndownloads": 1182,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 767262,
+            "type": "conda",
+            "upload_time": "2023-03-07 05:10:56.926000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl5321h0033a41_7",
+                "build_number": 7,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.17,<1.18.0a0",
+                    "libgcc-ng >=12",
+                    "libstdcxx-ng >=12",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build 0.4234.*",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1684317895846
+            },
+            "basename": "linux-64/rsem-1.3.3-pl5321h0033a41_7.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl5321h0033a41_7.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl5321h0033a41_7.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7794d520248592b549876daa10acf159",
+            "ndownloads": 13597,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 513432,
+            "type": "conda",
+            "upload_time": "2023-05-17 10:07:44.937000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl5321h0546b6b_7",
+                "build_number": 7,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.17,<1.18.0a0",
+                    "libcxx >=15.0.7",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build 0.4234.*",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1685189492952
+            },
+            "basename": "osx-64/rsem-1.3.3-pl5321h0546b6b_7.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl5321h0546b6b_7.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl5321h0546b6b_7.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "77b1f65f0f167fd0f7450695288c809c",
+            "ndownloads": 506,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 767146,
+            "type": "conda",
+            "upload_time": "2023-05-27 12:12:35.915000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "pl5321hf1d9491_9",
+                "build_number": 9,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.21,<1.22.0a0",
+                    "libgcc >=12",
+                    "libstdcxx >=12",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary",
+                    "zlib"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1732740821612
+            },
+            "basename": "linux-aarch64/rsem-1.3.3-pl5321hf1d9491_9.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/linux-aarch64/rsem-1.3.3-pl5321hf1d9491_9.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/linux-aarch64/rsem-1.3.3-pl5321hf1d9491_9.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a87e45ad02c8b99ae4bab004c776e48d",
+            "ndownloads": 54,
+            "owner": "bioconda",
+            "sha256": "e5002fd5d3c7c8e48a4a786725f7b29cc91d42ca3e9c512769055934a32c2aec",
+            "size": 663340,
+            "type": "conda",
+            "upload_time": "2024-11-27 21:42:27.243000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl5321h43eeafb_9",
+                "build_number": 9,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.21,<1.22.0a0",
+                    "libgcc >=12",
+                    "libstdcxx >=12",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build 0.4234.*",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary",
+                    "zlib"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1732740996334
+            },
+            "basename": "linux-64/rsem-1.3.3-pl5321h43eeafb_9.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl5321h43eeafb_9.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl5321h43eeafb_9.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6c8474b154eb5ccd14327448f57ed5bd",
+            "ndownloads": 345,
+            "owner": "bioconda",
+            "sha256": "187b300954161641ede7479ba0ef3e801494b26bb118fc70cbd3f798de6d14f9",
+            "size": 523015,
+            "type": "conda",
+            "upload_time": "2024-11-27 21:42:45.411000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl5321hd576cc4_9",
+                "build_number": 9,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.21,<1.22.0a0",
+                    "libcxx >=16",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build 0.4234.*",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary",
+                    "zlib"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1732741876380
+            },
+            "basename": "osx-64/rsem-1.3.3-pl5321hd576cc4_9.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl5321hd576cc4_9.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl5321hd576cc4_9.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1d2493441ac09803c87bc109f122a2a8",
+            "ndownloads": 157,
+            "owner": "bioconda",
+            "sha256": "94af8b001284ebbb8214e181174015415390ab227bf57ded54cb627ca64a132c",
+            "size": 747111,
+            "type": "conda",
+            "upload_time": "2024-11-27 21:45:37.774000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl5321h1f6ca2e_10",
+                "build_number": 10,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.21,<1.22.0a0",
+                    "libcxx >=18",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build 0.4234.*",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary",
+                    "zlib"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1734034510226
+            },
+            "basename": "osx-64/rsem-1.3.3-pl5321h1f6ca2e_10.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl5321h1f6ca2e_10.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl5321h1f6ca2e_10.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "10f2edf167bbd6469957554cc7f44399",
+            "ndownloads": 168,
+            "owner": "bioconda",
+            "sha256": "0ad6c3a0cc86142e295f7f206a343aea095295091069ca04b54f90731e4eabcb",
+            "size": 750292,
+            "type": "conda",
+            "upload_time": "2024-12-12 20:17:00.288000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "pl5321h0aa3852_10",
+                "build_number": 10,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.21,<1.22.0a0",
+                    "libgcc >=13",
+                    "libstdcxx >=13",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary",
+                    "zlib"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1734317075501
+            },
+            "basename": "linux-aarch64/rsem-1.3.3-pl5321h0aa3852_10.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/linux-aarch64/rsem-1.3.3-pl5321h0aa3852_10.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/linux-aarch64/rsem-1.3.3-pl5321h0aa3852_10.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0ac8d963c62f7e1e49677763697a5beb",
+            "ndownloads": 58,
+            "owner": "bioconda",
+            "sha256": "054df3b366fe3100b7a2131d575091f031f0c476512935efb0f39fdaf61ddda4",
+            "size": 667537,
+            "type": "conda",
+            "upload_time": "2024-12-16 02:46:23.526000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl5321h5ca1c30_10",
+                "build_number": 10,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.21,<1.22.0a0",
+                    "libgcc >=13",
+                    "libstdcxx >=13",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build 0.4234.*",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary",
+                    "zlib"
+                ],
+                "has_prefix": true,
+                "license": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1734363122125
+            },
+            "basename": "linux-64/rsem-1.3.3-pl5321h5ca1c30_10.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl5321h5ca1c30_10.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl5321h5ca1c30_10.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b04edf02e80305e6c217fa2396c30932",
+            "ndownloads": 2471,
+            "owner": "bioconda",
+            "sha256": "9b42c3c78d4268e97dc7111fed563a80ad7b0aa3196fd121a03089cf364a2f00",
+            "size": 491364,
+            "type": "conda",
+            "upload_time": "2024-12-16 15:34:35.774000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "pl5321h1e84f2d_11",
+                "build_number": 11,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.21,<1.22.0a0",
+                    "libgcc >=13",
+                    "libstdcxx >=13",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build 0.4234.*",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3.0-or-later",
+                "license_family": "GPL3",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1748506935007
+            },
+            "basename": "linux-aarch64/rsem-1.3.3-pl5321h1e84f2d_11.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/linux-aarch64/rsem-1.3.3-pl5321h1e84f2d_11.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/linux-aarch64/rsem-1.3.3-pl5321h1e84f2d_11.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7ada338b74a2735cb1a2555a26da1e40",
+            "ndownloads": 30,
+            "owner": "bioconda",
+            "sha256": "83bcba9e89a05ce38f5b284e75c4e82698edbba81b8a5aefc72782eeda1cb6a1",
+            "size": 666633,
+            "type": "conda",
+            "upload_time": "2025-05-29 08:57:11.276000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl5321h077b44d_11",
+                "build_number": 11,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.21,<1.22.0a0",
+                    "libgcc >=13",
+                    "libstdcxx >=13",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build 0.4234.*",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3.0-or-later",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1748507173504
+            },
+            "basename": "linux-64/rsem-1.3.3-pl5321h077b44d_11.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl5321h077b44d_11.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/linux-64/rsem-1.3.3-pl5321h077b44d_11.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4d4c42fbf7268832d2953bc2b8bbf6ff",
+            "ndownloads": 2823,
+            "owner": "bioconda",
+            "sha256": "8c46ae80f0130c9f1e760aafd32457651823ec0bbc320893a8cc22ac2e6b3b70",
+            "size": 488021,
+            "type": "conda",
+            "upload_time": "2025-05-29 08:57:29.830000+00:00",
+            "version": "1.3.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "pl5321h2ec61ea_11",
+                "build_number": 11,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-ebseq",
+                    "htslib >=1.21,<1.22.0a0",
+                    "libcxx >=18",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-module-build 0.4234.*",
+                    "r-base",
+                    "samtools",
+                    "ucsc-bigwigsummary"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3.0-or-later",
+                "license_family": "GPL3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1748508182688
+            },
+            "basename": "osx-64/rsem-1.3.3-pl5321h2ec61ea_11.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl5321h2ec61ea_11.tar.bz2",
+            "full_name": "bioconda/rsem/1.3.3/osx-64/rsem-1.3.3-pl5321h2ec61ea_11.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b0200f6a9166c70cf2b99a6034eb30a5",
+            "ndownloads": 112,
+            "owner": "bioconda",
+            "sha256": "8966fe6a84639ff18741af6447777ae8e1b7d06598dfc8d0da68d8383442876e",
+            "size": 746895,
+            "type": "conda",
+            "upload_time": "2025-05-29 08:58:56.872000+00:00",
+            "version": "1.3.3"
+        }
+    ],
+    "full_name": "bioconda/rsem",
+    "home": "None",
+    "html_url": "http://anaconda.org/bioconda/rsem",
+    "id": "561b5463c5e9f451f097a9b6",
+    "latest_version": "1.3.3",
+    "license": "GPL3",
+    "license_url": null,
+    "modified_at": "2025-05-29 08:58:57.831000+00:00",
+    "name": "rsem",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.3.3",
+        "linux-aarch64": "1.3.3",
+        "osx-64": "1.3.3"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [
+                "linux-64/rsem-1.2.22-0.tar.bz2"
+            ],
+            "full_name": "bioconda/rsem/1.2.22",
+            "version": "1.2.22"
+        },
+        {
+            "distributions": [
+                "linux-64/rsem-1.2.28-0.tar.bz2"
+            ],
+            "full_name": "bioconda/rsem/1.2.28",
+            "version": "1.2.28"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/rsem/1.3.0",
+            "version": "1.3.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/rsem/1.2.21",
+            "version": "1.2.21"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/rsem/1.3.1",
+            "version": "1.3.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/rsem/1.3.2",
+            "version": "1.3.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/rsem/1.3.3",
+            "version": "1.3.3"
+        }
+    ],
+    "revision": 21,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "RSEM is a software package for estimating gene and isoform expression levels from RNA-Seq data.",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/rsem",
+    "versions": [
+        "1.2.22",
+        "1.2.28",
+        "1.3.0",
+        "1.2.21",
+        "1.3.1",
+        "1.3.2",
+        "1.3.3"
+    ],
+    "watchers": 1
+}

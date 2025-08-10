@@ -1,0 +1,2358 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r3.4.1_0",
+        "r44h3df3fcb_0",
+        "r351h1de35cc_1",
+        "r42ha9d7317_1",
+        "r44h2f393c0_0",
+        "r351h470a237_0",
+        "r341h470a237_0",
+        "r36h01d97ff_1",
+        "r41hc0cfd56_2",
+        "r42hc0cfd56_0",
+        "r351h14c3975_1",
+        "r40hd029910_1",
+        "r42h3be46a4_0",
+        "r43h4c50009_0",
+        "r40h037d062_0",
+        "r36h516909a_1",
+        "r42h4c50009_1",
+        "r40h8909d69_0",
+        "r43ha9d7317_0",
+        "r36h01d97ff_0",
+        "r41hd029910_0",
+        "r36h516909a_0",
+        "r41h5c21468_1",
+        "r351h14c3975_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2018-02-26 14:03:07.154000+00:00",
+    "description": "A package to identify very short IBD segments in large sequencing data by FABIA biclustering. Two haplotypes are identical by descent (IBD) if they share a segment that both inherited from a common ancestor. Current IBD methods reliably detect long IBD segments because many minor alleles in the segment are concordant between the two haplotypes. However, many cohort studies contain unrelated individuals which share only short IBD segments. This package provides software to identify short IBD segments in sequencing data. Knowledge of short IBD segments are relevant for phasing of genotyping data, association studies, and for population genetics, where they shed light on the evolutionary history of humans. The package supports VCF formats, is based on sparse matrix operations, and provides visualization of haplotype clusters in different formats.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-fabia >=2.3.1",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.20.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.20.0/linux-64/bioconductor-hapfabia-1.20.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.20.0/linux-64/bioconductor-hapfabia-1.20.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "b4d7505b7fbc6406a0d129780231eaaa",
+            "ndownloads": 614,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1731325,
+            "type": "conda",
+            "upload_time": "2018-02-26 14:06:21.822000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase",
+                    "bioconductor-fabia >=2.3.1",
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-hapfabia-1.20.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.3.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.20.0/osx-64/bioconductor-hapfabia-1.20.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.20.0/osx-64/bioconductor-hapfabia-1.20.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "073d0330717dba3c123265a9c58268b9",
+            "ndownloads": 4459,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1729168,
+            "type": "conda",
+            "upload_time": "2018-02-26 14:03:07.698000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-fabia >=2.26.0,<2.28.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539427391849
+            },
+            "basename": "osx-64/bioconductor-hapfabia-1.22.0-r351h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.22.0/osx-64/bioconductor-hapfabia-1.22.0-r351h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.22.0/osx-64/bioconductor-hapfabia-1.22.0-r351h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "8f6f3e817d5266efaab7e5a4968eb7ca",
+            "ndownloads": 4450,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1883362,
+            "type": "conda",
+            "upload_time": "2018-10-13 10:45:03.588000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-fabia >=2.26.0,<2.28.0",
+                    "r-base >=3.4.1,<3.4.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1539427467360
+            },
+            "basename": "osx-64/bioconductor-hapfabia-1.22.0-r341h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.22.0/osx-64/bioconductor-hapfabia-1.22.0-r341h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.22.0/osx-64/bioconductor-hapfabia-1.22.0-r341h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "02a559d6af2927a99d0c9695487d05c2",
+            "ndownloads": 111,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1729770,
+            "type": "conda",
+            "upload_time": "2018-10-13 10:45:12.501000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-fabia >=2.26.0,<2.28.0",
+                    "libgcc-ng >=4.9",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539494530826
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.22.0-r351h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.22.0/linux-64/bioconductor-hapfabia-1.22.0-r351h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.22.0/linux-64/bioconductor-hapfabia-1.22.0-r351h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "40691decd05d14eb1aa1f0ec19a04610",
+            "ndownloads": 503,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1885611,
+            "type": "conda",
+            "upload_time": "2018-10-14 05:26:54.300000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-fabia >=2.26.0,<2.28.0",
+                    "libgcc-ng >=4.9",
+                    "r-base >=3.4.1,<3.4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1539494464921
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.22.0-r341h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.22.0/linux-64/bioconductor-hapfabia-1.22.0-r341h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.22.0/linux-64/bioconductor-hapfabia-1.22.0-r341h470a237_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "57043bf157a730089eda9f77cd6876ed",
+            "ndownloads": 478,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1731419,
+            "type": "conda",
+            "upload_time": "2018-10-14 05:26:57.521000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h470a237_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-fabia >=2.28.0,<2.29.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1544331741495
+            },
+            "basename": "osx-64/bioconductor-hapfabia-1.24.0-r351h470a237_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.24.0/osx-64/bioconductor-hapfabia-1.24.0-r351h470a237_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.24.0/osx-64/bioconductor-hapfabia-1.24.0-r351h470a237_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "78cc5480ef9c034581d58827405894b1",
+            "ndownloads": 4395,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1888533,
+            "type": "conda",
+            "upload_time": "2018-12-09 05:03:08.059000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h14c3975_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-fabia >=2.28.0,<2.29.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1544734196592
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.24.0-r351h14c3975_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.24.0/linux-64/bioconductor-hapfabia-1.24.0-r351h14c3975_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.24.0/linux-64/bioconductor-hapfabia-1.24.0-r351h14c3975_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "2cda6e1edb4f922ec299ef90c26b1d9d",
+            "ndownloads": 388,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1894348,
+            "type": "conda",
+            "upload_time": "2018-12-13 20:52:41.181000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h1de35cc_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-fabia >=2.28.0,<2.29.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1552137126711
+            },
+            "basename": "osx-64/bioconductor-hapfabia-1.24.0-r351h1de35cc_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.24.0/osx-64/bioconductor-hapfabia-1.24.0-r351h1de35cc_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.24.0/osx-64/bioconductor-hapfabia-1.24.0-r351h1de35cc_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a49cad01cc7ac06d4f2a0aed97d9be08",
+            "ndownloads": 118,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1888747,
+            "type": "conda",
+            "upload_time": "2019-03-09 13:12:49.850000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h14c3975_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-fabia >=2.28.0,<2.29.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1552243249953
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.24.0-r351h14c3975_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.24.0/linux-64/bioconductor-hapfabia-1.24.0-r351h14c3975_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.24.0/linux-64/bioconductor-hapfabia-1.24.0-r351h14c3975_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a3a658f125bfcb81d486afc8eb413ec9",
+            "ndownloads": 382,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1894627,
+            "type": "conda",
+            "upload_time": "2019-03-10 18:43:36.541000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-fabia >=2.30.0,<2.31.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1563396407815
+            },
+            "basename": "osx-64/bioconductor-hapfabia-1.26.0-r36h01d97ff_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.30.0,<2.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.26.0/osx-64/bioconductor-hapfabia-1.26.0-r36h01d97ff_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.26.0/osx-64/bioconductor-hapfabia-1.26.0-r36h01d97ff_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c388b1583a718d046b27458a3f5ed524",
+            "ndownloads": 4036,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1878621,
+            "type": "conda",
+            "upload_time": "2019-07-17 20:47:31.781000+00:00",
+            "version": "1.26.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-fabia >=2.30.0,<2.31.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1564081943454
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.26.0-r36h516909a_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.30.0,<2.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.26.0/linux-64/bioconductor-hapfabia-1.26.0-r36h516909a_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.26.0/linux-64/bioconductor-hapfabia-1.26.0-r36h516909a_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1e74d015339f76c155ac7b22454987b2",
+            "ndownloads": 326,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1904671,
+            "type": "conda",
+            "upload_time": "2019-07-25 19:16:27.478000+00:00",
+            "version": "1.26.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-fabia >=2.32.0,<2.33.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572602169512
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.28.0-r36h516909a_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.32.0,<2.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.28.0/linux-64/bioconductor-hapfabia-1.28.0-r36h516909a_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.28.0/linux-64/bioconductor-hapfabia-1.28.0-r36h516909a_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4ac5e63f78d772a1b1d1c874a087f97a",
+            "ndownloads": 323,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1902989,
+            "type": "conda",
+            "upload_time": "2019-11-01 10:00:19.843000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-fabia >=2.32.0,<2.33.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572603408012
+            },
+            "basename": "osx-64/bioconductor-hapfabia-1.28.0-r36h01d97ff_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.32.0,<2.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.28.0/osx-64/bioconductor-hapfabia-1.28.0-r36h01d97ff_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.28.0/osx-64/bioconductor-hapfabia-1.28.0-r36h01d97ff_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "351e5a99c8f0b755c42fa593229458c0",
+            "ndownloads": 3866,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1892930,
+            "type": "conda",
+            "upload_time": "2019-11-01 10:17:34.160000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h8909d69_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.48.0,<2.49.0",
+                    "bioconductor-fabia >=2.34.0,<2.35.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1589019800569
+            },
+            "basename": "osx-64/bioconductor-hapfabia-1.30.0-r40h8909d69_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.34.0,<2.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.30.0/osx-64/bioconductor-hapfabia-1.30.0-r40h8909d69_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.30.0/osx-64/bioconductor-hapfabia-1.30.0-r40h8909d69_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "04a19c8fbe752e7ef7937e7e520ca913",
+            "ndownloads": 3456,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1892624,
+            "type": "conda",
+            "upload_time": "2020-05-09 10:24:26.715000+00:00",
+            "version": "1.30.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h037d062_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.48.0,<2.49.0",
+                    "bioconductor-fabia >=2.34.0,<2.35.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.3.0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1589058606932
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.30.0-r40h037d062_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.34.0,<2.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.30.0/linux-64/bioconductor-hapfabia-1.30.0-r40h037d062_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.30.0/linux-64/bioconductor-hapfabia-1.30.0-r40h037d062_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e3f811bd3f64a4c321a8531537c73db1",
+            "ndownloads": 291,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1903857,
+            "type": "conda",
+            "upload_time": "2020-05-09 21:14:30.071000+00:00",
+            "version": "1.30.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h8909d69_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-fabia >=2.36.0,<2.37.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": true,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1603991885522
+            },
+            "basename": "osx-64/bioconductor-hapfabia-1.32.0-r40h8909d69_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.36.0,<2.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.32.0/osx-64/bioconductor-hapfabia-1.32.0-r40h8909d69_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.32.0/osx-64/bioconductor-hapfabia-1.32.0-r40h8909d69_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a0bc46f6f757ee60d6d9c610be92066a",
+            "ndownloads": 3107,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1884827,
+            "type": "conda",
+            "upload_time": "2020-10-29 17:19:07.058000+00:00",
+            "version": "1.32.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h037d062_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-fabia >=2.36.0,<2.37.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1604081472647
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.32.0-r40h037d062_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.36.0,<2.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.32.0/linux-64/bioconductor-hapfabia-1.32.0-r40h037d062_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.32.0/linux-64/bioconductor-hapfabia-1.32.0-r40h037d062_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "72d8a5210e7a645c6eca93c19295e4b0",
+            "ndownloads": 268,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1903107,
+            "type": "conda",
+            "upload_time": "2020-10-30 18:15:46.092000+00:00",
+            "version": "1.32.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40hd029910_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-fabia >=2.36.0,<2.37.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1617143199794
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.32.0-r40hd029910_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.36.0,<2.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.32.0/linux-64/bioconductor-hapfabia-1.32.0-r40hd029910_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.32.0/linux-64/bioconductor-hapfabia-1.32.0-r40hd029910_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6a6dc9c95f541044feee8e5b2dd23cfd",
+            "ndownloads": 263,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1897390,
+            "type": "conda",
+            "upload_time": "2021-03-30 22:33:04.470000+00:00",
+            "version": "1.32.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hd029910_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.52.0,<2.53.0",
+                    "bioconductor-fabia >=2.38.0,<2.39.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1622455125122
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.34.0-r41hd029910_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.38.0,<2.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.34.0/linux-64/bioconductor-hapfabia-1.34.0-r41hd029910_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.34.0/linux-64/bioconductor-hapfabia-1.34.0-r41hd029910_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6015d28445b60a8344607e33d5139139",
+            "ndownloads": 2871,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1907403,
+            "type": "conda",
+            "upload_time": "2021-05-31 10:03:51.583000+00:00",
+            "version": "1.34.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hd029910_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-fabia >=2.40.0,<2.41.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1635943851921
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.36.0-r41hd029910_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.36.0/linux-64/bioconductor-hapfabia-1.36.0-r41hd029910_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.36.0/linux-64/bioconductor-hapfabia-1.36.0-r41hd029910_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "785204e6f3eca6a4f416e143aa6c6507",
+            "ndownloads": 2176,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1906911,
+            "type": "conda",
+            "upload_time": "2021-11-03 12:58:05.405000+00:00",
+            "version": "1.36.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h5c21468_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-fabia >=2.40.0,<2.41.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1645730497725
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.36.0-r41h5c21468_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-fabia",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.36.0/linux-64/bioconductor-hapfabia-1.36.0-r41h5c21468_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.36.0/linux-64/bioconductor-hapfabia-1.36.0-r41h5c21468_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1e33d8870be17285169dd45cbe73326b",
+            "ndownloads": 205,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1906170,
+            "type": "conda",
+            "upload_time": "2022-02-24 19:28:24.470000+00:00",
+            "version": "1.36.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hc0cfd56_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-fabia >=2.40.0,<2.41.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1663291665627
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.36.0-r41hc0cfd56_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.36.0/linux-64/bioconductor-hapfabia-1.36.0-r41hc0cfd56_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.36.0/linux-64/bioconductor-hapfabia-1.36.0-r41hc0cfd56_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6a9543a0a4c4a4a0aa5a38560c25e9de",
+            "ndownloads": 195,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1906838,
+            "type": "conda",
+            "upload_time": "2022-09-16 01:31:29.959000+00:00",
+            "version": "1.36.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42h3be46a4_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-fabia >=2.44.0,<2.45.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1667513554950
+            },
+            "basename": "osx-64/bioconductor-hapfabia-1.40.0-r42h3be46a4_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.40.0/osx-64/bioconductor-hapfabia-1.40.0-r42h3be46a4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.40.0/osx-64/bioconductor-hapfabia-1.40.0-r42h3be46a4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8c29630c94068765d8b8fa60137f7060",
+            "ndownloads": 452,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1899334,
+            "type": "conda",
+            "upload_time": "2022-11-03 22:14:01.323000+00:00",
+            "version": "1.40.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc0cfd56_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-fabia >=2.44.0,<2.45.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1667518401970
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.40.0-r42hc0cfd56_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.40.0/linux-64/bioconductor-hapfabia-1.40.0-r42hc0cfd56_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.40.0/linux-64/bioconductor-hapfabia-1.40.0-r42hc0cfd56_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7a95f64ad24e5d153ad93ba087b8852a",
+            "ndownloads": 178,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1893062,
+            "type": "conda",
+            "upload_time": "2022-11-03 23:35:58.153000+00:00",
+            "version": "1.40.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42ha9d7317_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-fabia >=2.44.0,<2.45.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1684450658444
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.40.0-r42ha9d7317_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.40.0/linux-64/bioconductor-hapfabia-1.40.0-r42ha9d7317_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.40.0/linux-64/bioconductor-hapfabia-1.40.0-r42ha9d7317_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ba2ed959ad4dfc98159daeb1efd00a14",
+            "ndownloads": 148,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1899442,
+            "type": "conda",
+            "upload_time": "2023-05-18 23:00:24.192000+00:00",
+            "version": "1.40.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42h4c50009_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-fabia >=2.44.0,<2.45.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1685367361981
+            },
+            "basename": "osx-64/bioconductor-hapfabia-1.40.0-r42h4c50009_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.40.0/osx-64/bioconductor-hapfabia-1.40.0-r42h4c50009_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.40.0/osx-64/bioconductor-hapfabia-1.40.0-r42h4c50009_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "165053632cfed7b9d6d0b43241e51cc6",
+            "ndownloads": 1213,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1901886,
+            "type": "conda",
+            "upload_time": "2023-05-29 13:37:06.098000+00:00",
+            "version": "1.40.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43h4c50009_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.60.0,<2.61.0",
+                    "bioconductor-fabia >=2.46.0,<2.47.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1688751738094
+            },
+            "basename": "osx-64/bioconductor-hapfabia-1.42.0-r43h4c50009_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.42.0/osx-64/bioconductor-hapfabia-1.42.0-r43h4c50009_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.42.0/osx-64/bioconductor-hapfabia-1.42.0-r43h4c50009_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1a7292c12fe1af4a9ef96cbe084c7f21",
+            "ndownloads": 1170,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1912188,
+            "type": "conda",
+            "upload_time": "2023-07-07 17:43:12.258000+00:00",
+            "version": "1.42.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43ha9d7317_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.60.0,<2.61.0",
+                    "bioconductor-fabia >=2.46.0,<2.47.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1689014543898
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.42.0-r43ha9d7317_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.42.0/linux-64/bioconductor-hapfabia-1.42.0-r43ha9d7317_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.42.0/linux-64/bioconductor-hapfabia-1.42.0-r43ha9d7317_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6bcd66a083f266787d9fea6075dd3209",
+            "ndownloads": 137,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1928143,
+            "type": "conda",
+            "upload_time": "2023-07-10 18:44:58.672000+00:00",
+            "version": "1.42.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43h4c50009_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.62.0,<2.63.0",
+                    "bioconductor-biobase >=2.62.0,<2.63.0a0",
+                    "bioconductor-fabia >=2.48.0,<2.49.0",
+                    "bioconductor-fabia >=2.48.0,<2.49.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1701667507752
+            },
+            "basename": "osx-64/bioconductor-hapfabia-1.44.0-r43h4c50009_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.44.0/osx-64/bioconductor-hapfabia-1.44.0-r43h4c50009_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.44.0/osx-64/bioconductor-hapfabia-1.44.0-r43h4c50009_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "23224865530ebd90edaf89cc3844298d",
+            "ndownloads": 766,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1918909,
+            "type": "conda",
+            "upload_time": "2023-12-04 05:27:17.406000+00:00",
+            "version": "1.44.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43ha9d7317_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.62.0,<2.63.0",
+                    "bioconductor-biobase >=2.62.0,<2.63.0a0",
+                    "bioconductor-fabia >=2.48.0,<2.49.0",
+                    "bioconductor-fabia >=2.48.0,<2.49.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1701844232302
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.44.0-r43ha9d7317_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.44.0/linux-64/bioconductor-hapfabia-1.44.0-r43ha9d7317_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.44.0/linux-64/bioconductor-hapfabia-1.44.0-r43ha9d7317_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "130e8781b95a68cda575db406413c45c",
+            "ndownloads": 105,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1915376,
+            "type": "conda",
+            "upload_time": "2023-12-06 06:32:05.864000+00:00",
+            "version": "1.44.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h3df3fcb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0a0",
+                    "bioconductor-fabia >=2.52.0,<2.53.0",
+                    "bioconductor-fabia >=2.52.0,<2.53.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1734567548871
+            },
+            "basename": "linux-64/bioconductor-hapfabia-1.48.0-r44h3df3fcb_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.48.0/linux-64/bioconductor-hapfabia-1.48.0-r44h3df3fcb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.48.0/linux-64/bioconductor-hapfabia-1.48.0-r44h3df3fcb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4541abb7ccbc97625638573fb322e99b",
+            "ndownloads": 112,
+            "owner": "bioconda",
+            "sha256": "7cf8239d490269a38a7d95bfa40a73d3668c5aa6e562c48e2a741e8e23813d9e",
+            "size": 1990009,
+            "type": "conda",
+            "upload_time": "2024-12-19 00:20:29.737000+00:00",
+            "version": "1.48.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h2f393c0_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0a0",
+                    "bioconductor-fabia >=2.52.0,<2.53.0",
+                    "bioconductor-fabia >=2.52.0,<2.53.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>= 2.1)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1734568330614
+            },
+            "basename": "osx-64/bioconductor-hapfabia-1.48.0-r44h2f393c0_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-hapfabia/1.48.0/osx-64/bioconductor-hapfabia-1.48.0-r44h2f393c0_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-hapfabia/1.48.0/osx-64/bioconductor-hapfabia-1.48.0-r44h2f393c0_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "961916b255a5ee746f3cb4f417c6dbda",
+            "ndownloads": 212,
+            "owner": "bioconda",
+            "sha256": "4bd572b370bf43f0fa44d69fd803d54eb9093eceaddca76ff27707b49b86b2d8",
+            "size": 1986603,
+            "type": "conda",
+            "upload_time": "2024-12-19 00:33:16.987000+00:00",
+            "version": "1.48.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-hapfabia",
+    "home": "http://bioconductor.org/packages/3.6/bioc/html/hapFabia.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-hapfabia",
+    "id": "5a94139bbaec3611fdaa1cac",
+    "latest_version": "1.48.0",
+    "license": "LGPL (>= 2.1)",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:28:57.036000+00:00",
+    "name": "bioconductor-hapfabia",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.48.0",
+        "osx-64": "1.48.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hapfabia/1.20.0",
+            "version": "1.20.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hapfabia/1.22.0",
+            "version": "1.22.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hapfabia/1.24.0",
+            "version": "1.24.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hapfabia/1.26.0",
+            "version": "1.26.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hapfabia/1.28.0",
+            "version": "1.28.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hapfabia/1.30.0",
+            "version": "1.30.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hapfabia/1.32.0",
+            "version": "1.32.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hapfabia/1.34.0",
+            "version": "1.34.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hapfabia/1.36.0",
+            "version": "1.36.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hapfabia/1.40.0",
+            "version": "1.40.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hapfabia/1.42.0",
+            "version": "1.42.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hapfabia/1.44.0",
+            "version": "1.44.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-hapfabia/1.48.0",
+            "version": "1.48.0"
+        }
+    ],
+    "revision": 28,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "hapFabia: Identification of very short segments of identity by descent (IBD) characterized by rare variants in large sequencing data",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-hapfabia",
+    "versions": [
+        "1.20.0",
+        "1.22.0",
+        "1.24.0",
+        "1.26.0",
+        "1.28.0",
+        "1.30.0",
+        "1.32.0",
+        "1.34.0",
+        "1.36.0",
+        "1.40.0",
+        "1.42.0",
+        "1.44.0",
+        "1.48.0"
+    ],
+    "watchers": 1
+}

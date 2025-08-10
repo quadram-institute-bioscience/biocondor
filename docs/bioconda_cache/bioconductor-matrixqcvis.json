@@ -1,0 +1,982 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r44hdfd78af_0",
+        "r41hdfd78af_0",
+        "r42hdfd78af_0",
+        "r43hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2021-06-04 09:55:37.442000+00:00",
+    "description": "Data quality assessment is an integral part of preparatory data analysis to ensure sound biological information retrieval. We present here the MatrixQCvis package, which provides shiny-based interactive visualization of data quality metrics at the per-sample and per-feature level. It is broadly applicable to quantitative omics data types that come in matrix-like format (features x samples). It enables the detection of low-quality samples, drifts, outliers and batch effects in data sets. Visualizations include amongst others bar- and violin plots of the (count/intensity) values, mean vs standard deviation plots, MA plots, empirical cumulative distribution function (ECDF) plots, visualizations of the distances between samples, and multiple types of dimension reduction plots. Furthermore, MatrixQCvis allows for differential expression analysis based on the limma (moderated t-tests) and proDA (Wald tests) packages. MatrixQCvis builds upon the popular Bioconductor SummarizedExperiment S4 class and enables thus the facile integration into existing workflows. The package is especially tailored towards metabolomics and proteomics mass spectrometry data, but also allows to assess the data quality of other data types that can be represented in a SummarizedExperiment object.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-complexheatmap >=2.8.0,<2.9.0",
+                    "bioconductor-impute >=1.66.0,<1.67.0",
+                    "bioconductor-limma >=3.48.0,<3.49.0",
+                    "bioconductor-pcamethods >=1.84.0,<1.85.0",
+                    "bioconductor-proda >=1.6.0,<1.7.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "bioconductor-summarizedexperiment >=1.22.0,<1.23.0",
+                    "bioconductor-vsn >=3.60.0,<3.61.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-dplyr >=1.0.5",
+                    "r-ggplot2 >=3.3.3",
+                    "r-hmisc >=4.5-0",
+                    "r-htmlwidgets >=1.5.3",
+                    "r-imputelcmd >=2.0",
+                    "r-openxlsx >=4.2.3",
+                    "r-plotly >=4.9.3",
+                    "r-rlang >=0.4.10",
+                    "r-rmarkdown >=2.7",
+                    "r-rtsne >=0.15",
+                    "r-shiny >=1.6.0",
+                    "r-shinydashboard >=0.7.1",
+                    "r-shinyhelper >=0.3.2",
+                    "r-shinyjs >=2.0.0",
+                    "r-tibble >=3.1.1",
+                    "r-tidyr >=1.1.3",
+                    "r-umap >=0.2.7.0",
+                    "r-upsetr >=1.4.0",
+                    "r-vegan >=2.5-7"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622799897537
+            },
+            "basename": "noarch/bioconductor-matrixqcvis-1.0.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-complexheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.8.0,<2.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-impute",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.48.0,<3.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.84.0,<1.85.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-proda",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.60.0,<3.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.3.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-hmisc",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.5-0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-htmlwidgets",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.5.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-imputelcmd",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-openxlsx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.2.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plotly",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rlang",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.4.10"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rmarkdown",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.15"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-shinydashboard",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.7.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-shinyhelper",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-shinyjs",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.1.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-umap",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-upsetr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-vegan",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.5-7"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-matrixqcvis/1.0.0/noarch/bioconductor-matrixqcvis-1.0.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-matrixqcvis/1.0.0/noarch/bioconductor-matrixqcvis-1.0.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9def60122a83b0f19d87fd44139ab9c6",
+            "ndownloads": 1961,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1858367,
+            "type": "conda",
+            "upload_time": "2021-06-04 09:55:39.591000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-complexheatmap >=2.10.0,<2.11.0",
+                    "bioconductor-impute >=1.68.0,<1.69.0",
+                    "bioconductor-limma >=3.50.0,<3.51.0",
+                    "bioconductor-pcamethods >=1.86.0,<1.87.0",
+                    "bioconductor-proda >=1.8.0,<1.9.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-vsn >=3.62.0,<3.63.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-dplyr >=1.0.5",
+                    "r-ggplot2 >=3.3.3",
+                    "r-hmisc >=4.5-0",
+                    "r-htmlwidgets >=1.5.3",
+                    "r-imputelcmd >=2.0",
+                    "r-openxlsx >=4.2.3",
+                    "r-plotly >=4.9.3",
+                    "r-rlang >=0.4.10",
+                    "r-rmarkdown >=2.7",
+                    "r-rtsne >=0.15",
+                    "r-shiny >=1.6.0",
+                    "r-shinydashboard >=0.7.1",
+                    "r-shinyhelper >=0.3.2",
+                    "r-shinyjs >=2.0.0",
+                    "r-tibble >=3.1.1",
+                    "r-tidyr >=1.1.3",
+                    "r-umap >=0.2.7.0",
+                    "r-upsetr >=1.4.0",
+                    "r-vegan >=2.5-7"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636058905320
+            },
+            "basename": "noarch/bioconductor-matrixqcvis-1.2.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-complexheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-impute",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.50.0,<3.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pcamethods",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.86.0,<1.87.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-proda",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.62.0,<3.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.3.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-hmisc",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.5-0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-htmlwidgets",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.5.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-imputelcmd",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-openxlsx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.2.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plotly",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rlang",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.4.10"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rmarkdown",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.7"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.15"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-shinydashboard",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.7.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-shinyhelper",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.3.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-shinyjs",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.1.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-umap",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-upsetr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-vegan",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.5-7"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-matrixqcvis/1.2.0/noarch/bioconductor-matrixqcvis-1.2.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-matrixqcvis/1.2.0/noarch/bioconductor-matrixqcvis-1.2.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8b7c28f08869ea7b3e9ff3f5e36d72c4",
+            "ndownloads": 1759,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1884454,
+            "type": "conda",
+            "upload_time": "2021-11-04 20:58:30.086000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-complexheatmap >=2.14.0,<2.15.0",
+                    "bioconductor-impute >=1.72.0,<1.73.0",
+                    "bioconductor-limma >=3.54.0,<3.55.0",
+                    "bioconductor-pcamethods >=1.90.0,<1.91.0",
+                    "bioconductor-proda >=1.12.0,<1.13.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "bioconductor-vsn >=3.66.0,<3.67.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-dplyr >=1.0.5",
+                    "r-ggplot2 >=3.3.3",
+                    "r-hmisc >=4.5-0",
+                    "r-htmlwidgets >=1.5.3",
+                    "r-imputelcmd >=2.0",
+                    "r-mass >=7.3-58.1",
+                    "r-plotly >=4.9.3",
+                    "r-rlang >=0.4.10",
+                    "r-rmarkdown >=2.7",
+                    "r-rtsne >=0.15",
+                    "r-shiny >=1.6.0",
+                    "r-shinydashboard >=0.7.1",
+                    "r-shinyhelper >=0.3.2",
+                    "r-shinyjs >=2.0.0",
+                    "r-tibble >=3.1.1",
+                    "r-tidyr >=1.1.3",
+                    "r-umap >=0.2.7.0",
+                    "r-upsetr >=1.4.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667659697382
+            },
+            "basename": "noarch/bioconductor-matrixqcvis-1.6.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-matrixqcvis/1.6.0/noarch/bioconductor-matrixqcvis-1.6.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-matrixqcvis/1.6.0/noarch/bioconductor-matrixqcvis-1.6.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b3872b485c088cd5ed1cfb77040fd0ad",
+            "ndownloads": 1542,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1880892,
+            "type": "conda",
+            "upload_time": "2022-11-05 14:53:30.083000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-complexheatmap >=2.16.0,<2.17.0",
+                    "bioconductor-experimenthub >=2.8.0,<2.9.0",
+                    "bioconductor-impute >=1.74.0,<1.75.0",
+                    "bioconductor-limma >=3.56.0,<3.57.0",
+                    "bioconductor-pcamethods >=1.92.0,<1.93.0",
+                    "bioconductor-proda >=1.14.0,<1.15.0",
+                    "bioconductor-summarizedexperiment >=1.30.0,<1.31.0",
+                    "bioconductor-vsn >=3.68.0,<3.69.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-dplyr >=1.0.5",
+                    "r-ggplot2 >=3.3.3",
+                    "r-hmisc >=4.5-0",
+                    "r-htmlwidgets >=1.5.3",
+                    "r-imputelcmd >=2.0",
+                    "r-mass >=7.3-58.1",
+                    "r-plotly >=4.9.3",
+                    "r-rlang >=0.4.10",
+                    "r-rmarkdown >=2.7",
+                    "r-rtsne >=0.15",
+                    "r-shiny >=1.6.0",
+                    "r-shinydashboard >=0.7.1",
+                    "r-shinyhelper >=0.3.2",
+                    "r-shinyjs >=2.0.0",
+                    "r-tibble >=3.1.1",
+                    "r-tidyr >=1.1.3",
+                    "r-umap >=0.2.7.0",
+                    "r-upsetr >=1.4.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689269763722
+            },
+            "basename": "noarch/bioconductor-matrixqcvis-1.8.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-matrixqcvis/1.8.0/noarch/bioconductor-matrixqcvis-1.8.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-matrixqcvis/1.8.0/noarch/bioconductor-matrixqcvis-1.8.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c66bbb455b131e9e798ab899af921db9",
+            "ndownloads": 973,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4247527,
+            "type": "conda",
+            "upload_time": "2023-07-13 17:41:37.668000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-complexheatmap >=2.18.0,<2.19.0",
+                    "bioconductor-experimenthub >=2.10.0,<2.11.0",
+                    "bioconductor-impute >=1.76.0,<1.77.0",
+                    "bioconductor-limma >=3.58.0,<3.59.0",
+                    "bioconductor-pcamethods >=1.94.0,<1.95.0",
+                    "bioconductor-proda >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0",
+                    "bioconductor-vsn >=3.70.0,<3.71.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-dplyr >=1.0.5",
+                    "r-ggplot2 >=3.3.3",
+                    "r-hmisc >=4.5-0",
+                    "r-htmlwidgets >=1.5.3",
+                    "r-imputelcmd >=2.0",
+                    "r-mass >=7.3-58.1",
+                    "r-plotly >=4.9.3",
+                    "r-rlang >=0.4.10",
+                    "r-rmarkdown >=2.7",
+                    "r-rtsne >=0.15",
+                    "r-shiny >=1.6.0",
+                    "r-shinydashboard >=0.7.1",
+                    "r-shinyhelper >=0.3.2",
+                    "r-shinyjs >=2.0.0",
+                    "r-tibble >=3.1.1",
+                    "r-tidyr >=1.1.3",
+                    "r-umap >=0.2.7.0",
+                    "r-upsetr >=1.4.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1702347037863
+            },
+            "basename": "noarch/bioconductor-matrixqcvis-1.10.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-matrixqcvis/1.10.0/noarch/bioconductor-matrixqcvis-1.10.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-matrixqcvis/1.10.0/noarch/bioconductor-matrixqcvis-1.10.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c400722cee8984385dc1c266bc595b57",
+            "ndownloads": 993,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4483263,
+            "type": "conda",
+            "upload_time": "2023-12-12 02:13:56.106000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-complexheatmap >=2.22.0,<2.23.0",
+                    "bioconductor-experimenthub >=2.14.0,<2.15.0",
+                    "bioconductor-impute >=1.80.0,<1.81.0",
+                    "bioconductor-limma >=3.62.0,<3.63.0",
+                    "bioconductor-pcamethods >=1.98.0,<1.99.0",
+                    "bioconductor-proda >=1.20.0,<1.21.0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0",
+                    "bioconductor-sva >=3.54.0,<3.55.0",
+                    "bioconductor-vsn >=3.74.0,<3.75.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-dplyr >=1.0.5",
+                    "r-dt >=0.33",
+                    "r-ggplot2 >=3.3.3",
+                    "r-hmisc >=4.5-0",
+                    "r-htmlwidgets >=1.5.3",
+                    "r-imputelcmd >=2.0",
+                    "r-mass >=7.3-58.1",
+                    "r-plotly >=4.9.3",
+                    "r-rlang >=0.4.10",
+                    "r-rmarkdown >=2.7",
+                    "r-rtsne >=0.15",
+                    "r-shiny >=1.6.0",
+                    "r-shinydashboard >=0.7.1",
+                    "r-shinyhelper >=0.3.2",
+                    "r-shinyjs >=2.0.0",
+                    "r-tibble >=3.1.1",
+                    "r-tidyr >=1.1.3",
+                    "r-umap >=0.2.7.0",
+                    "r-upsetr >=1.4.0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1736012018242
+            },
+            "basename": "noarch/bioconductor-matrixqcvis-1.14.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-matrixqcvis/1.14.0/noarch/bioconductor-matrixqcvis-1.14.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-matrixqcvis/1.14.0/noarch/bioconductor-matrixqcvis-1.14.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0355a5e33665f352267fed985ecc46a7",
+            "ndownloads": 229,
+            "owner": "bioconda",
+            "sha256": "550e45bb7435456a5c31f19f8e919aac485a1f3fefb6393ea9924a9e4b63ceca",
+            "size": 4867643,
+            "type": "conda",
+            "upload_time": "2025-01-04 17:36:26.896000+00:00",
+            "version": "1.14.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-matrixqcvis",
+    "home": "https://bioconductor.org/packages/3.13/bioc/html/MatrixQCvis.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-matrixqcvis",
+    "id": "60b9f899a7b1f30b0f64e419",
+    "latest_version": "1.14.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:28.771000+00:00",
+    "name": "bioconductor-matrixqcvis",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.14.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-matrixqcvis/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-matrixqcvis/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-matrixqcvis/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-matrixqcvis/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-matrixqcvis/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-matrixqcvis/1.14.0",
+            "version": "1.14.0"
+        }
+    ],
+    "revision": 13,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Shiny-based interactive data-quality exploration for omics data",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-matrixqcvis",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.6.0",
+        "1.8.0",
+        "1.10.0",
+        "1.14.0"
+    ],
+    "watchers": 1
+}

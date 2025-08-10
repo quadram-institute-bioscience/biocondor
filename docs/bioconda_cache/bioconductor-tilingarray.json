@@ -1,0 +1,2871 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r40hd029910_1",
+        "r44h3df3fcb_0",
+        "r41haba8685_1",
+        "r41h5c21468_1",
+        "r36h516909a_0",
+        "r36h01d97ff_1",
+        "r40h68a2ddb_1",
+        "r44h2f393c0_0",
+        "r42h4c50009_1",
+        "r43ha9d7317_0",
+        "r40h037d062_0",
+        "r42ha9d7317_1",
+        "r40h8909d69_0",
+        "r41h68a2ddb_0",
+        "r351h14c3975_0",
+        "r42hc0cfd56_0",
+        "r43h4c50009_0",
+        "r41h3be46a4_2",
+        "r36h516909a_1",
+        "r41hc0cfd56_2",
+        "r351h1de35cc_0",
+        "r41hd029910_0",
+        "r36h01d97ff_0",
+        "r42h3be46a4_0"
+    ],
+    "conda_platforms": [
+        "osx-64",
+        "linux-64"
+    ],
+    "created_at": "2018-12-13 01:36:19.688000+00:00",
+    "description": "The package provides functionality that can be useful for the analysis of high-density tiling microarray data (such as from Affymetrix genechips) for measuring transcript abundance and architecture. The main functionalities of the package are: 1. the class 'segmentation' for representing partitionings of a linear series of data; 2. the function 'segment' for fitting piecewise constant models using a dynamic programming algorithm that is both fast and exact; 3. the function 'confint' for calculating confidence intervals using the strucchange package; 4. the function 'plotAlongChrom' for generating pretty plots; 5. the function 'normalizeByReference' for probe-sequence dependent response adjustment from a (set of) reference hybridizations.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h1de35cc_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.60.0,<1.61.0",
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-genefilter >=1.64.0,<1.65.0",
+                    "bioconductor-vsn >=3.50.0,<3.51.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": true,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1544664903038
+            },
+            "basename": "osx-64/bioconductor-tilingarray-1.60.0-r351h1de35cc_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.50.0,<3.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-pixmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-strucchange",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.60.0/osx-64/bioconductor-tilingarray-1.60.0-r351h1de35cc_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.60.0/osx-64/bioconductor-tilingarray-1.60.0-r351h1de35cc_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "adf6ff009891dd930c99b24d307f6a13",
+            "ndownloads": 4410,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2868185,
+            "type": "conda",
+            "upload_time": "2018-12-13 01:36:20.703000+00:00",
+            "version": "1.60.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h14c3975_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.60.0,<1.61.0",
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-genefilter >=1.64.0,<1.65.0",
+                    "bioconductor-vsn >=3.50.0,<3.51.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1546721968753
+            },
+            "basename": "linux-64/bioconductor-tilingarray-1.60.0-r351h14c3975_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.50.0,<3.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-pixmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-strucchange",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.60.0/linux-64/bioconductor-tilingarray-1.60.0-r351h14c3975_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.60.0/linux-64/bioconductor-tilingarray-1.60.0-r351h14c3975_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "315c820a7603c4784b3c1bb20f6c1342",
+            "ndownloads": 510,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2875143,
+            "type": "conda",
+            "upload_time": "2019-01-05 21:03:24.240000+00:00",
+            "version": "1.60.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-affy >=1.62.0,<1.63.0",
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-genefilter >=1.66.0,<1.67.0",
+                    "bioconductor-vsn >=3.52.0,<3.53.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": true,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1563873131104
+            },
+            "basename": "osx-64/bioconductor-tilingarray-1.62.0-r36h01d97ff_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.52.0,<3.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-pixmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-strucchange",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.62.0/osx-64/bioconductor-tilingarray-1.62.0-r36h01d97ff_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.62.0/osx-64/bioconductor-tilingarray-1.62.0-r36h01d97ff_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "68ec2eac21fd2f7cba6eed1f8246c962",
+            "ndownloads": 4050,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3104335,
+            "type": "conda",
+            "upload_time": "2019-07-23 09:13:16.139000+00:00",
+            "version": "1.62.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-affy >=1.62.0,<1.63.0",
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-genefilter >=1.66.0,<1.67.0",
+                    "bioconductor-vsn >=3.52.0,<3.53.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1564523951197
+            },
+            "basename": "linux-64/bioconductor-tilingarray-1.62.0-r36h516909a_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.52.0,<3.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-pixmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-strucchange",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.62.0/linux-64/bioconductor-tilingarray-1.62.0-r36h516909a_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.62.0/linux-64/bioconductor-tilingarray-1.62.0-r36h516909a_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2b05ec42bb338b80d2b33b36118a23de",
+            "ndownloads": 322,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3037512,
+            "type": "conda",
+            "upload_time": "2019-07-30 22:04:50.540000+00:00",
+            "version": "1.62.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.64.0,<1.65.0",
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-genefilter >=1.68.0,<1.69.0",
+                    "bioconductor-vsn >=3.54.0,<3.55.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": true,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572638822217
+            },
+            "basename": "osx-64/bioconductor-tilingarray-1.64.0-r36h01d97ff_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.54.0,<3.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-pixmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-strucchange",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.64.0/osx-64/bioconductor-tilingarray-1.64.0-r36h01d97ff_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.64.0/osx-64/bioconductor-tilingarray-1.64.0-r36h01d97ff_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1fc18a602827472110271ade152f8953",
+            "ndownloads": 3765,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3103684,
+            "type": "conda",
+            "upload_time": "2019-11-01 20:08:04.113000+00:00",
+            "version": "1.64.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.64.0,<1.65.0",
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-genefilter >=1.68.0,<1.69.0",
+                    "bioconductor-vsn >=3.54.0,<3.55.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572817380592
+            },
+            "basename": "linux-64/bioconductor-tilingarray-1.64.0-r36h516909a_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.54.0,<3.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-pixmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-strucchange",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.64.0/linux-64/bioconductor-tilingarray-1.64.0-r36h516909a_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.64.0/linux-64/bioconductor-tilingarray-1.64.0-r36h516909a_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5881acf867adbdbf38b12fa85ad9ef0b",
+            "ndownloads": 306,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2997972,
+            "type": "conda",
+            "upload_time": "2019-11-03 21:48:22.984000+00:00",
+            "version": "1.64.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h8909d69_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.66.0,<1.67.0",
+                    "bioconductor-biobase >=2.48.0,<2.49.0",
+                    "bioconductor-genefilter >=1.70.0,<1.71.0",
+                    "bioconductor-vsn >=3.56.0,<3.57.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": true,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1589089994212
+            },
+            "basename": "osx-64/bioconductor-tilingarray-1.66.0-r40h8909d69_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70.0,<1.71.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.56.0,<3.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-pixmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-strucchange",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.66.0/osx-64/bioconductor-tilingarray-1.66.0-r40h8909d69_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.66.0/osx-64/bioconductor-tilingarray-1.66.0-r40h8909d69_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e44f7c7894384e806e42d22557bce6e3",
+            "ndownloads": 3340,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3688414,
+            "type": "conda",
+            "upload_time": "2020-05-10 05:54:48.359000+00:00",
+            "version": "1.66.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h037d062_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.66.0,<1.67.0",
+                    "bioconductor-biobase >=2.48.0,<2.49.0",
+                    "bioconductor-genefilter >=1.70.0,<1.71.0",
+                    "bioconductor-vsn >=3.56.0,<3.57.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.3.0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1589299062928
+            },
+            "basename": "linux-64/bioconductor-tilingarray-1.66.0-r40h037d062_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70.0,<1.71.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.56.0,<3.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-pixmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-strucchange",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.66.0/linux-64/bioconductor-tilingarray-1.66.0-r40h037d062_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.66.0/linux-64/bioconductor-tilingarray-1.66.0-r40h037d062_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2b533a577e8ada1262182327ba21fbb9",
+            "ndownloads": 391,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3409418,
+            "type": "conda",
+            "upload_time": "2020-05-12 16:03:42.913000+00:00",
+            "version": "1.66.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h8909d69_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.68.0,<1.69.0",
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-genefilter >=1.72.0,<1.73.0",
+                    "bioconductor-vsn >=3.58.0,<3.59.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": true,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1604057954891
+            },
+            "basename": "osx-64/bioconductor-tilingarray-1.68.0-r40h8909d69_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.58.0,<3.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-pixmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-strucchange",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.68.0/osx-64/bioconductor-tilingarray-1.68.0-r40h8909d69_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.68.0/osx-64/bioconductor-tilingarray-1.68.0-r40h8909d69_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "af2234c2842fc771afb36bb8f8dca071",
+            "ndownloads": 2999,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3693915,
+            "type": "conda",
+            "upload_time": "2020-10-30 11:40:31.081000+00:00",
+            "version": "1.68.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h037d062_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.68.0,<1.69.0",
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-genefilter >=1.72.0,<1.73.0",
+                    "bioconductor-vsn >=3.58.0,<3.59.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1604161323494
+            },
+            "basename": "linux-64/bioconductor-tilingarray-1.68.0-r40h037d062_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.58.0,<3.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-pixmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-strucchange",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.68.0/linux-64/bioconductor-tilingarray-1.68.0-r40h037d062_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.68.0/linux-64/bioconductor-tilingarray-1.68.0-r40h037d062_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "463e0a15985f0c2897970bfa4dabe0bd",
+            "ndownloads": 270,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3573904,
+            "type": "conda",
+            "upload_time": "2020-10-31 16:29:33.731000+00:00",
+            "version": "1.68.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h68a2ddb_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-affy >=1.68.0,<1.69.0",
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-genefilter >=1.72.0,<1.73.0",
+                    "bioconductor-vsn >=3.58.0,<3.59.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": true,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1616974240800
+            },
+            "basename": "osx-64/bioconductor-tilingarray-1.68.0-r40h68a2ddb_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.58.0,<3.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-pixmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-strucchange",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.68.0/osx-64/bioconductor-tilingarray-1.68.0-r40h68a2ddb_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.68.0/osx-64/bioconductor-tilingarray-1.68.0-r40h68a2ddb_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c707ee6ecd9e55d8dc16fef232897ea2",
+            "ndownloads": 72,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3467944,
+            "type": "conda",
+            "upload_time": "2021-03-28 23:32:05.062000+00:00",
+            "version": "1.68.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40hd029910_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-affy >=1.68.0,<1.69.0",
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-genefilter >=1.72.0,<1.73.0",
+                    "bioconductor-vsn >=3.58.0,<3.59.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1617133786541
+            },
+            "basename": "linux-64/bioconductor-tilingarray-1.68.0-r40hd029910_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.58.0,<3.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-pixmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-strucchange",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.68.0/linux-64/bioconductor-tilingarray-1.68.0-r40hd029910_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.68.0/linux-64/bioconductor-tilingarray-1.68.0-r40hd029910_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1e6ac308aa086cc52cea86918c804e85",
+            "ndownloads": 249,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3465419,
+            "type": "conda",
+            "upload_time": "2021-03-30 19:56:29.285000+00:00",
+            "version": "1.68.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h68a2ddb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.70.0,<1.71.0",
+                    "bioconductor-biobase >=2.52.0,<2.53.0",
+                    "bioconductor-genefilter >=1.74.0,<1.75.0",
+                    "bioconductor-vsn >=3.60.0,<3.61.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": true,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1622546410856
+            },
+            "basename": "osx-64/bioconductor-tilingarray-1.70.0-r41h68a2ddb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70.0,<1.71.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.74.0,<1.75.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.60.0,<3.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-pixmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-strucchange",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.70.0/osx-64/bioconductor-tilingarray-1.70.0-r41h68a2ddb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.70.0/osx-64/bioconductor-tilingarray-1.70.0-r41h68a2ddb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c2dc9663b2a6c27a8c68414b6160bf1e",
+            "ndownloads": 2656,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3703723,
+            "type": "conda",
+            "upload_time": "2021-06-01 11:21:44.290000+00:00",
+            "version": "1.70.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hd029910_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.70.0,<1.71.0",
+                    "bioconductor-biobase >=2.52.0,<2.53.0",
+                    "bioconductor-genefilter >=1.74.0,<1.75.0",
+                    "bioconductor-vsn >=3.60.0,<3.61.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1622724921739
+            },
+            "basename": "linux-64/bioconductor-tilingarray-1.70.0-r41hd029910_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70.0,<1.71.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.74.0,<1.75.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.60.0,<3.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-pixmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-strucchange",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.70.0/linux-64/bioconductor-tilingarray-1.70.0-r41hd029910_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.70.0/linux-64/bioconductor-tilingarray-1.70.0-r41hd029910_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f93295dafc1d49bf4ec4e4b8acebc1ef",
+            "ndownloads": 276,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3516072,
+            "type": "conda",
+            "upload_time": "2021-06-03 13:02:27.301000+00:00",
+            "version": "1.70.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h68a2ddb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.72.0,<1.73.0",
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-genefilter >=1.76.0,<1.77.0",
+                    "bioconductor-vsn >=3.62.0,<3.63.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": true,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1636027648266
+            },
+            "basename": "osx-64/bioconductor-tilingarray-1.72.0-r41h68a2ddb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.76.0,<1.77.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.62.0,<3.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-pixmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-strucchange",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.72.0/osx-64/bioconductor-tilingarray-1.72.0-r41h68a2ddb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.72.0/osx-64/bioconductor-tilingarray-1.72.0-r41h68a2ddb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "fc7dd8cc407706e5272c73053c4ea036",
+            "ndownloads": 268,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3704517,
+            "type": "conda",
+            "upload_time": "2021-11-04 12:09:00.918000+00:00",
+            "version": "1.72.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hd029910_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.72.0,<1.73.0",
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-genefilter >=1.76.0,<1.77.0",
+                    "bioconductor-vsn >=3.62.0,<3.63.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1636119237400
+            },
+            "basename": "linux-64/bioconductor-tilingarray-1.72.0-r41hd029910_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.76.0,<1.77.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.62.0,<3.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-pixmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-strucchange",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.72.0/linux-64/bioconductor-tilingarray-1.72.0-r41hd029910_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.72.0/linux-64/bioconductor-tilingarray-1.72.0-r41hd029910_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d748b3d535b9fb89a145176b21699b28",
+            "ndownloads": 232,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3620965,
+            "type": "conda",
+            "upload_time": "2021-11-05 13:42:14.238000+00:00",
+            "version": "1.72.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h5c21468_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-affy >=1.72.0,<1.73.0",
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-genefilter >=1.76.0,<1.77.0",
+                    "bioconductor-vsn >=3.62.0,<3.63.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1645715378021
+            },
+            "basename": "linux-64/bioconductor-tilingarray-1.72.0-r41h5c21468_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.76.0,<1.77.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.62.0,<3.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-pixmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-strucchange",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.72.0/linux-64/bioconductor-tilingarray-1.72.0-r41h5c21468_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.72.0/linux-64/bioconductor-tilingarray-1.72.0-r41h5c21468_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e4cb61af989f118cb55a17d33a047257",
+            "ndownloads": 212,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3708465,
+            "type": "conda",
+            "upload_time": "2022-02-24 15:18:42.212000+00:00",
+            "version": "1.72.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41haba8685_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-affy >=1.72.0,<1.73.0",
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-genefilter >=1.76.0,<1.77.0",
+                    "bioconductor-vsn >=3.62.0,<3.63.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1645928904204
+            },
+            "basename": "osx-64/bioconductor-tilingarray-1.72.0-r41haba8685_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-affy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genefilter",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.76.0,<1.77.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-vsn",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.62.0,<3.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-pixmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-strucchange",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.72.0/osx-64/bioconductor-tilingarray-1.72.0-r41haba8685_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.72.0/osx-64/bioconductor-tilingarray-1.72.0-r41haba8685_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9fe9bae54afa751dcb2659b3da6b7771",
+            "ndownloads": 2115,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3707640,
+            "type": "conda",
+            "upload_time": "2022-02-27 02:30:16.683000+00:00",
+            "version": "1.72.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hc0cfd56_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-affy >=1.72.0,<1.73.0",
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-genefilter >=1.76.0,<1.77.0",
+                    "bioconductor-vsn >=3.62.0,<3.63.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1663432495171
+            },
+            "basename": "linux-64/bioconductor-tilingarray-1.72.0-r41hc0cfd56_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.72.0/linux-64/bioconductor-tilingarray-1.72.0-r41hc0cfd56_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.72.0/linux-64/bioconductor-tilingarray-1.72.0-r41hc0cfd56_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2f50cc0f9bba3f7a22191b9e7be66222",
+            "ndownloads": 220,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3711350,
+            "type": "conda",
+            "upload_time": "2022-09-17 16:39:56.935000+00:00",
+            "version": "1.72.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h3be46a4_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-affy >=1.72.0,<1.73.0",
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-genefilter >=1.76.0,<1.77.0",
+                    "bioconductor-vsn >=3.62.0,<3.63.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1663948977449
+            },
+            "basename": "osx-64/bioconductor-tilingarray-1.72.0-r41h3be46a4_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.72.0/osx-64/bioconductor-tilingarray-1.72.0-r41h3be46a4_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.72.0/osx-64/bioconductor-tilingarray-1.72.0-r41h3be46a4_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f36f7aa9119dce96703937630260654e",
+            "ndownloads": 70,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3364519,
+            "type": "conda",
+            "upload_time": "2022-09-23 16:04:25.665000+00:00",
+            "version": "1.72.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42h3be46a4_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.76.0,<1.77.0",
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-genefilter >=1.80.0,<1.81.0",
+                    "bioconductor-vsn >=3.66.0,<3.67.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1667919305287
+            },
+            "basename": "osx-64/bioconductor-tilingarray-1.76.0-r42h3be46a4_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.76.0/osx-64/bioconductor-tilingarray-1.76.0-r42h3be46a4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.76.0/osx-64/bioconductor-tilingarray-1.76.0-r42h3be46a4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0fd2818193edcd4651faac4412e6136d",
+            "ndownloads": 451,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3316575,
+            "type": "conda",
+            "upload_time": "2022-11-08 14:56:50.347000+00:00",
+            "version": "1.76.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc0cfd56_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.76.0,<1.77.0",
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-genefilter >=1.80.0,<1.81.0",
+                    "bioconductor-vsn >=3.66.0,<3.67.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1667992128580
+            },
+            "basename": "linux-64/bioconductor-tilingarray-1.76.0-r42hc0cfd56_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.76.0/linux-64/bioconductor-tilingarray-1.76.0-r42hc0cfd56_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.76.0/linux-64/bioconductor-tilingarray-1.76.0-r42hc0cfd56_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "46915e30c6f0e646b2f5d75e3ceb6f3c",
+            "ndownloads": 186,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3356002,
+            "type": "conda",
+            "upload_time": "2022-11-09 11:12:59.590000+00:00",
+            "version": "1.76.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42ha9d7317_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-affy >=1.76.0,<1.77.0",
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-genefilter >=1.80.0,<1.81.0",
+                    "bioconductor-vsn >=3.66.0,<3.67.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1685495891853
+            },
+            "basename": "linux-64/bioconductor-tilingarray-1.76.0-r42ha9d7317_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.76.0/linux-64/bioconductor-tilingarray-1.76.0-r42ha9d7317_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.76.0/linux-64/bioconductor-tilingarray-1.76.0-r42ha9d7317_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0fa5b89d6777a6b19c00514cd12323fa",
+            "ndownloads": 159,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3305201,
+            "type": "conda",
+            "upload_time": "2023-05-31 01:22:10.817000+00:00",
+            "version": "1.76.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42h4c50009_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-affy >=1.76.0,<1.77.0",
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-genefilter >=1.80.0,<1.81.0",
+                    "bioconductor-vsn >=3.66.0,<3.67.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1685788910496
+            },
+            "basename": "osx-64/bioconductor-tilingarray-1.76.0-r42h4c50009_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.76.0/osx-64/bioconductor-tilingarray-1.76.0-r42h4c50009_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.76.0/osx-64/bioconductor-tilingarray-1.76.0-r42h4c50009_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7107817d686c63b8215bd871957c63ef",
+            "ndownloads": 1308,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3241123,
+            "type": "conda",
+            "upload_time": "2023-06-03 10:43:17.269000+00:00",
+            "version": "1.76.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43h4c50009_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.78.0,<1.79.0",
+                    "bioconductor-biobase >=2.60.0,<2.61.0",
+                    "bioconductor-genefilter >=1.82.0,<1.83.0",
+                    "bioconductor-vsn >=3.68.0,<3.69.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1689260768141
+            },
+            "basename": "osx-64/bioconductor-tilingarray-1.78.0-r43h4c50009_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.78.0/osx-64/bioconductor-tilingarray-1.78.0-r43h4c50009_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.78.0/osx-64/bioconductor-tilingarray-1.78.0-r43h4c50009_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9e098775befe160c368b82488a5d6e90",
+            "ndownloads": 1209,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3451643,
+            "type": "conda",
+            "upload_time": "2023-07-13 15:07:40.545000+00:00",
+            "version": "1.78.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43ha9d7317_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.78.0,<1.79.0",
+                    "bioconductor-biobase >=2.60.0,<2.61.0",
+                    "bioconductor-genefilter >=1.82.0,<1.83.0",
+                    "bioconductor-vsn >=3.68.0,<3.69.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1689380633209
+            },
+            "basename": "linux-64/bioconductor-tilingarray-1.78.0-r43ha9d7317_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.78.0/linux-64/bioconductor-tilingarray-1.78.0-r43ha9d7317_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.78.0/linux-64/bioconductor-tilingarray-1.78.0-r43ha9d7317_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7c7a2e22c42f3b4a79e7b379a283d8bd",
+            "ndownloads": 153,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3505127,
+            "type": "conda",
+            "upload_time": "2023-07-15 00:27:49.261000+00:00",
+            "version": "1.78.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43h4c50009_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.80.0,<1.81.0",
+                    "bioconductor-affy >=1.80.0,<1.81.0a0",
+                    "bioconductor-biobase >=2.62.0,<2.63.0",
+                    "bioconductor-biobase >=2.62.0,<2.63.0a0",
+                    "bioconductor-genefilter >=1.84.0,<1.85.0",
+                    "bioconductor-genefilter >=1.84.0,<1.85.0a0",
+                    "bioconductor-vsn >=3.70.0,<3.71.0",
+                    "bioconductor-vsn >=3.70.0,<3.71.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1701910961883
+            },
+            "basename": "osx-64/bioconductor-tilingarray-1.80.0-r43h4c50009_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.80.0/osx-64/bioconductor-tilingarray-1.80.0-r43h4c50009_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.80.0/osx-64/bioconductor-tilingarray-1.80.0-r43h4c50009_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d051c9f5fa7d7d0204cdb03eafa3340d",
+            "ndownloads": 933,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3440407,
+            "type": "conda",
+            "upload_time": "2023-12-07 01:04:17.769000+00:00",
+            "version": "1.80.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43ha9d7317_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.80.0,<1.81.0",
+                    "bioconductor-affy >=1.80.0,<1.81.0a0",
+                    "bioconductor-biobase >=2.62.0,<2.63.0",
+                    "bioconductor-biobase >=2.62.0,<2.63.0a0",
+                    "bioconductor-genefilter >=1.84.0,<1.85.0",
+                    "bioconductor-genefilter >=1.84.0,<1.85.0a0",
+                    "bioconductor-vsn >=3.70.0,<3.71.0",
+                    "bioconductor-vsn >=3.70.0,<3.71.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1703221419947
+            },
+            "basename": "linux-64/bioconductor-tilingarray-1.80.0-r43ha9d7317_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.80.0/linux-64/bioconductor-tilingarray-1.80.0-r43ha9d7317_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.80.0/linux-64/bioconductor-tilingarray-1.80.0-r43ha9d7317_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "03c8771ebd7724ef5440d645b36e0a61",
+            "ndownloads": 145,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3489471,
+            "type": "conda",
+            "upload_time": "2023-12-22 05:06:31.922000+00:00",
+            "version": "1.80.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h2f393c0_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.84.0,<1.85.0",
+                    "bioconductor-affy >=1.84.0,<1.85.0a0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0a0",
+                    "bioconductor-genefilter >=1.88.0,<1.89.0",
+                    "bioconductor-genefilter >=1.88.0,<1.89.0a0",
+                    "bioconductor-vsn >=3.74.0,<3.75.0",
+                    "bioconductor-vsn >=3.74.0,<3.75.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1735060965351
+            },
+            "basename": "osx-64/bioconductor-tilingarray-1.84.0-r44h2f393c0_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.84.0/osx-64/bioconductor-tilingarray-1.84.0-r44h2f393c0_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.84.0/osx-64/bioconductor-tilingarray-1.84.0-r44h2f393c0_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "92ae33c4540c4e4331cfaa0ce8b05278",
+            "ndownloads": 209,
+            "owner": "bioconda",
+            "sha256": "eebec939621be9ac7e9f4c8d74b7b8a7d48dff02435d0a3fd8dac07598a4c358",
+            "size": 3963078,
+            "type": "conda",
+            "upload_time": "2024-12-24 17:24:22.889000+00:00",
+            "version": "1.84.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h3df3fcb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-affy >=1.84.0,<1.85.0",
+                    "bioconductor-affy >=1.84.0,<1.85.0a0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0a0",
+                    "bioconductor-genefilter >=1.88.0,<1.89.0",
+                    "bioconductor-genefilter >=1.88.0,<1.89.0a0",
+                    "bioconductor-vsn >=3.74.0,<3.75.0",
+                    "bioconductor-vsn >=3.74.0,<3.75.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-pixmap",
+                    "r-rcolorbrewer",
+                    "r-strucchange"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1735309597848
+            },
+            "basename": "linux-64/bioconductor-tilingarray-1.84.0-r44h3df3fcb_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tilingarray/1.84.0/linux-64/bioconductor-tilingarray-1.84.0-r44h3df3fcb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tilingarray/1.84.0/linux-64/bioconductor-tilingarray-1.84.0-r44h3df3fcb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b08503c963d92834b0752c88cc182b7d",
+            "ndownloads": 134,
+            "owner": "bioconda",
+            "sha256": "5d5ccfa2dc36a771faa3f6e7fcd5277fc98d43b62d2a42d787fd1ecb524aa6a0",
+            "size": 3968821,
+            "type": "conda",
+            "upload_time": "2024-12-27 14:28:45.447000+00:00",
+            "version": "1.84.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-tilingarray",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/tilingArray.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-tilingarray",
+    "id": "5c11b793036b8613585d23a4",
+    "latest_version": "1.84.0",
+    "license": "Artistic-2.0",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:04.494000+00:00",
+    "name": "bioconductor-tilingarray",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.84.0",
+        "osx-64": "1.84.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-tilingarray/1.60.0",
+            "version": "1.60.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-tilingarray/1.62.0",
+            "version": "1.62.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-tilingarray/1.64.0",
+            "version": "1.64.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-tilingarray/1.66.0",
+            "version": "1.66.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-tilingarray/1.68.0",
+            "version": "1.68.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-tilingarray/1.70.0",
+            "version": "1.70.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-tilingarray/1.72.0",
+            "version": "1.72.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-tilingarray/1.76.0",
+            "version": "1.76.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-tilingarray/1.78.0",
+            "version": "1.78.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-tilingarray/1.80.0",
+            "version": "1.80.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-tilingarray/1.84.0",
+            "version": "1.84.0"
+        }
+    ],
+    "revision": 24,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Transcript mapping with high-density oligonucleotide tiling arrays",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-tilingarray",
+    "versions": [
+        "1.60.0",
+        "1.62.0",
+        "1.64.0",
+        "1.66.0",
+        "1.68.0",
+        "1.70.0",
+        "1.72.0",
+        "1.76.0",
+        "1.78.0",
+        "1.80.0",
+        "1.84.0"
+    ],
+    "watchers": 1
+}

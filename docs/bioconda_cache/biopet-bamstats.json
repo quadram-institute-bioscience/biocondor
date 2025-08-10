@@ -1,0 +1,281 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "0",
+        "hdfd78af_1"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2018-09-10 19:36:28.958000+00:00",
+    "description": "BamStats is a package that contains tools\nto generate stats from a BAM file,\nmerge those stats for multiple samples,\nand validate the generated stats files.\n\n\n\nGenerate reports clipping stats, flag stats, insert size and mapping quality on a BAM file. It outputs\na JSON file, but can optionally also output in TSV format.\n\nThe output of the JSON file is organized in a sample - library - readgroup tree structure.\nIf readgroups in the BAM file are not annotated with sample (`SM`) and library (`LB`) tags\nan error will be thrown.\nThis can be fixed by using `samtools addreplacerg` or `picard AddOrReplaceReadGroups`.\n\n\n\nThis module will merge bamstats files together and keep the sample/library/readgroup structure.\nValues for the same readgroups will be added.\nIt will also validate the resulting file.\n\n\n\nValidates a BamStats file.\nIf aggregation values can not be regenerated the file is considered corrupt.\nThis should only happen when the file has been manually edited.\n\nFor documentation and manuals visit our github.io page: https://biopet.github.io/bamstats\n",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "openjdk >=8,<9",
+                    "python"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1536607984208
+            },
+            "basename": "noarch/biopet-bamstats-1.0-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "openjdk",
+                        "specs": [
+                            [
+                                ">=",
+                                "8,<9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biopet-bamstats/1.0/noarch/biopet-bamstats-1.0-0.tar.bz2",
+            "full_name": "bioconda/biopet-bamstats/1.0/noarch/biopet-bamstats-1.0-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "3b04d8dccdfea62d207fa59bbead5670",
+            "ndownloads": 451,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 31286378,
+            "type": "conda",
+            "upload_time": "2018-09-10 19:36:30.282000+00:00",
+            "version": "1.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "openjdk >=8,<9",
+                    "python"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1540479771675
+            },
+            "basename": "noarch/biopet-bamstats-1.0.1-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "openjdk",
+                        "specs": [
+                            [
+                                ">=",
+                                "8,<9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biopet-bamstats/1.0.1/noarch/biopet-bamstats-1.0.1-0.tar.bz2",
+            "full_name": "bioconda/biopet-bamstats/1.0.1/noarch/biopet-bamstats-1.0.1-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "10d8780b37ee7af1b36c5906fa0577b7",
+            "ndownloads": 796,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 31289808,
+            "type": "conda",
+            "upload_time": "2018-10-25 15:06:07.709000+00:00",
+            "version": "1.0.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "openjdk >=8,<9",
+                    "python"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1616604177351
+            },
+            "basename": "noarch/biopet-bamstats-1.0.1-hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "openjdk",
+                        "specs": [
+                            [
+                                ">=",
+                                "8,<9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biopet-bamstats/1.0.1/noarch/biopet-bamstats-1.0.1-hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/biopet-bamstats/1.0.1/noarch/biopet-bamstats-1.0.1-hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "daf64291fcb4220b1baf81c7a667ef68",
+            "ndownloads": 2689,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 31289457,
+            "type": "conda",
+            "upload_time": "2021-03-24 16:47:02.427000+00:00",
+            "version": "1.0.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "openjdk >=8,<9",
+                    "python"
+                ],
+                "has_prefix": false,
+                "license": "MIT",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1616604580270
+            },
+            "basename": "noarch/biopet-bamstats-1.0-hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "openjdk",
+                        "specs": [
+                            [
+                                ">=",
+                                "8,<9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/biopet-bamstats/1.0/noarch/biopet-bamstats-1.0-hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/biopet-bamstats/1.0/noarch/biopet-bamstats-1.0-hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "08fe70a3517a03e598380c1be47d3f41",
+            "ndownloads": 2635,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 31287039,
+            "type": "conda",
+            "upload_time": "2021-03-24 16:53:47.942000+00:00",
+            "version": "1.0"
+        }
+    ],
+    "full_name": "bioconda/biopet-bamstats",
+    "home": "https://github.com/biopet/bamstats",
+    "html_url": "http://anaconda.org/bioconda/biopet-bamstats",
+    "id": "5b96c7bc8a41bc135ca2fddd",
+    "latest_version": "1.0.1",
+    "license": "MIT",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:02.035000+00:00",
+    "name": "biopet-bamstats",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.0.1"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/biopet-bamstats/1.0",
+            "version": "1.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/biopet-bamstats/1.0.1",
+            "version": "1.0.1"
+        }
+    ],
+    "revision": 4,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "BamStats is a package that contains tools to generate stats from a BAM file, merge those stats for multiple samples, and validate the generated stats files.",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/biopet-bamstats",
+    "versions": [
+        "1.0",
+        "1.0.1"
+    ],
+    "watchers": 1
+}

@@ -1,0 +1,957 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r36_0",
+        "r40_0",
+        "r41hdfd78af_0",
+        "r42hdfd78af_0",
+        "r40hdfd78af_1"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-11-04 10:34:19.227000+00:00",
+    "description": "MethCP is a differentially methylated region (DMR) detecting method for whole-genome bisulfite sequencing (WGBS) data, which is applicable for a wide range of experimental designs beyond the two-group comparisons, such as time-course data. MethCP identifies DMRs based on change point detection, which naturally segments the genome and provides region-level differential analysis.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-bsseq >=1.22.0,<1.23.0",
+                    "bioconductor-dnacopy >=1.60.0,<1.61.0",
+                    "bioconductor-dss >=2.34.0,<2.35.0",
+                    "bioconductor-genomeinfodb >=1.22.0,<1.23.0",
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "bioconductor-iranges >=2.20.0,<2.21.0",
+                    "bioconductor-methylkit >=1.12.0,<1.13.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572863261324
+            },
+            "basename": "noarch/bioconductor-methcp-1.0.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-bsseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dss",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.34.0,<2.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-methylkit",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-methcp/1.0.0/noarch/bioconductor-methcp-1.0.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-methcp/1.0.0/noarch/bioconductor-methcp-1.0.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3d148d7bbd87c7abafc173a9fa4992cb",
+            "ndownloads": 2667,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4515487,
+            "type": "conda",
+            "upload_time": "2019-11-04 10:34:20.262000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.22.0,<1.23.0",
+                    "bioconductor-bsseq >=1.24.0,<1.25.0",
+                    "bioconductor-dnacopy >=1.62.0,<1.63.0",
+                    "bioconductor-dss >=2.36.0,<2.37.0",
+                    "bioconductor-genomeinfodb >=1.24.0,<1.25.0",
+                    "bioconductor-genomicranges >=1.40.0,<1.41.0",
+                    "bioconductor-iranges >=2.22.0,<2.23.0",
+                    "bioconductor-methylkit >=1.14.0,<1.15.0",
+                    "bioconductor-s4vectors >=0.26.0,<0.27.0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589217393179
+            },
+            "basename": "noarch/bioconductor-methcp-1.2.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dss",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.36.0,<2.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.22.0,<2.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-methylkit",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-methcp/1.2.0/noarch/bioconductor-methcp-1.2.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-methcp/1.2.0/noarch/bioconductor-methcp-1.2.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "cbb986b056220732ad501fb563aeb3b9",
+            "ndownloads": 2651,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4627742,
+            "type": "conda",
+            "upload_time": "2020-05-11 17:23:25.918000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.24.0,<1.25.0",
+                    "bioconductor-bsseq >=1.26.0,<1.27.0",
+                    "bioconductor-dnacopy >=1.64.0,<1.65.0",
+                    "bioconductor-dss >=2.38.0,<2.39.0",
+                    "bioconductor-genomeinfodb >=1.26.0,<1.27.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-methylkit >=1.16.0,<1.17.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604305206034
+            },
+            "basename": "noarch/bioconductor-methcp-1.4.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dss",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.38.0,<2.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-methylkit",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-methcp/1.4.0/noarch/bioconductor-methcp-1.4.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-methcp/1.4.0/noarch/bioconductor-methcp-1.4.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4c4e0a8853f63b380a253fdcc3439f14",
+            "ndownloads": 254,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4629443,
+            "type": "conda",
+            "upload_time": "2020-11-02 08:27:57.570000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocparallel >=1.24.0,<1.25.0",
+                    "bioconductor-bsseq >=1.26.0,<1.27.0",
+                    "bioconductor-dnacopy >=1.64.0,<1.65.0",
+                    "bioconductor-dss >=2.38.0,<2.39.0",
+                    "bioconductor-genomeinfodb >=1.26.0,<1.27.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-methylkit >=1.16.0,<1.17.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617247500881
+            },
+            "basename": "noarch/bioconductor-methcp-1.4.0-r40hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dss",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.38.0,<2.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-methylkit",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-methcp/1.4.0/noarch/bioconductor-methcp-1.4.0-r40hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-methcp/1.4.0/noarch/bioconductor-methcp-1.4.0-r40hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7aaba8c118f2f94ad2baf16f63bf1963",
+            "ndownloads": 2616,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4636520,
+            "type": "conda",
+            "upload_time": "2021-04-01 03:33:54.693000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.26.0,<1.27.0",
+                    "bioconductor-bsseq >=1.28.0,<1.29.0",
+                    "bioconductor-dnacopy >=1.66.0,<1.67.0",
+                    "bioconductor-dss >=2.40.0,<2.41.0",
+                    "bioconductor-genomeinfodb >=1.28.0,<1.29.0",
+                    "bioconductor-genomicranges >=1.44.0,<1.45.0",
+                    "bioconductor-iranges >=2.26.0,<2.27.0",
+                    "bioconductor-methylkit >=1.18.0,<1.19.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622823774347
+            },
+            "basename": "noarch/bioconductor-methcp-1.6.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dss",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-methylkit",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-methcp/1.6.0/noarch/bioconductor-methcp-1.6.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-methcp/1.6.0/noarch/bioconductor-methcp-1.6.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b8099ca51571fc741cb671c050b86cdf",
+            "ndownloads": 2589,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4639298,
+            "type": "conda",
+            "upload_time": "2021-06-04 16:29:58.405000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-bsseq >=1.30.0,<1.31.0",
+                    "bioconductor-dnacopy >=1.68.0,<1.69.0",
+                    "bioconductor-dss >=2.42.0,<2.43.0",
+                    "bioconductor-genomeinfodb >=1.30.0,<1.31.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-methylkit >=1.20.0,<1.21.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636403602299
+            },
+            "basename": "noarch/bioconductor-methcp-1.7.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsseq",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dss",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-methylkit",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-methcp/1.7.0/noarch/bioconductor-methcp-1.7.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-methcp/1.7.0/noarch/bioconductor-methcp-1.7.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d9bfdec2b0e8b0de3be0cafcafb106ce",
+            "ndownloads": 2442,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4612946,
+            "type": "conda",
+            "upload_time": "2021-11-08 20:42:49.772000+00:00",
+            "version": "1.7.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-bsseq >=1.34.0,<1.35.0",
+                    "bioconductor-dnacopy >=1.72.0,<1.73.0",
+                    "bioconductor-dss >=2.46.0,<2.47.0",
+                    "bioconductor-genomeinfodb >=1.34.0,<1.35.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-methylkit >=1.24.0,<1.25.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "r-base >=4.2,<4.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667870292033
+            },
+            "basename": "noarch/bioconductor-methcp-1.11.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-methcp/1.11.0/noarch/bioconductor-methcp-1.11.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-methcp/1.11.0/noarch/bioconductor-methcp-1.11.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "43c8628e133e795cc9d74f5612961842",
+            "ndownloads": 1606,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4650007,
+            "type": "conda",
+            "upload_time": "2022-11-08 01:23:35.042000+00:00",
+            "version": "1.11.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-methcp",
+    "home": "https://bioconductor.org/packages/3.10/bioc/html/MethCP.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-methcp",
+    "id": "5dbffeab778a870e9262bb05",
+    "latest_version": "1.11.0",
+    "license": "Artistic-2.0",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:20.222000+00:00",
+    "name": "bioconductor-methcp",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.11.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-methcp/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-methcp/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-methcp/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-methcp/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-methcp/1.7.0",
+            "version": "1.7.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-methcp/1.11.0",
+            "version": "1.11.0"
+        }
+    ],
+    "revision": 12,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Differential methylation anlsysis for bisulfite sequencing data",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-methcp",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.4.0",
+        "1.6.0",
+        "1.7.0",
+        "1.11.0"
+    ],
+    "watchers": 1
+}

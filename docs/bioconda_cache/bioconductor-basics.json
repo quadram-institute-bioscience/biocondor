@@ -1,0 +1,4690 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r41h7cba510_1",
+        "r40h64ad5ed_0",
+        "r42hc0ef7c4_1",
+        "r43hf17093f_0",
+        "r40h399db7b_0",
+        "r43hc0ef7c4_0",
+        "r42hf17093f_1",
+        "r42hb890f52_0",
+        "r41h399db7b_0",
+        "r44h35d7169_0",
+        "r40h832b226_0",
+        "r351hf484d3e_0",
+        "r41hc247a5b_2",
+        "r40h5f743cb_0",
+        "r36h6de7cb9_1",
+        "r36he1b5a44_0",
+        "r42hc247a5b_0",
+        "r44he5774e6_0",
+        "r36he1b5a44_1",
+        "r41h619a076_1",
+        "r41hb890f52_2",
+        "r351h0a44026_0",
+        "r41h832b226_0",
+        "r36h6de7cb9_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2018-12-12 00:32:41.443000+00:00",
+    "description": "Single-cell mRNA sequencing can uncover novel cell-to-cell heterogeneity in gene expression levels in seemingly homogeneous populations of cells. However, these experiments are prone to high levels of technical noise, creating new challenges for identifying genes that show genuine heterogeneous expression within the population of cells under study. BASiCS (Bayesian Analysis of Single-Cell Sequencing data) is an integrated Bayesian hierarchical model to perform statistical analyses of single-cell RNA sequencing datasets in the context of supervised experiments (where the groups of cells of interest are known a priori, e.g. experimental conditions or cell types). BASiCS performs built-in data normalisation (global scaling) and technical noise quantification (based on spike-in genes). BASiCS provides an intuitive detection criterion for highly (or lowly) variable genes within a single group of cells. Additionally, BASiCS can compare gene expression patterns between two or more pre-specified groups of cells. Unlike traditional differential expression tools, BASiCS quantifies changes in expression that lie beyond comparisons of means, also allowing the study of changes in cell-to-cell heterogeneity. The latter can be quantified via a biological over-dispersion parameter that measures the excess of variability that is observed with respect to Poisson sampling noise, after normalisation and technical noise removal. Due to the strong mean/over-dispersion confounding that is typically observed for scRNA-seq datasets, BASiCS also tests for changes in residual over-dispersion, defined by residual values with respect to a global mean/over-dispersion trend.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h0a44026_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "bioconductor-scran >=1.10.0,<1.11.0",
+                    "bioconductor-singlecellexperiment >=1.4.0,<1.5.0",
+                    "bioconductor-summarizedexperiment >=1.12.0,<1.13.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-coda",
+                    "r-data.table",
+                    "r-ggplot2",
+                    "r-kernsmooth",
+                    "r-mass",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-testthat"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1544574670733
+            },
+            "basename": "osx-64/bioconductor-basics-1.4.0-r351h0a44026_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-coda",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kernsmooth",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-testthat",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/1.4.0/osx-64/bioconductor-basics-1.4.0-r351h0a44026_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/1.4.0/osx-64/bioconductor-basics-1.4.0-r351h0a44026_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "402708fddb7f323d474c3c73d0dc4c59",
+            "ndownloads": 4349,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3505744,
+            "type": "conda",
+            "upload_time": "2018-12-12 00:32:42.469000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hf484d3e_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "bioconductor-scran >=1.10.0,<1.11.0",
+                    "bioconductor-singlecellexperiment >=1.4.0,<1.5.0",
+                    "bioconductor-summarizedexperiment >=1.12.0,<1.13.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-coda",
+                    "r-data.table",
+                    "r-ggplot2",
+                    "r-kernsmooth",
+                    "r-mass",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-testthat"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1545447598458
+            },
+            "basename": "linux-64/bioconductor-basics-1.4.0-r351hf484d3e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-coda",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kernsmooth",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-testthat",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/1.4.0/linux-64/bioconductor-basics-1.4.0-r351hf484d3e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/1.4.0/linux-64/bioconductor-basics-1.4.0-r351hf484d3e_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "63a4b52fb29cd0a9f2bed4ea63b8f104",
+            "ndownloads": 411,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3593626,
+            "type": "conda",
+            "upload_time": "2018-12-22 03:04:03.435000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "bioconductor-scran >=1.12.0,<1.13.0",
+                    "bioconductor-singlecellexperiment >=1.6.0,<1.7.0",
+                    "bioconductor-summarizedexperiment >=1.14.0,<1.15.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-data.table",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-kernsmooth",
+                    "r-mass",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-viridis"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1564746332377
+            },
+            "basename": "osx-64/bioconductor-basics-1.6.0-r36h6de7cb9_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-coda",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kernsmooth",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/1.6.0/osx-64/bioconductor-basics-1.6.0-r36h6de7cb9_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/1.6.0/osx-64/bioconductor-basics-1.6.0-r36h6de7cb9_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "cec68c327cd9423431aeafd9edac8e7f",
+            "ndownloads": 3931,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3504814,
+            "type": "conda",
+            "upload_time": "2019-08-02 11:46:48.889000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "bioconductor-scran >=1.12.0,<1.13.0",
+                    "bioconductor-singlecellexperiment >=1.6.0,<1.7.0",
+                    "bioconductor-summarizedexperiment >=1.14.0,<1.15.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-data.table",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-kernsmooth",
+                    "r-mass",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1565972978816
+            },
+            "basename": "linux-64/bioconductor-basics-1.6.0-r36he1b5a44_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-coda",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kernsmooth",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/1.6.0/linux-64/bioconductor-basics-1.6.0-r36he1b5a44_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/1.6.0/linux-64/bioconductor-basics-1.6.0-r36he1b5a44_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "561c18f2823835e8adb8c8e3d93c5fdc",
+            "ndownloads": 339,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3537994,
+            "type": "conda",
+            "upload_time": "2019-08-16 16:35:16.514000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "bioconductor-scran >=1.14.0,<1.15.0",
+                    "bioconductor-singlecellexperiment >=1.8.0,<1.9.0",
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-data.table",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-kernsmooth",
+                    "r-mass",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-viridis"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572704596804
+            },
+            "basename": "osx-64/bioconductor-basics-1.8.0-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-coda",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kernsmooth",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/1.8.0/osx-64/bioconductor-basics-1.8.0-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/1.8.0/osx-64/bioconductor-basics-1.8.0-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "79c678aa473471f282f396e4bc16e2f8",
+            "ndownloads": 3788,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3600254,
+            "type": "conda",
+            "upload_time": "2019-11-02 14:24:37.521000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "bioconductor-scran >=1.14.0,<1.15.0",
+                    "bioconductor-singlecellexperiment >=1.8.0,<1.9.0",
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-data.table",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-kernsmooth",
+                    "r-mass",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572916661115
+            },
+            "basename": "linux-64/bioconductor-basics-1.8.0-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-coda",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kernsmooth",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/1.8.0/linux-64/bioconductor-basics-1.8.0-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/1.8.0/linux-64/bioconductor-basics-1.8.0-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0de767ac113a115d661942d97cca35f7",
+            "ndownloads": 341,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3620732,
+            "type": "conda",
+            "upload_time": "2019-11-05 01:23:13.009000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h64ad5ed_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.48.0,<2.49.0",
+                    "bioconductor-biocgenerics >=0.34.0,<0.35.0",
+                    "bioconductor-s4vectors >=0.26.0,<0.27.0",
+                    "bioconductor-scran >=1.16.0,<1.17.0",
+                    "bioconductor-singlecellexperiment >=1.10.0,<1.11.0",
+                    "bioconductor-summarizedexperiment >=1.18.0,<1.19.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=9.0.1",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-assertthat",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-kernsmooth",
+                    "r-mass",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1589102239818
+            },
+            "basename": "osx-64/bioconductor-basics-2.0.0-r40h64ad5ed_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.34.0,<0.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-assertthat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-coda",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-hexbin",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kernsmooth",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.0.0/osx-64/bioconductor-basics-2.0.0-r40h64ad5ed_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.0.0/osx-64/bioconductor-basics-2.0.0-r40h64ad5ed_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8b8562e6c36b0355cabdb0f27e686158",
+            "ndownloads": 3351,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4127696,
+            "type": "conda",
+            "upload_time": "2020-05-10 09:19:03.013000+00:00",
+            "version": "2.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h5f743cb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.48.0,<2.49.0",
+                    "bioconductor-biocgenerics >=0.34.0,<0.35.0",
+                    "bioconductor-s4vectors >=0.26.0,<0.27.0",
+                    "bioconductor-scran >=1.16.0,<1.17.0",
+                    "bioconductor-singlecellexperiment >=1.10.0,<1.11.0",
+                    "bioconductor-summarizedexperiment >=1.18.0,<1.19.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.3.0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-assertthat",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-kernsmooth",
+                    "r-mass",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1589165421288
+            },
+            "basename": "linux-64/bioconductor-basics-2.0.0-r40h5f743cb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.34.0,<0.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-assertthat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-coda",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-hexbin",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-kernsmooth",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.0.0/linux-64/bioconductor-basics-2.0.0-r40h5f743cb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.0.0/linux-64/bioconductor-basics-2.0.0-r40h5f743cb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bcb2bc5af1134e093f738487b48f9561",
+            "ndownloads": 308,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4125890,
+            "type": "conda",
+            "upload_time": "2020-05-11 02:57:10.838000+00:00",
+            "version": "2.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h64ad5ed_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-biocparallel >=1.24.0,<1.25.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-scran >=1.18.0,<1.19.0",
+                    "bioconductor-singlecellexperiment >=1.12.0,<1.13.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=9.0.1",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-assertthat",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1604054837542
+            },
+            "basename": "osx-64/bioconductor-basics-2.2.0-r40h64ad5ed_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-assertthat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-coda",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-hexbin",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.2.0/osx-64/bioconductor-basics-2.2.0-r40h64ad5ed_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.2.0/osx-64/bioconductor-basics-2.2.0-r40h64ad5ed_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e053db2ff6c3fb9ab303a075134bc387",
+            "ndownloads": 3018,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3938967,
+            "type": "conda",
+            "upload_time": "2020-10-30 10:48:55.125000+00:00",
+            "version": "2.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h5f743cb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-biocparallel >=1.24.0,<1.25.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-scran >=1.18.0,<1.19.0",
+                    "bioconductor-singlecellexperiment >=1.12.0,<1.13.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=7.5.0",
+                    "r-assertthat",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1604322299233
+            },
+            "basename": "linux-64/bioconductor-basics-2.2.0-r40h5f743cb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-assertthat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-coda",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-hexbin",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.2.0/linux-64/bioconductor-basics-2.2.0-r40h5f743cb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.2.0/linux-64/bioconductor-basics-2.2.0-r40h5f743cb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7d0e4f1f9e67295030f82a801e795192",
+            "ndownloads": 283,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3888288,
+            "type": "conda",
+            "upload_time": "2020-11-02 13:12:51.868000+00:00",
+            "version": "2.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h832b226_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-biocparallel >=1.24.0,<1.25.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-scran >=1.18.0,<1.19.0",
+                    "bioconductor-singlecellexperiment >=1.12.0,<1.13.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=11.1.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-assertthat",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1617021471580
+            },
+            "basename": "osx-64/bioconductor-basics-2.2.2-r40h832b226_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-assertthat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-coda",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-hexbin",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.2.2/osx-64/bioconductor-basics-2.2.2-r40h832b226_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.2.2/osx-64/bioconductor-basics-2.2.2-r40h832b226_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d500617932f01d2e571a1a624918aea9",
+            "ndownloads": 2737,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3924303,
+            "type": "conda",
+            "upload_time": "2021-03-29 12:39:55.064000+00:00",
+            "version": "2.2.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h399db7b_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-biocparallel >=1.24.0,<1.25.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-scran >=1.18.0,<1.19.0",
+                    "bioconductor-singlecellexperiment >=1.12.0,<1.13.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=9.3.0",
+                    "r-assertthat",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1617152421344
+            },
+            "basename": "linux-64/bioconductor-basics-2.2.2-r40h399db7b_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-assertthat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-coda",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-hexbin",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.2.2/linux-64/bioconductor-basics-2.2.2-r40h399db7b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.2.2/linux-64/bioconductor-basics-2.2.2-r40h399db7b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6cc5fdceeb3d7096c5499baf48013ce6",
+            "ndownloads": 277,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3918050,
+            "type": "conda",
+            "upload_time": "2021-03-31 01:09:14.627000+00:00",
+            "version": "2.2.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h832b226_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.52.0,<2.53.0",
+                    "bioconductor-biocgenerics >=0.38.0,<0.39.0",
+                    "bioconductor-biocparallel >=1.26.0,<1.27.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "bioconductor-scran >=1.20.0,<1.21.0",
+                    "bioconductor-scuttle >=1.2.0,<1.3.0",
+                    "bioconductor-singlecellexperiment >=1.14.0,<1.15.0",
+                    "bioconductor-summarizedexperiment >=1.22.0,<1.23.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=11.1.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-assertthat",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1622451539445
+            },
+            "basename": "osx-64/bioconductor-basics-2.4.0-r41h832b226_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.38.0,<0.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scuttle",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.0,<1.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-assertthat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-coda",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-hexbin",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.4.0/osx-64/bioconductor-basics-2.4.0-r41h832b226_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.4.0/osx-64/bioconductor-basics-2.4.0-r41h832b226_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4c01fa92a9f79270052282e9768fa3ae",
+            "ndownloads": 2617,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3902705,
+            "type": "conda",
+            "upload_time": "2021-05-31 09:00:36.844000+00:00",
+            "version": "2.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h399db7b_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.52.0,<2.53.0",
+                    "bioconductor-biocgenerics >=0.38.0,<0.39.0",
+                    "bioconductor-biocparallel >=1.26.0,<1.27.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "bioconductor-scran >=1.20.0,<1.21.0",
+                    "bioconductor-scuttle >=1.2.0,<1.3.0",
+                    "bioconductor-singlecellexperiment >=1.14.0,<1.15.0",
+                    "bioconductor-summarizedexperiment >=1.22.0,<1.23.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=9.3.0",
+                    "r-assertthat",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1622940877458
+            },
+            "basename": "linux-64/bioconductor-basics-2.4.0-r41h399db7b_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.38.0,<0.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scuttle",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.0,<1.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-assertthat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-coda",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-hexbin",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.4.0/linux-64/bioconductor-basics-2.4.0-r41h399db7b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.4.0/linux-64/bioconductor-basics-2.4.0-r41h399db7b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "298a4517b984557902a3e611354aec45",
+            "ndownloads": 275,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3916532,
+            "type": "conda",
+            "upload_time": "2021-06-06 01:02:04.322000+00:00",
+            "version": "2.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h832b226_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-scran >=1.22.0,<1.23.0",
+                    "bioconductor-scuttle >=1.4.0,<1.5.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=11.1.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-assertthat",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1636048891213
+            },
+            "basename": "osx-64/bioconductor-basics-2.6.0-r41h832b226_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scuttle",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-assertthat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-coda",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-hexbin",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.6.0/osx-64/bioconductor-basics-2.6.0-r41h832b226_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.6.0/osx-64/bioconductor-basics-2.6.0-r41h832b226_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ab5702a361d02bf73b49387408f3948e",
+            "ndownloads": 572,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3932053,
+            "type": "conda",
+            "upload_time": "2021-11-04 18:03:21.672000+00:00",
+            "version": "2.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h399db7b_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-scran >=1.22.0,<1.23.0",
+                    "bioconductor-scuttle >=1.4.0,<1.5.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=9.4.0",
+                    "r-assertthat",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1636247145972
+            },
+            "basename": "linux-64/bioconductor-basics-2.6.0-r41h399db7b_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scuttle",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-assertthat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-coda",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-hexbin",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.6.0/linux-64/bioconductor-basics-2.6.0-r41h399db7b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.6.0/linux-64/bioconductor-basics-2.6.0-r41h399db7b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "364004411db726cbb792872b375b1443",
+            "ndownloads": 233,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3957556,
+            "type": "conda",
+            "upload_time": "2021-11-07 01:14:59.872000+00:00",
+            "version": "2.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h7cba510_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-scran >=1.22.0,<1.23.0",
+                    "bioconductor-scuttle >=1.4.0,<1.5.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=12.0.1",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-assertthat",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1646001010748
+            },
+            "basename": "osx-64/bioconductor-basics-2.6.0-r41h7cba510_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scuttle",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-assertthat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-coda",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-hexbin",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.6.0/osx-64/bioconductor-basics-2.6.0-r41h7cba510_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.6.0/osx-64/bioconductor-basics-2.6.0-r41h7cba510_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "850aaa55775397aca379e7cd189cf4d1",
+            "ndownloads": 54,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3959594,
+            "type": "conda",
+            "upload_time": "2022-02-27 22:32:26.011000+00:00",
+            "version": "2.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h619a076_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-scran >=1.22.0,<1.23.0",
+                    "bioconductor-scuttle >=1.4.0,<1.5.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=10.3.0",
+                    "r-assertthat",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1646050512975
+            },
+            "basename": "linux-64/bioconductor-basics-2.6.0-r41h619a076_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scran",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scuttle",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.4.0,<1.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-assertthat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-coda",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-hexbin",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.11.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpparmadillo",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-viridis",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.6.0/linux-64/bioconductor-basics-2.6.0-r41h619a076_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.6.0/linux-64/bioconductor-basics-2.6.0-r41h619a076_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bdddb30be364303a59c93fd21a69a504",
+            "ndownloads": 213,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3909027,
+            "type": "conda",
+            "upload_time": "2022-02-28 12:25:10.038000+00:00",
+            "version": "2.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hc247a5b_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-scran >=1.22.0,<1.23.0",
+                    "bioconductor-scuttle >=1.4.0,<1.5.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-assertthat",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1663952508685
+            },
+            "basename": "linux-64/bioconductor-basics-2.6.0-r41hc247a5b_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.6.0/linux-64/bioconductor-basics-2.6.0-r41hc247a5b_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.6.0/linux-64/bioconductor-basics-2.6.0-r41hc247a5b_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "acdd9041be8251df1d651a4d95737e9d",
+            "ndownloads": 198,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3921142,
+            "type": "conda",
+            "upload_time": "2022-09-23 17:05:31.808000+00:00",
+            "version": "2.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hb890f52_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biocparallel >=1.28.0,<1.29.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-scran >=1.22.0,<1.23.0",
+                    "bioconductor-scuttle >=1.4.0,<1.5.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=14.0.4",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-assertthat",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1663954581241
+            },
+            "basename": "osx-64/bioconductor-basics-2.6.0-r41hb890f52_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.6.0/osx-64/bioconductor-basics-2.6.0-r41hb890f52_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.6.0/osx-64/bioconductor-basics-2.6.0-r41hb890f52_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "49bfc8c8ee6927077c6a8a9029e1169e",
+            "ndownloads": 1788,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3951290,
+            "type": "conda",
+            "upload_time": "2022-09-23 17:38:58.524000+00:00",
+            "version": "2.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc247a5b_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-scran >=1.26.0,<1.27.0",
+                    "bioconductor-scuttle >=1.8.0,<1.9.0",
+                    "bioconductor-singlecellexperiment >=1.20.0,<1.21.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-assertthat",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix >=1.5.0",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1667700299595
+            },
+            "basename": "linux-64/bioconductor-basics-2.10.0-r42hc247a5b_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.10.0/linux-64/bioconductor-basics-2.10.0-r42hc247a5b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.10.0/linux-64/bioconductor-basics-2.10.0-r42hc247a5b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2da2919a8b6f0c738aa8d59b5ef12f8e",
+            "ndownloads": 184,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3966477,
+            "type": "conda",
+            "upload_time": "2022-11-06 02:10:11.761000+00:00",
+            "version": "2.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hb890f52_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-scran >=1.26.0,<1.27.0",
+                    "bioconductor-scuttle >=1.8.0,<1.9.0",
+                    "bioconductor-singlecellexperiment >=1.20.0,<1.21.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=14.0.4",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-assertthat",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix >=1.5.0",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1667915797396
+            },
+            "basename": "osx-64/bioconductor-basics-2.10.0-r42hb890f52_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.10.0/osx-64/bioconductor-basics-2.10.0-r42hb890f52_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.10.0/osx-64/bioconductor-basics-2.10.0-r42hb890f52_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "406d9dc52e48c6d05db5cc73701f79fe",
+            "ndownloads": 454,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3973145,
+            "type": "conda",
+            "upload_time": "2022-11-08 13:58:42.955000+00:00",
+            "version": "2.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hf17093f_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-scran >=1.26.0,<1.27.0",
+                    "bioconductor-scuttle >=1.8.0,<1.9.0",
+                    "bioconductor-singlecellexperiment >=1.20.0,<1.21.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-assertthat",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix >=1.5.0",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1685630916927
+            },
+            "basename": "linux-64/bioconductor-basics-2.10.0-r42hf17093f_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.10.0/linux-64/bioconductor-basics-2.10.0-r42hf17093f_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.10.0/linux-64/bioconductor-basics-2.10.0-r42hf17093f_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "eba03a4600ec0ff5045c4125e0203406",
+            "ndownloads": 156,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3946989,
+            "type": "conda",
+            "upload_time": "2023-06-01 14:53:45.064000+00:00",
+            "version": "2.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc0ef7c4_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biobase >=2.58.0,<2.59.0",
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biocparallel >=1.32.0,<1.33.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-scran >=1.26.0,<1.27.0",
+                    "bioconductor-scuttle >=1.8.0,<1.9.0",
+                    "bioconductor-singlecellexperiment >=1.20.0,<1.21.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-assertthat",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix >=1.5.0",
+                    "r-matrixstats",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1685792365058
+            },
+            "basename": "osx-64/bioconductor-basics-2.10.0-r42hc0ef7c4_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.10.0/osx-64/bioconductor-basics-2.10.0-r42hc0ef7c4_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.10.0/osx-64/bioconductor-basics-2.10.0-r42hc0ef7c4_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "59f44a59cc70d605856c2bf3c3ec4b4a",
+            "ndownloads": 1319,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3969324,
+            "type": "conda",
+            "upload_time": "2023-06-03 11:41:19.383000+00:00",
+            "version": "2.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hc0ef7c4_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.60.0,<2.61.0",
+                    "bioconductor-biocgenerics >=0.46.0,<0.47.0",
+                    "bioconductor-biocparallel >=1.34.0,<1.35.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "bioconductor-scran >=1.28.0,<1.29.0",
+                    "bioconductor-scuttle >=1.10.0,<1.11.0",
+                    "bioconductor-singlecellexperiment >=1.22.0,<1.23.0",
+                    "bioconductor-summarizedexperiment >=1.30.0,<1.31.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-assertthat",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix >=1.5.0",
+                    "r-matrixstats",
+                    "r-posterior",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1689168077875
+            },
+            "basename": "osx-64/bioconductor-basics-2.12.3-r43hc0ef7c4_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.12.3/osx-64/bioconductor-basics-2.12.3-r43hc0ef7c4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.12.3/osx-64/bioconductor-basics-2.12.3-r43hc0ef7c4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ef61a099d757eeb1a618ca8fa3ce32a1",
+            "ndownloads": 1244,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3994736,
+            "type": "conda",
+            "upload_time": "2023-07-12 13:23:13.599000+00:00",
+            "version": "2.12.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hf17093f_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.60.0,<2.61.0",
+                    "bioconductor-biocgenerics >=0.46.0,<0.47.0",
+                    "bioconductor-biocparallel >=1.34.0,<1.35.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "bioconductor-scran >=1.28.0,<1.29.0",
+                    "bioconductor-scuttle >=1.10.0,<1.11.0",
+                    "bioconductor-singlecellexperiment >=1.22.0,<1.23.0",
+                    "bioconductor-summarizedexperiment >=1.30.0,<1.31.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-assertthat",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix >=1.5.0",
+                    "r-matrixstats",
+                    "r-posterior",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1689605275860
+            },
+            "basename": "linux-64/bioconductor-basics-2.12.3-r43hf17093f_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.12.3/linux-64/bioconductor-basics-2.12.3-r43hf17093f_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.12.3/linux-64/bioconductor-basics-2.12.3-r43hf17093f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d8e92665b1952b39f673575dfa7520d3",
+            "ndownloads": 146,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3958272,
+            "type": "conda",
+            "upload_time": "2023-07-17 14:53:04.399000+00:00",
+            "version": "2.12.3"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hc0ef7c4_0",
+                "build_number": 0,
+                "depends": [
+                    "__osx >=10.9",
+                    "bioconductor-biobase >=2.62.0,<2.63.0",
+                    "bioconductor-biobase >=2.62.0,<2.63.0a0",
+                    "bioconductor-biocgenerics >=0.48.0,<0.49.0",
+                    "bioconductor-biocgenerics >=0.48.1,<0.49.0a0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0a0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-s4vectors >=0.40.2,<0.41.0a0",
+                    "bioconductor-scran >=1.30.0,<1.31.0",
+                    "bioconductor-scran >=1.30.0,<1.31.0a0",
+                    "bioconductor-scuttle >=1.12.0,<1.13.0",
+                    "bioconductor-scuttle >=1.12.0,<1.13.0a0",
+                    "bioconductor-singlecellexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-singlecellexperiment >=1.24.0,<1.25.0a0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-assertthat",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix >=1.5.0",
+                    "r-matrixstats",
+                    "r-posterior",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1702098371105
+            },
+            "basename": "osx-64/bioconductor-basics-2.14.0-r43hc0ef7c4_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.14.0/osx-64/bioconductor-basics-2.14.0-r43hc0ef7c4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.14.0/osx-64/bioconductor-basics-2.14.0-r43hc0ef7c4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a46afe3f884339e42c94c4605c675c0d",
+            "ndownloads": 939,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4008184,
+            "type": "conda",
+            "upload_time": "2023-12-09 05:05:16.795000+00:00",
+            "version": "2.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hf17093f_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.62.0,<2.63.0",
+                    "bioconductor-biobase >=2.62.0,<2.63.0a0",
+                    "bioconductor-biocgenerics >=0.48.0,<0.49.0",
+                    "bioconductor-biocgenerics >=0.48.1,<0.49.0a0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0a0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-s4vectors >=0.40.2,<0.41.0a0",
+                    "bioconductor-scran >=1.30.0,<1.31.0",
+                    "bioconductor-scran >=1.30.0,<1.31.0a0",
+                    "bioconductor-scuttle >=1.12.0,<1.13.0",
+                    "bioconductor-scuttle >=1.12.0,<1.13.0a0",
+                    "bioconductor-singlecellexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-singlecellexperiment >=1.24.0,<1.25.0a0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-assertthat",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix >=1.5.0",
+                    "r-matrixstats",
+                    "r-posterior",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1703201698895
+            },
+            "basename": "linux-64/bioconductor-basics-2.14.0-r43hf17093f_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.14.0/linux-64/bioconductor-basics-2.14.0-r43hf17093f_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.14.0/linux-64/bioconductor-basics-2.14.0-r43hf17093f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "caee718e533829e4031bf8551cf02ea0",
+            "ndownloads": 117,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3963473,
+            "type": "conda",
+            "upload_time": "2023-12-21 23:37:58.897000+00:00",
+            "version": "2.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h35d7169_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0a0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0a0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0a0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0a0",
+                    "bioconductor-scran >=1.34.0,<1.35.0",
+                    "bioconductor-scran >=1.34.0,<1.35.0a0",
+                    "bioconductor-scuttle >=1.16.0,<1.17.0",
+                    "bioconductor-scuttle >=1.16.0,<1.17.0a0",
+                    "bioconductor-singlecellexperiment >=1.28.0,<1.29.0",
+                    "bioconductor-singlecellexperiment >=1.28.0,<1.29.0a0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=18",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-assertthat",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix >=1.5.0",
+                    "r-matrixstats",
+                    "r-posterior",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1734770572729
+            },
+            "basename": "osx-64/bioconductor-basics-2.18.0-r44h35d7169_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.18.0/osx-64/bioconductor-basics-2.18.0-r44h35d7169_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.18.0/osx-64/bioconductor-basics-2.18.0-r44h35d7169_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f9224a299f80fd3e26b7748b7e0ff0f0",
+            "ndownloads": 226,
+            "owner": "bioconda",
+            "sha256": "e7a43647533e38f63c157bf492b0317ebaca83ea197385c035cabcd36b752e01",
+            "size": 4102304,
+            "type": "conda",
+            "upload_time": "2024-12-21 08:44:36.612000+00:00",
+            "version": "2.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44he5774e6_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biobase >=2.66.0,<2.67.0a0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0a0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0a0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0a0",
+                    "bioconductor-scran >=1.34.0,<1.35.0",
+                    "bioconductor-scran >=1.34.0,<1.35.0a0",
+                    "bioconductor-scuttle >=1.16.0,<1.17.0",
+                    "bioconductor-scuttle >=1.16.0,<1.17.0a0",
+                    "bioconductor-singlecellexperiment >=1.28.0,<1.29.0",
+                    "bioconductor-singlecellexperiment >=1.28.0,<1.29.0a0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx >=13",
+                    "r-assertthat",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-coda",
+                    "r-cowplot",
+                    "r-ggextra",
+                    "r-ggplot2",
+                    "r-hexbin",
+                    "r-mass",
+                    "r-matrix >=1.5.0",
+                    "r-matrixstats",
+                    "r-posterior",
+                    "r-rcpp >=0.11.3",
+                    "r-rcpparmadillo",
+                    "r-reshape2",
+                    "r-viridis"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1734951268476
+            },
+            "basename": "linux-64/bioconductor-basics-2.18.0-r44he5774e6_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-basics/2.18.0/linux-64/bioconductor-basics-2.18.0-r44he5774e6_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-basics/2.18.0/linux-64/bioconductor-basics-2.18.0-r44he5774e6_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3128f6cf674af043d0390be872f95765",
+            "ndownloads": 111,
+            "owner": "bioconda",
+            "sha256": "1ee4636030af74cad023aa24f3a9fba252a3454062b7ec4d5d00546095f481ef",
+            "size": 4088370,
+            "type": "conda",
+            "upload_time": "2024-12-23 10:57:02.890000+00:00",
+            "version": "2.18.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-basics",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/BASiCS.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-basics",
+    "id": "5c105729d9c2cf135381984b",
+    "latest_version": "2.18.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:04.212000+00:00",
+    "name": "bioconductor-basics",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "2.18.0",
+        "osx-64": "2.18.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-basics/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-basics/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-basics/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-basics/2.0.0",
+            "version": "2.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-basics/2.2.0",
+            "version": "2.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-basics/2.2.2",
+            "version": "2.2.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-basics/2.4.0",
+            "version": "2.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-basics/2.6.0",
+            "version": "2.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-basics/2.10.0",
+            "version": "2.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-basics/2.12.3",
+            "version": "2.12.3"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-basics/2.14.0",
+            "version": "2.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-basics/2.18.0",
+            "version": "2.18.0"
+        }
+    ],
+    "revision": 26,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Bayesian Analysis of Single-Cell Sequencing data",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-basics",
+    "versions": [
+        "1.4.0",
+        "1.6.0",
+        "1.8.0",
+        "2.0.0",
+        "2.2.0",
+        "2.2.2",
+        "2.4.0",
+        "2.6.0",
+        "2.10.0",
+        "2.12.3",
+        "2.14.0",
+        "2.18.0"
+    ],
+    "watchers": 1
+}

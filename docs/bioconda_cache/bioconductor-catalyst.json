@@ -1,0 +1,2247 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r351_0",
+        "r40_0",
+        "r40hdfd78af_1",
+        "r36_0",
+        "r44hdfd78af_0",
+        "r42hdfd78af_0",
+        "r43hdfd78af_0",
+        "r41hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-01-03 13:48:29.845000+00:00",
+    "description": "CATALYST provides tools for preprocessing of and differential discovery in cytometry data such as FACS, CyTOF, and IMC. Preprocessing includes i) normalization using bead standards, ii) single-cell deconvolution, and iii) bead-based compensation. For differential discovery, the package provides a number of convenient functions for data processing (e.g., clustering, dimension reduction), as well as a suite of visualizations for exploratory data analysis and exploration of results from differential abundance (DA) and state (DS) analysis in order to identify differences in composition and expression profiles at the subpopulation-level, respectively.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-complexheatmap >=1.20.0,<1.21.0",
+                    "bioconductor-consensusclusterplus >=1.46.0,<1.47.0",
+                    "bioconductor-flowcore >=1.48.0,<1.49.0",
+                    "bioconductor-flowsom >=1.14.0,<1.15.0",
+                    "bioconductor-limma >=3.38.0,<3.39.0",
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "bioconductor-summarizedexperiment >=1.12.0,<1.13.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-circlize",
+                    "r-dplyr",
+                    "r-drc",
+                    "r-dt",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-ggridges",
+                    "r-gridextra",
+                    "r-htmltools",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-nnls",
+                    "r-plotly",
+                    "r-rcolorbrewer",
+                    "r-reshape2",
+                    "r-rtsne",
+                    "r-scales",
+                    "r-shiny",
+                    "r-shinybs",
+                    "r-shinydashboard",
+                    "r-shinyjs",
+                    "r-tidyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1546522989864
+            },
+            "basename": "noarch/bioconductor-catalyst-1.6.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-complexheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-consensusclusterplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowcore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowsom",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.38.0,<3.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-circlize",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-drc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dt",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggrepel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggridges",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-htmltools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnls",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plotly",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinybs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinydashboard",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyjs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-catalyst/1.6.0/noarch/bioconductor-catalyst-1.6.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-catalyst/1.6.0/noarch/bioconductor-catalyst-1.6.0-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "ea8151d63c99d8641a0daf645af5c8a3",
+            "ndownloads": 2820,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 7344073,
+            "type": "conda",
+            "upload_time": "2019-01-03 13:48:30.610000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-complexheatmap >=2.0.0,<2.1.0",
+                    "bioconductor-consensusclusterplus >=1.48.0,<1.49.0",
+                    "bioconductor-flowcore >=1.50.0,<1.51.0",
+                    "bioconductor-flowsom >=1.16.0,<1.17.0",
+                    "bioconductor-limma >=3.40.0,<3.41.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "bioconductor-scater >=1.12.0,<1.13.0",
+                    "bioconductor-singlecellexperiment >=1.6.0,<1.7.0",
+                    "bioconductor-summarizedexperiment >=1.14.0,<1.15.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-circlize",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-drc",
+                    "r-dt",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-ggridges",
+                    "r-gridextra",
+                    "r-htmltools",
+                    "r-magrittr",
+                    "r-matrixstats",
+                    "r-nnls",
+                    "r-plotly",
+                    "r-purrr",
+                    "r-rcolorbrewer",
+                    "r-reshape2",
+                    "r-rtsne",
+                    "r-scales",
+                    "r-shiny",
+                    "r-shinybs",
+                    "r-shinydashboard",
+                    "r-shinyjs"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1565991769903
+            },
+            "basename": "noarch/bioconductor-catalyst-1.8.6-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-complexheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-consensusclusterplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowcore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowsom",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.40.0,<3.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.6.0,<1.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-circlize",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-drc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dt",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggrepel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggridges",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-htmltools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnls",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plotly",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-purrr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinybs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinydashboard",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyjs",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-catalyst/1.8.6/noarch/bioconductor-catalyst-1.8.6-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-catalyst/1.8.6/noarch/bioconductor-catalyst-1.8.6-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "980ba751deeebf98494323179fb2f974",
+            "ndownloads": 2722,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 8153355,
+            "type": "conda",
+            "upload_time": "2019-08-16 21:49:42.442000+00:00",
+            "version": "1.8.6"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-complexheatmap >=2.2.0,<2.3.0",
+                    "bioconductor-consensusclusterplus >=1.50.0,<1.51.0",
+                    "bioconductor-flowcore >=1.52.0,<1.53.0",
+                    "bioconductor-flowsom >=1.18.0,<1.19.0",
+                    "bioconductor-limma >=3.42.0,<3.43.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "bioconductor-scater >=1.14.0,<1.15.0",
+                    "bioconductor-singlecellexperiment >=1.8.0,<1.9.0",
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-circlize",
+                    "r-cowplot",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-drc",
+                    "r-dt",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-ggridges",
+                    "r-gridextra",
+                    "r-htmltools",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-nnls",
+                    "r-plotly",
+                    "r-purrr",
+                    "r-rcolorbrewer",
+                    "r-reshape2",
+                    "r-rtsne",
+                    "r-scales",
+                    "r-shiny",
+                    "r-shinybs",
+                    "r-shinydashboard",
+                    "r-shinyjs"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572920704752
+            },
+            "basename": "noarch/bioconductor-catalyst-1.10.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-complexheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-consensusclusterplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowcore",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowsom",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.42.0,<3.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-circlize",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-drc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dt",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggrepel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggridges",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-htmltools",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnls",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plotly",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-purrr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shiny",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinybs",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinydashboard",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-shinyjs",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-catalyst/1.10.0/noarch/bioconductor-catalyst-1.10.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-catalyst/1.10.0/noarch/bioconductor-catalyst-1.10.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c4a9b36a33f75f6b8e768d4be6b5e804",
+            "ndownloads": 2543,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 8561955,
+            "type": "conda",
+            "upload_time": "2019-11-05 02:32:05.076000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-complexheatmap >=2.4.0,<2.5.0",
+                    "bioconductor-consensusclusterplus >=1.52.0,<1.53.0",
+                    "bioconductor-flowcore >=2.0.0,<2.1.0",
+                    "bioconductor-flowsom >=1.20.0,<1.21.0",
+                    "bioconductor-s4vectors >=0.26.0,<0.27.0",
+                    "bioconductor-scater >=1.16.0,<1.17.0",
+                    "bioconductor-singlecellexperiment >=1.10.0,<1.11.0",
+                    "bioconductor-summarizedexperiment >=1.18.0,<1.19.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-circlize",
+                    "r-cowplot",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-drc",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-ggridges",
+                    "r-gridextra",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-nnls",
+                    "r-purrr",
+                    "r-rcolorbrewer",
+                    "r-reshape2",
+                    "r-rtsne",
+                    "r-scales"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589757891760
+            },
+            "basename": "noarch/bioconductor-catalyst-1.12.1-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-complexheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.4.0,<2.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-consensusclusterplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowcore",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowsom",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-circlize",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-drc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggrepel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggridges",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnls",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-purrr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-catalyst/1.12.1/noarch/bioconductor-catalyst-1.12.1-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-catalyst/1.12.1/noarch/bioconductor-catalyst-1.12.1-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b21f0eabb8f51811d232ba861152e43f",
+            "ndownloads": 2441,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 10998440,
+            "type": "conda",
+            "upload_time": "2020-05-17 23:33:02.610000+00:00",
+            "version": "1.12.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-complexheatmap >=2.6.0,<2.7.0",
+                    "bioconductor-consensusclusterplus >=1.54.0,<1.55.0",
+                    "bioconductor-flowcore >=2.2.0,<2.3.0",
+                    "bioconductor-flowsom >=1.22.0,<1.23.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-scater >=1.18.0,<1.19.0",
+                    "bioconductor-singlecellexperiment >=1.12.0,<1.13.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-circlize",
+                    "r-cowplot",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-drc",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-ggridges",
+                    "r-gridextra",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-nnls",
+                    "r-purrr",
+                    "r-rcolorbrewer",
+                    "r-reshape2",
+                    "r-rtsne",
+                    "r-scales"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604448637304
+            },
+            "basename": "noarch/bioconductor-catalyst-1.14.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-complexheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-consensusclusterplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowcore",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowsom",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-circlize",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-drc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggrepel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggridges",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnls",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-purrr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-catalyst/1.14.0/noarch/bioconductor-catalyst-1.14.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-catalyst/1.14.0/noarch/bioconductor-catalyst-1.14.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6a3ea523ec215c2f1275f40a9befc8e5",
+            "ndownloads": 287,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 11620389,
+            "type": "conda",
+            "upload_time": "2020-11-04 00:20:16.513000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-complexheatmap >=2.6.0,<2.7.0",
+                    "bioconductor-consensusclusterplus >=1.54.0,<1.55.0",
+                    "bioconductor-flowcore >=2.2.0,<2.3.0",
+                    "bioconductor-flowsom >=1.22.0,<1.23.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-scater >=1.18.0,<1.19.0",
+                    "bioconductor-singlecellexperiment >=1.12.0,<1.13.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-circlize",
+                    "r-cowplot",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-drc",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-ggridges",
+                    "r-gridextra",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-nnls",
+                    "r-purrr",
+                    "r-rcolorbrewer",
+                    "r-reshape2",
+                    "r-rtsne",
+                    "r-scales"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617324320596
+            },
+            "basename": "noarch/bioconductor-catalyst-1.14.0-r40hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-complexheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-consensusclusterplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowcore",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowsom",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-circlize",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-drc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggrepel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggridges",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnls",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-purrr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-catalyst/1.14.0/noarch/bioconductor-catalyst-1.14.0-r40hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-catalyst/1.14.0/noarch/bioconductor-catalyst-1.14.0-r40hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4915e54dfd03036b4c12e08f1efca6ea",
+            "ndownloads": 2713,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 11608787,
+            "type": "conda",
+            "upload_time": "2021-04-02 00:55:50.333000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-complexheatmap >=2.8.0,<2.9.0",
+                    "bioconductor-consensusclusterplus >=1.56.0,<1.57.0",
+                    "bioconductor-flowcore >=2.4.0,<2.5.0",
+                    "bioconductor-flowsom >=2.0.0,<2.1.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "bioconductor-scater >=1.20.0,<1.21.0",
+                    "bioconductor-singlecellexperiment >=1.14.0,<1.15.0",
+                    "bioconductor-summarizedexperiment >=1.22.0,<1.23.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-circlize",
+                    "r-cowplot",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-drc",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-ggridges",
+                    "r-gridextra",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-nnls",
+                    "r-purrr",
+                    "r-rcolorbrewer",
+                    "r-reshape2",
+                    "r-rtsne",
+                    "r-scales"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622881843964
+            },
+            "basename": "noarch/bioconductor-catalyst-1.16.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-complexheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.8.0,<2.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-consensusclusterplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowcore",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.4.0,<2.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowsom",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-circlize",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-drc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggrepel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggridges",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnls",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-purrr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-catalyst/1.16.0/noarch/bioconductor-catalyst-1.16.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-catalyst/1.16.0/noarch/bioconductor-catalyst-1.16.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4a555d1811ff6909409230fe026e7b86",
+            "ndownloads": 2667,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 11640722,
+            "type": "conda",
+            "upload_time": "2021-06-05 08:42:56.926000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-complexheatmap >=2.10.0,<2.11.0",
+                    "bioconductor-consensusclusterplus >=1.58.0,<1.59.0",
+                    "bioconductor-flowcore >=2.6.0,<2.7.0",
+                    "bioconductor-flowsom >=2.2.0,<2.3.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-scater >=1.22.0,<1.23.0",
+                    "bioconductor-singlecellexperiment >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-circlize",
+                    "r-cowplot",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-drc",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-ggridges",
+                    "r-gridextra",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-nnls",
+                    "r-purrr",
+                    "r-rcolorbrewer",
+                    "r-reshape2",
+                    "r-rtsne",
+                    "r-scales"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636532226149
+            },
+            "basename": "noarch/bioconductor-catalyst-1.18.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-complexheatmap",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-consensusclusterplus",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowcore",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-flowsom",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-scater",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-singlecellexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-circlize",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cowplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-drc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggrepel",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggridges",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-nnls",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-purrr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rcolorbrewer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rtsne",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-scales",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-catalyst/1.18.0/noarch/bioconductor-catalyst-1.18.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-catalyst/1.18.0/noarch/bioconductor-catalyst-1.18.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bbbf349254254b510b80d79b319a2f7e",
+            "ndownloads": 2565,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 11683624,
+            "type": "conda",
+            "upload_time": "2021-11-10 08:30:13.534000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-complexheatmap >=2.14.0,<2.15.0",
+                    "bioconductor-consensusclusterplus >=1.62.0,<1.63.0",
+                    "bioconductor-flowcore >=2.10.0,<2.11.0",
+                    "bioconductor-flowsom >=2.6.0,<2.7.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-scater >=1.26.0,<1.27.0",
+                    "bioconductor-singlecellexperiment >=1.20.0,<1.21.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-circlize",
+                    "r-cowplot",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-drc",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-ggridges",
+                    "r-gridextra",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-nnls",
+                    "r-purrr",
+                    "r-rcolorbrewer",
+                    "r-reshape2",
+                    "r-rtsne",
+                    "r-scales"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667723999583
+            },
+            "basename": "noarch/bioconductor-catalyst-1.22.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-catalyst/1.22.0/noarch/bioconductor-catalyst-1.22.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-catalyst/1.22.0/noarch/bioconductor-catalyst-1.22.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4ebd84e7325fb510ed5f200405be8595",
+            "ndownloads": 1901,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 11736776,
+            "type": "conda",
+            "upload_time": "2022-11-06 08:46:20.498000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-complexheatmap >=2.16.0,<2.17.0",
+                    "bioconductor-consensusclusterplus >=1.64.0,<1.65.0",
+                    "bioconductor-flowcore >=2.12.0,<2.13.0",
+                    "bioconductor-flowsom >=2.8.0,<2.9.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "bioconductor-scater >=1.28.0,<1.29.0",
+                    "bioconductor-singlecellexperiment >=1.22.0,<1.23.0",
+                    "bioconductor-summarizedexperiment >=1.30.0,<1.31.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-circlize",
+                    "r-cowplot",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-drc",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-ggridges",
+                    "r-gridextra",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-nnls",
+                    "r-purrr",
+                    "r-rcolorbrewer",
+                    "r-reshape2",
+                    "r-rtsne",
+                    "r-scales"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689701543075
+            },
+            "basename": "noarch/bioconductor-catalyst-1.24.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-catalyst/1.24.0/noarch/bioconductor-catalyst-1.24.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-catalyst/1.24.0/noarch/bioconductor-catalyst-1.24.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "da710cff8e812e214d2b7dd099a908e8",
+            "ndownloads": 1320,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 11760107,
+            "type": "conda",
+            "upload_time": "2023-07-18 17:38:09.632000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-complexheatmap >=2.18.0,<2.19.0",
+                    "bioconductor-consensusclusterplus >=1.66.0,<1.67.0",
+                    "bioconductor-flowcore >=2.14.0,<2.15.0",
+                    "bioconductor-flowsom >=2.10.0,<2.11.0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-scater >=1.30.0,<1.31.0",
+                    "bioconductor-singlecellexperiment >=1.24.0,<1.25.0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-circlize",
+                    "r-cowplot",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-drc",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-ggridges",
+                    "r-gridextra",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-nnls",
+                    "r-purrr",
+                    "r-rcolorbrewer",
+                    "r-reshape2",
+                    "r-rtsne",
+                    "r-scales"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1703218253169
+            },
+            "basename": "noarch/bioconductor-catalyst-1.26.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-catalyst/1.26.0/noarch/bioconductor-catalyst-1.26.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-catalyst/1.26.0/noarch/bioconductor-catalyst-1.26.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7e7d428b74a694d2aed0414a6709711c",
+            "ndownloads": 1087,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 11705818,
+            "type": "conda",
+            "upload_time": "2023-12-22 04:15:23.652000+00:00",
+            "version": "1.26.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-complexheatmap >=2.22.0,<2.23.0",
+                    "bioconductor-consensusclusterplus >=1.70.0,<1.71.0",
+                    "bioconductor-flowcore >=2.18.0,<2.19.0",
+                    "bioconductor-flowsom >=2.14.0,<2.15.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-scater >=1.34.0,<1.35.0",
+                    "bioconductor-singlecellexperiment >=1.28.0,<1.29.0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-circlize",
+                    "r-cowplot",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-drc",
+                    "r-ggplot2",
+                    "r-ggrepel",
+                    "r-ggridges",
+                    "r-gridextra",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-nnls",
+                    "r-purrr",
+                    "r-rcolorbrewer",
+                    "r-reshape2",
+                    "r-rtsne",
+                    "r-scales"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1734928542316
+            },
+            "basename": "noarch/bioconductor-catalyst-1.30.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-catalyst/1.30.0/noarch/bioconductor-catalyst-1.30.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-catalyst/1.30.0/noarch/bioconductor-catalyst-1.30.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "073533bce326280ae4453bca64523a64",
+            "ndownloads": 312,
+            "owner": "bioconda",
+            "sha256": "33b4aa1e53a976a926a71ed410322d13572b571e396220a0b7d3d7a4ef4a49f6",
+            "size": 12730955,
+            "type": "conda",
+            "upload_time": "2024-12-23 04:38:40.156000+00:00",
+            "version": "1.30.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-catalyst",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/CATALYST.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-catalyst",
+    "id": "5c2e12ad37f33913415d8e42",
+    "latest_version": "1.30.0",
+    "license": "GPL (>=2)",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:11.255000+00:00",
+    "name": "bioconductor-catalyst",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.30.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-catalyst/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-catalyst/1.8.6",
+            "version": "1.8.6"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-catalyst/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-catalyst/1.12.1",
+            "version": "1.12.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-catalyst/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-catalyst/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-catalyst/1.18.0",
+            "version": "1.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-catalyst/1.22.0",
+            "version": "1.22.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-catalyst/1.24.0",
+            "version": "1.24.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-catalyst/1.26.0",
+            "version": "1.26.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-catalyst/1.30.0",
+            "version": "1.30.0"
+        }
+    ],
+    "revision": 23,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Cytometry dATa anALYSis Tools",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-catalyst",
+    "versions": [
+        "1.6.0",
+        "1.8.6",
+        "1.10.0",
+        "1.12.1",
+        "1.14.0",
+        "1.16.0",
+        "1.18.0",
+        "1.22.0",
+        "1.24.0",
+        "1.26.0",
+        "1.30.0"
+    ],
+    "watchers": 1
+}

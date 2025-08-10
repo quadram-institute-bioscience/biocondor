@@ -1,0 +1,827 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r44hdfd78af_0",
+        "r41hdfd78af_0",
+        "r36_1",
+        "r40_0",
+        "r36_0",
+        "r42hdfd78af_0",
+        "r43hdfd78af_0",
+        "r40hdfd78af_1"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-07-24 16:05:21.139000+00:00",
+    "description": "Based on the standard DataFrame metaphor, we are trying to implement the feature of delayed operation on the DelayedDataFrame, with a slot of lazyIndex, which saves the mapping indexes for each column of DelayedDataFrame. Methods like show, validity check, [/[[ subsetting, rbind/cbind are implemented for DelayedDataFrame to be operated around lazyIndex. The listData slot stays untouched until a realization call e.g., DataFrame constructor OR as.list() is invoked.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "bioconductor-delayedarray >=0.10.0,<0.11.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1563984074167
+            },
+            "basename": "noarch/bioconductor-delayeddataframe-1.0.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0,<0.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-delayeddataframe/1.0.0/noarch/bioconductor-delayeddataframe-1.0.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.0.0/noarch/bioconductor-delayeddataframe-1.0.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4c955f964521a200b31128880744d04f",
+            "ndownloads": 2510,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 850708,
+            "type": "conda",
+            "upload_time": "2019-07-24 16:05:21.900000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-delayedarray >=0.12.0,<0.13.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572824285827
+            },
+            "basename": "noarch/bioconductor-delayeddataframe-1.2.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.0,<0.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-delayeddataframe/1.2.0/noarch/bioconductor-delayeddataframe-1.2.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.2.0/noarch/bioconductor-delayeddataframe-1.2.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "884ff7b9240acb070a6d1878b73cbdaa",
+            "ndownloads": 2671,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 870630,
+            "type": "conda",
+            "upload_time": "2019-11-03 23:43:21.177000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.34.0,<0.35.0",
+                    "bioconductor-delayedarray >=0.14.0,<0.15.0",
+                    "bioconductor-s4vectors >=0.26.0,<0.27.0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589067591706
+            },
+            "basename": "noarch/bioconductor-delayeddataframe-1.4.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.34.0,<0.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.14.0,<0.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-delayeddataframe/1.4.0/noarch/bioconductor-delayeddataframe-1.4.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.4.0/noarch/bioconductor-delayeddataframe-1.4.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6f903a862e71f3290b84b61eb5c2db05",
+            "ndownloads": 2659,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 926832,
+            "type": "conda",
+            "upload_time": "2020-05-09 23:45:07.540000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-delayedarray >=0.16.0,<0.17.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604009384402
+            },
+            "basename": "noarch/bioconductor-delayeddataframe-1.6.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.16.0,<0.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-delayeddataframe/1.6.0/noarch/bioconductor-delayeddataframe-1.6.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.6.0/noarch/bioconductor-delayeddataframe-1.6.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ba9a8218f5ae0fb42ac72e9b9912e6b3",
+            "ndownloads": 254,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 908873,
+            "type": "conda",
+            "upload_time": "2020-10-29 22:14:04.291000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-delayedarray >=0.16.0,<0.17.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1616898115943
+            },
+            "basename": "noarch/bioconductor-delayeddataframe-1.6.0-r40hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.16.0,<0.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-delayeddataframe/1.6.0/noarch/bioconductor-delayeddataframe-1.6.0-r40hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.6.0/noarch/bioconductor-delayeddataframe-1.6.0-r40hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "38fc81f5534e5c85524e7917b676b923",
+            "ndownloads": 2617,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 910145,
+            "type": "conda",
+            "upload_time": "2021-03-28 02:27:53.444000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.38.0,<0.39.0",
+                    "bioconductor-delayedarray >=0.18.0,<0.19.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622500127562
+            },
+            "basename": "noarch/bioconductor-delayeddataframe-1.8.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.38.0,<0.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.0,<0.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-delayeddataframe/1.8.0/noarch/bioconductor-delayeddataframe-1.8.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.8.0/noarch/bioconductor-delayeddataframe-1.8.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f1d7fdb49116af38ecb6c3a9da3f1831",
+            "ndownloads": 2634,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 911506,
+            "type": "conda",
+            "upload_time": "2021-05-31 22:34:56.256000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-delayedarray >=0.20.0,<0.21.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1635903692324
+            },
+            "basename": "noarch/bioconductor-delayeddataframe-1.10.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-delayeddataframe/1.10.0/noarch/bioconductor-delayeddataframe-1.10.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.10.0/noarch/bioconductor-delayeddataframe-1.10.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "68492e00b6dd5bba7a9966972ae88aac",
+            "ndownloads": 2530,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 915529,
+            "type": "conda",
+            "upload_time": "2021-11-03 01:48:42.633000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-delayedarray >=0.24.0,<0.25.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "r-base >=4.2,<4.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667532095079
+            },
+            "basename": "noarch/bioconductor-delayeddataframe-1.14.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-delayeddataframe/1.14.0/noarch/bioconductor-delayeddataframe-1.14.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.14.0/noarch/bioconductor-delayeddataframe-1.14.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b5126ae3b20b96d0ad829a13c4739e10",
+            "ndownloads": 1861,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 918811,
+            "type": "conda",
+            "upload_time": "2022-11-04 03:25:32.064000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.46.0,<0.47.0",
+                    "bioconductor-delayedarray >=0.26.0,<0.27.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "r-base >=4.3,<4.4.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689069679464
+            },
+            "basename": "noarch/bioconductor-delayeddataframe-1.16.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-delayeddataframe/1.16.0/noarch/bioconductor-delayeddataframe-1.16.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.16.0/noarch/bioconductor-delayeddataframe-1.16.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4c35c630ed64bc60398c5bc0c6e0710c",
+            "ndownloads": 1363,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 924863,
+            "type": "conda",
+            "upload_time": "2023-07-11 10:04:20.570000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.48.0,<0.49.0",
+                    "bioconductor-delayedarray >=0.28.0,<0.29.0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "r-base >=4.3,<4.4.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1702030137142
+            },
+            "basename": "noarch/bioconductor-delayeddataframe-1.18.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-delayeddataframe/1.18.0/noarch/bioconductor-delayeddataframe-1.18.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.18.0/noarch/bioconductor-delayeddataframe-1.18.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b37698ef23f27a5053189ae4ac029635",
+            "ndownloads": 1024,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 968243,
+            "type": "conda",
+            "upload_time": "2023-12-08 10:10:48.240000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-delayedarray >=0.32.0,<0.33.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "r-base >=4.4,<4.5.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1734705940260
+            },
+            "basename": "noarch/bioconductor-delayeddataframe-1.22.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-delayeddataframe/1.22.0/noarch/bioconductor-delayeddataframe-1.22.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.22.0/noarch/bioconductor-delayeddataframe-1.22.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c4277e1415e2b340df7f3cd931e2b157",
+            "ndownloads": 283,
+            "owner": "bioconda",
+            "sha256": "ad647bce6bf065c046f8f84e325e3736cd0094f3c912767a8aded383115dc2ba",
+            "size": 948570,
+            "type": "conda",
+            "upload_time": "2024-12-20 14:47:14.773000+00:00",
+            "version": "1.22.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-delayeddataframe",
+    "home": "https://bioconductor.org/packages/3.9/bioc/html/DelayedDataFrame.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-delayeddataframe",
+    "id": "5d3881c10755547d508663b9",
+    "latest_version": "1.22.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:17.711000+00:00",
+    "name": "bioconductor-delayeddataframe",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.22.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.18.0",
+            "version": "1.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-delayeddataframe/1.22.0",
+            "version": "1.22.0"
+        }
+    ],
+    "revision": 21,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Delayed operation on DataFrame using standard DataFrame metaphor",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-delayeddataframe",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.4.0",
+        "1.6.0",
+        "1.8.0",
+        "1.10.0",
+        "1.14.0",
+        "1.16.0",
+        "1.18.0",
+        "1.22.0"
+    ],
+    "watchers": 1
+}

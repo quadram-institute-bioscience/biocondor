@@ -1,0 +1,2882 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r42ha9d7317_1",
+        "r36h01d97ff_1",
+        "r41hc0cfd56_2",
+        "r42hc0cfd56_0",
+        "r40hd029910_1",
+        "r42h3be46a4_0",
+        "r41h68a2ddb_0",
+        "r40h68a2ddb_1",
+        "r43h4c50009_0",
+        "r41haba8685_1",
+        "r40h037d062_0",
+        "r41h3be46a4_2",
+        "r36h516909a_1",
+        "r42h4c50009_1",
+        "r40h8909d69_0",
+        "r43ha9d7317_0",
+        "r36h01d97ff_0",
+        "r41hd029910_0",
+        "r36h516909a_0",
+        "r41h5c21468_1"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2019-07-26 12:39:33.870000+00:00",
+    "description": "Analysis and plotting of array CGH data. Allows usage of Circular Binary Segementation, wavelet-based smoothing (both as in Liu et al., and HaarSeg as in Ben-Yaacov and Eldar), HMM, BioHMM, GLAD, CGHseg. Most computations are parallelized (either via forking or with clusters, including MPI and sockets clusters) and use ff for storing data.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-acgh >=1.62.0,<1.63.0",
+                    "bioconductor-dnacopy >=1.58.0,<1.59.0",
+                    "bioconductor-glad >=2.48.0,<2.49.0",
+                    "bioconductor-snapcgh >=1.54.0,<1.55.0",
+                    "bioconductor-tilingarray >=1.62.0,<1.63.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-ffbase",
+                    "r-waveslim"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1564144704485
+            },
+            "basename": "osx-64/bioconductor-adacgh2-2.24.0-r36h01d97ff_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-acgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-glad",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snapcgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tilingarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ffbase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-waveslim",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.24.0/osx-64/bioconductor-adacgh2-2.24.0-r36h01d97ff_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.24.0/osx-64/bioconductor-adacgh2-2.24.0-r36h01d97ff_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5bceff2fb314978a95f219b82f38b908",
+            "ndownloads": 4052,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1205145,
+            "type": "conda",
+            "upload_time": "2019-07-26 12:39:36.603000+00:00",
+            "version": "2.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-acgh >=1.62.0,<1.63.0",
+                    "bioconductor-dnacopy >=1.58.0,<1.59.0",
+                    "bioconductor-glad >=2.48.0,<2.49.0",
+                    "bioconductor-snapcgh >=1.54.0,<1.55.0",
+                    "bioconductor-tilingarray >=1.62.0,<1.63.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-ffbase",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1565137684235
+            },
+            "basename": "linux-64/bioconductor-adacgh2-2.24.0-r36h516909a_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-acgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-glad",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snapcgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tilingarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ffbase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-waveslim",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.24.0/linux-64/bioconductor-adacgh2-2.24.0-r36h516909a_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.24.0/linux-64/bioconductor-adacgh2-2.24.0-r36h516909a_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "780e44957acfcad7c93a1c3f11b954f4",
+            "ndownloads": 333,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1211688,
+            "type": "conda",
+            "upload_time": "2019-08-07 00:33:27.400000+00:00",
+            "version": "2.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-acgh >=1.64.0,<1.65.0",
+                    "bioconductor-dnacopy >=1.60.0,<1.61.0",
+                    "bioconductor-glad >=2.50.0,<2.51.0",
+                    "bioconductor-snapcgh >=1.56.0,<1.57.0",
+                    "bioconductor-tilingarray >=1.64.0,<1.65.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-ffbase",
+                    "r-waveslim"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572654818291
+            },
+            "basename": "osx-64/bioconductor-adacgh2-2.26.0-r36h01d97ff_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-acgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-glad",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snapcgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tilingarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ffbase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-waveslim",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.26.0/osx-64/bioconductor-adacgh2-2.26.0-r36h01d97ff_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.26.0/osx-64/bioconductor-adacgh2-2.26.0-r36h01d97ff_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bdd14630d12c949e411bfabc87358bf0",
+            "ndownloads": 3857,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1214428,
+            "type": "conda",
+            "upload_time": "2019-11-02 00:34:35.422000+00:00",
+            "version": "2.26.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h516909a_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-acgh >=1.64.0,<1.65.0",
+                    "bioconductor-dnacopy >=1.60.0,<1.61.0",
+                    "bioconductor-glad >=2.50.0,<2.51.0",
+                    "bioconductor-snapcgh >=1.56.0,<1.57.0",
+                    "bioconductor-tilingarray >=1.64.0,<1.65.0",
+                    "libgcc-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-ffbase",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572898872405
+            },
+            "basename": "linux-64/bioconductor-adacgh2-2.26.0-r36h516909a_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-acgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-glad",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snapcgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tilingarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ffbase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-waveslim",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.26.0/linux-64/bioconductor-adacgh2-2.26.0-r36h516909a_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.26.0/linux-64/bioconductor-adacgh2-2.26.0-r36h516909a_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2211955c29eda50efaf73cf10ab82362",
+            "ndownloads": 321,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1219486,
+            "type": "conda",
+            "upload_time": "2019-11-04 20:26:32.497000+00:00",
+            "version": "2.26.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h8909d69_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-acgh >=1.66.0,<1.67.0",
+                    "bioconductor-dnacopy >=1.62.0,<1.63.0",
+                    "bioconductor-glad >=2.52.0,<2.53.0",
+                    "bioconductor-snapcgh >=1.58.0,<1.59.0",
+                    "bioconductor-tilingarray >=1.66.0,<1.67.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-ffbase",
+                    "r-waveslim"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1589185576989
+            },
+            "basename": "osx-64/bioconductor-adacgh2-2.28.0-r40h8909d69_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-acgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-glad",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snapcgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tilingarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ffbase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-waveslim",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.28.0/osx-64/bioconductor-adacgh2-2.28.0-r40h8909d69_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.28.0/osx-64/bioconductor-adacgh2-2.28.0-r40h8909d69_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "32d77551bbdb247814d577f6c35caeac",
+            "ndownloads": 3403,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1212109,
+            "type": "conda",
+            "upload_time": "2020-05-11 08:27:50.541000+00:00",
+            "version": "2.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h037d062_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-acgh >=1.66.0,<1.67.0",
+                    "bioconductor-dnacopy >=1.62.0,<1.63.0",
+                    "bioconductor-glad >=2.52.0,<2.53.0",
+                    "bioconductor-snapcgh >=1.58.0,<1.59.0",
+                    "bioconductor-tilingarray >=1.66.0,<1.67.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.3.0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-ffbase",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1589353743238
+            },
+            "basename": "linux-64/bioconductor-adacgh2-2.28.0-r40h037d062_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-acgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-glad",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snapcgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tilingarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ffbase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-waveslim",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.28.0/linux-64/bioconductor-adacgh2-2.28.0-r40h037d062_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.28.0/linux-64/bioconductor-adacgh2-2.28.0-r40h037d062_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "395516818d4d2fbc558aecd57d48d4ed",
+            "ndownloads": 302,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1216136,
+            "type": "conda",
+            "upload_time": "2020-05-13 07:14:39.679000+00:00",
+            "version": "2.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h8909d69_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-acgh >=1.68.0,<1.69.0",
+                    "bioconductor-dnacopy >=1.64.0,<1.65.0",
+                    "bioconductor-glad >=2.54.0,<2.55.0",
+                    "bioconductor-snapcgh >=1.60.0,<1.61.0",
+                    "bioconductor-tilingarray >=1.68.0,<1.69.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-ffbase",
+                    "r-waveslim"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1604148745346
+            },
+            "basename": "osx-64/bioconductor-adacgh2-2.30.0-r40h8909d69_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-acgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-glad",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snapcgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tilingarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ffbase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-waveslim",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.30.0/osx-64/bioconductor-adacgh2-2.30.0-r40h8909d69_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.30.0/osx-64/bioconductor-adacgh2-2.30.0-r40h8909d69_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "555c0d26b8c9ab7b857a919292c785c0",
+            "ndownloads": 3007,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1226790,
+            "type": "conda",
+            "upload_time": "2020-10-31 12:53:47.693000+00:00",
+            "version": "2.30.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h037d062_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-acgh >=1.68.0,<1.69.0",
+                    "bioconductor-dnacopy >=1.64.0,<1.65.0",
+                    "bioconductor-glad >=2.54.0,<2.55.0",
+                    "bioconductor-snapcgh >=1.60.0,<1.61.0",
+                    "bioconductor-tilingarray >=1.68.0,<1.69.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-ffbase",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1604268249849
+            },
+            "basename": "linux-64/bioconductor-adacgh2-2.30.0-r40h037d062_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-acgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-glad",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snapcgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tilingarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ffbase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-waveslim",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.30.0/linux-64/bioconductor-adacgh2-2.30.0-r40h037d062_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.30.0/linux-64/bioconductor-adacgh2-2.30.0-r40h037d062_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "946ca811d73bc0cba68d73d51c5c02fd",
+            "ndownloads": 270,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1232531,
+            "type": "conda",
+            "upload_time": "2020-11-01 22:12:03.790000+00:00",
+            "version": "2.30.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h68a2ddb_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-acgh >=1.68.0,<1.69.0",
+                    "bioconductor-dnacopy >=1.64.0,<1.65.0",
+                    "bioconductor-glad >=2.54.0,<2.55.0",
+                    "bioconductor-snapcgh >=1.60.0,<1.61.0",
+                    "bioconductor-tilingarray >=1.68.0,<1.69.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-ffbase",
+                    "r-waveslim"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1616975556395
+            },
+            "basename": "osx-64/bioconductor-adacgh2-2.30.0-r40h68a2ddb_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-acgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-glad",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snapcgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tilingarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ffbase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-waveslim",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.30.0/osx-64/bioconductor-adacgh2-2.30.0-r40h68a2ddb_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.30.0/osx-64/bioconductor-adacgh2-2.30.0-r40h68a2ddb_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "455e3fea19d575cf209e0be936659189",
+            "ndownloads": 75,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1229407,
+            "type": "conda",
+            "upload_time": "2021-03-28 23:54:03.147000+00:00",
+            "version": "2.30.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40hd029910_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-acgh >=1.68.0,<1.69.0",
+                    "bioconductor-dnacopy >=1.64.0,<1.65.0",
+                    "bioconductor-glad >=2.54.0,<2.55.0",
+                    "bioconductor-snapcgh >=1.60.0,<1.61.0",
+                    "bioconductor-tilingarray >=1.68.0,<1.69.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-ffbase",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1617275172091
+            },
+            "basename": "linux-64/bioconductor-adacgh2-2.30.0-r40hd029910_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-acgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-glad",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snapcgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tilingarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ffbase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-waveslim",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.30.0/linux-64/bioconductor-adacgh2-2.30.0-r40hd029910_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.30.0/linux-64/bioconductor-adacgh2-2.30.0-r40hd029910_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "663d8221c30100d45800f8b35be12fac",
+            "ndownloads": 272,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1216574,
+            "type": "conda",
+            "upload_time": "2021-04-01 11:13:11.621000+00:00",
+            "version": "2.30.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h68a2ddb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-acgh >=1.70.0,<1.71.0",
+                    "bioconductor-dnacopy >=1.66.0,<1.67.0",
+                    "bioconductor-glad >=2.56.0,<2.57.0",
+                    "bioconductor-snapcgh >=1.62.0,<1.63.0",
+                    "bioconductor-tilingarray >=1.70.0,<1.71.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-ffbase",
+                    "r-waveslim"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1622508439186
+            },
+            "basename": "osx-64/bioconductor-adacgh2-2.32.0-r41h68a2ddb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-acgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70.0,<1.71.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-glad",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.56.0,<2.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snapcgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tilingarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70.0,<1.71.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ffbase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-waveslim",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.32.0/osx-64/bioconductor-adacgh2-2.32.0-r41h68a2ddb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.32.0/osx-64/bioconductor-adacgh2-2.32.0-r41h68a2ddb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b7b890d3153f9bd0fd2025ee1337d2c7",
+            "ndownloads": 2655,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1192822,
+            "type": "conda",
+            "upload_time": "2021-06-01 00:48:47.820000+00:00",
+            "version": "2.32.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hd029910_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-acgh >=1.70.0,<1.71.0",
+                    "bioconductor-dnacopy >=1.66.0,<1.67.0",
+                    "bioconductor-glad >=2.56.0,<2.57.0",
+                    "bioconductor-snapcgh >=1.62.0,<1.63.0",
+                    "bioconductor-tilingarray >=1.70.0,<1.71.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-ffbase",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1622821537933
+            },
+            "basename": "linux-64/bioconductor-adacgh2-2.32.0-r41hd029910_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-acgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70.0,<1.71.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-glad",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.56.0,<2.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snapcgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tilingarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70.0,<1.71.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ffbase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-waveslim",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.32.0/linux-64/bioconductor-adacgh2-2.32.0-r41hd029910_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.32.0/linux-64/bioconductor-adacgh2-2.32.0-r41hd029910_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b5a8cdddf9d8637fd843b0f8272a593e",
+            "ndownloads": 265,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1190739,
+            "type": "conda",
+            "upload_time": "2021-06-04 15:53:00.711000+00:00",
+            "version": "2.32.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h68a2ddb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-acgh >=1.72.0,<1.73.0",
+                    "bioconductor-dnacopy >=1.68.0,<1.69.0",
+                    "bioconductor-glad >=2.58.0,<2.59.0",
+                    "bioconductor-snapcgh >=1.64.0,<1.65.0",
+                    "bioconductor-tilingarray >=1.72.0,<1.73.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-ffbase",
+                    "r-waveslim"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1636020869744
+            },
+            "basename": "osx-64/bioconductor-adacgh2-2.34.0-r41h68a2ddb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-acgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-glad",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snapcgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tilingarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ffbase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-waveslim",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.34.0/osx-64/bioconductor-adacgh2-2.34.0-r41h68a2ddb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.34.0/osx-64/bioconductor-adacgh2-2.34.0-r41h68a2ddb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6cbf12a3e8a906f0dc582dcb90bc0574",
+            "ndownloads": 265,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1200763,
+            "type": "conda",
+            "upload_time": "2021-11-04 10:16:14.936000+00:00",
+            "version": "2.34.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hd029910_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-acgh >=1.72.0,<1.73.0",
+                    "bioconductor-dnacopy >=1.68.0,<1.69.0",
+                    "bioconductor-glad >=2.58.0,<2.59.0",
+                    "bioconductor-snapcgh >=1.64.0,<1.65.0",
+                    "bioconductor-tilingarray >=1.72.0,<1.73.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-ffbase",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1636325362947
+            },
+            "basename": "linux-64/bioconductor-adacgh2-2.34.0-r41hd029910_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-acgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-glad",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snapcgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tilingarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ffbase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-waveslim",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.34.0/linux-64/bioconductor-adacgh2-2.34.0-r41hd029910_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.34.0/linux-64/bioconductor-adacgh2-2.34.0-r41hd029910_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "896572321b1ad6bea66d5489e2e88306",
+            "ndownloads": 223,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1192861,
+            "type": "conda",
+            "upload_time": "2021-11-07 22:57:12.722000+00:00",
+            "version": "2.34.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h5c21468_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-acgh >=1.72.0,<1.73.0",
+                    "bioconductor-dnacopy >=1.68.0,<1.69.0",
+                    "bioconductor-glad >=2.58.0,<2.59.0",
+                    "bioconductor-snapcgh >=1.64.0,<1.65.0",
+                    "bioconductor-tilingarray >=1.72.0,<1.73.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-ffbase",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1645774947756
+            },
+            "basename": "linux-64/bioconductor-adacgh2-2.34.0-r41h5c21468_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-acgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-glad",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snapcgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tilingarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ffbase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-waveslim",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.34.0/linux-64/bioconductor-adacgh2-2.34.0-r41h5c21468_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.34.0/linux-64/bioconductor-adacgh2-2.34.0-r41h5c21468_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6fd9f76a6ada2c42b40ac2da1368f7ee",
+            "ndownloads": 218,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1192993,
+            "type": "conda",
+            "upload_time": "2022-02-25 07:51:15.984000+00:00",
+            "version": "2.34.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41haba8685_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-acgh >=1.72.0,<1.73.0",
+                    "bioconductor-dnacopy >=1.68.0,<1.69.0",
+                    "bioconductor-glad >=2.58.0,<2.59.0",
+                    "bioconductor-snapcgh >=1.64.0,<1.65.0",
+                    "bioconductor-tilingarray >=1.72.0,<1.73.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-ffbase",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1645803210144
+            },
+            "basename": "osx-64/bioconductor-adacgh2-2.34.0-r41haba8685_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-acgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dnacopy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-glad",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-snapcgh",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-tilingarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-bit",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-cluster",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ff",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ffbase",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-waveslim",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.34.0/osx-64/bioconductor-adacgh2-2.34.0-r41haba8685_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.34.0/osx-64/bioconductor-adacgh2-2.34.0-r41haba8685_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1738bbd5d123c2a7610abecc1d2aeea2",
+            "ndownloads": 2113,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1201836,
+            "type": "conda",
+            "upload_time": "2022-02-25 15:35:27.601000+00:00",
+            "version": "2.34.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hc0cfd56_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-acgh >=1.72.0,<1.73.0",
+                    "bioconductor-dnacopy >=1.68.0,<1.69.0",
+                    "bioconductor-glad >=2.58.0,<2.59.0",
+                    "bioconductor-snapcgh >=1.64.0,<1.65.0",
+                    "bioconductor-tilingarray >=1.72.0,<1.73.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-ffbase",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1663929282178
+            },
+            "basename": "linux-64/bioconductor-adacgh2-2.34.0-r41hc0cfd56_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.34.0/linux-64/bioconductor-adacgh2-2.34.0-r41hc0cfd56_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.34.0/linux-64/bioconductor-adacgh2-2.34.0-r41hc0cfd56_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c0c02c3fb5cbf6b8dd51a4530ddf1368",
+            "ndownloads": 207,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1193768,
+            "type": "conda",
+            "upload_time": "2022-09-23 10:39:42.419000+00:00",
+            "version": "2.34.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h3be46a4_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-acgh >=1.72.0,<1.73.0",
+                    "bioconductor-dnacopy >=1.68.0,<1.69.0",
+                    "bioconductor-glad >=2.58.0,<2.59.0",
+                    "bioconductor-snapcgh >=1.64.0,<1.65.0",
+                    "bioconductor-tilingarray >=1.72.0,<1.73.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-ffbase",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1663949761381
+            },
+            "basename": "osx-64/bioconductor-adacgh2-2.34.0-r41h3be46a4_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.34.0/osx-64/bioconductor-adacgh2-2.34.0-r41h3be46a4_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.34.0/osx-64/bioconductor-adacgh2-2.34.0-r41h3be46a4_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "fe5411c3e9fd70fabad0d9b29aac1b03",
+            "ndownloads": 72,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1197655,
+            "type": "conda",
+            "upload_time": "2022-09-23 16:17:30.745000+00:00",
+            "version": "2.34.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42h3be46a4_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-acgh >=1.76.0,<1.77.0",
+                    "bioconductor-dnacopy >=1.72.0,<1.73.0",
+                    "bioconductor-glad >=2.62.0,<2.63.0",
+                    "bioconductor-snapcgh >=1.68.0,<1.69.0",
+                    "bioconductor-tilingarray >=1.76.0,<1.77.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1667959351399
+            },
+            "basename": "osx-64/bioconductor-adacgh2-2.38.0-r42h3be46a4_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.38.0/osx-64/bioconductor-adacgh2-2.38.0-r42h3be46a4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.38.0/osx-64/bioconductor-adacgh2-2.38.0-r42h3be46a4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4f7eb5049f3c60c20a0cebf524acf98f",
+            "ndownloads": 457,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1128126,
+            "type": "conda",
+            "upload_time": "2022-11-09 02:04:07.315000+00:00",
+            "version": "2.38.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc0cfd56_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-acgh >=1.76.0,<1.77.0",
+                    "bioconductor-dnacopy >=1.72.0,<1.73.0",
+                    "bioconductor-glad >=2.62.0,<2.63.0",
+                    "bioconductor-snapcgh >=1.68.0,<1.69.0",
+                    "bioconductor-tilingarray >=1.76.0,<1.77.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1668013060827
+            },
+            "basename": "linux-64/bioconductor-adacgh2-2.38.0-r42hc0cfd56_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.38.0/linux-64/bioconductor-adacgh2-2.38.0-r42hc0cfd56_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.38.0/linux-64/bioconductor-adacgh2-2.38.0-r42hc0cfd56_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "de7366832e7f94191399a80309b53d77",
+            "ndownloads": 181,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1129709,
+            "type": "conda",
+            "upload_time": "2022-11-09 17:01:43.603000+00:00",
+            "version": "2.38.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42ha9d7317_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-acgh >=1.76.0,<1.77.0",
+                    "bioconductor-dnacopy >=1.72.0,<1.73.0",
+                    "bioconductor-glad >=2.62.0,<2.63.0",
+                    "bioconductor-snapcgh >=1.68.0,<1.69.0",
+                    "bioconductor-tilingarray >=1.76.0,<1.77.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1685784316507
+            },
+            "basename": "linux-64/bioconductor-adacgh2-2.38.0-r42ha9d7317_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.38.0/linux-64/bioconductor-adacgh2-2.38.0-r42ha9d7317_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.38.0/linux-64/bioconductor-adacgh2-2.38.0-r42ha9d7317_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "da9b88786b98aa48d727a4bf962c8a80",
+            "ndownloads": 156,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1143620,
+            "type": "conda",
+            "upload_time": "2023-06-03 09:29:12.504000+00:00",
+            "version": "2.38.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42h4c50009_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-acgh >=1.76.0,<1.77.0",
+                    "bioconductor-dnacopy >=1.72.0,<1.73.0",
+                    "bioconductor-glad >=2.62.0,<2.63.0",
+                    "bioconductor-snapcgh >=1.68.0,<1.69.0",
+                    "bioconductor-tilingarray >=1.76.0,<1.77.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1686057025357
+            },
+            "basename": "osx-64/bioconductor-adacgh2-2.38.0-r42h4c50009_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.38.0/osx-64/bioconductor-adacgh2-2.38.0-r42h4c50009_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.38.0/osx-64/bioconductor-adacgh2-2.38.0-r42h4c50009_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "42be0a36429c20d3ab364256502732db",
+            "ndownloads": 1305,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1127232,
+            "type": "conda",
+            "upload_time": "2023-06-06 13:11:57.090000+00:00",
+            "version": "2.38.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43h4c50009_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-acgh >=1.78.0,<1.79.0",
+                    "bioconductor-dnacopy >=1.74.0,<1.75.0",
+                    "bioconductor-glad >=2.64.0,<2.65.0",
+                    "bioconductor-snapcgh >=1.70.0,<1.71.0",
+                    "bioconductor-tilingarray >=1.78.0,<1.79.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1689291858420
+            },
+            "basename": "osx-64/bioconductor-adacgh2-2.40.0-r43h4c50009_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.40.0/osx-64/bioconductor-adacgh2-2.40.0-r43h4c50009_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.40.0/osx-64/bioconductor-adacgh2-2.40.0-r43h4c50009_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4228c4ed84290da32161e8b6262cd76f",
+            "ndownloads": 1227,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1139092,
+            "type": "conda",
+            "upload_time": "2023-07-13 23:45:47.445000+00:00",
+            "version": "2.40.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43ha9d7317_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-acgh >=1.78.0,<1.79.0",
+                    "bioconductor-dnacopy >=1.74.0,<1.75.0",
+                    "bioconductor-glad >=2.64.0,<2.65.0",
+                    "bioconductor-snapcgh >=1.70.0,<1.71.0",
+                    "bioconductor-tilingarray >=1.78.0,<1.79.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1689594572930
+            },
+            "basename": "linux-64/bioconductor-adacgh2-2.40.0-r43ha9d7317_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.40.0/linux-64/bioconductor-adacgh2-2.40.0-r43ha9d7317_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.40.0/linux-64/bioconductor-adacgh2-2.40.0-r43ha9d7317_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c175d27112d34f5e0abb7e478541d120",
+            "ndownloads": 149,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1138130,
+            "type": "conda",
+            "upload_time": "2023-07-17 11:53:24.038000+00:00",
+            "version": "2.40.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43h4c50009_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-acgh >=1.80.0,<1.81.0",
+                    "bioconductor-acgh >=1.80.0,<1.81.0a0",
+                    "bioconductor-dnacopy >=1.76.0,<1.77.0",
+                    "bioconductor-dnacopy >=1.76.0,<1.77.0a0",
+                    "bioconductor-glad >=2.66.0,<2.67.0",
+                    "bioconductor-glad >=2.66.0,<2.67.0a0",
+                    "bioconductor-snapcgh >=1.72.0,<1.73.0",
+                    "bioconductor-snapcgh >=1.72.0,<1.73.0a0",
+                    "bioconductor-tilingarray >=1.80.0,<1.81.0",
+                    "bioconductor-tilingarray >=1.80.0,<1.81.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1702840014796
+            },
+            "basename": "osx-64/bioconductor-adacgh2-2.42.0-r43h4c50009_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.42.0/osx-64/bioconductor-adacgh2-2.42.0-r43h4c50009_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.42.0/osx-64/bioconductor-adacgh2-2.42.0-r43h4c50009_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "08a248efcffbcb6e1d275b87b1cf650f",
+            "ndownloads": 923,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1131179,
+            "type": "conda",
+            "upload_time": "2023-12-17 19:07:57.752000+00:00",
+            "version": "2.42.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43ha9d7317_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-acgh >=1.80.0,<1.81.0",
+                    "bioconductor-acgh >=1.80.0,<1.81.0a0",
+                    "bioconductor-dnacopy >=1.76.0,<1.77.0",
+                    "bioconductor-dnacopy >=1.76.0,<1.77.0a0",
+                    "bioconductor-glad >=2.66.0,<2.67.0",
+                    "bioconductor-glad >=2.66.0,<2.67.0a0",
+                    "bioconductor-snapcgh >=1.72.0,<1.73.0",
+                    "bioconductor-snapcgh >=1.72.0,<1.73.0a0",
+                    "bioconductor-tilingarray >=1.80.0,<1.81.0",
+                    "bioconductor-tilingarray >=1.80.0,<1.81.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-bit",
+                    "r-cluster",
+                    "r-ff",
+                    "r-waveslim"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1703229045612
+            },
+            "basename": "linux-64/bioconductor-adacgh2-2.42.0-r43ha9d7317_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-adacgh2/2.42.0/linux-64/bioconductor-adacgh2-2.42.0-r43ha9d7317_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-adacgh2/2.42.0/linux-64/bioconductor-adacgh2-2.42.0-r43ha9d7317_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e1654172ee5d039a517f6503bf0ce89f",
+            "ndownloads": 115,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1125410,
+            "type": "conda",
+            "upload_time": "2023-12-22 07:13:35.789000+00:00",
+            "version": "2.42.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-adacgh2",
+    "home": "https://bioconductor.org/packages/3.9/bioc/html/ADaCGH2.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-adacgh2",
+    "id": "5d3af485c7424a7f59e2eedd",
+    "latest_version": "2.42.0",
+    "license": "GPL (>= 3)",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:17.775000+00:00",
+    "name": "bioconductor-adacgh2",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "2.42.0",
+        "osx-64": "2.42.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-adacgh2/2.24.0",
+            "version": "2.24.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-adacgh2/2.26.0",
+            "version": "2.26.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-adacgh2/2.28.0",
+            "version": "2.28.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-adacgh2/2.30.0",
+            "version": "2.30.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-adacgh2/2.32.0",
+            "version": "2.32.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-adacgh2/2.34.0",
+            "version": "2.34.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-adacgh2/2.38.0",
+            "version": "2.38.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-adacgh2/2.40.0",
+            "version": "2.40.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-adacgh2/2.42.0",
+            "version": "2.42.0"
+        }
+    ],
+    "revision": 18,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Analysis of big data from aCGH experiments using parallel computing and ff objects",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-adacgh2",
+    "versions": [
+        "2.24.0",
+        "2.26.0",
+        "2.28.0",
+        "2.30.0",
+        "2.32.0",
+        "2.34.0",
+        "2.38.0",
+        "2.40.0",
+        "2.42.0"
+    ],
+    "watchers": 1
+}

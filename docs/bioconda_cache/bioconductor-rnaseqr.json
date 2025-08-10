@@ -1,0 +1,1952 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r36_1",
+        "r42hdfd78af_1",
+        "r351_0",
+        "r36_0",
+        "r40hdfd78af_1",
+        "r40_0",
+        "r41hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-01-04 17:06:22.544000+00:00",
+    "description": "This R package is designed for case-control RNA-Seq analysis (two-group). There are six steps: \"RNASeqRParam S4 Object Creation\", \"Environment Setup\", \"Quality Assessment\", \"Reads Alignment & Quantification\", \"Gene-level Differential Analyses\" and \"Functional Analyses\". Each step corresponds to a function in this package. After running functions in order, a basic RNASeq analysis would be done easily.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-ballgown >=2.14.0,<2.15.0",
+                    "bioconductor-biostrings >=2.50.0,<2.51.0",
+                    "bioconductor-clusterprofiler >=3.10.0,<3.11.0",
+                    "bioconductor-deseq2 >=1.22.0,<1.23.0",
+                    "bioconductor-dose >=3.8.0,<3.9.0",
+                    "bioconductor-edger >=3.24.0,<3.25.0",
+                    "bioconductor-org.hs.eg.db >=3.7.0,<3.8.0",
+                    "bioconductor-org.sc.sgd.db >=3.7.0,<3.8.0",
+                    "bioconductor-pathview >=1.22.0,<1.23.0",
+                    "bioconductor-rsamtools >=1.34.0,<1.35.0",
+                    "bioconductor-systempiper >=1.16.0,<1.17.0",
+                    "bioconductor-systempiperdata >=1.10.0,<1.11.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-corrplot",
+                    "r-factoextra",
+                    "r-factominer",
+                    "r-ggplot2",
+                    "r-gridextra",
+                    "r-performanceanalytics",
+                    "r-pheatmap",
+                    "r-rafalib",
+                    "r-reshape2",
+                    "r-reticulate",
+                    "r-stringr"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1546621058165
+            },
+            "basename": "noarch/bioconductor-rnaseqr-1.0.3-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-ballgown",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.0,<2.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-clusterprofiler",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.10.0,<3.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-deseq2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dose",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.24.0,<3.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.7.0,<3.8.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.sc.sgd.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.7.0,<3.8.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pathview",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-systempiper",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-systempiperdata",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corrplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factoextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factominer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-performanceanalytics",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pheatmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rafalib",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reticulate",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnaseqr/1.0.3/noarch/bioconductor-rnaseqr-1.0.3-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnaseqr/1.0.3/noarch/bioconductor-rnaseqr-1.0.3-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "bdea29cb42da1b8461bd9facf82dd6aa",
+            "ndownloads": 2732,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5209458,
+            "type": "conda",
+            "upload_time": "2019-01-04 17:06:23.302000+00:00",
+            "version": "1.0.3"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-ballgown >=2.16.0,<2.17.0",
+                    "bioconductor-biostrings >=2.52.0,<2.53.0",
+                    "bioconductor-clusterprofiler >=3.12.0,<3.13.0",
+                    "bioconductor-deseq2 >=1.24.0,<1.25.0",
+                    "bioconductor-dose >=3.10.0,<3.11.0",
+                    "bioconductor-edger >=3.26.0,<3.27.0",
+                    "bioconductor-org.hs.eg.db >=3.8.0,<3.9.0",
+                    "bioconductor-org.sc.sgd.db >=3.8.0,<3.9.0",
+                    "bioconductor-pathview >=1.24.0,<1.25.0",
+                    "bioconductor-rsamtools >=2.0.0,<2.1.0",
+                    "bioconductor-systempiper >=1.18.0,<1.19.0",
+                    "bioconductor-systempiperdata >=1.12.0,<1.13.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-corrplot",
+                    "r-factoextra",
+                    "r-factominer",
+                    "r-ggplot2",
+                    "r-gridextra",
+                    "r-performanceanalytics",
+                    "r-pheatmap",
+                    "r-rafalib",
+                    "r-reshape2",
+                    "r-reticulate",
+                    "r-stringr"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1565777946566
+            },
+            "basename": "noarch/bioconductor-rnaseqr-1.2.1-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-ballgown",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-clusterprofiler",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-deseq2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dose",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.10.0,<3.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.26.0,<3.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.sc.sgd.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pathview",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-systempiper",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-systempiperdata",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corrplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factoextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factominer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-performanceanalytics",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pheatmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rafalib",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reticulate",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnaseqr/1.2.1/noarch/bioconductor-rnaseqr-1.2.1-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnaseqr/1.2.1/noarch/bioconductor-rnaseqr-1.2.1-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c7020c366744b4dfa84f67bf5a8a2369",
+            "ndownloads": 2688,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5253757,
+            "type": "conda",
+            "upload_time": "2019-08-14 10:31:08.414000+00:00",
+            "version": "1.2.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-ballgown >=2.18.0,<2.19.0",
+                    "bioconductor-biostrings >=2.54.0,<2.55.0",
+                    "bioconductor-clusterprofiler >=3.14.0,<3.15.0",
+                    "bioconductor-deseq2 >=1.26.0,<1.27.0",
+                    "bioconductor-dose >=3.12.0,<3.13.0",
+                    "bioconductor-edger >=3.28.0,<3.29.0",
+                    "bioconductor-org.hs.eg.db >=3.10.0,<3.11.0",
+                    "bioconductor-org.sc.sgd.db >=3.10.0,<3.11.0",
+                    "bioconductor-pathview >=1.26.0,<1.27.0",
+                    "bioconductor-rsamtools >=2.2.0,<2.3.0",
+                    "bioconductor-systempiper >=1.20.0,<1.21.0",
+                    "bioconductor-systempiperdata >=1.14.0,<1.15.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-corrplot",
+                    "r-factoextra",
+                    "r-factominer",
+                    "r-ggplot2",
+                    "r-gridextra",
+                    "r-performanceanalytics",
+                    "r-pheatmap",
+                    "r-rafalib",
+                    "r-reshape2",
+                    "r-reticulate",
+                    "r-stringr"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1573091427078
+            },
+            "basename": "noarch/bioconductor-rnaseqr-1.4.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-ballgown",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-clusterprofiler",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.14.0,<3.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-deseq2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dose",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.28.0,<3.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.10.0,<3.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.sc.sgd.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.10.0,<3.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pathview",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-systempiper",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-systempiperdata",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corrplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factoextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factominer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-performanceanalytics",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pheatmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rafalib",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reticulate",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnaseqr/1.4.0/noarch/bioconductor-rnaseqr-1.4.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnaseqr/1.4.0/noarch/bioconductor-rnaseqr-1.4.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bf57409e002ed8e57fcd7043e715ece8",
+            "ndownloads": 2680,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5755706,
+            "type": "conda",
+            "upload_time": "2019-11-07 02:02:21.131000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-ballgown >=2.20.0,<2.21.0",
+                    "bioconductor-biostrings >=2.56.0,<2.57.0",
+                    "bioconductor-clusterprofiler >=3.16.0,<3.17.0",
+                    "bioconductor-deseq2 >=1.28.0,<1.29.0",
+                    "bioconductor-dose >=3.14.0,<3.15.0",
+                    "bioconductor-edger >=3.30.0,<3.31.0",
+                    "bioconductor-org.hs.eg.db >=3.11.0,<3.12.0",
+                    "bioconductor-org.sc.sgd.db >=3.11.0,<3.12.0",
+                    "bioconductor-pathview >=1.28.0,<1.29.0",
+                    "bioconductor-rsamtools >=2.4.0,<2.5.0",
+                    "bioconductor-systempiper >=1.22.0,<1.23.0",
+                    "bioconductor-systempiperdata >=1.16.0,<1.17.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-corrplot",
+                    "r-factoextra",
+                    "r-factominer",
+                    "r-ggplot2",
+                    "r-gridextra",
+                    "r-performanceanalytics",
+                    "r-pheatmap",
+                    "r-rafalib",
+                    "r-reshape2",
+                    "r-reticulate",
+                    "r-stringr"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589459836789
+            },
+            "basename": "noarch/bioconductor-rnaseqr-1.6.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-ballgown",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.56.0,<2.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-clusterprofiler",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.16.0,<3.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-deseq2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dose",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.14.0,<3.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.30.0,<3.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.11.0,<3.12.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.sc.sgd.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.11.0,<3.12.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pathview",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.4.0,<2.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-systempiper",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-systempiperdata",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corrplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factoextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factominer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-performanceanalytics",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pheatmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rafalib",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reticulate",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnaseqr/1.6.0/noarch/bioconductor-rnaseqr-1.6.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnaseqr/1.6.0/noarch/bioconductor-rnaseqr-1.6.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1d6f879359382ce4600248063506f7e8",
+            "ndownloads": 2661,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5858292,
+            "type": "conda",
+            "upload_time": "2020-05-14 12:50:02.782000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-ballgown >=2.22.0,<2.23.0",
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-clusterprofiler >=3.18.0,<3.19.0",
+                    "bioconductor-deseq2 >=1.30.0,<1.31.0",
+                    "bioconductor-dose >=3.16.0,<3.17.0",
+                    "bioconductor-edger >=3.32.0,<3.33.0",
+                    "bioconductor-org.hs.eg.db >=3.12.0,<3.13.0",
+                    "bioconductor-org.sc.sgd.db >=3.12.0,<3.13.0",
+                    "bioconductor-pathview >=1.30.0,<1.31.0",
+                    "bioconductor-rsamtools >=2.6.0,<2.7.0",
+                    "bioconductor-systempiper >=1.24.0,<1.25.0",
+                    "bioconductor-systempiperdata >=1.18.0,<1.19.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-corrplot",
+                    "r-factoextra",
+                    "r-factominer",
+                    "r-ggplot2",
+                    "r-gridextra",
+                    "r-performanceanalytics",
+                    "r-pheatmap",
+                    "r-rafalib",
+                    "r-reshape2",
+                    "r-reticulate",
+                    "r-stringr"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604493150995
+            },
+            "basename": "noarch/bioconductor-rnaseqr-1.8.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-ballgown",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.22.0,<2.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-clusterprofiler",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.18.0,<3.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-deseq2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dose",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.16.0,<3.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.32.0,<3.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.sc.sgd.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pathview",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-systempiper",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-systempiperdata",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corrplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factoextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factominer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-performanceanalytics",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pheatmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rafalib",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reticulate",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnaseqr/1.8.0/noarch/bioconductor-rnaseqr-1.8.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnaseqr/1.8.0/noarch/bioconductor-rnaseqr-1.8.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1a565c2df659cabd82290e6447c1fccc",
+            "ndownloads": 241,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5847875,
+            "type": "conda",
+            "upload_time": "2020-11-04 12:48:17.138000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-ballgown >=2.22.0,<2.23.0",
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-clusterprofiler >=3.18.0,<3.19.0",
+                    "bioconductor-deseq2 >=1.30.0,<1.31.0",
+                    "bioconductor-dose >=3.16.0,<3.17.0",
+                    "bioconductor-edger >=3.32.0,<3.33.0",
+                    "bioconductor-org.hs.eg.db >=3.12.0,<3.13.0",
+                    "bioconductor-org.sc.sgd.db >=3.12.0,<3.13.0",
+                    "bioconductor-pathview >=1.30.0,<1.31.0",
+                    "bioconductor-rsamtools >=2.6.0,<2.7.0",
+                    "bioconductor-systempiper >=1.24.0,<1.25.0",
+                    "bioconductor-systempiperdata >=1.18.0,<1.19.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-corrplot",
+                    "r-factoextra",
+                    "r-factominer",
+                    "r-ggplot2",
+                    "r-gridextra",
+                    "r-performanceanalytics",
+                    "r-pheatmap",
+                    "r-rafalib",
+                    "r-reshape2",
+                    "r-reticulate",
+                    "r-stringr"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617382370613
+            },
+            "basename": "noarch/bioconductor-rnaseqr-1.8.0-r40hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-ballgown",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.22.0,<2.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-clusterprofiler",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.18.0,<3.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-deseq2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dose",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.16.0,<3.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.32.0,<3.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.sc.sgd.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pathview",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-systempiper",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-systempiperdata",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corrplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factoextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factominer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-performanceanalytics",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pheatmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rafalib",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reticulate",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnaseqr/1.8.0/noarch/bioconductor-rnaseqr-1.8.0-r40hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnaseqr/1.8.0/noarch/bioconductor-rnaseqr-1.8.0-r40hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0eba2be7af507645072b603c60412efd",
+            "ndownloads": 2621,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5843022,
+            "type": "conda",
+            "upload_time": "2021-04-02 17:07:49.070000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-ballgown >=2.24.0,<2.25.0",
+                    "bioconductor-biostrings >=2.60.0,<2.61.0",
+                    "bioconductor-clusterprofiler >=4.0.0,<4.1.0",
+                    "bioconductor-deseq2 >=1.32.0,<1.33.0",
+                    "bioconductor-dose >=3.18.0,<3.19.0",
+                    "bioconductor-edger >=3.34.0,<3.35.0",
+                    "bioconductor-org.hs.eg.db >=3.13.0,<3.14.0",
+                    "bioconductor-org.sc.sgd.db >=3.13.0,<3.14.0",
+                    "bioconductor-pathview >=1.32.0,<1.33.0",
+                    "bioconductor-rsamtools >=2.8.0,<2.9.0",
+                    "bioconductor-systempiper >=1.26.0,<1.27.0",
+                    "bioconductor-systempiperdata >=1.20.0,<1.21.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-corrplot",
+                    "r-factoextra",
+                    "r-factominer",
+                    "r-ggplot2",
+                    "r-gridextra",
+                    "r-performanceanalytics",
+                    "r-pheatmap",
+                    "r-rafalib",
+                    "r-reshape2",
+                    "r-reticulate",
+                    "r-stringr"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622824542639
+            },
+            "basename": "noarch/bioconductor-rnaseqr-1.10.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-ballgown",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.60.0,<2.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-clusterprofiler",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.0,<4.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-deseq2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dose",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.18.0,<3.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.34.0,<3.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.13.0,<3.14.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.sc.sgd.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.13.0,<3.14.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pathview",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.8.0,<2.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-systempiper",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-systempiperdata",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corrplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factoextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factominer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-performanceanalytics",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pheatmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rafalib",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reticulate",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnaseqr/1.10.0/noarch/bioconductor-rnaseqr-1.10.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnaseqr/1.10.0/noarch/bioconductor-rnaseqr-1.10.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "42c84757a47a2c9557d7b9b2e6cb0015",
+            "ndownloads": 2037,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5850279,
+            "type": "conda",
+            "upload_time": "2021-06-04 16:50:27.516000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-ballgown >=2.26.0,<2.27.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-clusterprofiler >=4.2.0,<4.3.0",
+                    "bioconductor-deseq2 >=1.34.0,<1.35.0",
+                    "bioconductor-dose >=3.20.0,<3.21.0",
+                    "bioconductor-edger >=3.36.0,<3.37.0",
+                    "bioconductor-org.hs.eg.db >=3.14.0,<3.15.0",
+                    "bioconductor-org.sc.sgd.db >=3.14.0,<3.15.0",
+                    "bioconductor-pathview >=1.34.0,<1.35.0",
+                    "bioconductor-rsamtools >=2.10.0,<2.11.0",
+                    "bioconductor-systempiper >=2.0.0,<2.1.0",
+                    "bioconductor-systempiperdata >=1.22.0,<1.23.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-corrplot",
+                    "r-factoextra",
+                    "r-factominer",
+                    "r-ggplot2",
+                    "r-gridextra",
+                    "r-performanceanalytics",
+                    "r-pheatmap",
+                    "r-rafalib",
+                    "r-reshape2",
+                    "r-reticulate",
+                    "r-stringr"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636357864028
+            },
+            "basename": "noarch/bioconductor-rnaseqr-1.12.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-ballgown",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-clusterprofiler",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.2.0,<4.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-deseq2",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-dose",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.20.0,<3.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-edger",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.36.0,<3.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.14.0,<3.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.sc.sgd.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.14.0,<3.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-pathview",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-systempiper",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-systempiperdata",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-corrplot",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factoextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-factominer",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-gridextra",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-performanceanalytics",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pheatmap",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rafalib",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reshape2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-reticulate",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnaseqr/1.12.0/noarch/bioconductor-rnaseqr-1.12.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnaseqr/1.12.0/noarch/bioconductor-rnaseqr-1.12.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "300d6f83efc3441dbc5f6a32c871284c",
+            "ndownloads": 2491,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5845652,
+            "type": "conda",
+            "upload_time": "2021-11-08 08:06:59.169000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-ballgown >=2.30.0,<2.31.0",
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-clusterprofiler >=4.6.0,<4.7.0",
+                    "bioconductor-deseq2 >=1.38.0,<1.39.0",
+                    "bioconductor-dose >=3.24.0,<3.25.0",
+                    "bioconductor-edger >=3.40.0,<3.41.0",
+                    "bioconductor-org.hs.eg.db >=3.16.0,<3.17.0",
+                    "bioconductor-org.sc.sgd.db >=3.16.0,<3.17.0",
+                    "bioconductor-pathview >=1.38.0,<1.39.0",
+                    "bioconductor-rsamtools >=2.14.0,<2.15.0",
+                    "bioconductor-systempiper >=2.4.0,<2.5.0",
+                    "bioconductor-systempiperdata >=2.2.0,<2.3.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-corrplot",
+                    "r-factoextra",
+                    "r-factominer",
+                    "r-ggplot2",
+                    "r-gridextra",
+                    "r-performanceanalytics",
+                    "r-pheatmap",
+                    "r-rafalib",
+                    "r-reshape2",
+                    "r-reticulate",
+                    "r-stringr"
+                ],
+                "has_prefix": false,
+                "license": "Artistic-2.0",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1668090632888
+            },
+            "basename": "noarch/bioconductor-rnaseqr-1.15.1-r42hdfd78af_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnaseqr/1.15.1/noarch/bioconductor-rnaseqr-1.15.1-r42hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnaseqr/1.15.1/noarch/bioconductor-rnaseqr-1.15.1-r42hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6120c8f9072d40b1476c25f4cca552ea",
+            "ndownloads": 1801,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 5842793,
+            "type": "conda",
+            "upload_time": "2022-11-10 14:40:25.009000+00:00",
+            "version": "1.15.1"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-rnaseqr",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/RNASeqR.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-rnaseqr",
+    "id": "5c2f928e37f339176aa012a6",
+    "latest_version": "1.15.1",
+    "license": "Artistic-2.0",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:11.508000+00:00",
+    "name": "bioconductor-rnaseqr",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.15.1"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnaseqr/1.0.3",
+            "version": "1.0.3"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnaseqr/1.2.1",
+            "version": "1.2.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnaseqr/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnaseqr/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnaseqr/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnaseqr/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnaseqr/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnaseqr/1.15.1",
+            "version": "1.15.1"
+        }
+    ],
+    "revision": 16,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "RNASeqR: an R package for automated two-group RNA-Seq analysis workflow",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-rnaseqr",
+    "versions": [
+        "1.0.3",
+        "1.2.1",
+        "1.4.0",
+        "1.6.0",
+        "1.8.0",
+        "1.10.0",
+        "1.12.0",
+        "1.15.1"
+    ],
+    "watchers": 1
+}

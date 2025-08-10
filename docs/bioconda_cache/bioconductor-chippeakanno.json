@@ -1,0 +1,3833 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r40_0",
+        "r44hdfd78af_0",
+        "r36_0",
+        "r40hdfd78af_0",
+        "r41hdfd78af_0",
+        "0",
+        "r351_0",
+        "r43hdfd78af_0",
+        "r42hdfd78af_0",
+        "r3.4.1_0"
+    ],
+    "conda_platforms": [
+        "noarch",
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2017-10-29 17:10:34.661000+00:00",
+    "description": "The package encompasses a range of functions for identifying the closest gene, exon, miRNA, or custom features\u2014such as highly conserved elements and user-supplied transcription factor binding sites. Additionally, users can retrieve sequences around the peaks and obtain enriched Gene Ontology (GO) or Pathway terms. In version 2.0.5 and beyond, new functionalities have been introduced. These include features for identifying peaks associated with bi-directional promoters along with summary statistics (peaksNearBDP), summarizing motif occurrences in peaks (summarizePatternInPeaks), and associating additional identifiers with annotated peaks or enrichedGO (addGeneIDs). The package integrates with various other packages such as biomaRt, IRanges, Biostrings, BSgenome, GO.db, multtest, and stat to enhance its analytical capabilities.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi",
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics >=0.1.0",
+                    "bioconductor-biocinstaller",
+                    "bioconductor-biomart",
+                    "bioconductor-biostrings",
+                    "bioconductor-bsgenome",
+                    "bioconductor-delayedarray",
+                    "bioconductor-ensembldb",
+                    "bioconductor-genomeinfodb",
+                    "bioconductor-genomicalignments",
+                    "bioconductor-genomicfeatures",
+                    "bioconductor-genomicranges >=1.23.16",
+                    "bioconductor-go.db",
+                    "bioconductor-graph",
+                    "bioconductor-iranges >=2.5.27",
+                    "bioconductor-limma",
+                    "bioconductor-multtest",
+                    "bioconductor-rbgl",
+                    "bioconductor-regioner",
+                    "bioconductor-rsamtools",
+                    "bioconductor-s4vectors >=0.9.25",
+                    "bioconductor-summarizedexperiment",
+                    "r-base >=3.2",
+                    "r-dbi",
+                    "r-idr",
+                    "r-matrixstats",
+                    "r-seqinr",
+                    "r-venndiagram"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-chippeakanno-3.10.2-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocinstaller",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.23.16"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.5.27"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-regioner",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.9.25"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-idr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-seqinr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-venndiagram",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chippeakanno/3.10.2/osx-64/bioconductor-chippeakanno-3.10.2-0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chippeakanno/3.10.2/osx-64/bioconductor-chippeakanno-3.10.2-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "14307c4598cc79317e9e448dee9e7403",
+            "ndownloads": 4463,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 17425371,
+            "type": "conda",
+            "upload_time": "2017-10-29 17:10:35.130000+00:00",
+            "version": "3.10.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi",
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics >=0.1.0",
+                    "bioconductor-biocinstaller",
+                    "bioconductor-biomart",
+                    "bioconductor-biostrings",
+                    "bioconductor-bsgenome",
+                    "bioconductor-delayedarray",
+                    "bioconductor-ensembldb",
+                    "bioconductor-genomeinfodb",
+                    "bioconductor-genomicalignments",
+                    "bioconductor-genomicfeatures",
+                    "bioconductor-genomicranges >=1.23.16",
+                    "bioconductor-go.db",
+                    "bioconductor-graph",
+                    "bioconductor-iranges >=2.5.27",
+                    "bioconductor-limma",
+                    "bioconductor-multtest",
+                    "bioconductor-rbgl",
+                    "bioconductor-regioner",
+                    "bioconductor-rsamtools",
+                    "bioconductor-s4vectors >=0.9.25",
+                    "bioconductor-summarizedexperiment",
+                    "r-base >=3.2",
+                    "r-dbi",
+                    "r-idr",
+                    "r-matrixstats",
+                    "r-seqinr",
+                    "r-venndiagram"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-chippeakanno-3.10.2-0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocinstaller",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.23.16"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.5.27"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-regioner",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.9.25"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-idr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-seqinr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-venndiagram",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chippeakanno/3.10.2/linux-64/bioconductor-chippeakanno-3.10.2-0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chippeakanno/3.10.2/linux-64/bioconductor-chippeakanno-3.10.2-0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "f471f9abefc5f310f62d8274f5b416fe",
+            "ndownloads": 946,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 17424562,
+            "type": "conda",
+            "upload_time": "2017-10-29 17:24:43.520000+00:00",
+            "version": "3.10.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi",
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics >=0.1.0",
+                    "bioconductor-biocinstaller",
+                    "bioconductor-biomart",
+                    "bioconductor-biostrings",
+                    "bioconductor-bsgenome",
+                    "bioconductor-delayedarray",
+                    "bioconductor-ensembldb",
+                    "bioconductor-genomeinfodb",
+                    "bioconductor-genomicalignments",
+                    "bioconductor-genomicfeatures",
+                    "bioconductor-genomicranges >=1.29.14",
+                    "bioconductor-go.db",
+                    "bioconductor-graph",
+                    "bioconductor-iranges >=2.11.16",
+                    "bioconductor-limma",
+                    "bioconductor-multtest",
+                    "bioconductor-rbgl",
+                    "bioconductor-regioner",
+                    "bioconductor-rsamtools",
+                    "bioconductor-s4vectors >=0.9.25",
+                    "bioconductor-summarizedexperiment",
+                    "r-base 3.4.1*",
+                    "r-dbi",
+                    "r-idr",
+                    "r-matrixstats",
+                    "r-seqinr",
+                    "r-venndiagram"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-chippeakanno-3.12.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocinstaller",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.29.14"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.11.16"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-regioner",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.9.25"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-idr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-seqinr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-venndiagram",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chippeakanno/3.12.0/osx-64/bioconductor-chippeakanno-3.12.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chippeakanno/3.12.0/osx-64/bioconductor-chippeakanno-3.12.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "5821e4c7b7a2bf80277ff9ab130b3889",
+            "ndownloads": 4482,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 18933938,
+            "type": "conda",
+            "upload_time": "2017-11-11 06:22:05.418000+00:00",
+            "version": "3.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi",
+                    "bioconductor-biobase",
+                    "bioconductor-biocgenerics >=0.1.0",
+                    "bioconductor-biocinstaller",
+                    "bioconductor-biomart",
+                    "bioconductor-biostrings",
+                    "bioconductor-bsgenome",
+                    "bioconductor-delayedarray",
+                    "bioconductor-ensembldb",
+                    "bioconductor-genomeinfodb",
+                    "bioconductor-genomicalignments",
+                    "bioconductor-genomicfeatures",
+                    "bioconductor-genomicranges >=1.29.14",
+                    "bioconductor-go.db",
+                    "bioconductor-graph",
+                    "bioconductor-iranges >=2.11.16",
+                    "bioconductor-limma",
+                    "bioconductor-multtest",
+                    "bioconductor-rbgl",
+                    "bioconductor-regioner",
+                    "bioconductor-rsamtools",
+                    "bioconductor-s4vectors >=0.9.25",
+                    "bioconductor-summarizedexperiment",
+                    "r-base 3.4.1*",
+                    "r-dbi",
+                    "r-idr",
+                    "r-matrixstats",
+                    "r-seqinr",
+                    "r-venndiagram"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-chippeakanno-3.12.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocinstaller",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.29.14"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.11.16"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-regioner",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": []
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.9.25"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-idr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-seqinr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-venndiagram",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chippeakanno/3.12.0/linux-64/bioconductor-chippeakanno-3.12.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chippeakanno/3.12.0/linux-64/bioconductor-chippeakanno-3.12.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "20fa3c24f14b3eed29bf088372038c9c",
+            "ndownloads": 1274,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 18931818,
+            "type": "conda",
+            "upload_time": "2017-11-11 10:21:13.864000+00:00",
+            "version": "3.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.42.1,<1.44.0",
+                    "bioconductor-biobase >=2.40.0,<2.42.0",
+                    "bioconductor-biocgenerics >=0.26.0,<0.28.0",
+                    "bioconductor-biocinstaller >=1.30.0,<1.32.0",
+                    "bioconductor-biomart >=2.36.1,<2.38.0",
+                    "bioconductor-biostrings >=2.48.0,<2.50.0",
+                    "bioconductor-bsgenome >=1.48.0,<1.50.0",
+                    "bioconductor-delayedarray >=0.6.6,<0.8.0",
+                    "bioconductor-ensembldb >=2.4.1,<2.6.0",
+                    "bioconductor-genomeinfodb >=1.16.0,<1.18.0",
+                    "bioconductor-genomicalignments >=1.16.0,<1.18.0",
+                    "bioconductor-genomicfeatures >=1.32.2,<1.34.0",
+                    "bioconductor-genomicranges >=1.32.7,<1.34.0",
+                    "bioconductor-go.db >=3.6.0,<3.8.0",
+                    "bioconductor-graph >=1.58.0,<1.60.0",
+                    "bioconductor-iranges >=2.14.12,<2.16.0",
+                    "bioconductor-limma >=3.36.5,<3.38.0",
+                    "bioconductor-multtest >=2.36.0,<2.38.0",
+                    "bioconductor-rbgl >=1.56.0,<1.58.0",
+                    "bioconductor-regioner >=1.12.0,<1.14.0",
+                    "bioconductor-rsamtools >=1.32.3,<1.34.0",
+                    "bioconductor-s4vectors >=0.18.3,<0.20.0",
+                    "bioconductor-summarizedexperiment >=1.10.1,<1.12.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-dbi",
+                    "r-idr",
+                    "r-matrixstats",
+                    "r-seqinr",
+                    "r-venndiagram"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540123927495
+            },
+            "basename": "linux-64/bioconductor-chippeakanno-3.14.2-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.1,<1.44.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.42.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.28.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocinstaller",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.32.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.36.1,<2.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.50.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.50.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.6,<0.8.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.4.1,<2.6.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.18.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.2,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.7,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6.0,<3.8.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.60.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.12,<2.16.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.36.5,<3.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.36.0,<2.38.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.58.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-regioner",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.14.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.3,<1.34.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.3,<0.20.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.1,<1.12.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-idr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-seqinr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-venndiagram",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chippeakanno/3.14.2/linux-64/bioconductor-chippeakanno-3.14.2-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chippeakanno/3.14.2/linux-64/bioconductor-chippeakanno-3.14.2-r351_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "868d06cf6dd72e9be68eeff90d9d150f",
+            "ndownloads": 5072,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 19398273,
+            "type": "conda",
+            "upload_time": "2018-10-21 12:17:04.173000+00:00",
+            "version": "3.14.2"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r351_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.44.0,<1.45.0",
+                    "bioconductor-biobase >=2.42.0,<2.43.0",
+                    "bioconductor-biocgenerics >=0.28.0,<0.29.0",
+                    "bioconductor-biomart >=2.38.0,<2.39.0",
+                    "bioconductor-biostrings >=2.50.0,<2.51.0",
+                    "bioconductor-bsgenome >=1.50.0,<1.51.0",
+                    "bioconductor-delayedarray >=0.8.0,<0.9.0",
+                    "bioconductor-ensembldb >=2.6.0,<2.7.0",
+                    "bioconductor-genomeinfodb >=1.18.0,<1.19.0",
+                    "bioconductor-genomicalignments >=1.18.0,<1.19.0",
+                    "bioconductor-genomicfeatures >=1.34.0,<1.35.0",
+                    "bioconductor-genomicranges >=1.34.0,<1.35.0",
+                    "bioconductor-go.db >=3.7.0,<3.8.0",
+                    "bioconductor-graph >=1.60.0,<1.61.0",
+                    "bioconductor-iranges >=2.16.0,<2.17.0",
+                    "bioconductor-limma >=3.38.0,<3.39.0",
+                    "bioconductor-multtest >=2.38.0,<2.39.0",
+                    "bioconductor-rbgl >=1.58.0,<1.59.0",
+                    "bioconductor-regioner >=1.14.0,<1.15.0",
+                    "bioconductor-rsamtools >=1.34.0,<1.35.0",
+                    "bioconductor-s4vectors >=0.20.0,<0.21.0",
+                    "bioconductor-summarizedexperiment >=1.12.0,<1.13.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-biocmanager",
+                    "r-dbi",
+                    "r-idr",
+                    "r-matrixstats",
+                    "r-seqinr",
+                    "r-venndiagram"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1545655488465
+            },
+            "basename": "noarch/bioconductor-chippeakanno-3.16.0-r351_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.38.0,<2.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.8.0,<0.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.7.0,<3.8.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.38.0,<3.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.38.0,<2.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.58.0,<1.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-regioner",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-biocmanager",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-idr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-seqinr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-venndiagram",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chippeakanno/3.16.0/noarch/bioconductor-chippeakanno-3.16.0-r351_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chippeakanno/3.16.0/noarch/bioconductor-chippeakanno-3.16.0-r351_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "f2994546728295c88399b00a09cc68f1",
+            "ndownloads": 3410,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 19412011,
+            "type": "conda",
+            "upload_time": "2018-12-24 12:49:11.397000+00:00",
+            "version": "3.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.46.0,<1.47.0",
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-biocgenerics >=0.30.0,<0.31.0",
+                    "bioconductor-biomart >=2.40.0,<2.41.0",
+                    "bioconductor-biostrings >=2.52.0,<2.53.0",
+                    "bioconductor-bsgenome >=1.52.0,<1.53.0",
+                    "bioconductor-delayedarray >=0.10.0,<0.11.0",
+                    "bioconductor-ensembldb >=2.8.0,<2.9.0",
+                    "bioconductor-genomeinfodb >=1.20.0,<1.21.0",
+                    "bioconductor-genomicalignments >=1.20.0,<1.21.0",
+                    "bioconductor-genomicfeatures >=1.36.0,<1.37.0",
+                    "bioconductor-genomicranges >=1.36.0,<1.37.0",
+                    "bioconductor-go.db >=3.8.0,<3.9.0",
+                    "bioconductor-graph >=1.62.0,<1.63.0",
+                    "bioconductor-iranges >=2.18.0,<2.19.0",
+                    "bioconductor-limma >=3.40.0,<3.41.0",
+                    "bioconductor-multtest >=2.40.0,<2.41.0",
+                    "bioconductor-rbgl >=1.60.0,<1.61.0",
+                    "bioconductor-regioner >=1.16.0,<1.17.0",
+                    "bioconductor-rsamtools >=2.0.0,<2.1.0",
+                    "bioconductor-rtracklayer >=1.44.0,<1.45.0",
+                    "bioconductor-s4vectors >=0.22.0,<0.23.0",
+                    "bioconductor-summarizedexperiment >=1.14.0,<1.15.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-biocmanager",
+                    "r-dbi",
+                    "r-idr",
+                    "r-matrixstats",
+                    "r-seqinr",
+                    "r-venndiagram"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1565852013709
+            },
+            "basename": "noarch/bioconductor-chippeakanno-3.18.2-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0,<0.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.8.0,<2.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.40.0,<3.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.40.0,<2.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-regioner",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.22.0,<0.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-biocmanager",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-idr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-seqinr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-venndiagram",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chippeakanno/3.18.2/noarch/bioconductor-chippeakanno-3.18.2-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chippeakanno/3.18.2/noarch/bioconductor-chippeakanno-3.18.2-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "40e2b2c0254a3d6fa2d6003876855b85",
+            "ndownloads": 2906,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 19251534,
+            "type": "conda",
+            "upload_time": "2019-08-15 06:59:38.469000+00:00",
+            "version": "3.18.2"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.48.0,<1.49.0",
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+                    "bioconductor-biomart >=2.42.0,<2.43.0",
+                    "bioconductor-biostrings >=2.54.0,<2.55.0",
+                    "bioconductor-bsgenome >=1.54.0,<1.55.0",
+                    "bioconductor-delayedarray >=0.12.0,<0.13.0",
+                    "bioconductor-ensembldb >=2.10.0,<2.11.0",
+                    "bioconductor-genomeinfodb >=1.22.0,<1.23.0",
+                    "bioconductor-genomicalignments >=1.22.0,<1.23.0",
+                    "bioconductor-genomicfeatures >=1.38.0,<1.39.0",
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "bioconductor-go.db >=3.10.0,<3.11.0",
+                    "bioconductor-graph >=1.64.0,<1.65.0",
+                    "bioconductor-iranges >=2.20.0,<2.21.0",
+                    "bioconductor-limma >=3.42.0,<3.43.0",
+                    "bioconductor-multtest >=2.42.0,<2.43.0",
+                    "bioconductor-rbgl >=1.62.0,<1.63.0",
+                    "bioconductor-regioner >=1.18.0,<1.19.0",
+                    "bioconductor-rsamtools >=2.2.0,<2.3.0",
+                    "bioconductor-rtracklayer >=1.46.0,<1.47.0",
+                    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+                    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-biocmanager",
+                    "r-dbi",
+                    "r-idr",
+                    "r-matrixstats",
+                    "r-seqinr",
+                    "r-venndiagram"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572898811818
+            },
+            "basename": "noarch/bioconductor-chippeakanno-3.20.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.12.0,<0.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.10.0,<3.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.42.0,<3.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.42.0,<2.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-regioner",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.24.0,<0.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16.0,<1.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-biocmanager",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-idr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-seqinr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-venndiagram",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chippeakanno/3.20.0/noarch/bioconductor-chippeakanno-3.20.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chippeakanno/3.20.0/noarch/bioconductor-chippeakanno-3.20.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "12d45648c30b7c73dc4e358584fc9c14",
+            "ndownloads": 2310,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 19619013,
+            "type": "conda",
+            "upload_time": "2019-11-04 20:27:27.948000+00:00",
+            "version": "3.20.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.50.0,<1.51.0",
+                    "bioconductor-biobase >=2.48.0,<2.49.0",
+                    "bioconductor-biocgenerics >=0.34.0,<0.35.0",
+                    "bioconductor-biomart >=2.44.0,<2.45.0",
+                    "bioconductor-biostrings >=2.56.0,<2.57.0",
+                    "bioconductor-bsgenome >=1.56.0,<1.57.0",
+                    "bioconductor-delayedarray >=0.14.0,<0.15.0",
+                    "bioconductor-ensembldb >=2.12.0,<2.13.0",
+                    "bioconductor-genomeinfodb >=1.24.0,<1.25.0",
+                    "bioconductor-genomicalignments >=1.24.0,<1.25.0",
+                    "bioconductor-genomicfeatures >=1.40.0,<1.41.0",
+                    "bioconductor-genomicranges >=1.40.0,<1.41.0",
+                    "bioconductor-go.db >=3.11.0,<3.12.0",
+                    "bioconductor-graph >=1.66.0,<1.67.0",
+                    "bioconductor-iranges >=2.22.0,<2.23.0",
+                    "bioconductor-limma >=3.44.0,<3.45.0",
+                    "bioconductor-multtest >=2.44.0,<2.45.0",
+                    "bioconductor-rbgl >=1.64.0,<1.65.0",
+                    "bioconductor-regioner >=1.20.0,<1.21.0",
+                    "bioconductor-rsamtools >=2.4.0,<2.5.0",
+                    "bioconductor-rtracklayer >=1.48.0,<1.49.0",
+                    "bioconductor-s4vectors >=0.26.0,<0.27.0",
+                    "bioconductor-summarizedexperiment >=1.18.0,<1.19.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-biocmanager",
+                    "r-dbi",
+                    "r-idr",
+                    "r-matrixstats",
+                    "r-rfast",
+                    "r-seqinr",
+                    "r-venndiagram"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589230927352
+            },
+            "basename": "noarch/bioconductor-chippeakanno-3.22.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.34.0,<0.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.56.0,<2.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-bsgenome",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.14.0,<0.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.12.0,<2.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.11.0,<3.12.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.22.0,<2.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-limma",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.44.0,<3.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-regioner",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.4.0,<2.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.26.0,<0.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.18.0,<1.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-biocmanager",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-idr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rfast",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-seqinr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-venndiagram",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chippeakanno/3.22.0/noarch/bioconductor-chippeakanno-3.22.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chippeakanno/3.22.0/noarch/bioconductor-chippeakanno-3.22.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "44a559c34850c1e8a9d45e09cec60cad",
+            "ndownloads": 2241,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 19629919,
+            "type": "conda",
+            "upload_time": "2020-05-11 21:09:34.275000+00:00",
+            "version": "3.22.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.52.0,<1.53.0",
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-biomart >=2.46.0,<2.47.0",
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-ensembldb >=2.14.0,<2.15.0",
+                    "bioconductor-genomeinfodb >=1.26.0,<1.27.0",
+                    "bioconductor-genomicalignments >=1.26.0,<1.27.0",
+                    "bioconductor-genomicfeatures >=1.42.0,<1.43.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-graph >=1.68.0,<1.69.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-keggrest >=1.30.0,<1.31.0",
+                    "bioconductor-multtest >=2.46.0,<2.47.0",
+                    "bioconductor-rbgl >=1.66.0,<1.67.0",
+                    "bioconductor-regioner >=1.22.0,<1.23.0",
+                    "bioconductor-rsamtools >=2.6.0,<2.7.0",
+                    "bioconductor-rtracklayer >=1.50.0,<1.51.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-dbi",
+                    "r-ggplot2",
+                    "r-matrixstats",
+                    "r-venndiagram"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604206934835
+            },
+            "basename": "noarch/bioconductor-chippeakanno-3.24.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.0,<2.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-keggrest",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-regioner",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-venndiagram",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chippeakanno/3.24.0/noarch/bioconductor-chippeakanno-3.24.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chippeakanno/3.24.0/noarch/bioconductor-chippeakanno-3.24.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1066d91fc64ef38538946f347b23ad36",
+            "ndownloads": 2500,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 28768928,
+            "type": "conda",
+            "upload_time": "2020-11-01 05:09:44.377000+00:00",
+            "version": "3.24.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.52.0,<1.53.0",
+                    "bioconductor-biocgenerics >=0.36.0,<0.37.0",
+                    "bioconductor-biomart >=2.46.0,<2.47.0",
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-ensembldb >=2.14.0,<2.15.0",
+                    "bioconductor-genomeinfodb >=1.26.0,<1.27.0",
+                    "bioconductor-genomicalignments >=1.26.0,<1.27.0",
+                    "bioconductor-genomicfeatures >=1.42.0,<1.43.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-graph >=1.68.0,<1.69.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-keggrest >=1.30.0,<1.31.0",
+                    "bioconductor-multtest >=2.46.0,<2.47.0",
+                    "bioconductor-rbgl >=1.66.0,<1.67.0",
+                    "bioconductor-regioner >=1.22.0,<1.23.0",
+                    "bioconductor-rsamtools >=2.6.0,<2.7.0",
+                    "bioconductor-rtracklayer >=1.50.0,<1.51.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-dbi",
+                    "r-ggplot2",
+                    "r-matrixstats",
+                    "r-venndiagram"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617119422862
+            },
+            "basename": "noarch/bioconductor-chippeakanno-3.24.1-r40hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.36.0,<0.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.0,<2.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-keggrest",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-regioner",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-venndiagram",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chippeakanno/3.24.1/noarch/bioconductor-chippeakanno-3.24.1-r40hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chippeakanno/3.24.1/noarch/bioconductor-chippeakanno-3.24.1-r40hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5bee9fdedf3b02608b7531636fe55c93",
+            "ndownloads": 2626,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 28773974,
+            "type": "conda",
+            "upload_time": "2021-03-30 15:59:41.251000+00:00",
+            "version": "3.24.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.54.0,<1.55.0",
+                    "bioconductor-biocgenerics >=0.38.0,<0.39.0",
+                    "bioconductor-biomart >=2.48.0,<2.49.0",
+                    "bioconductor-biostrings >=2.60.0,<2.61.0",
+                    "bioconductor-ensembldb >=2.16.0,<2.17.0",
+                    "bioconductor-genomeinfodb >=1.28.0,<1.29.0",
+                    "bioconductor-genomicalignments >=1.28.0,<1.29.0",
+                    "bioconductor-genomicfeatures >=1.44.0,<1.45.0",
+                    "bioconductor-genomicranges >=1.44.0,<1.45.0",
+                    "bioconductor-graph >=1.70.0,<1.71.0",
+                    "bioconductor-interactionset >=1.20.0,<1.21.0",
+                    "bioconductor-iranges >=2.26.0,<2.27.0",
+                    "bioconductor-keggrest >=1.32.0,<1.33.0",
+                    "bioconductor-multtest >=2.48.0,<2.49.0",
+                    "bioconductor-rbgl >=1.68.0,<1.69.0",
+                    "bioconductor-regioner >=1.24.0,<1.25.0",
+                    "bioconductor-rsamtools >=2.8.0,<2.9.0",
+                    "bioconductor-rtracklayer >=1.52.0,<1.53.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "bioconductor-summarizedexperiment >=1.22.0,<1.23.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-dbi",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-matrixstats",
+                    "r-venndiagram"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622803948069
+            },
+            "basename": "noarch/bioconductor-chippeakanno-3.26.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.38.0,<0.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.60.0,<2.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.28.0,<1.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70.0,<1.71.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-interactionset",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-keggrest",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.32.0,<1.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-regioner",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.8.0,<2.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-venndiagram",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chippeakanno/3.26.0/noarch/bioconductor-chippeakanno-3.26.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chippeakanno/3.26.0/noarch/bioconductor-chippeakanno-3.26.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0fefb39552b1e201f7bb2428178acb5e",
+            "ndownloads": 2633,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 20502286,
+            "type": "conda",
+            "upload_time": "2021-06-04 11:01:42.788000+00:00",
+            "version": "3.26.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.56.0,<1.57.0",
+                    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+                    "bioconductor-biomart >=2.50.0,<2.51.0",
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-ensembldb >=2.18.0,<2.19.0",
+                    "bioconductor-genomeinfodb >=1.30.0,<1.31.0",
+                    "bioconductor-genomicalignments >=1.30.0,<1.31.0",
+                    "bioconductor-genomicfeatures >=1.46.0,<1.47.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-graph >=1.72.0,<1.73.0",
+                    "bioconductor-interactionset >=1.22.0,<1.23.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-keggrest >=1.34.0,<1.35.0",
+                    "bioconductor-multtest >=2.50.0,<2.51.0",
+                    "bioconductor-rbgl >=1.70.0,<1.71.0",
+                    "bioconductor-regioner >=1.26.0,<1.27.0",
+                    "bioconductor-rsamtools >=2.10.0,<2.11.0",
+                    "bioconductor-rtracklayer >=1.54.0,<1.55.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-dbi",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-matrixstats",
+                    "r-venndiagram"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636514664345
+            },
+            "basename": "noarch/bioconductor-chippeakanno-3.28.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocgenerics",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.40.0,<0.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biomart",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-ensembldb",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomeinfodb",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicalignments",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.30.0,<1.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicfeatures",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-interactionset",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-keggrest",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-multtest",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70.0,<1.71.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-regioner",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.26.0,<1.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dbi",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-venndiagram",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chippeakanno/3.28.0/noarch/bioconductor-chippeakanno-3.28.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chippeakanno/3.28.0/noarch/bioconductor-chippeakanno-3.28.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "66f38f646a0dd2bcf66b4431a44cf353",
+            "ndownloads": 2433,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 20488576,
+            "type": "conda",
+            "upload_time": "2021-11-10 03:34:53.579000+00:00",
+            "version": "3.28.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.60.0,<1.61.0",
+                    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+                    "bioconductor-biomart >=2.54.0,<2.55.0",
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-ensembldb >=2.22.0,<2.23.0",
+                    "bioconductor-genomeinfodb >=1.34.0,<1.35.0",
+                    "bioconductor-genomicalignments >=1.34.0,<1.35.0",
+                    "bioconductor-genomicfeatures >=1.50.0,<1.51.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-graph >=1.76.0,<1.77.0",
+                    "bioconductor-interactionset >=1.26.0,<1.27.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-keggrest >=1.38.0,<1.39.0",
+                    "bioconductor-multtest >=2.54.0,<2.55.0",
+                    "bioconductor-rbgl >=1.74.0,<1.75.0",
+                    "bioconductor-regioner >=1.30.0,<1.31.0",
+                    "bioconductor-rsamtools >=2.14.0,<2.15.0",
+                    "bioconductor-rtracklayer >=1.58.0,<1.59.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-dbi",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-matrixstats",
+                    "r-venndiagram"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667953930020
+            },
+            "basename": "noarch/bioconductor-chippeakanno-3.32.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chippeakanno/3.32.0/noarch/bioconductor-chippeakanno-3.32.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chippeakanno/3.32.0/noarch/bioconductor-chippeakanno-3.32.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d0cfd2344011ef49209c91a31489389c",
+            "ndownloads": 2217,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 20497671,
+            "type": "conda",
+            "upload_time": "2022-11-09 00:37:47.897000+00:00",
+            "version": "3.32.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.62.0,<1.63.0",
+                    "bioconductor-biocgenerics >=0.46.0,<0.47.0",
+                    "bioconductor-biomart >=2.56.0,<2.57.0",
+                    "bioconductor-biostrings >=2.68.0,<2.69.0",
+                    "bioconductor-ensembldb >=2.24.0,<2.25.0",
+                    "bioconductor-genomeinfodb >=1.36.0,<1.37.0",
+                    "bioconductor-genomicalignments >=1.36.0,<1.37.0",
+                    "bioconductor-genomicfeatures >=1.52.0,<1.53.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-graph >=1.78.0,<1.79.0",
+                    "bioconductor-interactionset >=1.28.0,<1.29.0",
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-keggrest >=1.40.0,<1.41.0",
+                    "bioconductor-multtest >=2.56.0,<2.57.0",
+                    "bioconductor-rbgl >=1.76.0,<1.77.0",
+                    "bioconductor-regioner >=1.32.0,<1.33.0",
+                    "bioconductor-rsamtools >=2.16.0,<2.17.0",
+                    "bioconductor-rtracklayer >=1.60.0,<1.61.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "bioconductor-summarizedexperiment >=1.30.0,<1.31.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-dbi",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-matrixstats",
+                    "r-venndiagram"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689416129916
+            },
+            "basename": "noarch/bioconductor-chippeakanno-3.34.1-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chippeakanno/3.34.1/noarch/bioconductor-chippeakanno-3.34.1-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chippeakanno/3.34.1/noarch/bioconductor-chippeakanno-3.34.1-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e6b5e8423820ebcca11d8b05ce31ac04",
+            "ndownloads": 1621,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 20488090,
+            "type": "conda",
+            "upload_time": "2023-07-15 10:22:08.436000+00:00",
+            "version": "3.34.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.64.0,<1.65.0",
+                    "bioconductor-biocgenerics >=0.48.0,<0.49.0",
+                    "bioconductor-biomart >=2.58.0,<2.59.0",
+                    "bioconductor-biostrings >=2.70.0,<2.71.0",
+                    "bioconductor-ensembldb >=2.26.0,<2.27.0",
+                    "bioconductor-genomeinfodb >=1.38.0,<1.39.0",
+                    "bioconductor-genomicalignments >=1.38.0,<1.39.0",
+                    "bioconductor-genomicfeatures >=1.54.0,<1.55.0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-graph >=1.80.0,<1.81.0",
+                    "bioconductor-interactionset >=1.30.0,<1.31.0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0",
+                    "bioconductor-keggrest >=1.42.0,<1.43.0",
+                    "bioconductor-multtest >=2.58.0,<2.59.0",
+                    "bioconductor-rbgl >=1.78.0,<1.79.0",
+                    "bioconductor-regioner >=1.34.0,<1.35.0",
+                    "bioconductor-rsamtools >=2.18.0,<2.19.0",
+                    "bioconductor-rtracklayer >=1.62.0,<1.63.0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-dbi",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-matrixstats",
+                    "r-venndiagram"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1702350963619
+            },
+            "basename": "noarch/bioconductor-chippeakanno-3.36.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chippeakanno/3.36.0/noarch/bioconductor-chippeakanno-3.36.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chippeakanno/3.36.0/noarch/bioconductor-chippeakanno-3.36.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8415176055a21574fde193c5e777a624",
+            "ndownloads": 1444,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 20554874,
+            "type": "conda",
+            "upload_time": "2023-12-12 03:19:29.560000+00:00",
+            "version": "3.36.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.68.0,<1.69.0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-biomart >=2.62.0,<2.63.0",
+                    "bioconductor-biostrings >=2.74.0,<2.75.0",
+                    "bioconductor-ensembldb >=2.30.0,<2.31.0",
+                    "bioconductor-genomeinfodb >=1.42.0,<1.43.0",
+                    "bioconductor-genomicalignments >=1.42.0,<1.43.0",
+                    "bioconductor-genomicfeatures >=1.58.0,<1.59.0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0",
+                    "bioconductor-graph >=1.84.0,<1.85.0",
+                    "bioconductor-interactionset >=1.34.0,<1.35.0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0",
+                    "bioconductor-keggrest >=1.46.0,<1.47.0",
+                    "bioconductor-multtest >=2.62.0,<2.63.0",
+                    "bioconductor-pwalign >=1.2.0,<1.3.0",
+                    "bioconductor-rbgl >=1.82.0,<1.83.0",
+                    "bioconductor-regioner >=1.38.0,<1.39.0",
+                    "bioconductor-rsamtools >=2.22.0,<2.23.0",
+                    "bioconductor-rtracklayer >=1.66.0,<1.67.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0",
+                    "bioconductor-universalmotif >=1.24.0,<1.25.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-data.table",
+                    "r-dbi",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-matrixstats",
+                    "r-scales",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr",
+                    "r-venndiagram"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1735552536122
+            },
+            "basename": "noarch/bioconductor-chippeakanno-3.40.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-chippeakanno/3.40.0/noarch/bioconductor-chippeakanno-3.40.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-chippeakanno/3.40.0/noarch/bioconductor-chippeakanno-3.40.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1940d1d44879f67579086f1a0be8f308",
+            "ndownloads": 561,
+            "owner": "bioconda",
+            "sha256": "c8616df06ab229ffbae4e3569a596c6c861f54edf31f1771e75c3fbac7a2f1c7",
+            "size": 23672763,
+            "type": "conda",
+            "upload_time": "2024-12-30 10:01:05.227000+00:00",
+            "version": "3.40.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-chippeakanno",
+    "home": "http://bioconductor.org/packages/3.5/bioc/html/ChIPpeakAnno.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-chippeakanno",
+    "id": "59f60b8aab08c212275bdf1e",
+    "latest_version": "3.40.0",
+    "license": "GPL (>= 2)",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:28:52.908000+00:00",
+    "name": "bioconductor-chippeakanno",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "3.14.2",
+        "noarch": "3.40.0",
+        "osx-64": "3.12.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chippeakanno/3.10.2",
+            "version": "3.10.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chippeakanno/3.12.0",
+            "version": "3.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chippeakanno/3.14.2",
+            "version": "3.14.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chippeakanno/3.16.0",
+            "version": "3.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chippeakanno/3.18.2",
+            "version": "3.18.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chippeakanno/3.20.0",
+            "version": "3.20.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chippeakanno/3.22.0",
+            "version": "3.22.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chippeakanno/3.24.0",
+            "version": "3.24.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chippeakanno/3.24.1",
+            "version": "3.24.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chippeakanno/3.26.0",
+            "version": "3.26.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chippeakanno/3.28.0",
+            "version": "3.28.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chippeakanno/3.32.0",
+            "version": "3.32.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chippeakanno/3.34.1",
+            "version": "3.34.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chippeakanno/3.36.0",
+            "version": "3.36.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-chippeakanno/3.40.0",
+            "version": "3.40.0"
+        }
+    ],
+    "revision": 31,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Batch annotation of the peaks identified from either ChIP-seq, ChIP-chip experiments, or any experiments that result in large number of genomic interval data",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-chippeakanno",
+    "versions": [
+        "3.10.2",
+        "3.12.0",
+        "3.14.2",
+        "3.16.0",
+        "3.18.2",
+        "3.20.0",
+        "3.22.0",
+        "3.24.0",
+        "3.24.1",
+        "3.26.0",
+        "3.28.0",
+        "3.32.0",
+        "3.34.1",
+        "3.36.0",
+        "3.40.0"
+    ],
+    "watchers": 1
+}

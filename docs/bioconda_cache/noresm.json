@@ -1,0 +1,1611 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "py36pl5262hb3b0942_0",
+        "py37pl5321h736fc29_1",
+        "py37pl5262h736fc29_0",
+        "py36pl5321hb3b0942_1",
+        "py39pl5262hab58d13_0",
+        "py39pl5321hab58d13_1",
+        "py38pl5262hbcac906_0",
+        "py38pl5321hbcac906_1"
+    ],
+    "conda_platforms": [
+        "linux-64"
+    ],
+    "created_at": "2021-04-10 15:47:02.517000+00:00",
+    "description": "\"NorESM (Norwegian Earth System Model) is the Norwegian fully-coupled,\nglobal climate model that provides state-of-the-art computer simulations\nof the Earth's past, present, and future climate states.\nWhen creating a case, use `espresso` for the target machine.\nIn addition, the following environment variables need to be defined\nbefore creating the noresm case:\n```\nexport NETCDF_DIR=$(nc-config --prefix)\nexport CIME_MODEL=cesm\nexport CESM_DATA_ROOT=$HOME\nexport CESM_WORK_ROOT=$HOME\nmkdir -p $CESM_DATA_ROOT/inputdata\n```\n\"\n",
+    "dev_url": null,
+    "doc_url": "https://noresm-docs.readthedocs.io/en/latest",
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py38pl5262hbcac906_0",
+                "build_number": 0,
+                "depends": [
+                    "binutils",
+                    "cmake",
+                    "gcc_linux-64 9.*",
+                    "gfortran_linux-64 9.*",
+                    "libgcc-ng >=9.3.0",
+                    "libgfortran-ng",
+                    "libgfortran5 >=9.3.0",
+                    "libiconv >=1.16,<1.17.0a0",
+                    "libxml2 >=2.9.10,<2.10.0a0",
+                    "make",
+                    "mkl",
+                    "mpich >=3.4.1,<4.0a0",
+                    "netcdf-fortran * *mpich*",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-xml-libxml",
+                    "python >=3.8,<3.9.0a0",
+                    "python_abi 3.8.* *_cp38",
+                    "subversion",
+                    "tcsh",
+                    "wget"
+                ],
+                "has_prefix": false,
+                "license": "BSD 3-Clause",
+                "license_family": "BSD",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1617715140348
+            },
+            "basename": "linux-64/noresm-2.0.2-py38pl5262hbcac906_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "binutils",
+                        "specs": []
+                    },
+                    {
+                        "name": "cmake",
+                        "specs": []
+                    },
+                    {
+                        "name": "gcc_linux-64",
+                        "specs": [
+                            [
+                                "==",
+                                "9."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "gfortran_linux-64",
+                        "specs": [
+                            [
+                                "==",
+                                "9."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran-ng",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libiconv",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16,<1.17.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libxml2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.9.10,<2.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "make",
+                        "specs": []
+                    },
+                    {
+                        "name": "mkl",
+                        "specs": []
+                    },
+                    {
+                        "name": "mpich",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "netcdf-fortran",
+                        "specs": [
+                            [
+                                "==",
+                                "* *mpich"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-xml-libxml",
+                        "specs": []
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python_abi",
+                        "specs": [
+                            [
+                                "==",
+                                "3.8.* *_cp38"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "subversion",
+                        "specs": []
+                    },
+                    {
+                        "name": "tcsh",
+                        "specs": []
+                    },
+                    {
+                        "name": "wget",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/noresm/2.0.2/linux-64/noresm-2.0.2-py38pl5262hbcac906_0.tar.bz2",
+            "full_name": "bioconda/noresm/2.0.2/linux-64/noresm-2.0.2-py38pl5262hbcac906_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1b0e912157954cb6823f16fe9ab7b033",
+            "ndownloads": 236,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 17762175,
+            "type": "conda",
+            "upload_time": "2021-04-10 15:47:03.593000+00:00",
+            "version": "2.0.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py36pl5262hb3b0942_0",
+                "build_number": 0,
+                "depends": [
+                    "binutils",
+                    "cmake",
+                    "gcc_linux-64 9.*",
+                    "gfortran_linux-64 9.*",
+                    "libgcc-ng >=9.3.0",
+                    "libgfortran-ng",
+                    "libgfortran5 >=9.3.0",
+                    "libiconv >=1.16,<1.17.0a0",
+                    "libxml2 >=2.9.10,<2.10.0a0",
+                    "make",
+                    "mkl",
+                    "mpich >=3.4.1,<4.0a0",
+                    "netcdf-fortran * *mpich*",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-xml-libxml",
+                    "python >=3.6,<3.7.0a0",
+                    "python_abi 3.6.* *_cp36m",
+                    "subversion",
+                    "tcsh",
+                    "wget"
+                ],
+                "has_prefix": false,
+                "license": "BSD 3-Clause",
+                "license_family": "BSD",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1617712885509
+            },
+            "basename": "linux-64/noresm-2.0.2-py36pl5262hb3b0942_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "binutils",
+                        "specs": []
+                    },
+                    {
+                        "name": "cmake",
+                        "specs": []
+                    },
+                    {
+                        "name": "gcc_linux-64",
+                        "specs": [
+                            [
+                                "==",
+                                "9."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "gfortran_linux-64",
+                        "specs": [
+                            [
+                                "==",
+                                "9."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran-ng",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libiconv",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16,<1.17.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libxml2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.9.10,<2.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "make",
+                        "specs": []
+                    },
+                    {
+                        "name": "mkl",
+                        "specs": []
+                    },
+                    {
+                        "name": "mpich",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "netcdf-fortran",
+                        "specs": [
+                            [
+                                "==",
+                                "* *mpich"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-xml-libxml",
+                        "specs": []
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python_abi",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6.* *_cp36m"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "subversion",
+                        "specs": []
+                    },
+                    {
+                        "name": "tcsh",
+                        "specs": []
+                    },
+                    {
+                        "name": "wget",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/noresm/2.0.2/linux-64/noresm-2.0.2-py36pl5262hb3b0942_0.tar.bz2",
+            "full_name": "bioconda/noresm/2.0.2/linux-64/noresm-2.0.2-py36pl5262hb3b0942_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "27ba631724c1f9cdf7280508c0a8df34",
+            "ndownloads": 242,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 17756999,
+            "type": "conda",
+            "upload_time": "2021-04-10 15:54:03.357000+00:00",
+            "version": "2.0.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py39pl5262hab58d13_0",
+                "build_number": 0,
+                "depends": [
+                    "binutils",
+                    "cmake",
+                    "gcc_linux-64 9.*",
+                    "gfortran_linux-64 9.*",
+                    "libgcc-ng >=9.3.0",
+                    "libgfortran-ng",
+                    "libgfortran5 >=9.3.0",
+                    "libiconv >=1.16,<1.17.0a0",
+                    "libxml2 >=2.9.10,<2.10.0a0",
+                    "make",
+                    "mkl",
+                    "mpich >=3.4.1,<4.0a0",
+                    "netcdf-fortran * *mpich*",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-xml-libxml",
+                    "python >=3.9,<3.10.0a0",
+                    "python_abi 3.9.* *_cp39",
+                    "subversion",
+                    "tcsh",
+                    "wget"
+                ],
+                "has_prefix": false,
+                "license": "BSD 3-Clause",
+                "license_family": "BSD",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1617711701895
+            },
+            "basename": "linux-64/noresm-2.0.2-py39pl5262hab58d13_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "binutils",
+                        "specs": []
+                    },
+                    {
+                        "name": "cmake",
+                        "specs": []
+                    },
+                    {
+                        "name": "gcc_linux-64",
+                        "specs": [
+                            [
+                                "==",
+                                "9."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "gfortran_linux-64",
+                        "specs": [
+                            [
+                                "==",
+                                "9."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran-ng",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libiconv",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16,<1.17.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libxml2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.9.10,<2.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "make",
+                        "specs": []
+                    },
+                    {
+                        "name": "mkl",
+                        "specs": []
+                    },
+                    {
+                        "name": "mpich",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "netcdf-fortran",
+                        "specs": [
+                            [
+                                "==",
+                                "* *mpich"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-xml-libxml",
+                        "specs": []
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.9,<3.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python_abi",
+                        "specs": [
+                            [
+                                "==",
+                                "3.9.* *_cp39"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "subversion",
+                        "specs": []
+                    },
+                    {
+                        "name": "tcsh",
+                        "specs": []
+                    },
+                    {
+                        "name": "wget",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/noresm/2.0.2/linux-64/noresm-2.0.2-py39pl5262hab58d13_0.tar.bz2",
+            "full_name": "bioconda/noresm/2.0.2/linux-64/noresm-2.0.2-py39pl5262hab58d13_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5f4e94856cf0817dfff16abe30e7f58c",
+            "ndownloads": 792,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 17765387,
+            "type": "conda",
+            "upload_time": "2021-04-10 15:54:06.156000+00:00",
+            "version": "2.0.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py37pl5262h736fc29_0",
+                "build_number": 0,
+                "depends": [
+                    "binutils",
+                    "cmake",
+                    "gcc_linux-64 9.*",
+                    "gfortran_linux-64 9.*",
+                    "libgcc-ng >=9.3.0",
+                    "libgfortran-ng",
+                    "libgfortran5 >=9.3.0",
+                    "libiconv >=1.16,<1.17.0a0",
+                    "libxml2 >=2.9.10,<2.10.0a0",
+                    "make",
+                    "mkl",
+                    "mpich >=3.4.1,<4.0a0",
+                    "netcdf-fortran * *mpich*",
+                    "perl >=5.26.2,<5.26.3.0a0",
+                    "perl-xml-libxml",
+                    "python >=3.7,<3.8.0a0",
+                    "python_abi 3.7.* *_cp37m",
+                    "subversion",
+                    "tcsh",
+                    "wget"
+                ],
+                "has_prefix": false,
+                "license": "BSD 3-Clause",
+                "license_family": "BSD",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1617714022407
+            },
+            "basename": "linux-64/noresm-2.0.2-py37pl5262h736fc29_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "binutils",
+                        "specs": []
+                    },
+                    {
+                        "name": "cmake",
+                        "specs": []
+                    },
+                    {
+                        "name": "gcc_linux-64",
+                        "specs": [
+                            [
+                                "==",
+                                "9."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "gfortran_linux-64",
+                        "specs": [
+                            [
+                                "==",
+                                "9."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran-ng",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libiconv",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16,<1.17.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libxml2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.9.10,<2.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "make",
+                        "specs": []
+                    },
+                    {
+                        "name": "mkl",
+                        "specs": []
+                    },
+                    {
+                        "name": "mpich",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "netcdf-fortran",
+                        "specs": [
+                            [
+                                "==",
+                                "* *mpich"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.26.2,<5.26.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-xml-libxml",
+                        "specs": []
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.7,<3.8.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python_abi",
+                        "specs": [
+                            [
+                                "==",
+                                "3.7.* *_cp37m"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "subversion",
+                        "specs": []
+                    },
+                    {
+                        "name": "tcsh",
+                        "specs": []
+                    },
+                    {
+                        "name": "wget",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/noresm/2.0.2/linux-64/noresm-2.0.2-py37pl5262h736fc29_0.tar.bz2",
+            "full_name": "bioconda/noresm/2.0.2/linux-64/noresm-2.0.2-py37pl5262h736fc29_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5874c5289b28887e4278c4b0518edc6e",
+            "ndownloads": 242,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 17748874,
+            "type": "conda",
+            "upload_time": "2021-04-10 15:54:08.934000+00:00",
+            "version": "2.0.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py38pl5321hbcac906_1",
+                "build_number": 1,
+                "depends": [
+                    "binutils",
+                    "cmake",
+                    "gcc_linux-64 9.*",
+                    "gfortran_linux-64 9.*",
+                    "libgcc-ng >=9.4.0",
+                    "libgfortran-ng",
+                    "libgfortran5 >=9.4.0",
+                    "libiconv >=1.16,<1.17.0a0",
+                    "libxml2 >=2.9.12,<2.10.0a0",
+                    "make",
+                    "mkl",
+                    "mpich >=3.4.3,<4.0a0",
+                    "netcdf-fortran * *mpich*",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-xml-libxml",
+                    "python >=3.8,<3.9.0a0",
+                    "python_abi 3.8.* *_cp38",
+                    "subversion",
+                    "tcsh",
+                    "wget"
+                ],
+                "has_prefix": false,
+                "license": "BSD 3-Clause",
+                "license_family": "BSD",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1642952061868
+            },
+            "basename": "linux-64/noresm-2.0.2-py38pl5321hbcac906_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "binutils",
+                        "specs": []
+                    },
+                    {
+                        "name": "cmake",
+                        "specs": []
+                    },
+                    {
+                        "name": "gcc_linux-64",
+                        "specs": [
+                            [
+                                "==",
+                                "9."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "gfortran_linux-64",
+                        "specs": [
+                            [
+                                "==",
+                                "9."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran-ng",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libiconv",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16,<1.17.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libxml2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.9.12,<2.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "make",
+                        "specs": []
+                    },
+                    {
+                        "name": "mkl",
+                        "specs": []
+                    },
+                    {
+                        "name": "mpich",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.3,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "netcdf-fortran",
+                        "specs": [
+                            [
+                                "==",
+                                "* *mpich"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.32.1,<5.33.0a0 *_perl5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-xml-libxml",
+                        "specs": []
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python_abi",
+                        "specs": [
+                            [
+                                "==",
+                                "3.8.* *_cp38"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "subversion",
+                        "specs": []
+                    },
+                    {
+                        "name": "tcsh",
+                        "specs": []
+                    },
+                    {
+                        "name": "wget",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/noresm/2.0.2/linux-64/noresm-2.0.2-py38pl5321hbcac906_1.tar.bz2",
+            "full_name": "bioconda/noresm/2.0.2/linux-64/noresm-2.0.2-py38pl5321hbcac906_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d8dae572ac97f36c5ecb4ed38d103092",
+            "ndownloads": 203,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 17732988,
+            "type": "conda",
+            "upload_time": "2022-01-23 16:13:10.445000+00:00",
+            "version": "2.0.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py36pl5321hb3b0942_1",
+                "build_number": 1,
+                "depends": [
+                    "binutils",
+                    "cmake",
+                    "gcc_linux-64 9.*",
+                    "gfortran_linux-64 9.*",
+                    "libgcc-ng >=9.4.0",
+                    "libgfortran-ng",
+                    "libgfortran5 >=9.4.0",
+                    "libiconv >=1.16,<1.17.0a0",
+                    "libxml2 >=2.9.12,<2.10.0a0",
+                    "make",
+                    "mkl",
+                    "mpich >=3.4.3,<4.0a0",
+                    "netcdf-fortran * *mpich*",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-xml-libxml",
+                    "python >=3.6,<3.7.0a0",
+                    "python_abi 3.6.* *_cp36m",
+                    "subversion",
+                    "tcsh",
+                    "wget"
+                ],
+                "has_prefix": false,
+                "license": "BSD 3-Clause",
+                "license_family": "BSD",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1642950224397
+            },
+            "basename": "linux-64/noresm-2.0.2-py36pl5321hb3b0942_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "binutils",
+                        "specs": []
+                    },
+                    {
+                        "name": "cmake",
+                        "specs": []
+                    },
+                    {
+                        "name": "gcc_linux-64",
+                        "specs": [
+                            [
+                                "==",
+                                "9."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "gfortran_linux-64",
+                        "specs": [
+                            [
+                                "==",
+                                "9."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran-ng",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libiconv",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16,<1.17.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libxml2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.9.12,<2.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "make",
+                        "specs": []
+                    },
+                    {
+                        "name": "mkl",
+                        "specs": []
+                    },
+                    {
+                        "name": "mpich",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.3,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "netcdf-fortran",
+                        "specs": [
+                            [
+                                "==",
+                                "* *mpich"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.32.1,<5.33.0a0 *_perl5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-xml-libxml",
+                        "specs": []
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python_abi",
+                        "specs": [
+                            [
+                                "==",
+                                "3.6.* *_cp36m"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "subversion",
+                        "specs": []
+                    },
+                    {
+                        "name": "tcsh",
+                        "specs": []
+                    },
+                    {
+                        "name": "wget",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/noresm/2.0.2/linux-64/noresm-2.0.2-py36pl5321hb3b0942_1.tar.bz2",
+            "full_name": "bioconda/noresm/2.0.2/linux-64/noresm-2.0.2-py36pl5321hb3b0942_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "013349a318c05d6cc44e42a8866c6919",
+            "ndownloads": 194,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 17752765,
+            "type": "conda",
+            "upload_time": "2022-01-23 16:13:13.543000+00:00",
+            "version": "2.0.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py39pl5321hab58d13_1",
+                "build_number": 1,
+                "depends": [
+                    "binutils",
+                    "cmake",
+                    "gcc_linux-64 9.*",
+                    "gfortran_linux-64 9.*",
+                    "libgcc-ng >=9.4.0",
+                    "libgfortran-ng",
+                    "libgfortran5 >=9.4.0",
+                    "libiconv >=1.16,<1.17.0a0",
+                    "libxml2 >=2.9.12,<2.10.0a0",
+                    "make",
+                    "mkl",
+                    "mpich >=3.4.3,<4.0a0",
+                    "netcdf-fortran * *mpich*",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-xml-libxml",
+                    "python >=3.9,<3.10.0a0",
+                    "python_abi 3.9.* *_cp39",
+                    "subversion",
+                    "tcsh",
+                    "wget"
+                ],
+                "has_prefix": false,
+                "license": "BSD 3-Clause",
+                "license_family": "BSD",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1642951158103
+            },
+            "basename": "linux-64/noresm-2.0.2-py39pl5321hab58d13_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "binutils",
+                        "specs": []
+                    },
+                    {
+                        "name": "cmake",
+                        "specs": []
+                    },
+                    {
+                        "name": "gcc_linux-64",
+                        "specs": [
+                            [
+                                "==",
+                                "9."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "gfortran_linux-64",
+                        "specs": [
+                            [
+                                "==",
+                                "9."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran-ng",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libiconv",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16,<1.17.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libxml2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.9.12,<2.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "make",
+                        "specs": []
+                    },
+                    {
+                        "name": "mkl",
+                        "specs": []
+                    },
+                    {
+                        "name": "mpich",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.3,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "netcdf-fortran",
+                        "specs": [
+                            [
+                                "==",
+                                "* *mpich"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.32.1,<5.33.0a0 *_perl5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-xml-libxml",
+                        "specs": []
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.9,<3.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python_abi",
+                        "specs": [
+                            [
+                                "==",
+                                "3.9.* *_cp39"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "subversion",
+                        "specs": []
+                    },
+                    {
+                        "name": "tcsh",
+                        "specs": []
+                    },
+                    {
+                        "name": "wget",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/noresm/2.0.2/linux-64/noresm-2.0.2-py39pl5321hab58d13_1.tar.bz2",
+            "full_name": "bioconda/noresm/2.0.2/linux-64/noresm-2.0.2-py39pl5321hab58d13_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "78949d68bf7b6db3b5293dab46f4c05c",
+            "ndownloads": 2368,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 17733925,
+            "type": "conda",
+            "upload_time": "2022-01-23 16:13:17.419000+00:00",
+            "version": "2.0.2"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py37pl5321h736fc29_1",
+                "build_number": 1,
+                "depends": [
+                    "binutils",
+                    "cmake",
+                    "gcc_linux-64 9.*",
+                    "gfortran_linux-64 9.*",
+                    "libgcc-ng >=9.4.0",
+                    "libgfortran-ng",
+                    "libgfortran5 >=9.4.0",
+                    "libiconv >=1.16,<1.17.0a0",
+                    "libxml2 >=2.9.12,<2.10.0a0",
+                    "make",
+                    "mkl",
+                    "mpich >=3.4.3,<4.0a0",
+                    "netcdf-fortran * *mpich*",
+                    "perl >=5.32.1,<5.33.0a0 *_perl5",
+                    "perl-xml-libxml",
+                    "python >=3.7,<3.8.0a0",
+                    "python_abi 3.7.* *_cp37m",
+                    "subversion",
+                    "tcsh",
+                    "wget"
+                ],
+                "has_prefix": false,
+                "license": "BSD 3-Clause",
+                "license_family": "BSD",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1642949236455
+            },
+            "basename": "linux-64/noresm-2.0.2-py37pl5321h736fc29_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "binutils",
+                        "specs": []
+                    },
+                    {
+                        "name": "cmake",
+                        "specs": []
+                    },
+                    {
+                        "name": "gcc_linux-64",
+                        "specs": [
+                            [
+                                "==",
+                                "9."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "gfortran_linux-64",
+                        "specs": [
+                            [
+                                "==",
+                                "9."
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgfortran-ng",
+                        "specs": []
+                    },
+                    {
+                        "name": "libgfortran5",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libiconv",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.16,<1.17.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libxml2",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.9.12,<2.10.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "make",
+                        "specs": []
+                    },
+                    {
+                        "name": "mkl",
+                        "specs": []
+                    },
+                    {
+                        "name": "mpich",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.3,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "netcdf-fortran",
+                        "specs": [
+                            [
+                                "==",
+                                "* *mpich"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "specs": [
+                            [
+                                ">=",
+                                "5.32.1,<5.33.0a0 *_perl5"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "perl-xml-libxml",
+                        "specs": []
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.7,<3.8.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python_abi",
+                        "specs": [
+                            [
+                                "==",
+                                "3.7.* *_cp37m"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "subversion",
+                        "specs": []
+                    },
+                    {
+                        "name": "tcsh",
+                        "specs": []
+                    },
+                    {
+                        "name": "wget",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/noresm/2.0.2/linux-64/noresm-2.0.2-py37pl5321h736fc29_1.tar.bz2",
+            "full_name": "bioconda/noresm/2.0.2/linux-64/noresm-2.0.2-py37pl5321h736fc29_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d82f0d68c2d15f57fe2fd80487ec4554",
+            "ndownloads": 194,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 17758231,
+            "type": "conda",
+            "upload_time": "2022-01-23 16:13:20.484000+00:00",
+            "version": "2.0.2"
+        }
+    ],
+    "full_name": "bioconda/noresm",
+    "home": "https://github.com/NorESMhub/NorESM",
+    "html_url": "http://anaconda.org/bioconda/noresm",
+    "id": "6071c876d1f4ffdc4a5f7f0c",
+    "latest_version": "2.0.2",
+    "license": "BSD 3-Clause",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:27.281000+00:00",
+    "name": "noresm",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "2.0.2"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/noresm/2.0.2",
+            "version": "2.0.2"
+        }
+    ],
+    "revision": 2,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "The Norwegian Earth System Model (NorESM) is a coupled climate model for simulating Earth\u2019s climate system",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/noresm",
+    "versions": [
+        "2.0.2"
+    ],
+    "watchers": 1
+}

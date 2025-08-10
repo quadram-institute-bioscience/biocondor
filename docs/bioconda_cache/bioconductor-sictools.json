@@ -1,0 +1,2976 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r40hdc34e71_2",
+        "r41h8ddd452_0",
+        "r41hdc62a58_1",
+        "r36h01d97ff_1",
+        "r42h644fa51_1",
+        "r41h2e7e3aa_2",
+        "r41h7768d8f_1",
+        "r41hc920352_2",
+        "r43h54b6a8d_0",
+        "r40haa295da_2",
+        "r42hc920352_0",
+        "r42h2e7e3aa_0",
+        "r40h91362f1_1",
+        "r40h8909d69_0",
+        "r41h68a2ddb_0",
+        "r40hcab3667_1",
+        "r43h4c50009_0",
+        "r42h54b6a8d_1",
+        "r351h1de35cc_0",
+        "r44h53ed54c_0",
+        "r36h01d97ff_0"
+    ],
+    "conda_platforms": [
+        "osx-64",
+        "linux-64"
+    ],
+    "created_at": "2018-12-10 14:03:12.658000+00:00",
+    "description": "This package is to find SNV/Indel differences between two bam files with near relationship in a way of pairwise comparison thourgh each base position across the genome region of interest. The difference is inferred by fisher test and euclidean distance, the input of which is the base count (A,T,G,C) in a given position and read counts for indels that span no less than 2bp on both sides of indel region.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h1de35cc_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.50.0,<2.51.0",
+                    "bioconductor-genomicranges >=1.34.0,<1.35.0",
+                    "bioconductor-iranges >=2.16.0,<2.17.0",
+                    "bioconductor-rsamtools >=1.34.0,<1.35.0",
+                    "r-base >=3.5.1,<3.5.2.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1544450507324
+            },
+            "basename": "osx-64/bioconductor-sictools-1.12.0-r351h1de35cc_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.34.0,<1.35.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.12.0/osx-64/bioconductor-sictools-1.12.0-r351h1de35cc_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.12.0/osx-64/bioconductor-sictools-1.12.0-r351h1de35cc_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "c9cd66ba48789f10d12a19cc0867ee1b",
+            "ndownloads": 4360,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1341730,
+            "type": "conda",
+            "upload_time": "2018-12-10 14:03:13.840000+00:00",
+            "version": "1.12.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biostrings >=2.52.0,<2.53.0",
+                    "bioconductor-genomicranges >=1.36.0,<1.37.0",
+                    "bioconductor-iranges >=2.18.0,<2.19.0",
+                    "bioconductor-rsamtools >=2.0.0,<2.1.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1564097473690
+            },
+            "basename": "osx-64/bioconductor-sictools-1.14.0-r36h01d97ff_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.36.0,<1.37.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.14.0/osx-64/bioconductor-sictools-1.14.0-r36h01d97ff_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.14.0/osx-64/bioconductor-sictools-1.14.0-r36h01d97ff_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0c6941f6088cb1cad9cdcb45504c4894",
+            "ndownloads": 4010,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1339886,
+            "type": "conda",
+            "upload_time": "2019-07-25 23:32:22.507000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h01d97ff_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.54.0,<2.55.0",
+                    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+                    "bioconductor-iranges >=2.20.0,<2.21.0",
+                    "bioconductor-rsamtools >=2.2.0,<2.3.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572656142033
+            },
+            "basename": "osx-64/bioconductor-sictools-1.16.0-r36h01d97ff_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.38.0,<1.39.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.16.0/osx-64/bioconductor-sictools-1.16.0-r36h01d97ff_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.16.0/osx-64/bioconductor-sictools-1.16.0-r36h01d97ff_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4e703d62261787225fec5971765bb144",
+            "ndownloads": 3832,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1361227,
+            "type": "conda",
+            "upload_time": "2019-11-02 00:56:48.329000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h8909d69_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.56.0,<2.57.0",
+                    "bioconductor-genomicranges >=1.40.0,<1.41.0",
+                    "bioconductor-iranges >=2.22.0,<2.23.0",
+                    "bioconductor-rsamtools >=2.4.0,<2.5.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1589033662992
+            },
+            "basename": "osx-64/bioconductor-sictools-1.18.0-r40h8909d69_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.56.0,<2.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.40.0,<1.41.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.22.0,<2.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.4.0,<2.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.18.0/osx-64/bioconductor-sictools-1.18.0-r40h8909d69_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.18.0/osx-64/bioconductor-sictools-1.18.0-r40h8909d69_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "df45c891995b4345047c0983f0a94d39",
+            "ndownloads": 3382,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1367356,
+            "type": "conda",
+            "upload_time": "2020-05-09 14:15:44.717000+00:00",
+            "version": "1.18.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h8909d69_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-rsamtools >=2.6.0,<2.7.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1604066115086
+            },
+            "basename": "osx-64/bioconductor-sictools-1.20.0-r40h8909d69_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.20.0/osx-64/bioconductor-sictools-1.20.0-r40h8909d69_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.20.0/osx-64/bioconductor-sictools-1.20.0-r40h8909d69_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "10c69effde0046cc5440980855ba4542",
+            "ndownloads": 89,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1360566,
+            "type": "conda",
+            "upload_time": "2020-10-30 13:56:49.717000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40hcab3667_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-rsamtools >=2.6.0,<2.7.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1605178819735
+            },
+            "basename": "linux-64/bioconductor-sictools-1.20.0-r40hcab3667_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.20.0/linux-64/bioconductor-sictools-1.20.0-r40hcab3667_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.20.0/linux-64/bioconductor-sictools-1.20.0-r40hcab3667_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d6035d5ad4942ce2d86c366224cc491c",
+            "ndownloads": 244,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1771302,
+            "type": "conda",
+            "upload_time": "2020-11-12 11:51:31.044000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h91362f1_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-rsamtools >=2.6.0,<2.7.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1605181327335
+            },
+            "basename": "osx-64/bioconductor-sictools-1.20.0-r40h91362f1_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.20.0/osx-64/bioconductor-sictools-1.20.0-r40h91362f1_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.20.0/osx-64/bioconductor-sictools-1.20.0-r40h91362f1_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "819c9b90b8457df780251b1709e2466c",
+            "ndownloads": 317,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1366611,
+            "type": "conda",
+            "upload_time": "2020-11-12 11:51:33.384000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40haa295da_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-rsamtools >=2.6.0,<2.7.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1616866870204
+            },
+            "basename": "linux-64/bioconductor-sictools-1.20.0-r40haa295da_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.20.0/linux-64/bioconductor-sictools-1.20.0-r40haa295da_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.20.0/linux-64/bioconductor-sictools-1.20.0-r40haa295da_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "917d082c37e595220ce826bbec50c8d7",
+            "ndownloads": 241,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1841303,
+            "type": "conda",
+            "upload_time": "2021-03-27 17:47:20.013000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40hdc34e71_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-biostrings >=2.58.0,<2.59.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-rsamtools >=2.6.0,<2.7.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1616975525703
+            },
+            "basename": "osx-64/bioconductor-sictools-1.20.0-r40hdc34e71_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.6.0,<2.7.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.20.0/osx-64/bioconductor-sictools-1.20.0-r40hdc34e71_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.20.0/osx-64/bioconductor-sictools-1.20.0-r40hdc34e71_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "fabf1eb9e5131027b717ab09e6483a9e",
+            "ndownloads": 2795,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1357386,
+            "type": "conda",
+            "upload_time": "2021-03-28 23:53:37.809000+00:00",
+            "version": "1.20.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h68a2ddb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.60.0,<2.61.0",
+                    "bioconductor-genomicranges >=1.44.0,<1.45.0",
+                    "bioconductor-iranges >=2.26.0,<2.27.0",
+                    "bioconductor-rsamtools >=2.8.0,<2.9.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1622503343210
+            },
+            "basename": "osx-64/bioconductor-sictools-1.22.0-r41h68a2ddb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.60.0,<2.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.8.0,<2.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.22.0/osx-64/bioconductor-sictools-1.22.0-r41h68a2ddb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.22.0/osx-64/bioconductor-sictools-1.22.0-r41h68a2ddb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b3160cfe2b63b4eb1d28fab3fe0eb206",
+            "ndownloads": 2672,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1363870,
+            "type": "conda",
+            "upload_time": "2021-05-31 23:23:54.164000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h8ddd452_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.60.0,<2.61.0",
+                    "bioconductor-genomicranges >=1.44.0,<1.45.0",
+                    "bioconductor-iranges >=2.26.0,<2.27.0",
+                    "bioconductor-rsamtools >=2.8.0,<2.9.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "ncurses >=6.2,<6.3.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1623074480337
+            },
+            "basename": "linux-64/bioconductor-sictools-1.22.0-r41h8ddd452_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.60.0,<2.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.8.0,<2.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "ncurses",
+                        "specs": [
+                            [
+                                ">=",
+                                "6.2,<6.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.22.0/linux-64/bioconductor-sictools-1.22.0-r41h8ddd452_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.22.0/linux-64/bioconductor-sictools-1.22.0-r41h8ddd452_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3641ff53c6c2d43e567ca036a23c1abf",
+            "ndownloads": 241,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1836386,
+            "type": "conda",
+            "upload_time": "2021-06-07 14:08:10.932000+00:00",
+            "version": "1.22.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h68a2ddb_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-rsamtools >=2.10.0,<2.11.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1635936070469
+            },
+            "basename": "osx-64/bioconductor-sictools-1.24.0-r41h68a2ddb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.24.0/osx-64/bioconductor-sictools-1.24.0-r41h68a2ddb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.24.0/osx-64/bioconductor-sictools-1.24.0-r41h68a2ddb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6e6e12f5e9a703a738a0b0cdda33226e",
+            "ndownloads": 287,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1364743,
+            "type": "conda",
+            "upload_time": "2021-11-03 10:42:52.911000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h8ddd452_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-rsamtools >=2.10.0,<2.11.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libzlib >=1.2.11,<1.3.0a0",
+                    "ncurses >=6.2,<6.3.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1636120860981
+            },
+            "basename": "linux-64/bioconductor-sictools-1.24.0-r41h8ddd452_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "ncurses",
+                        "specs": [
+                            [
+                                ">=",
+                                "6.2,<6.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.24.0/linux-64/bioconductor-sictools-1.24.0-r41h8ddd452_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.24.0/linux-64/bioconductor-sictools-1.24.0-r41h8ddd452_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "25a143397ca190be87bb4a81be559a2a",
+            "ndownloads": 214,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1868897,
+            "type": "conda",
+            "upload_time": "2021-11-05 14:08:52.780000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hdc62a58_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-rsamtools >=2.10.0,<2.11.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libzlib >=1.2.11,<1.3.0a0",
+                    "ncurses >=6.3,<7.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1645918065663
+            },
+            "basename": "linux-64/bioconductor-sictools-1.24.0-r41hdc62a58_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "ncurses",
+                        "specs": [
+                            [
+                                ">=",
+                                "6.3,<7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.24.0/linux-64/bioconductor-sictools-1.24.0-r41hdc62a58_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.24.0/linux-64/bioconductor-sictools-1.24.0-r41hdc62a58_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "93dce1d9cf21bdfac110d2b73a6f7225",
+            "ndownloads": 193,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1821145,
+            "type": "conda",
+            "upload_time": "2022-02-26 23:35:20.967000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h7768d8f_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-rsamtools >=2.10.0,<2.11.0",
+                    "libblas >=3.8.0,<4.0a0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libzlib >=1.2.11,<1.3.0a0",
+                    "ncurses >=6.3,<7.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1646039360754
+            },
+            "basename": "osx-64/bioconductor-sictools-1.24.0-r41h7768d8f_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-biostrings",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rsamtools",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libzlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "ncurses",
+                        "specs": [
+                            [
+                                ">=",
+                                "6.3,<7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-doparallel",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.0.8"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.10.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.3"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.6.2"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.2.11,<1.3.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.24.0/osx-64/bioconductor-sictools-1.24.0-r41h7768d8f_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.24.0/osx-64/bioconductor-sictools-1.24.0-r41h7768d8f_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f4765dfa870ae7d413fbc8b4c86fda82",
+            "ndownloads": 401,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1362017,
+            "type": "conda",
+            "upload_time": "2022-02-28 09:11:27.530000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hc920352_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-rsamtools >=2.10.0,<2.11.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libzlib >=1.2.12,<1.3.0a0",
+                    "ncurses >=6.3,<7.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2",
+                    "zlib >=1.2.12,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1663327789360
+            },
+            "basename": "osx-64/bioconductor-sictools-1.24.0-r41hc920352_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.24.0/osx-64/bioconductor-sictools-1.24.0-r41hc920352_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.24.0/osx-64/bioconductor-sictools-1.24.0-r41hc920352_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "777c660216e4e14cdf808741fcb3173c",
+            "ndownloads": 1779,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1365155,
+            "type": "conda",
+            "upload_time": "2022-09-16 11:31:51.643000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h2e7e3aa_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-biostrings >=2.62.0,<2.63.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-rsamtools >=2.10.0,<2.11.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libzlib >=1.2.12,<1.3.0a0",
+                    "ncurses >=6.3,<7.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2",
+                    "zlib >=1.2.12,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1663348835267
+            },
+            "basename": "linux-64/bioconductor-sictools-1.24.0-r41h2e7e3aa_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.24.0/linux-64/bioconductor-sictools-1.24.0-r41h2e7e3aa_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.24.0/linux-64/bioconductor-sictools-1.24.0-r41h2e7e3aa_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "498d39ae2260db4b4853ef8f91322ecb",
+            "ndownloads": 181,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1824046,
+            "type": "conda",
+            "upload_time": "2022-09-16 17:25:33.455000+00:00",
+            "version": "1.24.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc920352_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-rsamtools >=2.14.0,<2.15.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libzlib >=1.2.13,<1.3.0a0",
+                    "ncurses >=6.3,<7.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2",
+                    "zlib >=1.2.13,<1.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1667846367075
+            },
+            "basename": "osx-64/bioconductor-sictools-1.28.0-r42hc920352_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.28.0/osx-64/bioconductor-sictools-1.28.0-r42hc920352_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.28.0/osx-64/bioconductor-sictools-1.28.0-r42hc920352_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e5032a0fc31cc2fd634b6b211954b5b9",
+            "ndownloads": 1695,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1362212,
+            "type": "conda",
+            "upload_time": "2022-11-07 18:41:31.721000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42h2e7e3aa_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-rsamtools >=2.14.0,<2.15.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libzlib >=1.2.13,<1.3.0a0",
+                    "ncurses >=6.3,<7.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2",
+                    "zlib >=1.2.13,<1.3.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1667877318265
+            },
+            "basename": "linux-64/bioconductor-sictools-1.28.0-r42h2e7e3aa_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.28.0/linux-64/bioconductor-sictools-1.28.0-r42h2e7e3aa_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.28.0/linux-64/bioconductor-sictools-1.28.0-r42h2e7e3aa_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ba40ffa08b35c34362cc7035102a9204",
+            "ndownloads": 167,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1820007,
+            "type": "conda",
+            "upload_time": "2022-11-08 03:19:09.403000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42h54b6a8d_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-rsamtools >=2.14.0,<2.15.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libzlib >=1.2.13,<1.3.0a0",
+                    "ncurses >=6.3,<7.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2",
+                    "zlib"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1685232241533
+            },
+            "basename": "linux-64/bioconductor-sictools-1.28.0-r42h54b6a8d_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.28.0/linux-64/bioconductor-sictools-1.28.0-r42h54b6a8d_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.28.0/linux-64/bioconductor-sictools-1.28.0-r42h54b6a8d_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "043d504a656037f924deba7dbf1a8c91",
+            "ndownloads": 139,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1797095,
+            "type": "conda",
+            "upload_time": "2023-05-28 00:07:57.427000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42h644fa51_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-biostrings >=2.66.0,<2.67.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-rsamtools >=2.14.0,<2.15.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libzlib >=1.2.13,<1.3.0a0",
+                    "ncurses >=6.3,<7.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2",
+                    "zlib"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1685626620683
+            },
+            "basename": "osx-64/bioconductor-sictools-1.28.0-r42h644fa51_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.28.0/osx-64/bioconductor-sictools-1.28.0-r42h644fa51_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.28.0/osx-64/bioconductor-sictools-1.28.0-r42h644fa51_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1531367eb0587db7c1e171dc84febae7",
+            "ndownloads": 57,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1369069,
+            "type": "conda",
+            "upload_time": "2023-06-01 13:38:44.974000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43h4c50009_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.68.0,<2.69.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-rsamtools >=2.16.0,<2.17.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1689096216498
+            },
+            "basename": "osx-64/bioconductor-sictools-1.30.0-r43h4c50009_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.30.0/osx-64/bioconductor-sictools-1.30.0-r43h4c50009_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.30.0/osx-64/bioconductor-sictools-1.30.0-r43h4c50009_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "268ad1413cea1b2fd9ee81baf00151fa",
+            "ndownloads": 900,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1376328,
+            "type": "conda",
+            "upload_time": "2023-07-11 17:25:14.953000+00:00",
+            "version": "1.30.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43h54b6a8d_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.68.0,<2.69.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-rsamtools >=2.16.0,<2.17.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libzlib >=1.2.13,<1.3.0a0",
+                    "ncurses >=6.4,<7.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2",
+                    "zlib"
+                ],
+                "has_prefix": true,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1689163483206
+            },
+            "basename": "linux-64/bioconductor-sictools-1.30.0-r43h54b6a8d_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.30.0/linux-64/bioconductor-sictools-1.30.0-r43h54b6a8d_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.30.0/linux-64/bioconductor-sictools-1.30.0-r43h54b6a8d_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2889bc43122668fce963bcfdb3b9b24e",
+            "ndownloads": 139,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1804298,
+            "type": "conda",
+            "upload_time": "2023-07-12 12:08:44.260000+00:00",
+            "version": "1.30.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43h4c50009_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.70.0,<2.71.0",
+                    "bioconductor-biostrings >=2.70.1,<2.71.0a0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-genomicranges >=1.54.1,<1.55.0a0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0a0",
+                    "bioconductor-rsamtools >=2.18.0,<2.19.0",
+                    "bioconductor-rsamtools >=2.18.0,<2.19.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1701715745395
+            },
+            "basename": "osx-64/bioconductor-sictools-1.32.0-r43h4c50009_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.32.0/osx-64/bioconductor-sictools-1.32.0-r43h4c50009_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.32.0/osx-64/bioconductor-sictools-1.32.0-r43h4c50009_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "755a909f88bf6b54c1be6fd6a32cb32b",
+            "ndownloads": 826,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1351057,
+            "type": "conda",
+            "upload_time": "2023-12-04 18:50:16.960000+00:00",
+            "version": "1.32.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h53ed54c_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biostrings >=2.74.0,<2.75.0",
+                    "bioconductor-biostrings >=2.74.0,<2.75.0a0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0",
+                    "bioconductor-genomicranges >=1.58.0,<1.59.0a0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0",
+                    "bioconductor-iranges >=2.40.0,<2.41.0a0",
+                    "bioconductor-rsamtools >=2.22.0,<2.23.0",
+                    "bioconductor-rsamtools >=2.22.0,<2.23.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libzlib >=1.3.1,<2.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-doparallel >=1.0.8",
+                    "r-matrixstats >=0.10.0",
+                    "r-plyr >=1.8.3",
+                    "r-stringr >=0.6.2"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>=2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1734709842318
+            },
+            "basename": "osx-64/bioconductor-sictools-1.36.0-r44h53ed54c_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-sictools/1.36.0/osx-64/bioconductor-sictools-1.36.0-r44h53ed54c_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-sictools/1.36.0/osx-64/bioconductor-sictools-1.36.0-r44h53ed54c_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "dfb6049d9cfab317d3be389e46c196e5",
+            "ndownloads": 117,
+            "owner": "bioconda",
+            "sha256": "f2aeae8da665dbb8227eaf04a80877c7b12a77c4039e4e64add1fc0cac1502a6",
+            "size": 1376217,
+            "type": "conda",
+            "upload_time": "2024-12-20 15:52:32.154000+00:00",
+            "version": "1.36.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-sictools",
+    "home": "https://bioconductor.org/packages/3.8/bioc/html/SICtools.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-sictools",
+    "id": "5c0e7220036b86135892b05f",
+    "latest_version": "1.36.0",
+    "license": "GPL (>=2)",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:03.824000+00:00",
+    "name": "bioconductor-sictools",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.30.0",
+        "osx-64": "1.36.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-sictools/1.12.0",
+            "version": "1.12.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-sictools/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-sictools/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-sictools/1.18.0",
+            "version": "1.18.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-sictools/1.20.0",
+            "version": "1.20.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-sictools/1.22.0",
+            "version": "1.22.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-sictools/1.24.0",
+            "version": "1.24.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-sictools/1.28.0",
+            "version": "1.28.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-sictools/1.30.0",
+            "version": "1.30.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-sictools/1.32.0",
+            "version": "1.32.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-sictools/1.36.0",
+            "version": "1.36.0"
+        }
+    ],
+    "revision": 23,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Find SNV/Indel differences between two bam files with near relationship",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-sictools",
+    "versions": [
+        "1.12.0",
+        "1.14.0",
+        "1.16.0",
+        "1.18.0",
+        "1.20.0",
+        "1.22.0",
+        "1.24.0",
+        "1.28.0",
+        "1.30.0",
+        "1.32.0",
+        "1.36.0"
+    ],
+    "watchers": 1
+}

@@ -1,0 +1,162 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r43hdfd78af_0",
+        "r44hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2023-12-04 19:36:45.035000+00:00",
+    "description": "The RNAseqCovarImpute package makes linear model analysis for RNA sequencing read counts compatible with multiple imputation (MI) of missing covariates. A major problem with implementing MI in RNA sequencing studies is that the outcome data must be included in the imputation prediction models to avoid bias. This is difficult in omics studies with high-dimensional data. The first method we developed in the RNAseqCovarImpute package surmounts the problem of high-dimensional outcome data by binning genes into smaller groups to analyze pseudo-independently. This method implements covariate MI in gene expression studies by 1) randomly binning genes into smaller groups, 2) creating M imputed datasets separately within each bin, where the imputation predictor matrix includes all covariates and the log counts per million (CPM) for the genes within each bin, 3) estimating gene expression changes using `limma::voom` followed by `limma::lmFit` functions, separately on each M imputed dataset within each gene bin, 4) un-binning the gene sets and stacking the M sets of model results before applying the `limma::squeezeVar` function to apply a variance shrinking Bayesian procedure to each M set of model results, 5) pooling the results with Rubins\u2019 rules to produce combined coefficients, standard errors, and P-values, and 6) adjusting P-values for multiplicity to account for false discovery rate (FDR). A faster method uses principal component analysis (PCA) to avoid binning genes while still retaining outcome information in the MI models. Binning genes into smaller groups requires that the MI and limma-voom analysis is run many times (typically hundreds). The more computationally efficient MI PCA method implements covariate MI in gene expression studies by 1) performing PCA on the log CPM values for all genes using the Bioconductor `PCAtools` package, 2) creating M imputed datasets where the imputation predictor matrix includes all covariates and the optimum number of PCs to retain (e.g., based on Horn\u2019s parallel analysis or the number of PCs that account for >80% explained variation), 3) conducting the standard limma-voom pipeline with the `voom` followed by `lmFit` followed by `eBayes` functions on each M imputed dataset, 4) pooling the results with Rubins\u2019 rules to produce combined coefficients, standard errors, and P-values, and 5) adjusting P-values for multiplicity to account for false discovery rate (FDR).",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.62.0,<2.63.0",
+                    "bioconductor-biocparallel >=1.36.0,<1.37.0",
+                    "bioconductor-edger >=4.0.0,<4.1.0",
+                    "bioconductor-limma >=3.58.0,<3.59.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-dplyr",
+                    "r-foreach",
+                    "r-magrittr",
+                    "r-mice",
+                    "r-rlang"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1701718416741
+            },
+            "basename": "noarch/bioconductor-rnaseqcovarimpute-1.0.2-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnaseqcovarimpute/1.0.2/noarch/bioconductor-rnaseqcovarimpute-1.0.2-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnaseqcovarimpute/1.0.2/noarch/bioconductor-rnaseqcovarimpute-1.0.2-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "483a51f6cd6437cc5633f251dc69715c",
+            "ndownloads": 1007,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 828702,
+            "type": "conda",
+            "upload_time": "2023-12-04 19:36:45.449000+00:00",
+            "version": "1.0.2"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r44hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-biobase >=2.66.0,<2.67.0",
+                    "bioconductor-biocgenerics >=0.52.0,<0.53.0",
+                    "bioconductor-biocparallel >=1.40.0,<1.41.0",
+                    "bioconductor-edger >=4.4.0,<4.5.0",
+                    "bioconductor-limma >=3.62.0,<3.63.0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-dplyr",
+                    "r-foreach",
+                    "r-magrittr",
+                    "r-mice",
+                    "r-rlang"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1734363898518
+            },
+            "basename": "noarch/bioconductor-rnaseqcovarimpute-1.4.0-r44hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-rnaseqcovarimpute/1.4.0/noarch/bioconductor-rnaseqcovarimpute-1.4.0-r44hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-rnaseqcovarimpute/1.4.0/noarch/bioconductor-rnaseqcovarimpute-1.4.0-r44hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "dafff4e066f0bd43a0c0952e18449ef6",
+            "ndownloads": 275,
+            "owner": "bioconda",
+            "sha256": "74972d61baa7e8b8cf26b4b893d21f4cd431b3b8f867eadb81c5e6c5da37966c",
+            "size": 844469,
+            "type": "conda",
+            "upload_time": "2024-12-16 15:47:13.526000+00:00",
+            "version": "1.4.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-rnaseqcovarimpute",
+    "home": "https://bioconductor.org/packages/3.18/bioc/html/RNAseqCovarImpute.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-rnaseqcovarimpute",
+    "id": "656e2a4db23360d3014f188a",
+    "latest_version": "1.4.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:39.327000+00:00",
+    "name": "bioconductor-rnaseqcovarimpute",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.4.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnaseqcovarimpute/1.0.2",
+            "version": "1.0.2"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-rnaseqcovarimpute/1.4.0",
+            "version": "1.4.0"
+        }
+    ],
+    "revision": 5,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Impute Covariate Data in RNA Sequencing Studies",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-rnaseqcovarimpute",
+    "versions": [
+        "1.0.2",
+        "1.4.0"
+    ],
+    "watchers": 1
+}

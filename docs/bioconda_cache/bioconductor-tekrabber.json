@@ -1,0 +1,577 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r43hf17093f_0",
+        "r44h35d7169_0",
+        "r42hf17093f_1",
+        "r42hb890f52_0",
+        "r44he5774e6_0",
+        "r42hc0ef7c4_1",
+        "r43hc0ef7c4_0",
+        "r42hc247a5b_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2022-11-09 00:49:46.344000+00:00",
+    "description": "TEKRABber is made to provide a user-friendly pipeline for comparing orthologs and transposable elements (TEs) between two species. It considers the orthology confidence between two species from BioMart to normalize expression counts and detect differentially expressed orthologs/TEs. Then it provides one to one correlation analysis for desired orthologs and TEs. There is also an app function to have a first insight on the result. Users can prepare orthologs/TEs RNA-seq expression data by their own preference to run TEKRABber following the data structure mentioned in the vignettes.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hb890f52_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-apeglm >=1.20.0,<1.21.0",
+                    "bioconductor-biomart >=2.54.0,<2.55.0",
+                    "bioconductor-deseq2 >=1.38.0,<1.39.0",
+                    "bioconductor-scbn >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=14.0.4",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-rcpp >=1.0.7"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1667954865898
+            },
+            "basename": "osx-64/bioconductor-tekrabber-1.2.0-r42hb890f52_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tekrabber/1.2.0/osx-64/bioconductor-tekrabber-1.2.0-r42hb890f52_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tekrabber/1.2.0/osx-64/bioconductor-tekrabber-1.2.0-r42hb890f52_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "967580276f76066edd1a2ec61292386b",
+            "ndownloads": 422,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3104083,
+            "type": "conda",
+            "upload_time": "2022-11-09 00:49:48.766000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc247a5b_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-apeglm >=1.20.0,<1.21.0",
+                    "bioconductor-biomart >=2.54.0,<2.55.0",
+                    "bioconductor-deseq2 >=1.38.0,<1.39.0",
+                    "bioconductor-scbn >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-rcpp >=1.0.7"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1668046982395
+            },
+            "basename": "linux-64/bioconductor-tekrabber-1.2.0-r42hc247a5b_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tekrabber/1.2.0/linux-64/bioconductor-tekrabber-1.2.0-r42hc247a5b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tekrabber/1.2.0/linux-64/bioconductor-tekrabber-1.2.0-r42hc247a5b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1291d79a6f0c4bd6f2f580d6ba43ec66",
+            "ndownloads": 166,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3105828,
+            "type": "conda",
+            "upload_time": "2022-11-10 02:28:10.898000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hf17093f_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-apeglm >=1.20.0,<1.21.0",
+                    "bioconductor-biomart >=2.54.0,<2.55.0",
+                    "bioconductor-deseq2 >=1.38.0,<1.39.0",
+                    "bioconductor-scbn >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-rcpp >=1.0.7"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1684256416094
+            },
+            "basename": "linux-64/bioconductor-tekrabber-1.2.0-r42hf17093f_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tekrabber/1.2.0/linux-64/bioconductor-tekrabber-1.2.0-r42hf17093f_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-tekrabber/1.2.0/linux-64/bioconductor-tekrabber-1.2.0-r42hf17093f_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "27940622b525de6693b666fef6206068",
+            "ndownloads": 150,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3109693,
+            "type": "conda",
+            "upload_time": "2023-05-16 17:04:20.864000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc0ef7c4_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-apeglm >=1.20.0,<1.21.0",
+                    "bioconductor-biomart >=2.54.0,<2.55.0",
+                    "bioconductor-deseq2 >=1.38.0,<1.39.0",
+                    "bioconductor-scbn >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-rcpp >=1.0.7"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1684464170560
+            },
+            "basename": "osx-64/bioconductor-tekrabber-1.2.0-r42hc0ef7c4_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tekrabber/1.2.0/osx-64/bioconductor-tekrabber-1.2.0-r42hc0ef7c4_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-tekrabber/1.2.0/osx-64/bioconductor-tekrabber-1.2.0-r42hc0ef7c4_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bd056c8a5f28f446fbf015e671716444",
+            "ndownloads": 1341,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3111787,
+            "type": "conda",
+            "upload_time": "2023-05-19 02:44:41.800000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hc0ef7c4_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-apeglm >=1.22.0,<1.23.0",
+                    "bioconductor-biomart >=2.56.0,<2.57.0",
+                    "bioconductor-deseq2 >=1.40.0,<1.41.0",
+                    "bioconductor-scbn >=1.18.0,<1.19.0",
+                    "bioconductor-summarizedexperiment >=1.30.0,<1.31.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-dplyr",
+                    "r-magrittr",
+                    "r-rcpp >=1.0.7"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1689163991789
+            },
+            "basename": "osx-64/bioconductor-tekrabber-1.4.0-r43hc0ef7c4_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tekrabber/1.4.0/osx-64/bioconductor-tekrabber-1.4.0-r43hc0ef7c4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tekrabber/1.4.0/osx-64/bioconductor-tekrabber-1.4.0-r43hc0ef7c4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6d652a72187b96e7fe2ea1418f389633",
+            "ndownloads": 1233,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3885520,
+            "type": "conda",
+            "upload_time": "2023-07-12 12:14:57.868000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hf17093f_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-apeglm >=1.22.0,<1.23.0",
+                    "bioconductor-biomart >=2.56.0,<2.57.0",
+                    "bioconductor-deseq2 >=1.40.0,<1.41.0",
+                    "bioconductor-scbn >=1.18.0,<1.19.0",
+                    "bioconductor-summarizedexperiment >=1.30.0,<1.31.0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-dplyr",
+                    "r-magrittr",
+                    "r-rcpp >=1.0.7"
+                ],
+                "has_prefix": false,
+                "license": "GPL (>= 2)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1689267816157
+            },
+            "basename": "linux-64/bioconductor-tekrabber-1.4.0-r43hf17093f_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tekrabber/1.4.0/linux-64/bioconductor-tekrabber-1.4.0-r43hf17093f_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tekrabber/1.4.0/linux-64/bioconductor-tekrabber-1.4.0-r43hf17093f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "77163302bfab9147491ed84e054e611a",
+            "ndownloads": 135,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3899814,
+            "type": "conda",
+            "upload_time": "2023-07-13 17:07:30.938000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hc0ef7c4_0",
+                "build_number": 0,
+                "depends": [
+                    "__osx >=10.9",
+                    "bioconductor-apeglm >=1.24.0,<1.25.0",
+                    "bioconductor-apeglm >=1.24.0,<1.25.0a0",
+                    "bioconductor-biomart >=2.58.0,<2.59.0",
+                    "bioconductor-biomart >=2.58.0,<2.59.0a0",
+                    "bioconductor-deseq2 >=1.42.0,<1.43.0",
+                    "bioconductor-deseq2 >=1.42.0,<1.43.0a0",
+                    "bioconductor-scbn >=1.20.0,<1.21.0",
+                    "bioconductor-scbn >=1.20.0,<1.21.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-dplyr",
+                    "r-magrittr",
+                    "r-rcpp >=1.0.7"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>=3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1701834776703
+            },
+            "basename": "osx-64/bioconductor-tekrabber-1.6.0-r43hc0ef7c4_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tekrabber/1.6.0/osx-64/bioconductor-tekrabber-1.6.0-r43hc0ef7c4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tekrabber/1.6.0/osx-64/bioconductor-tekrabber-1.6.0-r43hc0ef7c4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c224fae35405bc98135d542de44fa12e",
+            "ndownloads": 940,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3490693,
+            "type": "conda",
+            "upload_time": "2023-12-06 03:53:53.187000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hf17093f_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-apeglm >=1.24.0,<1.25.0",
+                    "bioconductor-apeglm >=1.24.0,<1.25.0a0",
+                    "bioconductor-biomart >=2.58.0,<2.59.0",
+                    "bioconductor-biomart >=2.58.0,<2.59.0a0",
+                    "bioconductor-deseq2 >=1.42.0,<1.43.0",
+                    "bioconductor-deseq2 >=1.42.0,<1.43.0a0",
+                    "bioconductor-scbn >=1.20.0,<1.21.0",
+                    "bioconductor-scbn >=1.20.0,<1.21.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-dplyr",
+                    "r-magrittr",
+                    "r-rcpp >=1.0.7"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>=3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1702400671539
+            },
+            "basename": "linux-64/bioconductor-tekrabber-1.6.0-r43hf17093f_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tekrabber/1.6.0/linux-64/bioconductor-tekrabber-1.6.0-r43hf17093f_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tekrabber/1.6.0/linux-64/bioconductor-tekrabber-1.6.0-r43hf17093f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2a494cdf26142b9497516789d66ad2b8",
+            "ndownloads": 119,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 3477354,
+            "type": "conda",
+            "upload_time": "2023-12-12 17:07:27.526000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h35d7169_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-apeglm >=1.28.0,<1.29.0",
+                    "bioconductor-apeglm >=1.28.0,<1.29.0a0",
+                    "bioconductor-biomart >=2.62.0,<2.63.0",
+                    "bioconductor-biomart >=2.62.0,<2.63.0a0",
+                    "bioconductor-deseq2 >=1.46.0,<1.47.0",
+                    "bioconductor-deseq2 >=1.46.0,<1.47.0a0",
+                    "bioconductor-genomeinfodb >=1.42.0,<1.43.0",
+                    "bioconductor-genomeinfodb >=1.42.0,<1.43.0a0",
+                    "bioconductor-rtracklayer >=1.66.0,<1.67.0",
+                    "bioconductor-rtracklayer >=1.66.0,<1.67.0a0",
+                    "bioconductor-scbn >=1.24.0,<1.25.0",
+                    "bioconductor-scbn >=1.24.0,<1.25.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=18",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-doparallel",
+                    "r-dplyr",
+                    "r-foreach",
+                    "r-magrittr",
+                    "r-rcpp >=1.0.7"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>=3)",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1735944930655
+            },
+            "basename": "osx-64/bioconductor-tekrabber-1.10.0-r44h35d7169_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tekrabber/1.10.0/osx-64/bioconductor-tekrabber-1.10.0-r44h35d7169_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tekrabber/1.10.0/osx-64/bioconductor-tekrabber-1.10.0-r44h35d7169_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9a66f02a991cd06b0aa5f2b2a4aa7ae5",
+            "ndownloads": 199,
+            "owner": "bioconda",
+            "sha256": "33b0542c2ec182e2195a1950fd1f9b76b8d125b90816ca629da2d438e29a377c",
+            "size": 3642835,
+            "type": "conda",
+            "upload_time": "2025-01-03 22:57:23.656000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44he5774e6_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-apeglm >=1.28.0,<1.29.0",
+                    "bioconductor-apeglm >=1.28.0,<1.29.0a0",
+                    "bioconductor-biomart >=2.62.0,<2.63.0",
+                    "bioconductor-biomart >=2.62.0,<2.63.0a0",
+                    "bioconductor-deseq2 >=1.46.0,<1.47.0",
+                    "bioconductor-deseq2 >=1.46.0,<1.47.0a0",
+                    "bioconductor-genomeinfodb >=1.42.0,<1.43.0",
+                    "bioconductor-genomeinfodb >=1.42.0,<1.43.0a0",
+                    "bioconductor-rtracklayer >=1.66.0,<1.67.0",
+                    "bioconductor-rtracklayer >=1.66.0,<1.67.0a0",
+                    "bioconductor-scbn >=1.24.0,<1.25.0",
+                    "bioconductor-scbn >=1.24.0,<1.25.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx >=13",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-doparallel",
+                    "r-dplyr",
+                    "r-foreach",
+                    "r-magrittr",
+                    "r-rcpp >=1.0.7"
+                ],
+                "has_prefix": false,
+                "license": "LGPL (>=3)",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1735952984556
+            },
+            "basename": "linux-64/bioconductor-tekrabber-1.10.0-r44he5774e6_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-tekrabber/1.10.0/linux-64/bioconductor-tekrabber-1.10.0-r44he5774e6_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-tekrabber/1.10.0/linux-64/bioconductor-tekrabber-1.10.0-r44he5774e6_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9a646c012ebe858d295d670f0cff8936",
+            "ndownloads": 111,
+            "owner": "bioconda",
+            "sha256": "35a1f7567cccd5c0cd5c955eaae278ed76d2adb01ff129ed73292d6a16be1c74",
+            "size": 3654051,
+            "type": "conda",
+            "upload_time": "2025-01-04 01:12:21.950000+00:00",
+            "version": "1.10.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-tekrabber",
+    "home": "https://bioconductor.org/packages/3.16/bioc/html/TEKRABber.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-tekrabber",
+    "id": "636af92a9b05a354c8e91bfb",
+    "latest_version": "1.10.0",
+    "license": "LGPL (>=3)",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:35.170000+00:00",
+    "name": "bioconductor-tekrabber",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.10.0",
+        "osx-64": "1.10.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-tekrabber/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-tekrabber/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-tekrabber/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-tekrabber/1.10.0",
+            "version": "1.10.0"
+        }
+    ],
+    "revision": 10,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "An R package estimates the correlations of orthologs and transposable elements between two species",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-tekrabber",
+    "versions": [
+        "1.2.0",
+        "1.4.0",
+        "1.6.0",
+        "1.10.0"
+    ],
+    "watchers": 1
+}

@@ -1,0 +1,1410 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r36_0",
+        "r41hdfd78af_0",
+        "r40_0",
+        "r40hdfd78af_1",
+        "r36_1"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-08-06 19:49:35.838000+00:00",
+    "description": "Collection of various measures and tools for lncRNA annotation prediction put inside a redistributable R package. The package contains two main algorithms; lncRNA2GOA and TopoICSim. lncRNA2GOA tries to annotate novel genes (in this specific case lncRNAs) by using various correlation/geometric scoring methods on correlated expression data. After correlating/scoring, the results are annotated and enriched. TopoICSim is a topologically based method, that compares gene similarity based on the topology of the GO DAG by information content (IC) between GO terms.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.46.0,<1.47.0",
+                    "bioconductor-biobase >=2.44.0,<2.45.0",
+                    "bioconductor-biocfilecache >=1.8.0,<1.9.0",
+                    "bioconductor-geoquery >=2.52.0,<2.53.0",
+                    "bioconductor-go.db >=3.8.0,<3.9.0",
+                    "bioconductor-gosemsim >=2.10.0,<2.11.0",
+                    "bioconductor-graph >=1.62.0,<1.63.0",
+                    "bioconductor-org.hs.eg.db >=3.8.0,<3.9.0",
+                    "bioconductor-org.mm.eg.db >=3.8.0,<3.9.0",
+                    "bioconductor-rbgl >=1.60.0,<1.61.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-fastmatch",
+                    "r-igraph",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-plyr"
+                ],
+                "has_prefix": false,
+                "license": "MIT + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1565120533269
+            },
+            "basename": "noarch/bioconductor-gapgom-1.0.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.44.0,<2.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocfilecache",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-geoquery",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gosemsim",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.10.0,<2.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.mm.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.60.0,<1.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fastmatch",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gapgom/1.0.0/noarch/bioconductor-gapgom-1.0.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-gapgom/1.0.0/noarch/bioconductor-gapgom-1.0.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "194e69b20efb28ee0aa3119d9f74eba6",
+            "ndownloads": 2683,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2398381,
+            "type": "conda",
+            "upload_time": "2019-08-06 19:49:36.801000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.48.0,<1.49.0",
+                    "bioconductor-biobase >=2.46.0,<2.47.0",
+                    "bioconductor-biocfilecache >=1.10.0,<1.11.0",
+                    "bioconductor-geoquery >=2.54.0,<2.55.0",
+                    "bioconductor-go.db >=3.10.0,<3.11.0",
+                    "bioconductor-gosemsim >=2.12.0,<2.13.0",
+                    "bioconductor-graph >=1.64.0,<1.65.0",
+                    "bioconductor-org.hs.eg.db >=3.10.0,<3.11.0",
+                    "bioconductor-org.mm.eg.db >=3.10.0,<3.11.0",
+                    "bioconductor-rbgl >=1.62.0,<1.63.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-fastmatch",
+                    "r-igraph",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-plyr"
+                ],
+                "has_prefix": false,
+                "license": "MIT + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572859797762
+            },
+            "basename": "noarch/bioconductor-gapgom-1.2.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.46.0,<2.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocfilecache",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-geoquery",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.10.0,<3.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gosemsim",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.12.0,<2.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.10.0,<3.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.mm.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.10.0,<3.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.62.0,<1.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fastmatch",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gapgom/1.2.0/noarch/bioconductor-gapgom-1.2.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gapgom/1.2.0/noarch/bioconductor-gapgom-1.2.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ee5d93e4cd377cbc0bbb6dbeded77d7a",
+            "ndownloads": 2683,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2399996,
+            "type": "conda",
+            "upload_time": "2019-11-04 09:37:23.022000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.50.0,<1.51.0",
+                    "bioconductor-biobase >=2.48.0,<2.49.0",
+                    "bioconductor-biocfilecache >=1.12.0,<1.13.0",
+                    "bioconductor-geoquery >=2.56.0,<2.57.0",
+                    "bioconductor-go.db >=3.11.0,<3.12.0",
+                    "bioconductor-gosemsim >=2.14.0,<2.15.0",
+                    "bioconductor-graph >=1.66.0,<1.67.0",
+                    "bioconductor-org.hs.eg.db >=3.11.0,<3.12.0",
+                    "bioconductor-org.mm.eg.db >=3.11.0,<3.12.0",
+                    "bioconductor-rbgl >=1.64.0,<1.65.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-fastmatch",
+                    "r-igraph",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-plyr"
+                ],
+                "has_prefix": false,
+                "license": "MIT + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589262692507
+            },
+            "basename": "noarch/bioconductor-gapgom-1.4.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.48.0,<2.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocfilecache",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-geoquery",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.56.0,<2.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.11.0,<3.12.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gosemsim",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.14.0,<2.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.11.0,<3.12.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.mm.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.11.0,<3.12.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.64.0,<1.65.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fastmatch",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gapgom/1.4.0/noarch/bioconductor-gapgom-1.4.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gapgom/1.4.0/noarch/bioconductor-gapgom-1.4.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "12abbb8e48c26e2aa9f6198d863e6bfd",
+            "ndownloads": 2638,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2388818,
+            "type": "conda",
+            "upload_time": "2020-05-12 06:00:23.590000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.52.0,<1.53.0",
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-biocfilecache >=1.14.0,<1.15.0",
+                    "bioconductor-geoquery >=2.58.0,<2.59.0",
+                    "bioconductor-go.db >=3.12.1,<3.13.0",
+                    "bioconductor-gosemsim >=2.16.0,<2.17.0",
+                    "bioconductor-graph >=1.68.0,<1.69.0",
+                    "bioconductor-org.hs.eg.db >=3.12.0,<3.13.0",
+                    "bioconductor-org.mm.eg.db >=3.12.0,<3.13.0",
+                    "bioconductor-rbgl >=1.66.0,<1.67.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-fastmatch",
+                    "r-igraph",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-plyr"
+                ],
+                "has_prefix": false,
+                "license": "MIT + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604279320554
+            },
+            "basename": "noarch/bioconductor-gapgom-1.6.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocfilecache",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-geoquery",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.1,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gosemsim",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.mm.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fastmatch",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gapgom/1.6.0/noarch/bioconductor-gapgom-1.6.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gapgom/1.6.0/noarch/bioconductor-gapgom-1.6.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3d759c77676d0326ff967c6968ce7903",
+            "ndownloads": 247,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2403996,
+            "type": "conda",
+            "upload_time": "2020-11-02 01:17:58.296000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.52.0,<1.53.0",
+                    "bioconductor-biobase >=2.50.0,<2.51.0",
+                    "bioconductor-biocfilecache >=1.14.0,<1.15.0",
+                    "bioconductor-geoquery >=2.58.0,<2.59.0",
+                    "bioconductor-go.db >=3.12.1,<3.13.0",
+                    "bioconductor-gosemsim >=2.16.0,<2.17.0",
+                    "bioconductor-graph >=1.68.0,<1.69.0",
+                    "bioconductor-org.hs.eg.db >=3.12.0,<3.13.0",
+                    "bioconductor-org.mm.eg.db >=3.12.0,<3.13.0",
+                    "bioconductor-rbgl >=1.66.0,<1.67.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-fastmatch",
+                    "r-igraph",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-plyr"
+                ],
+                "has_prefix": false,
+                "license": "MIT + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617052759039
+            },
+            "basename": "noarch/bioconductor-gapgom-1.6.0-r40hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.50.0,<2.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocfilecache",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.14.0,<1.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-geoquery",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.58.0,<2.59.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.1,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gosemsim",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.16.0,<2.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.mm.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.66.0,<1.67.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fastmatch",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gapgom/1.6.0/noarch/bioconductor-gapgom-1.6.0-r40hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-gapgom/1.6.0/noarch/bioconductor-gapgom-1.6.0-r40hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "09c276dabd79c8a4305ad7e659e72694",
+            "ndownloads": 2616,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2397444,
+            "type": "conda",
+            "upload_time": "2021-03-29 21:29:14.594000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.54.0,<1.55.0",
+                    "bioconductor-biobase >=2.52.0,<2.53.0",
+                    "bioconductor-biocfilecache >=2.0.0,<2.1.0",
+                    "bioconductor-geoquery >=2.60.0,<2.61.0",
+                    "bioconductor-go.db >=3.13.0,<3.14.0",
+                    "bioconductor-gosemsim >=2.18.0,<2.19.0",
+                    "bioconductor-graph >=1.70.0,<1.71.0",
+                    "bioconductor-org.hs.eg.db >=3.13.0,<3.14.0",
+                    "bioconductor-org.mm.eg.db >=3.13.0,<3.14.0",
+                    "bioconductor-rbgl >=1.68.0,<1.69.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-fastmatch",
+                    "r-igraph",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-plyr"
+                ],
+                "has_prefix": false,
+                "license": "MIT + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622750458324
+            },
+            "basename": "noarch/bioconductor-gapgom-1.8.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.52.0,<2.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocfilecache",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.0.0,<2.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-geoquery",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.60.0,<2.61.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.13.0,<3.14.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gosemsim",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.18.0,<2.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70.0,<1.71.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.13.0,<3.14.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.mm.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.13.0,<3.14.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.68.0,<1.69.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fastmatch",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gapgom/1.8.0/noarch/bioconductor-gapgom-1.8.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gapgom/1.8.0/noarch/bioconductor-gapgom-1.8.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a6dd8ba41fb5a4cb94ed914efa290a02",
+            "ndownloads": 2644,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2405084,
+            "type": "conda",
+            "upload_time": "2021-06-03 20:11:20.233000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.56.0,<1.57.0",
+                    "bioconductor-biobase >=2.54.0,<2.55.0",
+                    "bioconductor-biocfilecache >=2.2.0,<2.3.0",
+                    "bioconductor-geoquery >=2.62.0,<2.63.0",
+                    "bioconductor-go.db >=3.14.0,<3.15.0",
+                    "bioconductor-gosemsim >=2.20.0,<2.21.0",
+                    "bioconductor-graph >=1.72.0,<1.73.0",
+                    "bioconductor-org.hs.eg.db >=3.14.0,<3.15.0",
+                    "bioconductor-org.mm.eg.db >=3.14.0,<3.15.0",
+                    "bioconductor-rbgl >=1.70.0,<1.71.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-data.table",
+                    "r-dplyr",
+                    "r-fastmatch",
+                    "r-igraph",
+                    "r-magrittr",
+                    "r-matrix",
+                    "r-matrixstats",
+                    "r-plyr"
+                ],
+                "has_prefix": false,
+                "license": "MIT + file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636192119247
+            },
+            "basename": "noarch/bioconductor-gapgom-1.10.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biobase",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.54.0,<2.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-biocfilecache",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.0,<2.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-geoquery",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.62.0,<2.63.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-go.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.14.0,<3.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-gosemsim",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.20.0,<2.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-graph",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.72.0,<1.73.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.14.0,<3.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.mm.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.14.0,<3.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rbgl",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.70.0,<1.71.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-data.table",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-fastmatch",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-igraph",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-magrittr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrixstats",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-gapgom/1.10.0/noarch/bioconductor-gapgom-1.10.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-gapgom/1.10.0/noarch/bioconductor-gapgom-1.10.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "84e49c43715c884cd422ea0b651e00e6",
+            "ndownloads": 2311,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 2397100,
+            "type": "conda",
+            "upload_time": "2021-11-06 09:59:06.299000+00:00",
+            "version": "1.10.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-gapgom",
+    "home": "https://bioconductor.org/packages/3.9/bioc/html/GAPGOM.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-gapgom",
+    "id": "5d49d9cf78705816674e6cb6",
+    "latest_version": "1.10.0",
+    "license": "MIT + file LICENSE",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:18.073000+00:00",
+    "name": "bioconductor-gapgom",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.10.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gapgom/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gapgom/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gapgom/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gapgom/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gapgom/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-gapgom/1.10.0",
+            "version": "1.10.0"
+        }
+    ],
+    "revision": 12,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "GAPGOM (novel Gene Annotation Prediction and other GO Metrics)",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-gapgom",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.4.0",
+        "1.6.0",
+        "1.8.0",
+        "1.10.0"
+    ],
+    "watchers": 1
+}

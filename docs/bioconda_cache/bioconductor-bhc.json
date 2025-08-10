@@ -1,0 +1,2664 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r41h7cba510_1",
+        "r40h64ad5ed_0",
+        "r40h832b226_1",
+        "r43hf17093f_0",
+        "r341hfc679d8_0",
+        "r42hc0ef7c4_2",
+        "r43hc0ef7c4_0",
+        "r42hf17093f_1",
+        "r42hb890f52_0",
+        "r41h399db7b_0",
+        "r351hfc679d8_0",
+        "r42hb890f52_1",
+        "r42hf17093f_2",
+        "r351hf484d3e_0",
+        "r41hc247a5b_2",
+        "r40h5f743cb_0",
+        "r36h6de7cb9_1",
+        "r36he1b5a44_0",
+        "r42hc247a5b_0",
+        "r3.4.1_0",
+        "r3.3.2_0",
+        "r42hc247a5b_1",
+        "r36he1b5a44_1",
+        "r41h619a076_1",
+        "r41hb890f52_2",
+        "r40h399db7b_1",
+        "r351h0a44026_0",
+        "r41h832b226_0",
+        "r36h6de7cb9_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2017-08-29 14:45:58.034000+00:00",
+    "description": "The method performs bottom-up hierarchical clustering, using a Dirichlet Process (infinite mixture) to model uncertainty in the data and Bayesian model selection to decide at each step which clusters to merge.  This avoids several limitations of traditional methods, for example how many clusters there should be and how to choose a principled distance metric.  This implementation accepts multinomial (i.e. discrete, with 2+ categories) or time-series data. This version also includes a randomised algorithm which is more efficient for larger data sets.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.2_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base 3.3.2*"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-bhc-1.28.0-r3.3.2_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.28.0/linux-64/bioconductor-bhc-1.28.0-r3.3.2_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.28.0/linux-64/bioconductor-bhc-1.28.0-r3.3.2_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "28443e581e5fe7a6f3176a73682cd2cf",
+            "ndownloads": 739,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 243851,
+            "type": "conda",
+            "upload_time": "2017-08-29 15:05:00.593000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h0a44026_0",
+                "build_number": 0,
+                "depends": [
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1544406859216
+            },
+            "basename": "osx-64/bioconductor-bhc-1.34.0-r351h0a44026_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.34.0/osx-64/bioconductor-bhc-1.34.0-r351h0a44026_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.34.0/osx-64/bioconductor-bhc-1.34.0-r351h0a44026_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "fa541152fc17e6488ce853a9be02a9dd",
+            "ndownloads": 4285,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 247025,
+            "type": "conda",
+            "upload_time": "2018-12-10 01:55:00.055000+00:00",
+            "version": "1.34.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base >=3.4.1,<3.4.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1540515669744
+            },
+            "basename": "osx-64/bioconductor-bhc-1.32.0-r341hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.32.0/osx-64/bioconductor-bhc-1.32.0-r341hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.32.0/osx-64/bioconductor-bhc-1.32.0-r341hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "cfa35b082018b013067f1630ef310898",
+            "ndownloads": 343,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 269043,
+            "type": "conda",
+            "upload_time": "2018-10-26 01:03:13.618000+00:00",
+            "version": "1.32.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1540515756462
+            },
+            "basename": "osx-64/bioconductor-bhc-1.32.0-r351hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.32.0/osx-64/bioconductor-bhc-1.32.0-r351hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.32.0/osx-64/bioconductor-bhc-1.32.0-r351hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "7400a9e65d876f28d511f24563be5f9d",
+            "ndownloads": 4106,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 282452,
+            "type": "conda",
+            "upload_time": "2018-10-26 01:03:19.556000+00:00",
+            "version": "1.32.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-bhc-1.30.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.30.0/linux-64/bioconductor-bhc-1.30.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.30.0/linux-64/bioconductor-bhc-1.30.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "31f5bd7f57b3a27e41f642e5bb8d7744",
+            "ndownloads": 908,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 244481,
+            "type": "conda",
+            "upload_time": "2017-11-07 17:26:00.394000+00:00",
+            "version": "1.30.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.3.2_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base 3.3.2*"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-bhc-1.28.0-r3.3.2_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.3.2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.28.0/osx-64/bioconductor-bhc-1.28.0-r3.3.2_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.28.0/osx-64/bioconductor-bhc-1.28.0-r3.3.2_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "e162e3560aa2c1f5b3803cf3febd9d9e",
+            "ndownloads": 109,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 257316,
+            "type": "conda",
+            "upload_time": "2017-08-29 14:45:58.529000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-bhc-1.28.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.28.0/osx-64/bioconductor-bhc-1.28.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.28.0/osx-64/bioconductor-bhc-1.28.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "42bf4a28d1b296bfd4a97e467a78520f",
+            "ndownloads": 4514,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 257468,
+            "type": "conda",
+            "upload_time": "2017-09-17 20:58:40.441000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux"
+            },
+            "basename": "linux-64/bioconductor-bhc-1.28.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.28.0/linux-64/bioconductor-bhc-1.28.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.28.0/linux-64/bioconductor-bhc-1.28.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "9d39b758e79a227f7c1c4b22505bb697",
+            "ndownloads": 906,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 243941,
+            "type": "conda",
+            "upload_time": "2017-09-17 21:09:07.447000+00:00",
+            "version": "1.28.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r3.4.1_0",
+                "build_number": 0,
+                "depends": [
+                    "r-base 3.4.1*"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin"
+            },
+            "basename": "osx-64/bioconductor-bhc-1.30.0-r3.4.1_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                "==",
+                                "3.4.1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.30.0/osx-64/bioconductor-bhc-1.30.0-r3.4.1_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.30.0/osx-64/bioconductor-bhc-1.30.0-r3.4.1_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "3eee2f73c81235daf2ba9ade438701a9",
+            "ndownloads": 4363,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 257630,
+            "type": "conda",
+            "upload_time": "2017-11-06 01:29:14.985000+00:00",
+            "version": "1.30.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=4.9",
+                    "libstdcxx-ng >=4.9",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540765232634
+            },
+            "basename": "linux-64/bioconductor-bhc-1.32.0-r351hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.32.0/linux-64/bioconductor-bhc-1.32.0-r351hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.32.0/linux-64/bioconductor-bhc-1.32.0-r351hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "aa040a891ef31ebe0868d7597a9a9a89",
+            "ndownloads": 548,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 258836,
+            "type": "conda",
+            "upload_time": "2018-10-28 22:25:13.340000+00:00",
+            "version": "1.32.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r341hfc679d8_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=4.9",
+                    "libstdcxx-ng >=4.9",
+                    "r-base >=3.4.1,<3.4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1540765176381
+            },
+            "basename": "linux-64/bioconductor-bhc-1.32.0-r341hfc679d8_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.9"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.4.1,<3.4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.32.0/linux-64/bioconductor-bhc-1.32.0-r341hfc679d8_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.32.0/linux-64/bioconductor-bhc-1.32.0-r341hfc679d8_0.tar.bz2",
+            "labels": [
+                "main",
+                "cf201901"
+            ],
+            "md5": "d74dbc9e93ca1cdc13ad69c96edca5d6",
+            "ndownloads": 417,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 245555,
+            "type": "conda",
+            "upload_time": "2018-10-28 22:25:16.138000+00:00",
+            "version": "1.32.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hf484d3e_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1546953957299
+            },
+            "basename": "linux-64/bioconductor-bhc-1.34.0-r351hf484d3e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.34.0/linux-64/bioconductor-bhc-1.34.0-r351hf484d3e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.34.0/linux-64/bioconductor-bhc-1.34.0-r351hf484d3e_0.tar.bz2",
+            "labels": [
+                "gcc7",
+                "main"
+            ],
+            "md5": "0f7a84e7fcce59f483e63f555c439862",
+            "ndownloads": 355,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 241765,
+            "type": "conda",
+            "upload_time": "2019-01-08 13:28:36.228000+00:00",
+            "version": "1.34.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351h0a44026_0",
+                "build_number": 0,
+                "depends": [
+                    "libcxx >=4.0.1",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1557403884720
+            },
+            "basename": "osx-64/bioconductor-bhc-1.36.0-r351h0a44026_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.36.0/osx-64/bioconductor-bhc-1.36.0-r351h0a44026_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.36.0/osx-64/bioconductor-bhc-1.36.0-r351h0a44026_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2f9985f709d1ee41d72bb9ed275f49e4",
+            "ndownloads": 235,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 281766,
+            "type": "conda",
+            "upload_time": "2019-05-09 12:12:06.094000+00:00",
+            "version": "1.36.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r351hf484d3e_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.5.1,<3.5.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1557754342166
+            },
+            "basename": "linux-64/bioconductor-bhc-1.36.0-r351hf484d3e_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.5.1,<3.5.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.36.0/linux-64/bioconductor-bhc-1.36.0-r351hf484d3e_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.36.0/linux-64/bioconductor-bhc-1.36.0-r351hf484d3e_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c1c1349ede97a609acfcb9b63ecbfada",
+            "ndownloads": 337,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 241114,
+            "type": "conda",
+            "upload_time": "2019-05-13 13:36:20.929000+00:00",
+            "version": "1.36.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_1",
+                "build_number": 1,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1563298583180
+            },
+            "basename": "linux-64/bioconductor-bhc-1.36.0-r36he1b5a44_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.36.0/linux-64/bioconductor-bhc-1.36.0-r36he1b5a44_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.36.0/linux-64/bioconductor-bhc-1.36.0-r36he1b5a44_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4e9325b40c91678511dfefc256c56138",
+            "ndownloads": 307,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 241964,
+            "type": "conda",
+            "upload_time": "2019-07-16 17:40:22.348000+00:00",
+            "version": "1.36.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_1",
+                "build_number": 1,
+                "depends": [
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1563347168544
+            },
+            "basename": "osx-64/bioconductor-bhc-1.36.0-r36h6de7cb9_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.36.0/osx-64/bioconductor-bhc-1.36.0-r36h6de7cb9_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.36.0/osx-64/bioconductor-bhc-1.36.0-r36h6de7cb9_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a0606335db54ebc4c8ef8bd39cc1ab0d",
+            "ndownloads": 3941,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 244507,
+            "type": "conda",
+            "upload_time": "2019-07-17 07:06:49.752000+00:00",
+            "version": "1.36.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36h6de7cb9_0",
+                "build_number": 0,
+                "depends": [
+                    "libcxx >=4.0.1",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1572593825764
+            },
+            "basename": "osx-64/bioconductor-bhc-1.38.0-r36h6de7cb9_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.38.0/osx-64/bioconductor-bhc-1.38.0-r36h6de7cb9_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.38.0/osx-64/bioconductor-bhc-1.38.0-r36h6de7cb9_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "da03dd4420eef2feca9b963db281f629",
+            "ndownloads": 3838,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 256470,
+            "type": "conda",
+            "upload_time": "2019-11-01 07:37:50.863000+00:00",
+            "version": "1.38.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r36he1b5a44_0",
+                "build_number": 0,
+                "depends": [
+                    "libgcc-ng >=7.3.0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=3.6,<3.7.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1572607222747
+            },
+            "basename": "linux-64/bioconductor-bhc-1.38.0-r36he1b5a44_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.38.0/linux-64/bioconductor-bhc-1.38.0-r36he1b5a44_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.38.0/linux-64/bioconductor-bhc-1.38.0-r36he1b5a44_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "906cfcf8837f9eab0ca48e4cf947f33c",
+            "ndownloads": 310,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 253937,
+            "type": "conda",
+            "upload_time": "2019-11-01 11:24:32.773000+00:00",
+            "version": "1.38.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h64ad5ed_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=9.0.1",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1589007855697
+            },
+            "basename": "osx-64/bioconductor-bhc-1.40.0-r40h64ad5ed_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.40.0/osx-64/bioconductor-bhc-1.40.0-r40h64ad5ed_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.40.0/osx-64/bioconductor-bhc-1.40.0-r40h64ad5ed_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0bd28104bdea10540a82318e01db9ff0",
+            "ndownloads": 3385,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 255224,
+            "type": "conda",
+            "upload_time": "2020-05-09 07:05:24.891000+00:00",
+            "version": "1.40.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h5f743cb_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.3.0",
+                    "liblapack >=3.8.0,<3.9.0a0",
+                    "libstdcxx-ng >=7.3.0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1589044171760
+            },
+            "basename": "linux-64/bioconductor-bhc-1.40.0-r40h5f743cb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.40.0/linux-64/bioconductor-bhc-1.40.0-r40h5f743cb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.40.0/linux-64/bioconductor-bhc-1.40.0-r40h5f743cb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6373a2fc56eb96d242ef4efc9ae745e4",
+            "ndownloads": 277,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 253978,
+            "type": "conda",
+            "upload_time": "2020-05-09 17:14:58.874000+00:00",
+            "version": "1.40.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h64ad5ed_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=9.0.1",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1603967856518
+            },
+            "basename": "osx-64/bioconductor-bhc-1.42.0-r40h64ad5ed_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.42.0/osx-64/bioconductor-bhc-1.42.0-r40h64ad5ed_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.42.0/osx-64/bioconductor-bhc-1.42.0-r40h64ad5ed_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "feb40d5430bb934747392af85da039e6",
+            "ndownloads": 331,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 255151,
+            "type": "conda",
+            "upload_time": "2020-10-29 10:38:43.228000+00:00",
+            "version": "1.42.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h5f743cb_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=7.5.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=7.5.0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1603988932421
+            },
+            "basename": "linux-64/bioconductor-bhc-1.42.0-r40h5f743cb_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "7.5.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.42.0/linux-64/bioconductor-bhc-1.42.0-r40h5f743cb_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.42.0/linux-64/bioconductor-bhc-1.42.0-r40h5f743cb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a5eb75b523e91e29363785497dc547e0",
+            "ndownloads": 252,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 254084,
+            "type": "conda",
+            "upload_time": "2020-10-29 16:33:22.049000+00:00",
+            "version": "1.42.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h832b226_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=11.1.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1616614334229
+            },
+            "basename": "osx-64/bioconductor-bhc-1.42.0-r40h832b226_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.42.0/osx-64/bioconductor-bhc-1.42.0-r40h832b226_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.42.0/osx-64/bioconductor-bhc-1.42.0-r40h832b226_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "cea66a37797281f844492d755bd6c953",
+            "ndownloads": 2761,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 254622,
+            "type": "conda",
+            "upload_time": "2021-03-24 19:33:17.646000+00:00",
+            "version": "1.42.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r40h399db7b_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=9.3.0",
+                    "r-base >=4.0,<4.1.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1616631203808
+            },
+            "basename": "linux-64/bioconductor-bhc-1.42.0-r40h399db7b_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.42.0/linux-64/bioconductor-bhc-1.42.0-r40h399db7b_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.42.0/linux-64/bioconductor-bhc-1.42.0-r40h399db7b_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "19d84c45a796d2ffed29db19c1e2b06f",
+            "ndownloads": 235,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 259084,
+            "type": "conda",
+            "upload_time": "2021-03-25 00:19:40.479000+00:00",
+            "version": "1.42.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h832b226_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=11.1.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1622417421470
+            },
+            "basename": "osx-64/bioconductor-bhc-1.44.0-r41h832b226_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.44.0/osx-64/bioconductor-bhc-1.44.0-r41h832b226_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.44.0/osx-64/bioconductor-bhc-1.44.0-r41h832b226_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "49e8a2734f0e1fc2cc852e5715667f4e",
+            "ndownloads": 2619,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 254735,
+            "type": "conda",
+            "upload_time": "2021-05-30 23:31:26.081000+00:00",
+            "version": "1.44.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h399db7b_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=9.3.0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1622418152051
+            },
+            "basename": "linux-64/bioconductor-bhc-1.44.0-r41h399db7b_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.44.0/linux-64/bioconductor-bhc-1.44.0-r41h399db7b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.44.0/linux-64/bioconductor-bhc-1.44.0-r41h399db7b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0d1f8be70655040251c187e4f4c5d2a5",
+            "ndownloads": 255,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 259145,
+            "type": "conda",
+            "upload_time": "2021-05-30 23:47:20.743000+00:00",
+            "version": "1.44.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h399db7b_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=9.4.0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1635805519501
+            },
+            "basename": "linux-64/bioconductor-bhc-1.46.0-r41h399db7b_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.46.0/linux-64/bioconductor-bhc-1.46.0-r41h399db7b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.46.0/linux-64/bioconductor-bhc-1.46.0-r41h399db7b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "dad2f98a11bbeda36370979c419413b2",
+            "ndownloads": 225,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 259217,
+            "type": "conda",
+            "upload_time": "2021-11-01 22:32:29.400000+00:00",
+            "version": "1.46.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h832b226_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=11.1.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1635852237199
+            },
+            "basename": "osx-64/bioconductor-bhc-1.46.0-r41h832b226_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.46.0/osx-64/bioconductor-bhc-1.46.0-r41h832b226_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.46.0/osx-64/bioconductor-bhc-1.46.0-r41h832b226_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "061bb2bd36721e4a3c443cad9adf2418",
+            "ndownloads": 594,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 255780,
+            "type": "conda",
+            "upload_time": "2021-11-02 11:25:13.672000+00:00",
+            "version": "1.46.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h619a076_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=10.3.0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1645619774640
+            },
+            "basename": "linux-64/bioconductor-bhc-1.46.0-r41h619a076_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.46.0/linux-64/bioconductor-bhc-1.46.0-r41h619a076_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.46.0/linux-64/bioconductor-bhc-1.46.0-r41h619a076_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "492b77b0d666ef183cff4a1f4931c53e",
+            "ndownloads": 210,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 257894,
+            "type": "conda",
+            "upload_time": "2022-02-23 12:43:51.763000+00:00",
+            "version": "1.46.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h7cba510_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=12.0.1",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1645622677211
+            },
+            "basename": "osx-64/bioconductor-bhc-1.46.0-r41h7cba510_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.46.0/osx-64/bioconductor-bhc-1.46.0-r41h7cba510_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.46.0/osx-64/bioconductor-bhc-1.46.0-r41h7cba510_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6500d87ed5640acbb02daa4c02be6bfa",
+            "ndownloads": 56,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 260454,
+            "type": "conda",
+            "upload_time": "2022-02-23 13:26:08.331000+00:00",
+            "version": "1.46.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hb890f52_2",
+                "build_number": 2,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=14.0.4",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1663240244590
+            },
+            "basename": "osx-64/bioconductor-bhc-1.46.0-r41hb890f52_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.46.0/osx-64/bioconductor-bhc-1.46.0-r41hb890f52_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.46.0/osx-64/bioconductor-bhc-1.46.0-r41hb890f52_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d1f3e22e2e0fc8eec3c4cbed8ca6786a",
+            "ndownloads": 1767,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 258824,
+            "type": "conda",
+            "upload_time": "2022-09-15 11:12:02.315000+00:00",
+            "version": "1.46.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hc247a5b_2",
+                "build_number": 2,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.1,<4.2.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1663254166025
+            },
+            "basename": "linux-64/bioconductor-bhc-1.46.0-r41hc247a5b_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.46.0/linux-64/bioconductor-bhc-1.46.0-r41hc247a5b_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.46.0/linux-64/bioconductor-bhc-1.46.0-r41hc247a5b_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1427f8fad13220ca256399ec500217d7",
+            "ndownloads": 192,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 258527,
+            "type": "conda",
+            "upload_time": "2022-09-15 15:06:33.006000+00:00",
+            "version": "1.46.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hb890f52_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=14.0.4",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1667458115304
+            },
+            "basename": "osx-64/bioconductor-bhc-1.50.0-r42hb890f52_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.50.0/osx-64/bioconductor-bhc-1.50.0-r42hb890f52_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.50.0/osx-64/bioconductor-bhc-1.50.0-r42hb890f52_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "00715894e244e966c6c90757b2fdb66b",
+            "ndownloads": 417,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 211141,
+            "type": "conda",
+            "upload_time": "2022-11-03 06:49:51.599000+00:00",
+            "version": "1.50.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc247a5b_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.2,<4.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1667470525433
+            },
+            "basename": "linux-64/bioconductor-bhc-1.50.0-r42hc247a5b_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.50.0/linux-64/bioconductor-bhc-1.50.0-r42hc247a5b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.50.0/linux-64/bioconductor-bhc-1.50.0-r42hc247a5b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "931b6bcc699decb395040ba367d9f256",
+            "ndownloads": 180,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 210533,
+            "type": "conda",
+            "upload_time": "2022-11-03 10:18:08.136000+00:00",
+            "version": "1.50.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc247a5b_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.2,<4.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1683819044361
+            },
+            "basename": "linux-64/bioconductor-bhc-1.50.0-r42hc247a5b_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.50.0/linux-64/bioconductor-bhc-1.50.0-r42hc247a5b_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.50.0/linux-64/bioconductor-bhc-1.50.0-r42hc247a5b_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "45ed8588664b6c2adc239751a032b0d7",
+            "ndownloads": 150,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 211220,
+            "type": "conda",
+            "upload_time": "2023-05-11 15:33:33.609000+00:00",
+            "version": "1.50.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hb890f52_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=14.0.6",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1684021045332
+            },
+            "basename": "osx-64/bioconductor-bhc-1.50.0-r42hb890f52_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.50.0/osx-64/bioconductor-bhc-1.50.0-r42hb890f52_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.50.0/osx-64/bioconductor-bhc-1.50.0-r42hb890f52_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6d37c37c9b740b7905befd567a026aa8",
+            "ndownloads": 48,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 218993,
+            "type": "conda",
+            "upload_time": "2023-05-13 23:38:21.261000+00:00",
+            "version": "1.50.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hf17093f_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.2,<4.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1684101457441
+            },
+            "basename": "linux-64/bioconductor-bhc-1.50.0-r42hf17093f_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.50.0/linux-64/bioconductor-bhc-1.50.0-r42hf17093f_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.50.0/linux-64/bioconductor-bhc-1.50.0-r42hf17093f_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "aaf5d02bc91810c0ceef216ce1f497e3",
+            "ndownloads": 148,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 212700,
+            "type": "conda",
+            "upload_time": "2023-05-14 22:00:25.269000+00:00",
+            "version": "1.50.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc0ef7c4_2",
+                "build_number": 2,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1684184874374
+            },
+            "basename": "osx-64/bioconductor-bhc-1.50.0-r42hc0ef7c4_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.50.0/osx-64/bioconductor-bhc-1.50.0-r42hc0ef7c4_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.50.0/osx-64/bioconductor-bhc-1.50.0-r42hc0ef7c4_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "486261bb7dee78f8d6755950650db495",
+            "ndownloads": 1077,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 216941,
+            "type": "conda",
+            "upload_time": "2023-05-15 21:08:47.386000+00:00",
+            "version": "1.50.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hf17093f_2",
+                "build_number": 2,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.2,<4.3.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1684193505562
+            },
+            "basename": "linux-64/bioconductor-bhc-1.50.0-r42hf17093f_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.50.0/linux-64/bioconductor-bhc-1.50.0-r42hf17093f_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.50.0/linux-64/bioconductor-bhc-1.50.0-r42hf17093f_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "76640d8060ff1ac5419522f660ffd920",
+            "ndownloads": 153,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 212279,
+            "type": "conda",
+            "upload_time": "2023-05-15 23:34:23.860000+00:00",
+            "version": "1.50.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hc0ef7c4_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1688714171283
+            },
+            "basename": "osx-64/bioconductor-bhc-1.52.0-r43hc0ef7c4_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.52.0/osx-64/bioconductor-bhc-1.52.0-r43hc0ef7c4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.52.0/osx-64/bioconductor-bhc-1.52.0-r43hc0ef7c4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "36f4f613277d8f022d3dc9bfd8dd4381",
+            "ndownloads": 906,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 217084,
+            "type": "conda",
+            "upload_time": "2023-07-07 07:17:05.959000+00:00",
+            "version": "1.52.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hf17093f_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.3,<4.4.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1688725089592
+            },
+            "basename": "linux-64/bioconductor-bhc-1.52.0-r43hf17093f_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.52.0/linux-64/bioconductor-bhc-1.52.0-r43hf17093f_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.52.0/linux-64/bioconductor-bhc-1.52.0-r43hf17093f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9f32f7e494d6f825bdc48ee461389796",
+            "ndownloads": 137,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 212672,
+            "type": "conda",
+            "upload_time": "2023-07-07 10:20:47.049000+00:00",
+            "version": "1.52.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hc0ef7c4_0",
+                "build_number": 0,
+                "depends": [
+                    "__osx >=10.9",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1701634382937
+            },
+            "basename": "osx-64/bioconductor-bhc-1.54.0-r43hc0ef7c4_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.54.0/osx-64/bioconductor-bhc-1.54.0-r43hc0ef7c4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.54.0/osx-64/bioconductor-bhc-1.54.0-r43hc0ef7c4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4ca231c5591d238f8cc6e80d7f016e75",
+            "ndownloads": 563,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 217602,
+            "type": "conda",
+            "upload_time": "2023-12-03 20:11:45.338000+00:00",
+            "version": "1.54.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hf17093f_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.3,<4.4.0a0"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1701635917567
+            },
+            "basename": "linux-64/bioconductor-bhc-1.54.0-r43hf17093f_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-bhc/1.54.0/linux-64/bioconductor-bhc-1.54.0-r43hf17093f_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-bhc/1.54.0/linux-64/bioconductor-bhc-1.54.0-r43hf17093f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "deaf3eca98b26888f07befb828c29172",
+            "ndownloads": 124,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 213552,
+            "type": "conda",
+            "upload_time": "2023-12-03 20:40:10.026000+00:00",
+            "version": "1.54.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-bhc",
+    "home": "http://bioconductor.org/packages/3.5/bioc/html/BHC.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-bhc",
+    "id": "59a57e26842e441311097ccf",
+    "latest_version": "1.54.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:28:51.624000+00:00",
+    "name": "bioconductor-bhc",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.54.0",
+        "osx-64": "1.54.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bhc/1.28.0",
+            "version": "1.28.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bhc/1.30.0",
+            "version": "1.30.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bhc/1.32.0",
+            "version": "1.32.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bhc/1.34.0",
+            "version": "1.34.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bhc/1.36.0",
+            "version": "1.36.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bhc/1.38.0",
+            "version": "1.38.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bhc/1.40.0",
+            "version": "1.40.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bhc/1.42.0",
+            "version": "1.42.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bhc/1.44.0",
+            "version": "1.44.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bhc/1.46.0",
+            "version": "1.46.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bhc/1.50.0",
+            "version": "1.50.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bhc/1.52.0",
+            "version": "1.52.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-bhc/1.54.0",
+            "version": "1.54.0"
+        }
+    ],
+    "revision": 26,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Bayesian Hierarchical Clustering",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-bhc",
+    "versions": [
+        "1.28.0",
+        "1.30.0",
+        "1.32.0",
+        "1.34.0",
+        "1.36.0",
+        "1.38.0",
+        "1.40.0",
+        "1.42.0",
+        "1.44.0",
+        "1.46.0",
+        "1.50.0",
+        "1.52.0",
+        "1.54.0"
+    ],
+    "watchers": 1
+}

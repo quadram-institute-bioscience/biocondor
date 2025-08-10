@@ -1,0 +1,985 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r43hdfd78af_0",
+        "r41hdfd78af_0",
+        "r42hdfd78af_0",
+        "r40_1",
+        "r40hdfd78af_2"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2020-11-03 16:03:24.795000+00:00",
+    "description": "Epigenome-wide association studies (EWAS) detects a large number of DNA methylation differences, often hundreds of differentially methylated regions and thousands of CpGs, that are significantly associated with a disease, many are located in non-coding regions. Therefore, there is a critical need to better understand the functional impact of these CpG methylations and to further prioritize the significant changes. MethReg is an R package for integrative modeling of DNA methylation, target gene expression and transcription factor binding sites data, to systematically identify and rank functional CpG methylations. MethReg evaluates, prioritizes and annotates CpG sites with high regulatory potential using matched methylation and gene expression data, along with external TF-target interaction databases based on manually curation, ChIP-seq experiments or gene regulatory network analysis.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-delayedarray >=0.16.0,<0.17.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-sesamedata >=1.8.0,<1.9.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-ggpubr",
+                    "r-mass",
+                    "r-matrix",
+                    "r-plyr",
+                    "r-progress",
+                    "r-pscl",
+                    "r-readr",
+                    "r-rlang",
+                    "r-sfsmisc",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604418832419
+            },
+            "basename": "noarch/bioconductor-methreg-1.0.0-r40_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.16.0,<0.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-sesamedata",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggpubr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-progress",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pscl",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-readr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rlang",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sfsmisc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-methreg/1.0.0/noarch/bioconductor-methreg-1.0.0-r40_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-methreg/1.0.0/noarch/bioconductor-methreg-1.0.0-r40_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b9e2ecfb6960ef4743e878a4de741c7f",
+            "ndownloads": 249,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4497047,
+            "type": "conda",
+            "upload_time": "2020-11-03 16:03:26.723000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_2",
+                "build_number": 2,
+                "depends": [
+                    "bioconductor-delayedarray >=0.16.0,<0.17.0",
+                    "bioconductor-genomicranges >=1.42.0,<1.43.0",
+                    "bioconductor-iranges >=2.24.0,<2.25.0",
+                    "bioconductor-s4vectors >=0.28.0,<0.29.0",
+                    "bioconductor-sesamedata >=1.8.0,<1.9.0",
+                    "bioconductor-summarizedexperiment >=1.20.0,<1.21.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-ggpubr",
+                    "r-mass",
+                    "r-matrix",
+                    "r-plyr",
+                    "r-progress",
+                    "r-pscl",
+                    "r-readr",
+                    "r-rlang",
+                    "r-sfsmisc",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617292199754
+            },
+            "basename": "noarch/bioconductor-methreg-1.0.0-r40hdfd78af_2.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.16.0,<0.17.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.42.0,<1.43.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.24.0,<2.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.28.0,<0.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-sesamedata",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.8.0,<1.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.20.0,<1.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggpubr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-progress",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pscl",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-readr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rlang",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sfsmisc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-methreg/1.0.0/noarch/bioconductor-methreg-1.0.0-r40hdfd78af_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-methreg/1.0.0/noarch/bioconductor-methreg-1.0.0-r40hdfd78af_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "216556d27fb1c390cbda37eac0830cb3",
+            "ndownloads": 2593,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4496153,
+            "type": "conda",
+            "upload_time": "2021-04-01 16:01:14.796000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-delayedarray >=0.18.0,<0.19.0",
+                    "bioconductor-genomicranges >=1.44.0,<1.45.0",
+                    "bioconductor-iranges >=2.26.0,<2.27.0",
+                    "bioconductor-s4vectors >=0.30.0,<0.31.0",
+                    "bioconductor-sesamedata >=1.10.0,<1.11.0",
+                    "bioconductor-summarizedexperiment >=1.22.0,<1.23.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-ggpubr",
+                    "r-mass",
+                    "r-matrix",
+                    "r-plyr",
+                    "r-progress",
+                    "r-pscl",
+                    "r-readr",
+                    "r-rlang",
+                    "r-sfsmisc",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622843908287
+            },
+            "basename": "noarch/bioconductor-methreg-1.2.1-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.18.0,<0.19.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.26.0,<2.27.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.30.0,<0.31.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-sesamedata",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.10.0,<1.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.22.0,<1.23.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggpubr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-progress",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pscl",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-readr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rlang",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sfsmisc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-methreg/1.2.1/noarch/bioconductor-methreg-1.2.1-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-methreg/1.2.1/noarch/bioconductor-methreg-1.2.1-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2de8663a2c844a5e2e3fbbf4b358bfb1",
+            "ndownloads": 2592,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4336804,
+            "type": "conda",
+            "upload_time": "2021-06-04 22:07:15.651000+00:00",
+            "version": "1.2.1"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-delayedarray >=0.20.0,<0.21.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-iranges >=2.28.0,<2.29.0",
+                    "bioconductor-s4vectors >=0.32.0,<0.33.0",
+                    "bioconductor-sesamedata >=1.12.0,<1.13.0",
+                    "bioconductor-summarizedexperiment >=1.24.0,<1.25.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-ggpubr",
+                    "r-mass",
+                    "r-matrix",
+                    "r-plyr",
+                    "r-progress",
+                    "r-pscl",
+                    "r-readr",
+                    "r-rlang",
+                    "r-sfsmisc",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636235295569
+            },
+            "basename": "noarch/bioconductor-methreg-1.4.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-delayedarray",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.20.0,<0.21.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-iranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.28.0,<2.29.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-s4vectors",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.32.0,<0.33.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-sesamedata",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.12.0,<1.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-summarizedexperiment",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.24.0,<1.25.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggplot2",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-ggpubr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-mass",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-matrix",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-plyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-progress",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-pscl",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-readr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-rlang",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-sfsmisc",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tibble",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyr",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-methreg/1.4.0/noarch/bioconductor-methreg-1.4.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-methreg/1.4.0/noarch/bioconductor-methreg-1.4.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "27d158f9cdef26a406729aab3b66e876",
+            "ndownloads": 2446,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4431650,
+            "type": "conda",
+            "upload_time": "2021-11-06 21:59:23.433000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationhub >=3.6.0,<3.7.0",
+                    "bioconductor-delayedarray >=0.24.0,<0.25.0",
+                    "bioconductor-experimenthub >=2.6.0,<2.7.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-iranges >=2.32.0,<2.33.0",
+                    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+                    "bioconductor-sesame >=1.16.0,<1.17.0",
+                    "bioconductor-sesamedata >=1.16.0,<1.17.0",
+                    "bioconductor-summarizedexperiment >=1.28.0,<1.29.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-ggpubr",
+                    "r-mass",
+                    "r-matrix",
+                    "r-plyr",
+                    "r-progress",
+                    "r-pscl",
+                    "r-readr",
+                    "r-rlang",
+                    "r-sfsmisc",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1668009860946
+            },
+            "basename": "noarch/bioconductor-methreg-1.8.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-methreg/1.8.0/noarch/bioconductor-methreg-1.8.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-methreg/1.8.0/noarch/bioconductor-methreg-1.8.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ca734ae49990a863c5a0f2dc09496f82",
+            "ndownloads": 1821,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4491239,
+            "type": "conda",
+            "upload_time": "2022-11-09 16:12:13.336000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationhub >=3.8.0,<3.9.0",
+                    "bioconductor-delayedarray >=0.26.0,<0.27.0",
+                    "bioconductor-experimenthub >=2.8.0,<2.9.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-iranges >=2.34.0,<2.35.0",
+                    "bioconductor-s4vectors >=0.38.0,<0.39.0",
+                    "bioconductor-sesame >=1.18.0,<1.19.0",
+                    "bioconductor-sesamedata >=1.18.0,<1.19.0",
+                    "bioconductor-summarizedexperiment >=1.30.0,<1.31.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-ggpubr",
+                    "r-mass",
+                    "r-matrix",
+                    "r-plyr",
+                    "r-progress",
+                    "r-pscl",
+                    "r-readr",
+                    "r-rlang",
+                    "r-sfsmisc",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689617380565
+            },
+            "basename": "noarch/bioconductor-methreg-1.10.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-methreg/1.10.0/noarch/bioconductor-methreg-1.10.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-methreg/1.10.0/noarch/bioconductor-methreg-1.10.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "063dc37875909bfce56b29c9977c7088",
+            "ndownloads": 1304,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4525553,
+            "type": "conda",
+            "upload_time": "2023-07-17 18:16:24.578000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationhub >=3.10.0,<3.11.0",
+                    "bioconductor-delayedarray >=0.28.0,<0.29.0",
+                    "bioconductor-experimenthub >=2.10.0,<2.11.0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-iranges >=2.36.0,<2.37.0",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-sesame >=1.20.0,<1.21.0",
+                    "bioconductor-sesamedata >=1.20.0,<1.21.0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-dplyr",
+                    "r-ggplot2",
+                    "r-ggpubr",
+                    "r-mass",
+                    "r-matrix",
+                    "r-plyr",
+                    "r-progress",
+                    "r-pscl",
+                    "r-readr",
+                    "r-rlang",
+                    "r-sfsmisc",
+                    "r-stringr",
+                    "r-tibble",
+                    "r-tidyr"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1702288053853
+            },
+            "basename": "noarch/bioconductor-methreg-1.12.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-methreg/1.12.0/noarch/bioconductor-methreg-1.12.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-methreg/1.12.0/noarch/bioconductor-methreg-1.12.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a99257ba33091f75427f7b6c01e927af",
+            "ndownloads": 1028,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 4517970,
+            "type": "conda",
+            "upload_time": "2023-12-11 09:52:07.640000+00:00",
+            "version": "1.12.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-methreg",
+    "home": "https://bioconductor.org/packages/3.12/bioc/html/MethReg.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-methreg",
+    "id": "5fa17f4c78d4370a8d93ad3b",
+    "latest_version": "1.12.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:25.842000+00:00",
+    "name": "bioconductor-methreg",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.12.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-methreg/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-methreg/1.2.1",
+            "version": "1.2.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-methreg/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-methreg/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-methreg/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-methreg/1.12.0",
+            "version": "1.12.0"
+        }
+    ],
+    "revision": 12,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Assessing the regulatory potential of DNA methylation regions or sites on gene transcription",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-methreg",
+    "versions": [
+        "1.0.0",
+        "1.2.1",
+        "1.4.0",
+        "1.8.0",
+        "1.10.0",
+        "1.12.0"
+    ],
+    "watchers": 1
+}

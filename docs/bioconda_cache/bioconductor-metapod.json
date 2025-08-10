@@ -1,0 +1,1750 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r41h399db7b_0",
+        "r44he5774e6_0",
+        "r41hc247a5b_2",
+        "r44h35d7169_1",
+        "r44hb11b259_0",
+        "r42hc247a5b_0",
+        "r44he5774e6_1",
+        "r44hb11b259_1",
+        "r43hc0ef7c4_0",
+        "r43hf17093f_1",
+        "r44h12ab77f_0",
+        "r43hf17093f_0",
+        "r42hc247a5b_1",
+        "r41hb890f52_2",
+        "r42hb890f52_0",
+        "r44h35d7169_0",
+        "r43hc0ef7c4_1",
+        "r43hc0ef7c4_2",
+        "r41h619a076_1",
+        "r41h832b226_0",
+        "r43h7d2ed04_3",
+        "r41h7cba510_1",
+        "r42hc0ef7c4_2",
+        "r43hf17093f_2",
+        "r43h7d2ed04_2",
+        "r42hb890f52_1",
+        "r43h5ae6f11_3",
+        "r42hf17093f_2",
+        "r44h12ab77f_1",
+        "r43hf17093f_3"
+    ],
+    "conda_platforms": [
+        "osx-arm64",
+        "linux-64",
+        "linux-aarch64",
+        "osx-64"
+    ],
+    "created_at": "2021-05-30 22:46:12.755000+00:00",
+    "description": "Implements a variety of methods for combining p-values in differential analyses of genome-scale datasets. Functions can combine p-values across different tests in the same analysis (e.g., genomic windows in ChIP-seq, exons in RNA-seq) or for corresponding tests across separate analyses (e.g., replicated comparisons, effect of different treatment conditions). Support is provided for handling log-transformed input p-values, missing values and weighting where appropriate.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h832b226_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=11.1.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1622414710675
+            },
+            "basename": "osx-64/bioconductor-metapod-1.0.0-r41h832b226_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.0.0/osx-64/bioconductor-metapod-1.0.0-r41h832b226_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.0.0/osx-64/bioconductor-metapod-1.0.0-r41h832b226_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "14b861dbfd6164351d534a23e23b7d88",
+            "ndownloads": 2767,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 514333,
+            "type": "conda",
+            "upload_time": "2021-05-30 22:46:14.908000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h399db7b_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=9.3.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1622471255649
+            },
+            "basename": "linux-64/bioconductor-metapod-1.0.0-r41h399db7b_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.0.0/linux-64/bioconductor-metapod-1.0.0-r41h399db7b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.0.0/linux-64/bioconductor-metapod-1.0.0-r41h399db7b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c850b84657b8dd34377f4fd1f1e3ed7c",
+            "ndownloads": 677,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 531340,
+            "type": "conda",
+            "upload_time": "2021-05-31 14:32:49.757000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h832b226_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=11.1.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1635776364715
+            },
+            "basename": "osx-64/bioconductor-metapod-1.2.0-r41h832b226_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "11.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.2.0/osx-64/bioconductor-metapod-1.2.0-r41h832b226_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.2.0/osx-64/bioconductor-metapod-1.2.0-r41h832b226_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "208680d74759eee762958ffe4a7f3684",
+            "ndownloads": 654,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 508421,
+            "type": "conda",
+            "upload_time": "2021-11-01 14:20:30.204000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h399db7b_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=9.4.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=9.4.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1635783684341
+            },
+            "basename": "linux-64/bioconductor-metapod-1.2.0-r41h399db7b_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "9.4.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.2.0/linux-64/bioconductor-metapod-1.2.0-r41h399db7b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.2.0/linux-64/bioconductor-metapod-1.2.0-r41h399db7b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "70b9728ab081505d4afad4861728957f",
+            "ndownloads": 422,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 540742,
+            "type": "conda",
+            "upload_time": "2021-11-01 16:28:04.225000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h619a076_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libgcc-ng >=10.3.0",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "libstdcxx-ng >=10.3.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1645570755584
+            },
+            "basename": "linux-64/bioconductor-metapod-1.2.0-r41h619a076_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "10.3.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.2.0/linux-64/bioconductor-metapod-1.2.0-r41h619a076_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.2.0/linux-64/bioconductor-metapod-1.2.0-r41h619a076_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b7039b4a30c128d19506c9a4766d1406",
+            "ndownloads": 1600,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 549126,
+            "type": "conda",
+            "upload_time": "2022-02-22 23:05:05.634000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41h7cba510_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.8.0,<4.0a0",
+                    "libcxx >=12.0.1",
+                    "liblapack >=3.8.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": true,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1645576943337
+            },
+            "basename": "osx-64/bioconductor-metapod-1.2.0-r41h7cba510_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libblas",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "liblapack",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<4.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rcpp",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.2.0/osx-64/bioconductor-metapod-1.2.0-r41h7cba510_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.2.0/osx-64/bioconductor-metapod-1.2.0-r41h7cba510_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "68b6c1514e0048ee9fa3ce815adcc85a",
+            "ndownloads": 178,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 548191,
+            "type": "conda",
+            "upload_time": "2022-02-23 00:43:46.948000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hc247a5b_2",
+                "build_number": 2,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1663228359732
+            },
+            "basename": "linux-64/bioconductor-metapod-1.2.0-r41hc247a5b_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.2.0/linux-64/bioconductor-metapod-1.2.0-r41hc247a5b_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.2.0/linux-64/bioconductor-metapod-1.2.0-r41hc247a5b_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0068b5f94d10c3372f2077d9334c69cd",
+            "ndownloads": 211043,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 550509,
+            "type": "conda",
+            "upload_time": "2022-09-15 07:56:18.088000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r41hb890f52_2",
+                "build_number": 2,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=14.0.4",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1663234972272
+            },
+            "basename": "osx-64/bioconductor-metapod-1.2.0-r41hb890f52_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.2.0/osx-64/bioconductor-metapod-1.2.0-r41hb890f52_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.2.0/osx-64/bioconductor-metapod-1.2.0-r41hb890f52_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "33d3c1741bc2bd3318fd391317684630",
+            "ndownloads": 4691,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 524670,
+            "type": "conda",
+            "upload_time": "2022-09-15 09:43:54.131000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hb890f52_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=14.0.4",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1667461161712
+            },
+            "basename": "osx-64/bioconductor-metapod-1.6.0-r42hb890f52_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.6.0/osx-64/bioconductor-metapod-1.6.0-r42hb890f52_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.6.0/osx-64/bioconductor-metapod-1.6.0-r42hb890f52_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ca358ef8e247b9212ddc93cc73b31277",
+            "ndownloads": 505,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 520705,
+            "type": "conda",
+            "upload_time": "2022-11-03 07:40:47.508000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc247a5b_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1667479507536
+            },
+            "basename": "linux-64/bioconductor-metapod-1.6.0-r42hc247a5b_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.6.0/linux-64/bioconductor-metapod-1.6.0-r42hc247a5b_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.6.0/linux-64/bioconductor-metapod-1.6.0-r42hc247a5b_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1d00f09a92305a2a3f7a019e043be0c1",
+            "ndownloads": 1313,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 550507,
+            "type": "conda",
+            "upload_time": "2022-11-03 12:47:51.354000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc247a5b_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1683977539386
+            },
+            "basename": "linux-64/bioconductor-metapod-1.6.0-r42hc247a5b_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.6.0/linux-64/bioconductor-metapod-1.6.0-r42hc247a5b_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.6.0/linux-64/bioconductor-metapod-1.6.0-r42hc247a5b_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e2a4703566092ca373e94a4db4113fc2",
+            "ndownloads": 154,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 544329,
+            "type": "conda",
+            "upload_time": "2023-05-13 11:34:57.307000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hb890f52_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=14.0.6",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1684013960771
+            },
+            "basename": "osx-64/bioconductor-metapod-1.6.0-r42hb890f52_1.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.6.0/osx-64/bioconductor-metapod-1.6.0-r42hb890f52_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.6.0/osx-64/bioconductor-metapod-1.6.0-r42hb890f52_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ec14ad602a5c4ad3d2b892c0a6325f2f",
+            "ndownloads": 53,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 528573,
+            "type": "conda",
+            "upload_time": "2023-05-13 21:40:13.396000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hc0ef7c4_2",
+                "build_number": 2,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1684223860453
+            },
+            "basename": "osx-64/bioconductor-metapod-1.6.0-r42hc0ef7c4_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.6.0/osx-64/bioconductor-metapod-1.6.0-r42hc0ef7c4_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.6.0/osx-64/bioconductor-metapod-1.6.0-r42hc0ef7c4_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8f4629ba5a8546274a027d661c85252c",
+            "ndownloads": 1407,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 522096,
+            "type": "conda",
+            "upload_time": "2023-05-16 07:58:30.804000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r42hf17093f_2",
+                "build_number": 2,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1684224120264
+            },
+            "basename": "linux-64/bioconductor-metapod-1.6.0-r42hf17093f_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.6.0/linux-64/bioconductor-metapod-1.6.0-r42hf17093f_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.6.0/linux-64/bioconductor-metapod-1.6.0-r42hf17093f_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e62fca2c11218a4c748ae604e3690121",
+            "ndownloads": 2024,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 549606,
+            "type": "conda",
+            "upload_time": "2023-05-16 08:04:43.118000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hf17093f_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1688713465311
+            },
+            "basename": "linux-64/bioconductor-metapod-1.8.0-r43hf17093f_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.8.0/linux-64/bioconductor-metapod-1.8.0-r43hf17093f_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.8.0/linux-64/bioconductor-metapod-1.8.0-r43hf17093f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "89cde1bdbd95c0f8e4c7f78f5bfcfdb2",
+            "ndownloads": 2369,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 548005,
+            "type": "conda",
+            "upload_time": "2023-07-07 07:07:02.063000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hc0ef7c4_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1688738939342
+            },
+            "basename": "osx-64/bioconductor-metapod-1.8.0-r43hc0ef7c4_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.8.0/osx-64/bioconductor-metapod-1.8.0-r43hc0ef7c4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.8.0/osx-64/bioconductor-metapod-1.8.0-r43hc0ef7c4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7a9858b8cb3a6d9b7837cb48f0d859cb",
+            "ndownloads": 1283,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 521565,
+            "type": "conda",
+            "upload_time": "2023-07-07 14:09:59.228000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hc0ef7c4_0",
+                "build_number": 0,
+                "depends": [
+                    "__osx >=10.9",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1701616613838
+            },
+            "basename": "osx-64/bioconductor-metapod-1.10.0-r43hc0ef7c4_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.10.0/osx-64/bioconductor-metapod-1.10.0-r43hc0ef7c4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.10.0/osx-64/bioconductor-metapod-1.10.0-r43hc0ef7c4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "224dd887638c0b9505a8bbfe3909b8c9",
+            "ndownloads": 39,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 530997,
+            "type": "conda",
+            "upload_time": "2023-12-03 15:14:36.375000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hc0ef7c4_1",
+                "build_number": 1,
+                "depends": [
+                    "__osx >=10.9",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1701634326521
+            },
+            "basename": "osx-64/bioconductor-metapod-1.10.0-r43hc0ef7c4_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.10.0/osx-64/bioconductor-metapod-1.10.0-r43hc0ef7c4_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.10.0/osx-64/bioconductor-metapod-1.10.0-r43hc0ef7c4_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d487548ec2d2876c7fac40c58c02aae0",
+            "ndownloads": 389,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 532730,
+            "type": "conda",
+            "upload_time": "2023-12-03 20:13:02.567000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hf17093f_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1701639783875
+            },
+            "basename": "linux-64/bioconductor-metapod-1.10.0-r43hf17093f_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.10.0/linux-64/bioconductor-metapod-1.10.0-r43hf17093f_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.10.0/linux-64/bioconductor-metapod-1.10.0-r43hf17093f_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "25979828700831fbc5440ed853817329",
+            "ndownloads": 905,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 554138,
+            "type": "conda",
+            "upload_time": "2023-12-03 21:44:37.363000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "r43h7d2ed04_2",
+                "build_number": 2,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1714739393620
+            },
+            "basename": "linux-aarch64/bioconductor-metapod-1.10.0-r43h7d2ed04_2.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.10.0/linux-aarch64/bioconductor-metapod-1.10.0-r43h7d2ed04_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.10.0/linux-aarch64/bioconductor-metapod-1.10.0-r43h7d2ed04_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "eff8a1557a0439756669c31937a114ae",
+            "ndownloads": 52,
+            "owner": "bioconda",
+            "sha256": "fb72410241f42c7d3d821e427c6086876b562a4766fbaf609bbf981bce57ca51",
+            "size": 545127,
+            "type": "conda",
+            "upload_time": "2024-05-06 04:26:38.201000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hf17093f_2",
+                "build_number": 2,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1714744085510
+            },
+            "basename": "linux-64/bioconductor-metapod-1.10.0-r43hf17093f_2.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.10.0/linux-64/bioconductor-metapod-1.10.0-r43hf17093f_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.10.0/linux-64/bioconductor-metapod-1.10.0-r43hf17093f_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "1940704785a46c401b4cf07232f0a94c",
+            "ndownloads": 1764,
+            "owner": "bioconda",
+            "sha256": "563b945622c4280423a50243088f7cac96c8af9ccbebbc3ea72dce39bafad08c",
+            "size": 564549,
+            "type": "conda",
+            "upload_time": "2024-05-06 04:27:06.817000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hc0ef7c4_2",
+                "build_number": 2,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=14",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1714747877130
+            },
+            "basename": "osx-64/bioconductor-metapod-1.10.0-r43hc0ef7c4_2.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.10.0/osx-64/bioconductor-metapod-1.10.0-r43hc0ef7c4_2.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.10.0/osx-64/bioconductor-metapod-1.10.0-r43hc0ef7c4_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e9712300a5350fa5c916eea89d21368d",
+            "ndownloads": 662,
+            "owner": "bioconda",
+            "sha256": "539fd76e94f2405460a588754ce1390e19777db59622dc434c9518327807685b",
+            "size": 534835,
+            "type": "conda",
+            "upload_time": "2024-05-06 04:35:00.717000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43h5ae6f11_3",
+                "build_number": 3,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=16",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1717593668508
+            },
+            "basename": "osx-64/bioconductor-metapod-1.10.0-r43h5ae6f11_3.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.10.0/osx-64/bioconductor-metapod-1.10.0-r43h5ae6f11_3.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.10.0/osx-64/bioconductor-metapod-1.10.0-r43h5ae6f11_3.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "eb98121caa86bbf08b006f8415114b05",
+            "ndownloads": 133,
+            "owner": "bioconda",
+            "sha256": "663c26934d72376a284df00c49da0dfbec2c01035034e828a76a0cb2fe59edbc",
+            "size": 531404,
+            "type": "conda",
+            "upload_time": "2024-06-05 13:22:18.761000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hf17093f_3",
+                "build_number": 3,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1717594234850
+            },
+            "basename": "linux-64/bioconductor-metapod-1.10.0-r43hf17093f_3.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.10.0/linux-64/bioconductor-metapod-1.10.0-r43hf17093f_3.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.10.0/linux-64/bioconductor-metapod-1.10.0-r43hf17093f_3.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d8729a09961ad97fe0bdd8668a42bbcf",
+            "ndownloads": 4770,
+            "owner": "bioconda",
+            "sha256": "39c58a1f7dc6802056d2b6b97ffb7e70159869b27e6a523ecdbcfc8660b5569a",
+            "size": 554733,
+            "type": "conda",
+            "upload_time": "2024-06-05 13:31:56.263000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "r43h7d2ed04_3",
+                "build_number": 3,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1717707173322
+            },
+            "basename": "linux-aarch64/bioconductor-metapod-1.10.0-r43h7d2ed04_3.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.10.0/linux-aarch64/bioconductor-metapod-1.10.0-r43h7d2ed04_3.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.10.0/linux-aarch64/bioconductor-metapod-1.10.0-r43h7d2ed04_3.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "95ab0c4d1c8d8596e5e49c352eea56e1",
+            "ndownloads": 270,
+            "owner": "bioconda",
+            "sha256": "2e8ca9b1878c3ae7491fa20f98891459913789dc388db50f6c5fccd18158be13",
+            "size": 540367,
+            "type": "conda",
+            "upload_time": "2024-06-06 20:53:56.305000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "r44h12ab77f_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx >=13",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1734187066330
+            },
+            "basename": "linux-aarch64/bioconductor-metapod-1.14.0-r44h12ab77f_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.14.0/linux-aarch64/bioconductor-metapod-1.14.0-r44h12ab77f_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.14.0/linux-aarch64/bioconductor-metapod-1.14.0-r44h12ab77f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "07bfd5fd0acdfdeb58b812b33cb04372",
+            "ndownloads": 62,
+            "owner": "bioconda",
+            "sha256": "8c244c3a44ac733e8cda8dd421dbd6a045aa5d781b1d98787705962bb628daad",
+            "size": 556416,
+            "type": "conda",
+            "upload_time": "2024-12-14 14:38:52.689000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44he5774e6_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx >=13",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1734204997372
+            },
+            "basename": "linux-64/bioconductor-metapod-1.14.0-r44he5774e6_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.14.0/linux-64/bioconductor-metapod-1.14.0-r44he5774e6_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.14.0/linux-64/bioconductor-metapod-1.14.0-r44he5774e6_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3877799ceff0016aa0a7cbf07a12c5dd",
+            "ndownloads": 700,
+            "owner": "bioconda",
+            "sha256": "31b9b89c412cfc7015f85477ab6f069642de6443b42dade40cbc0ff4cc08c1b8",
+            "size": 565152,
+            "type": "conda",
+            "upload_time": "2024-12-14 19:37:59.987000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h35d7169_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=18",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1734242191026
+            },
+            "basename": "osx-64/bioconductor-metapod-1.14.0-r44h35d7169_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.14.0/osx-64/bioconductor-metapod-1.14.0-r44h35d7169_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.14.0/osx-64/bioconductor-metapod-1.14.0-r44h35d7169_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "617f9b2e36911ec78a6bbd39cb4bd78f",
+            "ndownloads": 242,
+            "owner": "bioconda",
+            "sha256": "f9d7c364cc8e77a7edef67e3658fcedaf344c7555f518b90590b4bb52e1d2fe4",
+            "size": 555048,
+            "type": "conda",
+            "upload_time": "2024-12-15 05:57:29.970000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "r44h12ab77f_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx >=13",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1745274426695
+            },
+            "basename": "linux-aarch64/bioconductor-metapod-1.14.0-r44h12ab77f_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.14.0/linux-aarch64/bioconductor-metapod-1.14.0-r44h12ab77f_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.14.0/linux-aarch64/bioconductor-metapod-1.14.0-r44h12ab77f_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "db3a72129f0343804cd9d3304fdedd78",
+            "ndownloads": 56,
+            "owner": "bioconda",
+            "sha256": "03fad5b858cd464cfcab21b1d9d06bfa5cff9a2e7f26a82f2ba288e87d578864",
+            "size": 559522,
+            "type": "conda",
+            "upload_time": "2025-04-22 00:28:55.874000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44he5774e6_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx >=13",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1745274495601
+            },
+            "basename": "linux-64/bioconductor-metapod-1.14.0-r44he5774e6_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.14.0/linux-64/bioconductor-metapod-1.14.0-r44he5774e6_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.14.0/linux-64/bioconductor-metapod-1.14.0-r44he5774e6_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a5a8ea8dfbee86850242e34ed1e81b61",
+            "ndownloads": 1146,
+            "owner": "bioconda",
+            "sha256": "ca236146f19b848e1f9da21fc8679bd75ec09bc9b6ba22784bb2ac6391590aba",
+            "size": 563834,
+            "type": "conda",
+            "upload_time": "2025-04-22 00:29:31.596000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h35d7169_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=18",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1745275391451
+            },
+            "basename": "osx-64/bioconductor-metapod-1.14.0-r44h35d7169_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.14.0/osx-64/bioconductor-metapod-1.14.0-r44h35d7169_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.14.0/osx-64/bioconductor-metapod-1.14.0-r44h35d7169_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2a28d233a66a05e9c931fcdbfa60945d",
+            "ndownloads": 47,
+            "owner": "bioconda",
+            "sha256": "7056e62065cd21259478cbb2a4136816bbb56df0da79f9daf490e677e857ada7",
+            "size": 546331,
+            "type": "conda",
+            "upload_time": "2025-04-22 00:41:53.010000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "r44hb11b259_0",
+                "build_number": 0,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=18",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1745273676537
+            },
+            "basename": "osx-arm64/bioconductor-metapod-1.14.0-r44hb11b259_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.14.0/osx-arm64/bioconductor-metapod-1.14.0-r44hb11b259_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.14.0/osx-arm64/bioconductor-metapod-1.14.0-r44hb11b259_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "36c5c2337adeaaca208adc498be6ac96",
+            "ndownloads": 16,
+            "owner": "bioconda",
+            "sha256": "fd4605561734c924f04aa6b4f93a78884cbec22f56b307df5dbf5d5561a619f7",
+            "size": 549314,
+            "type": "conda",
+            "upload_time": "2025-04-22 00:51:03.873000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "r44hb11b259_1",
+                "build_number": 1,
+                "depends": [
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=18",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-rcpp"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1745275765321
+            },
+            "basename": "osx-arm64/bioconductor-metapod-1.14.0-r44hb11b259_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-metapod/1.14.0/osx-arm64/bioconductor-metapod-1.14.0-r44hb11b259_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-metapod/1.14.0/osx-arm64/bioconductor-metapod-1.14.0-r44hb11b259_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0019934bb792c2414503bf1ae30a2b70",
+            "ndownloads": 55,
+            "owner": "bioconda",
+            "sha256": "554644f3bab80245efdbc33ceb70a58c731b8c2a0402d4949cf8f9636061d87a",
+            "size": 549943,
+            "type": "conda",
+            "upload_time": "2025-04-22 01:30:11.450000+00:00",
+            "version": "1.14.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-metapod",
+    "home": "https://bioconductor.org/packages/3.13/bioc/html/metapod.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-metapod",
+    "id": "60b415b4a7b1f30b0f648623",
+    "latest_version": "1.14.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:28.134000+00:00",
+    "name": "bioconductor-metapod",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.14.0",
+        "linux-aarch64": "1.14.0",
+        "osx-64": "1.14.0",
+        "osx-arm64": "1.14.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-metapod/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-metapod/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-metapod/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-metapod/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-metapod/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-metapod/1.14.0",
+            "version": "1.14.0"
+        }
+    ],
+    "revision": 26,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Meta-Analyses on P-Values of Differential Analyses",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-metapod",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.6.0",
+        "1.8.0",
+        "1.10.0",
+        "1.14.0"
+    ],
+    "watchers": 1
+}

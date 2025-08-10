@@ -1,0 +1,3242 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "py310h93aadbd_0",
+        "py311h86bc7d4_1",
+        "py310hbea5c91_1",
+        "py310h434530e_1",
+        "py311h86bc7d4_0",
+        "py311h012f810_1",
+        "py310h77ce02f_0",
+        "py312h96d76a5_0",
+        "py310hdfc572a_0",
+        "py312h96d76a5_1",
+        "py311h8889aa1_1",
+        "py311h90ed735_1",
+        "py310hc4c68a4_0",
+        "py310h93aadbd_1",
+        "py310hc4c68a4_1",
+        "py311hbbdcbde_1",
+        "py312h764ffbb_1",
+        "py312hf99f3f7_0",
+        "py312hc37da36_1",
+        "py311h90ed735_0",
+        "py311hbbdcbde_0",
+        "py310h77ce02f_1",
+        "py310hdfc572a_1",
+        "py311h1d4d1fd_0",
+        "py311h1d4d1fd_1",
+        "py312h764ffbb_0",
+        "py312h7916054_0",
+        "py312h7916054_1",
+        "py312ha09a0c5_1",
+        "py312hf99f3f7_1"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-arm64",
+        "linux-aarch64",
+        "osx-64"
+    ],
+    "created_at": "2024-10-29 02:48:47.838000+00:00",
+    "description": "DeepChopper is a genomic language model designed to identify artificial sequences.\nIt provides functionality for encoding FASTQ files, making predictions, and chopping sequences.\n",
+    "dev_url": "https://github.com/ylab-hi/DeepChopper",
+    "doc_url": "https://github.com/ylab-hi/DeepChopper",
+    "files": [
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py312h7916054_0",
+                "build_number": 0,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.12,<3.13.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.12.* *_cp312",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1730164075154
+            },
+            "basename": "linux-aarch64/deepchopper-1.2.4-py312h7916054_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.4/linux-aarch64/deepchopper-1.2.4-py312h7916054_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.4/linux-aarch64/deepchopper-1.2.4-py312h7916054_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "04cfef122b46afdbab0fdfb4a7cb9e92",
+            "ndownloads": 48,
+            "owner": "bioconda",
+            "sha256": "c2e6bc03c6da47a1957987ea66a8c0fbb4b7e305ef1fd4f3d1995c7e46c5fabc",
+            "size": 4233874,
+            "type": "conda",
+            "upload_time": "2024-10-29 02:48:48.340000+00:00",
+            "version": "1.2.4"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py311hbbdcbde_0",
+                "build_number": 0,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.11,<3.12.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.11.* *_cp311",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1730164560455
+            },
+            "basename": "linux-64/deepchopper-1.2.4-py311hbbdcbde_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.4/linux-64/deepchopper-1.2.4-py311hbbdcbde_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.4/linux-64/deepchopper-1.2.4-py311hbbdcbde_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "28113aa502f8a5ae599dc333ab1aa01d",
+            "ndownloads": 106,
+            "owner": "bioconda",
+            "sha256": "fea6ecfcfa1bf9c3be074e509ac7a49b422a336178211483ce3d2ff0681eda53",
+            "size": 4472389,
+            "type": "conda",
+            "upload_time": "2024-10-29 02:48:59.750000+00:00",
+            "version": "1.2.4"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py310h77ce02f_0",
+                "build_number": 0,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.10,<3.11.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.10.* *_cp310",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1730164138762
+            },
+            "basename": "linux-64/deepchopper-1.2.4-py310h77ce02f_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.4/linux-64/deepchopper-1.2.4-py310h77ce02f_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.4/linux-64/deepchopper-1.2.4-py310h77ce02f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "39ff765b0581c721b2074c8a9919da26",
+            "ndownloads": 103,
+            "owner": "bioconda",
+            "sha256": "9a32bd32c22f12a15afca088466c83aff1c2e813e2e9098fa0e7171a590032a7",
+            "size": 4465627,
+            "type": "conda",
+            "upload_time": "2024-10-29 02:49:02.433000+00:00",
+            "version": "1.2.4"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py312hf99f3f7_0",
+                "build_number": 0,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.12,<3.13.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.12.* *_cp312",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1730163689229
+            },
+            "basename": "linux-64/deepchopper-1.2.4-py312hf99f3f7_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.4/linux-64/deepchopper-1.2.4-py312hf99f3f7_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.4/linux-64/deepchopper-1.2.4-py312hf99f3f7_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "7224521143a1be25dc9eee4305ee2d17",
+            "ndownloads": 101,
+            "owner": "bioconda",
+            "sha256": "bde8437d49be841b8a2f67374a69e1fe91e8f831361605f08ea42d654b406c19",
+            "size": 4472728,
+            "type": "conda",
+            "upload_time": "2024-10-29 02:49:05.271000+00:00",
+            "version": "1.2.4"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py311h86bc7d4_0",
+                "build_number": 0,
+                "constrains": [
+                    "__osx >=11.0"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.11,<3.12.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.11.* *_cp311",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1730164404117
+            },
+            "basename": "osx-arm64/deepchopper-1.2.4-py311h86bc7d4_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.4/osx-arm64/deepchopper-1.2.4-py311h86bc7d4_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.4/osx-arm64/deepchopper-1.2.4-py311h86bc7d4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5619af3dee917a086dab8b519c998595",
+            "ndownloads": 24,
+            "owner": "bioconda",
+            "sha256": "b81c554d1124e592d0739f4f16b3aa9e2a711b2de85c1674db73ca0c7f6b03ae",
+            "size": 4141365,
+            "type": "conda",
+            "upload_time": "2024-10-29 02:49:57.132000+00:00",
+            "version": "1.2.4"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py311h1d4d1fd_0",
+                "build_number": 0,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.11,<3.12.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.11.* *_cp311",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1730163552344
+            },
+            "basename": "linux-aarch64/deepchopper-1.2.4-py311h1d4d1fd_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.4/linux-aarch64/deepchopper-1.2.4-py311h1d4d1fd_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.4/linux-aarch64/deepchopper-1.2.4-py311h1d4d1fd_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "55444ca30faf931fa4423b670e049577",
+            "ndownloads": 43,
+            "owner": "bioconda",
+            "sha256": "008e7c421def1cbdc42bd974cb5630b58b3342d63853503b6b66d2dbbb5f8f90",
+            "size": 4236906,
+            "type": "conda",
+            "upload_time": "2024-10-29 02:50:04.349000+00:00",
+            "version": "1.2.4"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py310hdfc572a_0",
+                "build_number": 0,
+                "constrains": [
+                    "__osx >=11.0"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.10,<3.11.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.10.* *_cp310",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1730163972857
+            },
+            "basename": "osx-arm64/deepchopper-1.2.4-py310hdfc572a_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.4/osx-arm64/deepchopper-1.2.4-py310hdfc572a_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.4/osx-arm64/deepchopper-1.2.4-py310hdfc572a_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "cf7b32ff3ceb5eb97d87f54885314a82",
+            "ndownloads": 28,
+            "owner": "bioconda",
+            "sha256": "c2d7189ed63520d84bbc52224a94c07181f85c8702059931447539745bc5a17b",
+            "size": 4120441,
+            "type": "conda",
+            "upload_time": "2024-10-29 02:50:40.810000+00:00",
+            "version": "1.2.4"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py310h93aadbd_0",
+                "build_number": 0,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.10,<3.11.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.10.* *_cp310",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1730164578516
+            },
+            "basename": "linux-aarch64/deepchopper-1.2.4-py310h93aadbd_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.4/linux-aarch64/deepchopper-1.2.4-py310h93aadbd_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.4/linux-aarch64/deepchopper-1.2.4-py310h93aadbd_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "3d93d12361ab20499b680fd587b06ac8",
+            "ndownloads": 49,
+            "owner": "bioconda",
+            "sha256": "3e9d621bcac08517425c974b9f0cac6887ff58304db208841dfde8855e9b4727",
+            "size": 4224096,
+            "type": "conda",
+            "upload_time": "2024-10-29 02:50:45.569000+00:00",
+            "version": "1.2.4"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py312h764ffbb_0",
+                "build_number": 0,
+                "constrains": [
+                    "__osx >=11.0"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.12,<3.13.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.12.* *_cp312",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1730163511537
+            },
+            "basename": "osx-arm64/deepchopper-1.2.4-py312h764ffbb_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.4/osx-arm64/deepchopper-1.2.4-py312h764ffbb_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.4/osx-arm64/deepchopper-1.2.4-py312h764ffbb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ccc288b5b5368ffad008ba8104f360c6",
+            "ndownloads": 27,
+            "owner": "bioconda",
+            "sha256": "6026525ce4521b5ecb234cc9c654afdecbc659dea563e15639cdfea1973b274a",
+            "size": 4138788,
+            "type": "conda",
+            "upload_time": "2024-10-29 02:51:33.859000+00:00",
+            "version": "1.2.4"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py310hc4c68a4_0",
+                "build_number": 0,
+                "constrains": [
+                    "__osx >=10.13"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.10,<3.11.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.10.* *_cp310",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1730169515141
+            },
+            "basename": "osx-64/deepchopper-1.2.4-py310hc4c68a4_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.4/osx-64/deepchopper-1.2.4-py310hc4c68a4_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.4/osx-64/deepchopper-1.2.4-py310hc4c68a4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "26a8bc993293f1f0c2f8f8b2ff9e497b",
+            "ndownloads": 38,
+            "owner": "bioconda",
+            "sha256": "ca7931712de5395e92bf9f65d394b9912aed65ff5ed75b3868daf7875f54f5e5",
+            "size": 4194038,
+            "type": "conda",
+            "upload_time": "2024-10-29 02:51:58.634000+00:00",
+            "version": "1.2.4"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py312h96d76a5_0",
+                "build_number": 0,
+                "constrains": [
+                    "__osx >=10.13"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.12,<3.13.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.12.* *_cp312",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1730167447707
+            },
+            "basename": "osx-64/deepchopper-1.2.4-py312h96d76a5_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.4/osx-64/deepchopper-1.2.4-py312h96d76a5_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.4/osx-64/deepchopper-1.2.4-py312h96d76a5_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ada87257631676fc15db04c3d668d1b8",
+            "ndownloads": 76,
+            "owner": "bioconda",
+            "sha256": "564067eb4f59138f98820e5e48b87f4c719cef268f5aa0b6985d104217395fc3",
+            "size": 4214788,
+            "type": "conda",
+            "upload_time": "2024-10-29 02:52:03.146000+00:00",
+            "version": "1.2.4"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py311h90ed735_0",
+                "build_number": 0,
+                "constrains": [
+                    "__osx >=10.13"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.11,<3.12.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.11.* *_cp311",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1730168469888
+            },
+            "basename": "osx-64/deepchopper-1.2.4-py311h90ed735_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.4/osx-64/deepchopper-1.2.4-py311h90ed735_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.4/osx-64/deepchopper-1.2.4-py311h90ed735_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "32108aa7f39c92cd1413929704442e69",
+            "ndownloads": 41,
+            "owner": "bioconda",
+            "sha256": "0f8b995869c5b901e00544fbbcbc8acf153bb414208a69a98dd249f31f78ccc0",
+            "size": 4222304,
+            "type": "conda",
+            "upload_time": "2024-10-29 02:52:07.066000+00:00",
+            "version": "1.2.4"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py310h93aadbd_0",
+                "build_number": 0,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.10,<3.11.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.10.* *_cp310",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1730218291112
+            },
+            "basename": "linux-aarch64/deepchopper-1.2.5-py310h93aadbd_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/linux-aarch64/deepchopper-1.2.5-py310h93aadbd_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/linux-aarch64/deepchopper-1.2.5-py310h93aadbd_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0a10f359b2623ceea5f68c039c7c45b6",
+            "ndownloads": 44,
+            "owner": "bioconda",
+            "sha256": "392619c8d979f302ee9f1ee332103604a714de257390bf09594dbef2c9dc2f71",
+            "size": 4246817,
+            "type": "conda",
+            "upload_time": "2024-10-29 17:10:10.526000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py311hbbdcbde_0",
+                "build_number": 0,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.11,<3.12.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.11.* *_cp311",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1730217400577
+            },
+            "basename": "linux-64/deepchopper-1.2.5-py311hbbdcbde_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/linux-64/deepchopper-1.2.5-py311hbbdcbde_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/linux-64/deepchopper-1.2.5-py311hbbdcbde_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4ce7cda36b9e1935f7cd7e28de3cb372",
+            "ndownloads": 107,
+            "owner": "bioconda",
+            "sha256": "7170c4ae9a2d3e971fcc0e47abe5bfd76d6161c7012415570d9bf3c9d12020e5",
+            "size": 4473689,
+            "type": "conda",
+            "upload_time": "2024-10-29 17:10:18.360000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py312hf99f3f7_0",
+                "build_number": 0,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.12,<3.13.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.12.* *_cp312",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1730217848115
+            },
+            "basename": "linux-64/deepchopper-1.2.5-py312hf99f3f7_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/linux-64/deepchopper-1.2.5-py312hf99f3f7_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/linux-64/deepchopper-1.2.5-py312hf99f3f7_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c86bfc7e97a5e1fff29047d4495fd92d",
+            "ndownloads": 104,
+            "owner": "bioconda",
+            "sha256": "71797a36079cff2c71fcb90d96f4363404b638cd6af0fbd71be1531fef4d0f66",
+            "size": 4484148,
+            "type": "conda",
+            "upload_time": "2024-10-29 17:10:22.331000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py310h77ce02f_0",
+                "build_number": 0,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.10,<3.11.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.10.* *_cp310",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1730218265316
+            },
+            "basename": "linux-64/deepchopper-1.2.5-py310h77ce02f_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/linux-64/deepchopper-1.2.5-py310h77ce02f_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/linux-64/deepchopper-1.2.5-py310h77ce02f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d1e74e8eaf164d0e4230a1c81296b567",
+            "ndownloads": 106,
+            "owner": "bioconda",
+            "sha256": "69247a1b955c2ab2a1f78b63f5815390318c7f642fd33df972290d05cf9492b8",
+            "size": 4464666,
+            "type": "conda",
+            "upload_time": "2024-10-29 17:10:26.390000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py311h1d4d1fd_0",
+                "build_number": 0,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.11,<3.12.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.11.* *_cp311",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1730217797029
+            },
+            "basename": "linux-aarch64/deepchopper-1.2.5-py311h1d4d1fd_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/linux-aarch64/deepchopper-1.2.5-py311h1d4d1fd_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/linux-aarch64/deepchopper-1.2.5-py311h1d4d1fd_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "76afb4231f4073bcc6b0fd104490c3a6",
+            "ndownloads": 45,
+            "owner": "bioconda",
+            "sha256": "83717dd05c4045fd6e0f02e8cde55046ca8687805d0a910d8cd0f4004e617867",
+            "size": 4264502,
+            "type": "conda",
+            "upload_time": "2024-10-29 17:10:48.408000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py311h86bc7d4_0",
+                "build_number": 0,
+                "constrains": [
+                    "__osx >=11.0"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.11,<3.12.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.11.* *_cp311",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1730217205671
+            },
+            "basename": "osx-arm64/deepchopper-1.2.5-py311h86bc7d4_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/osx-arm64/deepchopper-1.2.5-py311h86bc7d4_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/osx-arm64/deepchopper-1.2.5-py311h86bc7d4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f0620143574fcf315c5411b32267e26a",
+            "ndownloads": 26,
+            "owner": "bioconda",
+            "sha256": "6724a876e6512b6909583e1e20dfe68ae46efa9b97de5e1042416d850934ab6b",
+            "size": 4163413,
+            "type": "conda",
+            "upload_time": "2024-10-29 17:11:16.362000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py312h764ffbb_0",
+                "build_number": 0,
+                "constrains": [
+                    "__osx >=11.0"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.12,<3.13.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.12.* *_cp312",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1730217664074
+            },
+            "basename": "osx-arm64/deepchopper-1.2.5-py312h764ffbb_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/osx-arm64/deepchopper-1.2.5-py312h764ffbb_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/osx-arm64/deepchopper-1.2.5-py312h764ffbb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "d26220792e43b75749cabafa509226a2",
+            "ndownloads": 26,
+            "owner": "bioconda",
+            "sha256": "cc302e268c9c431fc1dcf45569d90951fcf8094799a6e1a712137c377fa5a051",
+            "size": 4167559,
+            "type": "conda",
+            "upload_time": "2024-10-29 17:11:20.367000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py312h7916054_0",
+                "build_number": 0,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.12,<3.13.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.12.* *_cp312",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1730217247732
+            },
+            "basename": "linux-aarch64/deepchopper-1.2.5-py312h7916054_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/linux-aarch64/deepchopper-1.2.5-py312h7916054_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/linux-aarch64/deepchopper-1.2.5-py312h7916054_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "393b242c8bc8c14c1f674953b0f38595",
+            "ndownloads": 38,
+            "owner": "bioconda",
+            "sha256": "8feb683924148e65afebd6cd4ae647e2012e145ce61c0ff3368c14f70dd8e658",
+            "size": 4262792,
+            "type": "conda",
+            "upload_time": "2024-10-29 17:11:25.070000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py310hdfc572a_0",
+                "build_number": 0,
+                "constrains": [
+                    "__osx >=11.0"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.10,<3.11.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.10.* *_cp310",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1730218099458
+            },
+            "basename": "osx-arm64/deepchopper-1.2.5-py310hdfc572a_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/osx-arm64/deepchopper-1.2.5-py310hdfc572a_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/osx-arm64/deepchopper-1.2.5-py310hdfc572a_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "710654d4346de5883a6e75a2d46480e6",
+            "ndownloads": 26,
+            "owner": "bioconda",
+            "sha256": "ed5736c466c551c4f8875f3989d023fd4a62d248a84a88f0ac5011ef7ec242e1",
+            "size": 4144908,
+            "type": "conda",
+            "upload_time": "2024-10-29 17:12:03.460000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py311h90ed735_0",
+                "build_number": 0,
+                "constrains": [
+                    "__osx >=10.13"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.11,<3.12.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.11.* *_cp311",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1730220145253
+            },
+            "basename": "osx-64/deepchopper-1.2.5-py311h90ed735_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/osx-64/deepchopper-1.2.5-py311h90ed735_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/osx-64/deepchopper-1.2.5-py311h90ed735_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b096f4e520dca4b90e65d21ae891b937",
+            "ndownloads": 44,
+            "owner": "bioconda",
+            "sha256": "d9826265512b9f9d4c8766d64e36c85a74924698a67722d4f56235e01dc0177e",
+            "size": 4224940,
+            "type": "conda",
+            "upload_time": "2024-10-29 17:12:49.389000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py312h96d76a5_0",
+                "build_number": 0,
+                "constrains": [
+                    "__osx >=10.13"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.12,<3.13.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.12.* *_cp312",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1730221456104
+            },
+            "basename": "osx-64/deepchopper-1.2.5-py312h96d76a5_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/osx-64/deepchopper-1.2.5-py312h96d76a5_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/osx-64/deepchopper-1.2.5-py312h96d76a5_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "94805e5f8d4006a7cf8c1719e5dff856",
+            "ndownloads": 37,
+            "owner": "bioconda",
+            "sha256": "1cef3ad2326de6c834e5cd12e79d20aeee68f6dd840e94ea79de40bad966ab94",
+            "size": 4219175,
+            "type": "conda",
+            "upload_time": "2024-10-29 17:12:55.228000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py310hc4c68a4_0",
+                "build_number": 0,
+                "constrains": [
+                    "__osx >=10.13"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.10,<3.11.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.10.* *_cp310",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1730220821548
+            },
+            "basename": "osx-64/deepchopper-1.2.5-py310hc4c68a4_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/osx-64/deepchopper-1.2.5-py310hc4c68a4_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/osx-64/deepchopper-1.2.5-py310hc4c68a4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "37be8fb18145ada705141abd8fb126e2",
+            "ndownloads": 39,
+            "owner": "bioconda",
+            "sha256": "805cb55e2e665fd605905349703432a0cd6147bfc856f081d111db2047f6d0b6",
+            "size": 4199643,
+            "type": "conda",
+            "upload_time": "2024-10-29 17:13:01.398000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py310h93aadbd_1",
+                "build_number": 1,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.10,<3.11.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.10.* *_cp310",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1730305298500
+            },
+            "basename": "linux-aarch64/deepchopper-1.2.5-py310h93aadbd_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/linux-aarch64/deepchopper-1.2.5-py310h93aadbd_1.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/linux-aarch64/deepchopper-1.2.5-py310h93aadbd_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0efb3f83687762d868b5db028ea175d5",
+            "ndownloads": 46,
+            "owner": "bioconda",
+            "sha256": "aa9e5067ee1280b11a790bc6f3b8b88cf05adbd83295c7dd4b09828105a10371",
+            "size": 4232062,
+            "type": "conda",
+            "upload_time": "2024-10-30 17:40:31.181000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py311hbbdcbde_1",
+                "build_number": 1,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.11,<3.12.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.11.* *_cp311",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1730304791087
+            },
+            "basename": "linux-64/deepchopper-1.2.5-py311hbbdcbde_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/linux-64/deepchopper-1.2.5-py311hbbdcbde_1.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/linux-64/deepchopper-1.2.5-py311hbbdcbde_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "046b7d5d749fd26a3cabe98d203a0f7b",
+            "ndownloads": 100,
+            "owner": "bioconda",
+            "sha256": "1d71733695d9dadfe3d7044ae4bbc132992f031ba7e0a0a4061866cdb4f9b70e",
+            "size": 4483442,
+            "type": "conda",
+            "upload_time": "2024-10-30 17:40:50.601000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py312hf99f3f7_1",
+                "build_number": 1,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.12,<3.13.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.12.* *_cp312",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1730304348881
+            },
+            "basename": "linux-64/deepchopper-1.2.5-py312hf99f3f7_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/linux-64/deepchopper-1.2.5-py312hf99f3f7_1.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/linux-64/deepchopper-1.2.5-py312hf99f3f7_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e2df0345725b7ed7b14a82e6d09db34f",
+            "ndownloads": 105,
+            "owner": "bioconda",
+            "sha256": "8b44f2a3e6c51f2fc804368d6adc0ce4cb1c7405002aa729c965c4de58b04fbf",
+            "size": 4480521,
+            "type": "conda",
+            "upload_time": "2024-10-30 17:40:53.458000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py310h77ce02f_1",
+                "build_number": 1,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.10,<3.11.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.10.* *_cp310",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1730305197317
+            },
+            "basename": "linux-64/deepchopper-1.2.5-py310h77ce02f_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/linux-64/deepchopper-1.2.5-py310h77ce02f_1.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/linux-64/deepchopper-1.2.5-py310h77ce02f_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "18053abce66c82eb106f0fcae738d520",
+            "ndownloads": 109,
+            "owner": "bioconda",
+            "sha256": "38fa5cf395293c919eb931ed71b47664280439a5ec4328619b5ae9ab1892e0ac",
+            "size": 4464221,
+            "type": "conda",
+            "upload_time": "2024-10-30 17:40:56.257000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py312h7916054_1",
+                "build_number": 1,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.12,<3.13.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.12.* *_cp312",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1730304238977
+            },
+            "basename": "linux-aarch64/deepchopper-1.2.5-py312h7916054_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/linux-aarch64/deepchopper-1.2.5-py312h7916054_1.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/linux-aarch64/deepchopper-1.2.5-py312h7916054_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a2fdcd95af1385ac4829a8556a9b4743",
+            "ndownloads": 38,
+            "owner": "bioconda",
+            "sha256": "73e861b451c6971870cd53c277aad6d960b6396452091f6393fd1953b7b3dd1a",
+            "size": 4247252,
+            "type": "conda",
+            "upload_time": "2024-10-30 17:41:09.861000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py311h1d4d1fd_1",
+                "build_number": 1,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.11,<3.12.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.11.* *_cp311",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1730304777638
+            },
+            "basename": "linux-aarch64/deepchopper-1.2.5-py311h1d4d1fd_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/linux-aarch64/deepchopper-1.2.5-py311h1d4d1fd_1.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/linux-aarch64/deepchopper-1.2.5-py311h1d4d1fd_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ec258b5441a24b3c482c7a3c67fa066d",
+            "ndownloads": 46,
+            "owner": "bioconda",
+            "sha256": "ccbe787f9c0692fa627bdc6ce638588a833bccc41b5ad6ef8aa15755aa9404f4",
+            "size": 4249505,
+            "type": "conda",
+            "upload_time": "2024-10-30 17:41:13.166000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py312h764ffbb_1",
+                "build_number": 1,
+                "constrains": [
+                    "__osx >=11.0"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.12,<3.13.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.12.* *_cp312",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1730304026137
+            },
+            "basename": "osx-arm64/deepchopper-1.2.5-py312h764ffbb_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/osx-arm64/deepchopper-1.2.5-py312h764ffbb_1.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/osx-arm64/deepchopper-1.2.5-py312h764ffbb_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f91320f7491d9e91dbf0b53cfe5732cc",
+            "ndownloads": 25,
+            "owner": "bioconda",
+            "sha256": "9f8e5149e860832a8f5165c41cdc0f42c70d6d8b72879353422d29dadbbefcaa",
+            "size": 4152630,
+            "type": "conda",
+            "upload_time": "2024-10-30 17:42:38.500000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py311h86bc7d4_1",
+                "build_number": 1,
+                "constrains": [
+                    "__osx >=11.0"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.11,<3.12.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.11.* *_cp311",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1730304926962
+            },
+            "basename": "osx-arm64/deepchopper-1.2.5-py311h86bc7d4_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/osx-arm64/deepchopper-1.2.5-py311h86bc7d4_1.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/osx-arm64/deepchopper-1.2.5-py311h86bc7d4_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ef493e5dce51c0b1b3df8c46ecf32c76",
+            "ndownloads": 25,
+            "owner": "bioconda",
+            "sha256": "b83d21953410cfb0213d3a44f8a161b8d9d739c2a1dea3d7d77b182a22b07ee7",
+            "size": 4151012,
+            "type": "conda",
+            "upload_time": "2024-10-30 17:43:30.112000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py312h96d76a5_1",
+                "build_number": 1,
+                "constrains": [
+                    "__osx >=10.13"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.12,<3.13.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.12.* *_cp312",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1730307557177
+            },
+            "basename": "osx-64/deepchopper-1.2.5-py312h96d76a5_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/osx-64/deepchopper-1.2.5-py312h96d76a5_1.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/osx-64/deepchopper-1.2.5-py312h96d76a5_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "9bcb763050d30786f179859b68bbf7eb",
+            "ndownloads": 76,
+            "owner": "bioconda",
+            "sha256": "3b5fafd3e2552313f633c8d4df2c01be243f0a5246909430d01cf4ea28cfe665",
+            "size": 4206107,
+            "type": "conda",
+            "upload_time": "2024-10-30 17:43:33.707000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py311h90ed735_1",
+                "build_number": 1,
+                "constrains": [
+                    "__osx >=10.13"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.11,<3.12.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.11.* *_cp311",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1730309286731
+            },
+            "basename": "osx-64/deepchopper-1.2.5-py311h90ed735_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/osx-64/deepchopper-1.2.5-py311h90ed735_1.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/osx-64/deepchopper-1.2.5-py311h90ed735_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "8c1f385a1b7394a30e85e659f3e61a95",
+            "ndownloads": 42,
+            "owner": "bioconda",
+            "sha256": "a8d2f8c1658a8912b7da4f8cdcab448f3a10c540c06d3f2c8ed60575090133a9",
+            "size": 4212578,
+            "type": "conda",
+            "upload_time": "2024-10-30 17:43:38.442000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py310hc4c68a4_1",
+                "build_number": 1,
+                "constrains": [
+                    "__osx >=10.13"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.10,<3.11.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.10.* *_cp310",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1730308500855
+            },
+            "basename": "osx-64/deepchopper-1.2.5-py310hc4c68a4_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/osx-64/deepchopper-1.2.5-py310hc4c68a4_1.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/osx-64/deepchopper-1.2.5-py310hc4c68a4_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "157a7ffade11e9ba380a68d144d71185",
+            "ndownloads": 42,
+            "owner": "bioconda",
+            "sha256": "a8e7e1861165242b6f5edc6330d9498a09e6ff7b045e8f4dd717a0b7f561e9a1",
+            "size": 4187590,
+            "type": "conda",
+            "upload_time": "2024-10-30 17:43:43.069000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py310hdfc572a_1",
+                "build_number": 1,
+                "constrains": [
+                    "__osx >=11.0"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.10,<3.11.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.10.* *_cp310",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1730304488937
+            },
+            "basename": "osx-arm64/deepchopper-1.2.5-py310hdfc572a_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.5/osx-arm64/deepchopper-1.2.5-py310hdfc572a_1.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.5/osx-arm64/deepchopper-1.2.5-py310hdfc572a_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "49f1d259eaf425b95049f583d8a1f910",
+            "ndownloads": 25,
+            "owner": "bioconda",
+            "sha256": "2aa54d8a9d4fa27b5f78538f9855cfd8d52c6315e53e7c16ca5c615826855e12",
+            "size": 4133573,
+            "type": "conda",
+            "upload_time": "2024-10-30 17:44:20.479000+00:00",
+            "version": "1.2.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py311hbbdcbde_0",
+                "build_number": 0,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.11,<3.12.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.11.* *_cp311",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1730851593273
+            },
+            "basename": "linux-64/deepchopper-1.2.6-py311hbbdcbde_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.6/linux-64/deepchopper-1.2.6-py311hbbdcbde_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.6/linux-64/deepchopper-1.2.6-py311hbbdcbde_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b17a368ee2fc2d116792b95b7b19ee6a",
+            "ndownloads": 106,
+            "owner": "bioconda",
+            "sha256": "bedc027f2d5bcf0d47806a0c0ec3e589b0803e5f9998158b5849343d6fadd502",
+            "size": 4207344,
+            "type": "conda",
+            "upload_time": "2024-11-06 01:19:10.573000+00:00",
+            "version": "1.2.6"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py312hf99f3f7_0",
+                "build_number": 0,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.12,<3.13.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.12.* *_cp312",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1730850748046
+            },
+            "basename": "linux-64/deepchopper-1.2.6-py312hf99f3f7_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.6/linux-64/deepchopper-1.2.6-py312hf99f3f7_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.6/linux-64/deepchopper-1.2.6-py312hf99f3f7_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "e5337cb33e87679ecd74b503a30745f8",
+            "ndownloads": 114,
+            "owner": "bioconda",
+            "sha256": "cbf33eeeffff32609ebd0d7bd59b6ee3d61fdd254f7f20a46ea5a57f240f1c0f",
+            "size": 4210945,
+            "type": "conda",
+            "upload_time": "2024-11-06 01:19:13.207000+00:00",
+            "version": "1.2.6"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py310h77ce02f_0",
+                "build_number": 0,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.10,<3.11.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.10.* *_cp310",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1730851184690
+            },
+            "basename": "linux-64/deepchopper-1.2.6-py310h77ce02f_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.6/linux-64/deepchopper-1.2.6-py310h77ce02f_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.6/linux-64/deepchopper-1.2.6-py310h77ce02f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "b5b432105989d13942bb21007ebcfb27",
+            "ndownloads": 100,
+            "owner": "bioconda",
+            "sha256": "e35eba4638823db07d9c89cb654ed4603ad976d1076c2db90019889d63d8e8ab",
+            "size": 4199748,
+            "type": "conda",
+            "upload_time": "2024-11-06 01:19:15.818000+00:00",
+            "version": "1.2.6"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py310h93aadbd_0",
+                "build_number": 0,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.10,<3.11.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.10.* *_cp310",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1730850609778
+            },
+            "basename": "linux-aarch64/deepchopper-1.2.6-py310h93aadbd_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.6/linux-aarch64/deepchopper-1.2.6-py310h93aadbd_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.6/linux-aarch64/deepchopper-1.2.6-py310h93aadbd_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c372829a0c87dd9a4e975217f64f9a6a",
+            "ndownloads": 45,
+            "owner": "bioconda",
+            "sha256": "8556770116db2bd08e2817b24686aad93db00ae55f97a07db179b0b8c2bee41d",
+            "size": 3857967,
+            "type": "conda",
+            "upload_time": "2024-11-06 01:20:01.613000+00:00",
+            "version": "1.2.6"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py312h7916054_0",
+                "build_number": 0,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.12,<3.13.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.12.* *_cp312",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1730851145677
+            },
+            "basename": "linux-aarch64/deepchopper-1.2.6-py312h7916054_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.6/linux-aarch64/deepchopper-1.2.6-py312h7916054_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.6/linux-aarch64/deepchopper-1.2.6-py312h7916054_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "bf8003fc7811b73ab642499075661ee0",
+            "ndownloads": 44,
+            "owner": "bioconda",
+            "sha256": "28696662b74b90bc297e12b2db926a76c940259ca599262cd1fdc5ab00dd4f9f",
+            "size": 3881129,
+            "type": "conda",
+            "upload_time": "2024-11-06 01:20:06.276000+00:00",
+            "version": "1.2.6"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py311h1d4d1fd_0",
+                "build_number": 0,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=12",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.11,<3.12.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.11.* *_cp311",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1730851662011
+            },
+            "basename": "linux-aarch64/deepchopper-1.2.6-py311h1d4d1fd_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.6/linux-aarch64/deepchopper-1.2.6-py311h1d4d1fd_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.6/linux-aarch64/deepchopper-1.2.6-py311h1d4d1fd_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f55d81fc301e87208ae7d821fc2dcab6",
+            "ndownloads": 43,
+            "owner": "bioconda",
+            "sha256": "d024dd7c5f91a70380d99df8ea6cdab914fdc1f4f96b98c905f19a4c097d5e03",
+            "size": 3888052,
+            "type": "conda",
+            "upload_time": "2024-11-06 01:20:49.750000+00:00",
+            "version": "1.2.6"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py310hdfc572a_0",
+                "build_number": 0,
+                "constrains": [
+                    "__osx >=11.0"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.10,<3.11.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.10.* *_cp310",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1730851724575
+            },
+            "basename": "osx-arm64/deepchopper-1.2.6-py310hdfc572a_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.6/osx-arm64/deepchopper-1.2.6-py310hdfc572a_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.6/osx-arm64/deepchopper-1.2.6-py310hdfc572a_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "cc4d9e5b82e7a2f659eaeae92ed55e8c",
+            "ndownloads": 24,
+            "owner": "bioconda",
+            "sha256": "94b1fec4108c3f3cf3c200a17b11a2358e332f3860aa17d214e7aac47305c173",
+            "size": 4127206,
+            "type": "conda",
+            "upload_time": "2024-11-06 01:21:02.461000+00:00",
+            "version": "1.2.6"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py312h96d76a5_0",
+                "build_number": 0,
+                "constrains": [
+                    "__osx >=10.13"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.12,<3.13.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.12.* *_cp312",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1730854723958
+            },
+            "basename": "osx-64/deepchopper-1.2.6-py312h96d76a5_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.6/osx-64/deepchopper-1.2.6-py312h96d76a5_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.6/osx-64/deepchopper-1.2.6-py312h96d76a5_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "aa1ae659e66f36cec6d423505ee924be",
+            "ndownloads": 75,
+            "owner": "bioconda",
+            "sha256": "2444b70b5289f2520c42fe230b812bde04d73b62a9d317b863823b42a402772e",
+            "size": 3969921,
+            "type": "conda",
+            "upload_time": "2024-11-06 01:21:27.638000+00:00",
+            "version": "1.2.6"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py311h90ed735_0",
+                "build_number": 0,
+                "constrains": [
+                    "__osx >=10.13"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.11,<3.12.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.11.* *_cp311",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1730855439852
+            },
+            "basename": "osx-64/deepchopper-1.2.6-py311h90ed735_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.6/osx-64/deepchopper-1.2.6-py311h90ed735_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.6/osx-64/deepchopper-1.2.6-py311h90ed735_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4e2210d8a3fd77b80633968d537b6f78",
+            "ndownloads": 44,
+            "owner": "bioconda",
+            "sha256": "6b4b2c3d234a2383331d17bff7e0f51bbe8558086565496d83698da0246756ee",
+            "size": 3973194,
+            "type": "conda",
+            "upload_time": "2024-11-06 01:21:31.361000+00:00",
+            "version": "1.2.6"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "py310hc4c68a4_0",
+                "build_number": 0,
+                "constrains": [
+                    "__osx >=10.13"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.10,<3.11.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.10.* *_cp310",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1730853902127
+            },
+            "basename": "osx-64/deepchopper-1.2.6-py310hc4c68a4_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.6/osx-64/deepchopper-1.2.6-py310hc4c68a4_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.6/osx-64/deepchopper-1.2.6-py310hc4c68a4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a4baa58c8a8e1d95ec3fc8b0f231aa25",
+            "ndownloads": 37,
+            "owner": "bioconda",
+            "sha256": "8aeb22cdd8b3e4b49ae5407386a8fff681a795f97f1b1e40550f458b92e0c6f0",
+            "size": 3953440,
+            "type": "conda",
+            "upload_time": "2024-11-06 01:21:34.378000+00:00",
+            "version": "1.2.6"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py312h764ffbb_0",
+                "build_number": 0,
+                "constrains": [
+                    "__osx >=11.0"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.12,<3.13.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.12.* *_cp312",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1730851281255
+            },
+            "basename": "osx-arm64/deepchopper-1.2.6-py312h764ffbb_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.6/osx-arm64/deepchopper-1.2.6-py312h764ffbb_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.6/osx-arm64/deepchopper-1.2.6-py312h764ffbb_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2e3b604e6fc1aaf48b1931a1d27e9d76",
+            "ndownloads": 23,
+            "owner": "bioconda",
+            "sha256": "44e7f4049a04427f9f1bbe34bfecf4ea74791c45d57842b797b3d5afce44e3cb",
+            "size": 4142578,
+            "type": "conda",
+            "upload_time": "2024-11-06 01:21:59.630000+00:00",
+            "version": "1.2.6"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py311h86bc7d4_0",
+                "build_number": 0,
+                "constrains": [
+                    "__osx >=11.0"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.11,<3.12.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.11.* *_cp311",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1730850813143
+            },
+            "basename": "osx-arm64/deepchopper-1.2.6-py311h86bc7d4_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.6/osx-arm64/deepchopper-1.2.6-py311h86bc7d4_0.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.6/osx-arm64/deepchopper-1.2.6-py311h86bc7d4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f56cc0d77989e5fda570322b6d598c76",
+            "ndownloads": 25,
+            "owner": "bioconda",
+            "sha256": "90ecd012cdcced90980c94c078c1331fb68a1dbc6f9bbb93a4ee76555de4a2f9",
+            "size": 4145050,
+            "type": "conda",
+            "upload_time": "2024-11-06 01:22:03.363000+00:00",
+            "version": "1.2.6"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py310h434530e_1",
+                "build_number": 1,
+                "constrains": [
+                    "__osx >=11.0"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.10,<3.11.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.10.* *_cp310",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1733983945706
+            },
+            "basename": "osx-arm64/deepchopper-1.2.6-py310h434530e_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.6/osx-arm64/deepchopper-1.2.6-py310h434530e_1.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.6/osx-arm64/deepchopper-1.2.6-py310h434530e_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6b7bd3e721b7ff6d26c8199642899869",
+            "ndownloads": 22,
+            "owner": "bioconda",
+            "sha256": "ab746fe88b6b0e371b14437a20667973b7c8ccd08383837eb22c66462885b69e",
+            "size": 3558537,
+            "type": "conda",
+            "upload_time": "2024-12-12 06:21:08.755000+00:00",
+            "version": "1.2.6"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py312hc37da36_1",
+                "build_number": 1,
+                "constrains": [
+                    "__osx >=11.0"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.12,<3.13.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.12.* *_cp312",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1733983561496
+            },
+            "basename": "osx-arm64/deepchopper-1.2.6-py312hc37da36_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.6/osx-arm64/deepchopper-1.2.6-py312hc37da36_1.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.6/osx-arm64/deepchopper-1.2.6-py312hc37da36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "80eb606b426e79f8dc500f20254b3aaf",
+            "ndownloads": 23,
+            "owner": "bioconda",
+            "sha256": "01cbf48ea629689bb681156bcd5c4eabc52d08c2f79e0f050fdd664354513f7f",
+            "size": 3578659,
+            "type": "conda",
+            "upload_time": "2024-12-12 06:21:11.574000+00:00",
+            "version": "1.2.6"
+        },
+        {
+            "attrs": {
+                "arch": "arm64",
+                "build": "py311h012f810_1",
+                "build_number": 1,
+                "constrains": [
+                    "__osx >=11.0"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.11,<3.12.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.11.* *_cp311",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "arm64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-arm64",
+                "target-triplet": "arm64-any-darwin",
+                "timestamp": 1733984360319
+            },
+            "basename": "osx-arm64/deepchopper-1.2.6-py311h012f810_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.6/osx-arm64/deepchopper-1.2.6-py311h012f810_1.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.6/osx-arm64/deepchopper-1.2.6-py311h012f810_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ae8304f5dd20097656419852f8fe8aa5",
+            "ndownloads": 21,
+            "owner": "bioconda",
+            "sha256": "96bf84ec672bf6e8e8283b05e10cd03a76bc10d1b3d7dfaf651c558d4112bc3d",
+            "size": 3578310,
+            "type": "conda",
+            "upload_time": "2024-12-12 06:21:15.567000+00:00",
+            "version": "1.2.6"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py311h8889aa1_1",
+                "build_number": 1,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=13",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.11,<3.12.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.11.* *_cp311",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1734272871676
+            },
+            "basename": "linux-aarch64/deepchopper-1.2.6-py311h8889aa1_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.6/linux-aarch64/deepchopper-1.2.6-py311h8889aa1_1.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.6/linux-aarch64/deepchopper-1.2.6-py311h8889aa1_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "595c55adfc4b53e93612970efde90640",
+            "ndownloads": 40,
+            "owner": "bioconda",
+            "sha256": "7d7d7737c10835bd1685eaffd56e867f5c891bea26b763599bb261f48fe62723",
+            "size": 3833441,
+            "type": "conda",
+            "upload_time": "2024-12-15 14:35:34.384000+00:00",
+            "version": "1.2.6"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py310hbea5c91_1",
+                "build_number": 1,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=13",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.10,<3.11.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.10.* *_cp310",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1734271816465
+            },
+            "basename": "linux-aarch64/deepchopper-1.2.6-py310hbea5c91_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.6/linux-aarch64/deepchopper-1.2.6-py310hbea5c91_1.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.6/linux-aarch64/deepchopper-1.2.6-py310hbea5c91_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "47d124ae8bc3769b044694fffb3f0dd0",
+            "ndownloads": 42,
+            "owner": "bioconda",
+            "sha256": "ed9bee76c39824c0c186921d974af0b29bc4a8219265d5a2a120e47e5adb2d22",
+            "size": 3821788,
+            "type": "conda",
+            "upload_time": "2024-12-15 14:35:38.347000+00:00",
+            "version": "1.2.6"
+        },
+        {
+            "attrs": {
+                "arch": "aarch64",
+                "build": "py312ha09a0c5_1",
+                "build_number": 1,
+                "constrains": [
+                    "__glibc >=2.17"
+                ],
+                "depends": [
+                    "datasets 2.14.2",
+                    "deepchopper-cli >=1.2.5",
+                    "evaluate >=0.4.1",
+                    "fastapi 0.112.2",
+                    "gradio 5.0.1",
+                    "hydra-core >=1.3.2",
+                    "libgcc >=13",
+                    "lightning >=2.1.2",
+                    "omegaconf >=2.3.0",
+                    "python >=3.12,<3.13.0a0",
+                    "python-multipart 0.0.12",
+                    "python_abi 3.12.* *_cp312",
+                    "pytorch >=2.1.0",
+                    "rich >=13.7.0",
+                    "safetensors >=0.4.2",
+                    "scikit-learn >=1.5.2",
+                    "torchmetrics >=1.2.0",
+                    "transformers >=4.37.2",
+                    "typer >=0.12.0"
+                ],
+                "has_prefix": true,
+                "license": "Apache-2.0",
+                "license_family": "Apache",
+                "machine": "aarch64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-aarch64",
+                "target-triplet": "aarch64-any-linux",
+                "timestamp": 1734272350538
+            },
+            "basename": "linux-aarch64/deepchopper-1.2.6-py312ha09a0c5_1.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/deepchopper/1.2.6/linux-aarch64/deepchopper-1.2.6-py312ha09a0c5_1.tar.bz2",
+            "full_name": "bioconda/deepchopper/1.2.6/linux-aarch64/deepchopper-1.2.6-py312ha09a0c5_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0d79d3e50d1d8dda39b8e0c85f9b8a24",
+            "ndownloads": 40,
+            "owner": "bioconda",
+            "sha256": "0dcb6d132562dbc705a003ffcf3dfac81bdc6a3f1b901a9bc4a6b47cda55b9e6",
+            "size": 3838744,
+            "type": "conda",
+            "upload_time": "2024-12-15 14:35:40.923000+00:00",
+            "version": "1.2.6"
+        }
+    ],
+    "full_name": "bioconda/deepchopper",
+    "home": "https://github.com/ylab-hi/DeepChopper",
+    "html_url": "http://anaconda.org/bioconda/deepchopper",
+    "id": "67204d0feeb2309dda6b6af7",
+    "latest_version": "1.2.6",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:42.904000+00:00",
+    "name": "deepchopper",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.2.6",
+        "linux-aarch64": "1.2.6",
+        "osx-64": "1.2.6",
+        "osx-arm64": "1.2.6"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/deepchopper/1.2.4",
+            "version": "1.2.4"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/deepchopper/1.2.5",
+            "version": "1.2.5"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/deepchopper/1.2.6",
+            "version": "1.2.6"
+        }
+    ],
+    "revision": 60,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "A Genomic Language Model for Chimera Artifact Detection in Nanopore Direct RNA Sequencing.",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/deepchopper",
+    "versions": [
+        "1.2.4",
+        "1.2.5",
+        "1.2.6"
+    ],
+    "watchers": 1
+}

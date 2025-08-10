@@ -1,0 +1,290 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r43hc0ef7c4_0",
+        "r44he5774e6_0",
+        "r43hf17093f_0",
+        "r44h35d7169_0"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64"
+    ],
+    "created_at": "2023-12-05 20:27:53.193000+00:00",
+    "description": "IsoBayes is a Bayesian method to perform inference on single protein isoforms. Our approach infers the presence/absence of protein isoforms, and also estimates their abundance; additionally, it provides a measure of the uncertainty of these estimates, via: i) the posterior probability that a protein isoform is present in the sample; ii) a posterior credible interval of its abundance. IsoBayes inputs liquid cromatography mass spectrometry (MS) data, and can work with both PSM counts, and intensities. When available, trascript isoform abundances (i.e., TPMs) are also incorporated: TPMs are used to formulate an informative prior for the respective protein isoform relative abundance. We further identify isoforms where the relative abundance of proteins and transcripts significantly differ. We use a two-layer latent variable approach to model two sources of uncertainty typical of MS data: i) peptides may be erroneously detected (even when absent); ii) many peptides are compatible with multiple protein isoforms. In the first layer, we sample the presence/absence of each peptide based on its estimated probability of being mistakenly detected, also known as PEP (i.e., posterior error probability). In the second layer, for peptides that were estimated as being present, we allocate their abundance across the protein isoforms they map to. These two steps allow us to recover the presence and abundance of each protein isoform.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hc0ef7c4_0",
+                "build_number": 0,
+                "depends": [
+                    "__osx >=10.9",
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-s4vectors >=0.40.2,<0.41.0a0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=15.0.7",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-data.table",
+                    "r-doparallel",
+                    "r-dorng",
+                    "r-foreach",
+                    "r-ggplot2",
+                    "r-glue",
+                    "r-hdinterval",
+                    "r-iterators",
+                    "r-rcpp",
+                    "r-rcpparmadillo"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1701808002783
+            },
+            "basename": "osx-64/bioconductor-isobayes-1.0.1-r43hc0ef7c4_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-isobayes/1.0.1/osx-64/bioconductor-isobayes-1.0.1-r43hc0ef7c4_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-isobayes/1.0.1/osx-64/bioconductor-isobayes-1.0.1-r43hc0ef7c4_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "0f608f3bbaca47baa28f697372db4f83",
+            "ndownloads": 943,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1627372,
+            "type": "conda",
+            "upload_time": "2023-12-05 20:27:53.597000+00:00",
+            "version": "1.0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r43hf17093f_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-s4vectors >=0.40.0,<0.41.0",
+                    "bioconductor-s4vectors >=0.40.2,<0.41.0a0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0",
+                    "bioconductor-summarizedexperiment >=1.32.0,<1.33.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc-ng >=12",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx-ng >=12",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-data.table",
+                    "r-doparallel",
+                    "r-dorng",
+                    "r-foreach",
+                    "r-ggplot2",
+                    "r-glue",
+                    "r-hdinterval",
+                    "r-iterators",
+                    "r-rcpp",
+                    "r-rcpparmadillo"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1702352631876
+            },
+            "basename": "linux-64/bioconductor-isobayes-1.0.1-r43hf17093f_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-isobayes/1.0.1/linux-64/bioconductor-isobayes-1.0.1-r43hf17093f_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-isobayes/1.0.1/linux-64/bioconductor-isobayes-1.0.1-r43hf17093f_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f585ea50f8c1503dc5558c43a74986da",
+            "ndownloads": 114,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 1614652,
+            "type": "conda",
+            "upload_time": "2023-12-12 03:46:45.198000+00:00",
+            "version": "1.0.1"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44h35d7169_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0a0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libcxx >=18",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-data.table",
+                    "r-doparallel",
+                    "r-dorng",
+                    "r-foreach",
+                    "r-ggplot2",
+                    "r-glue",
+                    "r-hdinterval",
+                    "r-iterators",
+                    "r-rcpp",
+                    "r-rcpparmadillo"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1734765633154
+            },
+            "basename": "osx-64/bioconductor-isobayes-1.4.0-r44h35d7169_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-isobayes/1.4.0/osx-64/bioconductor-isobayes-1.4.0-r44h35d7169_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-isobayes/1.4.0/osx-64/bioconductor-isobayes-1.4.0-r44h35d7169_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "65b12f61857eb72d39603569a0c07aea",
+            "ndownloads": 212,
+            "owner": "bioconda",
+            "sha256": "746c468bfac0dbe1bde0b04f5e6e45885cc9466bdb47fa90a4847b9beaec1302",
+            "size": 1996560,
+            "type": "conda",
+            "upload_time": "2024-12-21 07:21:59.123000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "r44he5774e6_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0",
+                    "bioconductor-s4vectors >=0.44.0,<0.45.0a0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0",
+                    "bioconductor-summarizedexperiment >=1.36.0,<1.37.0a0",
+                    "libblas >=3.9.0,<4.0a0",
+                    "libgcc >=13",
+                    "liblapack >=3.9.0,<4.0a0",
+                    "libstdcxx >=13",
+                    "r-base >=4.4,<4.5.0a0",
+                    "r-data.table",
+                    "r-doparallel",
+                    "r-dorng",
+                    "r-foreach",
+                    "r-ggplot2",
+                    "r-glue",
+                    "r-hdinterval",
+                    "r-iterators",
+                    "r-rcpp",
+                    "r-rcpparmadillo"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1734830874714
+            },
+            "basename": "linux-64/bioconductor-isobayes-1.4.0-r44he5774e6_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-isobayes/1.4.0/linux-64/bioconductor-isobayes-1.4.0-r44he5774e6_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-isobayes/1.4.0/linux-64/bioconductor-isobayes-1.4.0-r44he5774e6_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "09db5db08e16ab3d854ebce67bc81733",
+            "ndownloads": 115,
+            "owner": "bioconda",
+            "sha256": "d6ef59939c7c9827bf8b9a4b4f8bb481c5ec6d3c2a4d7a5b10704e75ba80bf94",
+            "size": 1993203,
+            "type": "conda",
+            "upload_time": "2024-12-22 01:29:58.892000+00:00",
+            "version": "1.4.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-isobayes",
+    "home": "https://bioconductor.org/packages/3.18/bioc/html/IsoBayes.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-isobayes",
+    "id": "656f87c928d53c03f5ce65e6",
+    "latest_version": "1.4.0",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:39.423000+00:00",
+    "name": "bioconductor-isobayes",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.4.0",
+        "osx-64": "1.4.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-isobayes/1.0.1",
+            "version": "1.0.1"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-isobayes/1.4.0",
+            "version": "1.4.0"
+        }
+    ],
+    "revision": 6,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "IsoBayes: Single Isoform protein inference Method via Bayesian Analyses",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-isobayes",
+    "versions": [
+        "1.0.1",
+        "1.4.0"
+    ],
+    "watchers": 1
+}

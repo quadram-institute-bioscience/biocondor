@@ -1,0 +1,1206 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "r36_1",
+        "r36_0",
+        "r40hdfd78af_1",
+        "r43hdfd78af_0",
+        "r40_0",
+        "r42hdfd78af_0",
+        "r41hdfd78af_0"
+    ],
+    "conda_platforms": [
+        "noarch"
+    ],
+    "created_at": "2019-08-14 02:36:23.172000+00:00",
+    "description": "Whole genome sequencing (WGS) has successfully been used to identify single-nucleotide variants (SNV), small insertions and deletions (INDELs) and, more recently, small copy number variants (CNVs). However, due to utilization of short reads, it is not well suited for identification of structural variants (SV). Optical mapping (OM) from Bionano Genomics, utilizes long fluorescently labeled megabase size DNA molecules for de novo genome assembly and identification of SVs with a much higher sensitivity than WGS. Nevertheless, currently available SV annotation tools have limited number of functions. NanotatoR is an R package written to provide a set of annotations for SVs identified by OM. It uses Database of Genomic Variants (DGV), Database of Chromosomal Imbalance and Phenotype in Humans Using Ensembl Resources (DECIPHER) as well as a subset (154 samples) of 1000 Genome Project to calculate the population frequencies of the SVs (an optional internal cohort SV frequency calculation is also available). NanotatoR creates a primary gene list (PG) from NCBI databases based on proband\u2019s phenotype specific keywords and compares the list to the set of genes overlapping/near SVs. The output is given in an Excel file format, which is subdivided into multiple sheets based on SV type (e.g., INDELs, Inversions, Translocations). Users then have a choice to filter SVs using the provided annotations for de novo (if parental samples are available) or inherited rare variants.",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.46.0,<1.47.0",
+                    "bioconductor-org.hs.eg.db >=3.8.0,<3.9.0",
+                    "bioconductor-rtracklayer >=1.44.0,<1.45.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-hash >=2.2.6",
+                    "r-httr",
+                    "r-knitr",
+                    "r-openxlsx >=4.0.17",
+                    "r-rentrez >=1.1.0",
+                    "r-stringr",
+                    "r-testthat"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1565749823506
+            },
+            "basename": "noarch/bioconductor-nanotator-1.0.0-r36_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.8.0,<3.9.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.44.0,<1.45.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-hash",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-httr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-knitr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-openxlsx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rentrez",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-testthat",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-nanotator/1.0.0/noarch/bioconductor-nanotator-1.0.0-r36_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-nanotator/1.0.0/noarch/bioconductor-nanotator-1.0.0-r36_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4054fdfc674ddd6153a2dc9fca1084cb",
+            "ndownloads": 2092,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 755270,
+            "type": "conda",
+            "upload_time": "2019-08-14 02:36:24.220000+00:00",
+            "version": "1.0.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r36_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.48.0,<1.49.0",
+                    "bioconductor-org.hs.eg.db >=3.10.0,<3.11.0",
+                    "bioconductor-rtracklayer >=1.46.0,<1.47.0",
+                    "r-base >=3.6,<3.7.0a0",
+                    "r-hash >=2.2.6",
+                    "r-httr",
+                    "r-knitr",
+                    "r-openxlsx >=4.0.17",
+                    "r-rentrez >=1.1.0",
+                    "r-stringr",
+                    "r-testthat"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1572828039252
+            },
+            "basename": "noarch/bioconductor-nanotator-1.2.0-r36_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.10.0,<3.11.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6,<3.7.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-hash",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-httr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-knitr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-openxlsx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rentrez",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-testthat",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-nanotator/1.2.0/noarch/bioconductor-nanotator-1.2.0-r36_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-nanotator/1.2.0/noarch/bioconductor-nanotator-1.2.0-r36_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "6389f7108787b5b4ca2bddc2dc084fb4",
+            "ndownloads": 2323,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 758649,
+            "type": "conda",
+            "upload_time": "2019-11-04 00:47:33.528000+00:00",
+            "version": "1.2.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.50.0,<1.51.0",
+                    "bioconductor-org.hs.eg.db >=3.11.0,<3.12.0",
+                    "bioconductor-rtracklayer >=1.48.0,<1.49.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-hash >=2.2.6",
+                    "r-httr",
+                    "r-knitr",
+                    "r-openxlsx >=4.0.17",
+                    "r-rentrez >=1.1.0",
+                    "r-stringr",
+                    "r-testthat"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1589151168061
+            },
+            "basename": "noarch/bioconductor-nanotator-1.4.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.11.0,<3.12.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.48.0,<1.49.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-hash",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-httr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-knitr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-openxlsx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rentrez",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-testthat",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-nanotator/1.4.0/noarch/bioconductor-nanotator-1.4.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-nanotator/1.4.0/noarch/bioconductor-nanotator-1.4.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "06851e17d3a0ac116e17f13baf54cbad",
+            "ndownloads": 2241,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 752557,
+            "type": "conda",
+            "upload_time": "2020-05-10 23:00:54.507000+00:00",
+            "version": "1.4.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.52.0,<1.53.0",
+                    "bioconductor-org.hs.eg.db >=3.12.0,<3.13.0",
+                    "bioconductor-rtracklayer >=1.50.0,<1.51.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-hash >=2.2.6",
+                    "r-httr",
+                    "r-knitr",
+                    "r-openxlsx >=4.0.17",
+                    "r-rentrez >=1.1.0",
+                    "r-stringr",
+                    "r-testthat"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1604233914844
+            },
+            "basename": "noarch/bioconductor-nanotator-1.6.0-r40_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-hash",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-httr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-knitr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-openxlsx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rentrez",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-testthat",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-nanotator/1.6.0/noarch/bioconductor-nanotator-1.6.0-r40_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-nanotator/1.6.0/noarch/bioconductor-nanotator-1.6.0-r40_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "4999f1f00c34497234032ebe4345d309",
+            "ndownloads": 246,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 751117,
+            "type": "conda",
+            "upload_time": "2020-11-01 12:40:33.143000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r40hdfd78af_1",
+                "build_number": 1,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.52.0,<1.53.0",
+                    "bioconductor-org.hs.eg.db >=3.12.0,<3.13.0",
+                    "bioconductor-rtracklayer >=1.50.0,<1.51.0",
+                    "r-base >=4.0,<4.1.0a0",
+                    "r-hash >=2.2.6",
+                    "r-httr",
+                    "r-knitr",
+                    "r-openxlsx >=4.0.17",
+                    "r-rentrez >=1.1.0",
+                    "r-stringr",
+                    "r-testthat"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1617125585075
+            },
+            "basename": "noarch/bioconductor-nanotator-1.6.0-r40hdfd78af_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.12.0,<3.13.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.50.0,<1.51.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0,<4.1.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-hash",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-httr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-knitr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-openxlsx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rentrez",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-testthat",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-nanotator/1.6.0/noarch/bioconductor-nanotator-1.6.0-r40hdfd78af_1.tar.bz2",
+            "full_name": "bioconda/bioconductor-nanotator/1.6.0/noarch/bioconductor-nanotator-1.6.0-r40hdfd78af_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a5ac1e74f68ef8efa86941339735f795",
+            "ndownloads": 2379,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 750783,
+            "type": "conda",
+            "upload_time": "2021-03-30 17:44:36.337000+00:00",
+            "version": "1.6.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.54.0,<1.55.0",
+                    "bioconductor-org.hs.eg.db >=3.13.0,<3.14.0",
+                    "bioconductor-rtracklayer >=1.52.0,<1.53.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-hash >=2.2.6",
+                    "r-httr",
+                    "r-knitr",
+                    "r-openxlsx >=4.0.17",
+                    "r-rentrez >=1.1.0",
+                    "r-stringr",
+                    "r-testthat"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1622677558150
+            },
+            "basename": "noarch/bioconductor-nanotator-1.8.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.54.0,<1.55.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.13.0,<3.14.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-rtracklayer",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.52.0,<1.53.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-hash",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-httr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-knitr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-openxlsx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rentrez",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-testthat",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-nanotator/1.8.0/noarch/bioconductor-nanotator-1.8.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-nanotator/1.8.0/noarch/bioconductor-nanotator-1.8.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "5dfaad63c7583ecb47bc489c308dd010",
+            "ndownloads": 2336,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 755687,
+            "type": "conda",
+            "upload_time": "2021-06-02 23:54:41.281000+00:00",
+            "version": "1.8.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r41hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.56.0,<1.57.0",
+                    "bioconductor-genomicranges >=1.46.0,<1.47.0",
+                    "bioconductor-org.hs.eg.db >=3.14.0,<3.15.0",
+                    "r-base >=4.1,<4.2.0a0",
+                    "r-curl",
+                    "r-dplyr",
+                    "r-hash >=2.2.6",
+                    "r-httr",
+                    "r-knitr",
+                    "r-openxlsx >=4.0.17",
+                    "r-rentrez >=1.1.0",
+                    "r-rlang",
+                    "r-stringr",
+                    "r-testthat",
+                    "r-tidyverse",
+                    "r-varfrompdb",
+                    "r-xml",
+                    "r-xml2r"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1636360940919
+            },
+            "basename": "noarch/bioconductor-nanotator-1.10.0-r41hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "bioconductor-annotationdbi",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.56.0,<1.57.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-genomicranges",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.46.0,<1.47.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "bioconductor-org.hs.eg.db",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.14.0,<3.15.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-base",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.1,<4.2.0a0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-curl",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-dplyr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-hash",
+                        "specs": [
+                            [
+                                ">=",
+                                "2.2.6"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-httr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-knitr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-openxlsx",
+                        "specs": [
+                            [
+                                ">=",
+                                "4.0.17"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rentrez",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.1.0"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "r-rlang",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-stringr",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-testthat",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-tidyverse",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-varfrompdb",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-xml",
+                        "specs": []
+                    },
+                    {
+                        "name": "r-xml2r",
+                        "specs": []
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-nanotator/1.10.0/noarch/bioconductor-nanotator-1.10.0-r41hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-nanotator/1.10.0/noarch/bioconductor-nanotator-1.10.0-r41hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "240f42fea337fd6ae66e7e117c63a2a0",
+            "ndownloads": 2414,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 691349,
+            "type": "conda",
+            "upload_time": "2021-11-08 08:51:34.197000+00:00",
+            "version": "1.10.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r42hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.60.0,<1.61.0",
+                    "bioconductor-genomicranges >=1.50.0,<1.51.0",
+                    "bioconductor-org.hs.eg.db >=3.16.0,<3.17.0",
+                    "r-base >=4.2,<4.3.0a0",
+                    "r-curl",
+                    "r-dplyr",
+                    "r-hash >=2.2.6",
+                    "r-httr",
+                    "r-knitr",
+                    "r-openxlsx >=4.0.17",
+                    "r-rentrez >=1.1.0",
+                    "r-rlang",
+                    "r-stringr",
+                    "r-testthat",
+                    "r-tidyverse",
+                    "r-varfrompdb",
+                    "r-xml",
+                    "r-xml2r"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1667821262652
+            },
+            "basename": "noarch/bioconductor-nanotator-1.14.0-r42hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-nanotator/1.14.0/noarch/bioconductor-nanotator-1.14.0-r42hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-nanotator/1.14.0/noarch/bioconductor-nanotator-1.14.0-r42hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "ef65e809a047add6e4b37f50204151dd",
+            "ndownloads": 1806,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 690137,
+            "type": "conda",
+            "upload_time": "2022-11-07 11:46:30.117000+00:00",
+            "version": "1.14.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.62.0,<1.63.0",
+                    "bioconductor-genomicranges >=1.52.0,<1.53.0",
+                    "bioconductor-org.hs.eg.db >=3.17.0,<3.18.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-curl",
+                    "r-dplyr",
+                    "r-hash >=2.2.6",
+                    "r-httr",
+                    "r-knitr",
+                    "r-openxlsx >=4.0.17",
+                    "r-rentrez >=1.1.0",
+                    "r-rlang",
+                    "r-stringr",
+                    "r-testthat",
+                    "r-tidyverse",
+                    "r-varfrompdb",
+                    "r-xml",
+                    "r-xml2r"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1689209347456
+            },
+            "basename": "noarch/bioconductor-nanotator-1.16.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-nanotator/1.16.0/noarch/bioconductor-nanotator-1.16.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-nanotator/1.16.0/noarch/bioconductor-nanotator-1.16.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "f61871791b1b20d5e4990adc76feaf2c",
+            "ndownloads": 1335,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 695789,
+            "type": "conda",
+            "upload_time": "2023-07-13 00:56:29.793000+00:00",
+            "version": "1.16.0"
+        },
+        {
+            "attrs": {
+                "arch": null,
+                "build": "r43hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "bioconductor-annotationdbi >=1.64.0,<1.65.0",
+                    "bioconductor-genomicranges >=1.54.0,<1.55.0",
+                    "bioconductor-org.hs.eg.db >=3.18.0,<3.19.0",
+                    "r-base >=4.3,<4.4.0a0",
+                    "r-curl",
+                    "r-dplyr",
+                    "r-hash >=2.2.6",
+                    "r-httr",
+                    "r-knitr",
+                    "r-openxlsx >=4.0.17",
+                    "r-rentrez >=1.1.0",
+                    "r-rlang",
+                    "r-stringr",
+                    "r-testthat",
+                    "r-tidyverse",
+                    "r-varfrompdb",
+                    "r-xml",
+                    "r-xml2r"
+                ],
+                "has_prefix": false,
+                "license": "file LICENSE",
+                "machine": null,
+                "noarch": "generic",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1702453182308
+            },
+            "basename": "noarch/bioconductor-nanotator-1.18.0-r43hdfd78af_0.tar.bz2",
+            "dependencies": [
+                "depends"
+            ],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/bioconductor-nanotator/1.18.0/noarch/bioconductor-nanotator-1.18.0-r43hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/bioconductor-nanotator/1.18.0/noarch/bioconductor-nanotator-1.18.0-r43hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "523041178dbdeb5f3ce85395d26fdfca",
+            "ndownloads": 1049,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 698910,
+            "type": "conda",
+            "upload_time": "2023-12-13 07:44:06.817000+00:00",
+            "version": "1.18.0"
+        }
+    ],
+    "full_name": "bioconda/bioconductor-nanotator",
+    "home": "https://bioconductor.org/packages/3.9/bioc/html/nanotatoR.html",
+    "html_url": "http://anaconda.org/bioconda/bioconductor-nanotator",
+    "id": "5d5373a7778a870c42c74a8d",
+    "latest_version": "1.18.0",
+    "license": "file LICENSE",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:18.269000+00:00",
+    "name": "bioconductor-nanotator",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "noarch": "1.18.0"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-nanotator/1.0.0",
+            "version": "1.0.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-nanotator/1.2.0",
+            "version": "1.2.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-nanotator/1.4.0",
+            "version": "1.4.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-nanotator/1.6.0",
+            "version": "1.6.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-nanotator/1.8.0",
+            "version": "1.8.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-nanotator/1.10.0",
+            "version": "1.10.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-nanotator/1.14.0",
+            "version": "1.14.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-nanotator/1.16.0",
+            "version": "1.16.0"
+        },
+        {
+            "distributions": [],
+            "full_name": "bioconda/bioconductor-nanotator/1.18.0",
+            "version": "1.18.0"
+        }
+    ],
+    "revision": 18,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "Next generation structural variant annotation and classification",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/bioconductor-nanotator",
+    "versions": [
+        "1.0.0",
+        "1.2.0",
+        "1.4.0",
+        "1.6.0",
+        "1.8.0",
+        "1.10.0",
+        "1.14.0",
+        "1.16.0",
+        "1.18.0"
+    ],
+    "watchers": 1
+}

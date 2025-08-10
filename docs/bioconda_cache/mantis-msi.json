@@ -1,0 +1,382 @@
+{
+    "app_entry": {},
+    "app_summary": {},
+    "app_type": {},
+    "builds": [
+        "h85dcccf_2",
+        "h4ac6f70_2",
+        "hdfd78af_0",
+        "h9f5acd7_1",
+        "hcd10b59_1"
+    ],
+    "conda_platforms": [
+        "linux-64",
+        "osx-64",
+        "noarch"
+    ],
+    "created_at": "2022-05-24 06:41:37.485000+00:00",
+    "description": "MANTIS (Microsatellite Analysis for Normal-Tumor InStability) is a program developed for detecting microsatellite instability from paired-end BAM files. To perform analysis, the program needs a tumor BAM and a matched normal BAM file (produced using the same pipeline) to determine the instability score between the two samples within the pair. Longer reads (ideally, 100 bp or longer) are recommended, as shorter reads are unlikely to entirely cover the microsatellite loci, and will be discarded after failing the quality control filters.\n",
+    "dev_url": null,
+    "doc_url": null,
+    "files": [
+        {
+            "attrs": {
+                "arch": null,
+                "build": "hdfd78af_0",
+                "build_number": 0,
+                "depends": [
+                    "numpy >=1.11",
+                    "pysam >=0.13",
+                    "python >=3.6"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "license_family": "GPL",
+                "machine": null,
+                "noarch": "python",
+                "operatingsystem": null,
+                "platform": null,
+                "subdir": "noarch",
+                "target-triplet": "None-any-None",
+                "timestamp": 1653344787202
+            },
+            "basename": "noarch/mantis-msi-1.0.5-hdfd78af_0.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "numpy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.11"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.13"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/mantis-msi/1.0.5/noarch/mantis-msi-1.0.5-hdfd78af_0.tar.bz2",
+            "full_name": "bioconda/mantis-msi/1.0.5/noarch/mantis-msi-1.0.5-hdfd78af_0.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "a47ca0b3976ffd9a3eac5c9c6e4c8f82",
+            "ndownloads": 2127,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 26666,
+            "type": "conda",
+            "upload_time": "2022-05-24 06:41:39.381000+00:00",
+            "version": "1.0.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h9f5acd7_1",
+                "build_number": 1,
+                "depends": [
+                    "libgcc-ng >=12",
+                    "libstdcxx-ng >=12",
+                    "numpy >=1.11",
+                    "pysam >=0.13",
+                    "python >=3.6"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1654808571575
+            },
+            "basename": "linux-64/mantis-msi-1.0.5-h9f5acd7_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libgcc-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "libstdcxx-ng",
+                        "specs": [
+                            [
+                                ">=",
+                                "12"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "numpy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.11"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.13"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/mantis-msi/1.0.5/linux-64/mantis-msi-1.0.5-h9f5acd7_1.tar.bz2",
+            "full_name": "bioconda/mantis-msi/1.0.5/linux-64/mantis-msi-1.0.5-h9f5acd7_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "19acae56f352134fbf40cfa03c518bbe",
+            "ndownloads": 215,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 35698,
+            "type": "conda",
+            "upload_time": "2022-06-10 22:09:33.368000+00:00",
+            "version": "1.0.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "hcd10b59_1",
+                "build_number": 1,
+                "depends": [
+                    "libcxx >=12.0.1",
+                    "numpy >=1.11",
+                    "pysam >=0.13",
+                    "python >=3.6"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1654809668053
+            },
+            "basename": "osx-64/mantis-msi-1.0.5-hcd10b59_1.tar.bz2",
+            "dependencies": {
+                "depends": [
+                    {
+                        "name": "libcxx",
+                        "specs": [
+                            [
+                                ">=",
+                                "12.0.1"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "numpy",
+                        "specs": [
+                            [
+                                ">=",
+                                "1.11"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "pysam",
+                        "specs": [
+                            [
+                                ">=",
+                                "0.13"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "specs": [
+                            [
+                                ">=",
+                                "3.6"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/mantis-msi/1.0.5/osx-64/mantis-msi-1.0.5-hcd10b59_1.tar.bz2",
+            "full_name": "bioconda/mantis-msi/1.0.5/osx-64/mantis-msi-1.0.5-hcd10b59_1.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "c7a8467e34aa83525aca4161e6b08041",
+            "ndownloads": 65,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 39499,
+            "type": "conda",
+            "upload_time": "2022-06-10 22:09:52.441000+00:00",
+            "version": "1.0.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h85dcccf_2",
+                "build_number": 2,
+                "depends": [
+                    "libcxx >=15.0.7",
+                    "numpy >=1.11",
+                    "pysam >=0.13",
+                    "python >=3.6"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "darwin",
+                "platform": "osx",
+                "subdir": "osx-64",
+                "target-triplet": "x86_64-any-darwin",
+                "timestamp": 1685276531742
+            },
+            "basename": "osx-64/mantis-msi-1.0.5-h85dcccf_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/mantis-msi/1.0.5/osx-64/mantis-msi-1.0.5-h85dcccf_2.tar.bz2",
+            "full_name": "bioconda/mantis-msi/1.0.5/osx-64/mantis-msi-1.0.5-h85dcccf_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "2e74d086a17b7ad24a41f2678ab94a1f",
+            "ndownloads": 65,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 40459,
+            "type": "conda",
+            "upload_time": "2023-05-28 12:22:49.861000+00:00",
+            "version": "1.0.5"
+        },
+        {
+            "attrs": {
+                "arch": "x86_64",
+                "build": "h4ac6f70_2",
+                "build_number": 2,
+                "depends": [
+                    "libgcc-ng >=12",
+                    "libstdcxx-ng >=12",
+                    "numpy >=1.11",
+                    "pysam >=0.13",
+                    "python >=3.6"
+                ],
+                "has_prefix": false,
+                "license": "GPL-3",
+                "license_family": "GPL",
+                "machine": "x86_64",
+                "operatingsystem": "linux",
+                "platform": "linux",
+                "subdir": "linux-64",
+                "target-triplet": "x86_64-any-linux",
+                "timestamp": 1685495566646
+            },
+            "basename": "linux-64/mantis-msi-1.0.5-h4ac6f70_2.tar.bz2",
+            "dependencies": [],
+            "description": null,
+            "distribution_type": "conda",
+            "download_url": "//api.anaconda.org/download/bioconda/mantis-msi/1.0.5/linux-64/mantis-msi-1.0.5-h4ac6f70_2.tar.bz2",
+            "full_name": "bioconda/mantis-msi/1.0.5/linux-64/mantis-msi-1.0.5-h4ac6f70_2.tar.bz2",
+            "labels": [
+                "main"
+            ],
+            "md5": "60b6c4c80c9bb957002f6b095d6d6380",
+            "ndownloads": 217,
+            "owner": "bioconda",
+            "sha256": "None",
+            "size": 36648,
+            "type": "conda",
+            "upload_time": "2023-05-31 01:15:35.509000+00:00",
+            "version": "1.0.5"
+        }
+    ],
+    "full_name": "bioconda/mantis-msi",
+    "home": "https://github.com/OSU-SRLab/MANTIS/",
+    "html_url": "http://anaconda.org/bioconda/mantis-msi",
+    "id": "628c7e21414b5ba20e942196",
+    "latest_version": "1.0.5",
+    "license": "GPL-3",
+    "license_url": null,
+    "modified_at": "2025-04-22 15:29:32.700000+00:00",
+    "name": "mantis-msi",
+    "owner": {
+        "company": "",
+        "created_at": "2015-09-11 22:59:20.880000+00:00",
+        "description": "Bioconda is a distribution of bioinformatics software realized as a channel for the versatile Conda package manager.",
+        "location": "",
+        "login": "bioconda",
+        "name": "bioconda",
+        "url": "",
+        "user_type": "org"
+    },
+    "package_types": [
+        "conda"
+    ],
+    "platforms": {
+        "linux-64": "1.0.5",
+        "noarch": "1.0.5",
+        "osx-64": "1.0.5"
+    },
+    "public": true,
+    "releases": [
+        {
+            "distributions": [],
+            "full_name": "bioconda/mantis-msi/1.0.5",
+            "version": "1.0.5"
+        }
+    ],
+    "revision": 2,
+    "source_git_tag": null,
+    "source_git_url": null,
+    "summary": "MANTIS is a program developed for detecting microsatellite instability from paired-end BAM files",
+    "upvoted": 0,
+    "url": "http://api.anaconda.org/packages/bioconda/mantis-msi",
+    "versions": [
+        "1.0.5"
+    ],
+    "watchers": 1
+}
