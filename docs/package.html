@@ -291,7 +291,7 @@
         }
         
         // Load and display package details
-        function loadPackageDetails() {
+        async function loadPackageDetails() {
             const packageName = getPackageNameFromURL();
             
             if (!packageName) {
@@ -333,16 +333,47 @@
                 `<span class="platform-tag">${platform}</span>`
             ).join('');
             
-            // Build versions list
+            // Build versions list (sorted with latest first)
             const versions = packageData.versions || [];
-            const versionsList = versions.map(version => 
+            const sortedVersions = [...versions].reverse();
+            const versionsList = sortedVersions.map(version => 
                 `<div class="version-item">${version}</div>`
             ).join('');
+            
+            // Load binaries list
+            let binariesContent = '';
+            try {
+                const binariesResponse = await fetch(`binaries/${packageData.name}.txt`);
+                if (binariesResponse.ok) {
+                    const binariesText = await binariesResponse.text();
+                    const binariesList = binariesText.split('\n')
+                        .filter(line => line.trim())
+                        .map(binary => `<div class="version-item">${binary.trim()}</div>`)
+                        .join('');
+                    if (binariesList) {
+                        binariesContent = `
+                        <div class="info-section">
+                            <h3>Binaries</h3>
+                            <div class="versions-list">
+                                ${binariesList}
+                            </div>
+                        </div>
+                        `;
+                    }
+                }
+            } catch (error) {
+                // Silently ignore if binaries file doesn't exist
+            }
             
             // Build the package details HTML
             const packageHTML = `
                 <div class="package-name">${packageData.name}</div>
-                <div class="package-version">Latest version: ${packageData.latest_version || 'N/A'}</div>
+                <div style="margin-bottom: 20px;">
+                    <img src="https://anaconda.org/bioconda/${packageData.name}/badges/version.svg" alt="Version" style="margin-right: 10px;">
+                    <img src="https://anaconda.org/bioconda/${packageData.name}/badges/license.svg" alt="License" style="margin-right: 10px;">
+                    <img src="https://anaconda.org/bioconda/${packageData.name}/badges/downloads.svg" alt="Downloads" style="margin-right: 10px;">
+                    <img src="https://anaconda.org/bioconda/${packageData.name}/badges/latest_release_date.svg" alt="Latest Release Date">
+                </div>
                 
                 ${packageData.summary ? `
                 <div class="package-summary">
@@ -351,25 +382,16 @@
                 ` : ''}
                 
                 <div class="info-grid">
+                    ${sortedVersions.length > 0 ? `
                     <div class="info-section">
-                        <h3>Basic Information</h3>
-                        <div class="info-item">
-                            <span class="info-label">Owner:</span>
-                            <span class="info-value">${packageData.owner || 'N/A'}</span>
-                        </div>
-                        <div class="info-item">
-                            <span class="info-label">License:</span>
-                            <span class="info-value">${packageData.license || 'N/A'}</span>
-                        </div>
-                        <div class="info-item">
-                            <span class="info-label">Package Type:</span>
-                            <span class="info-value">${(packageData.package_types || []).join(', ') || 'N/A'}</span>
-                        </div>
-                        <div class="info-item">
-                            <span class="info-label">Revision:</span>
-                            <span class="info-value">${packageData.revision || 'N/A'}</span>
+                        <h3>Available Versions</h3>
+                        <div class="versions-list">
+                            ${versionsList}
                         </div>
                     </div>
+                    ` : ''}
+                    
+                    ${binariesContent}
                     
                     <div class="info-section">
                         <h3>Platforms</h3>
@@ -378,14 +400,6 @@
                         </div>
                     </div>
                     
-                    ${versions.length > 0 ? `
-                    <div class="info-section">
-                        <h3>Available Versions</h3>
-                        <div class="versions-list">
-                            ${versionsList}
-                        </div>
-                    </div>
-                    ` : ''}
                     
                     ${externalLinks.length > 0 ? `
                     <div class="info-section">
