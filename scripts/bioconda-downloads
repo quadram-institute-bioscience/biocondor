@@ -1,0 +1,134 @@
+#!/usr/bin/env python3
+
+import argparse
+import json
+import sys
+import urllib.request
+import urllib.error
+from typing import Tuple, Optional
+
+
+def parse_package(package_spec: str) -> Tuple[str, Optional[str]]:
+    """Parse package specification into name and version.
+    
+    Args:
+        package_spec: Either 'package' or 'package=version'
+        
+    Returns:
+        Tuple of (package_name, version) where version is None if not specified
+    """
+    if '=' in package_spec:
+        name, version = package_spec.split('=', 1)
+        return name.strip(), version.strip()
+    return package_spec.strip(), None
+
+
+def fetch_package_data(package_name: str) -> dict:
+    """Fetch package data from bioconda API.
+    
+    Args:
+        package_name: Name of the bioconda package
+        
+    Returns:
+        JSON response as dictionary
+        
+    Raises:
+        Exception: If API request fails
+    """
+    url = f"https://api.anaconda.org/package/bioconda/{package_name}"
+    
+    try:
+        with urllib.request.urlopen(url) as response:
+            return json.loads(response.read().decode())
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            raise Exception(f"Package '{package_name}' not found in bioconda")
+        else:
+            raise Exception(f"HTTP error {e.code} fetching package '{package_name}'")
+    except Exception as e:
+        raise Exception(f"Error fetching package '{package_name}': {str(e)}")
+
+
+def calculate_total_downloads(package_data: dict) -> int:
+    """Calculate total downloads across all versions and files.
+    
+    Args:
+        package_data: JSON response from bioconda API
+        
+    Returns:
+        Total download count
+    """
+    total = 0
+    for file_info in package_data.get('files', []):
+        total += file_info.get('ndownloads', 0)
+    return total
+
+
+def calculate_version_downloads(package_data: dict, version: str) -> int:
+    """Calculate downloads for a specific version.
+    
+    Args:
+        package_data: JSON response from bioconda API
+        version: Version string to match
+        
+    Returns:
+        Download count for the specified version
+    """
+    total = 0
+    for file_info in package_data.get('files', []):
+        if file_info.get('version') == version:
+            total += file_info.get('ndownloads', 0)
+    return total
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description='Fetch bioconda package download statistics',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog='''
+Examples:
+  bioconda-downloads abricate
+  bioconda-downloads abricate=1.0.1 samtools=1.15
+        '''
+    )
+    parser.add_argument(
+        'packages',
+        nargs='+',
+        metavar='PACKAGE',
+        help='Package names or package=version specifications'
+    )
+    
+    args = parser.parse_args()
+    
+    for i, package_spec in enumerate(args.packages):
+        # Print every other line to stderr
+        use_stderr = i % 2 == 1
+        output_file = sys.stderr if use_stderr else sys.stdout
+        
+        try:
+            package_name, version = parse_package(package_spec)
+            
+            print(f"Fetching data for {package_name}...", file=sys.stderr)
+            package_data = fetch_package_data(package_name)
+            
+            total_downloads = calculate_total_downloads(package_data)
+            
+            if version is None:
+                # Output: PACKAGE TOTAL_DOWNLOADS
+                print(f"{package_name}\t{total_downloads}", file=output_file)
+            else:
+                # Output: PACKAGE TOTAL_DOWNLOADS VERSION_DOWNLOADS
+                version_downloads = calculate_version_downloads(package_data, version)
+                print(f"{package_name}\t{total_downloads}\t{version_downloads}", file=output_file)
+                
+        except Exception as e:
+            print(f"Error processing {package_spec}: {e}", file=sys.stderr)
+            # Output error line with zeros
+            if version is None:
+                print(f"{package_name}\t0", file=output_file)
+            else:
+                print(f"{package_name}\t0\t0", file=output_file)
+
+
+if __name__ == '__main__':
+    main()

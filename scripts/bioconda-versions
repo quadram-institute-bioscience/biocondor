@@ -1,0 +1,76 @@
+#!/usr/bin/env python3
+from packaging.version import parse as parse_version, InvalidVersion
+
+import argparse
+import requests
+import sys
+import json
+
+VERSION = "1.0.0"
+API_URL = "https://api.anaconda.org/package/bioconda/"
+
+def safe_sort_versions(versions):
+    try:
+        return sorted(set(versions), key=parse_version)
+    except InvalidVersion as e:
+        eprint(f"Warning: {e}. Falling back to string-based sort.", "yellow")
+        return sorted(set(versions))
+
+def eprint(msg, color="yellow"):
+    COLORS = {"red": "\033[91m", "green": "\033[92m", "yellow": "\033[93m", "blue": "\033[94m", "reset": "\033[0m"}
+    sys.stderr.write(f"{COLORS.get(color, '')}{msg}{COLORS['reset']}\n")
+
+def fetch_versions(package, verbose=False):
+    url = f"{API_URL}{package}"
+    if verbose:
+        eprint(f"Fetching versions for package: {package}", "blue")
+        eprint(f"Requesting URL: {url}", "blue")
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        data = response.json()
+        #versions = sorted(set(data.get("versions", [])), key=lambda s: [int(t) if t.isdigit() else t for t in s.split('.')])
+        #versions = sorted(set(data.get("versions", [])), key=parse_version)
+        versions = safe_sort_versions(data.get("versions", []))
+        return versions
+    except requests.exceptions.HTTPError as err:
+        eprint(f"HTTP error: {err}", "red")
+    except requests.exceptions.RequestException as err:
+        eprint(f"Request failed: {err}", "red")
+    except Exception as e:
+        eprint(f"Error: {e}", "red")
+    return []
+
+def main():
+    parser = argparse.ArgumentParser(description="List all available versions of a Bioconda package.")
+    parser.add_argument("package", help="Package name to query from Bioconda")
+    parser.add_argument("--version", action="store_true", help="Show script version and exit")
+    parser.add_argument("--verbose", action="store_true", help="Enable verbose output to STDERR")
+    parser.add_argument("-o", "--output", help="Write output to file instead of STDOUT")
+
+    args = parser.parse_args()
+
+    if args.version:
+        eprint(f"bioconda_versions version {VERSION}", "green")
+        sys.exit(0)
+
+    versions = fetch_versions(args.package, verbose=args.verbose)
+    if not versions:
+        eprint("No versions found or error occurred.", "red")
+        sys.exit(1)
+
+    output_data = "\n".join(versions)
+    if args.output:
+        try:
+            with open(args.output, 'w') as f:
+                f.write(output_data + "\n")
+            eprint(f"Versions written to {args.output}", "green")
+        except Exception as e:
+            eprint(f"Could not write to file: {e}", "red")
+            sys.exit(2)
+    else:
+        print(output_data)
+
+if __name__ == "__main__":
+    main()
+

@@ -1,0 +1,75 @@
+#!/usr/bin/env python3
+import argparse
+import subprocess
+import os
+import sys
+from tqdm import tqdm
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+def eprint(msg, color="yellow"):
+    COLORS = {"red": "\033[91m", "green": "\033[92m", "yellow": "\033[93m", "blue": "\033[94m", "reset": "\033[0m"}
+    sys.stderr.write(f"{COLORS.get(color, '')}{msg}{COLORS['reset']}\n")
+
+def run_package(package_name, output_file, script, verbose=False):
+    if os.path.exists(output_file):
+        if verbose:
+            eprint(f"[SKIP] {package_name} (already exists)", "yellow")
+        return "skipped"
+
+    cmd = [script, package_name, "-o", output_file]
+    if verbose:
+        cmd.append("--verbose")
+        eprint(f"[RUN] {package_name}", "blue")
+
+    try:
+        subprocess.run(cmd, check=True)
+        if verbose:
+            eprint(f"[DONE] {package_name}", "green")
+        return "done"
+    except subprocess.CalledProcessError:
+        eprint(f"[FAIL] {package_name}", "red")
+        return "failed"
+
+def main():
+    parser = argparse.ArgumentParser(description="Scan package directories and fetch Bioconda versions.")
+    parser.add_argument("path", help="Path to directory containing package directories")
+    parser.add_argument("-s", "--script", default="bioconda-versions", help="Path to bioconda-versions script (default: in PATH)")
+    parser.add_argument("-o", "--outdir", required=True, help="Output directory to store version files")
+    parser.add_argument("--verbose", action="store_true", help="Enable verbose output")
+    parser.add_argument("-j", "--jobs", type=int, default=4, help="Number of parallel jobs (default: 4)")
+
+    args = parser.parse_args()
+    input_path = os.path.abspath(args.path)
+    outdir = os.path.abspath(args.outdir)
+    script = args.script
+
+    if not os.path.isdir(input_path):
+        eprint(f"Input path '{input_path}' is not a directory.", "red")
+        sys.exit(1)
+
+    os.makedirs(outdir, exist_ok=True)
+
+    # Collect packages to process
+    entries = sorted([
+        d for d in os.listdir(input_path)
+        if os.path.isdir(os.path.join(input_path, d))
+    ])
+    jobs = []
+    for entry in entries:
+        package_name = os.path.basename(entry)
+        output_file = os.path.join(outdir, f"{package_name}.txt")
+        jobs.append((package_name, output_file))
+
+    with ThreadPoolExecutor(max_workers=args.jobs) as executor:
+        futures = {
+            executor.submit(run_package, pkg, outfile, script=args.script, verbose=args.verbose): pkg
+            for pkg, outfile in jobs
+        }
+
+        with tqdm(total=len(futures), desc="Scanning packages", unit="pkg") as pbar:
+            for future in as_completed(futures):
+                _ = future.result()
+                pbar.update(1)
+
+if __name__ == "__main__":
+    main()

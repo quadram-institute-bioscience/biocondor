@@ -1,0 +1,548 @@
+#!/usr/bin/env python3
+"""
+binaries.py - Analyze binaries installed by bioconda packages
+
+This script identifies which executable binaries are installed specifically
+by bioconda packages (excluding those installed by dependencies).
+"""
+
+import argparse
+import json
+import os
+import subprocess
+import sys
+import tempfile
+import time
+from pathlib import Path
+from typing import List, Optional, Set, Tuple, Dict
+
+
+class Colors:
+    """ANSI color codes for terminal output."""
+    RED = '\033[91m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    BLUE = '\033[94m'
+    MAGENTA = '\033[95m'
+    CYAN = '\033[96m'
+    WHITE = '\033[97m'
+    BOLD = '\033[1m'
+    RESET = '\033[0m'
+
+
+def eprint(*args, **kwargs):
+    """Print to stderr."""
+    print(*args, file=sys.stderr, **kwargs)
+
+
+def colored_print(text: str, color: str = Colors.WHITE, bold: bool = False):
+    """Print colored text to stderr."""
+    prefix = Colors.BOLD if bold else ""
+    eprint(f"{prefix}{color}{text}{Colors.RESET}")
+
+
+class PackageAnalyzer:
+    """Analyzes bioconda packages to identify their specific binaries."""
+    
+    def __init__(self, verbose: bool = False, outdir: Optional[Path] = None, force: bool = False, flexible: bool = False):
+        self.verbose = verbose
+        self.outdir = outdir
+        self.force = force
+        self.flexible = flexible
+        self.temp_env: Optional[str] = None
+        self.temp_files: List[Path] = []
+        
+        # Create output directory if specified
+        if self.outdir:
+            self.outdir.mkdir(parents=True, exist_ok=True)
+    
+    def log(self, message: str, color: str = Colors.WHITE, bold: bool = False):
+        """Log message to stderr if verbose mode is enabled."""
+        if self.verbose:
+            colored_print(f"[VERBOSE] {message}", color, bold)
+    
+    def info(self, message: str, color: str = Colors.CYAN, bold: bool = False):
+        """Print info message to stderr."""
+        colored_print(message, color, bold)
+    
+    def error(self, message: str):
+        """Print error message to stderr."""
+        colored_print(f"ERROR: {message}", Colors.RED, bold=True)
+    
+    def warning(self, message: str):
+        """Print warning message to stderr."""
+        colored_print(f"WARNING: {message}", Colors.YELLOW, bold=True)
+    
+    def success(self, message: str):
+        """Print success message to stderr."""
+        colored_print(message, Colors.GREEN, bold=True)
+    
+    def cleanup(self) -> None:
+        """Clean up temporary environment and files."""
+        self.log("Starting cleanup process")
+        
+        if self.temp_env:
+            try:
+                self.log(f"Removing temporary environment: {self.temp_env}")
+                subprocess.run(
+                    ["micromamba", "env", "remove", "-n", self.temp_env, "-y"],
+                    check=False,
+                    capture_output=True
+                )
+                subprocess.run(
+                    ["micromamba", "clean", "--trash"],
+                    check=False,
+                    capture_output=True
+                )
+                self.log("Environment cleanup completed")
+            except Exception as e:
+                self.warning(f"Failed to clean up environment: {e}")
+        
+        # Clean up temporary files
+        for temp_file in self.temp_files:
+            try:
+                if temp_file.exists():
+                    temp_file.unlink()
+                    self.log(f"Removed temporary file: {temp_file}")
+            except Exception as e:
+                self.warning(f"Failed to remove {temp_file}: {e}")
+    
+    def parse_package_spec(self, package_spec: str) -> Tuple[str, Optional[str]]:
+        """Parse package specification into name and version."""
+        if '=' in package_spec:
+            name, version = package_spec.split('=', 1)
+            return name.strip(), version.strip()
+        return package_spec.strip(), None
+    
+    def check_micromamba(self) -> bool:
+        """Check if micromamba is available."""
+        try:
+            result = subprocess.run(
+                ["micromamba", "--version"],
+                check=True,
+                capture_output=True
+            )
+            self.log("micromamba is available")
+            return True
+        except (subprocess.CalledProcessError, FileNotFoundError):
+            self.error("micromamba is not installed or not in PATH")
+            return False
+    
+    def run_install_command(self, command: List[str], description: str, package_spec: str) -> Tuple[bool, str]:
+        """Run an install command with retry logic and flexible options."""
+        base_cmd = command.copy()
+        
+        # First try: Add flexible channel priority if requested
+        if self.flexible:
+            base_cmd.append("--channel-priority")
+            base_cmd.append("flexible")
+        
+        self.log(f"Running command: {' '.join(base_cmd)}")
+        try:
+            result = subprocess.run(
+                base_cmd,
+                check=True,
+                capture_output=True,
+                text=True
+            )
+            self.log(f"Command '{description}' completed successfully")
+            return True, result.stdout
+        except subprocess.CalledProcessError as e:
+            self.error(f"{description} failed")
+            if e.stderr:
+                self.error(f"Details: {e.stderr}")
+            
+            # If flexible priority wasn't used initially, try with it
+            if not self.flexible:
+                self.info("Retrying with flexible channel priority...")
+                retry_cmd = command.copy()
+                retry_cmd.extend(["--channel-priority", "flexible"])
+                
+                try:
+                    self.log(f"Retry command: {' '.join(retry_cmd)}")
+                    result = subprocess.run(
+                        retry_cmd,
+                        check=True,
+                        capture_output=True,
+                        text=True
+                    )
+                    self.success(f"Retry succeeded with flexible priority: {description}")
+                    return True, result.stdout
+                except subprocess.CalledProcessError as e2:
+                    self.error(f"Retry with flexible priority also failed: {e2.stderr if e2.stderr else 'No stderr'}")
+            
+            # Try with conda-forge only as final fallback
+            if "bioconda" in " ".join(command):
+                self.info("Trying with conda-forge channel only as final fallback...")
+                fallback_cmd = []
+                skip_next = False
+                for cmd in command:
+                    if skip_next:
+                        skip_next = False
+                        continue
+                    if cmd == "-c" and command[command.index(cmd) + 1] == "bioconda":
+                        skip_next = True
+                        continue
+                    fallback_cmd.append(cmd)
+                
+                fallback_cmd.extend(["--channel-priority", "flexible"])
+                
+                try:
+                    self.log(f"Final fallback command: {' '.join(fallback_cmd)}")
+                    result = subprocess.run(
+                        fallback_cmd,
+                        check=True,
+                        capture_output=True,
+                        text=True
+                    )
+                    self.warning(f"Final fallback succeeded with conda-forge only: {description}")
+                    return True, result.stdout
+                except subprocess.CalledProcessError:
+                    self.error("All installation methods failed")
+            
+            return False, ""
+    
+    def run_command(self, command: List[str], description: str) -> Tuple[bool, str]:
+        """Run a command and handle errors. Returns (success, stdout)."""
+        try:
+            self.log(f"Running command: {' '.join(command)}")
+            result = subprocess.run(
+                command,
+                check=True,
+                capture_output=True,
+                text=True
+            )
+            self.log(f"Command '{description}' completed successfully")
+            return True, result.stdout
+        except subprocess.CalledProcessError as e:
+            self.error(f"{description} failed")
+            if e.stderr:
+                self.error(f"Details: {e.stderr}")
+            return False, ""
+    
+    def get_env_path(self, env_name: str) -> Optional[Path]:
+        """Get the path to an environment using micromamba info --json."""
+        try:
+            success, stdout = self.run_command(
+                ["micromamba", "info", "--json"],
+                "Getting micromamba info"
+            )
+            if not success:
+                return None
+            
+            info = json.loads(stdout)
+            
+            # Get the envs directories
+            envs_dirs = info.get("envs directories", [])
+            if not envs_dirs:
+                self.error("No environment directories found in micromamba info")
+                return None
+            
+            # Use the first envs directory
+            envs_dir = Path(envs_dirs[0])
+            env_path = envs_dir / env_name
+            
+            self.log(f"Environment path determined: {env_path}")
+            return env_path
+            
+        except json.JSONDecodeError as e:
+            self.error(f"Error parsing micromamba info JSON: {e}")
+            return None
+        except Exception as e:
+            self.error(f"Error getting environment path: {e}")
+            return None
+    
+    def get_binaries(self, env_path: Path) -> Set[str]:
+        """Get list of executable binaries in the environment."""
+        bin_dir = env_path / "bin"
+        binaries = set()
+        
+        if bin_dir.exists():
+            for item in bin_dir.iterdir():
+                if item.is_file() and os.access(item, os.X_OK):
+                    binaries.add(str(item))
+        
+        self.log(f"Found {len(binaries)} binaries in {bin_dir}")
+        return binaries
+    
+    def get_installed_version(self, package_name: str, env_name: str) -> Optional[str]:
+        """Get the actual installed version of a package."""
+        try:
+            success, stdout = self.run_command(
+                ["micromamba", "list", "-n", env_name, package_name, "--json"],
+                f"Getting installed version of {package_name}"
+            )
+            if not success:
+                return None
+            
+            packages = json.loads(stdout)
+            for pkg in packages:
+                if pkg.get("name") == package_name:
+                    version = pkg.get("version")
+                    self.log(f"Detected installed version: {package_name}={version}")
+                    return version
+            
+            return None
+            
+        except (json.JSONDecodeError, Exception) as e:
+            self.log(f"Could not determine installed version: {e}")
+            return None
+    
+    def output_file_exists(self, package_name: str, version: str) -> bool:
+        """Check if output file already exists."""
+        if not self.outdir:
+            return False
+        
+        filename = f"{package_name}_{version}.txt"
+        output_file = self.outdir / filename
+        return output_file.exists()
+    
+    def save_results(self, package_name: str, version: str, binaries: Set[str]) -> None:
+        """Save results to output file if outdir is specified."""
+        if not self.outdir:
+            return
+        
+        filename = f"{package_name}_{version}.txt"
+        output_file = self.outdir / filename
+        
+        # Check if we're overwriting
+        overwriting = output_file.exists()
+        
+        try:
+            with open(output_file, 'w') as f:
+                for binary in sorted(binaries):
+                    f.write(f"{Path(binary).name}\n")
+            
+            if overwriting:
+                self.log(f"Results overwritten to: {output_file}")
+            else:
+                self.log(f"Results saved to: {output_file}")
+            
+        except Exception as e:
+            self.error(f"Failed to save results to {output_file}: {e}")
+    
+    def analyze_package(self, package_spec: str) -> bool:
+        """Analyze a bioconda package to identify its specific binaries."""
+        package_name, requested_version = self.parse_package_spec(package_spec)
+        
+        self.info(f"Analyzing binaries for package: {package_spec}", Colors.BLUE, bold=True)
+        
+        # Check if we can skip this package (only if version is specified and outdir is set)
+        if requested_version and self.outdir and not self.force:
+            if self.output_file_exists(package_name, requested_version):
+                self.info(f"Output file for {package_name}={requested_version} already exists, skipping", Colors.YELLOW)
+                self.info("Use --force to overwrite existing files")
+                
+                # Load and display existing results
+                try:
+                    filename = f"{package_name}_{requested_version}.txt"
+                    output_file = self.outdir / filename
+                    with open(output_file, 'r') as f:
+                        for line in f:
+                            print(line.strip())
+                    self.log(f"Loaded existing results from {output_file}")
+                    return True
+                except Exception as e:
+                    self.warning(f"Could not read existing file: {e}")
+                    # Continue with analysis if we can't read the existing file
+        
+        # Check micromamba availability
+        if not self.check_micromamba():
+            return False
+        
+        # Log solver strategy
+        if self.flexible:
+            self.info("Using flexible channel priority for dependency resolution", Colors.CYAN)
+        else:
+            self.log("Using default strict channel priority (add --flexible for complex dependencies)")
+        
+        # Create temporary environment
+        self.temp_env = f"analysis_{package_name}_{int(time.time())}_{os.getpid()}"
+        self.info(f"Creating temporary environment: {self.temp_env}")
+        
+        # Create environment
+        success, _ = self.run_command(
+            ["micromamba", "create", "-n", self.temp_env, "-y"],
+            "Environment creation"
+        )
+        if not success:
+            return False
+        
+        # Get environment path
+        env_path = self.get_env_path(self.temp_env)
+        if not env_path:
+            self.error("Could not determine environment path")
+            return False
+        
+        # Step 1: Install dependencies only
+        self.info("Step 1: Installing dependencies only...")
+        deps_cmd = [
+            "micromamba", "install", "--only-deps", package_spec,
+            "-c", "bioconda", "-c", "conda-forge", "-n", self.temp_env, "-y"
+        ]
+        success, _ = self.run_install_command(deps_cmd, "Dependencies installation", package_spec)
+        if not success:
+            self.error("Failed to install dependencies - this package may have complex dependency conflicts")
+            self.info("Suggestions to resolve this:")
+            self.info("1. Try with --flexible flag: python binaries.py --flexible " + package_spec)
+            self.info("2. Check if the package version exists: python bioconda_versions.py " + package_name)
+            self.info("3. Try a different version of the package")
+            return False
+        
+        # Get binaries after deps installation
+        deps_binaries = self.get_binaries(env_path)
+        self.info(f"Found {len(deps_binaries)} binaries after installing dependencies")
+        
+        # Step 2: Install the actual package
+        self.info("Step 2: Installing the package itself...")
+        pkg_cmd = [
+            "micromamba", "install", package_spec,
+            "-c", "bioconda", "-c", "conda-forge", "-n", self.temp_env, "-y"
+        ]
+        success, _ = self.run_install_command(pkg_cmd, "Package installation", package_spec)
+        if not success:
+            self.error("Failed to install the package itself")
+            return False
+        
+        # Get the actual installed version if not specified
+        if not requested_version:
+            actual_version = self.get_installed_version(package_name, self.temp_env)
+            if actual_version:
+                requested_version = actual_version
+            else:
+                requested_version = "unknown"
+        
+        # Get all binaries after package installation
+        all_binaries = self.get_binaries(env_path)
+        self.info(f"Found {len(all_binaries)} binaries after installing package")
+        
+        # Step 3: Find the difference
+        package_binaries = all_binaries - deps_binaries
+        
+        # Output results to stdout (the actual output)
+        binary_names = sorted([Path(binary).name for binary in package_binaries])
+        for binary_name in binary_names:
+            print(binary_name)
+        
+        # Log summary to stderr
+        if package_binaries:
+            self.success(f"Found {len(package_binaries)} binaries specific to {package_name}")
+        else:
+            self.info("No specific binaries found for this package", Colors.YELLOW)
+        
+        # Save results to file if requested
+        if self.outdir:
+            self.save_results(package_name, requested_version, package_binaries)
+        
+        return True
+
+
+def main():
+    """Main function."""
+    parser = argparse.ArgumentParser(
+        description="Analyze bioconda packages to identify their specific binaries",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python binaries.py spades
+  python binaries.py samtools=1.15 blast=2.12.0
+  python binaries.py --verbose --outdir results/ spades samtools
+  python binaries.py --outdir results/ --force samtools=1.15  # Overwrite existing files
+  python binaries.py --flexible adapt=1.6.0  # Use flexible solving for complex dependencies
+  python binaries.py --continue-on-error --flexible pkg1 pkg2 pkg3  # Process all packages even if some fail
+        """
+    )
+    
+    parser.add_argument(
+        "packages",
+        nargs="+",
+        help="One or more bioconda packages to analyze (format: packagename or packagename=version)"
+    )
+    
+    parser.add_argument(
+        "--verbose", "-v",
+        action="store_true",
+        help="Enable verbose output to stderr"
+    )
+    
+    parser.add_argument(
+        "--outdir", "-o",
+        type=Path,
+        help="Output directory to save results as {packagename}_{version}.txt files"
+    )
+    
+    parser.add_argument(
+        "--force", "-f",
+        action="store_true",
+        help="Force overwrite existing output files (skip existing files by default)"
+    )
+    
+    parser.add_argument(
+        "--flexible",
+        action="store_true", 
+        help="Use flexible channel priority for dependency resolution (helps with complex dependencies)"
+    )
+    
+    parser.add_argument(
+        "--continue-on-error",
+        action="store_true",
+        help="Continue processing other packages even if one fails"
+    )
+    
+    args = parser.parse_args()
+    
+    analyzer = PackageAnalyzer(
+        verbose=args.verbose, 
+        outdir=args.outdir, 
+        force=args.force,
+        flexible=args.flexible
+    )
+    
+    success_count = 0
+    failed_packages = []
+    total_packages = len(args.packages)
+    
+    try:
+        for i, package_spec in enumerate(args.packages, 1):
+            analyzer.info(f"\n{'='*60}")
+            analyzer.info(f"Processing package {i}/{total_packages}: {package_spec}", Colors.MAGENTA, bold=True)
+            analyzer.info(f"{'='*60}")
+            
+            success = analyzer.analyze_package(package_spec)
+            if success:
+                success_count += 1
+            else:
+                failed_packages.append(package_spec)
+                if not args.continue_on_error:
+                    analyzer.error(f"Stopping due to failure with {package_spec}")
+                    break
+            
+            # Clean up environment after each package to save space
+            analyzer.cleanup()
+            analyzer.temp_env = None  # Reset for next package
+        
+        # Final summary
+        analyzer.info(f"\n{'='*60}")
+        if success_count == total_packages:
+            analyzer.success(f"Successfully processed all {total_packages} packages!")
+        else:
+            analyzer.warning(f"Processed {success_count}/{total_packages} packages successfully")
+            if failed_packages:
+                analyzer.error(f"Failed packages: {', '.join(failed_packages)}")
+                analyzer.info("Try using --flexible flag for packages with dependency conflicts")
+        analyzer.info(f"{'='*60}")
+        
+        sys.exit(0 if success_count == total_packages else 1)
+        
+    except KeyboardInterrupt:
+        analyzer.error("\nOperation cancelled by user")
+        sys.exit(1)
+    except Exception as e:
+        analyzer.error(f"Unexpected error: {e}")
+        sys.exit(1)
+    finally:
+        analyzer.cleanup()
+
+
+if __name__ == "__main__":
+    main()

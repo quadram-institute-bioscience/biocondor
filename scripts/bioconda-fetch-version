@@ -1,0 +1,52 @@
+#!/usr/bin/env python3
+import argparse
+import subprocess
+import os
+import sys
+
+def eprint(msg, color="yellow"):
+    COLORS = {"red": "\033[91m", "green": "\033[92m", "yellow": "\033[93m", "blue": "\033[94m", "reset": "\033[0m"}
+    sys.stderr.write(f"{COLORS.get(color, '')}{msg}{COLORS['reset']}\n")
+
+def main():
+    parser = argparse.ArgumentParser(description="Scan package directories and fetch Bioconda versions.")
+    parser.add_argument("path", help="Path to directory containing package directories")
+    parser.add_argument("-s", "--script", default="bioconda-versions", help="Path to bioconda-versions script (default: in PATH)")
+    parser.add_argument("-o", "--outdir", required=True, help="Output directory to store version files")
+    parser.add_argument("--verbose", action="store_true", help="Enable verbose output")
+
+    args = parser.parse_args()
+    input_path = os.path.abspath(args.path)
+    outdir = os.path.abspath(args.outdir)
+    script = args.script
+
+    if not os.path.isdir(input_path):
+        eprint(f"Input path '{input_path}' is not a directory.", "red")
+        sys.exit(1)
+
+    os.makedirs(outdir, exist_ok=True)
+
+    for entry in os.listdir(input_path):
+        full_entry = os.path.join(input_path, entry)
+        if os.path.isdir(full_entry):
+            package_name = os.path.basename(entry)
+            output_file = os.path.join(outdir, f"{package_name}.txt")
+            if os.path.exists(output_file):
+                if args.verbose:
+                    eprint(f"[SKIP] {package_name} (already exists)", "yellow")
+                continue
+
+            cmd = [script, package_name, "-o", output_file]
+            if args.verbose:
+                cmd.append("--verbose")
+                eprint(f"[RUN] Fetching versions for {package_name}", "blue")
+
+            try:
+                subprocess.run(cmd, check=True)
+                if args.verbose:
+                    eprint(f"[DONE] {package_name}", "green")
+            except subprocess.CalledProcessError:
+                eprint(f"[FAIL] Failed to fetch versions for {package_name}", "red")
+
+if __name__ == "__main__":
+    main()
