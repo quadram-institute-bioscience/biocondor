@@ -9,12 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap" rel="stylesheet">
     <style>
         :root {
-            --antiflash-white: #F0F1F1ff;
-            --apple-green: #B6BE00ff;
-            --pine-green: #097E74ff;
-            --charcoal: #2F3D46ff;
+            --bright-amber: #F4C907;
+            --dark-orange: #FF8B00;
+            --cornflower-blue: #599BF5;
+            --platinum: #EEF1F4;
+            --brown-bark: #654922;
         }
-        
+
         .duru-sans-regular {
             font-family: "Duru Sans", sans-serif;
             font-weight: 400;
@@ -25,23 +26,23 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: "Duru Sans", sans-serif;
-            background: linear-gradient(135deg, var(--pine-green) 0%, var(--charcoal) 100%);
+            background: var(--bright-amber);
             min-height: 100vh;
             padding: 20px;
         }
-        
+
         .header {
             text-align: center;
             margin-bottom: 30px;
         }
-        
+
         .back-button {
             display: inline-block;
-            background: rgba(240,241,241,0.2);
-            color: var(--antiflash-white);
+            background: var(--dark-orange);
+            color: #FFFFFF;
             padding: 10px 20px;
             border-radius: 25px;
             text-decoration: none;
@@ -49,133 +50,133 @@
             transition: background-color 0.3s ease;
             font-family: "Duru Sans", sans-serif;
         }
-        
+
         .back-button:hover {
-            background: rgba(240,241,241,0.3);
+            background: var(--brown-bark);
         }
-        
+
         .package-container {
-            background: var(--antiflash-white);
+            background: var(--platinum);
             border-radius: 20px;
             padding: 40px;
-            box-shadow: 0 20px 40px rgba(47,61,70,0.2);
+            box-shadow: 0 20px 40px rgba(101,73,34,0.15);
             max-width: 1000px;
             margin: 0 auto;
         }
-        
+
         .package-name {
-            color: var(--charcoal);
+            color: var(--brown-bark);
             font-size: 2.5rem;
             font-weight: 400;
             margin-bottom: 10px;
             word-break: break-all;
         }
-        
+
         .package-version {
-            color: var(--pine-green);
+            color: var(--cornflower-blue);
             font-size: 1.2rem;
             margin-bottom: 20px;
         }
-        
+
         .package-summary {
-            color: var(--charcoal);
+            color: var(--brown-bark);
             opacity: 0.9;
             font-size: 1.1rem;
             line-height: 1.6;
             margin-bottom: 30px;
             padding: 20px;
-            background: rgba(9,126,116,0.1);
+            background: rgba(244,201,7,0.15);
             border-radius: 10px;
-            border-left: 4px solid var(--pine-green);
+            border-left: 4px solid var(--dark-orange);
         }
-        
+
         .info-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
             margin-bottom: 30px;
         }
-        
+
         .info-section {
-            background: rgba(9,126,116,0.05);
+            background: rgba(255,139,0,0.05);
             padding: 25px;
             border-radius: 15px;
-            border: 1px solid rgba(9,126,116,0.2);
+            border: 1px solid rgba(255,139,0,0.2);
         }
-        
+
         .info-section h3 {
-            color: var(--charcoal);
+            color: var(--brown-bark);
             margin-bottom: 15px;
             font-size: 1.3rem;
             font-weight: 400;
         }
-        
+
         .info-item {
             margin-bottom: 12px;
-            color: var(--charcoal);
+            color: var(--brown-bark);
             opacity: 0.8;
         }
-        
+
         .info-label {
             font-weight: 400;
-            color: var(--charcoal);
+            color: var(--brown-bark);
             display: inline-block;
             min-width: 120px;
         }
-        
+
         .info-value {
-            color: var(--charcoal);
+            color: var(--brown-bark);
             opacity: 0.9;
         }
-        
+
         .platforms-list {
             display: flex;
             flex-wrap: wrap;
             gap: 8px;
             margin-top: 8px;
         }
-        
+
         .platform-tag {
-            background: var(--pine-green);
-            color: var(--antiflash-white);
+            background: var(--dark-orange);
+            color: #FFFFFF;
             padding: 4px 12px;
             border-radius: 15px;
             font-size: 0.85rem;
         }
-        
+
         .versions-list {
             max-height: 200px;
             overflow-y: auto;
-            border: 1px solid rgba(9,126,116,0.3);
+            border: 1px solid rgba(255,139,0,0.3);
             border-radius: 8px;
             padding: 10px;
-            background: var(--antiflash-white);
+            background: #FFFFFF;
             margin-top: 10px;
         }
-        
+
         .version-item {
             padding: 5px 0;
-            border-bottom: 1px solid rgba(9,126,116,0.1);
+            border-bottom: 1px solid rgba(255,139,0,0.1);
             font-family: 'Courier New', monospace;
             font-size: 0.9rem;
-            color: var(--charcoal);
+            color: var(--brown-bark);
         }
-        
+
         .version-item:last-child {
             border-bottom: none;
         }
-        
+
         .external-links {
             display: flex;
             flex-wrap: wrap;
             gap: 15px;
             margin-top: 15px;
         }
-        
+
         .external-link {
             display: inline-block;
-            background: var(--pine-green);
-            color: var(--antiflash-white);
+            background: var(--cornflower-blue);
+            color: #FFFFFF;
             padding: 8px 16px;
             border-radius: 20px;
             text-decoration: none;
@@ -183,49 +184,49 @@
             font-family: "Duru Sans", sans-serif;
             transition: background-color 0.3s ease;
         }
-        
+
         .external-link:hover {
-            background: var(--charcoal);
+            background: var(--brown-bark);
         }
-        
+
         .loading {
             text-align: center;
             padding: 60px;
-            color: var(--pine-green);
+            color: var(--dark-orange);
             font-size: 1.2rem;
         }
-        
+
         .error {
             text-align: center;
             padding: 60px;
-            color: var(--charcoal);
+            color: var(--brown-bark);
             font-size: 1.2rem;
         }
-        
+
         .not-found {
             text-align: center;
             padding: 60px;
         }
-        
+
         .not-found h2 {
-            color: var(--charcoal);
+            color: var(--brown-bark);
             margin-bottom: 15px;
         }
-        
+
         .not-found p {
-            color: var(--charcoal);
+            color: var(--brown-bark);
             opacity: 0.8;
         }
-        
+
         @media (max-width: 768px) {
             .package-container {
                 padding: 20px;
             }
-            
+
             .package-name {
                 font-size: 2rem;
             }
-            
+
             .info-grid {
                 grid-template-columns: 1fr;
                 gap: 20px;
